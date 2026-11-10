@@ -70,6 +70,14 @@
   .hit.vetoed{background:#fdf9f8}
   .badge.vetoed{background:#fdf0ef; color:#8c2f26}
   .badge.fundbuy{background:#e3f0e8; color:var(--green)}
+  .badge.setup{background:#f5e6c8; color:#7a5c06}
+  .hit.setup::before{background:#b8860b}
+  .hit.setup{background:#fdfbf5}
+  .hit-reversal{font-size:.85rem; color:var(--green); margin-top:.5rem}
+  .rank-tag.setup{background:#f5e6c8; color:#7a5c06}
+  .breadth{background:#faf8f1; border:1px solid var(--line); border-left:4px solid var(--gold); border-radius:var(--radius); padding:.7rem .9rem; margin:.8rem 0; font-size:.9rem}
+  .breadth.selloff{border-left-color:#c0392b; background:#fdf9f8}
+  .hist-extra{font-size:.8rem; color:var(--muted); display:block; margin-top:.2rem}
   .hit-outlook{font-size:.85rem; color:var(--muted); margin-top:.5rem}
 
   /* ---------- news ---------- */
@@ -244,16 +252,23 @@
 
   <div id="view-q50" role="tabpanel" aria-labelledby="tab-q50">
   <div class="stats">
-    <div class="stat" data-goto="sec-hits"><div class="num" id="stat-hits">—</div><div class="lbl">今日入场</div></div>
-    <div class="stat" data-goto="discount-list"><div class="num" id="stat-value">—</div><div class="lbl">入场区只数</div></div>
+    <div class="stat" data-goto="sec-hits"><div class="num" id="stat-hits">—</div><div class="lbl">可入场</div></div>
+    <div class="stat" data-goto="sec-setups"><div class="num" id="stat-value">—</div><div class="lbl">关注</div></div>
     <div class="stat" data-goto="wl"><div class="num" id="stat-yield">—</div><div class="lbl">平均股息率</div></div>
     <div class="stat" data-goto="wl"><div class="num" id="stat-count">50</div><div class="lbl">观察名单</div></div>
   </div>
+  <div class="breadth" id="q50-breadth"></div>
 
   <section id="sec-hits">
-    <h2>今日入场信号</h2>
-    <p class="sec-sub">入场信号要同时过两关：价格触发（回撤 27%~55%，或近一周跌 ≥ 9%）且基本面五层否决制通过。股息率 ≤ 4% 的票不作为入场选择。每天 6 点、12 点、18 点、0 点各更新一次。</p>
+    <h2>可入场信号</h2>
+    <p class="sec-sub">两段式：第一段「关注」= 价格触发（回撤 27%~55%，或近一周跌 ≥ 9%）且基本面五层否决制通过，只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日）。股息率 ≤ 4% 的票不作为入场选择。每天 6 点、12 点、18 点、0 点各更新一次。</p>
     <div id="hits"></div>
+  </section>
+
+  <section id="sec-setups">
+    <h2>关注（仅观察，不是入场）</h2>
+    <p class="sec-sub">价格已触发且基本面通过，但底部还没盘整好、反转未确认。只放进观察名单，不入场；等反转确认后再评估。别接飞刀。</p>
+    <div id="setups"></div>
   </section>
 
   <section id="sec-vetoed">
@@ -393,9 +408,11 @@
         <li><b>入场时机一 · 回撤</b>：相对 52 周最高价回撤 30%~50%（容差后执行区间 27%~55%）。</li>
         <li><b>入场时机二 · 急跌</b>：近一周（5 个交易日）跌幅 ≥ 10%（容差后执行下限 9%）。</li>
         <li><b>或关系</b>：先过 4% 门槛，再满足任一时机即价格触发。</li>
-        <li><b>基本面把关</b>：价格触发后，还要过基本面五层否决制（理解、行业、护城河、财报、红利；方法见分析方法论），全部通过才显示为入场信号；没通过的进「价格触发、基本面已否决」，并写明原因。</li>
+        <li><b>基本面把关</b>：价格触发后，还要过基本面五层否决制（理解、行业、护城河、财报、红利；方法见分析方法论），全部通过才进入「关注」；没通过的进「价格触发、基本面已否决」，并写明原因。</li>
+        <li><b>两段式信号</b>：第一段「关注」= 价格触发 + 基本面通过，只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日，即底部盘整至少两周）。</li>
+        <li><b>触发宽度</b>：价格触发只数 / 50。≥ 50% 为「整体退潮」（系统性下跌，信号大多只是观察）；≤ 20% 为「个别机会」。</li>
       </ol>
-      <p class="pick">入场信号 = 价格触发 + 基本面通过，两关都过才报。每天最多报一只：优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。同一只 3 天内不重复报。入选的必须先过股息率 4% 的门槛。</p>
+      <p class="pick">入场信号 = 价格触发 + 基本面通过 + 反转确认，三关都过才报。每天最多报一只：优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。同一只 3 天内不重复报。入选的必须先过股息率 4% 的门槛。</p>
     </div>
   </section>
 
@@ -415,16 +432,23 @@
 
   <div id="view-e30" role="tabpanel" aria-labelledby="tab-e30" hidden>
     <div class="stats">
-      <div class="stat" data-goto-e30="sec-e30-hits"><div class="num" id="e30-stat-hits">—</div><div class="lbl">今日入场</div></div>
-      <div class="stat" data-goto-e30="sec-e30-hits"><div class="num" id="e30-stat-value">—</div><div class="lbl">波段区只数</div></div>
+      <div class="stat" data-goto-e30="sec-e30-hits"><div class="num" id="e30-stat-hits">—</div><div class="lbl">可入场</div></div>
+      <div class="stat" data-goto-e30="sec-e30-setups"><div class="num" id="e30-stat-value">—</div><div class="lbl">关注</div></div>
       <div class="stat" data-goto-e30="e30-wl-sec"><div class="num" id="e30-stat-count">30</div><div class="lbl">观察只数</div></div>
       <div class="stat" data-goto-e30="e30-wl-sec"><div class="num" id="e30-stat-avgdd">—</div><div class="lbl">平均回撤</div></div>
     </div>
+    <div class="breadth" id="e30-breadth"></div>
 
     <section id="sec-e30-hits">
-      <h2>今日入场信号</h2>
-      <p class="sec-sub">中线波段：回撤进 20%~40%（容差后 18%~44%），或近四周跌 ≥ 12%（容差后 10.8%），任一触发即价格入场；止损入场价 -6%，止盈 +10%，建议持股 6–12 周。每天 6 点、12 点、18 点、0 点各更新一次。</p>
+      <h2>可入场信号</h2>
+      <p class="sec-sub">两段式：第一段「关注」= 价格触发（回撤进 20%~40%，或近四周跌 ≥ 12%），只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日）。止损入场价 -6%，止盈 +10%，建议持股 6–12 周。每天 6 点、12 点、18 点、0 点各更新一次。</p>
       <div id="e30-hits"></div>
+    </section>
+
+    <section id="sec-e30-setups">
+      <h2>关注（仅观察，不是入场）</h2>
+      <p class="sec-sub">价格已触发，但底部还没盘整好、反转未确认。只放进观察名单，不入场；等反转确认后再评估。别接飞刀。</p>
+      <div id="e30-setups"></div>
     </section>
 
     <section>
@@ -566,26 +590,60 @@
     var hits = d.hits || [];
     var signals = (a && a.signals) || [];
     var analysisOk = !!(a && a.signals);
-    var entrySignals, vetoedSignals, fundBuy;
+    var entrySignals, setupSignals, vetoedSignals, fundBuy;
+    function hitToSig(h, stage){
+      return {code:h.code, name:h.name, industry:h.industry, price_trigger:h.trigger,
+              stage:stage, entry:(stage==="可入场"), reason:h.reason, outlook:h.outlook||"",
+              recent_low:h.recent_low, recent_low_date:h.recent_low_date,
+              days_since_low:h.days_since_low, bounce_pct:h.bounce_pct,
+              reversal_confirmed:h.reversal_confirmed};
+    }
     if(analysisOk){
-      entrySignals = signals.filter(function(s){ return s.entry; });
-      vetoedSignals = signals.filter(function(s){ return !s.entry; });
+      /* two-stage (backward compat: old signals have no stage; entry=true then = Stage 1, reversal not yet checked) */
+      entrySignals = signals.filter(function(s){ return s.entry && s.stage === "可入场"; });
+      setupSignals = signals.filter(function(s){
+        return s.stage === "关注" || (s.stage === undefined && s.entry);
+      });
+      vetoedSignals = signals.filter(function(s){
+        return s.stage === "已否决" || (s.stage === undefined && !s.entry);
+      });
       var signalCodes = {};
       signals.forEach(function(s){ signalCodes[s.code] = 1; });
       fundBuy = (a.stocks || []).filter(function(s){
         return s.verdict === "可买入" && !signalCodes[s.code];
       });
     } else {
-      entrySignals = hits.map(function(h){
-        return {code:h.code, name:h.name, industry:h.industry, price_trigger:h.trigger, reason:h.reason, outlook:""};
-      });
+      var hasStageQ = (d.setups !== undefined) || (meta.n_stage1 !== undefined);
+      if(hasStageQ){
+        entrySignals = hits.map(function(h){ return hitToSig(h, "可入场"); });
+        setupSignals = (d.setups || []).map(function(h){ return hitToSig(h, "关注"); });
+      } else {
+        entrySignals = [];
+        setupSignals = hits.map(function(h){ return hitToSig(h, "关注"); });
+      }
       vetoedSignals = [];
       fundBuy = [];
     }
+    /* breadth: price-trigger count / 50 (vetoed triggers count too — they are still triggers) */
+    var nPriceTrig = (meta.n_price_trigger !== undefined) ? meta.n_price_trigger : signals.length;
+    var breadthQ = (meta.breadth_stage1 !== undefined) ? meta.breadth_stage1 : (nPriceTrig / (wl.length || 50));
+    var breadthLabelQ = meta.breadth_label || (breadthQ >= 0.5 ? "整体退潮" : (breadthQ <= 0.2 ? "个别机会" : "分化"));
     el("updated").innerHTML = "数据截至 <b>" + (meta.data_date_label||meta.data_date||"") + "</b> · 本页更新于 " + (meta.updated_at||"");
     el("stat-count").textContent = wl.length;
     el("stat-yield").innerHTML = (meta.avg_yield!==undefined ? meta.avg_yield.toFixed(2) + "<small>%</small>" : "—");
     el("stat-hits").textContent = entrySignals.length;
+    el("stat-value").textContent = setupSignals.length;
+    var bqEl = el("q50-breadth");
+    if(bqEl){
+      var bqPct = Math.round(breadthQ * 100);
+      var bqNote = breadthLabelQ === "整体退潮"
+        ? "多数票同时大回撤，是系统性退潮，不是 " + nPriceTrig + " 个个别机会；信号大多只是观察，别急着入场。"
+        : (breadthLabelQ === "个别机会"
+          ? "触发的票不多，是个别机会，不是全市场退潮。"
+          : "触发面居中，一部分票在退潮，一部分不是；逐只看反转确认。");
+      bqEl.innerHTML = "触发宽度 <b>" + nPriceTrig + "/" + (wl.length || 50) + "（" + bqPct + "%）— " + breadthLabelQ + "</b>：" + bqNote;
+      if(breadthLabelQ === "整体退潮") bqEl.classList.add("selloff");
+    }
 
     function hitByCode(code){
       for(var i=0;i<hits.length;i++){ if(hits[i].code===code) return hits[i]; }
@@ -608,8 +666,16 @@
       var drawdown = h ? h.drawdown : w.drawdown;
       var yieldV = h ? h.yield : w.yield;
       var tc = triggerCode(sig.price_trigger || sig.trigger);
-      var badges = badge(tc) + (vetoedFlag ? ' <span class="badge vetoed">基本面已否决</span>' : '');
-      return '<article class="hit ' + (tc==="both"?"both":"") + (vetoedFlag?" vetoed":"") + '" data-code="' + sig.code + '">' +
+      var stageBadge = "";
+      if(sig.stage === "可入场") stageBadge = ' <span class="badge both">可入场</span>';
+      else if(sig.stage === "关注") stageBadge = ' <span class="badge setup">关注</span>';
+      var badges = badge(tc) + (vetoedFlag ? ' <span class="badge vetoed">基本面已否决</span>' : '') + stageBadge;
+      var revLine = "";
+      if(sig.bounce_pct !== undefined && sig.bounce_pct !== null && sig.days_since_low !== undefined && sig.days_since_low !== null){
+        revLine = '<div class="hit-reversal"' + (sig.reversal_confirmed ? '' : ' style="color:#7a5c06"') + '>' +
+          (sig.reversal_confirmed ? "反转已确认" : "反转未确认") + '：较 20 日低点反弹 ' + sig.bounce_pct.toFixed(1) + '%，低点距今 ' + sig.days_since_low + ' 日（需 ≥10 日盘整）</div>';
+      }
+      return '<article class="hit ' + (tc==="both"?"both":"") + (vetoedFlag?" vetoed":"") + (sig.stage==="关注"?" setup":"") + '" data-code="' + sig.code + '">' +
         '<div class="hit-head"><span class="hit-name">' + sig.name + '</span>' +
         '<span class="hit-code">' + sig.code + '</span>' +
         '<span class="hit-ind">' + (sig.industry || (h&&h.industry) || "") + '</span>' +
@@ -619,19 +685,28 @@
           '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(drawdown,1) + '</div></div>' +
           '<div class="metric"><div class="k">股息率</div><div class="v">' + (yieldV!==undefined&&yieldV!==null? yieldV.toFixed(2)+"%" : "—") + '</div></div>' +
         '</div>' +
+        revLine +
         (sig.reason ? '<div class="hit-reason">' + sig.reason + '</div>' : '') +
         (sig.outlook ? '<div class="hit-outlook">' + sig.outlook + '</div>' : '') +
       '</article>';
     }
-    var valueCount = wl.filter(function(w){ return w.drawdown!==null && w.drawdown!==undefined && w.drawdown>=27 && w.yield>4; }).length;
-    el("stat-value").textContent = valueCount;
 
-    /* ---- hits (entry signals: price trigger + fundamental pass) ---- */
+    /* ---- hits (Stage 2: price trigger + fundamental pass + reversal confirmed) ---- */
     var hitsBox = el("hits");
     if(!entrySignals.length){
-      hitsBox.innerHTML = '<div class="empty">今天没有入场信号。<br>' + (vetoedSignals.length ? '价格上触发的 ' + vetoedSignals.length + ' 只，基本面都没通过，见下面「价格触发、基本面已否决」。' : 'q50 里股息率过 4% 的票，既没有回撤进区间，也没有一周急跌超 9% 的。') + '</div>';
+      hitsBox.innerHTML = '<div class="empty">今天没有可入场信号。<br>' +
+        (setupSignals.length ? '有 ' + setupSignals.length + ' 只价格触发且基本面通过、正在观察（见下面「关注」），但反转未确认。' :
+        (vetoedSignals.length ? '价格上触发的 ' + vetoedSignals.length + ' 只，基本面都没通过，见下面「价格触发、基本面已否决」。' : 'q50 里股息率过 4% 的票，既没有回撤进区间，也没有一周急跌超 9% 的。')) + '</div>';
     } else {
       hitsBox.innerHTML = entrySignals.map(function(s){ return signalCard(s, false); }).join("");
+    }
+
+    /* ---- setups (Stage 1 only: price trigger + fundamental pass, reversal NOT confirmed) ---- */
+    var setupsBox = el("setups");
+    if(!setupSignals.length){
+      setupsBox.innerHTML = '<div class="empty">今天没有仅观察的票。</div>';
+    } else {
+      setupsBox.innerHTML = setupSignals.map(function(s){ return signalCard(s, false); }).join("");
     }
 
     /* ---- vetoed (price trigger but fundamental fail) ---- */
@@ -673,6 +748,8 @@
     /* ---- discount ranking ---- */
     var hitSet = {};
     entrySignals.forEach(function(s){ hitSet[s.code] = 1; });
+    var setupSet = {};
+    setupSignals.forEach(function(s){ setupSet[s.code] = 1; });
     var disc = wl.filter(function(w){ return w.drawdown!==null && w.drawdown!==undefined; })
                  .sort(function(a,b){ return b.drawdown - a.drawdown; }).slice(0,8);
     var discBox = el("discount-list");
@@ -683,7 +760,8 @@
         var barW = Math.max(4, Math.min(100, w.drawdown/55*100));
         var deep = w.drawdown>=27 ? "deep" : "";
         var tag = hitSet[w.code] ? '<span class="rank-tag ok">可入场</span>' :
-                  ((w.yield!==undefined && w.yield<=4) ? '<span class="rank-tag no">股息不足</span>' : '');
+                  (setupSet[w.code] ? '<span class="rank-tag setup">关注</span>' :
+                  ((w.yield!==undefined && w.yield<=4) ? '<span class="rank-tag no">股息不足</span>' : ''));
         return '<div class="rank-row" data-code="' + w.code + '"><div class="rank-no' + (i<3?" top":"") + '">' + (i+1) + '</div>' +
           '<div class="rank-main"><div class="rank-name">' + w.name + '<span>' + w.code + ' · ' + (w.industry||"") + '</span></div>' +
           '<div class="rank-bar"><i class="' + deep + '" style="width:' + barW.toFixed(0) + '%"></i></div></div>' +
@@ -692,7 +770,7 @@
       }).join("");
     }
     var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
-    el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 4% 且价格与基本面都通过；「股息不足」指股息率 ≤ 4%，不作为入场选择。";
+    el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 4% 且价格、基本面、反转三关都过；「关注」指价格与基本面通过、反转未确认，仅观察；「股息不足」指股息率 ≤ 4%，不作为入场选择。";
 
     /* ---- weekly drop ranking ---- */
     var drops = wl.filter(function(w){ return w.weekly!==null && w.weekly!==undefined; })
@@ -726,7 +804,9 @@
         return (b.mcap||0)-(a.mcap||0);
       });
       el("wl").innerHTML = rows.map(function(w){
-        return '<tr data-code="' + w.code + '"><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.industry||"") + '</span></td>' +
+        var stageTag = w.stage === "可入场" ? ' <span class="rank-tag ok">可入场</span>' :
+                       (w.stage === "关注" ? ' <span class="rank-tag setup">关注</span>' : '');
+        return '<tr data-code="' + w.code + '"><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.industry||"") + '</span>' + stageTag + '</td>' +
           '<td>' + w.price + '</td>' +
           '<td class="' + (w.yield>4?"y-ok":(w.yield!==undefined?"y-low":"")) + '">' + (w.yield!==undefined? w.yield.toFixed(2)+"%" : "—") + '</td>' +
           '<td class="' + cls(w.weekly) + '">' + pct(w.weekly) + '</td>' +
@@ -825,11 +905,18 @@
       var east = (code.charAt(0)==="6")
         ? "https://quote.eastmoney.com/sh" + code + ".html"
         : "https://quote.eastmoney.com/sz" + code + ".html";
+      var sigBadges = '';
+      if(sig){
+        sigBadges = ' ' + badge(triggerCode(sig.price_trigger || sig.trigger));
+        if(sig.stage === "可入场") sigBadges += ' <span class="badge both">可入场</span>';
+        else if(sig.stage === "关注") sigBadges += ' <span class="badge setup">关注</span>';
+        else if(!sig.entry) sigBadges += ' <span class="badge vetoed">基本面已否决</span>';
+      }
       var html = '<h3>' + name + '</h3>' +
         '<div class="m-sub">' + code + (ind ? ' · ' + ind : '') + '</div>' +
         '<div>' + (s ? verdictBadge(s.verdict) : '') +
         (s && s.moat ? ' <span class="badge drawdown">' + s.moat + '护城河</span>' : '') +
-        (sig ? ' ' + badge(triggerCode(sig.price_trigger || sig.trigger)) + (sig.entry ? '' : ' <span class="badge vetoed">基本面已否决</span>') : '') + '</div>' +
+        sigBadges + '</div>' +
         '<div class="m-sec"><h4>价格</h4><div class="m-kv">' +
           '<div><div class="k">现价</div><div class="v">' + (w.price!==undefined&&w.price!==null?w.price:"—") + ' 元</div></div>' +
           '<div><div class="k">52周最高</div><div class="v">' + (h && h.high52 ? h.high52 + ' 元' : '—') + '</div></div>' +
@@ -838,6 +925,18 @@
           '<div><div class="k">股息率</div><div class="v">' + (w.yield!==undefined&&w.yield!==null? w.yield.toFixed(2)+"%" : "—") + '</div></div>' +
           '<div><div class="k">总市值</div><div class="v">' + money(w.mcap) + '</div></div>' +
         '</div></div>';
+      var revStage = (sig && sig.stage) || w.stage;
+      if(revStage){
+        var rev = sig || w;
+        if(rev && (rev.bounce_pct !== undefined || rev.recent_low !== undefined)){
+          html += '<div class="m-sec"><h4>反转确认</h4><div class="m-kv">' +
+            '<div><div class="k">20 日最低收盘</div><div class="v">' + (rev.recent_low!==undefined&&rev.recent_low!==null?rev.recent_low+" 元":"—") + (rev.recent_low_date ? "（" + rev.recent_low_date + "）" : "") + '</div></div>' +
+            '<div><div class="k">较最低点反弹</div><div class="v">' + (rev.bounce_pct!==undefined&&rev.bounce_pct!==null?rev.bounce_pct.toFixed(1)+"%":"—") + '</div></div>' +
+            '<div><div class="k">低点距今</div><div class="v">' + (rev.days_since_low!==undefined&&rev.days_since_low!==null?rev.days_since_low+" 个交易日":"—") + '</div></div>' +
+            '<div><div class="k">反转确认</div><div class="v">' + (rev.reversal_confirmed ? "已确认" : "未确认（需反弹 ≥5% 且低点距今 ≥10 日）") + '</div></div>' +
+          '</div></div>';
+        }
+      }
       if(s){
         html += '<div class="m-sec"><h4>基本面</h4><div class="m-kv">' +
           '<div><div class="k">ROE 十年均值</div><div class="v">' + (s.roe_10y_avg!==null&&s.roe_10y_avg!==undefined? s.roe_10y_avg.toFixed(1)+"%" : "—") + '</div></div>' +
@@ -880,7 +979,7 @@
         if(t) openStock(t.getAttribute("data-code"));
       });
     }
-    bindTap("hits"); bindTap("vetoed"); bindTap("fundbuy");
+    bindTap("hits"); bindTap("setups"); bindTap("vetoed"); bindTap("fundbuy");
     bindTap("discount-list"); bindTap("drop-list"); bindTap("wl");
   }).catch(function(err){
     el("updated").textContent = "数据加载失败，请稍后刷新重试。";
@@ -927,6 +1026,7 @@
   }
   function noData(msg){
     el("e30-hits").innerHTML = '<div class="empty">' + msg + '</div>';
+    el("e30-setups").innerHTML = '<div class="empty">暂无数据。</div>';
     el("e30-rules").innerHTML = '<ol><li>e30 数据还在编制中，规则与信号随后上线。</li></ol>';
     el("e30-discount-list").innerHTML = '<div class="empty">暂无数据。</div>';
     el("e30-wl").innerHTML = "";
@@ -935,6 +1035,7 @@
     el("e30-stat-hits").textContent = "—";
     el("e30-stat-value").textContent = "—";
     el("e30-stat-avgdd").textContent = "—";
+    var bEl0 = el("e30-breadth"); if(bEl0) bEl0.textContent = "";
   }
 
   /* stat chips jump to their e30 sections */
@@ -958,20 +1059,46 @@
     var a = res[1];
     var meta = d.meta || {};
     var wl = d.watchlist || [];
-    var hits = d.hits || [];
+    var hitsRaw = d.hits || [];
+    var setupsRaw = d.setups || [];
     var rules = (a && a.rules) || (meta.rules) || null;
     var etfs = (a && a.etfs) || [];
     var signals = (a && a.signals) || [];
+    /* two-stage (backward compat: old data has no setups/stage fields; old hits were price triggers = Stage 1) */
+    var bth = (rules && rules.breadth) || {};
+    var bHigh = (bth.high_threshold !== undefined) ? bth.high_threshold : 0.5;
+    var bLow = (bth.low_threshold !== undefined) ? bth.low_threshold : 0.2;
+    function breadthLabelFor(b){
+      if(b >= bHigh) return bth.high_label || "整体退潮";
+      if(b <= bLow) return bth.low_label || "个别机会";
+      return "分化";
+    }
+    var hasStage = (meta.n_stage1 !== undefined) || (d.setups !== undefined);
+    var hits, setups;
+    if(hasStage){ hits = hitsRaw; setups = setupsRaw; }
+    else { hits = []; setups = hitsRaw; }
+    var nEntry = (meta.n_entry !== undefined) ? meta.n_entry : hits.length;
+    var nSetup = (meta.n_setup !== undefined) ? meta.n_setup : setups.length;
+    var nStage1 = (meta.n_stage1 !== undefined) ? meta.n_stage1 : (nEntry + nSetup);
+    var breadth = (meta.breadth_stage1 !== undefined) ? meta.breadth_stage1 : (nStage1 / (wl.length || 30));
+    var breadthLabel = meta.breadth_label || breadthLabelFor(breadth);
 
-    el("e30-stat-hits").textContent = hits.length;
+    el("e30-stat-hits").textContent = nEntry;
+    el("e30-stat-value").textContent = nSetup;
     el("e30-stat-count").textContent = wl.length || 30;
-    var zone = wl.filter(function(w){
-      return (w.drawdown!==null && w.drawdown!==undefined && w.drawdown>=18 && w.drawdown<=44) ||
-             (w.drop4w!==null && w.drop4w!==undefined && w.drop4w<=-10.8);
-    }).length;
-    el("e30-stat-value").textContent = zone;
     var ddVals = wl.filter(function(w){ return w.drawdown!==null && w.drawdown!==undefined; }).map(function(w){ return w.drawdown; });
     el("e30-stat-avgdd").textContent = ddVals.length ? (ddVals.reduce(function(s,v){ return s+v; },0)/ddVals.length).toFixed(1)+"%" : "—";
+    var bEl = el("e30-breadth");
+    if(bEl){
+      var bPct = Math.round(breadth * 100);
+      var bNote = breadthLabel === "整体退潮"
+        ? "多数 ETF 同时大回撤，是系统性退潮，不是 " + nStage1 + " 个个别机会；信号大多只是观察，别急着入场。"
+        : (breadthLabel === "个别机会"
+          ? "触发的 ETF 不多，是个别机会，不是全市场退潮。"
+          : "触发面居中，一部分 ETF 在退潮，一部分不是；逐只看反转确认。");
+      bEl.innerHTML = "触发宽度 <b>" + nStage1 + "/" + (wl.length || 30) + "（" + bPct + "%）— " + breadthLabel + "</b>：" + bNote;
+      if(breadthLabel === "整体退潮") bEl.classList.add("selloff");
+    }
 
     function wlByCode(code){
       for(var i=0;i<wl.length;i++){ if(wl[i].code===code) return wl[i]; }
@@ -986,20 +1113,24 @@
       return null;
     }
 
-    /* ---- e30 hits ---- */
+    /* ---- e30 hits (Stage 2: confirmed entry) ---- */
     var hitsBox = el("e30-hits");
     if(!hits.length){
-      hitsBox.innerHTML = '<div class="empty">今天没有入场信号。<br>30 只 ETF 里既没有回撤进 18%~44% 带子的，也没有近四周跌超 10.8% 的。</div>';
+      hitsBox.innerHTML = '<div class="empty">今天没有可入场信号。<br>' +
+        (setups.length ? '有 ' + setups.length + ' 只价格已触发、正在观察（见下面「关注」），但底部还没盘整好、反转未确认。' :
+          '30 只 ETF 里既没有回撤进 18%~44% 带子的，也没有近四周跌超 10.8% 的。') + '</div>';
     } else {
       hitsBox.innerHTML = hits.map(function(h){
         var tc = triggerCode(h.trigger);
         var stop = rules ? (h.price*(1-rules.stop_pct/100)).toFixed(3) : "—";
         var target = rules ? (h.price*(1+rules.target_pct/100)).toFixed(3) : "—";
+        var rev = (h.bounce_pct!==undefined && h.days_since_low!==undefined)
+          ? '<div class="hit-reversal">反转已确认：较 20 日低点反弹 ' + h.bounce_pct.toFixed(1) + '%，低点距今 ' + h.days_since_low + ' 日（≥10 日盘整）</div>' : '';
         return '<article class="hit ' + (tc==="both"?"both":"") + '" data-code="' + h.code + '">' +
           '<div class="hit-head"><span class="hit-name">' + h.name + '</span>' +
           '<span class="hit-code">' + h.code + '</span>' +
           '<span class="hit-ind">' + (h.theme||"") + '</span>' +
-          '<span class="badges">' + badge(tc) + '</span></div>' +
+          '<span class="badges">' + badge(tc) + ' <span class="badge both">可入场</span></span></div>' +
           '<div class="metrics">' +
             '<div class="metric"><div class="k">现价</div><div class="v">' + (h.price!==undefined&&h.price!==null?h.price:"—") + ' <small>元</small></div></div>' +
             '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(h.drawdown,1) + '</div></div>' +
@@ -1008,17 +1139,52 @@
             '<div class="metric"><div class="k">止盈价</div><div class="v">' + target + ' <small>元</small></div></div>' +
             '<div class="metric"><div class="k">建议持股</div><div class="v">' + (rules ? rules.holding_weeks[0]+"–"+rules.holding_weeks[1]+" 周" : "—") + '</div></div>' +
           '</div>' +
+          rev +
           (h.reason ? '<div class="hit-reason">' + h.reason + '</div>' : '') +
           (h.outlook ? '<div class="hit-outlook">' + h.outlook + '</div>' : '') +
         '</article>';
       }).join("");
     }
 
+    /* ---- e30 setups (Stage 1 only: watchlist, NOT an entry) ---- */
+    var setupsBox = el("e30-setups");
+    if(setupsBox){
+      if(!setups.length){
+        setupsBox.innerHTML = '<div class="empty">今天没有仅观察的 ETF。</div>';
+      } else {
+        setupsBox.innerHTML = setups.map(function(s){
+          var tc = triggerCode(s.trigger);
+          var rev = (s.bounce_pct!==undefined && s.days_since_low!==undefined)
+            ? '<div class="hit-reversal" style="color:#7a5c06">反转未确认：较 20 日低点反弹 ' + s.bounce_pct.toFixed(1) + '%，低点距今 ' + s.days_since_low + ' 日（需 ≥10 日盘整）</div>' : '';
+          return '<article class="hit setup" data-code="' + s.code + '">' +
+            '<div class="hit-head"><span class="hit-name">' + s.name + '</span>' +
+            '<span class="hit-code">' + s.code + '</span>' +
+            '<span class="hit-ind">' + (s.theme||"") + '</span>' +
+            '<span class="badges">' + badge(tc) + ' <span class="badge setup">关注</span></span></div>' +
+            '<div class="metrics">' +
+              '<div class="metric"><div class="k">现价</div><div class="v">' + (s.price!==undefined&&s.price!==null?s.price:"—") + ' <small>元</small></div></div>' +
+              '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(s.drawdown,1) + '</div></div>' +
+              '<div class="metric"><div class="k">近四周</div><div class="v">' + pct(s.drop4w) + '</div></div>' +
+            '</div>' +
+            rev +
+            (s.reason ? '<div class="hit-reason">' + s.reason + '</div>' : '') +
+            (s.outlook ? '<div class="hit-outlook">' + s.outlook + '</div>' : '') +
+          '</article>';
+        }).join("");
+      }
+    }
+
     /* ---- e30 rules ---- */
     var rulesBox = el("e30-rules");
     if(rules){
       var sup = rules.supporting || {};
+      var s2 = rules.stage2 || {};
+      var bounceMin = (s2.bounce_min_pct !== undefined) ? s2.bounce_min_pct : 5;
+      var lowWin = (s2.low_window_days !== undefined) ? s2.low_window_days : 20;
+      var consMin = (s2.consolidation_min_days !== undefined) ? s2.consolidation_min_days : 10;
       rulesBox.innerHTML = '<ol>' +
+        '<li><b>两段式信号</b>：第一段「关注」= 价格触发（回撤进带子或近四周跌超门槛），只是观察、不是入场；第二段「可入场」= 关注 + 反转确认——较 ' + lowWin + ' 日最低收盘反弹 ≥ ' + bounceMin + '%，且低点距今 ≥ ' + consMin + ' 个交易日（底部盘整至少两周）。</li>' +
+        '<li><b>触发宽度</b>：关注只数 / 30。≥ ' + Math.round(bHigh*100) + '% 为「整体退潮」（系统性下跌，信号大多只是观察）；≤ ' + Math.round(bLow*100) + '% 为「个别机会」。今天宽度 ' + nStage1 + '/30（' + Math.round(breadth*100) + '%）— ' + breadthLabel + '。</li>' +
         '<li><b>入场回撤 ' + rules.drawdown_band[0] + '%~' + rules.drawdown_band[1] + '%</b>（容差后执行 ' + rules.drawdown_exec[0] + '%~' + rules.drawdown_exec[1] + '%）：波段起点回撤中位 ' + (sup.drawdown_median!==undefined?sup.drawdown_median+"%":"—") + '，上四分位 ' + (sup.drawdown_q3!==undefined?sup.drawdown_q3+"%":"—") + '。</li>' +
         '<li><b>入场近四周跌幅 ≥ ' + rules.drop4w_min + '%</b>（容差后执行 ≥ ' + rules.drop4w_exec + '%）：波段起点前 4 周跌幅中位 ' + (sup.drop4w_median!==undefined?sup.drop4w_median+"%":"—") + '。</li>' +
         '<li><b>或关系</b>：满足任一时机即价格触发。</li>' +
@@ -1026,7 +1192,7 @@
         '<li><b>止盈：入场价 × ' + (1+rules.target_pct/100).toFixed(2) + '（+' + rules.target_pct + '%）</b>：入场→高点涨幅下四分位 ' + (sup.entry_to_high_q1!==undefined?sup.entry_to_high_q1+"%":"—") + '。</li>' +
         '<li><b>建议持股 ' + rules.holding_weeks[0] + '–' + rules.holding_weeks[1] + ' 周</b>：上涨波段时长中位 ' + (sup.up_duration_median!==undefined?sup.up_duration_median+" 周":"—") + '，上四分位 ' + (sup.up_duration_q3!==undefined?sup.up_duration_q3+" 周":"—") + '。先到先走：到了止盈就走，没到止盈、到了上限就重新评估。</li>' +
       '</ol>' +
-      '<p class="pick">规则按 30 只 ETF 各自 5 年历史 pooled 算出（上涨波段 ' + ((a&&a.meta&&a.meta.n_up_swings!==undefined)?a.meta.n_up_swings:"—") + ' 个，下跌波段 ' + ((a&&a.meta&&a.meta.n_down_swings!==undefined)?a.meta.n_down_swings:"—") + ' 个，ZigZag 12%）。波段统计是历史平均，不保证未来。</p>';
+      '<p class="pick">规则按 30 只 ETF 各自 5 年历史 pooled 算出（上涨波段 ' + ((a&&a.meta&&a.meta.n_up_swings!==undefined)?a.meta.n_up_swings:"—") + ' 个，下跌波段 ' + ((a&&a.meta&&a.meta.n_down_swings!==undefined)?a.meta.n_down_swings:"—") + ' 个，ZigZag 12%）。波段统计是历史平均，不保证未来。反转确认用 10 日盘整而不用 5 日：2026-11-10 的快照里 5 日版太松（24 只关注里 24 只都满足），改 10 日后只剩 5 只可入场。</p>';
     } else {
       rulesBox.innerHTML = '<ol><li>e30 规则编制中。</li></ol>';
     }
@@ -1034,6 +1200,8 @@
     /* ---- e30 drawdown ranking ---- */
     var hitSet = {};
     hits.forEach(function(h){ hitSet[h.code] = 1; });
+    var setupSet = {};
+    setups.forEach(function(s){ setupSet[s.code] = 1; });
     var disc = wl.filter(function(w){ return w.drawdown!==null && w.drawdown!==undefined; })
                  .sort(function(a,b){ return b.drawdown - a.drawdown; }).slice(0,8);
     var discBox = el("e30-discount-list");
@@ -1044,7 +1212,8 @@
         var barW = Math.max(4, Math.min(100, w.drawdown/44*100));
         var deep = (w.drawdown>=18 && w.drawdown<=44) ? "deep" : "";
         var tag = hitSet[w.code] ? '<span class="rank-tag ok">可入场</span>' :
-                  ((w.drawdown>44) ? '<span class="rank-tag no">超深</span>' : '');
+                  (setupSet[w.code] ? '<span class="rank-tag setup">关注</span>' :
+                  ((w.drawdown>44) ? '<span class="rank-tag no">超深</span>' : ''));
         return '<div class="rank-row" data-code="' + w.code + '"><div class="rank-no' + (i<3?" top":"") + '">' + (i+1) + '</div>' +
           '<div class="rank-main"><div class="rank-name">' + w.name + '<span>' + w.code + ' · ' + (w.theme||"") + '</span></div>' +
           '<div class="rank-bar"><i class="' + deep + '" style="width:' + barW.toFixed(0) + '%"></i></div></div>' +
@@ -1053,7 +1222,7 @@
       }).join("");
     }
     var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
-    el("e30-discount-note").textContent = "榜单只含已核对 52 周最高价的 ETF（" + disc.length + " 只已核对，" + missing + " 只采集中）。「可入场」指价格触发；「超深」指回撤超过带子上限 44%，属于极端尾部，不追。";
+    el("e30-discount-note").textContent = "榜单只含已核对 52 周最高价的 ETF（" + disc.length + " 只已核对，" + missing + " 只采集中）。「可入场」指价格触发且反转已确认；「关注」指价格触发、反转未确认，仅观察不入场；「超深」指回撤超过带子上限 44%，属于极端尾部，不追。";
 
     /* ---- e30 watchlist ---- */
     function renderE30List(){
@@ -1068,7 +1237,9 @@
         return (b.drawdown===null?-1:b.drawdown)-(a.drawdown===null?-1:a.drawdown);
       });
       el("e30-wl").innerHTML = rows.map(function(w){
-        return '<tr data-code="' + w.code + '"><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.theme||"") + '</span></td>' +
+        var stageTag = w.stage === "可入场" ? ' <span class="rank-tag ok">可入场</span>' :
+                       (w.stage === "关注" ? ' <span class="rank-tag setup">关注</span>' : '');
+        return '<tr data-code="' + w.code + '"><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.theme||"") + '</span>' + stageTag + '</td>' +
           '<td>' + (w.price!==undefined&&w.price!==null?w.price:"—") + '</td>' +
           '<td>' + (w.drawdown===null||w.drawdown===undefined ? "—" : w.drawdown.toFixed(1)+"%") + '</td>' +
           '<td class="' + cls(w.drop4w) + '">' + pct(w.drop4w) + '</td>' +
@@ -1091,8 +1262,12 @@
         var picks = (day.picks||[]).map(function(p){
           return p.name + "（" + p.code + "）<span class='tag " + triggerCode(p.trigger) + "'>" + triggerLabel(p.trigger) + "</span>";
         }).join("、");
+        var extra = "";
+        if(day.n_setup !== undefined || day.breadth_stage1 !== undefined){
+          extra = '<span class="hist-extra">关注 ' + (day.n_setup||0) + ' 只 · 宽度 ' + Math.round((day.breadth_stage1||0)*100) + '% ' + (day.breadth_label||"") + '</span>';
+        }
         return '<div class="hist-item"><div class="hist-date">' + day.date + '</div>' +
-          '<div class="hist-picks">' + (picks || "当日无命中") + '</div></div>';
+          '<div class="hist-picks">' + (picks || "当日无命中") + extra + '</div></div>';
       }).join("");
     }
 
@@ -1105,14 +1280,20 @@
       var sig = signalOf(code);
       var h = null;
       hits.forEach(function(x){ if(x.code===code) h = x; });
+      var su = null;
+      setups.forEach(function(x){ if(x.code===code) su = x; });
       var name = e ? e.name : (h ? h.name : (w.name || code));
       var theme = e ? e.theme : (w.theme || (h && h.theme) || "");
       var east = (code.charAt(0)==="5" || code.charAt(0)==="6")
         ? "https://quote.eastmoney.com/sh" + code + ".html"
         : "https://quote.eastmoney.com/sz" + code + ".html";
+      var stage = w.stage || (sig && sig.stage) || (h ? "可入场" : (su ? "关注" : null));
+      var stageBadge = stage === "可入场" ? ' <span class="badge both">可入场</span>' :
+                       (stage === "关注" ? ' <span class="badge setup">关注</span>' : '');
       var html = '<h3>' + name + '</h3>' +
         '<div class="m-sub">' + code + (theme ? ' · ' + theme : '') + (e && e.index ? ' · ' + e.index : '') + '</div>' +
         '<div>' + (sig ? badge(triggerCode(sig.price_trigger || sig.trigger)) : '') +
+        stageBadge +
         (h ? ' <span class="badge fundbuy">今日入场信号</span>' : '') + '</div>' +
         '<div class="m-sec"><h4>价格</h4><div class="m-kv">' +
           '<div><div class="k">现价</div><div class="v">' + (w.price!==undefined&&w.price!==null?w.price:"—") + ' 元</div></div>' +
@@ -1122,6 +1303,17 @@
           '<div><div class="k">基金规模</div><div class="v">' + money(w.size) + '</div></div>' +
           '<div><div class="k">日均成交额</div><div class="v">' + money(w.volume) + '</div></div>' +
         '</div></div>';
+      if(stage){
+        var rev = sig || su || h || w;
+        if(rev && (rev.bounce_pct !== undefined || rev.recent_low !== undefined)){
+          html += '<div class="m-sec"><h4>反转确认</h4><div class="m-kv">' +
+            '<div><div class="k">20 日最低收盘</div><div class="v">' + (rev.recent_low!==undefined&&rev.recent_low!==null?rev.recent_low+" 元":"—") + (rev.recent_low_date ? "（" + rev.recent_low_date + "）" : "") + '</div></div>' +
+            '<div><div class="k">较最低点反弹</div><div class="v">' + (rev.bounce_pct!==undefined&&rev.bounce_pct!==null?rev.bounce_pct.toFixed(1)+"%":"—") + '</div></div>' +
+            '<div><div class="k">低点距今</div><div class="v">' + (rev.days_since_low!==undefined&&rev.days_since_low!==null?rev.days_since_low+" 个交易日":"—") + '</div></div>' +
+            '<div><div class="k">反转确认</div><div class="v">' + (rev.reversal_confirmed ? "已确认" : "未确认（需反弹 ≥5% 且低点距今 ≥10 日）") + '</div></div>' +
+          '</div></div>';
+        }
+      }
       if(e){
         html += '<div class="m-sec"><h4>波段统计（5 年，ZigZag 12%）</h4><div class="m-kv">' +
           '<div><div class="k">上涨波段</div><div class="v">' + (e.n_up!==undefined?e.n_up:"—") + ' 个</div></div>' +
@@ -1138,9 +1330,16 @@
       } else if(h){
         html += '<div class="m-sec"><h4>本次信号</h4><div class="m-note">' + (h.reason||"") + '</div>' +
           (h.outlook ? '<div class="hit-outlook">' + h.outlook + '</div>' : '') + '</div>';
+      } else if(su){
+        html += '<div class="m-sec"><h4>本次信号</h4><div class="m-note">' + (su.reason||"") + '</div>' +
+          (su.outlook ? '<div class="hit-outlook">' + su.outlook + '</div>' : '') + '</div>';
+      }
+      var tr = (sig && sig.trend) || (su && su.trend) || (h && h.trend) || (e && e.trend) || (w && w.trend);
+      if(tr){
+        html += '<div class="m-sec"><h4>前瞻趋势（定性，非价格信号）</h4><div class="m-note">' + tr.theme + ' · ' + tr.direction + '（信心 ' + tr.confidence + '）：' + tr.headline + '</div></div>';
       }
       if(rules){
-        html += '<div class="m-sec"><h4>e30 统一规则</h4><div class="m-note">入场回撤 ' + rules.drawdown_band[0] + '%~' + rules.drawdown_band[1] + '%，或近四周跌 ≥ ' + rules.drop4w_min + '%；止损 -' + rules.stop_pct + '%，止盈 +' + rules.target_pct + '%，建议持股 ' + rules.holding_weeks[0] + '–' + rules.holding_weeks[1] + ' 周。</div></div>';
+        html += '<div class="m-sec"><h4>e30 统一规则</h4><div class="m-note">入场回撤 ' + rules.drawdown_band[0] + '%~' + rules.drawdown_band[1] + '%，或近四周跌 ≥ ' + rules.drop4w_min + '%；止损 -' + rules.stop_pct + '%，止盈 +' + rules.target_pct + '%，建议持股 ' + rules.holding_weeks[0] + '–' + rules.holding_weeks[1] + ' 周。两段式：关注 = 价格触发（仅观察）；可入场 = 关注 + 反转确认（较 20 日低点反弹 ≥ 5% 且低点距今 ≥ 10 日）。</div></div>';
       }
       html += '<a class="m-link" href="' + east + '" target="_blank" rel="noopener">在东方财富查看实时行情 →</a>';
       modalBody.innerHTML = html;
@@ -1156,7 +1355,7 @@
         if(t) openEtf(t.getAttribute("data-code"));
       });
     }
-    bindE30Tap("e30-hits"); bindE30Tap("e30-discount-list"); bindE30Tap("e30-wl");
+    bindE30Tap("e30-hits"); bindE30Tap("e30-setups"); bindE30Tap("e30-discount-list"); bindE30Tap("e30-wl");
   }).catch(function(){
     noData("e30 数据还在编制中，稍后再打开看看。");
   });
