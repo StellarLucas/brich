@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BRICH · 长期持有构建复利</title>
+<meta name="description" content="BRICH — q50 权重高分红股观察名单。每天更新，专注长期稳定的复利。">
+<style>
+  :root{
+    --bg:#f4f1ea; --card:#ffffff; --ink:#1f2a24; --muted:#6f7670;
+    --line:#e5e0d3; --green:#166b4d; --gold:#b8860b; --gold-soft:#f3e9c8;
+    --red:#c0392b; --down:#1e8e5a; --chip:#eef2ec; --radius:14px;
+  }
+  *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
+  html{font-size:16px}
+  body{margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    line-height:1.6; padding-bottom:calc(2.5rem + env(safe-area-inset-bottom));}
+  a{color:var(--green)}
+  .wrap{max-width:720px; margin:0 auto; padding:0 16px}
+
+  /* ---------- header ---------- */
+  header{padding:2.2rem 0 0}
+  .wordmark{font-size:2.6rem; font-weight:800; letter-spacing:.14em; line-height:1; margin:0}
+  .wordmark em{font-style:normal; color:var(--gold)}
+  .tagline{margin:.5rem 0 0; font-size:1.05rem; color:var(--muted)}
+  .tagline b{color:var(--ink)}
+  .goldrule{height:3px; background:linear-gradient(90deg,var(--gold),transparent); border:0; margin:1.2rem 0 0}
+  .updated{font-size:.82rem; color:var(--muted); margin:.6rem 0 0}
+
+  /* ---------- stat chips ---------- */
+  .stats{display:grid; grid-template-columns:repeat(3,1fr); gap:10px; margin:1.2rem 0 0}
+  .stat{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:.8rem .6rem; text-align:center}
+  .stat .num{font-size:1.35rem; font-weight:800; line-height:1.2}
+  .stat .num small{font-size:.8rem; font-weight:600; color:var(--muted)}
+  .stat .lbl{font-size:.78rem; color:var(--muted); margin-top:.15rem}
+
+  /* ---------- sections ---------- */
+  section{margin-top:2rem}
+  h2{font-size:1.15rem; margin:0 0 .2rem; letter-spacing:.02em}
+  .sec-sub{font-size:.85rem; color:var(--muted); margin:0 0 .9rem}
+  .empty{background:var(--card); border:1px dashed var(--line); border-radius:var(--radius);
+    padding:1.4rem 1rem; text-align:center; color:var(--muted); font-size:.92rem}
+
+  /* ---------- hit cards ---------- */
+  .hit{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:1rem 1rem .9rem; margin-bottom:.8rem; position:relative; overflow:hidden}
+  .hit::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--gold)}
+  .hit.both::before{background:var(--green)}
+  .hit-head{display:flex; align-items:baseline; gap:.5rem; flex-wrap:wrap}
+  .hit-name{font-size:1.15rem; font-weight:800}
+  .hit-code{font-size:.85rem; color:var(--muted)}
+  .hit-ind{font-size:.8rem; color:var(--muted)}
+  .badges{margin-left:auto; display:flex; gap:.35rem; flex-wrap:wrap}
+  .badge{font-size:.72rem; font-weight:700; padding:.15rem .5rem; border-radius:999px; white-space:nowrap}
+  .badge.both{background:var(--green); color:#fff}
+  .badge.drawdown{background:var(--gold-soft); color:#7a5c06}
+  .badge.weekly{background:#e3f0e8; color:var(--green)}
+  .metrics{display:grid; grid-template-columns:repeat(3,1fr); gap:.6rem .4rem; margin-top:.85rem}
+  .metric .k{font-size:.72rem; color:var(--muted)}
+  .metric .v{font-size:1.02rem; font-weight:700; line-height:1.3}
+  .metric .v small{font-size:.75rem; font-weight:600; color:var(--muted)}
+  .up{color:var(--red)} .down{color:var(--down)}
+  .hit-reason{font-size:.88rem; color:#3c463f; background:#faf8f1; border-radius:8px;
+    padding:.55rem .7rem; margin-top:.85rem}
+
+  /* ---------- compounding ---------- */
+  .compound{background:#12291f; color:#eef3ee; border-radius:var(--radius); padding:1.1rem 1rem 1rem}
+  .compound h2{color:#fff}
+  .compound p{font-size:.88rem; color:#b9c6bb; margin:.2rem 0 .8rem}
+  .compound svg{width:100%; height:auto; display:block}
+  .compound .note{font-size:.75rem; color:#8ba294; margin:.6rem 0 0}
+
+  /* ---------- rules ---------- */
+  .rules{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:1rem 1.1rem}
+  .rules ol{margin:.4rem 0 0; padding-left:1.2rem}
+  .rules li{margin:.45rem 0; font-size:.93rem}
+  .rules li b{color:var(--green)}
+  .rules .pick{font-size:.88rem; color:var(--muted); border-top:1px dashed var(--line);
+    margin-top:.8rem; padding-top:.7rem}
+
+  /* ---------- watchlist ---------- */
+  .tools{display:flex; gap:.6rem; margin-bottom:.7rem}
+  .tools input,.tools select{flex:1; min-width:0; font-size:.92rem; padding:.6rem .7rem;
+    border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink)}
+  .tools select{flex:0 0 8.2rem}
+  .tbl-wrap{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden}
+  table{width:100%; border-collapse:collapse; font-size:.88rem}
+  th,td{padding:.62rem .5rem; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap}
+  th:first-child,td:first-child{text-align:left}
+  th{font-size:.75rem; color:var(--muted); font-weight:600; background:#faf8f1;
+    position:sticky; top:0}
+  tr:last-child td{border-bottom:0}
+  td .nm{font-weight:700; color:var(--ink)}
+  td .cd{display:block; font-size:.72rem; color:var(--muted); font-weight:400}
+  td .mk{display:block; font-size:.72rem; color:var(--muted); font-weight:400}
+  .tbl-note{font-size:.78rem; color:var(--muted); margin:.5rem .2rem 0}
+  @media (max-width:560px){ .hide-sm{display:none} }
+
+  /* ---------- history ---------- */
+  .hist-item{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:.8rem 1rem; margin-bottom:.6rem}
+  .hist-date{font-weight:800; font-size:.95rem}
+  .hist-picks{font-size:.88rem; color:#3c463f; margin-top:.25rem}
+  .hist-picks .tag{display:inline-block; font-size:.72rem; font-weight:700; border-radius:999px;
+    padding:.05rem .45rem; margin-left:.3rem; vertical-align:1px}
+  .tag.both{background:var(--green); color:#fff}
+  .tag.drawdown{background:var(--gold-soft); color:#7a5c06}
+  .tag.weekly{background:#e3f0e8; color:var(--green)}
+
+  footer{margin-top:2.4rem; font-size:.78rem; color:var(--muted); border-top:1px solid var(--line); padding-top:1rem}
+  footer p{margin:.3rem 0}
+  .err{background:#fdf0ef; color:#8c2f26; border:1px solid #f0c9c4; border-radius:10px; padding:.8rem 1rem; font-size:.9rem}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1 class="wordmark">BR<em>I</em>CH</h1>
+    <p class="tagline"><b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，等它跌出价值，再拿住它。</p>
+    <hr class="goldrule">
+    <p class="updated" id="updated">数据加载中…</p>
+  </header>
+
+  <div class="stats">
+    <div class="stat"><div class="num" id="stat-count">50</div><div class="lbl">观察名单</div></div>
+    <div class="stat"><div class="num" id="stat-yield">—</div><div class="lbl">平均股息率</div></div>
+    <div class="stat"><div class="num" id="stat-hits">—</div><div class="lbl">今日命中</div></div>
+  </div>
+
+  <section id="sec-hits">
+    <h2>今日信号</h2>
+    <p class="sec-sub">每天凌晨更新。命中即值得看一眼，不等于马上买入。</p>
+    <div id="hits"></div>
+  </section>
+
+  <section>
+    <h2>复利的力量</h2>
+    <div class="compound">
+      <p>股息再投、长期持有，时间把小收益滚成大雪球。下面是 1 万元、年化 5% 的示意：</p>
+      <svg viewBox="0 0 640 220" role="img" aria-label="复利增长示意图">
+        <defs>
+          <linearGradient id="ag" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="#d4af37" stop-opacity=".55"/>
+            <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <g stroke="#2c463a" stroke-width="1">
+          <line x1="40" y1="20" x2="40" y2="190"/><line x1="40" y1="190" x2="620" y2="190"/>
+        </g>
+        <g fill="#8ba294" font-size="12">
+          <text x="34" y="194" text-anchor="end">1.0万</text>
+          <text x="34" y="140" text-anchor="end">1.2万</text>
+          <text x="34" y="86" text-anchor="end">1.4万</text>
+          <text x="34" y="32" text-anchor="end">1.6万</text>
+        </g>
+        <g fill="#8ba294" font-size="12">
+          <text x="40" y="208">第1年</text><text x="310" y="208">第5年</text><text x="585" y="208">第10年</text>
+        </g>
+        <path d="M40,190 C140,168 220,150 300,128 C380,106 480,80 620,34 L620,190 L40,190 Z" fill="url(#ag)"/>
+        <path d="M40,190 C140,168 220,150 300,128 C380,106 480,80 620,34" fill="none" stroke="#d4af37" stroke-width="2.5"/>
+        <circle cx="620" cy="34" r="4.5" fill="#d4af37"/>
+        <text x="560" y="22" fill="#f3e9c8" font-size="13" font-weight="700">1.63 万</text>
+      </svg>
+      <p class="note">示意而已：1 万元 × 年化 5% × 10 年 ≈ 1.63 万元。真正的复利来自好公司＋低位买入＋拿得住。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>筛选规则</h2>
+    <div class="rules">
+      <ol>
+        <li><b>只看权重高分红股</b>：沪深 300 成分、股息率 ≥ 3%，按总市值取前 50 只，名单叫 q50。</li>
+        <li><b>条件一 · 回撤</b>：相对 52 周最高价回撤 30%~50%（容差后执行区间 27%~55%）。</li>
+        <li><b>条件二 · 急跌</b>：近一周（5 个交易日）跌幅 ≥ 10%（容差后执行下限 9%）。</li>
+        <li><b>或关系</b>：满足任一条件即命中，不是同时满足。</li>
+      </ol>
+      <p class="pick">每天最多报一只：优先选同时满足两个条件的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。同一只 3 天内不重复报。</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>q50 全名单</h2>
+    <p class="sec-sub">按总市值排序。点表头或用下面筛选快速找票。</p>
+    <div class="tools">
+      <input id="q" type="search" placeholder="搜名字 / 代码，如 茅台 或 600519" aria-label="搜索股票">
+      <select id="sort" aria-label="排序">
+        <option value="mcap">按市值 ↓</option>
+        <option value="yield">按股息率 ↓</option>
+        <option value="weekly">按近5日 ↓</option>
+        <option value="drawdown">按回撤 ↓</option>
+      </select>
+    </div>
+    <div class="tbl-wrap">
+      <table>
+        <thead><tr>
+          <th>股票</th><th>现价</th><th>股息率</th><th>近5日</th><th>回撤</th><th class="hide-sm">总市值</th>
+        </tr></thead>
+        <tbody id="wl"></tbody>
+      </table>
+    </div>
+    <p class="tbl-note" id="wl-note"></p>
+  </section>
+
+  <section>
+    <h2>历史信号</h2>
+    <p class="sec-sub">每天的命中记录，可回看。</p>
+    <div id="history"></div>
+  </section>
+
+  <footer>
+    <p>数据来源：乐咕乐股网、富途、东方财富等公开行情；现价与 52 周最高取自同一数据源、同一除权口径。</p>
+    <p>更新：每天凌晨检查 q50，命中即更新本页；没有命中就不更新信号，只更新行情数据。</p>
+    <p>本页面是按既定规则自动筛选的结果，不是投资建议。投资有风险，入市需谨慎。</p>
+    <p>BRICH · be rich — 长期持有，构建复利。</p>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var el = function(id){ return document.getElementById(id); };
+  function pct(v, digits){ if(v===null||v===undefined||isNaN(v)) return "—"; return (v>0?"+":"")+v.toFixed(digits===undefined?2:digits)+"%"; }
+  function cls(v){ return v===null||v===undefined ? "" : (v>0?"up":(v<0?"down":"")); }
+  function badge(t){
+    if(t==="both") return '<span class="badge both">双命中</span>';
+    if(t==="drawdown") return '<span class="badge drawdown">回撤命中</span>';
+    return '<span class="badge weekly">急跌命中</span>';
+  }
+  function triggerLabel(t){
+    return t==="both"?"双命中":(t==="drawdown"?"回撤命中":"急跌命中");
+  }
+  function money(v){ return v===null||v===undefined ? "—" : Number(v).toLocaleString("zh-CN",{maximumFractionDigits:2}) + " 亿"; }
+
+  fetch("data.json", {cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error("data.json 未找到");
+    return r.json();
+  }).then(function(d){
+    var meta = d.meta || {};
+    el("updated").textContent = "数据截至 " + (meta.data_date_label||meta.data_date||"") + " · 本页更新于 " + (meta.updated_at||"");
+    el("stat-count").textContent = (d.watchlist||[]).length;
+    el("stat-yield").innerHTML = (meta.avg_yield!==undefined ? meta.avg_yield.toFixed(2) + "<small>%</small>" : "—");
+    el("stat-hits").textContent = (d.hits||[]).length;
+
+    /* ---- hits ---- */
+    var hitsBox = el("hits");
+    var hits = d.hits || [];
+    if(!hits.length){
+      hitsBox.innerHTML = '<div class="empty">今天没有命中的股票。<br>q50 里既没有回撤进区间的，也没有一周急跌超 9% 的。</div>';
+    } else {
+      hitsBox.innerHTML = hits.map(function(h){
+        return '<article class="hit ' + (h.trigger==="both"?"both":"") + '">' +
+          '<div class="hit-head"><span class="hit-name">' + h.name + '</span>' +
+          '<span class="hit-code">' + h.code + '</span>' +
+          '<span class="hit-ind">' + (h.industry||"") + '</span>' +
+          '<span class="badges">' + badge(h.trigger) + '</span></div>' +
+          '<div class="metrics">' +
+            '<div class="metric"><div class="k">现价</div><div class="v">' + h.price + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">52周最高</div><div class="v">' + (h.high52||"—") + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(h.drawdown,1) + '</div></div>' +
+            '<div class="metric"><div class="k">近一周</div><div class="v ' + cls(h.weekly) + '">' + pct(h.weekly) + '</div></div>' +
+            '<div class="metric"><div class="k">股息率</div><div class="v">' + (h.yield!==undefined? h.yield.toFixed(2)+"%" : "—") + '</div></div>' +
+            '<div class="metric"><div class="k">总市值</div><div class="v">' + money(h.mcap) + '</div></div>' +
+          '</div>' +
+          (h.reason ? '<div class="hit-reason">' + h.reason + '</div>' : '') +
+        '</article>';
+      }).join("");
+    }
+
+    /* ---- watchlist ---- */
+    var wl = (d.watchlist||[]).slice();
+    function drawdownVal(w){ return (w.drawdown===null||w.drawdown===undefined) ? -1 : w.drawdown; }
+    function renderList(){
+      var q = (el("q").value||"").trim().toLowerCase();
+      var s = el("sort").value;
+      var rows = wl.filter(function(w){
+        return !q || w.name.toLowerCase().indexOf(q)>-1 || String(w.code).indexOf(q)>-1;
+      });
+      rows.sort(function(a,b){
+        if(s==="yield") return (b.yield||0)-(a.yield||0);
+        if(s==="weekly") return (a.weekly===null?999:a.weekly)-(b.weekly===null?999:b.weekly);
+        if(s==="drawdown") return drawdownVal(b)-drawdownVal(a);
+        return (b.mcap||0)-(a.mcap||0);
+      });
+      el("wl").innerHTML = rows.map(function(w){
+        return '<tr><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.industry||"") + '</span></td>' +
+          '<td>' + w.price + '</td>' +
+          '<td>' + (w.yield!==undefined? w.yield.toFixed(2)+"%" : "—") + '</td>' +
+          '<td class="' + cls(w.weekly) + '">' + pct(w.weekly) + '</td>' +
+          '<td>' + (w.drawdown===null||w.drawdown===undefined ? "—" : w.drawdown.toFixed(1)+"%") + '</td>' +
+          '<td class="hide-sm">' + money(w.mcap) + '</td></tr>';
+      }).join("");
+      var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
+      el("wl-note").textContent = "共 " + rows.length + " 只" + (q?("（已筛出 " + rows.length + " 只）"):"") +
+        "。回撤为“—”的是尚未核对 52 周最高价的票，每天凌晨检查时会补齐。";
+    }
+    el("q").addEventListener("input", renderList);
+    el("sort").addEventListener("change", renderList);
+    renderList();
+
+    /* ---- history ---- */
+    var histBox = el("history");
+    var hist = d.history || [];
+    if(!hist.length){
+      histBox.innerHTML = '<div class="empty">暂无历史记录。</div>';
+    } else {
+      histBox.innerHTML = hist.map(function(day){
+        var picks = (day.picks||[]).map(function(p){
+          return p.name + "（" + p.code + "）<span class='tag " + p.trigger + "'>" + triggerLabel(p.trigger) + "</span>";
+        }).join("、");
+        return '<div class="hist-item"><div class="hist-date">' + day.date + '</div>' +
+          '<div class="hist-picks">' + (picks || "当日无命中") + '</div></div>';
+      }).join("");
+    }
+  }).catch(function(err){
+    el("updated").textContent = "数据加载失败，请稍后刷新重试。";
+    el("hits").innerHTML = '<div class="err">页面数据（data.json）暂时无法读取，可能是首次部署还在生效中，稍后再打开看看。</div>';
+  });
+})();
+</script>
+</body>
+</html>
