@@ -441,7 +441,7 @@
 
     <section id="sec-e30-hits">
       <h2>可入场信号</h2>
-      <p class="sec-sub">两段式：第一段「关注」= 价格触发（回撤进 20%~40%，或近四周跌 ≥ 12%），只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日）。止盈/止损按每只 ETF 自己的历史动态计算（止盈 8.5%~53%，止损 3%~6%），建议持股 6–12 周。每天 6 点、12 点、18 点、0 点各更新一次。</p>
+      <p class="sec-sub">两段式：第一段「关注」= 价格触发（回撤进 20%~40%，或近四周跌 ≥ 12%），只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日）。没有固定止盈，改用移动止损：初始止损按每只 ETF 自己的历史算（3%~6%），入场后随最高收盘上移，收盘跌破即出场，12 周上限。每天 6 点、12 点、18 点、0 点各更新一次。</p>
       <div id="e30-hits"></div>
     </section>
 
@@ -514,7 +514,7 @@
 (function(){
   var taglines = {
     q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 4% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
-    e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，止盈/止损按每只 ETF 自己的历史动态计算，拿 6–12 周。'
+    e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。'
   };
   var tabs = document.querySelectorAll(".tab[data-view]");
   var views = { q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30") };
@@ -1062,21 +1062,25 @@
     var hitsRaw = d.hits || [];
     var setupsRaw = d.setups || [];
     var rules = (a && a.rules) || (meta.rules) || null;
-    /* per-ETF TP/SL: prefer the record itself, then rules.per_etf, then legacy uniform */
-    function tpSlFor(rec, code){
-      var tp, sl;
+    /* per-ETF stop: prefer the record itself, then rules.per_etf.
+       No fixed take-profit (trailing stop, 2026-11-10). Returns
+       {sl, trail}: sl = initial stop pct (each ETF's own MAE p90),
+       trail = trailing distance pct (1.5x sl). */
+    function stopFor(rec, code){
+      var sl, trail;
       if(rec){
-        if(rec.target_pct!==undefined) tp = rec.target_pct;
         if(rec.stop_pct!==undefined) sl = rec.stop_pct;
+        if(rec.trail_pct!==undefined) trail = rec.trail_pct;
       }
-      if((tp===undefined||sl===undefined) && rules && rules.per_etf && rules.per_etf[code]){
+      if((sl===undefined||trail===undefined) && rules && rules.per_etf && rules.per_etf[code]){
         var pe = rules.per_etf[code];
-        if(tp===undefined && pe.target_pct!==undefined) tp = pe.target_pct;
         if(sl===undefined && pe.stop_pct!==undefined) sl = pe.stop_pct;
       }
-      if(tp===undefined && rules && rules.target_pct!==undefined) tp = rules.target_pct;
-      if(sl===undefined && rules && rules.stop_pct!==undefined) sl = rules.stop_pct;
-      return {tp: tp, sl: sl};
+      if(trail===undefined && sl!==undefined){
+        var tm = (rules && rules.trailing_stop && rules.trailing_stop.trail_multiplier!==undefined) ? rules.trailing_stop.trail_multiplier : 1.5;
+        trail = Math.round(sl * tm * 100) / 100;
+      }
+      return {sl: sl, trail: trail};
     }
     function fmtPct(v){ return (v===undefined||v===null) ? "—" : (v%1===0 ? String(v) : String(v)); }
     var etfs = (a && a.etfs) || [];
@@ -1139,9 +1143,9 @@
     } else {
       hitsBox.innerHTML = hits.map(function(h){
         var tc = triggerCode(h.trigger);
-        var tpsl = tpSlFor(h, h.code);
-        var stop = (tpsl.sl!==undefined && h.price!==undefined && h.price!==null) ? (h.price*(1-tpsl.sl/100)).toFixed(3) : "—";
-        var target = (tpsl.tp!==undefined && h.price!==undefined && h.price!==null) ? (h.price*(1+tpsl.tp/100)).toFixed(3) : "—";
+        var sf = stopFor(h, h.code);
+        var stop = (h.initial_stop_price!==undefined && h.initial_stop_price!==null) ? h.initial_stop_price : ((sf.sl!==undefined && h.price!==undefined && h.price!==null) ? (h.price*(1-sf.sl/100)).toFixed(3) : "—");
+        var trailNow = (h.trailing_stop_now!==undefined && h.trailing_stop_now!==null) ? h.trailing_stop_now : "—";
         var rev = (h.bounce_pct!==undefined && h.days_since_low!==undefined)
           ? '<div class="hit-reversal">反转已确认：较 20 日低点反弹 ' + h.bounce_pct.toFixed(1) + '%，低点距今 ' + h.days_since_low + ' 日（≥10 日盘整）</div>' : '';
         return '<article class="hit ' + (tc==="both"?"both":"") + '" data-code="' + h.code + '">' +
@@ -1153,9 +1157,9 @@
             '<div class="metric"><div class="k">现价</div><div class="v">' + (h.price!==undefined&&h.price!==null?h.price:"—") + ' <small>元</small></div></div>' +
             '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(h.drawdown,1) + '</div></div>' +
             '<div class="metric"><div class="k">近四周</div><div class="v">' + pct(h.drop4w) + '</div></div>' +
-            '<div class="metric"><div class="k">止损价' + (tpsl.sl!==undefined ? '（-' + fmtPct(tpsl.sl) + '%）' : '') + '</div><div class="v">' + stop + ' <small>元</small></div></div>' +
-            '<div class="metric"><div class="k">止盈价' + (tpsl.tp!==undefined ? '（+' + fmtPct(tpsl.tp) + '%）' : '') + '</div><div class="v">' + target + ' <small>元</small></div></div>' +
-            '<div class="metric"><div class="k">建议持股</div><div class="v">' + (rules ? rules.holding_weeks[0]+"–"+rules.holding_weeks[1]+" 周" : "—") + '</div></div>' +
+            '<div class="metric"><div class="k">初始止损' + (sf.sl!==undefined ? '（-' + fmtPct(sf.sl) + '%）' : '') + '</div><div class="v">' + stop + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">移动止损位</div><div class="v">' + trailNow + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">跟随距离</div><div class="v">' + (sf.trail!==undefined ? fmtPct(sf.trail) + '%' : "—") + '</div></div>' +
           '</div>' +
           rev +
           (h.reason ? '<div class="hit-reason">' + h.reason + '</div>' : '') +
@@ -1201,20 +1205,22 @@
       var lowWin = (s2.low_window_days !== undefined) ? s2.low_window_days : 20;
       var consMin = (s2.consolidation_min_days !== undefined) ? s2.consolidation_min_days : 10;
       var pe = rules.per_etf || {};
-      var tpVals = [], slVals = [];
-      for(var pk in pe){ if(pe[pk].target_pct!==undefined) tpVals.push(pe[pk].target_pct); if(pe[pk].stop_pct!==undefined) slVals.push(pe[pk].stop_pct); }
-      var tpRange = tpVals.length ? (Math.min.apply(null,tpVals) + "%~" + Math.max.apply(null,tpVals) + "%") : "—";
+      var slVals = [], trailVals = [];
+      var tsR = rules.trailing_stop || {};
+      var trailMult = (tsR.trail_multiplier!==undefined) ? tsR.trail_multiplier : 1.5;
+      for(var pk in pe){ if(pe[pk].stop_pct!==undefined){ slVals.push(pe[pk].stop_pct); trailVals.push(Math.round(pe[pk].stop_pct * trailMult * 100) / 100); } }
       var slRange = slVals.length ? (Math.min.apply(null,slVals) + "%~" + Math.max.apply(null,slVals) + "%") : "—";
-      var tpGe30 = tpVals.filter(function(v){ return v>=30; }).length;
+      var trailRange = trailVals.length ? (Math.min.apply(null,trailVals) + "%~" + Math.max.apply(null,trailVals) + "%") : "—";
+      var bt = tsR.backtest || {};
       rulesBox.innerHTML = '<ol>' +
         '<li><b>两段式信号</b>：第一段「关注」= 价格触发（回撤进带子或近四周跌超门槛），只是观察、不是入场；第二段「可入场」= 关注 + 反转确认——较 ' + lowWin + ' 日最低收盘反弹 ≥ ' + bounceMin + '%，且低点距今 ≥ ' + consMin + ' 个交易日（底部盘整至少两周）。</li>' +
         '<li><b>触发宽度</b>：关注只数 / 30。≥ ' + Math.round(bHigh*100) + '% 为「整体退潮」（系统性下跌，信号大多只是观察）；≤ ' + Math.round(bLow*100) + '% 为「个别机会」。今天宽度 ' + nStage1 + '/30（' + Math.round(breadth*100) + '%）— ' + breadthLabel + '。</li>' +
         '<li><b>入场回撤 ' + rules.drawdown_band[0] + '%~' + rules.drawdown_band[1] + '%</b>（容差后执行 ' + rules.drawdown_exec[0] + '%~' + rules.drawdown_exec[1] + '%）：波段起点回撤中位 ' + (sup.drawdown_median!==undefined?sup.drawdown_median+"%":"—") + '，上四分位 ' + (sup.drawdown_q3!==undefined?sup.drawdown_q3+"%":"—") + '。</li>' +
         '<li><b>入场近四周跌幅 ≥ ' + rules.drop4w_min + '%</b>（容差后执行 ≥ ' + rules.drop4w_exec + '%）：波段起点前 4 周跌幅中位 ' + (sup.drop4w_median!==undefined?sup.drop4w_median+"%":"—") + '。</li>' +
         '<li><b>或关系</b>：满足任一时机即价格触发。</li>' +
-        '<li><b>止损：按每只 ETF 自己的历史动态计算</b>（30 只：' + slRange + '）：取该 ETF 入场后不利移动 p90，高于 90% 的正常回落。汇合不利移动 p90 为 ' + (sup.mae_p90!==undefined?sup.mae_p90+"%":"—") + '。</li>' +
-        '<li><b>止盈：按每只 ETF 自己的历史动态计算</b>（30 只：' + tpRange + '，其中 ' + tpGe30 + ' 只 ≥ 30%）：取该 ETF 入场→高点涨幅的下四分位 / 中位 / 上四分位中期望收益最好者；波动大的 ETF 止盈放宽，波动小的收紧。低于 30% 的是因该 ETF 自身典型波段幅度小（见每只 ETF 的弹窗）。</li>' +
-        '<li><b>建议持股 ' + rules.holding_weeks[0] + '–' + rules.holding_weeks[1] + ' 周</b>：上涨波段时长中位 ' + (sup.up_duration_median!==undefined?sup.up_duration_median+" 周":"—") + '，上四分位 ' + (sup.up_duration_q3!==undefined?sup.up_duration_q3+" 周":"—") + '。先到先走：到了止盈就走，没到止盈、到了上限就重新评估。</li>' +
+        '<li><b>初始止损：按每只 ETF 自己的历史动态计算</b>（30 只：' + slRange + '）：取该 ETF 入场后不利移动 p90，高于 90% 的正常回落。汇合不利移动 p90 为 ' + (sup.mae_p90!==undefined?sup.mae_p90+"%":"—") + '。</li>' +
+        '<li><b>移动止损：没有固定止盈</b>。入场后跟踪自入场以来的最高日收盘价 H，移动止损 = H × (1 − 跟随距离)，只上移不下移；当日收盘跌破移动止损即按当日收盘出场。跟随距离 = 1.5 × 该 ETF 自己的止损（30 只：' + trailRange + '）。回测 303 个上涨波段：出场收益中位 ' + (bt.exit_return_median_pct!==undefined?bt.exit_return_median_pct+"%":"—") + '，胜率 ' + (bt.win_rate_pct!==undefined?bt.win_rate_pct+"%":"—") + '，期望收益 ' + (bt.exit_return_mean_pct!==undefined?bt.exit_return_mean_pct+"%":"—") + '（固定止盈首达口径期望收益 ' + (bt.fixed_tp_first_passage_ev_pct!==undefined?bt.fixed_tp_first_passage_ev_pct+"%":"—") + '）。</li>' +
+        '<li><b>持有上限 ' + (tsR.holding_cap_weeks!==undefined?tsR.holding_cap_weeks:12) + ' 周（60 个交易日）</b>：上涨波段时长中位 ' + (sup.up_duration_median!==undefined?sup.up_duration_median+" 周":"—") + '，上四分位 ' + (sup.up_duration_q3!==undefined?sup.up_duration_q3+" 周":"—") + '。到期未触发移动止损，按到期日收盘出场。回测里到期出场只占 ' + (bt.expiry_exit_pct!==undefined?bt.expiry_exit_pct+"%":"—") + '，平均收益 ' + (bt.expiry_avg_return_pct!==undefined?bt.expiry_avg_return_pct+"%":"—") + '。</li>' +
       '</ol>' +
       '<p class="pick">规则按 30 只 ETF 各自 5 年历史 pooled 算出（上涨波段 ' + ((a&&a.meta&&a.meta.n_up_swings!==undefined)?a.meta.n_up_swings:"—") + ' 个，下跌波段 ' + ((a&&a.meta&&a.meta.n_down_swings!==undefined)?a.meta.n_down_swings:"—") + ' 个，ZigZag 12%）。波段统计是历史平均，不保证未来。反转确认用 10 日盘整而不用 5 日：2026-11-10 的快照里 5 日版太松（24 只关注里 24 只都满足），改 10 日后只剩 5 只可入场。</p>';
     } else {
@@ -1363,15 +1369,15 @@
         html += '<div class="m-sec"><h4>前瞻趋势（定性，非价格信号）</h4><div class="m-note">' + tr.theme + ' · ' + tr.direction + '（信心 ' + tr.confidence + '）：' + tr.headline + '</div></div>';
       }
       if(rules){
-        var mt = tpSlFor(w, code);
-        var peM = (rules.per_etf && rules.per_etf[code]) || {};
-        var lvl = (e && e.tp_level) || peM.tp_level;
-        var hr = (e && e.tp_hit_rate_pct!==undefined ? e.tp_hit_rate_pct : peM.hit_rate_pct);
-        var evM = (e && e.tp_ev_pct!==undefined ? e.tp_ev_pct : peM.ev_pct);
-        var lvlTxt = lvl ? ('（取入场→高点涨幅' + (lvl==="q1"?"下四分位":(lvl==="med"?"中位":"上四分位")) + '）') : '';
-        var hrTxt = (hr!==undefined && hr!==null) ? ('，历史命中率 ' + hr + '%') : '';
-        var evTxt = (evM!==undefined && evM!==null) ? ('，期望收益 ' + evM + '%') : '';
-        html += '<div class="m-sec"><h4>止盈 / 止损（这只 ETF 自己的历史）</h4><div class="m-note">止盈 +' + fmtPct(mt.tp) + '%' + lvlTxt + hrTxt + evTxt + '；止损 -' + fmtPct(mt.sl) + '%（入场后不利移动 p90）。止盈/止损按每只 ETF 自己的 5 年波段历史动态计算，不是全市场统一数。入场回撤 ' + rules.drawdown_band[0] + '%~' + rules.drawdown_band[1] + '%，或近四周跌 ≥ ' + rules.drop4w_min + '%；建议持股 ' + rules.holding_weeks[0] + '–' + rules.holding_weeks[1] + ' 周。两段式：关注 = 价格触发（仅观察）；可入场 = 关注 + 反转确认（较 20 日低点反弹 ≥ 5% 且低点距今 ≥ 10 日）。</div></div>';
+        var mt = stopFor(w, code);
+        var tsR2 = rules.trailing_stop || {};
+        var bt2 = tsR2.backtest || {};
+        var rev2 = sig || h;
+        var trailNowTxt = "";
+        if(rev2 && rev2.trailing_stop_now!==undefined && rev2.trailing_stop_now!==null){
+          trailNowTxt = '当前移动止损位 ' + rev2.trailing_stop_now + ' 元' + (rev2.trailing_high!==undefined&&rev2.trailing_high!==null ? '（自 ' + (rev2.trailing_signal_date||"信号日") + ' 以来最高收盘 ' + rev2.trailing_high + ' 元）' : '') + '；';
+        }
+        html += '<div class="m-sec"><h4>移动止损（这只 ETF 自己的历史，没有固定止盈）</h4><div class="m-note">初始止损 -' + fmtPct(mt.sl) + '%（入场后不利移动 p90）；跟随距离 ' + fmtPct(mt.trail) + '%（1.5×止损）。入场后跟踪最高日收盘价 H，移动止损 = H × (1 − 跟随距离)，只上移不下移；收盘跌破即出场；12 周上限。' + trailNowTxt + '回测 303 个上涨波段：出场收益中位 ' + (bt2.exit_return_median_pct!==undefined?bt2.exit_return_median_pct+"%":"—") + '，胜率 ' + (bt2.win_rate_pct!==undefined?bt2.win_rate_pct+"%":"—") + '，期望收益 ' + (bt2.exit_return_mean_pct!==undefined?bt2.exit_return_mean_pct+"%":"—") + '。入场回撤 ' + rules.drawdown_band[0] + '%~' + rules.drawdown_band[1] + '%，或近四周跌 ≥ ' + rules.drop4w_min + '%。两段式：关注 = 价格触发（仅观察）；可入场 = 关注 + 反转确认（较 20 日低点反弹 ≥ 5% 且低点距今 ≥ 10 日）。</div></div>';
       }
       html += '<a class="m-link" href="' + east + '" target="_blank" rel="noopener">在东方财富查看实时行情 →</a>';
       modalBody.innerHTML = html;
