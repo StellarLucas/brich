@@ -1,0 +1,27 @@
+{
+  "index": "etf",
+  "generated_at": "2026-11-10T06:31:51+00:00",
+  "data_date": "2026-11-10",
+  "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
+  "rules": {
+    "derived_from": {
+      "n_stocks": 3,
+      "n_completed_swings": 68,
+      "n_up": 34,
+      "n_down": 34
+    },
+    "stop_loss_pct": 0.06,
+    "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
+    "take_profit_pct": 0.1,
+    "take_profit_note": "lower quartile (Q1) of entry-to-high gains, rounded down to the nearest 5%",
+    "holding_weeks_min": 7,
+    "holding_weeks_max": 27,
+    "holding_note": "median of all up-swing durations to Q3 of large-swing (>= 40% gain) durations"
+  },
+  "entry": [],
+  "vetoed": [],
+  "fund_buy": [],
+  "n_entry": 0,
+  "n_vetoed": 0,
+  "n_fund_buy": 0
+}
