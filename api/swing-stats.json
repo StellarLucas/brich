@@ -1,0 +1,312 @@
+{
+  "generated_at": "2026-11-10T06:31:51+00:00",
+  "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
+  "indexes": {
+    "q50": {
+      "data_date": "2026-11-10",
+      "computed_at": "2026-11-10T06:31:31+00:00",
+      "stats": {
+        "up_gain": {
+          "n": 205,
+          "mean": 0.6376,
+          "median": 0.4877,
+          "q1": 0.2935,
+          "q3": 0.8067
+        },
+        "down_loss": {
+          "n": 217,
+          "mean": 0.3103,
+          "median": 0.2956,
+          "q1": 0.2417,
+          "q3": 0.3609
+        },
+        "up_duration_weeks": {
+          "n": 205,
+          "mean": 26.6341,
+          "median": 13.4,
+          "q1": 6.6,
+          "q3": 38.6
+        },
+        "down_duration_weeks": {
+          "n": 217,
+          "mean": 21.4221,
+          "median": 18.1,
+          "q1": 7.4,
+          "q3": 28.0
+        },
+        "drawdown_at_swing_start": {
+          "n": 179,
+          "mean": 0.3089,
+          "median": 0.2942,
+          "q1": 0.2435,
+          "q3": 0.3608
+        },
+        "four_week_drop_at_swing_start": {
+          "n": 193,
+          "mean": -0.1294,
+          "median": -0.1176,
+          "q1": -0.1793,
+          "q3": -0.0678
+        },
+        "adverse_move_after_entry": {
+          "n": 205,
+          "mean": -0.0001,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0
+        },
+        "entry_to_high_gain": {
+          "n": 205,
+          "mean": 0.5276,
+          "median": 0.3873,
+          "q1": 0.2083,
+          "q3": 0.6764
+        },
+        "entry_to_high_duration_weeks": {
+          "n": 205,
+          "mean": 25.7484,
+          "median": 12.7143,
+          "q1": 6.0,
+          "q3": 38.2857
+        },
+        "mae_after_entry": {
+          "n": 205,
+          "mean": -0.0216,
+          "median": -0.0142,
+          "q1": -0.0387,
+          "q3": 0.0
+        },
+        "large_up_duration_weeks": {
+          "n": 130,
+          "mean": 36.5569,
+          "median": 26.8,
+          "q1": 11.175,
+          "q3": 47.25
+        },
+        "n_stocks": 50,
+        "n_completed_swings": 422,
+        "n_up": 205,
+        "n_down": 217
+      },
+      "rules": {
+        "derived_from": {
+          "n_stocks": 50,
+          "n_completed_swings": 422,
+          "n_up": 205,
+          "n_down": 217
+        },
+        "stop_loss_pct": 0.08,
+        "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
+        "take_profit_pct": 0.2,
+        "take_profit_note": "lower quartile (Q1) of entry-to-high gains, rounded down to the nearest 5%",
+        "holding_weeks_min": 13,
+        "holding_weeks_max": 47,
+        "holding_note": "median of all up-swing durations to Q3 of large-swing (>= 40% gain) durations"
+      }
+    },
+    "h100": {
+      "data_date": "2026-11-10",
+      "computed_at": "2026-11-10T06:31:32+00:00",
+      "stats": {
+        "up_gain": {
+          "n": 940,
+          "mean": 0.7765,
+          "median": 0.4914,
+          "q1": 0.3052,
+          "q3": 0.8418
+        },
+        "down_loss": {
+          "n": 903,
+          "mean": 0.3385,
+          "median": 0.3122,
+          "q1": 0.2548,
+          "q3": 0.4033
+        },
+        "up_duration_weeks": {
+          "n": 940,
+          "mean": 11.7328,
+          "median": 7.7,
+          "q1": 4.3,
+          "q3": 15.4
+        },
+        "down_duration_weeks": {
+          "n": 903,
+          "mean": 11.7225,
+          "median": 8.3,
+          "q1": 4.8,
+          "q3": 15.35
+        },
+        "drawdown_at_swing_start": {
+          "n": 876,
+          "mean": 0.3366,
+          "median": 0.3113,
+          "q1": 0.2532,
+          "q3": 0.3989
+        },
+        "four_week_drop_at_swing_start": {
+          "n": 877,
+          "mean": -0.1636,
+          "median": -0.1682,
+          "q1": -0.23,
+          "q3": -0.111
+        },
+        "adverse_move_after_entry": {
+          "n": 940,
+          "mean": -0.0001,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0
+        },
+        "entry_to_high_gain": {
+          "n": 940,
+          "mean": 0.6453,
+          "median": 0.3844,
+          "q1": 0.2077,
+          "q3": 0.7066
+        },
+        "entry_to_high_duration_weeks": {
+          "n": 940,
+          "mean": 11.1699,
+          "median": 7.1429,
+          "q1": 3.8571,
+          "q3": 14.8571
+        },
+        "mae_after_entry": {
+          "n": 940,
+          "mean": -0.0203,
+          "median": -0.011,
+          "q1": -0.0341,
+          "q3": 0.0
+        },
+        "large_up_duration_weeks": {
+          "n": 579,
+          "mean": 15.2694,
+          "median": 12.0,
+          "q1": 6.6,
+          "q3": 22.7
+        },
+        "n_stocks": 99,
+        "n_completed_swings": 1843,
+        "n_up": 940,
+        "n_down": 903
+      },
+      "rules": {
+        "derived_from": {
+          "n_stocks": 99,
+          "n_completed_swings": 1843,
+          "n_up": 940,
+          "n_down": 903
+        },
+        "stop_loss_pct": 0.08,
+        "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
+        "take_profit_pct": 0.2,
+        "take_profit_note": "lower quartile (Q1) of entry-to-high gains, rounded down to the nearest 5%",
+        "holding_weeks_min": 8,
+        "holding_weeks_max": 23,
+        "holding_note": "median of all up-swing durations to Q3 of large-swing (>= 40% gain) durations"
+      }
+    },
+    "etf": {
+      "data_date": "2026-11-10",
+      "computed_at": "2026-11-10T06:31:32+00:00",
+      "stats": {
+        "up_gain": {
+          "n": 34,
+          "mean": 0.3556,
+          "median": 0.2513,
+          "q1": 0.1933,
+          "q3": 0.4883
+        },
+        "down_loss": {
+          "n": 34,
+          "mean": 0.2304,
+          "median": 0.1966,
+          "q1": 0.1474,
+          "q3": 0.3131
+        },
+        "up_duration_weeks": {
+          "n": 34,
+          "mean": 10.9471,
+          "median": 7.35,
+          "q1": 5.7,
+          "q3": 14.725
+        },
+        "down_duration_weeks": {
+          "n": 34,
+          "mean": 11.1882,
+          "median": 8.0,
+          "q1": 4.925,
+          "q3": 14.35
+        },
+        "drawdown_at_swing_start": {
+          "n": 33,
+          "mean": 0.2259,
+          "median": 0.1948,
+          "q1": 0.1466,
+          "q3": 0.2991
+        },
+        "four_week_drop_at_swing_start": {
+          "n": 33,
+          "mean": -0.1137,
+          "median": -0.1213,
+          "q1": -0.1734,
+          "q3": -0.0681
+        },
+        "adverse_move_after_entry": {
+          "n": 34,
+          "mean": 0.0,
+          "median": 0.0,
+          "q1": 0.0,
+          "q3": 0.0
+        },
+        "entry_to_high_gain": {
+          "n": 34,
+          "mean": 0.2689,
+          "median": 0.178,
+          "q1": 0.1184,
+          "q3": 0.3765
+        },
+        "entry_to_high_duration_weeks": {
+          "n": 34,
+          "mean": 10.0546,
+          "median": 6.6429,
+          "q1": 4.1429,
+          "q3": 12.2857
+        },
+        "mae_after_entry": {
+          "n": 34,
+          "mean": -0.0115,
+          "median": -0.0041,
+          "q1": -0.0175,
+          "q3": 0.0
+        },
+        "large_up_duration_weeks": {
+          "n": 10,
+          "mean": 15.12,
+          "median": 10.3,
+          "q1": 7.0,
+          "q3": 27.075
+        },
+        "n_stocks": 3,
+        "n_completed_swings": 68,
+        "n_up": 34,
+        "n_down": 34
+      },
+      "rules": {
+        "derived_from": {
+          "n_stocks": 3,
+          "n_completed_swings": 68,
+          "n_up": 34,
+          "n_down": 34
+        },
+        "stop_loss_pct": 0.06,
+        "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
+        "take_profit_pct": 0.1,
+        "take_profit_note": "lower quartile (Q1) of entry-to-high gains, rounded down to the nearest 5%",
+        "holding_weeks_min": 7,
+        "holding_weeks_max": 27,
+        "holding_note": "median of all up-swing durations to Q3 of large-swing (>= 40% gain) durations"
+      }
+    }
+  }
+}
