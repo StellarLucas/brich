@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-11-10 07:07",
+    "generated": "2026-11-10 15:20",
     "data_date": "2026-11-10",
     "method": "ZigZag 12% on forward-adjusted daily closes; pooled across the 30 ETFs; only completed swings counted",
     "n_up_swings": 303,
