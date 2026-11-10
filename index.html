@@ -183,6 +183,39 @@
   footer{margin-top:2.4rem; font-size:.78rem; color:var(--muted); border-top:1px solid var(--line); padding-top:1rem}
   footer p{margin:.3rem 0}
   .err{background:#fdf0ef; color:#8c2f26; border:1px solid #f0c9c4; border-radius:10px; padding:.8rem 1rem; font-size:.9rem}
+
+  /* ---------- first-screen compact + clickable ---------- */
+  header{padding:1.1rem 0 0}
+  .wordmark{font-size:2.1rem}
+  .tagline{margin:.35rem 0 0; font-size:.95rem}
+  .goldrule{margin:.8rem 0 0}
+  .stats{margin:.8rem 0 0}
+  section{margin-top:1.4rem}
+  .stat{cursor:pointer}
+  .hit, .rank-row, #wl tr{cursor:pointer}
+  .hit:active, .rank-row:active, #wl tr:active{background:#faf8f1}
+  /* stock detail modal (bottom sheet on phones, centered card on desktop) */
+  .modal{position:fixed; inset:0; z-index:50; display:none}
+  .modal.open{display:block}
+  .modal-backdrop{position:absolute; inset:0; background:rgba(20,30,24,.55)}
+  .modal-card{position:absolute; left:0; right:0; bottom:0; max-height:88vh; overflow:auto;
+    background:#fff; border-radius:18px 18px 0 0; padding:1.1rem 1.1rem calc(1.4rem + env(safe-area-inset-bottom));
+    box-shadow:0 -8px 30px rgba(0,0,0,.25)}
+  @media (min-width:720px){
+    .modal-card{left:50%; right:auto; bottom:auto; top:50%; transform:translate(-50%,-50%);
+      width:640px; max-height:86vh; border-radius:18px}
+  }
+  .modal-close{position:absolute; top:.6rem; right:.8rem; width:2rem; height:2rem; border-radius:50%;
+    border:1px solid var(--line); background:#fff; font-size:1.2rem; line-height:1; cursor:pointer; color:var(--muted)}
+  .modal h3{margin:.2rem 2rem .1rem 0; font-size:1.25rem}
+  .modal .m-sub{font-size:.85rem; color:var(--muted); margin:.1rem 0 .8rem}
+  .modal .m-sec{margin-top:.9rem}
+  .modal .m-sec h4{margin:0 0 .3rem; font-size:.85rem; color:var(--muted); letter-spacing:.03em}
+  .modal .m-kv{display:grid; grid-template-columns:repeat(3,1fr); gap:.5rem}
+  .modal .m-kv .k{font-size:.72rem; color:var(--muted)}
+  .modal .m-kv .v{font-size:1rem; font-weight:700}
+  .modal .m-note{font-size:.9rem; background:#faf8f1; border-radius:8px; padding:.6rem .7rem}
+  .modal .m-link{display:inline-block; margin-top:1rem; font-weight:700}
 </style>
 </head>
 <body>
@@ -196,10 +229,10 @@
   </header>
 
   <div class="stats">
-    <div class="stat"><div class="num" id="stat-hits">—</div><div class="lbl">今日入场</div></div>
-    <div class="stat"><div class="num" id="stat-value">—</div><div class="lbl">入场区只数</div></div>
-    <div class="stat"><div class="num" id="stat-yield">—</div><div class="lbl">平均股息率</div></div>
-    <div class="stat"><div class="num" id="stat-count">50</div><div class="lbl">观察名单</div></div>
+    <div class="stat" data-goto="sec-hits"><div class="num" id="stat-hits">—</div><div class="lbl">今日入场</div></div>
+    <div class="stat" data-goto="discount-list"><div class="num" id="stat-value">—</div><div class="lbl">入场区只数</div></div>
+    <div class="stat" data-goto="wl"><div class="num" id="stat-yield">—</div><div class="lbl">平均股息率</div></div>
+    <div class="stat" data-goto="wl"><div class="num" id="stat-count">50</div><div class="lbl">观察名单</div></div>
   </div>
 
   <section id="sec-hits">
@@ -365,6 +398,14 @@
   </footer>
 </div>
 
+<div class="modal" id="stock-modal" aria-hidden="true">
+  <div class="modal-backdrop" id="modal-backdrop"></div>
+  <div class="modal-card" role="dialog" aria-modal="true">
+    <button class="modal-close" id="modal-close" aria-label="关闭">×</button>
+    <div id="modal-body"></div>
+  </div>
+</div>
+
 <script>
 (function(){
   var el = function(id){ return document.getElementById(id); };
@@ -384,6 +425,14 @@
     if(n>=10000) return (n/10000).toFixed(2)+" 万";
     return Math.round(n).toLocaleString("zh-CN");
   }
+
+  /* stat chips jump to their sections */
+  document.querySelectorAll(".stat[data-goto]").forEach(function(s){
+    s.addEventListener("click", function(){
+      var t = document.getElementById(s.getAttribute("data-goto"));
+      if(t) t.scrollIntoView({behavior:"smooth", block:"start"});
+    });
+  });
 
   Promise.all([
     fetch("data.json", {cache:"no-store"}).then(function(r){
@@ -440,25 +489,19 @@
       var h = hitByCode(sig.code);
       var w = wlByCode(sig.code) || {};
       var price = h ? h.price : w.price;
-      var high52 = h ? h.high52 : null;
       var drawdown = h ? h.drawdown : w.drawdown;
-      var weekly = h ? h.weekly : w.weekly;
       var yieldV = h ? h.yield : w.yield;
-      var mcap = h ? h.mcap : w.mcap;
       var tc = triggerCode(sig.price_trigger || sig.trigger);
       var badges = badge(tc) + (vetoedFlag ? ' <span class="badge vetoed">基本面已否决</span>' : '');
-      return '<article class="hit ' + (tc==="both"?"both":"") + (vetoedFlag?" vetoed":"") + '">' +
+      return '<article class="hit ' + (tc==="both"?"both":"") + (vetoedFlag?" vetoed":"") + '" data-code="' + sig.code + '">' +
         '<div class="hit-head"><span class="hit-name">' + sig.name + '</span>' +
         '<span class="hit-code">' + sig.code + '</span>' +
         '<span class="hit-ind">' + (sig.industry || (h&&h.industry) || "") + '</span>' +
         '<span class="badges">' + badges + '</span></div>' +
         '<div class="metrics">' +
           '<div class="metric"><div class="k">现价</div><div class="v">' + (price!==undefined&&price!==null?price:"—") + ' <small>元</small></div></div>' +
-          '<div class="metric"><div class="k">52周最高</div><div class="v">' + (high52||"—") + ' <small>元</small></div></div>' +
           '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(drawdown,1) + '</div></div>' +
-          '<div class="metric"><div class="k">近一周</div><div class="v ' + cls(weekly) + '">' + pct(weekly) + '</div></div>' +
           '<div class="metric"><div class="k">股息率</div><div class="v">' + (yieldV!==undefined&&yieldV!==null? yieldV.toFixed(2)+"%" : "—") + '</div></div>' +
-          '<div class="metric"><div class="k">总市值</div><div class="v">' + money(mcap) + '</div></div>' +
         '</div>' +
         (sig.reason ? '<div class="hit-reason">' + sig.reason + '</div>' : '') +
         (sig.outlook ? '<div class="hit-outlook">' + sig.outlook + '</div>' : '') +
@@ -493,7 +536,7 @@
         var fv = (s.fair_value!==null&&s.fair_value!==undefined) ? s.fair_value + " 元" : "—";
         var star = (s.morningstar_star!==null&&s.morningstar_star!==undefined) ? s.morningstar_star + " 星" : "—";
         var pfv = (s.price_to_fv!==null&&s.price_to_fv!==undefined) ? s.price_to_fv.toFixed(2) : "—";
-        return '<article class="hit">' +
+        return '<article class="hit" data-code="' + s.code + '">' +
           '<div class="hit-head"><span class="hit-name">' + s.name + '</span>' +
           '<span class="hit-code">' + s.code + '</span>' +
           '<span class="hit-ind">' + (s.industry||"") + '</span>' +
@@ -525,7 +568,7 @@
         var deep = w.drawdown>=27 ? "deep" : "";
         var tag = hitSet[w.code] ? '<span class="rank-tag ok">可入场</span>' :
                   ((w.yield!==undefined && w.yield<=4) ? '<span class="rank-tag no">股息不足</span>' : '');
-        return '<div class="rank-row"><div class="rank-no' + (i<3?" top":"") + '">' + (i+1) + '</div>' +
+        return '<div class="rank-row" data-code="' + w.code + '"><div class="rank-no' + (i<3?" top":"") + '">' + (i+1) + '</div>' +
           '<div class="rank-main"><div class="rank-name">' + w.name + '<span>' + w.code + ' · ' + (w.industry||"") + '</span></div>' +
           '<div class="rank-bar"><i class="' + deep + '" style="width:' + barW.toFixed(0) + '%"></i></div></div>' +
           '<div class="rank-val"><div class="big">' + w.drawdown.toFixed(1) + '%' + tag + '</div>' +
@@ -544,7 +587,7 @@
     } else {
       dropBox.innerHTML = drops.map(function(w,i){
         var barW = Math.max(4, Math.min(100, Math.abs(w.weekly)/12*100));
-        return '<div class="rank-row"><div class="rank-no">' + (i+1) + '</div>' +
+        return '<div class="rank-row" data-code="' + w.code + '"><div class="rank-no">' + (i+1) + '</div>' +
           '<div class="rank-main"><div class="rank-name">' + w.name + '<span>' + w.code + ' · ' + (w.industry||"") + '</span></div>' +
           '<div class="rank-bar"><i style="width:' + barW.toFixed(0) + '%; background:linear-gradient(90deg,#1e8e5a,#34a853)"></i></div></div>' +
           '<div class="rank-val"><div class="big down">' + pct(w.weekly) + '</div>' +
@@ -567,7 +610,7 @@
         return (b.mcap||0)-(a.mcap||0);
       });
       el("wl").innerHTML = rows.map(function(w){
-        return '<tr><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.industry||"") + '</span></td>' +
+        return '<tr data-code="' + w.code + '"><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.industry||"") + '</span></td>' +
           '<td>' + w.price + '</td>' +
           '<td class="' + (w.yield>4?"y-ok":(w.yield!==undefined?"y-low":"")) + '">' + (w.yield!==undefined? w.yield.toFixed(2)+"%" : "—") + '</td>' +
           '<td class="' + cls(w.weekly) + '">' + pct(w.weekly) + '</td>' +
@@ -632,6 +675,97 @@
       });
     });
     renderNews("全部");
+
+    /* ---- stock detail modal ---- */
+    var modal = el("stock-modal");
+    var modalBody = el("modal-body");
+    function stockOf(code){
+      if(!a || !a.stocks) return null;
+      for(var i=0;i<a.stocks.length;i++){ if(a.stocks[i].code===code) return a.stocks[i]; }
+      return null;
+    }
+    function industryOf(name){
+      if(!a || !a.industries) return null;
+      for(var i=0;i<a.industries.length;i++){ if(a.industries[i].name===name) return a.industries[i]; }
+      return null;
+    }
+    function signalOf(code){
+      for(var i=0;i<signals.length;i++){ if(signals[i].code===code) return signals[i]; }
+      return null;
+    }
+    function verdictBadge(v){
+      if(v==="可买入") return '<span class="badge both">可买入</span>';
+      if(v==="等待") return '<span class="badge drawdown">等待</span>';
+      return '<span class="badge vetoed">不买</span>';
+    }
+    function openStock(code){
+      var s = stockOf(code);
+      var w = wlByCode(code) || {};
+      var h = hitByCode(code);
+      var sig = signalOf(code);
+      var name = s ? s.name : (h ? h.name : (w.name || code));
+      var ind = s ? s.industry : (w.industry || (h && h.industry) || "");
+      var indAn = industryOf(ind);
+      var east = (code.charAt(0)==="6")
+        ? "https://quote.eastmoney.com/sh" + code + ".html"
+        : "https://quote.eastmoney.com/sz" + code + ".html";
+      var html = '<h3>' + name + '</h3>' +
+        '<div class="m-sub">' + code + (ind ? ' · ' + ind : '') + '</div>' +
+        '<div>' + (s ? verdictBadge(s.verdict) : '') +
+        (s && s.moat ? ' <span class="badge drawdown">' + s.moat + '护城河</span>' : '') +
+        (sig ? ' ' + badge(triggerCode(sig.price_trigger || sig.trigger)) + (sig.entry ? '' : ' <span class="badge vetoed">基本面已否决</span>') : '') + '</div>' +
+        '<div class="m-sec"><h4>价格</h4><div class="m-kv">' +
+          '<div><div class="k">现价</div><div class="v">' + (w.price!==undefined&&w.price!==null?w.price:"—") + ' 元</div></div>' +
+          '<div><div class="k">52周最高</div><div class="v">' + (h && h.high52 ? h.high52 + ' 元' : '—') + '</div></div>' +
+          '<div><div class="k">回撤</div><div class="v">' + pct(w.drawdown,1) + '</div></div>' +
+          '<div><div class="k">近一周</div><div class="v">' + pct(w.weekly) + '</div></div>' +
+          '<div><div class="k">股息率</div><div class="v">' + (w.yield!==undefined&&w.yield!==null? w.yield.toFixed(2)+"%" : "—") + '</div></div>' +
+          '<div><div class="k">总市值</div><div class="v">' + money(w.mcap) + '</div></div>' +
+        '</div></div>';
+      if(s){
+        html += '<div class="m-sec"><h4>基本面</h4><div class="m-kv">' +
+          '<div><div class="k">ROE 十年均值</div><div class="v">' + (s.roe_10y_avg!==null&&s.roe_10y_avg!==undefined? s.roe_10y_avg.toFixed(1)+"%" : "—") + '</div></div>' +
+          '<div><div class="k">分红率</div><div class="v">' + (s.payout_ratio!==null&&s.payout_ratio!==undefined? s.payout_ratio.toFixed(1)+"%" : "—") + '</div></div>' +
+          '<div><div class="k">十年分红</div><div class="v">' + (s.dividend_10y_no_cut===true?"无削减":(s.dividend_10y_no_cut===false?"有削减":"—")) + '</div></div>' +
+          '<div><div class="k">晨星评级</div><div class="v">' + (s.morningstar_star!==null&&s.morningstar_star!==undefined? s.morningstar_star+" 星" : "—") + '</div></div>' +
+          '<div><div class="k">公允价值</div><div class="v">' + (s.fair_value!==null&&s.fair_value!==undefined? s.fair_value+" 元" : "—") + '</div></div>' +
+          '<div><div class="k">P / 公允价值</div><div class="v">' + (s.price_to_fv!==null&&s.price_to_fv!==undefined? s.price_to_fv.toFixed(2) : "—") + '</div></div>' +
+        '</div></div>' +
+        (s.note ? '<div class="m-sec"><h4>分析</h4><div class="m-note">' + s.note + '</div></div>' : '');
+      }
+      if(sig){
+        html += '<div class="m-sec"><h4>本次信号</h4><div class="m-note">' + sig.reason + '</div>' +
+          (sig.outlook ? '<div class="hit-outlook">' + sig.outlook + '</div>' : '') + '</div>';
+      }
+      if(indAn){
+        html += '<div class="m-sec"><h4>行业 · ' + indAn.name + '</h4><div class="m-note">' +
+          '生命周期：' + (indAn.lifecycle||"—") + '；持久性：' + (indAn.durability||"—") + '。' +
+          (indAn.outlook ? indAn.outlook : '') + '</div></div>';
+      }
+      html += '<a class="m-link" href="' + east + '" target="_blank" rel="noopener">在东方财富查看实时行情 →</a>';
+      modalBody.innerHTML = html;
+      modal.classList.add("open");
+      modal.setAttribute("aria-hidden","false");
+      document.body.style.overflow = "hidden";
+    }
+    function closeStock(){
+      modal.classList.remove("open");
+      modal.setAttribute("aria-hidden","true");
+      document.body.style.overflow = "";
+    }
+    el("modal-close").addEventListener("click", closeStock);
+    el("modal-backdrop").addEventListener("click", closeStock);
+    document.addEventListener("keydown", function(e){ if(e.key==="Escape") closeStock(); });
+    function bindTap(containerId){
+      var box = el(containerId);
+      if(!box) return;
+      box.addEventListener("click", function(e){
+        var t = e.target.closest("[data-code]");
+        if(t) openStock(t.getAttribute("data-code"));
+      });
+    }
+    bindTap("hits"); bindTap("vetoed"); bindTap("fundbuy");
+    bindTap("discount-list"); bindTap("drop-list"); bindTap("wl");
   }).catch(function(err){
     el("updated").textContent = "数据加载失败，请稍后刷新重试。";
     el("hits").innerHTML = '<div class="err">页面数据（data.json）暂时无法读取，可能是首次部署还在生效中，稍后再打开看看。</div>';
