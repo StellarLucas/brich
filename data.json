@@ -1,1 +1,667 @@
-{"history":[{"date":"2026-11-09","picks":[{"code":"600938","name":"中国海油","trigger":"both"},{"code":"000858","name":"五粮液","trigger":"drawdown"},{"code":"600809","name":"山西汾酒","trigger":"drawdown"},{"code":"601857","name":"中国石油","trigger":"weekly"}]}],"hits":[{"code":"600938","drawdown":30.2,"high52":44.54,"industry":"石油开采","mcap":14767.56,"name":"中国海油","price":31.07,"reason":"回撤约30%（52周最高44.54元）且近一周跌11.88%，两个条件同时满足；前三季度净利增长16.8%，这波跌主要受国际油价大跌拖累。","trigger":"both","weekly":-11.88,"yield":4.16},{"code":"000858","drawdown":35.9,"high52":116.59,"industry":"白酒","mcap":2901.11,"name":"五粮液","price":74.74,"reason":"相对52周高点回撤约36%，股息率6.90%是名单里最高的之一；本周微涨0.66%，不属于急跌。","trigger":"drawdown","weekly":0.66,"yield":6.9},{"code":"600809","drawdown":33.7,"high52":197.02,"industry":"白酒","mcap":1593.27,"name":"山西汾酒","price":130.6,"reason":"相对52周高点回撤约34%，白酒板块整体偏弱，本周基本横盘（-0.27%）。","trigger":"drawdown","weekly":-0.27,"yield":5.02},{"code":"601857","drawdown":5.7,"high52":13.38,"industry":"石油开采","mcap":23097.25,"name":"中国石油","price":12.62,"reason":"近一周跌9.99%，触发急跌条件；但回撤只有约6%（10月26日刚创2008年以来新高），不属于深度回撤。","trigger":"weekly","weekly":-9.99,"yield":4.04}],"meta":{"avg_yield":4.3,"data_date":"2026-11-09","data_date_label":"2026年11月9日收盘","title":"BRICH · 长期持有构建复利","updated_at":"2026-11-10 10:50","watchlist_name":"q50"},"news":[{"id":"20261105-oil","date":"2026-11-05","title":"美伊谈判缓和，国际油价单日暴跌超10%","summary":"布伦特原油单日跌超10%失守100美元，WTI跌超9%；此前11月2日已大跌约7.6%。三桶油股价承压，中国海油近一周跌11.88%、中国石油跌9.99%。","category":"行业动态","impact":"high","direction":"negative","stocks":["600938","601857","600028"],"source":"新浪财经"},{"id":"20261103-baijiu-yield","date":"2026-11-03","title":"白酒板块股息率站上4%，头部酒企成高股息资产","summary":"截至11月2日，申万白酒指数股息率4.16%，较10年期国债利差2.52个百分点，处历史高位；五粮液约6.8%、山西汾酒约5.0%。","category":"行业动态","impact":"medium","direction":"positive","stocks":["000858","600809","600519"],"source":"东方财富"},{"id":"20261103-wuliangye-div","date":"2026-11-03","title":"五粮液承诺24—26年分红率不低于70%","summary":"五粮液承诺2024—2026年分红率不低于70%、现金分红不低于200亿元。","category":"公司要闻","impact":"medium","direction":"positive","stocks":["000858"],"source":"发现报告"}],"rules":{"condition_a":"相对52周最高价回撤30%~50%（容差后执行区间27%~55%）","condition_b":"近一周（5个交易日）跌幅≥10%（容差后执行下限9%）","logic":"或关系：先过股息率 > 4% 的门槛，再满足任一时机即命中","pick":"每天最多报一只：优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的；同一只3天内不重复报；入选的必须先过股息率 4% 的门槛","universe":"沪深300成分、股息率≥3%、按总市值取前50只权重高分红股","yield_gate":"入场门槛：股息率 > 4% 才作为入场选择；低于 4% 的不作为入场选择"},"watchlist":[{"code":"601398","drawdown":3.0,"industry":"银行","mcap":30686.58,"name":"工商银行","price":8.61,"weekly":-0.92,"yield":3.72},{"code":"601288","drawdown":null,"industry":"银行","mcap":25863.75,"name":"农业银行","price":7.39,"weekly":-1.07,"yield":3.51},{"code":"601857","drawdown":5.7,"industry":"石油开采","mcap":23097.25,"name":"中国石油","price":12.62,"weekly":-9.99,"yield":4.04},{"code":"601988","drawdown":null,"industry":"银行","mcap":22554.87,"name":"中国银行","price":7.0,"weekly":-0.57,"yield":3.23},{"code":"600941","drawdown":null,"industry":"电信运营","mcap":22359.83,"name":"中国移动","price":103.03,"weekly":0.18,"yield":4.57},{"code":"600519","drawdown":6.2,"industry":"白酒","mcap":18063.55,"name":"贵州茅台","price":1444.99,"weekly":0.41,"yield":3.6},{"code":"600938","drawdown":30.2,"industry":"石油开采","mcap":14767.56,"name":"中国海油","price":31.07,"weekly":-11.88,"yield":4.16},{"code":"300750","drawdown":46.8,"industry":"电气设备","mcap":11505.19,"name":"宁德时代","price":248.64,"weekly":3.52,"yield":3.34},{"code":"600036","drawdown":null,"industry":"银行","mcap":10847.06,"name":"招商银行","price":43.01,"weekly":-0.39,"yield":4.69},{"code":"601088","drawdown":4.8,"industry":"煤炭开采","mcap":10751.45,"name":"中国神华","price":49.57,"weekly":-4.38,"yield":4.05},{"code":"601318","drawdown":24.3,"industry":"保险","mcap":9886.77,"name":"中国平安","price":54.6,"weekly":2.79,"yield":5.0},{"code":"601328","drawdown":null,"industry":"银行","mcap":7466.74,"name":"交通银行","price":8.45,"weekly":-1.4,"yield":3.84},{"code":"600900","drawdown":null,"industry":"水力发电","mcap":7298.87,"name":"长江电力","price":29.83,"weekly":1.12,"yield":3.35},{"code":"600028","drawdown":null,"industry":"石油加工","mcap":7001.44,"name":"中国石化","price":5.8,"weekly":-1.69,"yield":3.74},{"code":"000333","drawdown":0.1,"industry":"家用电器","mcap":6851.02,"name":"美的集团","price":89.79,"weekly":2.43,"yield":4.69},{"code":"601658","drawdown":null,"industry":"银行","mcap":6749.34,"name":"邮储银行","price":5.62,"weekly":-1.75,"yield":3.88},{"code":"601728","drawdown":null,"industry":"电信运营","mcap":6213.33,"name":"中国电信","price":6.79,"weekly":-3.55,"yield":3.7},{"code":"601998","drawdown":null,"industry":"银行","mcap":5063.71,"name":"中信银行","price":9.1,"weekly":-2.47,"yield":4.19},{"code":"601166","drawdown":null,"industry":"银行","mcap":4166.97,"name":"兴业银行","price":19.69,"weekly":0.46,"yield":5.41},{"code":"600000","drawdown":null,"industry":"银行","mcap":3363.89,"name":"浦发银行","price":10.1,"weekly":0.4,"yield":4.16},{"code":"601319","drawdown":null,"industry":"保险","mcap":3237.2,"name":"中国人保","price":7.32,"weekly":1.23,"yield":3.48},{"code":"002415","drawdown":10.3,"industry":"IT设备","mcap":3177.46,"name":"海康威视","price":34.67,"weekly":-0.69,"yield":3.75},{"code":"601601","drawdown":null,"industry":"保险","mcap":3051.57,"name":"中国太保","price":31.72,"weekly":2.32,"yield":4.95},{"code":"000858","drawdown":35.9,"industry":"白酒","mcap":2901.11,"name":"五粮液","price":74.74,"weekly":0.66,"yield":6.9},{"code":"601211","drawdown":null,"industry":"证券","mcap":2869.23,"name":"国泰海通","price":16.32,"weekly":0.12,"yield":3.96},{"code":"601919","drawdown":4.8,"industry":"水运","mcap":2637.34,"name":"中远海控","price":17.33,"weekly":-3.56,"yield":5.03},{"code":"601225","drawdown":null,"industry":"煤炭开采","mcap":2573.05,"name":"陕西煤业","price":26.54,"weekly":-2.57,"yield":3.64},{"code":"600919","drawdown":null,"industry":"银行","mcap":2352.64,"name":"江苏银行","price":12.82,"weekly":0.79,"yield":4.4},{"code":"000001","drawdown":null,"industry":"银行","mcap":2307.36,"name":"平安银行","price":11.89,"weekly":3.03,"yield":5.12},{"code":"002142","drawdown":null,"industry":"银行","mcap":2269.65,"name":"宁波银行","price":34.37,"weekly":2.27,"yield":3.78},{"code":"000651","drawdown":14.1,"industry":"家用电器","mcap":2188.47,"name":"格力电器","price":39.07,"weekly":1.43,"yield":7.67},{"code":"603288","drawdown":null,"industry":"食品","mcap":2060.59,"name":"海天味业","price":35.26,"weekly":0.17,"yield":3.12},{"code":"600690","drawdown":null,"industry":"家用电器","mcap":2010.34,"name":"海尔智家","price":21.62,"weekly":5.21,"yield":4.09},{"code":"600887","drawdown":1.6,"industry":"乳制品","mcap":1969.72,"name":"伊利股份","price":31.14,"weekly":1.7,"yield":4.43},{"code":"601668","drawdown":9.3,"industry":"建筑工程","mcap":1929.66,"name":"中国建筑","price":4.67,"weekly":0.43,"yield":5.82},{"code":"601818","drawdown":null,"industry":"银行","mcap":1878.92,"name":"光大银行","price":3.18,"weekly":1.27,"yield":5.5},{"code":"601766","drawdown":null,"industry":"运输设备","mcap":1856.82,"name":"中国中车","price":6.47,"weekly":3.03,"yield":3.55},{"code":"601898","drawdown":null,"industry":"煤炭开采","mcap":1770.03,"name":"中煤能源","price":13.35,"weekly":-3.82,"yield":3.0},{"code":"000338","drawdown":null,"industry":"汽车配件","mcap":1642.51,"name":"潍柴动力","price":19.01,"weekly":-5.52,"yield":4.69},{"code":"601336","drawdown":null,"industry":"保险","mcap":1621.85,"name":"新华保险","price":51.99,"weekly":2.08,"yield":5.25},{"code":"600809","drawdown":33.7,"industry":"白酒","mcap":1593.27,"name":"山西汾酒","price":130.6,"weekly":-0.27,"yield":5.02},{"code":"601688","drawdown":null,"industry":"证券","mcap":1590.53,"name":"华泰证券","price":17.62,"weekly":0.46,"yield":3.29},{"code":"600989","drawdown":null,"industry":"化工原料","mcap":1564.21,"name":"宝丰能源","price":21.33,"weekly":-5.28,"yield":3.91},{"code":"601009","drawdown":null,"industry":"银行","mcap":1544.21,"name":"南京银行","price":12.49,"weekly":1.96,"yield":4.24},{"code":"600016","drawdown":null,"industry":"银行","mcap":1501.74,"name":"民生银行","price":3.43,"weekly":0.29,"yield":4.99},{"code":"000776","drawdown":null,"industry":"证券","mcap":1483.59,"name":"广发证券","price":18.96,"weekly":-1.76,"yield":3.96},{"code":"601600","drawdown":null,"industry":"铝","mcap":1478.74,"name":"中国铝业","price":8.62,"weekly":0.94,"yield":4.91},{"code":"600660","drawdown":null,"industry":"汽车配件","mcap":1475.81,"name":"福耀玻璃","price":56.55,"weekly":5.7,"yield":3.89},{"code":"600999","drawdown":null,"industry":"证券","mcap":1405.36,"name":"招商证券","price":16.16,"weekly":-0.98,"yield":3.81},{"code":"600019","drawdown":null,"industry":"普钢","mcap":1339.6,"name":"宝钢股份","price":6.15,"weekly":0.33,"yield":5.03}]}
+{
+ "history": [
+  {
+   "date": "2026-11-09",
+   "picks": [
+    {
+     "code": "600938",
+     "name": "中国海油",
+     "trigger": "both"
+    },
+    {
+     "code": "000858",
+     "name": "五粮液",
+     "trigger": "drawdown"
+    },
+    {
+     "code": "600809",
+     "name": "山西汾酒",
+     "trigger": "drawdown"
+    },
+    {
+     "code": "601857",
+     "name": "中国石油",
+     "trigger": "weekly"
+    }
+   ]
+  },
+  {
+   "date": "2026-11-10",
+   "picks": [
+    {
+     "code": "601600",
+     "name": "中国铝业",
+     "trigger": "drawdown"
+    }
+   ]
+  }
+ ],
+ "hits": [
+  {
+   "code": "601600",
+   "drawdown": 45.2,
+   "high52": 15.43,
+   "industry": "铝",
+   "mcap": 1449.58,
+   "name": "中国铝业",
+   "price": 8.45,
+   "reason": "相对52周高点（前复权15.43元，2026年1月29日）回撤45.2%，股息率5.01%；近一周跌2.87%，不属于急跌；LME期铝11月9日涨0.6%至每吨3082美元。",
+   "trigger": "drawdown",
+   "weekly": -2.87,
+   "yield": 5.01
+  }
+ ],
+ "meta": {
+  "avg_yield": 4.35,
+  "data_date": "2026-11-10",
+  "data_date_label": "2026年11月10日上午收盘",
+  "title": "BRICH · 长期持有构建复利",
+  "updated_at": "2026-11-10 12:17",
+  "watchlist_name": "q50"
+ },
+ "news": [
+  {
+   "id": "20261110-oil",
+   "date": "2026-11-10",
+   "title": "布伦特油价跌破92美元，上周创2020年4月以来最大单周跌幅",
+   "summary": "布伦特原油周一重挫5.8%至92.57美元/桶，周二继续跌破92美元，创8月底以来最低；上周累计跌约16%，为2020年4月以来最大单周跌幅；特朗普称目前无需对伊朗采取进一步军事行动。",
+   "category": "行业动态",
+   "impact": "high",
+   "direction": "negative",
+   "stocks": [
+    "600938",
+    "601857",
+    "600028"
+   ],
+   "source": "工商时报"
+  },
+  {
+   "id": "20261110-market-noon",
+   "date": "2026-11-10",
+   "title": "A股上午集体上涨，创业板指半日涨1.49%",
+   "summary": "截至午间收盘，沪指涨0.06%、深成指涨0.76%、创业板指涨1.49%；AI语料、短剧、影视院线走强，石油、航运、煤炭跌幅居前；沪深两市成交约9603亿元，较前一交易日缩量约491亿元。",
+   "category": "市场情绪",
+   "impact": "medium",
+   "direction": "neutral",
+   "stocks": [],
+   "source": "新浪财经"
+  },
+  {
+   "id": "20261110-pboc",
+   "date": "2026-11-10",
+   "title": "央行今日净投放80亿元，结束连续6日净回笼",
+   "summary": "央行今日开展1900亿元隔夜逆回购操作，利率1.25%，对冲1820亿元到期后净投放80亿元，结束此前连续6日净回笼；本周处于跨月已过、缴税未至的空窗期，资金面预计延续均衡偏松。",
+   "category": "宏观政策",
+   "impact": "medium",
+   "direction": "positive",
+   "stocks": [],
+   "source": "金融界"
+  },
+  {
+   "id": "20261110-aluminum",
+   "date": "2026-11-10",
+   "title": "LME期铝涨0.6%至3082美元/吨，A00铝报23540元/吨",
+   "summary": "伦敦金属交易所三个月期铝11月9日涨0.6%至每吨3082美元，期铜、期锌同步上涨；SMM A00铝11月9日报23540元/吨，较前一交易日涨200元。",
+   "category": "行业动态",
+   "impact": "low",
+   "direction": "positive",
+   "stocks": [
+    "601600"
+   ],
+   "source": "MoneyDJ"
+  },
+  {
+   "id": "20261105-oil",
+   "date": "2026-11-05",
+   "title": "美伊谈判缓和，国际油价单日暴跌超10%",
+   "summary": "布伦特原油单日跌超10%失守100美元，WTI跌超9%；此前11月2日已大跌约7.6%。三桶油股价承压，中国海油近一周跌11.88%、中国石油跌9.99%。",
+   "category": "行业动态",
+   "impact": "high",
+   "direction": "negative",
+   "stocks": [
+    "600938",
+    "601857",
+    "600028"
+   ],
+   "source": "新浪财经"
+  },
+  {
+   "id": "20261103-baijiu-yield",
+   "date": "2026-11-03",
+   "title": "白酒板块股息率站上4%，头部酒企成高股息资产",
+   "summary": "截至11月2日，申万白酒指数股息率4.16%，较10年期国债利差2.52个百分点，处历史高位；五粮液约6.8%、山西汾酒约5.0%。",
+   "category": "行业动态",
+   "impact": "medium",
+   "direction": "positive",
+   "stocks": [
+    "000858",
+    "600809",
+    "600519"
+   ],
+   "source": "东方财富"
+  },
+  {
+   "id": "20261103-wuliangye-div",
+   "date": "2026-11-03",
+   "title": "五粮液承诺24—26年分红率不低于70%",
+   "summary": "五粮液承诺2024—2026年分红率不低于70%、现金分红不低于200亿元。",
+   "category": "公司要闻",
+   "impact": "medium",
+   "direction": "positive",
+   "stocks": [
+    "000858"
+   ],
+   "source": "发现报告"
+  }
+ ],
+ "rules": {
+  "condition_a": "相对52周最高价回撤30%~50%（容差后执行区间27%~55%）",
+  "condition_b": "近一周（5个交易日）跌幅≥10%（容差后执行下限9%）",
+  "logic": "或关系：先过股息率 > 4% 的门槛，再满足任一时机即命中",
+  "pick": "每天最多报一只：优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的；同一只3天内不重复报；入选的必须先过股息率 4% 的门槛",
+  "universe": "沪深300成分、股息率≥3%、按总市值取前50只权重高分红股",
+  "yield_gate": "入场门槛：股息率 > 4% 才作为入场选择；低于 4% 的不作为入场选择"
+ },
+ "watchlist": [
+  {
+   "code": "601398",
+   "drawdown": 3.0,
+   "industry": "银行",
+   "mcap": 30686.58,
+   "name": "工商银行",
+   "price": 8.61,
+   "weekly": 0.23,
+   "yield": 3.72
+  },
+  {
+   "code": "601288",
+   "drawdown": 11.4,
+   "industry": "银行",
+   "mcap": 25723.75,
+   "name": "农业银行",
+   "price": 7.35,
+   "weekly": -2.0,
+   "yield": 3.53
+  },
+  {
+   "code": "601857",
+   "drawdown": 15.0,
+   "industry": "石油开采",
+   "mcap": 21889.31,
+   "name": "中国石油",
+   "price": 11.96,
+   "weekly": -14.57,
+   "yield": 4.26
+  },
+  {
+   "code": "601988",
+   "drawdown": 4.0,
+   "industry": "银行",
+   "mcap": 22425.98,
+   "name": "中国银行",
+   "price": 6.96,
+   "weekly": 0.58,
+   "yield": 3.25
+  },
+  {
+   "code": "600941",
+   "drawdown": 3.4,
+   "industry": "电信运营",
+   "mcap": 21986.55,
+   "name": "中国移动",
+   "price": 101.31,
+   "weekly": -2.31,
+   "yield": 4.65
+  },
+  {
+   "code": "600519",
+   "drawdown": 6.6,
+   "industry": "白酒",
+   "mcap": 17987.67,
+   "name": "贵州茅台",
+   "price": 1438.92,
+   "weekly": -2.78,
+   "yield": 3.62
+  },
+  {
+   "code": "600938",
+   "drawdown": 30.8,
+   "industry": "石油开采",
+   "mcap": 14235.22,
+   "name": "中国海油",
+   "price": 29.95,
+   "weekly": -12.45,
+   "yield": 4.32
+  },
+  {
+   "code": "300750",
+   "drawdown": 46.8,
+   "industry": "电气设备",
+   "mcap": 11505.19,
+   "name": "宁德时代",
+   "price": 248.64,
+   "weekly": -0.27,
+   "yield": 3.34
+  },
+  {
+   "code": "600036",
+   "drawdown": 2.5,
+   "industry": "银行",
+   "mcap": 10826.88,
+   "name": "招商银行",
+   "price": 42.93,
+   "weekly": 0.56,
+   "yield": 4.7
+  },
+  {
+   "code": "601088",
+   "drawdown": 6.0,
+   "industry": "煤炭开采",
+   "mcap": 10616.98,
+   "name": "中国神华",
+   "price": 48.95,
+   "weekly": -5.87,
+   "yield": 4.1
+  },
+  {
+   "code": "601318",
+   "drawdown": 25.0,
+   "industry": "保险",
+   "mcap": 9801.67,
+   "name": "中国平安",
+   "price": 54.13,
+   "weekly": -0.84,
+   "yield": 5.04
+  },
+  {
+   "code": "601328",
+   "drawdown": 3.8,
+   "industry": "银行",
+   "mcap": 7457.9,
+   "name": "交通银行",
+   "price": 8.44,
+   "weekly": 0.6,
+   "yield": 3.84
+  },
+  {
+   "code": "600900",
+   "drawdown": 1.2,
+   "industry": "水力发电",
+   "mcap": 7279.29,
+   "name": "长江电力",
+   "price": 29.75,
+   "weekly": -0.37,
+   "yield": 3.36
+  },
+  {
+   "code": "600028",
+   "drawdown": 27.4,
+   "industry": "石油加工",
+   "mcap": 6916.94,
+   "name": "中国石化",
+   "price": 5.73,
+   "weekly": -1.21,
+   "yield": 3.79
+  },
+  {
+   "code": "000333",
+   "drawdown": 1.9,
+   "industry": "家用电器",
+   "mcap": 6726.67,
+   "name": "美的集团",
+   "price": 88.16,
+   "weekly": -0.81,
+   "yield": 4.78
+  },
+  {
+   "code": "601658",
+   "drawdown": 3.6,
+   "industry": "银行",
+   "mcap": 6761.35,
+   "name": "邮储银行",
+   "price": 5.63,
+   "weekly": -0.88,
+   "yield": 3.87
+  },
+  {
+   "code": "601728",
+   "drawdown": 7.7,
+   "industry": "电信运营",
+   "mcap": 6140.13,
+   "name": "中国电信",
+   "price": 6.71,
+   "weekly": -7.7,
+   "yield": 3.74
+  },
+  {
+   "code": "601998",
+   "drawdown": 4.0,
+   "industry": "银行",
+   "mcap": 5119.35,
+   "name": "中信银行",
+   "price": 9.2,
+   "weekly": 0.33,
+   "yield": 4.14
+  },
+  {
+   "code": "601166",
+   "drawdown": 5.9,
+   "industry": "银行",
+   "mcap": 4147.92,
+   "name": "兴业银行",
+   "price": 19.6,
+   "weekly": -1.66,
+   "yield": 5.43
+  },
+  {
+   "code": "600000",
+   "drawdown": 15.8,
+   "industry": "银行",
+   "mcap": 3380.54,
+   "name": "浦发银行",
+   "price": 10.15,
+   "weekly": 0.59,
+   "yield": 4.14
+  },
+  {
+   "code": "601319",
+   "drawdown": 27.3,
+   "industry": "保险",
+   "mcap": 3192.97,
+   "name": "中国人保",
+   "price": 7.22,
+   "weekly": -3.09,
+   "yield": 3.53
+  },
+  {
+   "code": "002415",
+   "drawdown": 10.3,
+   "industry": "IT设备",
+   "mcap": 3175.63,
+   "name": "海康威视",
+   "price": 34.65,
+   "weekly": -1.84,
+   "yield": 3.75
+  },
+  {
+   "code": "601601",
+   "drawdown": 33.6,
+   "industry": "保险",
+   "mcap": 2990.96,
+   "name": "中国太保",
+   "price": 31.09,
+   "weekly": -3.6,
+   "yield": 5.05
+  },
+  {
+   "code": "000858",
+   "drawdown": 36.9,
+   "industry": "白酒",
+   "mcap": 2873.55,
+   "name": "五粮液",
+   "price": 74.03,
+   "weekly": -2.01,
+   "yield": 6.97
+  },
+  {
+   "code": "601211",
+   "drawdown": 25.5,
+   "industry": "证券",
+   "mcap": 2841.1,
+   "name": "国泰海通",
+   "price": 16.16,
+   "weekly": -3.52,
+   "yield": 4.0
+  },
+  {
+   "code": "601919",
+   "drawdown": 5.9,
+   "industry": "水运",
+   "mcap": 2606.9,
+   "name": "中远海控",
+   "price": 17.13,
+   "weekly": -3.82,
+   "yield": 5.09
+  },
+  {
+   "code": "601225",
+   "drawdown": 8.4,
+   "industry": "煤炭开采",
+   "mcap": 2535.24,
+   "name": "陕西煤业",
+   "price": 26.15,
+   "weekly": -4.74,
+   "yield": 3.69
+  },
+  {
+   "code": "600919",
+   "drawdown": 1.1,
+   "industry": "银行",
+   "mcap": 2361.82,
+   "name": "江苏银行",
+   "price": 12.87,
+   "weekly": 2.14,
+   "yield": 4.38
+  },
+  {
+   "code": "000001",
+   "drawdown": 0.5,
+   "industry": "银行",
+   "mcap": 2299.6,
+   "name": "平安银行",
+   "price": 11.85,
+   "weekly": 0.68,
+   "yield": 5.14
+  },
+  {
+   "code": "002142",
+   "drawdown": 5.3,
+   "industry": "银行",
+   "mcap": 2256.45,
+   "name": "宁波银行",
+   "price": 34.17,
+   "weekly": 0.32,
+   "yield": 3.8
+  },
+  {
+   "code": "000651",
+   "drawdown": 3.7,
+   "industry": "家用电器",
+   "mcap": 2182.87,
+   "name": "格力电器",
+   "price": 38.97,
+   "weekly": -0.56,
+   "yield": 7.69
+  },
+  {
+   "code": "603288",
+   "drawdown": 15.7,
+   "industry": "食品",
+   "mcap": 2052.99,
+   "name": "海天味业",
+   "price": 35.13,
+   "weekly": -3.46,
+   "yield": 3.13
+  },
+  {
+   "code": "600690",
+   "drawdown": 21.8,
+   "industry": "家用电器",
+   "mcap": 1996.4,
+   "name": "海尔智家",
+   "price": 21.47,
+   "weekly": 0.56,
+   "yield": 4.12
+  },
+  {
+   "code": "600887",
+   "drawdown": 2.0,
+   "industry": "乳制品",
+   "mcap": 1962.13,
+   "name": "伊利股份",
+   "price": 31.02,
+   "weekly": -1.43,
+   "yield": 4.45
+  },
+  {
+   "code": "601668",
+   "drawdown": 10.0,
+   "industry": "建筑工程",
+   "mcap": 1933.79,
+   "name": "中国建筑",
+   "price": 4.68,
+   "weekly": -1.06,
+   "yield": 5.81
+  },
+  {
+   "code": "601818",
+   "drawdown": 10.4,
+   "industry": "银行",
+   "mcap": 1878.92,
+   "name": "光大银行",
+   "price": 3.18,
+   "weekly": -0.31,
+   "yield": 5.5
+  },
+  {
+   "code": "601766",
+   "drawdown": 16.6,
+   "industry": "运输设备",
+   "mcap": 1830.99,
+   "name": "中国中车",
+   "price": 6.38,
+   "weekly": -2.45,
+   "yield": 3.6
+  },
+  {
+   "code": "601898",
+   "drawdown": 32.4,
+   "industry": "煤炭开采",
+   "mcap": 1735.56,
+   "name": "中煤能源",
+   "price": 13.09,
+   "weekly": -4.59,
+   "yield": 3.06
+  },
+  {
+   "code": "000338",
+   "drawdown": 45.0,
+   "industry": "汽车配件",
+   "mcap": 1683.98,
+   "name": "潍柴动力",
+   "price": 19.49,
+   "weekly": 0.67,
+   "yield": 4.57
+  },
+  {
+   "code": "601336",
+   "drawdown": 38.4,
+   "industry": "保险",
+   "mcap": 1610.31,
+   "name": "新华保险",
+   "price": 51.62,
+   "weekly": -1.07,
+   "yield": 5.29
+  },
+  {
+   "code": "600809",
+   "drawdown": 34.7,
+   "industry": "白酒",
+   "mcap": 1570.34,
+   "name": "山西汾酒",
+   "price": 128.72,
+   "weekly": -3.28,
+   "yield": 5.09
+  },
+  {
+   "code": "601688",
+   "drawdown": 30.6,
+   "industry": "证券",
+   "mcap": 1577.9,
+   "name": "华泰证券",
+   "price": 17.48,
+   "weekly": -2.18,
+   "yield": 3.32
+  },
+  {
+   "code": "600989",
+   "drawdown": 41.3,
+   "industry": "化工原料",
+   "mcap": 1534.14,
+   "name": "宝丰能源",
+   "price": 20.92,
+   "weekly": -6.73,
+   "yield": 3.99
+  },
+  {
+   "code": "601009",
+   "drawdown": 0.6,
+   "industry": "银行",
+   "mcap": 1549.15,
+   "name": "南京银行",
+   "price": 12.53,
+   "weekly": 3.3,
+   "yield": 4.23
+  },
+  {
+   "code": "600016",
+   "drawdown": 15.9,
+   "industry": "银行",
+   "mcap": 1506.12,
+   "name": "民生银行",
+   "price": 3.44,
+   "weekly": -0.29,
+   "yield": 4.98
+  },
+  {
+   "code": "000776",
+   "drawdown": 23.0,
+   "industry": "证券",
+   "mcap": 1487.5,
+   "name": "广发证券",
+   "price": 19.01,
+   "weekly": -2.51,
+   "yield": 3.95
+  },
+  {
+   "code": "601600",
+   "drawdown": 45.2,
+   "industry": "铝",
+   "mcap": 1449.58,
+   "name": "中国铝业",
+   "price": 8.45,
+   "weekly": -2.87,
+   "yield": 5.01
+  },
+  {
+   "code": "600660",
+   "drawdown": 15.0,
+   "industry": "汽车配件",
+   "mcap": 1458.85,
+   "name": "福耀玻璃",
+   "price": 55.9,
+   "weekly": 1.18,
+   "yield": 3.94
+  },
+  {
+   "code": "600999",
+   "drawdown": 28.6,
+   "industry": "证券",
+   "mcap": 1402.75,
+   "name": "招商证券",
+   "price": 16.13,
+   "weekly": -1.53,
+   "yield": 3.82
+  },
+  {
+   "code": "600019",
+   "drawdown": 17.7,
+   "industry": "普钢",
+   "mcap": 1348.31,
+   "name": "宝钢股份",
+   "price": 6.19,
+   "weekly": -0.8,
+   "yield": 5.0
+  }
+ ]
+}
