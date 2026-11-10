@@ -2,7 +2,7 @@
   "meta": {
     "data_date": "2026-11-10",
     "data_date_label": "2026年11月10日",
-    "updated_at": "2026-11-10 16:01",
+    "updated_at": "2026-11-10 16:55",
     "universe": "e30",
     "universe_label": "e30 大盘科技 ETF",
     "title": "BRICH · e30 ETF 波段",
@@ -49,7 +49,6 @@
         "label": "可入场",
         "low_window_days": 20
       },
-      "stop_pct": 6,
       "supporting": {
         "drawdown_median": 26.05,
         "drawdown_q3": 35.82,
@@ -59,7 +58,320 @@
         "up_duration_median": 5.8,
         "up_duration_q3": 12.0
       },
-      "target_pct": 10
+      "per_etf": {
+        "159206": {
+          "target_pct": 37.5,
+          "stop_pct": 4.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 33.3,
+          "sim_hit_rate_pct": 0.0,
+          "ev_pct": 9.83,
+          "rr": 9.38,
+          "n_swings": 6
+        },
+        "159326": {
+          "target_pct": 42.0,
+          "stop_pct": 5.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 40.0,
+          "sim_hit_rate_pct": 20.0,
+          "ev_pct": 13.8,
+          "rr": 8.4,
+          "n_swings": 5
+        },
+        "159363": {
+          "target_pct": 53.0,
+          "stop_pct": 3.5,
+          "tp_level": "q3",
+          "hit_rate_pct": 33.3,
+          "sim_hit_rate_pct": 0.0,
+          "ev_pct": 15.33,
+          "rr": 15.14,
+          "n_swings": 6
+        },
+        "159516": {
+          "target_pct": 22.5,
+          "stop_pct": 5.0,
+          "tp_level": "med",
+          "hit_rate_pct": 57.1,
+          "sim_hit_rate_pct": 35.7,
+          "ev_pct": 10.71,
+          "rr": 4.5,
+          "n_swings": 14
+        },
+        "159530": {
+          "target_pct": 22.0,
+          "stop_pct": 3.5,
+          "tp_level": "med",
+          "hit_rate_pct": 62.5,
+          "sim_hit_rate_pct": 50.0,
+          "ev_pct": 12.44,
+          "rr": 6.29,
+          "n_swings": 8
+        },
+        "159566": {
+          "target_pct": 8.5,
+          "stop_pct": 4.5,
+          "tp_level": "q1",
+          "hit_rate_pct": 66.7,
+          "sim_hit_rate_pct": 55.6,
+          "ev_pct": 4.17,
+          "rr": 1.89,
+          "n_swings": 9
+        },
+        "159732": {
+          "target_pct": 31.0,
+          "stop_pct": 4.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 28.6,
+          "sim_hit_rate_pct": 14.3,
+          "ev_pct": 6.0,
+          "rr": 7.75,
+          "n_swings": 14
+        },
+        "159755": {
+          "target_pct": 33.0,
+          "stop_pct": 3.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 27.3,
+          "sim_hit_rate_pct": 9.1,
+          "ev_pct": 6.82,
+          "rr": 11.0,
+          "n_swings": 11
+        },
+        "159796": {
+          "target_pct": 32.5,
+          "stop_pct": 3.5,
+          "tp_level": "q3",
+          "hit_rate_pct": 27.3,
+          "sim_hit_rate_pct": 18.2,
+          "ev_pct": 6.32,
+          "rr": 9.29,
+          "n_swings": 11
+        },
+        "159819": {
+          "target_pct": 42.5,
+          "stop_pct": 3.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 33.3,
+          "sim_hit_rate_pct": 16.7,
+          "ev_pct": 12.17,
+          "rr": 14.17,
+          "n_swings": 12
+        },
+        "159852": {
+          "target_pct": 15.5,
+          "stop_pct": 3.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 81.8,
+          "sim_hit_rate_pct": 72.7,
+          "ev_pct": 12.14,
+          "rr": 5.17,
+          "n_swings": 11
+        },
+        "159859": {
+          "target_pct": 9.5,
+          "stop_pct": 5.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 60.0,
+          "sim_hit_rate_pct": 30.0,
+          "ev_pct": 3.7,
+          "rr": 1.9,
+          "n_swings": 10
+        },
+        "159865": {
+          "target_pct": 8.5,
+          "stop_pct": 3.5,
+          "tp_level": "q1",
+          "hit_rate_pct": 66.7,
+          "sim_hit_rate_pct": 55.6,
+          "ev_pct": 4.5,
+          "rr": 2.43,
+          "n_swings": 9
+        },
+        "159992": {
+          "target_pct": 11.0,
+          "stop_pct": 5.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 77.8,
+          "sim_hit_rate_pct": 66.7,
+          "ev_pct": 7.44,
+          "rr": 2.2,
+          "n_swings": 9
+        },
+        "159995": {
+          "target_pct": 14.0,
+          "stop_pct": 4.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 84.6,
+          "sim_hit_rate_pct": 76.9,
+          "ev_pct": 11.23,
+          "rr": 3.5,
+          "n_swings": 13
+        },
+        "512290": {
+          "target_pct": 15.0,
+          "stop_pct": 3.0,
+          "tp_level": "med",
+          "hit_rate_pct": 50.0,
+          "sim_hit_rate_pct": 40.0,
+          "ev_pct": 6.0,
+          "rr": 5.0,
+          "n_swings": 10
+        },
+        "512480": {
+          "target_pct": 15.0,
+          "stop_pct": 4.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 85.7,
+          "sim_hit_rate_pct": 78.6,
+          "ev_pct": 12.29,
+          "rr": 3.75,
+          "n_swings": 14
+        },
+        "513130": {
+          "target_pct": 25.0,
+          "stop_pct": 3.0,
+          "tp_level": "med",
+          "hit_rate_pct": 54.5,
+          "sim_hit_rate_pct": 36.4,
+          "ev_pct": 12.27,
+          "rr": 8.33,
+          "n_swings": 11
+        },
+        "515000": {
+          "target_pct": 38.0,
+          "stop_pct": 4.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 33.3,
+          "sim_hit_rate_pct": 11.1,
+          "ev_pct": 10.0,
+          "rr": 9.5,
+          "n_swings": 9
+        },
+        "515030": {
+          "target_pct": 39.5,
+          "stop_pct": 3.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 33.3,
+          "sim_hit_rate_pct": 22.2,
+          "ev_pct": 11.17,
+          "rr": 13.17,
+          "n_swings": 9
+        },
+        "515050": {
+          "target_pct": 13.5,
+          "stop_pct": 4.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 83.3,
+          "sim_hit_rate_pct": 66.7,
+          "ev_pct": 10.58,
+          "rr": 3.38,
+          "n_swings": 12
+        },
+        "515790": {
+          "target_pct": 10.0,
+          "stop_pct": 3.5,
+          "tp_level": "q1",
+          "hit_rate_pct": 75.0,
+          "sim_hit_rate_pct": 75.0,
+          "ev_pct": 6.62,
+          "rr": 2.86,
+          "n_swings": 12
+        },
+        "515880": {
+          "target_pct": 25.0,
+          "stop_pct": 4.5,
+          "tp_level": "med",
+          "hit_rate_pct": 58.3,
+          "sim_hit_rate_pct": 41.7,
+          "ev_pct": 12.71,
+          "rr": 5.56,
+          "n_swings": 12
+        },
+        "516510": {
+          "target_pct": 25.0,
+          "stop_pct": 4.5,
+          "tp_level": "med",
+          "hit_rate_pct": 54.5,
+          "sim_hit_rate_pct": 27.3,
+          "ev_pct": 11.59,
+          "rr": 5.56,
+          "n_swings": 11
+        },
+        "562500": {
+          "target_pct": 18.5,
+          "stop_pct": 3.5,
+          "tp_level": "q1",
+          "hit_rate_pct": 80.0,
+          "sim_hit_rate_pct": 60.0,
+          "ev_pct": 14.1,
+          "rr": 5.29,
+          "n_swings": 10
+        },
+        "588000": {
+          "target_pct": 11.5,
+          "stop_pct": 4.0,
+          "tp_level": "q1",
+          "hit_rate_pct": 75.0,
+          "sim_hit_rate_pct": 58.3,
+          "ev_pct": 7.62,
+          "rr": 2.88,
+          "n_swings": 12
+        },
+        "588170": {
+          "target_pct": 50.5,
+          "stop_pct": 5.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 37.5,
+          "sim_hit_rate_pct": 12.5,
+          "ev_pct": 15.81,
+          "rr": 10.1,
+          "n_swings": 8
+        },
+        "588200": {
+          "target_pct": 41.5,
+          "stop_pct": 6.0,
+          "tp_level": "q3",
+          "hit_rate_pct": 35.7,
+          "sim_hit_rate_pct": 21.4,
+          "ev_pct": 10.96,
+          "rr": 6.92,
+          "n_swings": 14
+        },
+        "588790": {
+          "target_pct": 21.0,
+          "stop_pct": 4.0,
+          "tp_level": "med",
+          "hit_rate_pct": 57.1,
+          "sim_hit_rate_pct": 28.6,
+          "ev_pct": 10.29,
+          "rr": 5.25,
+          "n_swings": 7
+        },
+        "589070": {
+          "target_pct": 22.5,
+          "stop_pct": 4.0,
+          "tp_level": "med",
+          "hit_rate_pct": 50.0,
+          "sim_hit_rate_pct": 50.0,
+          "ev_pct": 9.25,
+          "rr": 5.62,
+          "n_swings": 4
+        }
+      },
+      "target_stop_method": "止盈/止损按每只 ETF 自己的 5 年 ZigZag 上涨波段历史动态计算，不再全市场统一。止损 = 该 ETF 入场后不利移动(MAE) p90，向全市场汇合 MAE p90 (4.50%) 收缩，权重 w = n/(n+5)，n 为该 ETF 上行波段数，四舍五入到 0.5%，钳制在 3%~12%。止盈 = 该 ETF 入场->高点涨幅的下四分位/中位/上四分位三个候选（同样向汇合分位点 Q1 10.39 / 中位 20.38 / Q3 36.49 收缩），命中率 = 该 ETF 波段中入场->高点涨幅达到候选值的比例，期望收益 = 命中率*止盈 + (1-命中率)*(-止损)，取期望收益最好者。波段数少的 ETF 向汇合值收缩更多。11 只止盈 >= 30%，19 只 < 30%（见 per_etf 表，低于 30% 者因该 ETF 自身典型波段幅度小）。",
+      "target_stop_summary": {
+        "n_etfs": 30,
+        "tp_ge_30": 11,
+        "tp_lt_30": 19,
+        "tp_min": 8.5,
+        "tp_max": 53.0,
+        "tp_median": 22.5,
+        "sl_min": 3.0,
+        "sl_max": 6.0,
+        "sl_median": 4.0
+      }
     }
   },
   "hits": [
@@ -79,7 +391,12 @@
       "days_since_low": 13,
       "bounce_pct": 6.46,
       "reversal_confirmed": true,
-      "reason": "回撤 39.0% 落在 20%~40% 带子内。反转确认：较 2026-10-22 低点 0.728 元反弹 6.5%（≥5%），已 13 个交易日未创新低（≥10 日盘整）。止损价 0.728 元（-6%），止盈价 0.853 元（+10%），建议持股 6–12 周。",
+      "target_pct": 33.0,
+      "stop_pct": 3.0,
+      "tp_level": "q3",
+      "hit_rate_pct": 27.3,
+      "ev_pct": 6.82,
+      "reason": "回撤 39.0% 落在 20%~40% 带子内。反转确认：较 2026-10-22 低点 0.728 元反弹 6.5%（≥5%），已 13 个交易日未创新低（≥10 日盘整）。止损价 0.752 元（-3%），止盈价 1.031 元（+33%），建议持股 6–12 周。",
       "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
       "trend": {
         "theme": "电池/储能",
@@ -104,7 +421,12 @@
       "days_since_low": 13,
       "bounce_pct": 6.78,
       "reversal_confirmed": true,
-      "reason": "回撤 38.5% 落在 20%~40% 带子内。反转确认：较 2026-10-22 低点 1.268 元反弹 6.8%（≥5%），已 13 个交易日未创新低（≥10 日盘整）。止损价 1.273 元（-6%），止盈价 1.489 元（+10%），建议持股 6–12 周。",
+      "target_pct": 39.5,
+      "stop_pct": 3.0,
+      "tp_level": "q3",
+      "hit_rate_pct": 33.3,
+      "ev_pct": 11.17,
+      "reason": "回撤 38.5% 落在 20%~40% 带子内。反转确认：较 2026-10-22 低点 1.268 元反弹 6.8%（≥5%），已 13 个交易日未创新低（≥10 日盘整）。止损价 1.313 元（-3%），止盈价 1.889 元（+39.5%），建议持股 6–12 周。",
       "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
       "trend": {
         "theme": "新能源汽车",
@@ -129,7 +451,12 @@
       "days_since_low": 18,
       "bounce_pct": 13.34,
       "reversal_confirmed": true,
-      "reason": "回撤 26.6% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 0.787 元反弹 13.3%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 0.838 元（-6%），止盈价 0.981 元（+10%），建议持股 6–12 周。",
+      "target_pct": 18.5,
+      "stop_pct": 3.5,
+      "tp_level": "q1",
+      "hit_rate_pct": 80.0,
+      "ev_pct": 14.1,
+      "reason": "回撤 26.6% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 0.787 元反弹 13.3%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 0.861 元（-3.5%），止盈价 1.057 元（+18.5%），建议持股 6–12 周。",
       "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
       "trend": {
         "theme": "机器人",
@@ -154,7 +481,12 @@
       "days_since_low": 18,
       "bounce_pct": 24.66,
       "reversal_confirmed": true,
-      "reason": "回撤 22.6% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 1.103 元反弹 24.7%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 1.292 元（-6%），止盈价 1.513 元（+10%），建议持股 6–12 周。",
+      "target_pct": 22.0,
+      "stop_pct": 3.5,
+      "tp_level": "med",
+      "hit_rate_pct": 62.5,
+      "ev_pct": 12.44,
+      "reason": "回撤 22.6% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 1.103 元反弹 24.7%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 1.327 元（-3.5%），止盈价 1.677 元（+22%），建议持股 6–12 周。",
       "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
       "trend": {
         "theme": "机器人",
@@ -179,7 +511,12 @@
       "days_since_low": 18,
       "bounce_pct": 6.48,
       "reversal_confirmed": true,
-      "reason": "回撤 18.7% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 0.509 元反弹 6.5%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 0.509 元（-6%），止盈价 0.596 元（+10%），建议持股 6–12 周。",
+      "target_pct": 8.5,
+      "stop_pct": 3.5,
+      "tp_level": "q1",
+      "hit_rate_pct": 66.7,
+      "ev_pct": 4.5,
+      "reason": "回撤 18.7% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 0.509 元反弹 6.5%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 0.523 元（-3.5%），止盈价 0.588 元（+8.5%），建议持股 6–12 周。",
       "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
       "trend": {
         "theme": "养殖",
@@ -206,6 +543,8 @@
       "days_since_low": 5,
       "bounce_pct": 10.04,
       "reversal_confirmed": false,
+      "target_pct": 11.5,
+      "stop_pct": 4.0,
       "reason": "回撤 43.0% 落在 20%~40% 带子内；近四周跌 -11.3%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -231,6 +570,8 @@
       "days_since_low": 5,
       "bounce_pct": 5.46,
       "reversal_confirmed": false,
+      "target_pct": 25.0,
+      "stop_pct": 4.5,
       "reason": "近四周跌 -25.7%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -256,6 +597,8 @@
       "days_since_low": 5,
       "bounce_pct": 5.2,
       "reversal_confirmed": false,
+      "target_pct": 13.5,
+      "stop_pct": 4.0,
       "reason": "近四周跌 -23.9%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -281,6 +624,8 @@
       "days_since_low": 5,
       "bounce_pct": 10.66,
       "reversal_confirmed": false,
+      "target_pct": 14.0,
+      "stop_pct": 4.0,
       "reason": "近四周跌 -13.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -306,6 +651,8 @@
       "days_since_low": 5,
       "bounce_pct": 21.76,
       "reversal_confirmed": false,
+      "target_pct": 50.5,
+      "stop_pct": 5.0,
       "reason": "近四周跌 -19.7%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -331,6 +678,8 @@
       "days_since_low": 5,
       "bounce_pct": 13.13,
       "reversal_confirmed": false,
+      "target_pct": 41.5,
+      "stop_pct": 6.0,
       "reason": "近四周跌 -14.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -356,6 +705,8 @@
       "days_since_low": 5,
       "bounce_pct": 18.54,
       "reversal_confirmed": false,
+      "target_pct": 22.5,
+      "stop_pct": 5.0,
       "reason": "近四周跌 -16.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -381,6 +732,8 @@
       "days_since_low": 5,
       "bounce_pct": 11.82,
       "reversal_confirmed": false,
+      "target_pct": 15.0,
+      "stop_pct": 4.0,
       "reason": "近四周跌 -11.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -406,6 +759,8 @@
       "days_since_low": 5,
       "bounce_pct": 7.41,
       "reversal_confirmed": false,
+      "target_pct": 53.0,
+      "stop_pct": 3.5,
       "reason": "近四周跌 -21.8%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -431,6 +786,8 @@
       "days_since_low": 5,
       "bounce_pct": 5.64,
       "reversal_confirmed": false,
+      "target_pct": 38.0,
+      "stop_pct": 4.0,
       "reason": "近四周跌 -16.2%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -456,6 +813,8 @@
       "days_since_low": 7,
       "bounce_pct": 7.93,
       "reversal_confirmed": false,
+      "target_pct": 15.5,
+      "stop_pct": 3.0,
       "reason": "回撤 40.9% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -481,6 +840,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.37,
       "reversal_confirmed": false,
+      "target_pct": 32.5,
+      "stop_pct": 3.5,
       "reason": "回撤 40.1% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -506,6 +867,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.66,
       "reversal_confirmed": false,
+      "target_pct": 8.5,
+      "stop_pct": 4.5,
       "reason": "回撤 39.7% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -531,6 +894,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.11,
       "reversal_confirmed": false,
+      "target_pct": 25.0,
+      "stop_pct": 3.0,
       "reason": "回撤 38.4% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -556,6 +921,8 @@
       "days_since_low": 5,
       "bounce_pct": 7.23,
       "reversal_confirmed": false,
+      "target_pct": 42.5,
+      "stop_pct": 3.0,
       "reason": "回撤 37.5% 落在 20%~40% 带子内，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -581,6 +948,8 @@
       "days_since_low": 7,
       "bounce_pct": 10.61,
       "reversal_confirmed": false,
+      "target_pct": 10.0,
+      "stop_pct": 3.5,
       "reason": "回撤 37.5% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -606,6 +975,8 @@
       "days_since_low": 7,
       "bounce_pct": 6.11,
       "reversal_confirmed": false,
+      "target_pct": 42.0,
+      "stop_pct": 5.0,
       "reason": "回撤 36.9% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -631,6 +1002,8 @@
       "days_since_low": 5,
       "bounce_pct": 12.04,
       "reversal_confirmed": false,
+      "target_pct": 21.0,
+      "stop_pct": 4.0,
       "reason": "回撤 33.3% 落在 20%~40% 带子内，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -656,6 +1029,8 @@
       "days_since_low": 7,
       "bounce_pct": 7.92,
       "reversal_confirmed": false,
+      "target_pct": 25.0,
+      "stop_pct": 4.5,
       "reason": "回撤 29.8% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
       "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
       "trend": {
@@ -684,6 +1059,8 @@
       "days_since_low": 5,
       "bounce_pct": 10.04,
       "reversal_confirmed": false,
+      "target_pct": 11.5,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "科创板综合",
         "direction": "向好",
@@ -708,6 +1085,8 @@
       "days_since_low": 5,
       "bounce_pct": 21.76,
       "reversal_confirmed": false,
+      "target_pct": 50.5,
+      "stop_pct": 5.0,
       "trend": {
         "theme": "芯片/半导体",
         "direction": "向好",
@@ -732,6 +1111,8 @@
       "days_since_low": 5,
       "bounce_pct": 13.13,
       "reversal_confirmed": false,
+      "target_pct": 41.5,
+      "stop_pct": 6.0,
       "trend": {
         "theme": "芯片/半导体",
         "direction": "向好",
@@ -756,6 +1137,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.11,
       "reversal_confirmed": false,
+      "target_pct": 25.0,
+      "stop_pct": 3.0,
       "trend": {
         "theme": "港股科技",
         "direction": "向好",
@@ -780,6 +1163,8 @@
       "days_since_low": 5,
       "bounce_pct": 18.54,
       "reversal_confirmed": false,
+      "target_pct": 22.5,
+      "stop_pct": 5.0,
       "trend": {
         "theme": "芯片/半导体",
         "direction": "向好",
@@ -804,6 +1189,8 @@
       "days_since_low": 5,
       "bounce_pct": 5.46,
       "reversal_confirmed": false,
+      "target_pct": 25.0,
+      "stop_pct": 4.5,
       "trend": {
         "theme": "通信/5G",
         "direction": "中性",
@@ -828,6 +1215,8 @@
       "days_since_low": 18,
       "bounce_pct": 24.66,
       "reversal_confirmed": true,
+      "target_pct": 22.0,
+      "stop_pct": 3.5,
       "trend": {
         "theme": "机器人",
         "direction": "向好",
@@ -852,6 +1241,8 @@
       "days_since_low": 5,
       "bounce_pct": 10.66,
       "reversal_confirmed": false,
+      "target_pct": 14.0,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "芯片/半导体",
         "direction": "向好",
@@ -876,6 +1267,8 @@
       "days_since_low": 5,
       "bounce_pct": 7.23,
       "reversal_confirmed": false,
+      "target_pct": 42.5,
+      "stop_pct": 3.0,
       "trend": {
         "theme": "人工智能",
         "direction": "向好",
@@ -900,6 +1293,8 @@
       "days_since_low": 5,
       "bounce_pct": 11.82,
       "reversal_confirmed": false,
+      "target_pct": 15.0,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "芯片/半导体",
         "direction": "向好",
@@ -924,6 +1319,8 @@
       "days_since_low": 18,
       "bounce_pct": 13.34,
       "reversal_confirmed": true,
+      "target_pct": 18.5,
+      "stop_pct": 3.5,
       "trend": {
         "theme": "机器人",
         "direction": "向好",
@@ -948,6 +1345,8 @@
       "days_since_low": 7,
       "bounce_pct": 6.11,
       "reversal_confirmed": false,
+      "target_pct": 42.0,
+      "stop_pct": 5.0,
       "trend": {
         "theme": "电网设备",
         "direction": "向好",
@@ -972,6 +1371,8 @@
       "days_since_low": 10,
       "bounce_pct": 6.4,
       "reversal_confirmed": true,
+      "target_pct": 11.0,
+      "stop_pct": 5.0,
       "trend": {
         "theme": "创新药/生物医药",
         "direction": "向好",
@@ -996,6 +1397,8 @@
       "days_since_low": 5,
       "bounce_pct": 5.2,
       "reversal_confirmed": false,
+      "target_pct": 13.5,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "通信/5G",
         "direction": "中性",
@@ -1020,6 +1423,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.43,
       "reversal_confirmed": false,
+      "target_pct": 37.5,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "卫星通信",
         "direction": "向好",
@@ -1044,6 +1449,8 @@
       "days_since_low": 7,
       "bounce_pct": 7.93,
       "reversal_confirmed": false,
+      "target_pct": 15.5,
+      "stop_pct": 3.0,
       "trend": {
         "theme": "软件/云计算",
         "direction": "向好",
@@ -1068,6 +1475,8 @@
       "days_since_low": 18,
       "bounce_pct": 6.48,
       "reversal_confirmed": true,
+      "target_pct": 8.5,
+      "stop_pct": 3.5,
       "trend": {
         "theme": "养殖",
         "direction": "承压",
@@ -1092,6 +1501,8 @@
       "days_since_low": 13,
       "bounce_pct": 6.46,
       "reversal_confirmed": true,
+      "target_pct": 33.0,
+      "stop_pct": 3.0,
       "trend": {
         "theme": "电池/储能",
         "direction": "向好",
@@ -1116,6 +1527,8 @@
       "days_since_low": 7,
       "bounce_pct": 10.61,
       "reversal_confirmed": false,
+      "target_pct": 10.0,
+      "stop_pct": 3.5,
       "trend": {
         "theme": "光伏",
         "direction": "承压",
@@ -1140,6 +1553,8 @@
       "days_since_low": 5,
       "bounce_pct": 7.41,
       "reversal_confirmed": false,
+      "target_pct": 53.0,
+      "stop_pct": 3.5,
       "trend": {
         "theme": "人工智能",
         "direction": "向好",
@@ -1164,6 +1579,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.37,
       "reversal_confirmed": false,
+      "target_pct": 32.5,
+      "stop_pct": 3.5,
       "trend": {
         "theme": "电池/储能",
         "direction": "向好",
@@ -1188,6 +1605,8 @@
       "days_since_low": 8,
       "bounce_pct": 5.59,
       "reversal_confirmed": false,
+      "target_pct": 9.5,
+      "stop_pct": 5.0,
       "trend": {
         "theme": "创新药/生物医药",
         "direction": "向好",
@@ -1212,6 +1631,8 @@
       "days_since_low": 7,
       "bounce_pct": 9.66,
       "reversal_confirmed": false,
+      "target_pct": 8.5,
+      "stop_pct": 4.5,
       "trend": {
         "theme": "电池/储能",
         "direction": "向好",
@@ -1236,6 +1657,8 @@
       "days_since_low": 10,
       "bounce_pct": 4.85,
       "reversal_confirmed": false,
+      "target_pct": 15.0,
+      "stop_pct": 3.0,
       "trend": {
         "theme": "创新药/生物医药",
         "direction": "向好",
@@ -1260,6 +1683,8 @@
       "days_since_low": 5,
       "bounce_pct": 12.04,
       "reversal_confirmed": false,
+      "target_pct": 21.0,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "人工智能",
         "direction": "向好",
@@ -1284,6 +1709,8 @@
       "days_since_low": 5,
       "bounce_pct": 5.64,
       "reversal_confirmed": false,
+      "target_pct": 38.0,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "科技龙头综合",
         "direction": "中性",
@@ -1308,6 +1735,8 @@
       "days_since_low": 7,
       "bounce_pct": 7.92,
       "reversal_confirmed": false,
+      "target_pct": 25.0,
+      "stop_pct": 4.5,
       "trend": {
         "theme": "软件/云计算",
         "direction": "向好",
@@ -1332,6 +1761,8 @@
       "days_since_low": 5,
       "bounce_pct": 8.84,
       "reversal_confirmed": false,
+      "target_pct": 31.0,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "消费电子",
         "direction": "承压",
@@ -1356,6 +1787,8 @@
       "days_since_low": 13,
       "bounce_pct": 6.78,
       "reversal_confirmed": true,
+      "target_pct": 39.5,
+      "stop_pct": 3.0,
       "trend": {
         "theme": "新能源汽车",
         "direction": "中性",
@@ -1380,6 +1813,8 @@
       "days_since_low": 5,
       "bounce_pct": 10.74,
       "reversal_confirmed": false,
+      "target_pct": 22.5,
+      "stop_pct": 4.0,
       "trend": {
         "theme": "芯片/半导体",
         "direction": "向好",
