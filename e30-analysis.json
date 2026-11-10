@@ -1,6 +1,6 @@
 {
   "meta": {
-    "generated": "2026-11-10 15:20",
+    "generated": "2026-11-10 16:01",
     "data_date": "2026-11-10",
     "method": "ZigZag 12% on forward-adjusted daily closes; pooled across the 30 ETFs; only completed swings counted",
     "n_up_swings": 303,
@@ -9,6 +9,14 @@
     "list_source": "e30.md (top 30 large-cap tech-themed ETFs by fund size)"
   },
   "rules": {
+    "breadth": {
+      "definition": "Stage 1 数量 / 30（触发宽度）。",
+      "high_label": "整体退潮",
+      "high_threshold": 0.5,
+      "low_label": "个别机会",
+      "low_threshold": 0.2,
+      "note": "宽度 ≥50% 为整体退潮（多数标的同时大回撤，是系统性下跌，不是 24 个个别机会）；宽度 ≤20% 为个别机会；其余为分化。"
+    },
     "drawdown_band": [
       20,
       40
@@ -23,6 +31,18 @@
       6,
       12
     ],
+    "stage1": {
+      "definition": "价格触发：回撤落在执行带子 [18,44]，或近四周跌幅 ≤ -10.8%。仅为观察条件（setup），不是入场信号。",
+      "label": "关注"
+    },
+    "stage2": {
+      "bounce_min_pct": 5,
+      "calibration_note": "原任务定义的 5 日盘整窗口在 2026-11-10 快照上使全部 24 只 Stage 1 均通过（11 月 3 日低点后 5 日内反弹 5–22%），无法区分宽幅退潮中的急速反弹与真正的底部盘整；故将盘整窗口由 5 日调整为 10 个交易日（2 周），此时 Stage 2 为 5/24。5% 反弹阈值本身沿用波段统计的入场代理（入场→高点涨幅下四分位 10.39%，已验证），未改动。",
+      "consolidation_min_days": 10,
+      "definition": "Stage 1 且反转确认：现价较最近 20 个交易日最低收盘价反弹 ≥5%，且该最低价距今 ≥10 个交易日（即最近 10 个交易日内未创新低，底部至少盘整 2 周）。",
+      "label": "可入场",
+      "low_window_days": 20
+    },
     "stop_pct": 6,
     "supporting": {
       "drawdown_median": 26.05,
@@ -41,216 +61,504 @@
       "name": "华夏上证科创板50成份ETF",
       "theme": "科创板综合",
       "price_trigger": "both",
-      "entry": true,
-      "reason": "回撤 43.0% 落在 20%~40% 带子内；近四周跌 -11.3%，超过 12% 门槛。止损价 1.257 元（-6%），止盈价 1.471 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 1.215,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 10.04,
+      "reversal_confirmed": false,
+      "reason": "回撤 43.0% 落在 20%~40% 带子内；近四周跌 -11.3%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "科创板综合",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "政策托底与硬科技盈利兑现共振，科创 50 单日 +9.92%"
+      }
     },
     {
       "code": "515880",
       "name": "国泰中证全指通信设备ETF",
       "theme": "通信设备",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -25.7%，超过 12% 门槛。止损价 0.399 元（-6%），止盈价 0.468 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.403,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 5.46,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -25.7%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "通信/5G",
+        "direction": "中性",
+        "confidence": "中",
+        "headline": "未找到明确的近期催化剂；6G 标准 2029 年，商用约 2030 年"
+      }
     },
     {
       "code": "515050",
       "name": "华夏中证5G通信主题ETF",
       "theme": "5G通信",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -23.9%，超过 12% 门槛。止损价 0.628 元（-6%），止盈价 0.735 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.635,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 5.2,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -23.9%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "通信/5G",
+        "direction": "中性",
+        "confidence": "中",
+        "headline": "未找到明确的近期催化剂；6G 标准 2029 年，商用约 2030 年"
+      }
     },
     {
       "code": "159995",
       "name": "华夏国证半导体芯片ETF",
       "theme": "半导体芯片",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -13.4%，超过 12% 门槛。止损价 0.791 元（-6%），止盈价 0.925 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.76,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 10.66,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -13.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "588170",
       "name": "华夏上证科创板半导体材料设备主题ETF",
       "theme": "半导体材料设备",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -19.7%，超过 12% 门槛。止损价 0.663 元（-6%），止盈价 0.775 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.579,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 21.76,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -19.7%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "588200",
       "name": "嘉实上证科创板芯片ETF",
       "theme": "科创芯片",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -14.4%，超过 12% 门槛。止损价 0.802 元（-6%），止盈价 0.938 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.754,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 13.13,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -14.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "159516",
       "name": "国泰中证半导体材料设备主题ETF",
       "theme": "半导体材料设备",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -16.4%，超过 12% 门槛。止损价 0.487 元（-6%），止盈价 0.570 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.437,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 18.54,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -16.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "512480",
       "name": "国联安中证半导体ETF",
       "theme": "半导体",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -11.4%，超过 12% 门槛。止损价 0.738 元（-6%），止盈价 0.864 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.702,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 11.82,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -11.4%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "159363",
       "name": "华宝创业板人工智能ETF",
       "theme": "人工智能（创业板）",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -21.8%，超过 12% 门槛。止损价 0.818 元（-6%），止盈价 0.957 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.81,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 7.41,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -21.8%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "人工智能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云厂商资本开支继续上调，Q3 云收入大增；回报证明压力上升"
+      }
     },
     {
       "code": "515000",
       "name": "华宝中证科技龙头ETF",
       "theme": "科技龙头（综合）",
       "price_trigger": "weekly",
-      "entry": true,
-      "reason": "近四周跌 -16.2%，超过 12% 门槛。止损价 0.881 元（-6%），止盈价 1.031 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.887,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 5.64,
+      "reversal_confirmed": false,
+      "reason": "近四周跌 -16.2%，超过 12% 门槛，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "科技龙头综合",
+        "direction": "中性",
+        "confidence": "低",
+        "headline": "无独立于成份主题之外的近期催化剂，走势取决于底层合力"
+      }
     },
     {
       "code": "159852",
       "name": "嘉实中证软件服务ETF",
       "theme": "软件",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 40.9% 落在 20%~40% 带子内。止损价 0.588 元（-6%），止盈价 0.689 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.58,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 7.93,
+      "reversal_confirmed": false,
+      "reason": "回撤 40.9% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "软件/云计算",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云计算与 AI 应用收入开始兑现，Q3 云收入大增"
+      }
     },
     {
       "code": "159796",
       "name": "汇添富中证电池主题ETF",
       "theme": "电池主题",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 40.1% 落在 20%~40% 带子内。止损价 0.658 元（-6%），止盈价 0.770 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.64,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 9.37,
+      "reversal_confirmed": false,
+      "reason": "回撤 40.1% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "电池/储能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "固态电池进入中试与小批量量产窗口，2027 年有望小批量生产"
+      }
     },
     {
       "code": "159566",
       "name": "易方达国证储能电池ETF",
       "theme": "储能电池",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 39.7% 落在 20%~40% 带子内。止损价 1.409 元（-6%），止盈价 1.649 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 1.367,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 9.66,
+      "reversal_confirmed": false,
+      "reason": "回撤 39.7% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "电池/储能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "固态电池进入中试与小批量量产窗口，2027 年有望小批量生产"
+      }
     },
     {
       "code": "159755",
       "name": "广发国证新能源车电池ETF",
       "theme": "新能源车电池",
       "price_trigger": "drawdown",
+      "stage": "可入场",
       "entry": true,
-      "reason": "回撤 39.0% 落在 20%~40% 带子内。止损价 0.728 元（-6%），止盈价 0.853 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "recent_low": 0.728,
+      "recent_low_date": "2026-10-22",
+      "days_since_low": 13,
+      "bounce_pct": 6.46,
+      "reversal_confirmed": true,
+      "reason": "回撤 39.0% 落在 20%~40% 带子内。反转确认：较 2026-10-22 低点 0.728 元反弹 6.5%（≥5%），已 13 个交易日未创新低（≥10 日盘整）。止损价 0.728 元（-6%），止盈价 0.853 元（+10%），建议持股 6–12 周。",
+      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
+      "trend": {
+        "theme": "电池/储能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "固态电池进入中试与小批量量产窗口，2027 年有望小批量生产"
+      }
     },
     {
       "code": "515030",
       "name": "华夏中证新能源汽车ETF",
       "theme": "新能源汽车",
       "price_trigger": "drawdown",
+      "stage": "可入场",
       "entry": true,
-      "reason": "回撤 38.5% 落在 20%~40% 带子内。止损价 1.273 元（-6%），止盈价 1.489 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "recent_low": 1.268,
+      "recent_low_date": "2026-10-22",
+      "days_since_low": 13,
+      "bounce_pct": 6.78,
+      "reversal_confirmed": true,
+      "reason": "回撤 38.5% 落在 20%~40% 带子内。反转确认：较 2026-10-22 低点 1.268 元反弹 6.8%（≥5%），已 13 个交易日未创新低（≥10 日盘整）。止损价 1.273 元（-6%），止盈价 1.489 元（+10%），建议持股 6–12 周。",
+      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
+      "trend": {
+        "theme": "新能源汽车",
+        "direction": "中性",
+        "confidence": "中",
+        "headline": "10 月批发 +12%，但零售下滑约 7%，增长靠补贴抢购拉动"
+      }
     },
     {
       "code": "513130",
       "name": "恒生科技ETF华泰柏瑞(QDII)",
       "theme": "港股科技",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 38.4% 落在 20%~40% 带子内。止损价 0.473 元（-6%），止盈价 0.553 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.461,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 9.11,
+      "reversal_confirmed": false,
+      "reason": "回撤 38.4% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "港股科技",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "AI 商业化落地叠加资金回流，恒生科技单日 +5.55%"
+      }
     },
     {
       "code": "159819",
       "name": "易方达中证人工智能主题ETF",
       "theme": "人工智能",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 37.5% 落在 20%~40% 带子内。止损价 1.310 元（-6%），止盈价 1.533 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 1.3,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 7.23,
+      "reversal_confirmed": false,
+      "reason": "回撤 37.5% 落在 20%~40% 带子内，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "人工智能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云厂商资本开支继续上调，Q3 云收入大增；回报证明压力上升"
+      }
     },
     {
       "code": "515790",
       "name": "华泰柏瑞中证光伏产业ETF",
       "theme": "光伏",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 37.5% 落在 20%~40% 带子内。止损价 0.696 元（-6%），止盈价 0.814 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.669,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 10.61,
+      "reversal_confirmed": false,
+      "reason": "回撤 37.5% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "光伏",
+        "direction": "承压",
+        "confidence": "中",
+        "headline": "未找到明确的近期需求催化剂；多晶硅库存高企，组件价格处历史低位"
+      }
     },
     {
       "code": "159326",
       "name": "华夏中证电网设备主题ETF",
       "theme": "电网设备 / 新能源基建",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 36.9% 落在 20%~40% 带子内。止损价 1.339 元（-6%），止盈价 1.566 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 1.342,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 6.11,
+      "reversal_confirmed": false,
+      "reason": "回撤 36.9% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "电网设备",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "特高压核准与招标密集兑现，十五五电网投资超 5 万亿"
+      }
     },
     {
       "code": "588790",
       "name": "博时科创板人工智能ETF",
       "theme": "人工智能（科创板）",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 33.3% 落在 20%~40% 带子内。止损价 0.656 元（-6%），止盈价 0.768 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 0.623,
+      "recent_low_date": "2026-11-03",
+      "days_since_low": 5,
+      "bounce_pct": 12.04,
+      "reversal_confirmed": false,
+      "reason": "回撤 33.3% 落在 20%~40% 带子内，但反转未确认：低点距今仅 5 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "人工智能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云厂商资本开支继续上调，Q3 云收入大增；回报证明压力上升"
+      }
     },
     {
       "code": "516510",
       "name": "易方达中证云计算与大数据主题ETF",
       "theme": "云计算",
       "price_trigger": "drawdown",
-      "entry": true,
-      "reason": "回撤 29.8% 落在 20%~40% 带子内。止损价 1.345 元（-6%），止盈价 1.574 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "stage": "关注",
+      "entry": false,
+      "recent_low": 1.326,
+      "recent_low_date": "2026-10-30",
+      "days_since_low": 7,
+      "bounce_pct": 7.92,
+      "reversal_confirmed": false,
+      "reason": "回撤 29.8% 落在 20%~40% 带子内，但反转未确认：低点距今仅 7 日（需 ≥10 日盘整）。仅观察，不入场；等底部盘整 + 反转确认后再评估。",
+      "outlook": "等反转确认（反弹 ≥5% 且 10 日内未创新低）后再评估入场；未确认前不入场。",
+      "trend": {
+        "theme": "软件/云计算",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云计算与 AI 应用收入开始兑现，Q3 云收入大增"
+      }
     },
     {
       "code": "562500",
       "name": "华夏中证机器人ETF",
       "theme": "机器人",
       "price_trigger": "drawdown",
+      "stage": "可入场",
       "entry": true,
-      "reason": "回撤 26.6% 落在 20%~40% 带子内。止损价 0.838 元（-6%），止盈价 0.981 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "recent_low": 0.787,
+      "recent_low_date": "2026-10-15",
+      "days_since_low": 18,
+      "bounce_pct": 13.34,
+      "reversal_confirmed": true,
+      "reason": "回撤 26.6% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 0.787 元反弹 13.3%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 0.838 元（-6%），止盈价 0.981 元（+10%），建议持股 6–12 周。",
+      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
+      "trend": {
+        "theme": "机器人",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "人形机器人量产与进厂加速，上半年产量超 4 万台；进厂仅约 4000 台"
+      }
     },
     {
       "code": "159530",
       "name": "易方达国证机器人产业ETF",
       "theme": "机器人",
       "price_trigger": "drawdown",
+      "stage": "可入场",
       "entry": true,
-      "reason": "回撤 22.6% 落在 20%~40% 带子内。止损价 1.292 元（-6%），止盈价 1.513 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "recent_low": 1.103,
+      "recent_low_date": "2026-10-15",
+      "days_since_low": 18,
+      "bounce_pct": 24.66,
+      "reversal_confirmed": true,
+      "reason": "回撤 22.6% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 1.103 元反弹 24.7%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 1.292 元（-6%），止盈价 1.513 元（+10%），建议持股 6–12 周。",
+      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
+      "trend": {
+        "theme": "机器人",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "人形机器人量产与进厂加速，上半年产量超 4 万台；进厂仅约 4000 台"
+      }
     },
     {
       "code": "159865",
       "name": "国泰中证畜牧养殖ETF",
       "theme": "养殖",
       "price_trigger": "drawdown",
+      "stage": "可入场",
       "entry": true,
-      "reason": "回撤 18.7% 落在 20%~40% 带子内。止损价 0.509 元（-6%），止盈价 0.596 元（+10%），建议持股 6–12 周。",
-      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。"
+      "recent_low": 0.509,
+      "recent_low_date": "2026-10-15",
+      "days_since_low": 18,
+      "bounce_pct": 6.48,
+      "reversal_confirmed": true,
+      "reason": "回撤 18.7% 落在 20%~40% 带子内。反转确认：较 2026-10-15 低点 0.509 元反弹 6.5%（≥5%），已 18 个交易日未创新低（≥10 日盘整）。止损价 0.509 元（-6%），止盈价 0.596 元（+10%），建议持股 6–12 周。",
+      "outlook": "入场后按止损/止盈纪律走；到了止盈就走，没到止盈、到了 12 周就重新评估。",
+      "trend": {
+        "theme": "养殖",
+        "direction": "承压",
+        "confidence": "中",
+        "headline": "猪价创历史最低，产能去化拐点预计 2027 年第二季度"
+      }
     }
   ],
   "etfs": [
@@ -271,7 +579,13 @@
       "mae_p90": 3.95,
       "drawdown_start_median": 24.73,
       "drop4w_start_median": -10.78,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "科创板综合",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "政策托底与硬科技盈利兑现共振，科创 50 单日 +9.92%"
+      }
     },
     {
       "code": "588170",
@@ -290,7 +604,13 @@
       "mae_p90": 5.16,
       "drawdown_start_median": 20.03,
       "drop4w_start_median": -13.97,
-      "short_history": true
+      "short_history": true,
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "588200",
@@ -309,7 +629,13 @@
       "mae_p90": 6.39,
       "drawdown_start_median": 19.69,
       "drop4w_start_median": -12.33,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "513130",
@@ -328,7 +654,13 @@
       "mae_p90": 2.09,
       "drawdown_start_median": 27.95,
       "drop4w_start_median": -12.17,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "港股科技",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "AI 商业化落地叠加资金回流，恒生科技单日 +5.55%"
+      }
     },
     {
       "code": "159516",
@@ -347,7 +679,13 @@
       "mae_p90": 5.28,
       "drawdown_start_median": 23.9,
       "drop4w_start_median": -11.59,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "515880",
@@ -366,7 +704,13 @@
       "mae_p90": 4.47,
       "drawdown_start_median": 20.89,
       "drop4w_start_median": -12.78,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "通信/5G",
+        "direction": "中性",
+        "confidence": "中",
+        "headline": "未找到明确的近期催化剂；6G 标准 2029 年，商用约 2030 年"
+      }
     },
     {
       "code": "159530",
@@ -385,7 +729,13 @@
       "mae_p90": 2.84,
       "drawdown_start_median": 21.96,
       "drop4w_start_median": -10.23,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "机器人",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "人形机器人量产与进厂加速，上半年产量超 4 万台；进厂仅约 4000 台"
+      }
     },
     {
       "code": "159995",
@@ -404,7 +754,13 @@
       "mae_p90": 3.71,
       "drawdown_start_median": 26.81,
       "drop4w_start_median": -12.62,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "159819",
@@ -423,7 +779,13 @@
       "mae_p90": 2.44,
       "drawdown_start_median": 25.12,
       "drop4w_start_median": -12.37,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "人工智能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云厂商资本开支继续上调，Q3 云收入大增；回报证明压力上升"
+      }
     },
     {
       "code": "512480",
@@ -442,7 +804,13 @@
       "mae_p90": 3.9,
       "drawdown_start_median": 29.55,
       "drop4w_start_median": -11.76,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     },
     {
       "code": "562500",
@@ -461,7 +829,13 @@
       "mae_p90": 3.35,
       "drawdown_start_median": 26.24,
       "drop4w_start_median": -14.75,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "机器人",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "人形机器人量产与进厂加速，上半年产量超 4 万台；进厂仅约 4000 台"
+      }
     },
     {
       "code": "159326",
@@ -480,7 +854,13 @@
       "mae_p90": 5.49,
       "drawdown_start_median": 16.91,
       "drop4w_start_median": -6.1,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "电网设备",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "特高压核准与招标密集兑现，十五五电网投资超 5 万亿"
+      }
     },
     {
       "code": "159992",
@@ -499,7 +879,13 @@
       "mae_p90": 5.01,
       "drawdown_start_median": 29.93,
       "drop4w_start_median": -13.16,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "创新药/生物医药",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "出海 BD 约 1300 亿美元，医保国谈完成，支付体系兑现"
+      }
     },
     {
       "code": "515050",
@@ -518,7 +904,13 @@
       "mae_p90": 3.87,
       "drawdown_start_median": 21.2,
       "drop4w_start_median": -13.74,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "通信/5G",
+        "direction": "中性",
+        "confidence": "中",
+        "headline": "未找到明确的近期催化剂；6G 标准 2029 年，商用约 2030 年"
+      }
     },
     {
       "code": "159206",
@@ -537,7 +929,13 @@
       "mae_p90": 3.79,
       "drawdown_start_median": 27.76,
       "drop4w_start_median": -12.08,
-      "short_history": true
+      "short_history": true,
+      "trend": {
+        "theme": "卫星通信",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "低轨卫星互联网密集组网，GW 星座与千帆加速发射"
+      }
     },
     {
       "code": "159852",
@@ -556,7 +954,13 @@
       "mae_p90": 2.49,
       "drawdown_start_median": 29.33,
       "drop4w_start_median": -11.28,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "软件/云计算",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云计算与 AI 应用收入开始兑现，Q3 云收入大增"
+      }
     },
     {
       "code": "159865",
@@ -575,7 +979,13 @@
       "mae_p90": 3.05,
       "drawdown_start_median": 22.86,
       "drop4w_start_median": -12.61,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "养殖",
+        "direction": "承压",
+        "confidence": "中",
+        "headline": "猪价创历史最低，产能去化拐点预计 2027 年第二季度"
+      }
     },
     {
       "code": "159755",
@@ -594,7 +1004,13 @@
       "mae_p90": 2.58,
       "drawdown_start_median": 19.84,
       "drop4w_start_median": -9.65,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "电池/储能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "固态电池进入中试与小批量量产窗口，2027 年有望小批量生产"
+      }
     },
     {
       "code": "515790",
@@ -613,7 +1029,13 @@
       "mae_p90": 3.14,
       "drawdown_start_median": 32.34,
       "drop4w_start_median": -13.38,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "光伏",
+        "direction": "承压",
+        "confidence": "中",
+        "headline": "未找到明确的近期需求催化剂；多晶硅库存高企，组件价格处历史低位"
+      }
     },
     {
       "code": "159363",
@@ -632,7 +1054,13 @@
       "mae_p90": 2.45,
       "drawdown_start_median": 14.8,
       "drop4w_start_median": -12.89,
-      "short_history": true
+      "short_history": true,
+      "trend": {
+        "theme": "人工智能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云厂商资本开支继续上调，Q3 云收入大增；回报证明压力上升"
+      }
     },
     {
       "code": "159796",
@@ -651,7 +1079,13 @@
       "mae_p90": 3.4,
       "drawdown_start_median": 27.34,
       "drop4w_start_median": -10.52,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "电池/储能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "固态电池进入中试与小批量量产窗口，2027 年有望小批量生产"
+      }
     },
     {
       "code": "159859",
@@ -670,7 +1104,13 @@
       "mae_p90": 5.19,
       "drawdown_start_median": 31.73,
       "drop4w_start_median": -12.14,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "创新药/生物医药",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "出海 BD 约 1300 亿美元，医保国谈完成，支付体系兑现"
+      }
     },
     {
       "code": "159566",
@@ -689,7 +1129,13 @@
       "mae_p90": 4.74,
       "drawdown_start_median": 15.34,
       "drop4w_start_median": -9.43,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "电池/储能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "固态电池进入中试与小批量量产窗口，2027 年有望小批量生产"
+      }
     },
     {
       "code": "512290",
@@ -708,7 +1154,13 @@
       "mae_p90": 2.55,
       "drawdown_start_median": 30.84,
       "drop4w_start_median": -10.11,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "创新药/生物医药",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "出海 BD 约 1300 亿美元，医保国谈完成，支付体系兑现"
+      }
     },
     {
       "code": "588790",
@@ -727,7 +1179,13 @@
       "mae_p90": 4.05,
       "drawdown_start_median": 19.24,
       "drop4w_start_median": -13.59,
-      "short_history": true
+      "short_history": true,
+      "trend": {
+        "theme": "人工智能",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云厂商资本开支继续上调，Q3 云收入大增；回报证明压力上升"
+      }
     },
     {
       "code": "515000",
@@ -746,7 +1204,13 @@
       "mae_p90": 3.9,
       "drawdown_start_median": 23.34,
       "drop4w_start_median": -12.19,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "科技龙头综合",
+        "direction": "中性",
+        "confidence": "低",
+        "headline": "无独立于成份主题之外的近期催化剂，走势取决于底层合力"
+      }
     },
     {
       "code": "516510",
@@ -765,7 +1229,13 @@
       "mae_p90": 4.73,
       "drawdown_start_median": 28.14,
       "drop4w_start_median": -11.4,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "软件/云计算",
+        "direction": "向好",
+        "confidence": "中",
+        "headline": "云计算与 AI 应用收入开始兑现，Q3 云收入大增"
+      }
     },
     {
       "code": "159732",
@@ -784,7 +1254,13 @@
       "mae_p90": 4.06,
       "drawdown_start_median": 20.96,
       "drop4w_start_median": -13.22,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "消费电子",
+        "direction": "承压",
+        "confidence": "中",
+        "headline": "换机需求持续低迷，Q3 国内智能手机出货 -15.4%，AI 未成换机动力"
+      }
     },
     {
       "code": "515030",
@@ -803,7 +1279,13 @@
       "mae_p90": 1.88,
       "drawdown_start_median": 33.33,
       "drop4w_start_median": -9.94,
-      "short_history": false
+      "short_history": false,
+      "trend": {
+        "theme": "新能源汽车",
+        "direction": "中性",
+        "confidence": "中",
+        "headline": "10 月批发 +12%，但零售下滑约 7%，增长靠补贴抢购拉动"
+      }
     },
     {
       "code": "589070",
@@ -822,7 +1304,13 @@
       "mae_p90": 3.93,
       "drawdown_start_median": 36.36,
       "drop4w_start_median": -14.46,
-      "short_history": true
+      "short_history": true,
+      "trend": {
+        "theme": "芯片/半导体",
+        "direction": "向好",
+        "confidence": "高",
+        "headline": "AI 算力需求强劲，HBM 产能已售罄；Q3 全球半导体销售额环比 +24.1%"
+      }
     }
   ],
   "pooled": {
