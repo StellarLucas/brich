@@ -66,6 +66,11 @@
   .up{color:var(--red)} .down{color:var(--down)}
   .hit-reason{font-size:.88rem; color:#3c463f; background:#faf8f1; border-radius:8px;
     padding:.55rem .7rem; margin-top:.85rem}
+  .hit.vetoed::before{background:#c0392b}
+  .hit.vetoed{background:#fdf9f8}
+  .badge.vetoed{background:#fdf0ef; color:#8c2f26}
+  .badge.fundbuy{background:#e3f0e8; color:var(--green)}
+  .hit-outlook{font-size:.85rem; color:var(--muted); margin-top:.5rem}
 
   /* ---------- news ---------- */
   .news-filters{display:flex; gap:.45rem; flex-wrap:wrap; margin-bottom:.7rem}
@@ -199,8 +204,20 @@
 
   <section id="sec-hits">
     <h2>今日入场信号</h2>
-    <p class="sec-sub">股息率 &gt; 4% 且满足入场时机（回撤 27%~55%，或近一周跌 ≥ 9%）才会高亮。低于 4% 的票不作为入场选择。每天 6 点、12 点、18 点、0 点各更新一次。</p>
+    <p class="sec-sub">入场信号要同时过两关：价格触发（回撤 27%~55%，或近一周跌 ≥ 9%）且基本面五层否决制通过。股息率 ≤ 4% 的票不作为入场选择。每天 6 点、12 点、18 点、0 点各更新一次。</p>
     <div id="hits"></div>
+  </section>
+
+  <section id="sec-vetoed">
+    <h2>价格触发、基本面已否决</h2>
+    <p class="sec-sub">价格上触发了入场时机，但基本面五层否决制没通过，所以不入场。原因写在卡片里，供参考，不作为投资建议。</p>
+    <div id="vetoed"></div>
+  </section>
+
+  <section id="sec-fundbuy">
+    <h2>基本面可买入，等价格时机</h2>
+    <p class="sec-sub">基本面五层都通过的票，但今天价格上还没触发入场时机（回撤不够深、也没急跌），先放着等。</p>
+    <div id="fundbuy"></div>
   </section>
 
   <section>
@@ -327,9 +344,10 @@
         <li><b>只看权重高分红股</b>：沪深 300 成分、股息率 ≥ 3%，按总市值取前 50 只，名单叫 q50。</li>
         <li><b>入场时机一 · 回撤</b>：相对 52 周最高价回撤 30%~50%（容差后执行区间 27%~55%）。</li>
         <li><b>入场时机二 · 急跌</b>：近一周（5 个交易日）跌幅 ≥ 10%（容差后执行下限 9%）。</li>
-        <li><b>或关系</b>：先过 4% 门槛，再满足任一时机即入场信号。</li>
+        <li><b>或关系</b>：先过 4% 门槛，再满足任一时机即价格触发。</li>
+        <li><b>基本面把关</b>：价格触发后，还要过基本面五层否决制（理解、行业、护城河、财报、红利；方法见分析方法论），全部通过才显示为入场信号；没通过的进「价格触发、基本面已否决」，并写明原因。</li>
       </ol>
-      <p class="pick">每天最多报一只：优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。同一只 3 天内不重复报。入选的必须先过股息率 4% 的门槛。</p>
+      <p class="pick">入场信号 = 价格触发 + 基本面通过，两关都过才报。每天最多报一只：优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。同一只 3 天内不重复报。入选的必须先过股息率 4% 的门槛。</p>
     </div>
   </section>
 
@@ -367,47 +385,135 @@
     return Math.round(n).toLocaleString("zh-CN");
   }
 
-  fetch("data.json", {cache:"no-store"}).then(function(r){
-    if(!r.ok) throw new Error("data.json 未找到");
-    return r.json();
-  }).then(function(d){
+  Promise.all([
+    fetch("data.json", {cache:"no-store"}).then(function(r){
+      if(!r.ok) throw new Error("data.json 未找到");
+      return r.json();
+    }),
+    fetch("analysis.json", {cache:"no-store"}).then(function(r){
+      return r.ok ? r.json() : null;
+    }).catch(function(){ return null; })
+  ]).then(function(res){
+    var d = res[0];
+    var a = res[1];
     var meta = d.meta || {};
     var wl = d.watchlist || [];
     var hits = d.hits || [];
+    var signals = (a && a.signals) || [];
+    var analysisOk = !!(a && a.signals);
+    var entrySignals, vetoedSignals, fundBuy;
+    if(analysisOk){
+      entrySignals = signals.filter(function(s){ return s.entry; });
+      vetoedSignals = signals.filter(function(s){ return !s.entry; });
+      var signalCodes = {};
+      signals.forEach(function(s){ signalCodes[s.code] = 1; });
+      fundBuy = (a.stocks || []).filter(function(s){
+        return s.verdict === "可买入" && !signalCodes[s.code];
+      });
+    } else {
+      entrySignals = hits.map(function(h){
+        return {code:h.code, name:h.name, industry:h.industry, price_trigger:h.trigger, reason:h.reason, outlook:""};
+      });
+      vetoedSignals = [];
+      fundBuy = [];
+    }
     el("updated").innerHTML = "数据截至 <b>" + (meta.data_date_label||meta.data_date||"") + "</b> · 本页更新于 " + (meta.updated_at||"");
     el("stat-count").textContent = wl.length;
     el("stat-yield").innerHTML = (meta.avg_yield!==undefined ? meta.avg_yield.toFixed(2) + "<small>%</small>" : "—");
-    el("stat-hits").textContent = hits.length;
+    el("stat-hits").textContent = entrySignals.length;
+
+    function hitByCode(code){
+      for(var i=0;i<hits.length;i++){ if(hits[i].code===code) return hits[i]; }
+      return null;
+    }
+    function wlByCode(code){
+      for(var i=0;i<wl.length;i++){ if(wl[i].code===code) return wl[i]; }
+      return null;
+    }
+    function triggerCode(t){
+      if(t==="both"||t==="双命中") return "both";
+      if(t==="drawdown"||t==="回撤") return "drawdown";
+      if(t==="weekly"||t==="一周跌幅") return "weekly";
+      return "weekly";
+    }
+    function signalCard(sig, vetoedFlag){
+      var h = hitByCode(sig.code);
+      var w = wlByCode(sig.code) || {};
+      var price = h ? h.price : w.price;
+      var high52 = h ? h.high52 : null;
+      var drawdown = h ? h.drawdown : w.drawdown;
+      var weekly = h ? h.weekly : w.weekly;
+      var yieldV = h ? h.yield : w.yield;
+      var mcap = h ? h.mcap : w.mcap;
+      var tc = triggerCode(sig.price_trigger || sig.trigger);
+      var badges = badge(tc) + (vetoedFlag ? ' <span class="badge vetoed">基本面已否决</span>' : '');
+      return '<article class="hit ' + (tc==="both"?"both":"") + (vetoedFlag?" vetoed":"") + '">' +
+        '<div class="hit-head"><span class="hit-name">' + sig.name + '</span>' +
+        '<span class="hit-code">' + sig.code + '</span>' +
+        '<span class="hit-ind">' + (sig.industry || (h&&h.industry) || "") + '</span>' +
+        '<span class="badges">' + badges + '</span></div>' +
+        '<div class="metrics">' +
+          '<div class="metric"><div class="k">现价</div><div class="v">' + (price!==undefined&&price!==null?price:"—") + ' <small>元</small></div></div>' +
+          '<div class="metric"><div class="k">52周最高</div><div class="v">' + (high52||"—") + ' <small>元</small></div></div>' +
+          '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(drawdown,1) + '</div></div>' +
+          '<div class="metric"><div class="k">近一周</div><div class="v ' + cls(weekly) + '">' + pct(weekly) + '</div></div>' +
+          '<div class="metric"><div class="k">股息率</div><div class="v">' + (yieldV!==undefined&&yieldV!==null? yieldV.toFixed(2)+"%" : "—") + '</div></div>' +
+          '<div class="metric"><div class="k">总市值</div><div class="v">' + money(mcap) + '</div></div>' +
+        '</div>' +
+        (sig.reason ? '<div class="hit-reason">' + sig.reason + '</div>' : '') +
+        (sig.outlook ? '<div class="hit-outlook">' + sig.outlook + '</div>' : '') +
+      '</article>';
+    }
     var valueCount = wl.filter(function(w){ return w.drawdown!==null && w.drawdown!==undefined && w.drawdown>=27 && w.yield>4; }).length;
     el("stat-value").textContent = valueCount;
 
-    /* ---- hits ---- */
+    /* ---- hits (entry signals: price trigger + fundamental pass) ---- */
     var hitsBox = el("hits");
-    if(!hits.length){
-      hitsBox.innerHTML = '<div class="empty">今天没有可入场的股票。<br>q50 里股息率过 4% 的票，既没有回撤进区间，也没有一周急跌超 9% 的。</div>';
+    if(!entrySignals.length){
+      hitsBox.innerHTML = '<div class="empty">今天没有入场信号。<br>' + (vetoedSignals.length ? '价格上触发的 ' + vetoedSignals.length + ' 只，基本面都没通过，见下面「价格触发、基本面已否决」。' : 'q50 里股息率过 4% 的票，既没有回撤进区间，也没有一周急跌超 9% 的。') + '</div>';
     } else {
-      hitsBox.innerHTML = hits.map(function(h){
-        return '<article class="hit ' + (h.trigger==="both"?"both":"") + '">' +
-          '<div class="hit-head"><span class="hit-name">' + h.name + '</span>' +
-          '<span class="hit-code">' + h.code + '</span>' +
-          '<span class="hit-ind">' + (h.industry||"") + '</span>' +
-          '<span class="badges">' + badge(h.trigger) + '</span></div>' +
+      hitsBox.innerHTML = entrySignals.map(function(s){ return signalCard(s, false); }).join("");
+    }
+
+    /* ---- vetoed (price trigger but fundamental fail) ---- */
+    var vetoedBox = el("vetoed");
+    if(!vetoedSignals.length){
+      vetoedBox.innerHTML = '<div class="empty">今天没有被基本面否决的价格触发。</div>';
+    } else {
+      vetoedBox.innerHTML = vetoedSignals.map(function(s){ return signalCard(s, true); }).join("");
+    }
+
+    /* ---- fundamental buy, waiting for price ---- */
+    var fundBox = el("fundbuy");
+    if(!fundBuy.length){
+      fundBox.innerHTML = '<div class="empty">目前没有基本面通过、只等价格时机的票。</div>';
+    } else {
+      fundBox.innerHTML = fundBuy.map(function(s){
+        var w = wlByCode(s.code) || {};
+        var fv = (s.fair_value!==null&&s.fair_value!==undefined) ? s.fair_value + " 元" : "—";
+        var star = (s.morningstar_star!==null&&s.morningstar_star!==undefined) ? s.morningstar_star + " 星" : "—";
+        var pfv = (s.price_to_fv!==null&&s.price_to_fv!==undefined) ? s.price_to_fv.toFixed(2) : "—";
+        return '<article class="hit">' +
+          '<div class="hit-head"><span class="hit-name">' + s.name + '</span>' +
+          '<span class="hit-code">' + s.code + '</span>' +
+          '<span class="hit-ind">' + (s.industry||"") + '</span>' +
+          '<span class="badges"><span class="badge fundbuy">基本面可买入</span></span></div>' +
           '<div class="metrics">' +
-            '<div class="metric"><div class="k">现价</div><div class="v">' + h.price + ' <small>元</small></div></div>' +
-            '<div class="metric"><div class="k">52周最高</div><div class="v">' + (h.high52||"—") + ' <small>元</small></div></div>' +
-            '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(h.drawdown,1) + '</div></div>' +
-            '<div class="metric"><div class="k">近一周</div><div class="v ' + cls(h.weekly) + '">' + pct(h.weekly) + '</div></div>' +
-            '<div class="metric"><div class="k">股息率</div><div class="v">' + (h.yield!==undefined? h.yield.toFixed(2)+"%" : "—") + '</div></div>' +
-            '<div class="metric"><div class="k">总市值</div><div class="v">' + money(h.mcap) + '</div></div>' +
+            '<div class="metric"><div class="k">现价</div><div class="v">' + (w.price!==undefined&&w.price!==null?w.price:"—") + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(w.drawdown,1) + '</div></div>' +
+            '<div class="metric"><div class="k">股息率</div><div class="v">' + (w.yield!==undefined&&w.yield!==null? w.yield.toFixed(2)+"%" : "—") + '</div></div>' +
+            '<div class="metric"><div class="k">护城河</div><div class="v">' + (s.moat||"—") + '</div></div>' +
+            '<div class="metric"><div class="k">公允价值</div><div class="v">' + fv + '</div></div>' +
+            '<div class="metric"><div class="k">晨星评级 / P/FV</div><div class="v">' + star + ' / ' + pfv + '</div></div>' +
           '</div>' +
-          (h.reason ? '<div class="hit-reason">' + h.reason + '</div>' : '') +
+          (s.note ? '<div class="hit-reason">' + s.note + '</div>' : '') +
         '</article>';
       }).join("");
     }
 
     /* ---- discount ranking ---- */
     var hitSet = {};
-    hits.forEach(function(h){ hitSet[h.code] = 1; });
+    entrySignals.forEach(function(s){ hitSet[s.code] = 1; });
     var disc = wl.filter(function(w){ return w.drawdown!==null && w.drawdown!==undefined; })
                  .sort(function(a,b){ return b.drawdown - a.drawdown; }).slice(0,8);
     var discBox = el("discount-list");
@@ -427,7 +533,7 @@
       }).join("");
     }
     var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
-    el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 4% 且已触发入场时机；「股息不足」指股息率 ≤ 4%，不作为入场选择。";
+    el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 4% 且价格与基本面都通过；「股息不足」指股息率 ≤ 4%，不作为入场选择。";
 
     /* ---- weekly drop ranking ---- */
     var drops = wl.filter(function(w){ return w.weekly!==null && w.weekly!==undefined; })
