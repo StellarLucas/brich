@@ -939,15 +939,23 @@
         }
       }
       if(s){
+        var cfTxt = "—";
+        if(s.is_financial){
+          cfTxt = s.dividend_covered===true ? "稳定（分红被所有者收益覆盖）" : (s.dividend_covered===false ? "不稳定（分红未被覆盖）" : "待核");
+        } else {
+          cfTxt = s.cashflow_stable===true ? "稳定" : (s.cashflow_stable===false ? "不稳定" : "待核");
+        }
         html += '<div class="m-sec"><h4>基本面</h4><div class="m-kv">' +
           '<div><div class="k">ROE 十年均值</div><div class="v">' + (s.roe_10y_avg!==null&&s.roe_10y_avg!==undefined? s.roe_10y_avg.toFixed(1)+"%" : "—") + '</div></div>' +
           '<div><div class="k">分红率</div><div class="v">' + (s.payout_ratio!==null&&s.payout_ratio!==undefined? s.payout_ratio.toFixed(1)+"%" : "—") + '</div></div>' +
           '<div><div class="k">十年分红</div><div class="v">' + (s.dividend_10y_no_cut===true?"无削减":(s.dividend_10y_no_cut===false?"有削减":"—")) + '</div></div>' +
+          '<div><div class="k">现金流</div><div class="v">' + cfTxt + '</div></div>' +
           '<div><div class="k">晨星评级</div><div class="v">' + (s.morningstar_star!==null&&s.morningstar_star!==undefined? s.morningstar_star+" 星" : "—") + '</div></div>' +
           '<div><div class="k">公允价值</div><div class="v">' + (s.fair_value!==null&&s.fair_value!==undefined? s.fair_value+" 元" : "—") + '</div></div>' +
           '<div><div class="k">P / 公允价值</div><div class="v">' + (s.price_to_fv!==null&&s.price_to_fv!==undefined? s.price_to_fv.toFixed(2) : "—") + '</div></div>' +
         '</div></div>' +
-        (s.note ? '<div class="m-sec"><h4>分析</h4><div class="m-note">' + s.note + '</div></div>' : '');
+        (s.note ? '<div class="m-sec"><h4>分析</h4><div class="m-note">' + s.note + '</div></div>' : '') +
+        (s.cashflow_reason ? '<div class="m-sec"><h4>现金流（2026-11-11 审计）</h4><div class="m-note">' + s.cashflow_reason + (s.ocf_cv!==null&&s.ocf_cv!==undefined ? '；十年经营现金流变异系数 ' + s.ocf_cv.toFixed(2) + '。' : '') + '</div></div>' : '');
       }
       if(sig){
         html += '<div class="m-sec"><h4>本次信号</h4><div class="m-note">' + sig.reason + '</div>' +
