@@ -289,6 +289,12 @@
     <div id="compcore"></div>
   </section>
 
+  <section id="sec-outsiders">
+    <h2>q50 外观察（建议里的 4 只）</h2>
+    <p class="sec-sub">不在 q50 的 4 只票，按 q50 同款规则检查，但不进 q50 的入场信号。现金流按年报审计（4 只中仅招商公路稳定）。</p>
+    <div id="outsiders"></div>
+  </section>
+
   <section>
     <h2>今日要闻</h2>
     <p class="sec-sub">和 q50 持仓、行业与宏观相关的新闻，按分类与影响分级。只看概要，不追消息炒股。</p>
@@ -778,6 +784,33 @@
             '<div class="metric"><div class="k">结论</div><div class="v">' + (s.verdict||"—") + '</div></div>' +
           '</div>' +
           (s.compounding_reason ? '<div class="hit-reason">' + s.compounding_reason + '</div>' : '') +
+        '</article>';
+      }).join("");
+    }
+
+    /* ---- outsiders (q50 外观察) ---- */
+    var outBox = el("outsiders");
+    var outs = d.outsiders || [];
+    if(!outs.length){
+      outBox.innerHTML = '<div class="empty">暂无 q50 外观察数据。</div>';
+    } else {
+      outBox.innerHTML = outs.map(function(o){
+        var stageBadge = o.stage === "可入场" ? '<span class="badge both">可入场</span>' :
+                         (o.stage === "关注" ? '<span class="badge setup">关注</span>' : '');
+        return '<article class="hit">' +
+          '<div class="hit-head"><span class="hit-name">' + o.name + '</span>' +
+          '<span class="hit-code">' + o.code + '</span>' +
+          '<span class="hit-ind">' + (o.industry||"") + '</span>' +
+          '<span class="badges">' + stageBadge + '</span></div>' +
+          '<div class="metrics">' +
+            '<div class="metric"><div class="k">现价</div><div class="v">' + (o.price!==undefined&&o.price!==null?o.price:"—") + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(o.drawdown,1) + '</div></div>' +
+            '<div class="metric"><div class="k">股息率</div><div class="v">' + (o.yield!==undefined&&o.yield!==null? o.yield.toFixed(2)+"%" : "—") + '</div></div>' +
+            '<div class="metric"><div class="k">近 5 日</div><div class="v">' + pct(o.weekly,2) + '</div></div>' +
+            '<div class="metric"><div class="k">现金流</div><div class="v">' + (o.cashflow_stable===true?"稳定":(o.cashflow_stable===false?"不稳定":"待核")) + '</div></div>' +
+            '<div class="metric"><div class="k">反弹 / 低点距今</div><div class="v">' + (o.bounce_pct!==undefined&&o.bounce_pct!==null? o.bounce_pct.toFixed(2)+"%" : "—") + ' / ' + (o.days_since_low!==undefined&&o.days_since_low!==null? o.days_since_low+"日" : "—") + '</div></div>' +
+          '</div>' +
+          (o.cashflow_reason ? '<div class="hit-reason">' + o.cashflow_reason + '</div>' : '') +
         '</article>';
       }).join("");
     }
