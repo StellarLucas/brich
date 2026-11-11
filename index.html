@@ -283,6 +283,12 @@
     <div id="fundbuy"></div>
   </section>
 
+  <section id="sec-compcore">
+    <h2>复利核心（能长拿、吃复利的池子）</h2>
+    <p class="sec-sub">有护城河 + 现金流稳定 + 基本面结论为可买入/等待的票。硬门槛不一刀切，小幅技术性违规改为等待。点卡片看详情。</p>
+    <div id="compcore"></div>
+  </section>
+
   <section>
     <h2>今日要闻</h2>
     <p class="sec-sub">和 q50 持仓、行业与宏观相关的新闻，按分类与影响分级。只看概要，不追消息炒股。</p>
@@ -408,12 +414,13 @@
         <li><b>入场时机一 · 回撤</b>：相对 52 周最高价回撤 20%~50%（容差后执行区间 18%~55%）。</li>
         <li><b>入场时机二 · 急跌</b>：近一周（5 个交易日）跌幅 ≥ 10%（容差后执行下限 9%）。</li>
         <li><b>或关系</b>：先过 3.5% 门槛，再满足任一时机即价格触发。</li>
-        <li><b>基本面把关</b>：价格触发后，还要过基本面五层否决制（理解、行业、护城河、财报、红利；方法见分析方法论），全部通过才进入「关注」；没通过的进「价格触发、基本面已否决」，并写明原因。</li>
+        <li><b>基本面把关</b>：价格触发后，还要过基本面五层否决制（理解、行业、护城河、财报、红利；方法见分析方法论），全部通过才进入「关注」；没通过的进「价格触发、基本面已否决」，并写明原因。判断不一刀切：小幅技术性违规改为等待，不直接否决。</li>
+        <li><b>复利核心</b>：有护城河 + 现金流稳定 + 结论为可买入/等待的票，标为「复利核心」，是能长拿、吃复利的池子；每天选首选信号时优先选复利核心的票。</li>
         <li><b>现金流稳定优先</b>：重点关注现金流稳定的股票。所有者收益为正且分红被所有者收益/自由现金流覆盖的，算现金流稳定；多只信号同时符合时优先选现金流稳定的，现金流不稳定的不优先报为首选。</li>
         <li><b>两段式信号</b>：第一段「关注」= 价格触发 + 基本面通过，只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日，即底部盘整至少两周）。</li>
         <li><b>触发宽度</b>：价格触发只数 / 50。≥ 50% 为「整体退潮」（系统性下跌，信号大多只是观察）；≤ 20% 为「个别机会」。</li>
       </ol>
-      <p class="pick">入场信号 = 价格触发 + 基本面通过 + 反转确认，三关都过才报。每天最多报一只：优先选现金流稳定的；现金流稳定的票之间，优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。同一只 3 天内不重复报。入选的必须先过股息率 3.5% 的门槛。</p>
+      <p class="pick">入场信号 = 价格触发 + 基本面通过 + 反转确认，三关都过才报。每天最多报一只：优先选复利核心；复利核心之间，优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。没有复利核心的可入场信号时，退而求其次选现金流稳定的。同一只 3 天内不重复报。入选的必须先过股息率 3.5% 的门槛。</p>
     </div>
   </section>
 
@@ -591,7 +598,7 @@
     var hits = d.hits || [];
     var signals = (a && a.signals) || [];
     var analysisOk = !!(a && a.signals);
-    var entrySignals, setupSignals, vetoedSignals, fundBuy;
+    var entrySignals, setupSignals, vetoedSignals, fundBuy, compCore;
     function hitToSig(h, stage){
       return {code:h.code, name:h.name, industry:h.industry, price_trigger:h.trigger,
               stage:stage, entry:(stage==="可入场"), reason:h.reason, outlook:h.outlook||"",
@@ -613,6 +620,9 @@
       fundBuy = (a.stocks || []).filter(function(s){
         return s.verdict === "可买入" && !signalCodes[s.code];
       });
+      compCore = (a.stocks || []).filter(function(s){
+        return s.compounding_core === true;
+      });
     } else {
       var hasStageQ = (d.setups !== undefined) || (meta.n_stage1 !== undefined);
       if(hasStageQ){
@@ -624,6 +634,7 @@
       }
       vetoedSignals = [];
       fundBuy = [];
+      compCore = [];
     }
     /* breadth: price-trigger count / 50 (vetoed triggers count too — they are still triggers) */
     var nPriceTrig = (meta.n_price_trigger !== undefined) ? meta.n_price_trigger : signals.length;
@@ -742,6 +753,31 @@
             '<div class="metric"><div class="k">晨星评级 / P/FV</div><div class="v">' + star + ' / ' + pfv + '</div></div>' +
           '</div>' +
           (s.note ? '<div class="hit-reason">' + s.note + '</div>' : '') +
+        '</article>';
+      }).join("");
+    }
+
+    /* ---- compounding core ---- */
+    var compBox = el("compcore");
+    if(!compCore.length){
+      compBox.innerHTML = '<div class="empty">目前没有符合复利核心条件的票。</div>';
+    } else {
+      compBox.innerHTML = compCore.map(function(s){
+        var w = wlByCode(s.code) || {};
+        return '<article class="hit" data-code="' + s.code + '">' +
+          '<div class="hit-head"><span class="hit-name">' + s.name + '</span>' +
+          '<span class="hit-code">' + s.code + '</span>' +
+          '<span class="hit-ind">' + (s.industry||"") + '</span>' +
+          '<span class="badges"><span class="badge fundbuy">复利核心</span></span></div>' +
+          '<div class="metrics">' +
+            '<div class="metric"><div class="k">现价</div><div class="v">' + (w.price!==undefined&&w.price!==null?w.price:"—") + ' <small>元</small></div></div>' +
+            '<div class="metric"><div class="k">回撤</div><div class="v">' + pct(w.drawdown,1) + '</div></div>' +
+            '<div class="metric"><div class="k">股息率</div><div class="v">' + (w.yield!==undefined&&w.yield!==null? w.yield.toFixed(2)+"%" : "—") + '</div></div>' +
+            '<div class="metric"><div class="k">护城河</div><div class="v">' + (s.moat||"—") + '</div></div>' +
+            '<div class="metric"><div class="k">现金流</div><div class="v">' + (s.is_financial ? (s.dividend_covered===true?"稳定":(s.dividend_covered===false?"不稳定":"待核")) : (s.cashflow_stable===true?"稳定":(s.cashflow_stable===false?"不稳定":"待核"))) + '</div></div>' +
+            '<div class="metric"><div class="k">结论</div><div class="v">' + (s.verdict||"—") + '</div></div>' +
+          '</div>' +
+          (s.compounding_reason ? '<div class="hit-reason">' + s.compounding_reason + '</div>' : '') +
         '</article>';
       }).join("");
     }
@@ -917,6 +953,7 @@
         '<div class="m-sub">' + code + (ind ? ' · ' + ind : '') + '</div>' +
         '<div>' + (s ? verdictBadge(s.verdict) : '') +
         (s && s.moat ? ' <span class="badge drawdown">' + s.moat + '护城河</span>' : '') +
+        (s && s.compounding_core ? ' <span class="badge fundbuy">复利核心</span>' : '') +
         sigBadges + '</div>' +
         '<div class="m-sec"><h4>价格</h4><div class="m-kv">' +
           '<div><div class="k">现价</div><div class="v">' + (w.price!==undefined&&w.price!==null?w.price:"—") + ' 元</div></div>' +
