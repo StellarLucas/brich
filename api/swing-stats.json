@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-10T09:10:20+00:00",
+  "generated_at": "2026-11-11T08:51:04+00:00",
   "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
   "indexes": {
     "q50": {
-      "data_date": "2026-11-10",
-      "computed_at": "2026-11-10T09:10:11+00:00",
+      "data_date": "2026-11-11",
+      "computed_at": "2026-11-11T08:50:54+00:00",
       "stats": {
         "up_gain": {
           "n": 205,
@@ -105,8 +105,8 @@
       }
     },
     "h100": {
-      "data_date": "2026-11-10",
-      "computed_at": "2026-11-10T09:10:12+00:00",
+      "data_date": "2026-11-11",
+      "computed_at": "2026-11-11T08:50:55+00:00",
       "stats": {
         "up_gain": {
           "n": 940,
@@ -116,11 +116,11 @@
           "q3": 0.8418
         },
         "down_loss": {
-          "n": 903,
-          "mean": 0.3385,
-          "median": 0.3122,
+          "n": 907,
+          "mean": 0.3397,
+          "median": 0.3128,
           "q1": 0.2548,
-          "q3": 0.4033
+          "q3": 0.4041
         },
         "up_duration_weeks": {
           "n": 940,
@@ -130,10 +130,10 @@
           "q3": 15.4
         },
         "down_duration_weeks": {
-          "n": 903,
-          "mean": 11.7225,
+          "n": 907,
+          "mean": 11.7213,
           "median": 8.3,
-          "q1": 4.8,
+          "q1": 4.9,
           "q3": 15.35
         },
         "drawdown_at_swing_start": {
@@ -186,16 +186,16 @@
           "q3": 22.7
         },
         "n_stocks": 99,
-        "n_completed_swings": 1843,
+        "n_completed_swings": 1847,
         "n_up": 940,
-        "n_down": 903
+        "n_down": 907
       },
       "rules": {
         "derived_from": {
           "n_stocks": 99,
-          "n_completed_swings": 1843,
+          "n_completed_swings": 1847,
           "n_up": 940,
-          "n_down": 903
+          "n_down": 907
         },
         "stop_loss_pct": 0.08,
         "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
@@ -207,8 +207,8 @@
       }
     },
     "etf": {
-      "data_date": "2026-11-10",
-      "computed_at": "2026-11-10T09:10:12+00:00",
+      "data_date": "2026-11-11",
+      "computed_at": "2026-11-11T08:50:56+00:00",
       "stats": {
         "up_gain": {
           "n": 34,
