@@ -3,7 +3,7 @@
   "date": "2026-11-11",
   "data_date": "2026-11-10",
   "data_date_label": "2026年11月10日收盘",
-  "updated_at": "2026-11-11 10:35",
+  "updated_at": "2026-11-11 10:45",
   "method": "morningstar-moat-dcf-star-v1",
   "method_note": "晨星护城河+三阶段DCF+星级评级，CFA EIC顺序；红利层自加",
   "cashflow_audit": {
@@ -13,6 +13,16 @@
    "stable": 15,
    "unstable": 35,
    "null": 0
+  },
+  "compounding_core": {
+   "date": "2026-11-11",
+   "definition": "复利核心 = 有护城河（窄/宽）+ 现金流稳定（非金融用 cashflow_stable，金融用 dividend_covered、为 null 时回落到 cashflow_stable）+ 结论为可买入/等待；2026-11-11 起硬门槛不一刀切，小幅技术性违规改为等待",
+   "count": 14,
+   "softened": [
+    "600900 长江电力",
+    "600938 中国海油",
+    "601728 中国电信"
+   ]
   }
  },
  "industries": [
@@ -599,7 +609,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016]",
    "ocf_cv": 0.578,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "601288",
@@ -628,7 +640,9 @@
    "cashflow_reason": "OCF 为负年份：[2020]；OCF 较10年均值跌超70%的年份：[2018, 2020, 2021]",
    "ocf_cv": 0.829,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "601857",
@@ -657,7 +671,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.139），2025年现金流覆盖分红",
    "ocf_cv": 0.139,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "结论为不买"
   },
   {
    "code": "601988",
@@ -686,7 +702,9 @@
    "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2019, 2022]；OCF 较10年均值跌超70%的年份：[2019, 2020, 2022]",
    "ocf_cv": 1.087,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "600941",
@@ -715,7 +733,9 @@
    "cashflow_reason": "2025年现金流未覆盖分红（分红约1035.32亿，FCF约759.68亿）",
    "ocf_cv": 0.143,
    "fcf_covers_dividend": false,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600519",
@@ -744,7 +764,9 @@
    "cashflow_reason": "2025年现金流未覆盖分红（分红约650.33亿，FCF约583.94亿）",
    "ocf_cv": 0.364,
    "fcf_covers_dividend": false,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600938",
@@ -760,7 +782,7 @@
    "moat_trend": "稳定",
    "morningstar_star": null,
    "name": "中国海油",
-   "note": "近五年ROE均值19.2%但2020年仅5.7%，且每股分红2025年1.145元低于2024年1.282元触发红利层否决，双重价格触发亦不能买入。",
+   "note": "2025年每股分红1.145元较2024年1.282元削减约11%，主因油价周期而非经营恶化；现金流稳定（OCF 8年全正，CV 0.296），桶油成本全球领先，窄护城河。由不买改为等待：能源股分红随油价波动，单次削减不直接否决，需看油价与成本优势是否还在。",
    "owner_earnings_positive": true,
    "payout_ratio": 45,
    "price_to_fv": null,
@@ -768,12 +790,14 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买",
+   "verdict": "等待",
    "cashflow_stable": true,
    "cashflow_reason": "OCF 8年全部为正，无塌陷年份（CV=0.296），2025年现金流覆盖分红",
    "ocf_cv": 0.296,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": true,
+   "compounding_reason": "低成本能源龙头 + 现金流稳定"
   },
   {
    "code": "300750",
@@ -802,7 +826,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018, 2019]",
    "ocf_cv": 0.929,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600036",
@@ -831,7 +857,9 @@
    "cashflow_reason": "OCF 10年中仅 7 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2018]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2018, 2019]",
    "ocf_cv": 1.048,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601088",
@@ -860,7 +888,9 @@
    "cashflow_reason": "2025年现金流未覆盖分红（分红约418.11亿，FCF约266.61亿）",
    "ocf_cv": 0.138,
    "fcf_covers_dividend": false,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601318",
@@ -889,7 +919,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2021]",
    "ocf_cv": 0.525,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "601328",
@@ -918,7 +950,9 @@
    "cashflow_reason": "OCF 10年中仅 7 年为正（低于9成）；OCF 为负年份：[2019, 2021, 2024]；OCF 较10年均值跌超70%的年份：[2017, 2019, 2021, 2024]",
    "ocf_cv": 1.416,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "600900",
@@ -934,7 +968,7 @@
    "moat_trend": "稳定",
    "morningstar_star": null,
    "name": "长江电力",
-   "note": "按红利层硬门槛判不买：2023年每股分红0.82元低于2022年0.85元（小幅削减），2025年派息率70.92%亦略超70%上限；其余基本面（ROE约15%、2026-2030年承诺派息不低于70%）仍属本组最稳。",
+   "note": "2023年每股分红0.82元较2022年0.85元小幅削减3.5%，2025年派息率70.92%略超70%上限；但削减幅度小、现金流稳定（OCF十年全正）、ROE约15%、2026-2030年承诺派息不低于70%，本组基本面最稳之一。由不买改为等待：硬门槛不一刀切，小幅技术性违规不否决。",
    "owner_earnings_positive": true,
    "payout_ratio": 70.92,
    "price_to_fv": null,
@@ -942,12 +976,14 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买",
+   "verdict": "等待",
    "cashflow_stable": true,
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.229），2025年现金流覆盖分红",
    "ocf_cv": 0.229,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": true,
+   "compounding_reason": "水电垄断 + 现金流稳定"
   },
   {
    "code": "600028",
@@ -976,7 +1012,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.176），2025年现金流覆盖分红",
    "ocf_cv": 0.176,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "000333",
@@ -1005,7 +1043,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.329），2025年现金流覆盖分红",
    "ocf_cv": 0.329,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": true,
+   "compounding_reason": "消费龙头 + 现金流稳定"
   },
   {
    "code": "601658",
@@ -1034,7 +1074,9 @@
    "cashflow_reason": "OCF 为负年份：[2017]；OCF 较10年均值跌超70%的年份：[2017, 2019]",
    "ocf_cv": 1.28,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "601728",
@@ -1050,7 +1092,7 @@
    "moat_trend": "稳定",
    "morningstar_star": null,
    "name": "中国电信",
-   "note": "ROE仅约7.3%低于电信10%线，2025年派息率75%超出30-70%红利带宽上限；5G资本开支虽已回落（2025年计划836亿元、同比-10.6%），但两项硬门槛未过。",
+   "note": "ROE约7.3%低于电信10%线，2025年派息率75%超出70%上限；但现金流稳定（OCF十年全正，CV 0.131），5G资本开支已回落（2025年计划836亿元、同比-10.6%），垄断电信运营商。由不买改为等待：ROE受历史资本开支拖累、派息率高是分红积极而非不可持续，硬门槛不一刀切。",
    "owner_earnings_positive": true,
    "payout_ratio": 75,
    "price_to_fv": null,
@@ -1058,12 +1100,14 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买",
+   "verdict": "等待",
    "cashflow_stable": true,
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.131），2025年现金流覆盖分红",
    "ocf_cv": 0.131,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": true,
+   "compounding_reason": "电信垄断 + 现金流稳定"
   },
   {
    "code": "601998",
@@ -1092,7 +1136,9 @@
    "cashflow_reason": "OCF 10年中仅 7 年为正（低于9成）；OCF 为负年份：[2021, 2023, 2024]；OCF 较10年均值跌超70%的年份：[2021, 2023, 2024]",
    "ocf_cv": 1.585,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601166",
@@ -1121,7 +1167,9 @@
    "cashflow_reason": "OCF 10年中仅 3 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2021, 2022, 2024]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2021, 2022, 2024]",
    "ocf_cv": null,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600000",
@@ -1150,7 +1198,9 @@
    "cashflow_reason": "OCF 10年中仅 4 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2018, 2019, 2021, 2024]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2018, 2019, 2021, 2024]",
    "ocf_cv": null,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601319",
@@ -1179,7 +1229,9 @@
    "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2017, 2018]；OCF 较10年均值跌超70%的年份：[2017, 2018]",
    "ocf_cv": 0.8,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "002415",
@@ -1208,7 +1260,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.44），2025年现金流覆盖分红",
    "ocf_cv": 0.44,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "结论为不买"
   },
   {
    "code": "601601",
@@ -1237,7 +1291,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.307），2025年现金流覆盖分红",
    "ocf_cv": 0.307,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "000858",
@@ -1266,7 +1322,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.442），2025年现金流覆盖分红",
    "ocf_cv": 0.442,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "结论为不买"
   },
   {
    "code": "601211",
@@ -1295,7 +1353,9 @@
    "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2016, 2017]；OCF 较10年均值跌超70%的年份：[2016, 2017]",
    "ocf_cv": 2.21,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": true,
+   "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
   },
   {
    "code": "601919",
@@ -1324,7 +1384,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
    "ocf_cv": 1.119,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "601225",
@@ -1353,7 +1415,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016]",
    "ocf_cv": 0.498,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600919",
@@ -1382,7 +1446,9 @@
    "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2022]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2022]",
    "ocf_cv": 2.747,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "000001",
@@ -1411,7 +1477,9 @@
    "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2021]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2021]",
    "ocf_cv": 7.044,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "002142",
@@ -1440,7 +1508,9 @@
    "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2018, 2021]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2021]",
    "ocf_cv": 1.175,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "000651",
@@ -1469,7 +1539,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2021]",
    "ocf_cv": 0.554,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "603288",
@@ -1498,7 +1570,9 @@
    "cashflow_reason": "2025年现金流未覆盖分红（分红约79.5亿，FCF约64.62亿）",
    "ocf_cv": 0.216,
    "fcf_covers_dividend": false,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600690",
@@ -1527,7 +1601,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.28），2025年现金流覆盖分红",
    "ocf_cv": 0.28,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "结论为不买"
   },
   {
    "code": "600887",
@@ -1556,7 +1632,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.342），2025年现金流覆盖分红",
    "ocf_cv": 0.342,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": true,
+   "compounding_reason": "消费龙头 + 现金流稳定"
   },
   {
    "code": "601668",
@@ -1585,7 +1663,9 @@
    "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2017, 2019]；OCF 较10年均值跌超70%的年份：[2017, 2019]；2025年现金流未覆盖分红（分红约112.32亿，FCF约-56.9亿）",
    "ocf_cv": 3.039,
    "fcf_covers_dividend": false,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "601818",
@@ -1614,7 +1694,9 @@
    "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2017, 2021, 2022, 2023, 2024]；OCF 较10年均值跌超70%的年份：[2017, 2021, 2022, 2023, 2024]",
    "ocf_cv": 7.986,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601766",
@@ -1643,7 +1725,9 @@
    "cashflow_reason": "OCF 为负年份：[2020]；OCF 较10年均值跌超70%的年份：[2020]",
    "ocf_cv": 0.415,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601898",
@@ -1672,7 +1756,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.401），2025年现金流覆盖分红",
    "ocf_cv": 0.401,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "000338",
@@ -1701,7 +1787,9 @@
    "cashflow_reason": "OCF 为负年份：[2022]；OCF 较10年均值跌超70%的年份：[2022]",
    "ocf_cv": 0.473,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601336",
@@ -1730,7 +1818,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
    "ocf_cv": 0.622,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600809",
@@ -1759,7 +1849,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
    "ocf_cv": 0.768,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601688",
@@ -1788,7 +1880,9 @@
    "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2021, 2023, 2025]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2021, 2023, 2025]；2025年现金流未覆盖分红（分红约35.72亿，OCF约-126.02亿）",
    "ocf_cv": 6.074,
    "fcf_covers_dividend": false,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "结论为不买"
   },
   {
    "code": "600989",
@@ -1817,7 +1911,9 @@
    "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016]",
    "ocf_cv": 0.646,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "601009",
@@ -1846,7 +1942,9 @@
    "cashflow_reason": "OCF 为负年份：[2024]；OCF 较10年均值跌超70%的年份：[2017, 2024]",
    "ocf_cv": 1.283,
    "fcf_covers_dividend": true,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "现金流不稳定"
   },
   {
    "code": "600016",
@@ -1875,7 +1973,9 @@
    "cashflow_reason": "OCF 10年中仅 4 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2024, 2025]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2024, 2025]；2025年现金流未覆盖分红（分红约91.81亿，OCF约-1574.76亿）",
    "ocf_cv": 17.546,
    "fcf_covers_dividend": false,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "000776",
@@ -1904,7 +2004,9 @@
    "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2021, 2023, 2025]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2021, 2023, 2025]；2025年现金流未覆盖分红（分红约43.3亿，OCF约-277.81亿）",
    "ocf_cv": 10.28,
    "fcf_covers_dividend": false,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "601600",
@@ -1933,7 +2035,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.425），2025年现金流覆盖分红",
    "ocf_cv": 0.425,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "600660",
@@ -1962,7 +2066,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.353），2025年现金流覆盖分红",
    "ocf_cv": 0.353,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": true,
+   "compounding_reason": "制造龙头 + 现金流稳定"
   },
   {
    "code": "600999",
@@ -1991,7 +2097,9 @@
    "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2020, 2021, 2025]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2020, 2021, 2025]；2025年现金流未覆盖分红（分红约39.02亿，OCF约-313.69亿）",
    "ocf_cv": 9.412,
    "fcf_covers_dividend": false,
-   "is_financial": true
+   "is_financial": true,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   },
   {
    "code": "600019",
@@ -2020,7 +2128,9 @@
    "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.308），2025年现金流覆盖分红",
    "ocf_cv": 0.308,
    "fcf_covers_dividend": true,
-   "is_financial": false
+   "is_financial": false,
+   "compounding_core": false,
+   "compounding_reason": "无护城河"
   }
  ],
  "signals": [
