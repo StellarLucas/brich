@@ -3,9 +3,17 @@
   "date": "2026-11-11",
   "data_date": "2026-11-10",
   "data_date_label": "2026年11月10日收盘",
-  "updated_at": "2026-11-11 06:01",
+  "updated_at": "2026-11-11 10:35",
   "method": "morningstar-moat-dcf-star-v1",
-  "method_note": "晨星护城河+三阶段DCF+星级评级，CFA EIC顺序；红利层自加"
+  "method_note": "晨星护城河+三阶段DCF+星级评级，CFA EIC顺序；红利层自加",
+  "cashflow_audit": {
+   "date": "2026-11-11",
+   "source": "q50-cashflow-audit-2026-11-11.json",
+   "method": "十年经营现金流（Eastmoney年报）+ 自由现金流覆盖分红；金融股改用分红被所有者收益覆盖",
+   "stable": 15,
+   "unstable": 35,
+   "null": 0
+  }
  },
  "industries": [
   {
@@ -586,7 +594,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": 9.79,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016]",
+   "ocf_cv": 0.578,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601288",
@@ -610,7 +623,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": 10.94,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 为负年份：[2020]；OCF 较10年均值跌超70%的年份：[2018, 2020, 2021]",
+   "ocf_cv": 0.829,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601857",
@@ -634,7 +652,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.139），2025年现金流覆盖分红",
+   "ocf_cv": 0.139,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601988",
@@ -658,7 +681,12 @@
    "retained_1_test": null,
    "roa": 0.68,
    "roe_10y_avg": 9.81,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2019, 2022]；OCF 较10年均值跌超70%的年份：[2019, 2020, 2022]",
+   "ocf_cv": 1.087,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "600941",
@@ -682,7 +710,12 @@
    "retained_1_test": null,
    "roa": 7.91,
    "roe_10y_avg": 10.38,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约1035.32亿，FCF约759.68亿）",
+   "ocf_cv": 0.143,
+   "fcf_covers_dividend": false,
+   "is_financial": false
   },
   {
    "code": "600519",
@@ -706,7 +739,12 @@
    "retained_1_test": false,
    "roa": 28.31,
    "roe_10y_avg": 31.92,
-   "verdict": "可买入"
+   "verdict": "可买入",
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约650.33亿，FCF约583.94亿）",
+   "ocf_cv": 0.364,
+   "fcf_covers_dividend": false,
+   "is_financial": false
   },
   {
    "code": "600938",
@@ -730,7 +768,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 8年全部为正，无塌陷年份（CV=0.296），2025年现金流覆盖分红",
+   "ocf_cv": 0.296,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "300750",
@@ -754,7 +797,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": 24.36,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018, 2019]",
+   "ocf_cv": 0.929,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "600036",
@@ -778,7 +826,12 @@
    "retained_1_test": null,
    "roa": 1.14,
    "roe_10y_avg": 13.52,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 7 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2018]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2018, 2019]",
+   "ocf_cv": 1.048,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601088",
@@ -802,7 +855,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约418.11亿，FCF约266.61亿）",
+   "ocf_cv": 0.138,
+   "fcf_covers_dividend": false,
+   "is_financial": false
   },
   {
    "code": "601318",
@@ -826,7 +884,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2021]",
+   "ocf_cv": 0.525,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601328",
@@ -850,7 +913,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 7 年为正（低于9成）；OCF 为负年份：[2019, 2021, 2024]；OCF 较10年均值跌超70%的年份：[2017, 2019, 2021, 2024]",
+   "ocf_cv": 1.416,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "600900",
@@ -874,7 +942,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.229），2025年现金流覆盖分红",
+   "ocf_cv": 0.229,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "600028",
@@ -898,7 +971,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.176），2025年现金流覆盖分红",
+   "ocf_cv": 0.176,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "000333",
@@ -922,7 +1000,12 @@
    "retained_1_test": false,
    "roa": 7.34,
    "roe_10y_avg": 23.6,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.329），2025年现金流覆盖分红",
+   "ocf_cv": 0.329,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601658",
@@ -946,7 +1029,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 为负年份：[2017]；OCF 较10年均值跌超70%的年份：[2017, 2019]",
+   "ocf_cv": 1.28,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601728",
@@ -970,7 +1058,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.131），2025年现金流覆盖分红",
+   "ocf_cv": 0.131,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601998",
@@ -994,7 +1087,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 7 年为正（低于9成）；OCF 为负年份：[2021, 2023, 2024]；OCF 较10年均值跌超70%的年份：[2021, 2023, 2024]",
+   "ocf_cv": 1.585,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601166",
@@ -1018,7 +1116,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 3 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2021, 2022, 2024]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2021, 2022, 2024]",
+   "ocf_cv": null,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "600000",
@@ -1042,7 +1145,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 4 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2018, 2019, 2021, 2024]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2018, 2019, 2021, 2024]",
+   "ocf_cv": null,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601319",
@@ -1066,7 +1174,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2017, 2018]；OCF 较10年均值跌超70%的年份：[2017, 2018]",
+   "ocf_cv": 0.8,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "002415",
@@ -1090,7 +1203,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.44），2025年现金流覆盖分红",
+   "ocf_cv": 0.44,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601601",
@@ -1114,7 +1232,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.307），2025年现金流覆盖分红",
+   "ocf_cv": 0.307,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "000858",
@@ -1138,7 +1261,12 @@
    "retained_1_test": false,
    "roa": null,
    "roe_10y_avg": 21.33,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.442），2025年现金流覆盖分红",
+   "ocf_cv": 0.442,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601211",
@@ -1162,7 +1290,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2016, 2017]；OCF 较10年均值跌超70%的年份：[2016, 2017]",
+   "ocf_cv": 2.21,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601919",
@@ -1186,7 +1319,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
+   "ocf_cv": 1.119,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601225",
@@ -1210,7 +1348,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016]",
+   "ocf_cv": 0.498,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "600919",
@@ -1234,7 +1377,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2022]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2022]",
+   "ocf_cv": 2.747,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "000001",
@@ -1258,7 +1406,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2021]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2021]",
+   "ocf_cv": 7.044,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "002142",
@@ -1282,7 +1435,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2018, 2021]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2021]",
+   "ocf_cv": 1.175,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "000651",
@@ -1306,7 +1464,12 @@
    "retained_1_test": false,
    "roa": null,
    "roe_10y_avg": 26.36,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2021]",
+   "ocf_cv": 0.554,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "603288",
@@ -1330,7 +1493,12 @@
    "retained_1_test": false,
    "roa": 13.49,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约79.5亿，FCF约64.62亿）",
+   "ocf_cv": 0.216,
+   "fcf_covers_dividend": false,
+   "is_financial": false
   },
   {
    "code": "600690",
@@ -1354,7 +1522,12 @@
    "retained_1_test": false,
    "roa": null,
    "roe_10y_avg": 18.68,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.28），2025年现金流覆盖分红",
+   "ocf_cv": 0.28,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "600887",
@@ -1378,7 +1551,12 @@
    "retained_1_test": false,
    "roa": 7.6,
    "roe_10y_avg": 22.8,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.342），2025年现金流覆盖分红",
+   "ocf_cv": 0.342,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601668",
@@ -1402,7 +1580,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2017, 2019]；OCF 较10年均值跌超70%的年份：[2017, 2019]；2025年现金流未覆盖分红（分红约112.32亿，FCF约-56.9亿）",
+   "ocf_cv": 3.039,
+   "fcf_covers_dividend": false,
+   "is_financial": false
   },
   {
    "code": "601818",
@@ -1426,7 +1609,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2017, 2021, 2022, 2023, 2024]；OCF 较10年均值跌超70%的年份：[2017, 2021, 2022, 2023, 2024]",
+   "ocf_cv": 7.986,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "601766",
@@ -1450,7 +1638,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 为负年份：[2020]；OCF 较10年均值跌超70%的年份：[2020]",
+   "ocf_cv": 0.415,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601898",
@@ -1474,7 +1667,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.401），2025年现金流覆盖分红",
+   "ocf_cv": 0.401,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "000338",
@@ -1498,7 +1696,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 为负年份：[2022]；OCF 较10年均值跌超70%的年份：[2022]",
+   "ocf_cv": 0.473,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601336",
@@ -1522,7 +1725,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
+   "ocf_cv": 0.622,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "600809",
@@ -1546,7 +1754,12 @@
    "retained_1_test": false,
    "roa": null,
    "roe_10y_avg": 32.22,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
+   "ocf_cv": 0.768,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601688",
@@ -1570,7 +1783,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2021, 2023, 2025]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2021, 2023, 2025]；2025年现金流未覆盖分红（分红约35.72亿，OCF约-126.02亿）",
+   "ocf_cv": 6.074,
+   "fcf_covers_dividend": false,
+   "is_financial": true
   },
   {
    "code": "600989",
@@ -1594,7 +1812,12 @@
    "retained_1_test": null,
    "roa": 10.97,
    "roe_10y_avg": 21.42,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016]",
+   "ocf_cv": 0.646,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "601009",
@@ -1618,7 +1841,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 为负年份：[2024]；OCF 较10年均值跌超70%的年份：[2017, 2024]",
+   "ocf_cv": 1.283,
+   "fcf_covers_dividend": true,
+   "is_financial": true
   },
   {
    "code": "600016",
@@ -1642,7 +1870,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 4 年为正（低于9成）；OCF 为负年份：[2017, 2018, 2019, 2020, 2024, 2025]；OCF 较10年均值跌超70%的年份：[2017, 2018, 2019, 2020, 2024, 2025]；2025年现金流未覆盖分红（分红约91.81亿，OCF约-1574.76亿）",
+   "ocf_cv": 17.546,
+   "fcf_covers_dividend": false,
+   "is_financial": true
   },
   {
    "code": "000776",
@@ -1666,7 +1899,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2021, 2023, 2025]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2021, 2023, 2025]；2025年现金流未覆盖分红（分红约43.3亿，OCF约-277.81亿）",
+   "ocf_cv": 10.28,
+   "fcf_covers_dividend": false,
+   "is_financial": true
   },
   {
    "code": "601600",
@@ -1690,7 +1928,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.425），2025年现金流覆盖分红",
+   "ocf_cv": 0.425,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "600660",
@@ -1714,7 +1957,12 @@
    "retained_1_test": null,
    "roa": 9.81,
    "roe_10y_avg": 18.06,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.353），2025年现金流覆盖分红",
+   "ocf_cv": 0.353,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   },
   {
    "code": "600999",
@@ -1738,7 +1986,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "等待"
+   "verdict": "等待",
+   "cashflow_stable": false,
+   "cashflow_reason": "OCF 10年中仅 5 年为正（低于9成）；OCF 为负年份：[2016, 2017, 2020, 2021, 2025]；OCF 较10年均值跌超70%的年份：[2016, 2017, 2020, 2021, 2025]；2025年现金流未覆盖分红（分红约39.02亿，OCF约-313.69亿）",
+   "ocf_cv": 9.412,
+   "fcf_covers_dividend": false,
+   "is_financial": true
   },
   {
    "code": "600019",
@@ -1762,7 +2015,12 @@
    "retained_1_test": null,
    "roa": null,
    "roe_10y_avg": null,
-   "verdict": "不买"
+   "verdict": "不买",
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，无塌陷年份（CV=0.308），2025年现金流覆盖分红",
+   "ocf_cv": 0.308,
+   "fcf_covers_dividend": true,
+   "is_financial": false
   }
  ],
  "signals": [
