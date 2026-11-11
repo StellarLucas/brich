@@ -214,7 +214,9 @@
   "n_stage1": 8,
   "n_price_trigger": 17,
   "breadth_stage1": 0.34,
-  "breadth_label": "分化"
+  "breadth_label": "分化",
+  "outsiders_updated_at": "2026-11-11 15:10",
+  "outsiders_data_date": "2026-11-11"
  },
  "news": [
   {
@@ -1163,6 +1165,92 @@
    "days_since_low": null,
    "bounce_pct": null,
    "reversal_confirmed": null
+  }
+ ],
+ "outsiders": [
+  {
+   "code": "600025",
+   "name": "华能水电",
+   "industry": "水力发电",
+   "price": 10.82,
+   "high52": 11.04,
+   "drawdown": 2.0,
+   "yield": 1.89,
+   "weekly": 1.31,
+   "stage": null,
+   "price_trigger": false,
+   "trigger": null,
+   "recent_low": 10.15,
+   "recent_low_date": "2026-10-23",
+   "days_since_low": 13,
+   "bounce_pct": 6.6,
+   "reversal_confirmed": true,
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约38.19亿，FCF约14.44亿）",
+   "reason": "2025年现金流未覆盖分红（分红约38.19亿，FCF约14.44亿）"
+  },
+  {
+   "code": "000429",
+   "name": "粤高速A",
+   "industry": "高速公路",
+   "price": 13.62,
+   "high52": 14.7,
+   "drawdown": 7.3,
+   "yield": 4.43,
+   "weekly": 0.81,
+   "stage": null,
+   "price_trigger": false,
+   "trigger": null,
+   "recent_low": 13.11,
+   "recent_low_date": "2026-10-22",
+   "days_since_low": 14,
+   "bounce_pct": 3.89,
+   "reversal_confirmed": false,
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约12.63亿，FCF约9.73亿）",
+   "reason": "2025年现金流未覆盖分红（分红约12.63亿，FCF约9.73亿）"
+  },
+  {
+   "code": "601006",
+   "name": "大秦铁路",
+   "industry": "铁路运输",
+   "price": 4.8,
+   "high52": 5.53,
+   "drawdown": 13.2,
+   "yield": 4.62,
+   "weekly": -2.44,
+   "stage": null,
+   "price_trigger": false,
+   "trigger": null,
+   "recent_low": 4.8,
+   "recent_low_date": "2026-11-11",
+   "days_since_low": 0,
+   "bounce_pct": 0.0,
+   "reversal_confirmed": false,
+   "cashflow_stable": false,
+   "cashflow_reason": "2025年现金流未覆盖分红（分红约44.03亿，FCF约-200.47亿）",
+   "reason": "2025年现金流未覆盖分红（分红约44.03亿，FCF约-200.47亿）"
+  },
+  {
+   "code": "001965",
+   "name": "招商公路",
+   "industry": "高速公路",
+   "price": 10.1,
+   "high52": 10.5,
+   "drawdown": 3.8,
+   "yield": 3.69,
+   "weekly": -1.46,
+   "stage": null,
+   "price_trigger": false,
+   "trigger": null,
+   "recent_low": 10.1,
+   "recent_low_date": "2026-11-11",
+   "days_since_low": 0,
+   "bounce_pct": 0.0,
+   "reversal_confirmed": false,
+   "cashflow_stable": true,
+   "cashflow_reason": "OCF 10年全部为正，波动在可接受范围（CV=0.332），2025年现金流覆盖分红",
+   "reason": "OCF 10年全部为正，波动在可接受范围（CV=0.332），2025年现金流覆盖分红"
   }
  ]
 }
