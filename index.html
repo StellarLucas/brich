@@ -240,7 +240,7 @@
 
   <header>
     <h1 class="wordmark">BR<em>I</em>CH</h1>
-    <p class="tagline" id="tagline"><b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3.5% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。</p>
+    <p class="tagline" id="tagline"><b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。</p>
     <hr class="goldrule">
     <p class="updated" id="updated">数据加载中…</p>
   </header>
@@ -261,7 +261,7 @@
 
   <section id="sec-hits">
     <h2>可入场信号</h2>
-    <p class="sec-sub">两段式：第一段「关注」= 价格触发（回撤 18%~55%，或近一周跌 ≥ 9%）且基本面五层否决制通过，只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日）。股息率 ≤ 3.5% 的票不作为入场选择。每天 6 点、12 点、18 点、0 点各更新一次。</p>
+    <p class="sec-sub">两段式：第一段「关注」= 价格触发（回撤 18%~55%，或近一周跌 ≥ 9%）且基本面五层否决制通过，只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日）。股息率 ≤ 3% 的票不作为入场选择。每天 6 点、12 点、18 点、0 点各更新一次。</p>
     <div id="hits"></div>
   </section>
 
@@ -314,7 +314,7 @@
     <div class="howto">
       <ol>
         <li><b>每天只看两处</b>：上面「今日信号」和下面「价值折扣榜」。其他时间不用打开。</li>
-        <li><b>先过门槛，再谈时机</b>：股息率必须 &gt; 3.5%，低于 3.5% 的票再便宜也不入场。过了门槛，再看回撤深度和基本面是否还立得住，符合你自己的标准再分批，绝不一把梭。</li>
+        <li><b>先过门槛，再谈时机</b>：股息率必须 &gt; 3%，低于 3% 的票再便宜也不入场。过了门槛，再看回撤深度和基本面是否还立得住，符合你自己的标准再分批，绝不一把梭。</li>
         <li><b>买入之后靠股息再投</b>：涨跌一周的波动不用动仓位，复利来自拿得住＋分红再投回去。</li>
       </ol>
     </div>
@@ -415,18 +415,18 @@
     <h2>筛选规则</h2>
     <div class="rules">
       <ol>
-        <li><b>入场门槛 · 股息率 &gt; 3.5%</b>：低于 3.5% 的票不作为入场选择，哪怕回撤再深、跌得再急。</li>
+        <li><b>入场门槛 · 股息率 &gt; 3%</b>：低于 3% 的票不作为入场选择，哪怕回撤再深、跌得再急。</li>
         <li><b>只看权重高分红股</b>：沪深 300 成分、股息率 ≥ 3%，按总市值取前 50 只，名单叫 q50。</li>
         <li><b>入场时机一 · 回撤</b>：相对 52 周最高价回撤 20%~50%（容差后执行区间 18%~55%）。</li>
         <li><b>入场时机二 · 急跌</b>：近一周（5 个交易日）跌幅 ≥ 10%（容差后执行下限 9%）。</li>
-        <li><b>或关系</b>：先过 3.5% 门槛，再满足任一时机即价格触发。</li>
+        <li><b>或关系</b>：先过 3% 门槛，再满足任一时机即价格触发。</li>
         <li><b>基本面把关</b>：价格触发后，还要过基本面五层否决制（理解、行业、护城河、财报、红利；方法见分析方法论），全部通过才进入「关注」；没通过的进「价格触发、基本面已否决」，并写明原因。判断不一刀切：小幅技术性违规改为等待，不直接否决。</li>
         <li><b>复利核心</b>：有护城河 + 现金流稳定 + 结论为可买入/等待的票，标为「复利核心」，是能长拿、吃复利的池子；每天选首选信号时优先选复利核心的票。</li>
         <li><b>现金流稳定优先</b>：重点关注现金流稳定的股票。所有者收益为正且分红被所有者收益/自由现金流覆盖的，算现金流稳定；多只信号同时符合时优先选现金流稳定的，现金流不稳定的不优先报为首选。</li>
         <li><b>两段式信号</b>：第一段「关注」= 价格触发 + 基本面通过，只是观察、不是入场；第二段「可入场」= 关注 + 反转确认（较 20 日最低收盘反弹 ≥ 5%，且低点距今 ≥ 10 个交易日，即底部盘整至少两周）。</li>
         <li><b>触发宽度</b>：价格触发只数 / 50。≥ 50% 为「整体退潮」（系统性下跌，信号大多只是观察）；≤ 20% 为「个别机会」。</li>
       </ol>
-      <p class="pick">入场信号 = 价格触发 + 基本面通过 + 反转确认，三关都过才报。每天最多报一只：优先选复利核心；复利核心之间，优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。没有复利核心的可入场信号时，退而求其次选现金流稳定的。同一只 3 天内不重复报。入选的必须先过股息率 3.5% 的门槛。</p>
+      <p class="pick">入场信号 = 价格触发 + 基本面通过 + 反转确认，三关都过才报。每天最多报一只：优先选复利核心；复利核心之间，优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。没有复利核心的可入场信号时，退而求其次选现金流稳定的。同一只 3 天内不重复报。入选的必须先过股息率 3% 的门槛。</p>
     </div>
   </section>
 
@@ -527,7 +527,7 @@
 /* ---- index tabs (q50 / e30): instant switch, no reload; choice persisted ---- */
 (function(){
   var taglines = {
-    q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3.5% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
+    q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
     e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。'
   };
   var tabs = document.querySelectorAll(".tab[data-view]");
@@ -714,7 +714,7 @@
     if(!entrySignals.length){
       hitsBox.innerHTML = '<div class="empty">今天没有可入场信号。<br>' +
         (setupSignals.length ? '有 ' + setupSignals.length + ' 只价格触发且基本面通过、正在观察（见下面「关注」），但反转未确认。' :
-        (vetoedSignals.length ? '价格上触发的 ' + vetoedSignals.length + ' 只，基本面都没通过，见下面「价格触发、基本面已否决」。' : 'q50 里股息率过 3.5% 的票，既没有回撤进区间，也没有一周急跌超 9% 的。')) + '</div>';
+        (vetoedSignals.length ? '价格上触发的 ' + vetoedSignals.length + ' 只，基本面都没通过，见下面「价格触发、基本面已否决」。' : 'q50 里股息率过 3% 的票，既没有回撤进区间，也没有一周急跌超 9% 的。')) + '</div>';
     } else {
       hitsBox.innerHTML = entrySignals.map(function(s){ return signalCard(s, false); }).join("");
     }
@@ -831,7 +831,7 @@
         var deep = w.drawdown>=27 ? "deep" : "";
         var tag = hitSet[w.code] ? '<span class="rank-tag ok">可入场</span>' :
                   (setupSet[w.code] ? '<span class="rank-tag setup">关注</span>' :
-                  ((w.yield!==undefined && w.yield<=3.5) ? '<span class="rank-tag no">股息不足</span>' : ''));
+                  ((w.yield!==undefined && w.yield<=3) ? '<span class="rank-tag no">股息不足</span>' : ''));
         return '<div class="rank-row" data-code="' + w.code + '"><div class="rank-no' + (i<3?" top":"") + '">' + (i+1) + '</div>' +
           '<div class="rank-main"><div class="rank-name">' + w.name + '<span>' + w.code + ' · ' + (w.industry||"") + '</span></div>' +
           '<div class="rank-bar"><i class="' + deep + '" style="width:' + barW.toFixed(0) + '%"></i></div></div>' +
@@ -840,7 +840,7 @@
       }).join("");
     }
     var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
-    el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 3.5% 且价格、基本面、反转三关都过；「关注」指价格与基本面通过、反转未确认，仅观察；「股息不足」指股息率 ≤ 3.5%，不作为入场选择。";
+    el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 3% 且价格、基本面、反转三关都过；「关注」指价格与基本面通过、反转未确认，仅观察；「股息不足」指股息率 ≤ 3%，不作为入场选择。";
 
     /* ---- weekly drop ranking ---- */
     var drops = wl.filter(function(w){ return w.weekly!==null && w.weekly!==undefined; })
@@ -878,7 +878,7 @@
                        (w.stage === "关注" ? ' <span class="rank-tag setup">关注</span>' : '');
         return '<tr data-code="' + w.code + '"><td><span class="nm">' + w.name + '</span><span class="cd">' + w.code + ' · ' + (w.industry||"") + '</span>' + stageTag + '</td>' +
           '<td>' + w.price + '</td>' +
-          '<td class="' + (w.yield>3.5?"y-ok":(w.yield!==undefined?"y-low":"")) + '">' + (w.yield!==undefined? w.yield.toFixed(2)+"%" : "—") + '</td>' +
+          '<td class="' + (w.yield>3?"y-ok":(w.yield!==undefined?"y-low":"")) + '">' + (w.yield!==undefined? w.yield.toFixed(2)+"%" : "—") + '</td>' +
           '<td class="' + cls(w.weekly) + '">' + pct(w.weekly) + '</td>' +
           '<td>' + (w.drawdown===null||w.drawdown===undefined ? "—" : w.drawdown.toFixed(1)+"%") + '</td>' +
           '<td class="hide-sm">' + money(w.mcap) + '</td></tr>';
