@@ -15,9 +15,9 @@
       "null": 0
     },
     "compounding_core": {
-      "date": "2026-11-11",
+      "date": "2026-11-12",
       "definition": "复利核心 = 有护城河（窄/宽）+ 现金流稳定（非金融用 cashflow_stable，金融用 dividend_covered、为 null 时回落到 cashflow_stable）+ 结论为可买入/等待；2026-11-11 起硬门槛不一刀切，小幅技术性违规改为等待",
-      "count": 13,
+      "count": 10,
       "softened": [
         "600900 长江电力",
         "600938 中国海油",
@@ -782,7 +782,7 @@
       "moat_trend": "稳定",
       "morningstar_star": null,
       "name": "中国海油",
-      "note": "2025年每股分红1.145元较2024年1.282元削减约11%，主因油价周期而非经营恶化；现金流稳定（OCF 8年全正，CV 0.296），桶油成本全球领先，窄护城河。由不买改为等待：能源股分红随油价波动，单次削减不直接否决，需看油价与成本优势是否还在。",
+      "note": "2025年报归母净利润1220.82亿，同比-11.5%（布伦特油价-14.6%所致）；2026三季报已恢复（9个月+16.8%），但年报不过关。财报趋势否决，改判不买。",
       "owner_earnings_positive": true,
       "payout_ratio": 45,
       "price_to_fv": null,
@@ -790,14 +790,14 @@
       "retained_1_test": null,
       "roa": null,
       "roe_10y_avg": null,
-      "verdict": "等待",
+      "verdict": "不买",
       "cashflow_stable": true,
       "cashflow_reason": "OCF 8年全部为正，无塌陷年份（CV=0.296），2025年现金流覆盖分红",
       "ocf_cv": 0.296,
       "fcf_covers_dividend": true,
       "is_financial": false,
-      "compounding_core": true,
-      "compounding_reason": "低成本能源龙头 + 现金流稳定"
+      "compounding_core": false,
+      "compounding_reason": "财报趋势否决：2025年报归母净利润同比-11.5%"
     },
     {
       "code": "300750",
@@ -906,7 +906,7 @@
       "moat_trend": "稳定",
       "morningstar_star": null,
       "name": "中国平安",
-      "note": "2024年ROE13.8%、营运ROE12.7%，产险综合成本率98.3%，分红总额连续13年增长且派息率37.9%，无星级/公允价值可验证，按规则等待。",
+      "note": "2026三季报：前三季度归母净利润同比-27.3%，Q3单季仅40.6亿，同比-93.7%，主因投资端公允价值变动-643亿；营运利润+8.3%，但寿险NBV-13.3%为核心业务真实下滑。财报趋势否决，改判不买。",
       "owner_earnings_positive": true,
       "payout_ratio": 37.9,
       "price_to_fv": null,
@@ -914,14 +914,14 @@
       "retained_1_test": null,
       "roa": null,
       "roe_10y_avg": null,
-      "verdict": "等待",
+      "verdict": "不买",
       "cashflow_stable": false,
       "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2021]",
       "ocf_cv": 0.525,
       "fcf_covers_dividend": true,
       "is_financial": true,
-      "compounding_core": true,
-      "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
+      "compounding_core": false,
+      "compounding_reason": "财报趋势否决：2026三季报前三季度归母净利润同比-27.3%，Q3单季-93.7%"
     },
     {
       "code": "601328",
@@ -1216,7 +1216,7 @@
       "moat_trend": "稳定",
       "morningstar_star": null,
       "name": "中国人保",
-      "note": "2024年ROE约22%（权益市场反弹推高投资收益，不可视为常态），财险综合成本率98.5%，分红历史未逐项核实。",
+      "note": "2026三季报：Q1归母净利润同比-31.4%，前三季度同比-32.0%，Q3单季亏损-49.3亿（去年同期盈利202.9亿），主因投资收益-25.6%；承保端向好（承保利润+11.3%，综合成本率95.8%）。财报趋势否决，改判不买。",
       "owner_earnings_positive": true,
       "payout_ratio": null,
       "price_to_fv": null,
@@ -1224,14 +1224,14 @@
       "retained_1_test": null,
       "roa": null,
       "roe_10y_avg": null,
-      "verdict": "等待",
+      "verdict": "不买",
       "cashflow_stable": false,
       "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2017, 2018]；OCF 较10年均值跌超70%的年份：[2017, 2018]",
       "ocf_cv": 0.8,
       "fcf_covers_dividend": true,
       "is_financial": true,
       "compounding_core": false,
-      "compounding_reason": "现金流不稳定"
+      "compounding_reason": "财报趋势否决：2026三季报前三季度归母净利润同比-32.0%，Q3单季亏损-49.3亿"
     },
     {
       "code": "002415",
@@ -1340,7 +1340,7 @@
       "moat_trend": "稳定",
       "morningstar_star": null,
       "name": "国泰海通",
-      "note": "2024年ROE约8.14%（合并前国泰君安口径），分红比例48%为头部券商最高，但强周期且分红连续性未核实，按规则等待。",
+      "note": "2026年Q1归母净利润同比-47.8%（主因2025Q1合并海通产生大额负商誉抬高基数，扣非实际+73.4%，属一次性会计扰动）；Q3单季-27.0%（自营投资亏损）；9个月累计+12.7%，经纪+34%、投行+42%。财报趋势否决，改判不买。",
       "owner_earnings_positive": true,
       "payout_ratio": 48.0,
       "price_to_fv": null,
@@ -1348,14 +1348,14 @@
       "retained_1_test": null,
       "roa": null,
       "roe_10y_avg": null,
-      "verdict": "等待",
+      "verdict": "不买",
       "cashflow_stable": false,
       "cashflow_reason": "OCF 10年中仅 8 年为正（低于9成）；OCF 为负年份：[2016, 2017]；OCF 较10年均值跌超70%的年份：[2016, 2017]",
       "ocf_cv": 2.21,
       "fcf_covers_dividend": true,
       "is_financial": true,
-      "compounding_core": true,
-      "compounding_reason": "金融龙头 + 分红被所有者收益覆盖"
+      "compounding_core": false,
+      "compounding_reason": "财报趋势否决：2026年Q1归母净利润同比-47.8%，Q3单季-27.0%"
     },
     {
       "code": "601919",
@@ -1774,7 +1774,7 @@
       "moat_trend": "减弱",
       "morningstar_star": null,
       "name": "潍柴动力",
-      "note": "ROE约12%（2024年13.69%、2025年12.08%），电动车替代使柴油机护城河减弱，十年分红无削减未完全核实。",
+      "note": "2026三季报层面全部增长（Q1+13.8%、H1+36.5%、前三季度+20.1%），Q3单季-8.6%但扣非+13.9%创单季历史新高，下滑来自巴拉德公允价值损失和汇兑损失；但2025年报归母净利润109.31亿同比下滑，年报不过关。财报趋势否决，改判不买。",
       "owner_earnings_positive": true,
       "payout_ratio": 58,
       "price_to_fv": null,
@@ -1782,14 +1782,14 @@
       "retained_1_test": null,
       "roa": null,
       "roe_10y_avg": null,
-      "verdict": "等待",
+      "verdict": "不买",
       "cashflow_stable": false,
       "cashflow_reason": "OCF 为负年份：[2022]；OCF 较10年均值跌超70%的年份：[2022]",
       "ocf_cv": 0.473,
       "fcf_covers_dividend": true,
       "is_financial": false,
       "compounding_core": false,
-      "compounding_reason": "现金流不稳定"
+      "compounding_reason": "财报趋势否决：2025年报归母净利润同比下滑"
     },
     {
       "code": "601336",
@@ -1805,7 +1805,7 @@
       "moat_trend": "稳定",
       "morningstar_star": null,
       "name": "新华保险",
-      "note": "2024年ROE约34%为权益市场反弹下的投资收益 spike，不可视为常态，纯寿险无财险综合成本率可比，分红历史未逐项核实。",
+      "note": "2026三季报：Q1+10.5%、H1+54.0%、2025年报+38.3%均增长，但前三季度归母净利润同比-32.2%，Q3单季亏损-5.11亿（去年同期盈利180.6亿），主因投资端公允价值变动-376.58亿；保险服务业绩+12.4%、NBV正增长。财报趋势否决，改判不买。",
       "owner_earnings_positive": true,
       "payout_ratio": null,
       "price_to_fv": null,
@@ -1813,14 +1813,14 @@
       "retained_1_test": null,
       "roa": null,
       "roe_10y_avg": null,
-      "verdict": "等待",
+      "verdict": "不买",
       "cashflow_stable": false,
       "cashflow_reason": "OCF 较10年均值跌超70%的年份：[2016, 2017, 2018]",
       "ocf_cv": 0.622,
       "fcf_covers_dividend": true,
       "is_financial": true,
       "compounding_core": false,
-      "compounding_reason": "现金流不稳定"
+      "compounding_reason": "财报趋势否决：2026三季报前三季度归母净利润同比-32.2%，Q3单季亏损-5.11亿"
     },
     {
       "code": "600809",
