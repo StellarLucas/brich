@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "InvestingLive",
+      "summary": "美联储加息押注蔓延至亚洲：日经回吐涨幅、韩股转跌，恒指跌约1%；日本10年期国债收益率升至约2.87%，日元逼近160关口，布伦特原油约95.70美元、WTI约88.40美元。",
+      "title": "Asia-Pacific market news: Fed hike bets ripple through Asia",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
+      "summary": "德国10月批发价格同比上涨8.8%，显示欧洲最大经济体上游通胀压力仍存。",
+      "title": "German wholesale prices rise 8.8% in October",
+      "url": "https://www.reuters.com/markets/us/german-wholesale-prices-rise-88-october-2026-11-13/"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "ScrapMonster",
+      "summary": "金价在前一交易日大跌后徘徊于3900美元下方、接近13个月低点；布伦特原油逼近96美元，油价上涨加剧通胀担忧，市场押注美联储可能加大加息幅度。",
+      "title": "Gold languishes near 13-month low as $96 oil fuels bets on bigger Fed hikes",
+      "url": "https://www.scrapmonster.com/news/gold/gold-languishes-near-13-month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-2026-11-13/100472"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "swissinfo.ch",
       "summary": "美股期货涨跌互现、亚股回落，英伟达换帅余波未消；市场等待周五美国 PPI 数据以判断美联储利率路径，10 年期美债收益率约 5.12%。",
       "title": "Stocks Fluctuate After Huang's Ouster, Bonds Slump: Markets Wrap",
@@ -29,6 +50,20 @@
       "url": "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/"
     },
     {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
+      "summary": "亚股周五企稳，英伟达风波后市场回稳；美债收益率攀升、美元走强，市场计价美联储 12 月加息 50 个基点的概率升至 14.5%，10 年期美债收益率升至 5.1433% 的三周高点。",
+      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
+    },
+    {
+      "published_at": "2026-11-12",
+      "source": "Kitco",
+      "summary": "现货黄金周四跌2.77%至约3876美元、白银跌3.13%，10年期美债收益率升至约5.10%；市场计价12月加息25个基点概率约85%、50个基点约15%，周五美国PPI为下一个关键通胀考验。",
+      "title": "Gold, silver slide as Treasury yields surge, Fed hike concerns intensify - Kitco PM Report",
+      "url": "https://www.kitco.com/news/article/2026-11-12/gold-silver-slide-treasury-yields-surge-fed-hike-concerns-intensify-kitco"
+    },
+    {
       "published_at": "2026-11-12",
       "source": "TradingView",
       "summary": "美股收复早盘跌幅小幅收高，博通、AMD、高通等芯片股上涨；市场计价 12 月 FOMC 加息 25 个基点的概率为 100%。",
@@ -41,13 +76,6 @@
       "summary": "旧金山联储主席戴利称可能需要进一步加息应对高通胀，但不必操之过急；10 月核心 CPI 连续第三个月环比上涨 0.3%。",
       "title": "Fed has time to calibrate rate hikes, Daly says",
       "url": "https://www.reuters.com/business/fed-has-time-calibrate-rate-hikes-daly-says-2026-11-12/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "亚股周五企稳，英伟达风波后市场回稳；美债收益率攀升、美元走强，市场计价美联储 12 月加息 50 个基点的概率升至 14.5%，10 年期美债收益率升至 5.1433% 的三周高点。",
-      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
     },
     {
       "published_at": "2026-11-12",
@@ -99,13 +127,6 @@
       "url": "https://www.swissinfo.ch/eng/stocks-slide-on-nvidia-troubles%2c-oil-edges-lower%3a-markets-wrap/92367440"
     },
     {
-      "published_at": "2026-11-11",
-      "source": "Devdiscourse",
-      "summary": "美股周三收涨，CoreWeave 财报提振 AI 股，英伟达盘后跌 8%；道指涨 0.49%，标普 500 涨 1.31%，纳指涨 1.60%。",
-      "title": "GLOBAL MARKETS-Stocks rise on tech gains; Nvidia falls after hours",
-      "url": "https://www.devdiscourse.com/article/international/4005429-global-markets-stocks-rise-on-tech-gains-nvidia-falls-after-hours?amp"
-    },
-    {
       "published_at": "2026-11-12",
       "source": "Economy Middle East",
       "summary": "全球市场分化，纳指涨 1.60%，日经跌 0.71%，欧洲 STOXX 600 创历史新高，英国三季度 GDP 增长 0.7%。",
@@ -118,31 +139,10 @@
       "summary": "欧洲股市创历史新高，亚洲股市因英伟达不确定性下跌，美债收益率回升至 5% 附近，美元走强。",
       "title": "Overseas Stock Markets Today: Europe Hits Records",
       "url": "https://www.europesays.com/europe/180156/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "APA",
-      "summary": "11 月 11 日全球主要股指多数上涨，美欧全线收高，亚太涨跌互现，科技股财报与 AI 热潮推动涨势。",
-      "title": "Global stock markets rise as all major US and European indices gain",
-      "url": "https://en.apa.az/bourse/global-stock-markets-rise-as-all-major-us-and-european-indices-gain-535584"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "TradingView",
-      "summary": "全球市场情绪不一，欧股上涨、亚股收跌，美股期货持平；道指 52542 点、标普 7595 点、十年期美债收益率 4.994%。",
-      "title": "Mixed Sentiment In Global Markets",
-      "url": "https://www.tradingview.com/news/dpa_afx:0e55fca815d2d:0-mixed-sentiment-in-global-markets/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "TradingView",
-      "summary": "油价跌超 1 美元，布伦特 91.62 美元、WTI 85.49 美元；黄金跌破 4000 美元，美元创 2025 年 5 月以来新高。",
-      "title": "Commodity Corner: Oil, gold extend losses on peace hopes, hawkish Fed signals",
-      "url": "https://www.tradingview.com/news/moneycontrol:80be6a469094b:0-commodity-corner-oil-gold-extend-losses-on-peace-hopes-hawkish-fed-signals/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-13 15:26"
+    "updated_at": "2026-11-13 17:26"
   }
 }
