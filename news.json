@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "Reuters",
+      "summary": "美股周五收跌，纳指跌 1.40%、标普跌 0.84%、道指跌 0.23%，芯片股再度抛售；美元指数升至 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；10 月 PPI 同比升 6.5%。",
+      "title": "GLOBAL MARKETS-Stocks fall with tech, Nvidia concerns; US dollar climbs",
+      "url": "https://www.devdiscourse.com/article/international/4006805-global-markets-stocks-fall-with-tech-nvidia-concerns-us-dollar-climbs"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "The Straits Times",
+      "summary": "IEA 称全球油市四季度将重回过剩，海湾出口恢复快于需求增长；四季度供应日均 1.05 亿桶，比需求高 170 万桶；布伦特约 95.71 美元。",
+      "title": "World oil market returns to surplus as Gulf exports recover",
+      "url": "https://www.straitstimes.com/world/middle-east/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover?ref=latest-headlines"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Barchart",
+      "summary": "WTI 涨 0.39%，因特朗普称美国无需与伊朗达成协议、战争延续担忧支撑油价；但美元创 1.5 年新高及 IEA 预计本季度全球原油过剩 200 万桶/日限制涨幅。",
+      "title": "Crude Prices Supported by Concerns US-Iran War Will Linger",
+      "url": "https://www.barchart.com/story/news/8824868/crude-prices-supported-by-concerns-us-iran-war-will-linger"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Barchart",
       "summary": "美股周五回落，芯片股再度抛售，10 年期美债收益率升至 5.17% 的四周高点；美联储官员鹰派表态推高收益率，市场计价 12 月 FOMC 加息 25 个基点概率为 100%；10 月 PPI 环比升 0.3%、同比升 6.5%。",
       "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
@@ -118,31 +139,10 @@
       "summary": "亚洲科技股周五在英伟达大跌后企稳反弹，美股期货走高；油价回落、金价涨至 3908 美元附近，美元指数维持在 19 个月高位附近。",
       "title": "Asia Stocks Stage Tentative Rebound as Nvidia Uncertainty Lingers",
       "url": "https://www.wsj.com/world/asia/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "TradingView",
-      "summary": "油价守住涨幅，布伦特低于 96 美元、WTI 约 89 美元；黄金在一年低点附近徘徊，约 3880 美元，因市场押注美联储加息。",
-      "title": "Commodity Corner: Oil holds gains on US-Iran tensions; gold near one-year low on rate hike bets",
-      "url": "https://www.tradingview.com/news/moneycontrol:a17853615094b:0-commodity-corner-oil-holds-gains-on-us-iran-tensions-gold-near-one-year-low-on-rate-hike-bets/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "纽约联储主席威廉姆斯称通胀依然顽固，美联储仍有工作要做；市场普遍预计 12 月 FOMC 会议加息 25 个基点。",
-      "title": "Fed's Williams says central bank has 'work to do' to get inflation back on target",
-      "url": "https://www.reuters.com/business/feds-williams-says-central-bank-has-work-do-get-inflation-back-target-2026-11-13/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "亚股周五企稳，英伟达风波后市场回稳；美债收益率攀升、美元走强，市场计价美联储 12 月加息 50 个基点的概率升至 14.5%，10 年期美债收益率升至 5.1433% 的三周高点。",
-      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 01:26"
+    "updated_at": "2026-11-14 03:25"
   }
 }
