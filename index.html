@@ -229,12 +229,12 @@
       -webkit-backdrop-filter:saturate(1.4) blur(12px);
       border-top:1px solid var(--line);
       padding-bottom:env(safe-area-inset-bottom)}
-    .tabbar-inner{width:100%; max-width:720px; margin:0 auto; display:flex}
-    .btab{flex:1; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
-      padding:.5rem 0 .45rem; background:none; border:0; cursor:pointer;
-      font-size:.68rem; font-weight:700; color:#8a97a5; line-height:1.2; font-family:inherit}
-    .btab svg{width:22px; height:22px; stroke:currentColor; fill:none; stroke-width:1.8;
-      stroke-linecap:round; stroke-linejoin:round; display:block}
+    .tabbar-inner{width:100%; max-width:720px; margin:0 auto; display:flex; flex-wrap:nowrap; overflow:hidden}
+    .btab{flex:1 1 0; min-width:0; display:flex; flex-direction:column; align-items:center; justify-content:center; gap:2px;
+      padding:.45rem 0 .4rem; background:none; border:0; cursor:pointer;
+      font-size:.68rem; font-weight:700; color:#8a97a5; line-height:1.2; font-family:inherit; white-space:nowrap}
+    .btab svg{width:20px; height:20px; stroke:currentColor; fill:none; stroke-width:1.8;
+      stroke-linecap:round; stroke-linejoin:round; display:block; flex:0 0 auto}
     .btab.active{color:var(--navy)}
     .btab:active{background:#f2f6fa}
     body{padding-bottom:calc(56px + 2rem + env(safe-area-inset-bottom))}
@@ -320,7 +320,6 @@
   .map-node .n-desc{font-size:9.5px; fill:var(--muted)}
   .map-node.hl-cause rect{stroke:#1d4ed8; stroke-width:2.6}
   .map-node.hl-effect rect{stroke:var(--navy); stroke-width:2.6; fill:#eef3f8}
-  .map-node.hl-news rect{stroke-width:2.6}
   .map-node.dim{opacity:.22}
   .map-edge{stroke:#9fb2c8; stroke-width:1.3; fill:none}
   .map-edge.hl-cause{stroke:#1d4ed8; stroke-width:2.6}
@@ -329,16 +328,6 @@
   .map-edge-label{font-size:10px; fill:var(--muted); paint-order:stroke; stroke:#fff; stroke-width:3px; stroke-linejoin:round}
   .map-edge-label .arr-up{fill:#d92d20; font-weight:800}
   .map-edge-label .arr-down{fill:#12805c; font-weight:800}
-  .map-news-item{display:block; background:var(--card); border:1px solid var(--line); border-radius:10px;
-    padding:.7rem .9rem; margin-bottom:.6rem; cursor:pointer; text-decoration:none; color:var(--ink)}
-  .map-news-item h3{margin:0; font-size:.95rem; line-height:1.45}
-  .map-news-item .ni-sum{font-size:.85rem; color:#3c463f; margin-top:.25rem}
-  .map-news-item .ni-hits{margin-top:.45rem; display:flex; gap:.35rem; flex-wrap:wrap}
-  .hit-chip{font-size:.75rem; font-weight:800; padding:.1rem .5rem; border-radius:999px; white-space:nowrap}
-  .hit-chip.up{background:#fdeceb; color:#d92d20}
-  .hit-chip.down{background:#e6f4ec; color:#12805c}
-  .hit-chip.flat{background:#eef3f8; color:#43566e}
-  .hit-chip .dim-tag{font-weight:600; opacity:.75}
   .cross-links{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:.8rem 1rem; margin-top:.8rem}
   .cross-links h4{margin:0 0 .4rem; font-size:.85rem; color:var(--muted)}
   .cross-links p{margin:.35rem 0; font-size:.9rem}
@@ -733,7 +722,7 @@
   <div id="view-map" role="tabpanel" aria-labelledby="tab-map" hidden>
     <section>
       <h2>传导图谱</h2>
-      <p class="sec-sub">出了什么事，哪个涨、哪个跌。点一个节点，看它的上游原因和下游影响；点一条新闻，看它点亮了哪些节点。红色 ↑ 是涨，绿色 ↓ 是跌。</p>
+      <p class="sec-sub">出了什么事，哪个涨、哪个跌。点一个节点，看它的上游原因和下游影响。红色 ↑ 是涨，绿色 ↓ 是跌。</p>
       <div class="dim-switch" role="group" aria-label="维度切换">
         <button class="dim-btn active" data-dim="global">世界维度</button>
         <button class="dim-btn" data-dim="us">美国维度</button>
@@ -742,12 +731,6 @@
       <div class="map-wrap"><svg id="map-svg" viewBox="0 0 384 306" role="img" aria-label="传导关系图"></svg></div>
       <p class="tbl-note" id="map-hint">点节点：上游原因变蓝，下游影响变深蓝；再点一次取消。</p>
       <div class="cross-links" id="map-cross"></div>
-    </section>
-
-    <section>
-      <h2>今日新闻点亮</h2>
-      <p class="sec-sub">根据今天的资讯，自动匹配它会推高还是压低哪些节点。点一条，跳到对应维度并点亮。</p>
-      <div id="map-news"></div>
     </section>
 
     <footer>
@@ -1969,23 +1952,41 @@
   var svg = document.getElementById("map-svg");
   var NS = "http://www.w3.org/2000/svg";
   var BW = 112, BH = 46, PITCH = 58, LAYER_W = 128, PAD = 8;
-  var state = { dim: "global", data: null, news: null, selected: null, newsFx: {} };
+  var state = { dim: "global", data: null, selected: null };
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>\"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
   function el(tag, attrs){
     var n = document.createElementNS(NS, tag);
     if(attrs) Object.keys(attrs).forEach(function(k){ n.setAttribute(k, attrs[k]); });
     return n;
   }
+  function isVertical(){
+    try { return window.matchMedia && window.matchMedia("(max-width: 720px)").matches; } catch(e){ return false; }
+  }
   function layout(dim){
     var byLayer = {};
     dim.nodes.forEach(function(n){ (byLayer[n.layer] = byLayer[n.layer] || []).push(n); });
     var pos = {};
+    var maxLayer = Math.max.apply(null, dim.nodes.map(function(n){ return n.layer; }));
+    var maxRows = Math.max.apply(null, Object.keys(byLayer).map(function(l){ return byLayer[l].length; }));
+    if(isVertical()){
+      // phones: layers stack top-to-bottom, nodes in a layer flow left-to-right (max 3 per row)
+      var VPX = BW + 8, VCOLS = 3, VSUB = BH + 10, VGAP = 46, y = PAD, layerY = {};
+      Object.keys(byLayer).sort(function(a, b){ return a - b; }).forEach(function(l){
+        layerY[l] = y;
+        y += Math.ceil(byLayer[l].length / VCOLS) * VSUB + VGAP;
+      });
+      Object.keys(byLayer).forEach(function(l){
+        byLayer[l].forEach(function(n, i){
+          pos[n.id] = { x: PAD + (i % VCOLS) * VPX, y: layerY[l] + Math.floor(i / VCOLS) * VSUB };
+        });
+      });
+      var lastRows = Math.ceil(byLayer[maxLayer].length / VCOLS);
+      return { pos: pos, W: PAD + (VCOLS - 1) * VPX + BW + PAD, H: layerY[maxLayer] + lastRows * VSUB + PAD, vertical: true };
+    }
     Object.keys(byLayer).forEach(function(l){
       byLayer[l].forEach(function(n, i){ pos[n.id] = { x: PAD + (+l) * LAYER_W, y: PAD + i * PITCH }; });
     });
-    var maxLayer = Math.max.apply(null, dim.nodes.map(function(n){ return n.layer; }));
-    var maxRows = Math.max.apply(null, Object.keys(byLayer).map(function(l){ return byLayer[l].length; }));
-    return { pos: pos, W: PAD + maxLayer * LAYER_W + BW + PAD, H: PAD + maxRows * PITCH + PAD };
+    return { pos: pos, W: PAD + maxLayer * LAYER_W + BW + PAD, H: PAD + maxRows * PITCH + PAD, vertical: false };
   }
   function neighbors(id, dir){
     var dim = state.data.dimensions[state.dim];
@@ -2012,12 +2013,6 @@
       g.classList.toggle("hl-cause", !!up[id]);
       g.classList.toggle("hl-effect", !!down[id] || id === state.selected);
       g.classList.toggle("dim", !!state.selected && !up[id] && !down[id] && id !== state.selected);
-      var fx = state.newsFx[state.dim + "." + id];
-      g.classList.toggle("hl-news", !!fx && !state.selected);
-      if(fx && !state.selected){
-        var r = g.querySelector("rect");
-        if(r) r.style.stroke = fx === "up" ? "#d92d20" : (fx === "down" ? "#12805c" : "#43566e");
-      }
     });
     svg.querySelectorAll(".map-edge, .map-edge-label").forEach(function(p){
       var f = p.getAttribute("data-from"), t = p.getAttribute("data-to");
@@ -2057,16 +2052,30 @@
     dim.edges.forEach(function(e){
       var s = pos[e.from], t = pos[e.to];
       if(!s || !t) return;
-      var sx = s.x + BW, sy = s.y + BH / 2, tx = t.x, ty = t.y + BH / 2, d;
-      if(s.x === t.x){
-        var bx = sx + 34;
-        d = "M " + sx + " " + sy + " C " + bx + " " + sy + ", " + bx + " " + ty + ", " + tx + " " + ty;
+      var sx, sy, tx, ty, d, lx, ly;
+      if(L.vertical){
+        sx = s.x + BW / 2; sy = s.y + BH; tx = t.x + BW / 2; ty = t.y;
+        if(sy === ty){
+          var by = sy + 30;
+          d = "M " + sx + " " + sy + " C " + sx + " " + by + ", " + tx + " " + by + ", " + tx + " " + ty;
+          lx = (sx + tx) / 2; ly = sy + 24;
+        } else {
+          var my = (sy + ty) / 2;
+          d = "M " + sx + " " + sy + " C " + sx + " " + my + ", " + tx + " " + my + ", " + tx + " " + ty;
+          lx = (sx + tx) / 2; ly = my - 4;
+        }
       } else {
-        var mx = (sx + tx) / 2;
-        d = "M " + sx + " " + sy + " C " + mx + " " + sy + ", " + mx + " " + ty + ", " + tx + " " + ty;
+        sx = s.x + BW; sy = s.y + BH / 2; tx = t.x; ty = t.y + BH / 2;
+        if(s.x === t.x){
+          var bx = sx + 34;
+          d = "M " + sx + " " + sy + " C " + bx + " " + sy + ", " + bx + " " + ty + ", " + tx + " " + ty;
+        } else {
+          var mx = (sx + tx) / 2;
+          d = "M " + sx + " " + sy + " C " + mx + " " + sy + ", " + mx + " " + ty + ", " + tx + " " + ty;
+        }
+        lx = (s.x === t.x) ? sx + 26 : (sx + tx) / 2; ly = (sy + ty) / 2 - 4;
       }
       gEdges.appendChild(el("path", {d: d, "class": "map-edge", "data-from": e.from, "data-to": e.to, "marker-end": "url(#arr)"}));
-      var lx = (s.x === t.x) ? sx + 26 : (sx + tx) / 2, ly = (sy + ty) / 2 - 4;
       var lt = el("text", {x: lx, y: ly, "class": "map-edge-label", "text-anchor": "middle", "data-from": e.from, "data-to": e.to});
       var arr = el("tspan", {"class": e.effect === "up" ? "arr-up" : "arr-down"});
       arr.textContent = e.effect === "up" ? "↑ " : "↓ ";
@@ -2084,17 +2093,7 @@
       var dt = el("text", {x: 8, y: 35, "class": "n-desc"});
       dt.textContent = n.desc;
       g.appendChild(dt);
-      var fx = state.newsFx[state.dim + "." + n.id];
-      if(fx){
-        var badge = el("g", {transform: "translate(" + (BW - 11) + ",11)"});
-        badge.appendChild(el("circle", {r: 10, fill: fx === "up" ? "#d92d20" : (fx === "down" ? "#12805c" : "#43566e")}));
-        var bt = el("text", {x: 0, y: 4, "text-anchor": "middle", fill: "#fff", "font-size": 11, "font-weight": 800});
-        bt.textContent = fx === "up" ? "↑" : (fx === "down" ? "↓" : "–");
-        badge.appendChild(bt);
-        g.appendChild(badge);
-      }
       g.addEventListener("click", function(){
-        state.newsFx = {};
         state.selected = (state.selected === n.id) ? null : n.id;
         render();
       });
@@ -2108,133 +2107,6 @@
     state.data.cross_links.forEach(function(c){ html += "<p>" + esc(c.text) + "</p>"; });
     box.innerHTML = html;
   }
-  var DOWN_RE = /跌|下滑|暴跌|下跌|回落|走低|走弱|削弱|疲软|承压|压制|打压|下探|ousted|ouster|dismiss|resign|dovish|weak|fall|fell|down|drop|plummet|plunge|sink|slide|tumble|decline|retreat|loss|lower|weaker|weighs|slump/i;
-  var UP_RE = /涨|上涨|暴涨|攀升|走高|走强|创新高|新高|升至|costly|hike|hawkish|rise|rising|rose|climb|surge|jump|gain|higher|rally|record|strong|soar/i;
-  var FLAT_RE = /hold|holds|steady|unchanged|维持|不变|按兵不动/i;
-  function kwPositions(hay, kw){
-    var pos = [];
-    if(/^[A-Za-z ]+$/.test(kw)){
-      var re = new RegExp("\\b" + kw.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "gi");
-      var m;
-      while((m = re.exec(hay)) !== null){ pos.push(m.index); if(m[0].length === 0) re.lastIndex++; }
-    } else {
-      var i = hay.indexOf(kw);
-      while(i !== -1){ pos.push(i); i = hay.indexOf(kw, i + kw.length); }
-    }
-    return pos;
-  }
-  function clauseOf(hay, pos, len){
-    var start = 0, end = hay.length, i;
-    for(i = pos - 1; i >= 0; i--){ if("，、；：:;\n".indexOf(hay[i]) !== -1){ start = i + 1; break; } }
-    for(i = pos + len; i < hay.length; i++){ if("，、；：:;\n".indexOf(hay[i]) !== -1){ end = i; break; } }
-    return {text: hay.slice(start, end), start: start};
-  }
-  function dirInClause(clause, koff, kwLen){
-    // Nearest direction word inside the same clause wins; "steady"/"不变" next to
-    // the keyword means flat. Clause scope keeps verbs attached to their subject.
-    var end = koff + kwLen, best = null, bestGap = Infinity, m, g, d;
-    function scan(re, dir){
-      g = new RegExp(re.source, "gi");
-      while((m = g.exec(clause)) !== null){
-        var s = m.index, e = m.index + m[0].length, gap;
-        if(s >= end) gap = s - end;
-        else if(e <= koff) gap = koff - e;
-        else gap = 0;
-        if(gap < bestGap){ bestGap = gap; best = dir; }
-        if(m[0].length === 0) g.lastIndex++;
-      }
-    }
-    scan(DOWN_RE, "down");
-    scan(UP_RE, "up");
-    var flatGap = Infinity, g2 = new RegExp(FLAT_RE.source, "gi"), m2;
-    while((m2 = g2.exec(clause)) !== null){
-      var s2 = m2.index, e2 = m2.index + m2[0].length, gap2;
-      if(s2 >= end) gap2 = s2 - end;
-      else if(e2 <= koff) gap2 = koff - e2;
-      else gap2 = 0;
-      if(gap2 < flatGap) flatGap = gap2;
-      if(m2[0].length === 0) g2.lastIndex++;
-    }
-    if(flatGap <= 8) return {dir: "flat", gap: flatGap};
-    if(best && bestGap <= 15) return {dir: best, gap: bestGap};
-    return null;
-  }
-  function dirForKeyword(hay, kw){
-    var best = null, bestGap = Infinity;
-    kwPositions(hay, kw).forEach(function(p){
-      var c = clauseOf(hay, p, kw.length);
-      var r = dirInClause(c.text, p - c.start, kw.length);
-      if(!r){
-        var start = Math.max(0, p - 60);
-        var win = hay.slice(start, p + kw.length + 60);
-        if(FLAT_RE.test(win)) r = {dir: "flat", gap: 1e9};
-      }
-      if(r && r.gap < bestGap){ bestGap = r.gap; best = r.dir; }
-    });
-    return best === null ? null : {dir: best, gap: bestGap};
-  }
-  function matchNews(){
-    if(!state.data || !state.news) return [];
-    var kws = Object.keys(state.data.news_keywords).sort(function(a, b){ return b.length - a.length; });
-    var out = [];
-    (state.news.items || []).forEach(function(it){
-      var hay = (it.title || "") + "\n" + (it.summary || "");
-      var hits = {};
-      kws.forEach(function(kw){
-        if(kwPositions(hay, kw).length === 0) return;
-        var r = dirForKeyword(hay, kw);
-        state.data.news_keywords[kw].forEach(function(h){
-          var eff = r ? r.dir : h.effect;
-          if(h.invert && r && r.dir !== "flat") eff = r.dir === "up" ? "down" : "up";
-          var gap = r ? r.gap : Infinity;
-          var cur = hits[h.node];
-          if(!cur || gap < cur.gap) hits[h.node] = {effect: eff, gap: gap};
-        });
-      });
-      var list = Object.keys(hits).map(function(k){ return {node: k, effect: hits[k].effect}; });
-      if(list.length) out.push({item: it, hits: list});
-    });
-    return out;
-  }
-  function renderNews(){
-    var box = document.getElementById("map-news");
-    var matched = matchNews();
-    if(!matched.length){
-      box.innerHTML = '<div class="empty">今日资讯暂无可点亮的节点。</div>';
-      return;
-    }
-    var html = "";
-    matched.slice(0, 8).forEach(function(m, i){
-      var chips = m.hits.map(function(h){
-        var parts = h.node.split(".");
-        var dim = state.data.dimensions[parts[0]];
-        var node = dim.nodes.filter(function(n){ return n.id === parts[1]; })[0];
-        var arr = h.effect === "up" ? "↑" : (h.effect === "down" ? "↓" : "–");
-        return '<span class="hit-chip ' + h.effect + '">' + esc(node ? node.label : parts[1]) + ' ' + arr + ' <span class="dim-tag">' + esc(dim.label.replace("维度", "")) + '</span></span>';
-      }).join("");
-      html += '<div class="map-news-item" role="button" tabindex="0" data-mi="' + i + '">'
-        + '<h3>' + esc(m.item.title) + '</h3>'
-        + '<div class="ni-sum">' + esc(m.item.summary || "") + '</div>'
-        + '<div class="ni-hits">' + chips + '</div></div>';
-    });
-    box.innerHTML = html;
-    box.querySelectorAll(".map-news-item").forEach(function(a){
-      a.addEventListener("click", function(){
-        var m = matched[+a.getAttribute("data-mi")];
-        if(!m) return;
-        var firstDim = m.hits[0].node.split(".")[0];
-        state.newsFx = {};
-        m.hits.forEach(function(h){ state.newsFx[h.node] = h.effect; });
-        state.selected = null;
-        if(state.dim !== firstDim){
-          state.dim = firstDim;
-          document.querySelectorAll(".dim-btn").forEach(function(x){ x.classList.toggle("active", x.getAttribute("data-dim") === firstDim); });
-        }
-        render();
-        if(svg && svg.scrollIntoView) svg.scrollIntoView({behavior: "smooth", block: "nearest"});
-      });
-    });
-  }
   document.querySelectorAll(".dim-btn").forEach(function(b){
     b.addEventListener("click", function(){
       document.querySelectorAll(".dim-btn").forEach(function(x){ x.classList.toggle("active", x === b); });
@@ -2243,17 +2115,18 @@
       render();
     });
   });
-  Promise.all([
-    fetch("transmission.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("transmission.json 未找到"); return r.json(); }),
-    fetch("news.json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; })
-  ]).then(function(res){
-    state.data = res[0];
-    state.news = res[1];
+  var lastVertical = isVertical();
+  window.addEventListener("resize", function(){
+    var v = isVertical();
+    if(v !== lastVertical){ lastVertical = v; render(); }
+  });
+  fetch("transmission.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("transmission.json 未找到"); return r.json(); })
+  .then(function(data){
+    state.data = data;
     renderCross();
     render();
-    renderNews();
   }).catch(function(){
-    document.getElementById("map-news").innerHTML = '<div class="err">传导图谱暂时无法读取，稍后再打开看看。</div>';
+    document.querySelector(".map-wrap").innerHTML = '<div class="err">传导图谱暂时无法读取，稍后再打开看看。</div>';
   });
 })();
 </script>
