@@ -7,32 +7,35 @@
 <meta name="description" content="BRICH — q50 权重高分红股观察站。每天早晚更新，服务长期持有、股息再投的复利投资者。">
 <style>
   :root{
-    --bg:#f4f1ea; --card:#ffffff; --ink:#1f2a24; --muted:#6f7670;
-    --line:#e5e0d3; --green:#166b4d; --gold:#b8860b; --gold-soft:#f3e9c8;
-    --red:#c0392b; --down:#1e8e5a; --chip:#eef2ec; --radius:14px;
+    --bg:#edf0f3; --card:#ffffff; --ink:#0e1f2f; --muted:#5b6b7a;
+    --line:#d9e0e8; --green:#0b6b4d; --navy:#0f2a4a; --accent:#1d4ed8;
+    --gold-soft:#fdf3d7;
+    --red:#d92d20; --down:#12805c; --chip:#eef2f6; --radius:10px;
   }
   *{box-sizing:border-box; -webkit-tap-highlight-color:transparent}
   html{font-size:16px}
   body{margin:0; background:var(--bg); color:var(--ink);
     font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    font-variant-numeric:tabular-nums; font-feature-settings:"tnum";
     line-height:1.6; padding-bottom:calc(2.5rem + env(safe-area-inset-bottom));}
+  td,th,.num,.metric .v,.rank-val .big,.calc-cell .v,.modal .m-kv .v{font-variant-numeric:tabular-nums}
   a{color:var(--green)}
   .wrap{max-width:720px; margin:0 auto; padding:0 16px}
 
   /* ---------- header ---------- */
   header{padding:2rem 0 0}
   .wordmark{font-size:2.6rem; font-weight:800; letter-spacing:.14em; line-height:1; margin:0}
-  .wordmark em{font-style:normal; color:var(--gold)}
+  .wordmark em{font-style:normal; color:var(--accent)}
   .tagline{margin:.55rem 0 0; font-size:1.02rem; color:var(--muted)}
   .tagline b{color:var(--ink)}
-  .goldrule{height:3px; background:linear-gradient(90deg,var(--gold),transparent); border:0; margin:1.1rem 0 0}
+  .goldrule{height:3px; background:linear-gradient(90deg,var(--navy),transparent); border:0; margin:1.1rem 0 0}
   .updated{font-size:.82rem; color:var(--muted); margin:.6rem 0 0}
   .updated b{color:var(--ink)}
 
   /* ---------- stat chips ---------- */
   .stats{display:grid; grid-template-columns:repeat(4,1fr); gap:8px; margin:1.1rem 0 0}
   .stat{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
-    padding:.7rem .4rem; text-align:center}
+    padding:.6rem .35rem; text-align:center}
   .stat .num{font-size:1.25rem; font-weight:800; line-height:1.2}
   .stat .num small{font-size:.75rem; font-weight:600; color:var(--muted)}
   .stat .lbl{font-size:.72rem; color:var(--muted); margin-top:.15rem}
@@ -40,7 +43,8 @@
 
   /* ---------- sections ---------- */
   section{margin-top:2rem}
-  h2{font-size:1.15rem; margin:0 0 .2rem; letter-spacing:.02em}
+  h2{font-size:1.05rem; margin:0 0 .2rem; letter-spacing:.04em}
+  h2::before{content:""; display:inline-block; width:4px; height:1em; background:var(--navy); border-radius:2px; margin-right:.45rem; vertical-align:-.12em}
   .sec-sub{font-size:.85rem; color:var(--muted); margin:0 0 .9rem}
   .empty{background:var(--card); border:1px dashed var(--line); border-radius:var(--radius);
     padding:1.4rem 1rem; text-align:center; color:var(--muted); font-size:.92rem}
@@ -48,7 +52,7 @@
   /* ---------- hit cards ---------- */
   .hit{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
     padding:1rem 1rem .9rem; margin-bottom:.8rem; position:relative; overflow:hidden}
-  .hit::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--gold)}
+  .hit::before{content:""; position:absolute; left:0; top:0; bottom:0; width:4px; background:var(--navy)}
   .hit.both::before{background:var(--green)}
   .hit-head{display:flex; align-items:baseline; gap:.5rem; flex-wrap:wrap}
   .hit-name{font-size:1.15rem; font-weight:800}
@@ -57,25 +61,25 @@
   .badges{margin-left:auto; display:flex; gap:.35rem; flex-wrap:wrap}
   .badge{font-size:.72rem; font-weight:700; padding:.15rem .5rem; border-radius:999px; white-space:nowrap}
   .badge.both{background:var(--green); color:#fff}
-  .badge.drawdown{background:var(--gold-soft); color:#7a5c06}
+  .badge.drawdown{background:var(--gold-soft); color:#92400e}
   .badge.weekly{background:#e3f0e8; color:var(--green)}
   .metrics{display:grid; grid-template-columns:repeat(3,1fr); gap:.6rem .4rem; margin-top:.85rem}
   .metric .k{font-size:.72rem; color:var(--muted)}
-  .metric .v{font-size:1.02rem; font-weight:700; line-height:1.3}
+  .metric .v{font-size:1.08rem; font-weight:800; line-height:1.3}
   .metric .v small{font-size:.75rem; font-weight:600; color:var(--muted)}
   .up{color:var(--red)} .down{color:var(--down)}
-  .hit-reason{font-size:.88rem; color:#3c463f; background:#faf8f1; border-radius:8px;
+  .hit-reason{font-size:.88rem; color:#33414f; background:#f2f6fa; border-radius:8px;
     padding:.55rem .7rem; margin-top:.85rem}
   .hit.vetoed::before{background:#c0392b}
   .hit.vetoed{background:#fdf9f8}
   .badge.vetoed{background:#fdf0ef; color:#8c2f26}
   .badge.fundbuy{background:#e3f0e8; color:var(--green)}
-  .badge.setup{background:#f5e6c8; color:#7a5c06}
-  .hit.setup::before{background:#b8860b}
-  .hit.setup{background:#fdfbf5}
+  .badge.setup{background:#fef3c7; color:#92400e}
+  .hit.setup::before{background:#d97706}
+  .hit.setup{background:#fffbeb}
   .hit-reversal{font-size:.85rem; color:var(--green); margin-top:.5rem}
-  .rank-tag.setup{background:#f5e6c8; color:#7a5c06}
-  .breadth{background:#faf8f1; border:1px solid var(--line); border-left:4px solid var(--gold); border-radius:var(--radius); padding:.7rem .9rem; margin:.8rem 0; font-size:.9rem}
+  .rank-tag.setup{background:#fef3c7; color:#92400e}
+  .breadth{background:#f2f6fa; border:1px solid var(--line); border-left:4px solid var(--navy); border-radius:var(--radius); padding:.7rem .9rem; margin:.8rem 0; font-size:.9rem}
   .breadth.selloff{border-left-color:#c0392b; background:#fdf9f8}
   .hist-extra{font-size:.8rem; color:var(--muted); display:block; margin-top:.2rem}
   .hit-outlook{font-size:.85rem; color:var(--muted); margin-top:.5rem}
@@ -88,7 +92,7 @@
   .news-card{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
     padding:.85rem 1rem; margin-bottom:.65rem}
   .news-card.imp-high{border-left:4px solid var(--red)}
-  .news-card.imp-medium{border-left:4px solid var(--gold)}
+  .news-card.imp-medium{border-left:4px solid #d97706}
   .news-card.imp-low{border-left:4px solid #c9c2ae}
   .news-title{font-weight:800; font-size:.98rem}
   .news-sum{font-size:.88rem; color:#3c463f; margin-top:.3rem}
@@ -96,7 +100,7 @@
   .news-meta .src{font-size:.75rem; color:var(--muted)}
   .news-badge{font-size:.72rem; font-weight:700; padding:.12rem .5rem; border-radius:999px; white-space:nowrap}
   .news-badge.imp-high{background:#fdf0ef; color:#8c2f26}
-  .news-badge.imp-medium{background:var(--gold-soft); color:#7a5c06}
+  .news-badge.imp-medium{background:#fef3c7; color:#92400e}
   .news-badge.imp-low{background:#efece2; color:#6f7670}
   .news-badge.dir-positive{background:#e3f0e8; color:var(--green)}
   .news-badge.dir-negative{background:#fdf0ef; color:#8c2f26}
@@ -117,35 +121,35 @@
 
   /* ---------- rank lists ---------- */
   .rank{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden}
-  .rank-row{display:flex; align-items:center; gap:.6rem; padding:.7rem .9rem; border-bottom:1px solid var(--line)}
+  .rank-row{display:flex; align-items:center; gap:.6rem; padding:.6rem .85rem; border-bottom:1px solid var(--line)}
   .rank-row:last-child{border-bottom:0}
-  .rank-no{flex:0 0 1.4rem; font-weight:800; color:var(--gold); font-size:.95rem; text-align:center}
+  .rank-no{flex:0 0 1.4rem; font-weight:800; color:var(--accent); font-size:.95rem; text-align:center}
   .rank-no.top{color:var(--green)}
   .rank-main{flex:1; min-width:0}
   .rank-name{font-weight:700; font-size:.95rem}
   .rank-name span{font-weight:400; font-size:.78rem; color:var(--muted); margin-left:.35rem}
-  .rank-bar{height:6px; background:#efece2; border-radius:99px; margin-top:.35rem; overflow:hidden}
-  .rank-bar i{display:block; height:100%; background:linear-gradient(90deg,var(--gold),#d4af37); border-radius:99px}
+  .rank-bar{height:6px; background:#e6ebf0; border-radius:99px; margin-top:.35rem; overflow:hidden}
+  .rank-bar i{display:block; height:100%; background:linear-gradient(90deg,#1d4ed8,#3b82f6); border-radius:99px}
   .rank-bar i.deep{background:linear-gradient(90deg,var(--green),#2e8b62)}
   .rank-val{text-align:right; flex:0 0 auto}
   .rank-val .big{font-weight:800; font-size:1.02rem}
   .rank-val .small{font-size:.72rem; color:var(--muted)}
 
   /* ---------- calculator ---------- */
-  .calc{background:#12291f; color:#eef3ee; border-radius:var(--radius); padding:1.1rem 1rem 1rem}
+  .calc{background:#0f2438; color:#e8eef4; border-radius:var(--radius); padding:1.1rem 1rem 1rem}
   .calc h2{color:#fff}
-  .calc p{font-size:.88rem; color:#b9c6bb; margin:.2rem 0 .8rem}
+  .calc p{font-size:.88rem; color:#a9bcd0; margin:.2rem 0 .8rem}
   .calc-grid{display:grid; grid-template-columns:1fr 1fr; gap:.7rem; margin:.4rem 0 .9rem}
-  .calc-field label{display:block; font-size:.75rem; color:#8ba294; margin-bottom:.25rem}
+  .calc-field label{display:block; font-size:.75rem; color:#8fa8c0; margin-bottom:.25rem}
   .calc-field input{width:100%; font-size:1rem; padding:.6rem .7rem; border-radius:10px;
-    border:1px solid #2c463a; background:#0d1f17; color:#fff; outline:none}
-  .calc-field input:focus{border-color:var(--gold)}
+    border:1px solid #24405c; background:#0a1a2c; color:#fff; outline:none}
+  .calc-field input:focus{border-color:var(--accent)}
   .calc-out{display:grid; grid-template-columns:repeat(3,1fr); gap:.6rem}
-  .calc-cell{background:#0d1f17; border:1px solid #2c463a; border-radius:10px; padding:.7rem .5rem; text-align:center}
-  .calc-cell .y{font-size:.75rem; color:#8ba294}
-  .calc-cell .v{font-size:1.12rem; font-weight:800; color:#f3e9c8; margin-top:.15rem}
-  .calc-cell .v small{font-size:.7rem; color:#8ba294; font-weight:600}
-  .calc .note{font-size:.75rem; color:#8ba294; margin:.7rem 0 0}
+  .calc-cell{background:#0a1a2c; border:1px solid #24405c; border-radius:10px; padding:.7rem .5rem; text-align:center}
+  .calc-cell .y{font-size:.75rem; color:#8fa8c0}
+  .calc-cell .v{font-size:1.12rem; font-weight:800; color:#dbeafe; margin-top:.15rem}
+  .calc-cell .v small{font-size:.7rem; color:#8fa8c0; font-weight:600}
+  .calc .note{font-size:.75rem; color:#8fa8c0; margin:.7rem 0 0}
 
   /* ---------- compounding ---------- */
   .compound{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); padding:1.1rem 1rem 1rem}
@@ -166,11 +170,19 @@
   .tools input,.tools select{flex:1; min-width:0; font-size:.92rem; padding:.6rem .7rem;
     border:1px solid var(--line); border-radius:10px; background:#fff; color:var(--ink)}
   .tools select{flex:0 0 8.2rem}
-  .tbl-wrap{background:var(--card); border:1px solid var(--line); border-radius:var(--radius); overflow:hidden}
-  table{width:100%; border-collapse:collapse; font-size:.88rem}
-  th,td{padding:.62rem .5rem; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap}
+  .tbl-wrap{background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    overflow-x:auto; overflow-y:hidden; -webkit-overflow-scrolling:touch; scrollbar-width:thin;
+    background-image:linear-gradient(to right,#fff,#fff),linear-gradient(to right,#fff,#fff),linear-gradient(to right,rgba(15,42,74,.14),rgba(15,42,74,0)),linear-gradient(to left,rgba(15,42,74,.14),rgba(15,42,74,0));
+    background-position:left center,right center,left center,right center;
+    background-repeat:no-repeat; background-size:24px 100%,24px 100%,16px 100%,16px 100%;
+    background-attachment:local,local,scroll,scroll}
+  .tbl-wrap::-webkit-scrollbar{height:6px}
+  .tbl-wrap::-webkit-scrollbar-thumb{background:#c4cfda; border-radius:3px}
+  .tbl-wrap::-webkit-scrollbar-track{background:transparent}
+  table{width:100%; border-collapse:collapse; font-size:.9rem}
+  th,td{padding:.5rem .45rem; text-align:right; border-bottom:1px solid var(--line); white-space:nowrap}
   th:first-child,td:first-child{text-align:left}
-  th{font-size:.75rem; color:var(--muted); font-weight:600; background:#faf8f1}
+  th{font-size:.75rem; color:var(--muted); font-weight:600; background:#f2f6fa}
   tr:last-child td{border-bottom:0}
   td .nm{font-weight:700; color:var(--ink)}
   td .cd{display:block; font-size:.72rem; color:var(--muted); font-weight:400}
@@ -185,7 +197,7 @@
   .hist-picks .tag{display:inline-block; font-size:.72rem; font-weight:700; border-radius:999px;
     padding:.05rem .45rem; margin-left:.3rem; vertical-align:1px}
   .tag.both{background:var(--green); color:#fff}
-  .tag.drawdown{background:var(--gold-soft); color:#7a5c06}
+  .tag.drawdown{background:var(--gold-soft); color:#92400e}
   .tag.weekly{background:#e3f0e8; color:var(--green)}
 
   footer{margin-top:2.4rem; font-size:.78rem; color:var(--muted); border-top:1px solid var(--line); padding-top:1rem}
@@ -194,11 +206,11 @@
 
   /* ---------- index tabs (q50 / e30) ---------- */
   .tabs{display:flex; gap:.5rem; margin:1rem 0 0}
-  .tab{flex:1; font-size:1rem; font-weight:800; padding:.7rem .5rem; border-radius:12px;
+  .tab{flex:1; font-size:1rem; font-weight:800; padding:.7rem .5rem; border-radius:10px;
     border:1.5px solid var(--line); background:var(--card); color:var(--muted); cursor:pointer}
-  .tab.active{background:var(--green); border-color:var(--green); color:#fff}
+  .tab.active{background:var(--navy); border-color:var(--navy); color:#fff}
   .tab .sub{display:block; font-size:.72rem; font-weight:600; margin-top:.1rem; opacity:.85}
-  .tab.active .sub{color:#d7ead9}
+  .tab.active .sub{color:#bcd0e6}
   [hidden]{display:none !important}
 
   /* ---------- first-screen compact + clickable ---------- */
@@ -210,17 +222,17 @@
   section{margin-top:1.4rem}
   .stat{cursor:pointer}
   .hit, .rank-row, #wl tr{cursor:pointer}
-  .hit:active, .rank-row:active, #wl tr:active{background:#faf8f1}
+  .hit:active, .rank-row:active, #wl tr:active{background:#eef3f8}
   /* stock detail modal (bottom sheet on phones, centered card on desktop) */
   .modal{position:fixed; inset:0; z-index:50; display:none}
   .modal.open{display:block}
   .modal-backdrop{position:absolute; inset:0; background:rgba(20,30,24,.55)}
   .modal-card{position:absolute; left:0; right:0; bottom:0; max-height:88vh; overflow:auto;
-    background:#fff; border-radius:18px 18px 0 0; padding:1.1rem 1.1rem calc(1.4rem + env(safe-area-inset-bottom));
+    background:#fff; border-radius:14px 14px 0 0; padding:1.1rem 1.1rem calc(1.4rem + env(safe-area-inset-bottom));
     box-shadow:0 -8px 30px rgba(0,0,0,.25)}
   @media (min-width:720px){
     .modal-card{left:50%; right:auto; bottom:auto; top:50%; transform:translate(-50%,-50%);
-      width:640px; max-height:86vh; border-radius:18px}
+      width:640px; max-height:86vh; border-radius:14px}
   }
   .modal-close{position:absolute; top:.6rem; right:.8rem; width:2rem; height:2rem; border-radius:50%;
     border:1px solid var(--line); background:#fff; font-size:1.2rem; line-height:1; cursor:pointer; color:var(--muted)}
@@ -231,8 +243,39 @@
   .modal .m-kv{display:grid; grid-template-columns:repeat(3,1fr); gap:.5rem}
   .modal .m-kv .k{font-size:.72rem; color:var(--muted)}
   .modal .m-kv .v{font-size:1rem; font-weight:700}
-  .modal .m-note{font-size:.9rem; background:#faf8f1; border-radius:8px; padding:.6rem .7rem}
+  .modal .m-note{font-size:.9rem; background:#f2f6fa; border-radius:8px; padding:.6rem .7rem}
   .modal .m-link{display:inline-block; margin-top:1rem; font-weight:700}
+  /* ---------- collapsible secondary sections ---------- */
+  details.collapse{margin:0}
+  details.collapse>summary{list-style:none; cursor:pointer; display:flex; align-items:center; gap:.5rem;
+    padding:.55rem 0; font-size:1.05rem; font-weight:800; letter-spacing:.03em; color:var(--ink)}
+  details.collapse>summary::-webkit-details-marker{display:none}
+  details.collapse>summary::before{content:""; flex:0 0 auto; width:4px; height:1em; background:var(--navy);
+    border-radius:2px}
+  details.collapse>summary .sum-note{font-size:.78rem; color:var(--muted); font-weight:400; letter-spacing:0}
+  details.collapse>summary .sum-chev{margin-left:auto; color:var(--muted); font-size:.85rem; transition:transform .15s}
+  details.collapse[open ]>summary .sum-chev{transform:rotate(180deg)}
+  details.collapse .sec-sub{margin-bottom:.7rem}
+  /* ---------- sticky tabs + tighter header on phones ---------- */
+  @media (max-width:720px){
+    .tabs{position:sticky; top:0; z-index:30; background:var(--bg);
+      margin-left:-16px; margin-right:-16px; padding:.5rem 16px; margin-top:.7rem;
+      border-bottom:1px solid var(--line)}
+  }
+  @media (max-width:560px){
+    header{padding:.7rem 0 0}
+    .wordmark{font-size:1.7rem}
+    .tagline{font-size:.88rem; margin-top:.3rem}
+    .goldrule{margin:.6rem 0 0}
+    .updated{font-size:.78rem; margin-top:.45rem}
+    .tab{font-size:.92rem; padding:.55rem .4rem}
+    .stat{padding:.55rem .3rem}
+    .stat .num{font-size:1.1rem}
+    section{margin-top:1.1rem}
+    .hit{padding:.85rem .9rem .75rem; margin-bottom:.65rem}
+    .hit-name{font-size:1.05rem}
+    .metrics{margin-top:.6rem}
+  }
 </style>
 </head>
 <body>
@@ -273,15 +316,19 @@
   </section>
 
   <section id="sec-vetoed">
-    <h2>价格触发、基本面已否决</h2>
+    <details class="collapse" id="details-vetoed" open>
+      <summary><span>价格触发、基本面已否决</span><span class="sum-note" id="vetoed-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">价格上触发了入场时机，但基本面五层否决制没通过，所以不入场。原因写在卡片里，供参考，不作为投资建议。</p>
     <div id="vetoed"></div>
+    </details>
   </section>
 
   <section id="sec-fundbuy">
-    <h2>基本面可买入，等价格时机</h2>
+    <details class="collapse" id="details-fundbuy" open>
+      <summary><span>基本面可买入，等价格时机</span><span class="sum-note" id="fundbuy-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">基本面五层都通过的票，但今天价格上还没触发入场时机（回撤不够深、也没急跌），先放着等。</p>
     <div id="fundbuy"></div>
+    </details>
   </section>
 
   <section id="sec-compcore">
@@ -291,13 +338,16 @@
   </section>
 
   <section id="sec-outsiders">
-    <h2>q50 外观察（建议里的 4 只）</h2>
+    <details class="collapse" id="details-outsiders" open>
+      <summary><span>q50 外观察（建议里的 4 只）</span><span class="sum-note" id="outsiders-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">不在 q50 的 4 只票，按 q50 同款规则检查，但不进 q50 的入场信号。现金流按年报审计（4 只中仅招商公路稳定）。</p>
     <div id="outsiders"></div>
+    </details>
   </section>
 
   <section>
-    <h2>今日要闻</h2>
+    <details class="collapse" id="details-news" open>
+      <summary><span>今日要闻</span><span class="sum-note" id="news-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">和 q50 持仓、行业与宏观相关的新闻，按分类与影响分级。只看概要，不追消息炒股。</p>
     <div class="news-filters" id="news-filters">
       <button data-cat="全部" class="on">全部</button>
@@ -307,10 +357,12 @@
       <button data-cat="市场情绪">市场情绪</button>
     </div>
     <div id="news"></div>
+    </details>
   </section>
 
   <section>
-    <h2>长期持有者怎么用</h2>
+    <details class="collapse" id="details-howto" open>
+      <summary><span>长期持有者怎么用</span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">这个页面是给你省时间的，不是让你盯盘的。</p>
     <div class="howto">
       <ol>
@@ -319,23 +371,29 @@
         <li><b>买入之后靠股息再投</b>：涨跌一周的波动不用动仓位，复利来自拿得住＋分红再投回去。</li>
       </ol>
     </div>
+    </details>
   </section>
 
   <section>
-    <h2>价值折扣榜</h2>
+    <details class="collapse" id="details-discount" open>
+      <summary><span>价值折扣榜</span><span class="sum-note" id="discount-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">按相对 52 周最高价的回撤排序。回撤越深，相对高点越便宜——但便宜不等于值得买，还要看分红和基本面。</p>
     <div class="rank" id="discount-list"></div>
     <p class="tbl-note" id="discount-note"></p>
+    </details>
   </section>
 
   <section>
-    <h2>本周急跌榜</h2>
+    <details class="collapse" id="details-drop" open>
+      <summary><span>本周急跌榜</span><span class="sum-note" id="drop-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">近 5 个交易日跌得最深的 5 只。急跌常常是情绪，长期持有者只把它当提醒，不追跌。</p>
     <div class="rank" id="drop-list"></div>
+    </details>
   </section>
 
   <section>
-    <h2>复利测算</h2>
+    <details class="collapse" id="details-calc" open>
+      <summary><span>复利测算</span><span class="sum-note">改数字看复利</span><span class="sum-chev">▾</span></summary>
     <div class="calc">
       <p>股息再投、收益率不变，看看时间能把本金滚成什么样。改改数字，感受一下：</p>
       <div class="calc-grid">
@@ -355,38 +413,41 @@
       </div>
       <p class="note">假设股息全部再投、年化收益率保持不变，不含税费与波动，仅为示意。q50 当前平均股息率约 4.30%。</p>
     </div>
+    </details>
   </section>
 
   <section>
-    <h2>复利的力量</h2>
+    <details class="collapse" id="details-compound" open>
+      <summary><span>复利的力量</span><span class="sum-note">1 万 × 5% × 10 年</span><span class="sum-chev">▾</span></summary>
     <div class="compound">
       <p>1 万元、年化 5%、股息再投，10 年的示意曲线：</p>
       <svg viewBox="0 0 640 220" role="img" aria-label="复利增长示意图">
         <defs>
           <linearGradient id="ag" x1="0" y1="0" x2="0" y2="1">
-            <stop offset="0" stop-color="#d4af37" stop-opacity=".45"/>
-            <stop offset="1" stop-color="#d4af37" stop-opacity="0"/>
+            <stop offset="0" stop-color="#3b82f6" stop-opacity=".45"/>
+            <stop offset="1" stop-color="#3b82f6" stop-opacity="0"/>
           </linearGradient>
         </defs>
-        <g stroke="#d8d2c2" stroke-width="1">
+        <g stroke="#d9e0e8" stroke-width="1">
           <line x1="40" y1="20" x2="40" y2="190"/><line x1="40" y1="190" x2="620" y2="190"/>
         </g>
-        <g fill="#6f7670" font-size="12">
+        <g fill="#5b6b7a" font-size="12">
           <text x="34" y="194" text-anchor="end">1.0万</text>
           <text x="34" y="140" text-anchor="end">1.2万</text>
           <text x="34" y="86" text-anchor="end">1.4万</text>
           <text x="34" y="32" text-anchor="end">1.6万</text>
         </g>
-        <g fill="#6f7670" font-size="12">
+        <g fill="#5b6b7a" font-size="12">
           <text x="40" y="208">第1年</text><text x="310" y="208">第5年</text><text x="585" y="208">第10年</text>
         </g>
         <path d="M40,190 C140,168 220,150 300,128 C380,106 480,80 620,34 L620,190 L40,190 Z" fill="url(#ag)"/>
-        <path d="M40,190 C140,168 220,150 300,128 C380,106 480,80 620,34" fill="none" stroke="#b8860b" stroke-width="2.5"/>
-        <circle cx="620" cy="34" r="4.5" fill="#b8860b"/>
-        <text x="560" y="22" fill="#7a5c06" font-size="13" font-weight="700">1.63 万</text>
+        <path d="M40,190 C140,168 220,150 300,128 C380,106 480,80 620,34" fill="none" stroke="#1d4ed8" stroke-width="2.5"/>
+        <circle cx="620" cy="34" r="4.5" fill="#1d4ed8"/>
+        <text x="560" y="22" fill="#1e40af" font-size="13" font-weight="700">1.63 万</text>
       </svg>
       <p class="note">示意而已：1 万元 × 年化 5% × 10 年 ≈ 1.63 万元。真正的复利来自好公司＋低位买入＋拿得住。</p>
     </div>
+    </details>
   </section>
 
   <section>
@@ -413,7 +474,8 @@
   </section>
 
   <section>
-    <h2>筛选规则</h2>
+    <details class="collapse" id="details-rules" open>
+      <summary><span>筛选规则</span><span class="sum-note">入场三关</span><span class="sum-chev">▾</span></summary>
     <div class="rules">
       <ol>
         <li><b>入场门槛 · 股息率 &gt; 3%</b>：低于 3% 的票不作为入场选择，哪怕回撤再深、跌得再急。</li>
@@ -429,12 +491,15 @@
       </ol>
       <p class="pick">入场信号 = 价格触发 + 基本面通过 + 反转确认，三关都过才报。每天最多报一只：优先选复利核心；复利核心之间，优先选同时满足两个时机的；没有就选回撤最深的；回撤一个没有，就选一周跌得最深的。没有复利核心的可入场信号时，退而求其次选现金流稳定的。同一只 3 天内不重复报。入选的必须先过股息率 3% 的门槛。</p>
     </div>
+    </details>
   </section>
 
   <section>
-    <h2>历史信号</h2>
+    <details class="collapse" id="details-history" open>
+      <summary><span>历史信号</span><span class="sum-note" id="history-sum"></span><span class="sum-chev">▾</span></summary>
     <p class="sec-sub">每天的命中记录，可回看。</p>
     <div id="history"></div>
+    </details>
   </section>
 
   <footer>
@@ -467,16 +532,20 @@
     </section>
 
     <section>
-      <h2>e30 波段规则</h2>
+      <details class="collapse" id="details-e30-rules" open>
+        <summary><span>e30 波段规则</span><span class="sum-note">两段式 + 移动止损</span><span class="sum-chev">▾</span></summary>
       <p class="sec-sub">按 30 只 ETF 各自 5 年历史（ZigZag 12%） pooled 算出的统一规则，不是单只 ETF 的数。</p>
       <div class="rules" id="e30-rules"></div>
+      </details>
     </section>
 
     <section>
-      <h2>回撤榜</h2>
+      <details class="collapse" id="details-e30-discount" open>
+        <summary><span>回撤榜</span><span class="sum-note" id="e30-discount-sum"></span><span class="sum-chev">▾</span></summary>
       <p class="sec-sub">按相对 52 周最高价的回撤排序。回撤越深，相对高点越便宜——但便宜不等于值得买，还要看是否落在波段入口带里。</p>
       <div class="rank" id="e30-discount-list"></div>
       <p class="tbl-note" id="e30-discount-note"></p>
+      </details>
     </section>
 
     <section id="e30-wl-sec">
@@ -502,9 +571,11 @@
     </section>
 
     <section>
-      <h2>历史信号</h2>
+      <details class="collapse" id="details-e30-history" open>
+        <summary><span>历史信号</span><span class="sum-note" id="e30-history-sum"></span><span class="sum-chev">▾</span></summary>
       <p class="sec-sub">每天的命中记录，可回看。</p>
       <div id="e30-history"></div>
+      </details>
     </section>
 
     <footer>
@@ -546,9 +617,11 @@
     </section>
 
     <section>
-      <h2>行业联动（美股 → A 股）</h2>
+      <details class="collapse" id="details-a50-linkage" open>
+        <summary><span>行业联动（美股 → A 股）</span><span class="sum-note">14 个行业对照</span><span class="sum-chev">▾</span></summary>
       <p class="sec-sub">定性对照，不是交易信号。美股某行业下探，A 股同行业可能共振；反之亦然。</p>
       <div class="rules" id="a50-linkage"></div>
+      </details>
     </section>
 
     <footer>
@@ -607,6 +680,15 @@
     try { var saved = localStorage.getItem("brich-view"); if(saved === "e30" || saved === "q50" || saved === "a50") initial = saved; } catch(e){}
   }
   show(initial);
+})();
+
+/* mobile: secondary sections start collapsed (desktop stays open) */
+(function(){
+  try{
+    if(window.matchMedia && window.matchMedia("(max-width: 720px)").matches){
+      document.querySelectorAll("details.collapse").forEach(function(d){ d.open = false; });
+    }
+  }catch(e){}
 })();
 
 (function(){
@@ -738,7 +820,7 @@
       var badges = badge(tc) + (vetoedFlag ? ' <span class="badge vetoed">基本面已否决</span>' : '') + stageBadge;
       var revLine = "";
       if(sig.bounce_pct !== undefined && sig.bounce_pct !== null && sig.days_since_low !== undefined && sig.days_since_low !== null){
-        revLine = '<div class="hit-reversal"' + (sig.reversal_confirmed ? '' : ' style="color:#7a5c06"') + '>' +
+        revLine = '<div class="hit-reversal"' + (sig.reversal_confirmed ? '' : ' style="color:#92400e"') + '>' +
           (sig.reversal_confirmed ? "反转已确认" : "反转未确认") + '：较 20 日低点反弹 ' + sig.bounce_pct.toFixed(1) + '%，低点距今 ' + sig.days_since_low + ' 日（需 ≥10 日盘整）</div>';
       }
       return '<article class="hit ' + (tc==="both"?"both":"") + (vetoedFlag?" vetoed":"") + (sig.stage==="关注"?" setup":"") + '" data-code="' + sig.code + '">' +
@@ -783,6 +865,9 @@
       vetoedBox.innerHTML = vetoedSignals.map(function(s){ return signalCard(s, true); }).join("");
     }
 
+    var vetoSum = el("vetoed-sum");
+    if(vetoSum) vetoSum.textContent = vetoedSignals.length + " 只";
+
     /* ---- fundamental buy, waiting for price ---- */
     var fundBox = el("fundbuy");
     if(!fundBuy.length){
@@ -810,6 +895,9 @@
         '</article>';
       }).join("");
     }
+
+    var fundSum = el("fundbuy-sum");
+    if(fundSum) fundSum.textContent = fundBuy.length + " 只";
 
     /* ---- compounding core ---- */
     var compBox = el("compcore");
@@ -863,6 +951,14 @@
       }).join("");
     }
 
+    var outSum = el("outsiders-sum");
+    var outDet = el("details-outsiders");
+    if(outSum){
+      var nOutTrig = outs.filter(function(o){ return o.stage === "可入场" || o.stage === "关注"; }).length;
+      outSum.textContent = outs.length + " 只" + (nOutTrig ? " · " + nOutTrig + " 只在信号状态" : " · 无信号");
+      if(outDet && nOutTrig) outDet.open = true;
+    }
+
     /* ---- discount ranking ---- */
     var hitSet = {};
     entrySignals.forEach(function(s){ hitSet[s.code] = 1; });
@@ -889,6 +985,8 @@
     }
     var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
     el("discount-note").textContent = "榜单只含已核对 52 周最高价的票（" + disc.length + " 只已核对，" + missing + " 只采集中），每天检查时补齐。「可入场」指股息率 > 3% 且价格、基本面、反转三关都过；「关注」指价格与基本面通过、反转未确认，仅观察；「股息不足」指股息率 ≤ 3%，不作为入场选择。";
+    var discSum = el("discount-sum");
+    if(discSum && disc.length) discSum.textContent = "最深回撤 " + disc[0].drawdown.toFixed(1) + "%";
 
     /* ---- weekly drop ranking ---- */
     var drops = wl.filter(function(w){ return w.weekly!==null && w.weekly!==undefined; })
@@ -906,6 +1004,9 @@
           '<div class="small">现价 ' + w.price + ' 元</div></div></div>';
       }).join("");
     }
+
+    var dropSum = el("drop-sum");
+    if(dropSum && drops.length) dropSum.textContent = "最深 " + drops[0].weekly.toFixed(1) + "%";
 
     /* ---- watchlist ---- */
     function drawdownVal(w){ return (w.drawdown===null||w.drawdown===undefined) ? -1 : w.drawdown; }
@@ -953,6 +1054,9 @@
       }).join("");
     }
 
+    var histSum = el("history-sum");
+    if(histSum) histSum.textContent = hist.length ? ("最新 " + hist[0].date + " · 共 " + hist.length + " 天") : "";
+
     /* ---- news ---- */
     var newsList = d.news || [];
     var newsBox = el("news");
@@ -989,6 +1093,8 @@
       });
     });
     renderNews("全部");
+    var newsSum = el("news-sum");
+    if(newsSum) newsSum.textContent = "共 " + newsList.length + " 条";
 
     /* ---- stock detail modal ---- */
     var modal = el("stock-modal");
@@ -1304,7 +1410,7 @@
         setupsBox.innerHTML = setups.map(function(s){
           var tc = triggerCode(s.trigger);
           var rev = (s.bounce_pct!==undefined && s.days_since_low!==undefined)
-            ? '<div class="hit-reversal" style="color:#7a5c06">反转未确认：较 20 日低点反弹 ' + s.bounce_pct.toFixed(1) + '%，低点距今 ' + s.days_since_low + ' 日（需 ≥10 日盘整）</div>' : '';
+            ? '<div class="hit-reversal" style="color:#92400e">反转未确认：较 20 日低点反弹 ' + s.bounce_pct.toFixed(1) + '%，低点距今 ' + s.days_since_low + ' 日（需 ≥10 日盘整）</div>' : '';
           return '<article class="hit setup" data-code="' + s.code + '">' +
             '<div class="hit-head"><span class="hit-name">' + s.name + '</span>' +
             '<span class="hit-code">' + s.code + '</span>' +
@@ -1380,6 +1486,8 @@
     }
     var missing = wl.filter(function(w){ return w.drawdown===null||w.drawdown===undefined; }).length;
     el("e30-discount-note").textContent = "榜单只含已核对 52 周最高价的 ETF（" + disc.length + " 只已核对，" + missing + " 只采集中）。「可入场」指价格触发且反转已确认；「关注」指价格触发、反转未确认，仅观察不入场；「超深」指回撤超过带子上限 44%，属于极端尾部，不追。";
+    var e30DiscSum = el("e30-discount-sum");
+    if(e30DiscSum && disc.length) e30DiscSum.textContent = "最深回撤 " + disc[0].drawdown.toFixed(1) + "%";
 
     /* ---- e30 watchlist ---- */
     function renderE30List(){
@@ -1427,6 +1535,9 @@
           '<div class="hist-picks">' + (picks || "当日无命中") + extra + '</div></div>';
       }).join("");
     }
+
+    var e30HistSum = el("e30-history-sum");
+    if(e30HistSum) e30HistSum.textContent = hist.length ? ("最新 " + hist[0].date + " · 共 " + hist.length + " 天") : "";
 
     /* ---- e30 detail modal (shares the modal shell; q50 already wired close/backdrop/Esc) ---- */
     var modal = el("stock-modal");
