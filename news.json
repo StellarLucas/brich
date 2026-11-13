@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "Wall Street Journal",
+      "summary": "美股期货周五走弱，英伟达换帅余波未消、长期美债继续抛售，市场等待美国 PPI 通胀数据；IEA 称全球油市四季度将重回过剩，布伦特跌约 0.6% 至 95.20 美元附近；金价持稳于 3900 美元附近。",
+      "title": "Stock Futures Lower as Investors Look to U.S. Inflation Data",
+      "url": "https://www.wsj.com/finance/stocks/stock-futures-lower-as-investors-look-to-u-s-inflation-data-5b1b5988"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Economy Middle East",
+      "summary": "全球股市周五下跌，英伟达 CEO 辞职余波扩散至 AI 板块，韩国 KOSPI 跌 0.98%、亚太指数跌 0.42%；两年期美债收益率升至 4.892%、十年期升至 5.1433%，市场计价 12 月加息 50 个基点概率 13%，美元周线料涨约 0.9%。",
+      "title": "Stock market today: South Korea's KOSPI, Wall Street futures retreat as Nvidia turmoil rattles AI sector, lifts dollar",
+      "url": "https://economymiddleeast.com/news/stock-market-today-south-koreas-kospi-wall-street-futures-retreat-as-nvidia-turmoil-rattles-ai-sector-lifts-dollar/"
+    },
+    {
+      "published_at": "2026-11-12",
+      "source": "CorporateWire",
+      "summary": "美股周三反弹，CoreWeave 超预期、苹果创纪录，纳指涨 1.60%、标普涨 1.31%；但热通胀后市场计价 12 月加息 25 个基点概率约 89%，十年期美债收益率逼近 5%，投资者仍谨慎。",
+      "title": "Stocks Rebound on AI Earnings as Fed Hike Bets and Near-5% Yields Keep Investors Cautious",
+      "url": "https://www.corporatewire.org/finance/stocks-rebound-ai-earnings-fed-hike-bets-near-5-percent-yields"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "InvestingLive",
       "summary": "美联储加息押注蔓延至亚洲：日经回吐涨幅、韩股转跌，恒指跌约1%；日本10年期国债收益率升至约2.87%，日元逼近160关口，布伦特原油约95.70美元、WTI约88.40美元。",
       "title": "Asia-Pacific market news: Fed hike bets ripple through Asia",
@@ -118,31 +139,10 @@
       "summary": "黄金暴跌 2.88% 至 3885.30 美元，白银跌 3.69%，原油因美国不再寻求与伊朗达成协议而上涨，美元指数 103.19。",
       "title": "Gold Plummets After Expectations On U.S.-Iran Deal Sink Pushing Crude Oil Higher",
       "url": "https://www.tradingview.com/news/dpa_afx:7efd0e5ea0cec:0-gold-plummets-after-expectations-on-u-s-iran-deal-sink-pushing-crude-oil-higher/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "swissinfo.ch",
-      "summary": "全球股市回落，纳指期货跌 1%，台湾科技股指数跌 2.6%，布伦特原油约 92.60 美元，日元逼近 160。",
-      "title": "Stocks Slide on Nvidia Troubles, Oil Edges Lower: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-slide-on-nvidia-troubles%2c-oil-edges-lower%3a-markets-wrap/92367440"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "Economy Middle East",
-      "summary": "全球市场分化，纳指涨 1.60%，日经跌 0.71%，欧洲 STOXX 600 创历史新高，英国三季度 GDP 增长 0.7%。",
-      "title": "Stock market today: Nasdaq gains 1.60 percent, Nikkei falls 0.71 percent as Nvidia turmoil rattles AI stocks",
-      "url": "https://economymiddleeast.com/news/stock-market-today-nasdaq-gains-1-60-percent-nikkei-falls-0-71-percent-as-nvidia-turmoil-rattles-ai-stocks/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "EuropeSays",
-      "summary": "欧洲股市创历史新高，亚洲股市因英伟达不确定性下跌，美债收益率回升至 5% 附近，美元走强。",
-      "title": "Overseas Stock Markets Today: Europe Hits Records",
-      "url": "https://www.europesays.com/europe/180156/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-13 17:26"
+    "updated_at": "2026-11-13 19:26"
   }
 }
