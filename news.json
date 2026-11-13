@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "Barchart",
+      "summary": "美股周五回落，芯片股再度抛售，10 年期美债收益率升至 5.17% 的四周高点；美联储官员鹰派表态推高收益率，市场计价 12 月 FOMC 加息 25 个基点概率为 100%；10 月 PPI 环比升 0.3%、同比升 6.5%。",
+      "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
+      "url": "https://www.barchart.com/story/news/8824404/stocks-retreat-as-chipmakers-sink-and-bond-yields-rise"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Wall Street Journal",
+      "summary": "英伟达 CEO 黄仁勋突然去职冲击科技板块，美股收跌，道指跌 0.36%、标普跌 0.35%、纳指跌 0.39%；油价涨 2.6% 至 88.74 美元，金价跌 2.9% 至 3878.40 美元，创一年多最低结算价。",
+      "title": "U.S. Stocks Down as Huang Ouster Sends Shockwaves Through Tech",
+      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-huang-ouster-sends-shockwaves-through-tech-5b0aa02a"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "European Business Magazine",
+      "summary": "金价周四跌至 3850 美元附近，创 13 个月新低；美元走强，市场计价美联储 12 月加息 25 个基点概率升至 100%，10 年期美债收益率重回 5% 上方；欧元跌至 18 个月低点，日元逼近 160。",
+      "title": "Gold Falls to 13-Month Low as dollar surges",
+      "url": "https://europeanbusinessmagazine.com/gold-falls-to-13-month-low/"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Kitco",
       "summary": "美国 10 月 PPI 环比升 0.3%、低于预期的 0.4%，但同比升 6.5%、为 2022 年 11 月以来最高；金价从 13 个月低点反弹至约 3891 美元，布伦特约 95.54 美元、WTI 约 88.18 美元。",
       "title": "Gold rebounds from 13-month low as PPI complicates Fed outlook",
@@ -64,13 +85,6 @@
       "url": "https://economymiddleeast.com/news/stock-market-today-south-koreas-kospi-wall-street-futures-retreat-as-nvidia-turmoil-rattles-ai-sector-lifts-dollar/"
     },
     {
-      "published_at": "2026-11-12",
-      "source": "CorporateWire",
-      "summary": "美股周三反弹，CoreWeave 超预期、苹果创纪录，纳指涨 1.60%、标普涨 1.31%；但热通胀后市场计价 12 月加息 25 个基点概率约 89%，十年期美债收益率逼近 5%，投资者仍谨慎。",
-      "title": "Stocks Rebound on AI Earnings as Fed Hike Bets and Near-5% Yields Keep Investors Cautious",
-      "url": "https://www.corporatewire.org/finance/stocks-rebound-ai-earnings-fed-hike-bets-near-5-percent-yields"
-    },
-    {
       "published_at": "2026-11-13",
       "source": "InvestingLive",
       "summary": "美联储加息押注蔓延至亚洲：日经回吐涨幅、韩股转跌，恒指跌约1%；日本10年期国债收益率升至约2.87%，日元逼近160关口，布伦特原油约95.70美元、WTI约88.40美元。",
@@ -125,24 +139,10 @@
       "summary": "亚股周五企稳，英伟达风波后市场回稳；美债收益率攀升、美元走强，市场计价美联储 12 月加息 50 个基点的概率升至 14.5%，10 年期美债收益率升至 5.1433% 的三周高点。",
       "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "Kitco",
-      "summary": "现货黄金周四跌2.77%至约3876美元、白银跌3.13%，10年期美债收益率升至约5.10%；市场计价12月加息25个基点概率约85%、50个基点约15%，周五美国PPI为下一个关键通胀考验。",
-      "title": "Gold, silver slide as Treasury yields surge, Fed hike concerns intensify - Kitco PM Report",
-      "url": "https://www.kitco.com/news/article/2026-11-12/gold-silver-slide-treasury-yields-surge-fed-hike-concerns-intensify-kitco"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "TradingView",
-      "summary": "美股收复早盘跌幅小幅收高，博通、AMD、高通等芯片股上涨；市场计价 12 月 FOMC 加息 25 个基点的概率为 100%。",
-      "title": "Stocks Recover as Other Chipmakers May Benefit from Nvidia's Turmoil",
-      "url": "https://www.tradingview.com/news/barchart:8d2b29137094b:0-stocks-recover-as-other-chipmakers-may-benefit-from-nvidia-s-turmoil/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-13 23:26"
+    "updated_at": "2026-11-14 01:26"
   }
 }
