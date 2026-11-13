@@ -1,0 +1,772 @@
+{
+ "cross_links": [
+  {
+   "from": "us.fed",
+   "text": "美联储加息 → 美元走强 → A股承压",
+   "to": "global.usd"
+  },
+  {
+   "from": "global.oil",
+   "text": "油价上涨 → 中国输入性通胀",
+   "to": "cn.cpi"
+  },
+  {
+   "from": "us.tech",
+   "text": "美股科技下跌 → 中国半导体共振下跌",
+   "to": "cn.semi"
+  },
+  {
+   "from": "global.risk",
+   "text": "全球避险情绪升温 → 美股下跌",
+   "to": "us.stocks"
+  },
+  {
+   "from": "global.usd",
+   "text": "美元走强 → 人民币承压 → A股外资流出",
+   "to": "cn.cny"
+  }
+ ],
+ "dimensions": {
+  "cn": {
+   "edges": [
+    {
+     "effect": "down",
+     "from": "usd",
+     "label": "美元走强",
+     "to": "cny"
+    },
+    {
+     "effect": "down",
+     "from": "cny",
+     "label": "资本外流",
+     "to": "ashares"
+    },
+    {
+     "effect": "down",
+     "from": "usd",
+     "label": "外资流出",
+     "to": "ashares"
+    },
+    {
+     "effect": "up",
+     "from": "oil",
+     "label": "输入性通胀",
+     "to": "cpi"
+    },
+    {
+     "effect": "down",
+     "from": "ustech",
+     "label": "行业共振",
+     "to": "semi"
+    },
+    {
+     "effect": "up",
+     "from": "pboc",
+     "label": "流动性宽松",
+     "to": "ashares"
+    },
+    {
+     "effect": "down",
+     "from": "pboc",
+     "label": "利差收窄",
+     "to": "cny"
+    },
+    {
+     "effect": "up",
+     "from": "cpi",
+     "label": "通胀回落",
+     "to": "pboc"
+    },
+    {
+     "effect": "up",
+     "from": "semi",
+     "label": "科技主线",
+     "to": "ashares"
+    },
+    {
+     "effect": "up",
+     "from": "robot",
+     "label": "新主线",
+     "to": "ashares"
+    },
+    {
+     "effect": "up",
+     "from": "banks",
+     "label": "权重护盘",
+     "to": "ashares"
+    },
+    {
+     "effect": "down",
+     "from": "cpi",
+     "label": "紧缩预期",
+     "to": "ashares"
+    },
+    {
+     "effect": "down",
+     "from": "oil",
+     "label": "成本上升",
+     "to": "ashares"
+    }
+   ],
+   "label": "中国维度",
+   "nodes": [
+    {
+     "desc": "DXY",
+     "id": "usd",
+     "label": "美元指数",
+     "layer": 0
+    },
+    {
+     "desc": "布伦特、WTI",
+     "id": "oil",
+     "label": "原油",
+     "layer": 0
+    },
+    {
+     "desc": "英伟达等龙头",
+     "id": "ustech",
+     "label": "美国科技股",
+     "layer": 0
+    },
+    {
+     "desc": "回落则宽松空间加大",
+     "id": "cpi",
+     "label": "中国CPI",
+     "layer": 1
+    },
+    {
+     "desc": "降准、降息",
+     "id": "pboc",
+     "label": "央行政策",
+     "layer": 1
+    },
+    {
+     "desc": "离岸人民币",
+     "id": "cny",
+     "label": "人民币汇率",
+     "layer": 1
+    },
+    {
+     "desc": "沪深300",
+     "id": "ashares",
+     "label": "A股",
+     "layer": 2
+    },
+    {
+     "desc": "芯片、算力",
+     "id": "semi",
+     "label": "半导体",
+     "layer": 2
+    },
+    {
+     "desc": "人形机器人",
+     "id": "robot",
+     "label": "机器人",
+     "layer": 2
+    },
+    {
+     "desc": "国有大行",
+     "id": "banks",
+     "label": "银行",
+     "layer": 2
+    }
+   ]
+  },
+  "global": {
+   "edges": [
+    {
+     "effect": "up",
+     "from": "geopolitics",
+     "label": "供应中断",
+     "to": "oil"
+    },
+    {
+     "effect": "up",
+     "from": "geopolitics",
+     "label": "避险买盘",
+     "to": "gold"
+    },
+    {
+     "effect": "up",
+     "from": "geopolitics",
+     "label": "恐慌升温",
+     "to": "risk"
+    },
+    {
+     "effect": "up",
+     "from": "strait",
+     "label": "运输受阻",
+     "to": "oil"
+    },
+    {
+     "effect": "down",
+     "from": "risk",
+     "label": "风险厌恶",
+     "to": "stocks"
+    },
+    {
+     "effect": "up",
+     "from": "risk",
+     "label": "避险",
+     "to": "gold"
+    },
+    {
+     "effect": "up",
+     "from": "risk",
+     "label": "美元避险",
+     "to": "usd"
+    },
+    {
+     "effect": "up",
+     "from": "oil",
+     "label": "能源成本",
+     "to": "inflation"
+    },
+    {
+     "effect": "up",
+     "from": "oil",
+     "label": "成本传导",
+     "to": "commodities"
+    },
+    {
+     "effect": "down",
+     "from": "usd",
+     "label": "美元计价",
+     "to": "commodities"
+    },
+    {
+     "effect": "down",
+     "from": "usd",
+     "label": "美元计价",
+     "to": "gold"
+    },
+    {
+     "effect": "up",
+     "from": "inflation",
+     "label": "抗通胀",
+     "to": "gold"
+    },
+    {
+     "effect": "up",
+     "from": "inflation",
+     "label": "加息抗通胀",
+     "to": "rates"
+    },
+    {
+     "effect": "down",
+     "from": "rates",
+     "label": "融资成本",
+     "to": "stocks"
+    }
+   ],
+   "label": "世界维度",
+   "nodes": [
+    {
+     "desc": "伊朗、中东、战争、制裁",
+     "id": "geopolitics",
+     "label": "地缘冲突",
+     "layer": 0
+    },
+    {
+     "desc": "霍尔木兹、苏伊士",
+     "id": "strait",
+     "label": "航运海峡",
+     "layer": 0
+    },
+    {
+     "desc": "布伦特、WTI",
+     "id": "oil",
+     "label": "原油",
+     "layer": 1
+    },
+    {
+     "desc": "恐慌、资金避险",
+     "id": "risk",
+     "label": "避险情绪",
+     "layer": 1
+    },
+    {
+     "desc": "DXY",
+     "id": "usd",
+     "label": "美元指数",
+     "layer": 1
+    },
+    {
+     "desc": "CPI、能源成本",
+     "id": "inflation",
+     "label": "全球通胀",
+     "layer": 2
+    },
+    {
+     "desc": "避险、抗通胀",
+     "id": "gold",
+     "label": "黄金",
+     "layer": 2
+    },
+    {
+     "desc": "铜、农产品",
+     "id": "commodities",
+     "label": "大宗商品",
+     "layer": 2
+    },
+    {
+     "desc": "美股、欧股、亚太",
+     "id": "stocks",
+     "label": "全球股市",
+     "layer": 2
+    },
+    {
+     "desc": "各国央行利率",
+     "id": "rates",
+     "label": "全球利率",
+     "layer": 2
+    }
+   ]
+  },
+  "us": {
+   "edges": [
+    {
+     "effect": "up",
+     "from": "cpi",
+     "label": "通胀超预期",
+     "to": "hike"
+    },
+    {
+     "effect": "up",
+     "from": "jobs",
+     "label": "就业强劲",
+     "to": "hike"
+    },
+    {
+     "effect": "up",
+     "from": "hike",
+     "label": "预期兑现",
+     "to": "fed"
+    },
+    {
+     "effect": "down",
+     "from": "ease",
+     "label": "降息落地",
+     "to": "fed"
+    },
+    {
+     "effect": "up",
+     "from": "fed",
+     "label": "利差扩大",
+     "to": "usd"
+    },
+    {
+     "effect": "down",
+     "from": "fed",
+     "label": "贴现率升",
+     "to": "stocks"
+    },
+    {
+     "effect": "down",
+     "from": "fed",
+     "label": "机会成本",
+     "to": "gold"
+    },
+    {
+     "effect": "up",
+     "from": "fed",
+     "label": "利率上行",
+     "to": "yields"
+    },
+    {
+     "effect": "down",
+     "from": "fed",
+     "label": "成长承压",
+     "to": "tech"
+    },
+    {
+     "effect": "down",
+     "from": "yields",
+     "label": "贴现率高",
+     "to": "stocks"
+    },
+    {
+     "effect": "down",
+     "from": "yields",
+     "label": "估值承压",
+     "to": "tech"
+    },
+    {
+     "effect": "down",
+     "from": "tech",
+     "label": "权重拖累",
+     "to": "stocks"
+    },
+    {
+     "effect": "down",
+     "from": "usd",
+     "label": "美元计价",
+     "to": "gold"
+    },
+    {
+     "effect": "down",
+     "from": "ease",
+     "label": "利差收窄",
+     "to": "usd"
+    },
+    {
+     "effect": "up",
+     "from": "ease",
+     "label": "流动性好",
+     "to": "stocks"
+    },
+    {
+     "effect": "up",
+     "from": "ease",
+     "label": "机会成本降",
+     "to": "gold"
+    }
+   ],
+   "label": "美国维度",
+   "nodes": [
+    {
+     "desc": "通胀数据",
+     "id": "cpi",
+     "label": "美国CPI",
+     "layer": 0
+    },
+    {
+     "desc": "非农、失业率",
+     "id": "jobs",
+     "label": "美国就业",
+     "layer": 0
+    },
+    {
+     "desc": "市场定价",
+     "id": "hike",
+     "label": "加息预期",
+     "layer": 1
+    },
+    {
+     "desc": "降息定价",
+     "id": "ease",
+     "label": "宽松预期",
+     "layer": 1
+    },
+    {
+     "desc": "联邦基金利率",
+     "id": "fed",
+     "label": "美联储利率",
+     "layer": 2
+    },
+    {
+     "desc": "DXY",
+     "id": "usd",
+     "label": "美元指数",
+     "layer": 3
+    },
+    {
+     "desc": "标普、纳指、道指",
+     "id": "stocks",
+     "label": "美股",
+     "layer": 3
+    },
+    {
+     "desc": "英伟达、苹果",
+     "id": "tech",
+     "label": "美国科技股",
+     "layer": 3
+    },
+    {
+     "desc": "10年期美债",
+     "id": "yields",
+     "label": "美债收益率",
+     "layer": 3
+    },
+    {
+     "desc": "美元计价",
+     "id": "gold",
+     "label": "黄金",
+     "layer": 3
+    }
+   ]
+  }
+ },
+ "meta": {
+  "note": "边表示：源头事件按标签方向发生时，目标节点的涨跌。effect=up 表示目标涨，down 表示目标跌。",
+  "updated_at": "2026-11-13"
+ },
+ "news_keywords": {
+  "Bank of Japan": [
+   {
+    "effect": "up",
+    "node": "global.rates"
+   }
+  ],
+  "BoJ": [
+   {
+    "effect": "up",
+    "node": "global.rates"
+   }
+  ],
+  "CPI": [
+   {
+    "effect": "up",
+    "node": "us.cpi"
+   },
+   {
+    "effect": "up",
+    "node": "global.inflation"
+   }
+  ],
+  "Dow": [
+   {
+    "effect": "down",
+    "node": "us.stocks"
+   }
+  ],
+  "Fed": [
+   {
+    "effect": "up",
+    "node": "us.fed"
+   }
+  ],
+  "Federal Reserve": [
+   {
+    "effect": "up",
+    "node": "us.fed"
+   }
+  ],
+  "Huang": [
+   {
+    "effect": "down",
+    "node": "us.tech"
+   },
+   {
+    "effect": "down",
+    "node": "cn.semi"
+   }
+  ],
+  "Iran": [
+   {
+    "effect": "up",
+    "node": "global.oil"
+   },
+   {
+    "effect": "up",
+    "node": "global.gold"
+   },
+   {
+    "effect": "up",
+    "node": "global.risk"
+   }
+  ],
+  "Nasdaq": [
+   {
+    "effect": "down",
+    "node": "us.stocks"
+   }
+  ],
+  "Nvidia": [
+   {
+    "effect": "down",
+    "node": "us.tech"
+   },
+   {
+    "effect": "down",
+    "node": "cn.semi"
+   }
+  ],
+  "Treasury": [
+   {
+    "effect": "up",
+    "node": "us.yields"
+   }
+  ],
+  "commodities": [
+   {
+    "effect": "down",
+    "node": "global.commodities"
+   }
+  ],
+  "dollar": [
+   {
+    "effect": "up",
+    "node": "global.usd"
+   }
+  ],
+  "gold": [
+   {
+    "effect": "up",
+    "node": "global.gold"
+   }
+  ],
+  "inflation": [
+   {
+    "effect": "up",
+    "node": "us.cpi"
+   },
+   {
+    "effect": "up",
+    "node": "global.inflation"
+   }
+  ],
+  "oil": [
+   {
+    "effect": "up",
+    "node": "global.oil"
+   }
+  ],
+  "rate hike": [
+   {
+    "node": "global.rates",
+    "effect": "up"
+   }
+  ],
+  "semiconductor": [
+   {
+    "effect": "down",
+    "node": "cn.semi"
+   }
+  ],
+  "stocks": [
+   {
+    "effect": "down",
+    "node": "global.stocks"
+   }
+  ],
+  "yen": [
+   {
+    "node": "global.usd",
+    "effect": "up",
+    "invert": true
+   }
+  ],
+  "yuan": [
+   {
+    "effect": "down",
+    "node": "cn.cny"
+   }
+  ],
+  "人民币": [
+   {
+    "effect": "down",
+    "node": "cn.cny"
+   }
+  ],
+  "伊朗": [
+   {
+    "effect": "up",
+    "node": "global.oil"
+   },
+   {
+    "effect": "up",
+    "node": "global.gold"
+   },
+   {
+    "effect": "up",
+    "node": "global.risk"
+   }
+  ],
+  "加息": [
+   {
+    "node": "global.rates",
+    "effect": "up"
+   }
+  ],
+  "半导体": [
+   {
+    "effect": "down",
+    "node": "cn.semi"
+   }
+  ],
+  "原油": [
+   {
+    "effect": "up",
+    "node": "global.oil"
+   }
+  ],
+  "大宗商品": [
+   {
+    "effect": "down",
+    "node": "global.commodities"
+   }
+  ],
+  "日元": [
+   {
+    "node": "global.usd",
+    "effect": "up",
+    "invert": true
+   }
+  ],
+  "日本央行": [
+   {
+    "effect": "up",
+    "node": "global.rates"
+   }
+  ],
+  "机器人": [
+   {
+    "effect": "up",
+    "node": "cn.robot"
+   }
+  ],
+  "石油": [
+   {
+    "effect": "up",
+    "node": "global.oil"
+   }
+  ],
+  "纳指": [
+   {
+    "effect": "down",
+    "node": "us.stocks"
+   }
+  ],
+  "美债": [
+   {
+    "effect": "up",
+    "node": "us.yields"
+   }
+  ],
+  "美元": [
+   {
+    "effect": "up",
+    "node": "global.usd"
+   }
+  ],
+  "美联储": [
+   {
+    "effect": "up",
+    "node": "us.fed"
+   }
+  ],
+  "股市": [
+   {
+    "effect": "down",
+    "node": "global.stocks"
+   }
+  ],
+  "通胀": [
+   {
+    "effect": "up",
+    "node": "us.cpi"
+   },
+   {
+    "effect": "up",
+    "node": "global.inflation"
+   }
+  ],
+  "黄仁勋": [
+   {
+    "effect": "down",
+    "node": "us.tech"
+   },
+   {
+    "effect": "down",
+    "node": "cn.semi"
+   }
+  ],
+  "黄金": [
+   {
+    "effect": "up",
+    "node": "global.gold"
+   }
+  ]
+ }
+}
