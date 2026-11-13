@@ -28,6 +28,7 @@
   td,th,.num,.metric .v,.rank-val .big,.calc-cell .v,.modal .m-kv .v{font-variant-numeric:tabular-nums}
   a{color:var(--green)}
   .wrap{max-width:720px; margin:0 auto; padding:0 16px}
+  @media (min-width:721px){ .wrap{max-width:1080px} .topbar-inner{max-width:1080px} .site-footer-inner{max-width:1080px} }
 
   /* ---------- header ---------- */
   header{padding:2rem 0 0}
@@ -1952,6 +1953,9 @@
   var svg = document.getElementById("map-svg");
   var NS = "http://www.w3.org/2000/svg";
   var BW = 112, BH = 46, PITCH = 58, LAYER_W = 128, PAD = 8;
+  // mobile vertical layout: tall gaps so edge labels sit in clear space, never on node text
+  var VPX = 128, VCOLS = 3, VSUB = 84, VGAP = 92, BOT_PAD = 32, VDIP = 14;
+  var VSUB_GAP = VSUB - BH; // 38px between sub-rows
   var state = { dim: "global", data: null, selected: null };
   function esc(s){ return String(s == null ? "" : s).replace(/[&<>\"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
   function el(tag, attrs){
@@ -1969,24 +1973,149 @@
     var maxLayer = Math.max.apply(null, dim.nodes.map(function(n){ return n.layer; }));
     var maxRows = Math.max.apply(null, Object.keys(byLayer).map(function(l){ return byLayer[l].length; }));
     if(isVertical()){
-      // phones: layers stack top-to-bottom, nodes in a layer flow left-to-right (max 3 per row)
-      var VPX = BW + 8, VCOLS = 3, VSUB = BH + 10, VGAP = 46, y = PAD, layerY = {};
+      // phones: layers stack top-to-bottom, nodes in a layer flow left-to-right (max 3 per row);
+      // tall gaps (VSUB 84 / VGAP 92) so edge labels sit in clear space
+      var y = PAD, layerY = {}, rowsIn = {}, layerTop = {}, layerBottom = {};
       Object.keys(byLayer).sort(function(a, b){ return a - b; }).forEach(function(l){
         layerY[l] = y;
-        y += Math.ceil(byLayer[l].length / VCOLS) * VSUB + VGAP;
+        rowsIn[l] = Math.ceil(byLayer[l].length / VCOLS);
+        y += rowsIn[l] * VSUB + VGAP;
       });
       Object.keys(byLayer).forEach(function(l){
         byLayer[l].forEach(function(n, i){
           pos[n.id] = { x: PAD + (i % VCOLS) * VPX, y: layerY[l] + Math.floor(i / VCOLS) * VSUB };
         });
+        layerTop[l] = layerY[l];
+        layerBottom[l] = layerY[l] + (rowsIn[l] - 1) * VSUB + BH;
       });
-      var lastRows = Math.ceil(byLayer[maxLayer].length / VCOLS);
-      return { pos: pos, W: PAD + (VCOLS - 1) * VPX + BW + PAD, H: layerY[maxLayer] + lastRows * VSUB + PAD, vertical: true };
+      return { pos: pos, W: PAD + (VCOLS - 1) * VPX + BW + PAD, H: layerY[maxLayer] + rowsIn[maxLayer] * VSUB + BOT_PAD,
+               vertical: true, layerY: layerY, rowsIn: rowsIn, layerTop: layerTop, layerBottom: layerBottom };
     }
     Object.keys(byLayer).forEach(function(l){
       byLayer[l].forEach(function(n, i){ pos[n.id] = { x: PAD + (+l) * LAYER_W, y: PAD + i * PITCH }; });
     });
     return { pos: pos, W: PAD + maxLayer * LAYER_W + BW + PAD, H: PAD + maxRows * PITCH + PAD, vertical: false };
+  }
+  // ---- vertical-mode edge routing (manhattan via column-gap channels) ----
+  function vChannelNear(x){ return x <= 192 ? 128 : 256; } // gaps between the 3 columns
+  function vFindNode(dim, id){
+    var i; for(i = 0; i < dim.nodes.length; i++){ if(dim.nodes[i].id === id) return dim.nodes[i]; } return null;
+  }
+  function vRowOf(dim, L, id){
+    var n = vFindNode(dim, id), i, c = 0;
+    for(i = 0; i < dim.nodes.length; i++){
+      if(dim.nodes[i].layer === n.layer){ if(dim.nodes[i].id === id) break; c++; }
+    }
+    return Math.floor(c / VCOLS);
+  }
+  // empty corridor directly below / above a node (sub-row gap or inter-layer gap)
+  function vGapBelow(dim, L, id){
+    var n = vFindNode(dim, id);
+    var r = vRowOf(dim, L, id), rows = L.rowsIn[n.layer];
+    var bot = L.pos[id].y + BH;
+    if(r < rows - 1) return [bot, bot + VSUB_GAP];
+    var nextTop = L.H, i, k, keys = Object.keys(L.layerTop);
+    for(i = 0; i < keys.length; i++){ k = +keys[i]; if(k > n.layer && L.layerTop[k] < nextTop) nextTop = L.layerTop[k]; }
+    return [bot, nextTop];
+  }
+  function vGapAbove(dim, L, id){
+    var n = vFindNode(dim, id);
+    var r = vRowOf(dim, L, id);
+    var top = L.pos[id].y;
+    if(r > 0) return [top - VSUB_GAP, top];
+    var prevBot = 0, i, k, keys = Object.keys(L.layerBottom);
+    for(i = 0; i < keys.length; i++){ k = +keys[i]; if(k < n.layer && L.layerBottom[k] > prevBot) prevBot = L.layerBottom[k]; }
+    return [prevBot, top];
+  }
+  function vTextW(s){
+    var w = 0, i, ch;
+    for(i = 0; i < s.length; i++){
+      ch = s[i];
+      if(/[\u4e00-\u9fff\u3000-\u303f\uff00-\uffef]/.test(ch)) w += 10;
+      else if(ch === " ") w += 3;
+      else if(ch === "↑" || ch === "↓") w += 8;
+      else w += 6;
+    }
+    return w;
+  }
+  function vLabelBox(lb){
+    var w = vTextW(lb.text);
+    return { x1: lb.x - w / 2, y1: lb.y - 9, x2: lb.x + w / 2, y2: lb.y + 2 };
+  }
+  function vRectsOverlap(a, b, pad){
+    return a.x1 - pad < b.x2 + pad && b.x1 - pad < a.x2 + pad &&
+           a.y1 - pad < b.y2 + pad && b.y1 - pad < a.y2 + pad;
+  }
+  // Route one edge in vertical mode. Returns {cubic:[...]} or {segs:[...]} + label pref + corridor.
+  function vRoute(e, pos, dim, L){
+    var s = pos[e.from], t = pos[e.to];
+    var sNode = vFindNode(dim, e.from), tNode = vFindNode(dim, e.to);
+    var label = (e.effect === "up" ? "↑ " : "↓ ") + e.label;
+    var sx = s.x + BW / 2, sy = s.y + BH, tx = t.x + BW / 2, ty = t.y;
+    var sBot = sy, tBot = ty + BH, mid = (sx + tx) / 2;
+    var layerDiff = tNode.layer - sNode.layer;
+    var sRow = vRowOf(dim, L, e.from), tRow = vRowOf(dim, L, e.to);
+    var sLastRow = sRow === L.rowsIn[sNode.layer] - 1;
+    if(layerDiff === 1 && tRow === 0 && sLastRow){
+      // clean downward cubic through the empty inter-layer corridor
+      var my = (sy + ty) / 2;
+      return { cubic: [sx, sy, sx, my, tx, my, tx, ty],
+               label: { x: mid, y: my - 4, text: label, yMin: sy + 12, yMax: ty - 10 } };
+    }
+    if(layerDiff >= 1){
+      // manhattan via a column-gap channel (spanning, or adjacent into a lower sub-row)
+      var chX = vChannelNear(mid);
+      var gB = vGapBelow(dim, L, e.from), gA = vGapAbove(dim, L, e.to);
+      var y1 = (gB[0] + gB[1]) / 2, y2 = (gA[0] + gA[1]) / 2;
+      return { segs: [[sx, sy, sx, y1], [sx, y1, chX, y1], [chX, y1, chX, y2], [chX, y2, tx, y2], [tx, y2, tx, ty]],
+               label: { x: (sx + chX) / 2, y: y1 - 4, text: label, yMin: gB[0] + 12, yMax: gB[1] - 10 } };
+    }
+    // same layer or upward: manhattan below the layer
+    var chX2 = vChannelNear(mid);
+    var lowY = Math.max(sBot, tBot) + VDIP;
+    var segs = [[sx, sBot, sx, sBot + VDIP], [sx, sBot + VDIP, chX2, sBot + VDIP],
+                [chX2, sBot + VDIP, chX2, tBot + VDIP], [chX2, tBot + VDIP, tx, tBot + VDIP],
+                [tx, tBot + VDIP, tx, tBot]];
+    var lx;
+    if(tBot > sBot) lx = (chX2 + tx) / 2;
+    else if(sBot > tBot) lx = (sx + chX2) / 2;
+    else lx = mid;
+    var floorY = L.H, j, yy;
+    for(j = 0; j < dim.nodes.length; j++){
+      yy = L.pos[dim.nodes[j].id].y;
+      if(yy > lowY + 2 && yy < floorY) floorY = yy;
+    }
+    return { segs: segs, label: { x: lx, y: lowY + 11, text: label, yMin: lowY + 11, yMax: floorY - 10 } };
+  }
+  // Greedy label de-collision: each label tries offsets until it clears placed labels (8px) and nodes (8px).
+  function placeLabels(labels, nodes, W){
+    var placed = [], sorted = labels.slice().sort(function(a, b){ return (a.y - b.y) || (a.x - b.x); });
+    var out = [], i, j, k, lb, w, cands, seen, cx, cy, box, chosen, bad;
+    var dys = [0, 12, 24, -12, 36, -24], dxs = [0, -30, 30, -60, 60];
+    for(i = 0; i < sorted.length; i++){
+      lb = sorted[i]; w = vTextW(lb.text); cands = []; seen = {};
+      for(j = 0; j < dys.length; j++) for(k = 0; k < dxs.length; k++){
+        cx = lb.x + dxs[k]; cy = lb.y + dys[j];
+        if(!seen[cx + "," + cy]){ seen[cx + "," + cy] = 1; cands.push([cx, cy]); }
+      }
+      chosen = null;
+      for(j = 0; j < cands.length; j++){
+        cx = cands[j][0]; cy = cands[j][1];
+        if(cy < lb.yMin || cy > lb.yMax) continue;
+        if(cx - w / 2 < 2 || cx + w / 2 > W - 2) continue;
+        box = { x1: cx - w / 2, y1: cy - 9, x2: cx + w / 2, y2: cy + 2 };
+        bad = false;
+        for(k = 0; k < placed.length; k++){ if(vRectsOverlap(box, placed[k], 4)){ bad = true; break; } }
+        if(bad) continue;
+        for(k = 0; k < nodes.length; k++){ if(vRectsOverlap(box, nodes[k].r, 4)){ bad = true; break; } }
+        if(bad) continue;
+        chosen = [cx, cy]; break;
+      }
+      if(!chosen) chosen = [lb.x, lb.y];
+      out.push({ x: chosen[0], y: chosen[1], text: lb.text, edge: lb.edge });
+      placed.push(vLabelBox(out[out.length - 1]));
+    }
+    return out;
   }
   function neighbors(id, dir){
     var dim = state.data.dimensions[state.dim];
@@ -2049,20 +2178,33 @@
     var gEdges = el("g", {}), gLabels = el("g", {}), gNodes = el("g", {});
     svg.appendChild(gEdges); svg.appendChild(gLabels); svg.appendChild(gNodes);
     var pos = L.pos;
+    var vRoutes = null, vPlaced = null;
+    if(L.vertical){
+      vRoutes = {};
+      var rawLabels = [];
+      dim.edges.forEach(function(e){
+        var r = vRoute(e, pos, dim, L);
+        vRoutes[e.from + "->" + e.to] = r;
+        rawLabels.push({ x: r.label.x, y: r.label.y, text: r.label.text, yMin: r.label.yMin, yMax: r.label.yMax, edge: e.from + "->" + e.to });
+      });
+      var checkNodes = dim.nodes.map(function(n){ return { id: n.id, r: { x1: pos[n.id].x, y1: pos[n.id].y, x2: pos[n.id].x + BW, y2: pos[n.id].y + BH } }; });
+      vPlaced = {};
+      placeLabels(rawLabels, checkNodes, L.W).forEach(function(p){ vPlaced[p.edge] = p; });
+    }
     dim.edges.forEach(function(e){
       var s = pos[e.from], t = pos[e.to];
       if(!s || !t) return;
       var sx, sy, tx, ty, d, lx, ly;
       if(L.vertical){
-        sx = s.x + BW / 2; sy = s.y + BH; tx = t.x + BW / 2; ty = t.y;
-        if(sy === ty){
-          var by = sy + 30;
-          d = "M " + sx + " " + sy + " C " + sx + " " + by + ", " + tx + " " + by + ", " + tx + " " + ty;
-          lx = (sx + tx) / 2; ly = sy + 24;
+        var r = vRoutes[e.from + "->" + e.to];
+        var lb = vPlaced[e.from + "->" + e.to];
+        lx = lb.x; ly = lb.y;
+        if(r.cubic){
+          var c = r.cubic;
+          d = "M " + c[0] + " " + c[1] + " C " + c[2] + " " + c[3] + ", " + c[4] + " " + c[5] + ", " + c[6] + " " + c[7];
         } else {
-          var my = (sy + ty) / 2;
-          d = "M " + sx + " " + sy + " C " + sx + " " + my + ", " + tx + " " + my + ", " + tx + " " + ty;
-          lx = (sx + tx) / 2; ly = my - 4;
+          d = "M " + r.segs[0][0] + " " + r.segs[0][1];
+          for(var i = 0; i < r.segs.length; i++){ d += " L " + r.segs[i][2] + " " + r.segs[i][3]; }
         }
       } else {
         sx = s.x + BW; sy = s.y + BH / 2; tx = t.x; ty = t.y + BH / 2;
