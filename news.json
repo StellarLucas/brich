@@ -3,6 +3,41 @@
     {
       "published_at": "2026-11-13",
       "source": "Reuters",
+      "summary": "亚股周五在英伟达换帅风波后企稳，美元随美债收益率走高；2 年期美债收益率触及 4.892%，10 年期升至 5.1433% 的三周高点，市场计价 12 月美联储加息 50 个基点概率升至 14.5%；布伦特约 95.45 美元，现货金约 3888 美元。",
+      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "RSM",
+      "summary": "美国 10 月 PPI 环比升 0.3%、同比升 6.5%，核心 PPI 同比升 5%；数据基本锁定美联储 12 月加息 25 个基点，PCE 通胀预计同比升 3.8%、核心升 3.2%。",
+      "title": "Higher wholesale inflation points to December rate hike",
+      "url": "https://realeconomy.rsmus.com/rising-wholesale-inflation-points-to-december-rate-hike/"
+    },
+    {
+      "published_at": "2026-11-12",
+      "source": "TradingView",
+      "summary": "美国 10 月 CPI 环比升 0.4%、高于预期的 0.3%，市场强化美联储 12 月加息预期；CME FedWatch 显示加息 50 个基点概率一周内从 0 升至 9.1%，加息 25 个基点概率为 90.9%。",
+      "title": "Markets Are Bracing For Another Fed Rate Hike In December – But Could It Be Twice As Big As Expected?",
+      "url": "https://www.tradingview.com/news/stocktwits:25d67f95b094b:0-markets-are-bracing-for-another-fed-rate-hike-in-december-but-could-it-be-twice-as-big-as-expected/"
+    },
+    {
+      "published_at": "2026-11-10",
+      "source": "Kitco",
+      "summary": "美联储理事沃勒表示通胀过高已危及央行信誉，倾向支持 12 月加息 25 个基点，若 10 月 CPI 偏热则应考虑加息 50 个基点；达拉斯联储主席洛根亦警告通胀加速、可能需更快加息。",
+      "title": "Fed’s Waller and Logan signal readiness to hike higher and faster, with 50 bps on the table for December",
+      "url": "https://www.kitco.com/news/article/2026-11-10/feds-waller-and-logan-signal-readiness-hike-higher-and-faster-50-bps-table"
+    },
+    {
+      "published_at": "2026-11-10",
+      "source": "SRN News",
+      "summary": "路透调查 101 位经济学家一致预计美联储 12 月加息 25 个基点至 4.00%-4.25%，约 55% 认为这将是本轮周期最后一次加息；PCE 通胀预计 2028 年前回不到 2% 目标。",
+      "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll",
+      "url": "https://srnnews.com/fed-to-raise-rates-once-more-in-december-as-inflation-risks-stay-high-reuters-poll/"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
       "summary": "美股周五收跌，纳指跌 1.40%、标普跌 0.84%、道指跌 0.23%，芯片股再度抛售；美元指数升至 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；10 月 PPI 同比升 6.5%。",
       "title": "GLOBAL MARKETS-Stocks fall with tech, Nvidia concerns; US dollar climbs",
       "url": "https://www.devdiscourse.com/article/international/4006805-global-markets-stocks-fall-with-tech-nvidia-concerns-us-dollar-climbs"
@@ -104,45 +139,10 @@
       "summary": "全球股市周五下跌，英伟达 CEO 辞职余波扩散至 AI 板块，韩国 KOSPI 跌 0.98%、亚太指数跌 0.42%；两年期美债收益率升至 4.892%、十年期升至 5.1433%，市场计价 12 月加息 50 个基点概率 13%，美元周线料涨约 0.9%。",
       "title": "Stock market today: South Korea's KOSPI, Wall Street futures retreat as Nvidia turmoil rattles AI sector, lifts dollar",
       "url": "https://economymiddleeast.com/news/stock-market-today-south-koreas-kospi-wall-street-futures-retreat-as-nvidia-turmoil-rattles-ai-sector-lifts-dollar/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "InvestingLive",
-      "summary": "美联储加息押注蔓延至亚洲：日经回吐涨幅、韩股转跌，恒指跌约1%；日本10年期国债收益率升至约2.87%，日元逼近160关口，布伦特原油约95.70美元、WTI约88.40美元。",
-      "title": "Asia-Pacific market news: Fed hike bets ripple through Asia",
-      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-fed-hike-bets-ripple-through-asia/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "德国10月批发价格同比上涨8.8%，显示欧洲最大经济体上游通胀压力仍存。",
-      "title": "German wholesale prices rise 8.8% in October",
-      "url": "https://www.reuters.com/markets/us/german-wholesale-prices-rise-88-october-2026-11-13/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "ScrapMonster",
-      "summary": "金价在前一交易日大跌后徘徊于3900美元下方、接近13个月低点；布伦特原油逼近96美元，油价上涨加剧通胀担忧，市场押注美联储可能加大加息幅度。",
-      "title": "Gold languishes near 13-month low as $96 oil fuels bets on bigger Fed hikes",
-      "url": "https://www.scrapmonster.com/news/gold/gold-languishes-near-13-month-low-as-96-oil-fuels-bets-on-bigger-fed-hikes-2026-11-13/100472"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "swissinfo.ch",
-      "summary": "美股期货涨跌互现、亚股回落，英伟达换帅余波未消；市场等待周五美国 PPI 数据以判断美联储利率路径，10 年期美债收益率约 5.12%。",
-      "title": "Stocks Fluctuate After Huang's Ouster, Bonds Slump: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-fluctuate-after-huangs-ouster,-bonds-slump:-markets-wrap/92374084"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Wall Street Journal",
-      "summary": "亚洲科技股周五在英伟达大跌后企稳反弹，美股期货走高；油价回落、金价涨至 3908 美元附近，美元指数维持在 19 个月高位附近。",
-      "title": "Asia Stocks Stage Tentative Rebound as Nvidia Uncertainty Lingers",
-      "url": "https://www.wsj.com/world/asia/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 03:25"
+    "updated_at": "2026-11-14 05:27"
   }
 }
