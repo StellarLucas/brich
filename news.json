@@ -2,6 +2,13 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "swissinfo.ch",
+      "summary": "美股期货涨跌互现、亚股回落，英伟达换帅余波未消；市场等待周五美国 PPI 数据以判断美联储利率路径，10 年期美债收益率约 5.12%。",
+      "title": "Stocks Fluctuate After Huang's Ouster, Bonds Slump: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-fluctuate-after-huangs-ouster,-bonds-slump:-markets-wrap/92374084"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Wall Street Journal",
       "summary": "亚洲科技股周五在英伟达大跌后企稳反弹，美股期货走高；油价回落、金价涨至 3908 美元附近，美元指数维持在 19 个月高位附近。",
       "title": "Asia Stocks Stage Tentative Rebound as Nvidia Uncertainty Lingers",
@@ -132,17 +139,10 @@
       "summary": "油价跌超 1 美元，布伦特 91.62 美元、WTI 85.49 美元；黄金跌破 4000 美元，美元创 2025 年 5 月以来新高。",
       "title": "Commodity Corner: Oil, gold extend losses on peace hopes, hawkish Fed signals",
       "url": "https://www.tradingview.com/news/moneycontrol:80be6a469094b:0-commodity-corner-oil-gold-extend-losses-on-peace-hopes-hawkish-fed-signals/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "ING Think",
-      "summary": "美元走强压制大宗商品，布伦特约 91 美元，铜跌至四个月低点，黄金连续第三个交易日下跌。",
-      "title": "The Commodities Feed: Stronger dollar weighs on commodities",
-      "url": "https://think.ing.com/articles/the-commodities-feed-stronger-dollar-weighs-on-commodities/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-13 13:26"
+    "updated_at": "2026-11-13 15:26"
   }
 }
