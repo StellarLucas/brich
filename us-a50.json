@@ -1,0 +1,524 @@
+{
+  "meta": {
+    "updated_at": "2026-11-13 07:59",
+    "data_date": "2026-11-12",
+    "source": "Sina hq.sinajs.cn (gb_ symbols)",
+    "n_total": 51,
+    "n_ok": 51,
+    "n_failed": 0,
+    "n_triggered": 2,
+    "rule": "盘中下探深度 > 5% 即触发（即使收盘收回）；dip% =（前收 - 盘中最低）/ 前收"
+  },
+  "stocks": [
+    {
+      "code": "NVDA",
+      "name": "英伟达",
+      "industry": "半导体",
+      "price": 166.19,
+      "change_pct": -4.34,
+      "dip_pct": 14.35,
+      "drawdown52": 31.71,
+      "triggered": true
+    },
+    {
+      "code": "AMD",
+      "name": "超威半导体",
+      "industry": "半导体",
+      "price": 585.3,
+      "change_pct": 5.86,
+      "dip_pct": 0.0,
+      "drawdown52": 11.12,
+      "triggered": false
+    },
+    {
+      "code": "AVGO",
+      "name": "博通",
+      "industry": "半导体",
+      "price": 364.36,
+      "change_pct": 5.54,
+      "dip_pct": 0.0,
+      "drawdown52": 26.3,
+      "triggered": false
+    },
+    {
+      "code": "TSM",
+      "name": "台积电",
+      "industry": "半导体",
+      "price": 405.49,
+      "change_pct": -1.9,
+      "dip_pct": 4.7,
+      "drawdown52": 16.82,
+      "triggered": false
+    },
+    {
+      "code": "ASML",
+      "name": "阿斯麦",
+      "industry": "半导体",
+      "price": 1497.12,
+      "change_pct": -2.43,
+      "dip_pct": 3.04,
+      "drawdown52": 25.07,
+      "triggered": false
+    },
+    {
+      "code": "QCOM",
+      "name": "高通",
+      "industry": "半导体",
+      "price": 177.14,
+      "change_pct": 0.32,
+      "dip_pct": 0.89,
+      "drawdown52": 31.61,
+      "triggered": false
+    },
+    {
+      "code": "INTC",
+      "name": "英特尔",
+      "industry": "半导体",
+      "price": 61.2,
+      "change_pct": -2.08,
+      "dip_pct": 4.94,
+      "drawdown52": 57.01,
+      "triggered": false
+    },
+    {
+      "code": "MU",
+      "name": "美光科技",
+      "industry": "半导体",
+      "price": 798.44,
+      "change_pct": -1.59,
+      "dip_pct": 5.76,
+      "drawdown52": 36.37,
+      "triggered": true
+    },
+    {
+      "code": "MSFT",
+      "name": "微软",
+      "industry": "软件/云",
+      "price": 523.0,
+      "change_pct": 0.36,
+      "dip_pct": 0.22,
+      "drawdown52": 6.47,
+      "triggered": false
+    },
+    {
+      "code": "GOOGL",
+      "name": "谷歌",
+      "industry": "软件/云",
+      "price": 298.7,
+      "change_pct": 1.79,
+      "dip_pct": 0.0,
+      "drawdown52": 26.86,
+      "triggered": false
+    },
+    {
+      "code": "CRM",
+      "name": "赛富时",
+      "industry": "软件/云",
+      "price": 217.57,
+      "change_pct": -0.2,
+      "dip_pct": 1.94,
+      "drawdown52": 18.9,
+      "triggered": false
+    },
+    {
+      "code": "ADBE",
+      "name": "奥多比",
+      "industry": "软件/云",
+      "price": 238.54,
+      "change_pct": 0.4,
+      "dip_pct": 1.72,
+      "drawdown52": 34.23,
+      "triggered": false
+    },
+    {
+      "code": "ORCL",
+      "name": "甲骨文",
+      "industry": "软件/云",
+      "price": 127.11,
+      "change_pct": -0.99,
+      "dip_pct": 4.15,
+      "drawdown52": 49.11,
+      "triggered": false
+    },
+    {
+      "code": "NOW",
+      "name": "ServiceNow",
+      "industry": "软件/云",
+      "price": 100.66,
+      "change_pct": -2.04,
+      "dip_pct": 3.05,
+      "drawdown52": 42.48,
+      "triggered": false
+    },
+    {
+      "code": "AMZN",
+      "name": "亚马逊",
+      "industry": "互联网",
+      "price": 267.44,
+      "change_pct": 0.48,
+      "dip_pct": 0.0,
+      "drawdown52": 6.88,
+      "triggered": false
+    },
+    {
+      "code": "META",
+      "name": "Meta",
+      "industry": "互联网",
+      "price": 623.61,
+      "change_pct": -0.82,
+      "dip_pct": 1.57,
+      "drawdown52": 20.03,
+      "triggered": false
+    },
+    {
+      "code": "NFLX",
+      "name": "奈飞",
+      "industry": "互联网",
+      "price": 62.69,
+      "change_pct": -2.87,
+      "dip_pct": 3.08,
+      "drawdown52": 46.3,
+      "triggered": false
+    },
+    {
+      "code": "AAPL",
+      "name": "苹果",
+      "industry": "硬件",
+      "price": 354.88,
+      "change_pct": -0.14,
+      "dip_pct": 0.27,
+      "drawdown52": 1.25,
+      "triggered": false
+    },
+    {
+      "code": "TSLA",
+      "name": "特斯拉",
+      "industry": "硬件",
+      "price": 397.45,
+      "change_pct": 1.69,
+      "dip_pct": 1.44,
+      "drawdown52": 20.32,
+      "triggered": false
+    },
+    {
+      "code": "UNH",
+      "name": "联合健康",
+      "industry": "医疗",
+      "price": 405.13,
+      "change_pct": 0.54,
+      "dip_pct": 0.73,
+      "drawdown52": 12.24,
+      "triggered": false
+    },
+    {
+      "code": "JNJ",
+      "name": "强生",
+      "industry": "医疗",
+      "price": 283.52,
+      "change_pct": 1.11,
+      "dip_pct": 0.0,
+      "drawdown52": 0.89,
+      "triggered": false
+    },
+    {
+      "code": "LLY",
+      "name": "礼来",
+      "industry": "医疗",
+      "price": 1427.28,
+      "change_pct": -0.7,
+      "dip_pct": 0.7,
+      "drawdown52": 2.24,
+      "triggered": false
+    },
+    {
+      "code": "PFE",
+      "name": "辉瑞",
+      "industry": "医疗",
+      "price": 28.83,
+      "change_pct": -2.11,
+      "dip_pct": 2.12,
+      "drawdown52": 8.3,
+      "triggered": false
+    },
+    {
+      "code": "MRK",
+      "name": "默克",
+      "industry": "医疗",
+      "price": 146.95,
+      "change_pct": -0.16,
+      "dip_pct": 0.22,
+      "drawdown52": 6.35,
+      "triggered": false
+    },
+    {
+      "code": "ABBV",
+      "name": "艾伯维",
+      "industry": "医疗",
+      "price": 294.45,
+      "change_pct": -0.18,
+      "dip_pct": 0.31,
+      "drawdown52": 2.8,
+      "triggered": false
+    },
+    {
+      "code": "JPM",
+      "name": "摩根大通",
+      "industry": "金融",
+      "price": 342.82,
+      "change_pct": -0.17,
+      "dip_pct": 0.3,
+      "drawdown52": 6.46,
+      "triggered": false
+    },
+    {
+      "code": "BAC",
+      "name": "美国银行",
+      "industry": "金融",
+      "price": 50.51,
+      "change_pct": -0.32,
+      "dip_pct": 0.58,
+      "drawdown52": 22.56,
+      "triggered": false
+    },
+    {
+      "code": "V",
+      "name": "Visa",
+      "industry": "金融",
+      "price": 420.31,
+      "change_pct": -1.23,
+      "dip_pct": 1.3,
+      "drawdown52": 4.96,
+      "triggered": false
+    },
+    {
+      "code": "MA",
+      "name": "万事达",
+      "industry": "金融",
+      "price": 652.6,
+      "change_pct": -1.23,
+      "dip_pct": 1.31,
+      "drawdown52": 4.31,
+      "triggered": false
+    },
+    {
+      "code": "AXP",
+      "name": "美国运通",
+      "industry": "金融",
+      "price": 318.06,
+      "change_pct": -1.56,
+      "dip_pct": 1.58,
+      "drawdown52": 17.34,
+      "triggered": false
+    },
+    {
+      "code": "GS",
+      "name": "高盛",
+      "industry": "金融",
+      "price": 913.6,
+      "change_pct": -1.43,
+      "dip_pct": 1.62,
+      "drawdown52": 20.83,
+      "triggered": false
+    },
+    {
+      "code": "XOM",
+      "name": "埃克森美孚",
+      "industry": "能源",
+      "price": 169.78,
+      "change_pct": 1.84,
+      "dip_pct": 0.0,
+      "drawdown52": 9.93,
+      "triggered": false
+    },
+    {
+      "code": "CVX",
+      "name": "雪佛龙",
+      "industry": "能源",
+      "price": 216.35,
+      "change_pct": 1.44,
+      "dip_pct": 0.0,
+      "drawdown52": 8.51,
+      "triggered": false
+    },
+    {
+      "code": "COP",
+      "name": "康菲石油",
+      "industry": "能源",
+      "price": 140.06,
+      "change_pct": 1.6,
+      "dip_pct": 0.35,
+      "drawdown52": 9.22,
+      "triggered": false
+    },
+    {
+      "code": "WMT",
+      "name": "沃尔玛",
+      "industry": "消费",
+      "price": 126.19,
+      "change_pct": 0.41,
+      "dip_pct": 0.15,
+      "drawdown52": 6.63,
+      "triggered": false
+    },
+    {
+      "code": "COST",
+      "name": "好市多",
+      "industry": "消费",
+      "price": 1092.21,
+      "change_pct": 0.42,
+      "dip_pct": 0.0,
+      "drawdown52": 0.96,
+      "triggered": false
+    },
+    {
+      "code": "HD",
+      "name": "家得宝",
+      "industry": "消费",
+      "price": 348.26,
+      "change_pct": -0.87,
+      "dip_pct": 1.06,
+      "drawdown52": 11.38,
+      "triggered": false
+    },
+    {
+      "code": "MCD",
+      "name": "麦当劳",
+      "industry": "消费",
+      "price": 273.63,
+      "change_pct": -0.43,
+      "dip_pct": 0.79,
+      "drawdown52": 19.05,
+      "triggered": false
+    },
+    {
+      "code": "NKE",
+      "name": "耐克",
+      "industry": "消费",
+      "price": 37.76,
+      "change_pct": -1.46,
+      "dip_pct": 1.84,
+      "drawdown52": 44.73,
+      "triggered": false
+    },
+    {
+      "code": "SBUX",
+      "name": "星巴克",
+      "industry": "消费",
+      "price": 107.26,
+      "change_pct": -2.39,
+      "dip_pct": 2.47,
+      "drawdown52": 3.8,
+      "triggered": false
+    },
+    {
+      "code": "CAT",
+      "name": "卡特彼勒",
+      "industry": "工业",
+      "price": 605.28,
+      "change_pct": 0.61,
+      "dip_pct": 1.81,
+      "drawdown52": 43.53,
+      "triggered": false
+    },
+    {
+      "code": "BA",
+      "name": "波音",
+      "industry": "工业",
+      "price": 171.55,
+      "change_pct": -1.71,
+      "dip_pct": 1.86,
+      "drawdown52": 32.55,
+      "triggered": false
+    },
+    {
+      "code": "GE",
+      "name": "GE 航空",
+      "industry": "工业",
+      "price": 330.86,
+      "change_pct": -3.47,
+      "dip_pct": 3.84,
+      "drawdown52": 14.91,
+      "triggered": false
+    },
+    {
+      "code": "HON",
+      "name": "霍尼韦尔",
+      "industry": "工业",
+      "price": 223.45,
+      "change_pct": -1.84,
+      "dip_pct": 1.88,
+      "drawdown52": 54.77,
+      "triggered": false
+    },
+    {
+      "code": "ROK",
+      "name": "罗克韦尔自动化",
+      "industry": "工业",
+      "price": 404.2,
+      "change_pct": -0.49,
+      "dip_pct": 1.09,
+      "drawdown52": 18.73,
+      "triggered": false
+    },
+    {
+      "code": "DIS",
+      "name": "迪士尼",
+      "industry": "传媒",
+      "price": 118.23,
+      "change_pct": -1.19,
+      "dip_pct": 1.37,
+      "drawdown52": 2.13,
+      "triggered": false
+    },
+    {
+      "code": "LIN",
+      "name": "林德",
+      "industry": "材料",
+      "price": 522.49,
+      "change_pct": -0.77,
+      "dip_pct": 0.88,
+      "drawdown52": 4.69,
+      "triggered": false
+    },
+    {
+      "code": "NEE",
+      "name": "NextEra 能源",
+      "industry": "公用事业",
+      "price": 85.29,
+      "change_pct": -0.81,
+      "dip_pct": 0.95,
+      "drawdown52": 13.08,
+      "triggered": false
+    },
+    {
+      "code": "AMT",
+      "name": "美国电塔",
+      "industry": "房地产",
+      "price": 189.79,
+      "change_pct": -0.24,
+      "dip_pct": 0.75,
+      "drawdown52": 6.28,
+      "triggered": false
+    },
+    {
+      "code": "PG",
+      "name": "宝洁",
+      "industry": "日用消费品",
+      "price": 168.03,
+      "change_pct": 0.21,
+      "dip_pct": 0.0,
+      "drawdown52": 1.46,
+      "triggered": false
+    },
+    {
+      "code": "KO",
+      "name": "可口可乐",
+      "industry": "日用消费品",
+      "price": 97.44,
+      "change_pct": -0.13,
+      "dip_pct": 0.19,
+      "drawdown52": 0.96,
+      "triggered": false
+    }
+  ]
+}
