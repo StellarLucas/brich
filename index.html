@@ -276,9 +276,39 @@
     .hit-name{font-size:1.05rem}
     .metrics{margin-top:.6rem}
   }
+  /* ---------- top banner (financial portal chrome) ---------- */
+  .topbar{background:var(--navy); color:#dbe4ee}
+  .topbar-inner{max-width:720px; margin:0 auto; padding:0 16px; height:44px; display:flex; align-items:center; gap:.8rem}
+  .topbar .tb-brand{font-weight:800; letter-spacing:.14em; color:#fff; font-size:1rem}
+  .topbar .tb-brand em{font-style:normal; color:#7ea6d8}
+  .topbar .tb-right{margin-left:auto; font-size:.78rem; color:#9fb2c8; white-space:nowrap}
+  @media (max-width:560px){ .topbar .tb-right{display:none} }
+
+  /* ---------- global dark footer ---------- */
+  .site-footer{background:var(--navy); color:#9fb2c8; margin-top:2.4rem; padding:1.4rem 0 calc(1.4rem + env(safe-area-inset-bottom))}
+  .site-footer-inner{max-width:720px; margin:0 auto; padding:0 16px}
+  .site-footer .sf-brand{color:#fff; font-weight:800; letter-spacing:.1em}
+  .site-footer p{font-size:.8rem; margin:.4rem 0; line-height:1.7}
+  .site-footer .sf-disc{color:#dbe4ee}
+
+  /* ---------- global news feed ---------- */
+  .news-item{display:block; background:var(--card); border:1px solid var(--line); border-radius:var(--radius);
+    padding:.9rem 1rem; margin-bottom:.65rem; text-decoration:none; color:var(--ink)}
+  .news-item:active{background:#f6f8fa}
+  .news-item h3{margin:0; font-size:1.02rem; line-height:1.45; font-weight:800}
+  .news-item .ni-sum{font-size:.88rem; color:#3c463f; margin-top:.3rem}
+  .news-item .ni-meta{display:flex; gap:.5rem; align-items:center; margin-top:.5rem; font-size:.76rem; color:var(--muted)}
+  .news-item .ni-src{font-weight:700; color:var(--accent)}
+  .news-item .ni-more{margin-left:auto; color:var(--accent); font-weight:700; white-space:nowrap}
 </style>
 </head>
 <body>
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="tb-brand">BR<em>I</em>CH</span>
+    <span class="tb-right" id="topbar-date"></span>
+  </div>
+</div>
 <div class="wrap">
 
   <header>
@@ -289,12 +319,19 @@
   </header>
 
   <nav class="tabs" role="tablist" aria-label="指数切换">
-    <button class="tab active" id="tab-q50" data-view="q50" role="tab" aria-selected="true">q50 高分红<span class="sub">长期持有 · 股息复利</span></button>
+    <button class="tab active" id="tab-news" data-view="news" role="tab" aria-selected="true">全球资讯<span class="sub">重磅新闻 · 每 2 小时更新</span></button>
+    <button class="tab" id="tab-q50" data-view="q50" role="tab" aria-selected="false">q50 高分红<span class="sub">长期持有 · 股息复利</span></button>
     <button class="tab" id="tab-e30" data-view="e30" role="tab" aria-selected="false">e30 ETF 波段<span class="sub">中线波段 · 科技 ETF</span></button>
     <button class="tab" id="tab-a50" data-view="a50" role="tab" aria-selected="false">A50 美股<span class="sub">行业趋势 · 龙头下探</span></button>
   </nav>
 
-  <div id="view-q50" role="tabpanel" aria-labelledby="tab-q50">
+  <div id="view-news" role="tabpanel" aria-labelledby="tab-news">
+    <p class="sec-sub" style="margin-top:.9rem">全球央行、市场与大宗商品的重磅消息，每 2 小时自动更新，最多保留最新 20 条。点卡片阅读原文。</p>
+    <p class="updated" id="news-updated">资讯加载中…</p>
+    <div id="global-news"></div>
+  </div>
+
+  <div id="view-q50" role="tabpanel" aria-labelledby="tab-q50" hidden>
   <div class="stats">
     <div class="stat" data-goto="sec-hits"><div class="num" id="stat-hits">—</div><div class="lbl">可入场</div></div>
     <div class="stat" data-goto="sec-setups"><div class="num" id="stat-value">—</div><div class="lbl">关注</div></div>
@@ -633,6 +670,15 @@
   </div><!-- /view-a50 -->
 </div>
 
+<footer class="site-footer">
+  <div class="site-footer-inner">
+    <p><span class="sf-brand">BRICH</span> · 长期持有，构建复利</p>
+    <p class="sf-disc">本页面信息仅供参考，不构成投资建议。投资有风险，入市需谨慎。</p>
+    <p>数据来源：q50 — 沪深 300、东方财富、乐咕乐股网；e30 — 东方财富 ETF 行情；A50 — 新浪美股；资讯 — 路透社、IMF、新浪财经等公开新闻源。</p>
+    <p>© 2026 BRICH</p>
+  </div>
+</footer>
+
 <div class="modal" id="stock-modal" aria-hidden="true">
   <div class="modal-backdrop" id="modal-backdrop"></div>
   <div class="modal-card" role="dialog" aria-modal="true">
@@ -642,23 +688,25 @@
 </div>
 
 <script>
-/* ---- index tabs (q50 / e30 / a50): instant switch, no reload; choice persisted ---- */
+/* ---- index tabs (news / q50 / e30 / a50): instant switch, no reload; choice persisted ---- */
 (function(){
   var taglines = {
+    news: '<b>全球资讯 · 先看大势</b><br>全球央行、市场与大宗商品的重磅消息，每 2 小时更新，先看大势再看个股。',
     q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
     e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。',
     a50: '<b>看美股龙头 · 定 A 股方向</b><br>只盯 51 只美股各行业代表，盘中下探超 5% 即信号，行业共振看 A 股同行业。'
   };
   var tabs = document.querySelectorAll(".tab[data-view]");
-  var views = { q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50") };
+  var views = { news: document.getElementById("view-news"), q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50") };
   var tagline = document.getElementById("tagline");
   function show(view){
-    if(!views[view]) view = "q50";
+    if(!views[view]) view = "news";
     tabs.forEach(function(t){
       var on = t.getAttribute("data-view") === view;
       t.classList.toggle("active", on);
       t.setAttribute("aria-selected", on ? "true" : "false");
     });
+    views.news.hidden = view !== "news";
     views.q50.hidden = view !== "q50";
     views.e30.hidden = view !== "e30";
     views.a50.hidden = view !== "a50";
@@ -672,12 +720,13 @@
   tabs.forEach(function(t){
     t.addEventListener("click", function(){ show(t.getAttribute("data-view")); });
   });
-  var initial = "q50";
-  if(location.hash === "#e30") initial = "e30";
+  var initial = "news";
+  if(location.hash === "#news") initial = "news";
+  else if(location.hash === "#e30") initial = "e30";
   else if(location.hash === "#a50") initial = "a50";
   else if(location.hash === "#q50") initial = "q50";
   else {
-    try { var saved = localStorage.getItem("brich-view"); if(saved === "e30" || saved === "q50" || saved === "a50") initial = saved; } catch(e){}
+    try { var saved = localStorage.getItem("brich-view"); if(saved === "news" || saved === "e30" || saved === "q50" || saved === "a50") initial = saved; } catch(e){}
   }
   show(initial);
 })();
@@ -1765,6 +1814,43 @@
     renderList();
   }).catch(function(){
     noData("A50 美股数据还在编制中，稍后再打开看看。");
+  });
+})();
+
+/* ---- top banner: date + market status ---- */
+(function(){
+  var d = new Date();
+  var week = ["星期日","星期一","星期二","星期三","星期四","星期五","星期六"][d.getDay()];
+  var t = d.getHours() * 60 + d.getMinutes();
+  var a = (t >= 570 && t < 690) || (t >= 780 && t < 900) ? "A股交易中" : (t < 570 ? "A股开盘前" : "A股已收盘");
+  var us = (t >= 1290 || t < 240) ? "美股交易中" : "美股盘前";
+  var el = document.getElementById("topbar-date");
+  if(el) el.textContent = d.getFullYear() + "年" + (d.getMonth() + 1) + "月" + d.getDate() + "日 " + week + " · " + a + " · " + us;
+})();
+
+/* ---- global news: reads news.json; missing file -> short error line ---- */
+(function(){
+  var el = function(id){ return document.getElementById(id); };
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  fetch("news.json", {cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error("news.json 未找到");
+    return r.json();
+  }).then(function(d){
+    var items = (d.items || []).slice(0, 20);
+    el("news-updated").innerHTML = "最后更新 <b>" + esc(d.meta && d.meta.updated_at ? d.meta.updated_at : "—") + "</b> · 共 " + items.length + " 条";
+    if(!items.length){ el("global-news").innerHTML = '<div class="empty">暂无资讯，稍后再打开看看。</div>'; return; }
+    var html = "";
+    items.forEach(function(it){
+      html += '<a class="news-item" href="' + esc(it.url) + '" target="_blank" rel="noopener">'
+        + '<h3>' + esc(it.title) + '</h3>'
+        + '<div class="ni-sum">' + esc(it.summary || "") + '</div>'
+        + '<div class="ni-meta"><span class="ni-src">' + esc(it.source || "") + '</span><span>' + esc(it.published_at || "") + '</span><span class="ni-more">阅读原文 →</span></div>'
+        + '</a>';
+    });
+    el("global-news").innerHTML = html;
+  }).catch(function(){
+    el("news-updated").textContent = "资讯暂时无法读取，稍后再打开看看。";
+    el("global-news").innerHTML = '<div class="err">全球资讯暂时无法读取，稍后再打开看看。</div>';
   });
 })();
 </script>
