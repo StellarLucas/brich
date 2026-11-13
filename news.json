@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "Kitco",
+      "summary": "美国 10 月 PPI 环比升 0.3%、低于预期的 0.4%，但同比升 6.5%、为 2022 年 11 月以来最高；金价从 13 个月低点反弹至约 3891 美元，布伦特约 95.54 美元、WTI 约 88.18 美元。",
+      "title": "Gold rebounds from 13-month low as PPI complicates Fed outlook",
+      "url": "https://www.kitco.com/news/article/2026-11-13/gold-rebounds-13-month-low-ppi-complicates-fed-outlook-kitco-am-report"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Investopedia",
+      "summary": "美股期货周五走高，10 年期美债收益率维持约 5.13%；英伟达盘前反弹约 2%，比特币跌破 7 万美元，为 8 月以来首次。",
+      "title": "5 Things Investors Need to Know About Friday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-13-2026-12250347"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
+      "summary": "欧洲股市守在纪录高位附近，美元逼近 19 个月高点；市场计价美联储 12 月加息 50 个基点的概率约 12%，高于一周前的零。",
+      "title": "GLOBAL MARKETS-European stocks near record highs, dollar gains on rate hike bets",
+      "url": "https://www.lse.co.uk/news/global-markets-european-stocks-near-record-highs-dollar-gains-on-rate-hike-bets-psjhspsn17yzelu.html"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Daily Market Report",
       "summary": "10 年期实际收益率跳升 12 个基点至 2.78%，标普 500 跌 0.35%、10 年期美债收益率约 4.98%，加密市场恐惧贪婪指数跌至 20 的极度恐惧区间。",
       "title": "Real Rates Spike, Crypto Hits Extreme Fear",
@@ -118,31 +139,10 @@
       "summary": "美股收复早盘跌幅小幅收高，博通、AMD、高通等芯片股上涨；市场计价 12 月 FOMC 加息 25 个基点的概率为 100%。",
       "title": "Stocks Recover as Other Chipmakers May Benefit from Nvidia's Turmoil",
       "url": "https://www.tradingview.com/news/barchart:8d2b29137094b:0-stocks-recover-as-other-chipmakers-may-benefit-from-nvidia-s-turmoil/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "Reuters",
-      "summary": "旧金山联储主席戴利称可能需要进一步加息应对高通胀，但不必操之过急；10 月核心 CPI 连续第三个月环比上涨 0.3%。",
-      "title": "Fed has time to calibrate rate hikes, Daly says",
-      "url": "https://www.reuters.com/business/fed-has-time-calibrate-rate-hikes-daly-says-2026-11-12/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "Reuters",
-      "summary": "美股周四下跌，英伟达 CEO 黄仁勋辞职致股价本周累计跌 11%；标普 500 距纪录高点不足 3%，欧洲股市触及新高；美元指数创 2025 年 4 月以来最高。",
-      "title": "TRADING DAY: Weathering the Nvidia storm",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-12/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "TradingKey",
-      "summary": "黄金周四暴跌近 2.8% 至 3874 美元，触及一年低点 3852 美元；市场计价美联储 12 月加息 50 个基点概率上升，美元指数升至 103.48 附近的 19 个月高点，WTI 原油涨 2.7% 至 88.79 美元。",
-      "title": "Gold plunges to one-year low near $3,850 as Fed hawks take charge",
-      "url": "https://www.tradingkey.com/news/commodities/262303235-fxstr"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-13 21:26"
+    "updated_at": "2026-11-13 23:26"
   }
 }
