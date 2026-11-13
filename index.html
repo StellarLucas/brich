@@ -269,6 +269,8 @@
     .goldrule{margin:.6rem 0 0}
     .updated{font-size:.78rem; margin-top:.45rem}
     .tab{font-size:.92rem; padding:.55rem .4rem}
+    .tabs{flex-wrap:wrap}
+    .tab{flex:1 1 30%}
     .stat{padding:.55rem .3rem}
     .stat .num{font-size:1.1rem}
     section{margin-top:1.1rem}
@@ -282,6 +284,42 @@
   .topbar .tb-brand{font-weight:800; letter-spacing:.14em; color:#fff; font-size:1rem}
   .topbar .tb-brand em{font-style:normal; color:#7ea6d8}
   .topbar .tb-right{margin-left:auto; font-size:.78rem; color:#9fb2c8; white-space:nowrap}
+  /* ---------- transmission map ---------- */
+  .dim-switch{display:flex; gap:.5rem; margin:.9rem 0 .2rem}
+  .dim-btn{flex:1; font-size:.95rem; font-weight:800; padding:.6rem .4rem; border-radius:10px;
+    border:1.5px solid var(--line); background:var(--card); color:var(--muted); cursor:pointer}
+  .dim-btn.active{background:var(--navy); border-color:var(--navy); color:#fff}
+  .map-wrap{overflow-x:auto; -webkit-overflow-scrolling:touch; background:var(--card);
+    border:1px solid var(--line); border-radius:10px; margin-top:.7rem}
+  .map-wrap svg{display:block; width:100%; height:auto; min-width:360px}
+  .map-node{cursor:pointer}
+  .map-node rect{fill:#fff; stroke:#c9d3dd; stroke-width:1.2}
+  .map-node .n-label{font-size:12.5px; font-weight:800; fill:var(--ink)}
+  .map-node .n-desc{font-size:9.5px; fill:var(--muted)}
+  .map-node.hl-cause rect{stroke:#1d4ed8; stroke-width:2.6}
+  .map-node.hl-effect rect{stroke:var(--navy); stroke-width:2.6; fill:#eef3f8}
+  .map-node.hl-news rect{stroke-width:2.6}
+  .map-node.dim{opacity:.22}
+  .map-edge{stroke:#9fb2c8; stroke-width:1.3; fill:none}
+  .map-edge.hl-cause{stroke:#1d4ed8; stroke-width:2.6}
+  .map-edge.hl-effect{stroke:var(--navy); stroke-width:2.6}
+  .map-edge.dim{opacity:.15}
+  .map-edge-label{font-size:10px; fill:var(--muted); paint-order:stroke; stroke:#fff; stroke-width:3px; stroke-linejoin:round}
+  .map-edge-label .arr-up{fill:#d92d20; font-weight:800}
+  .map-edge-label .arr-down{fill:#12805c; font-weight:800}
+  .map-news-item{display:block; background:var(--card); border:1px solid var(--line); border-radius:10px;
+    padding:.7rem .9rem; margin-bottom:.6rem; cursor:pointer; text-decoration:none; color:var(--ink)}
+  .map-news-item h3{margin:0; font-size:.95rem; line-height:1.45}
+  .map-news-item .ni-sum{font-size:.85rem; color:#3c463f; margin-top:.25rem}
+  .map-news-item .ni-hits{margin-top:.45rem; display:flex; gap:.35rem; flex-wrap:wrap}
+  .hit-chip{font-size:.75rem; font-weight:800; padding:.1rem .5rem; border-radius:999px; white-space:nowrap}
+  .hit-chip.up{background:#fdeceb; color:#d92d20}
+  .hit-chip.down{background:#e6f4ec; color:#12805c}
+  .hit-chip.flat{background:#eef3f8; color:#43566e}
+  .hit-chip .dim-tag{font-weight:600; opacity:.75}
+  .cross-links{background:var(--card); border:1px solid var(--line); border-radius:10px; padding:.8rem 1rem; margin-top:.8rem}
+  .cross-links h4{margin:0 0 .4rem; font-size:.85rem; color:var(--muted)}
+  .cross-links p{margin:.35rem 0; font-size:.9rem}
   @media (max-width:560px){ .topbar .tb-right{display:none} }
 
   /* ---------- global dark footer ---------- */
@@ -323,6 +361,7 @@
     <button class="tab" id="tab-q50" data-view="q50" role="tab" aria-selected="false">q50 高分红<span class="sub">长期持有 · 股息复利</span></button>
     <button class="tab" id="tab-e30" data-view="e30" role="tab" aria-selected="false">e30 ETF 波段<span class="sub">中线波段 · 科技 ETF</span></button>
     <button class="tab" id="tab-a50" data-view="a50" role="tab" aria-selected="false">A50 美股<span class="sub">行业趋势 · 龙头下探</span></button>
+    <button class="tab" id="tab-map" data-view="map" role="tab" aria-selected="false">传导图谱<span class="sub">世界 · 美国 · 中国</span></button>
   </nav>
 
   <div id="view-news" role="tabpanel" aria-labelledby="tab-news">
@@ -668,6 +707,32 @@
       <p>BRICH · be rich — 看美股龙头，定 A 股行业方向。</p>
     </footer>
   </div><!-- /view-a50 -->
+
+  <div id="view-map" role="tabpanel" aria-labelledby="tab-map" hidden>
+    <section>
+      <h2>传导图谱</h2>
+      <p class="sec-sub">出了什么事，哪个涨、哪个跌。点一个节点，看它的上游原因和下游影响；点一条新闻，看它点亮了哪些节点。红色 ↑ 是涨，绿色 ↓ 是跌。</p>
+      <div class="dim-switch" role="group" aria-label="维度切换">
+        <button class="dim-btn active" data-dim="global">世界维度</button>
+        <button class="dim-btn" data-dim="us">美国维度</button>
+        <button class="dim-btn" data-dim="cn">中国维度</button>
+      </div>
+      <div class="map-wrap"><svg id="map-svg" viewBox="0 0 384 306" role="img" aria-label="传导关系图"></svg></div>
+      <p class="tbl-note" id="map-hint">点节点：上游原因变蓝，下游影响变深蓝；再点一次取消。</p>
+      <div class="cross-links" id="map-cross"></div>
+    </section>
+
+    <section>
+      <h2>今日新闻点亮</h2>
+      <p class="sec-sub">根据今天的资讯，自动匹配它会推高还是压低哪些节点。点一条，跳到对应维度并点亮。</p>
+      <div id="map-news"></div>
+    </section>
+
+    <footer>
+      <p>图谱是定性传导关系，不是交易信号：箭头只表示方向，不表示幅度，也不保证每次都兑现。</p>
+      <p>BRICH · be rich — 先看传导，再看板块。</p>
+    </footer>
+  </div><!-- /view-map -->
 </div>
 
 <footer class="site-footer">
@@ -694,10 +759,11 @@
     news: '<b>全球资讯 · 先看大势</b><br>全球央行、市场与大宗商品的重磅消息，每 2 小时更新，先看大势再看个股。',
     q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
     e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。',
-    a50: '<b>看美股龙头 · 定 A 股方向</b><br>只盯 51 只美股各行业代表，盘中下探超 5% 即信号，行业共振看 A 股同行业。'
+    a50: '<b>看美股龙头 · 定 A 股方向</b><br>只盯 51 只美股各行业代表，盘中下探超 5% 即信号，行业共振看 A 股同行业。',
+    map: '<b>传导图谱 · 先看因果</b><br>出了什么事，哪个涨、哪个跌。世界、美国、中国三个维度的传导链，新闻进来自动点亮。'
   };
   var tabs = document.querySelectorAll(".tab[data-view]");
-  var views = { news: document.getElementById("view-news"), q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50") };
+  var views = { news: document.getElementById("view-news"), q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50"), map: document.getElementById("view-map") };
   var tagline = document.getElementById("tagline");
   function show(view){
     if(!views[view]) view = "news";
@@ -710,6 +776,7 @@
     views.q50.hidden = view !== "q50";
     views.e30.hidden = view !== "e30";
     views.a50.hidden = view !== "a50";
+    views.map.hidden = view !== "map";
     if(tagline) tagline.innerHTML = taglines[view];
     try { localStorage.setItem("brich-view", view); } catch(e){}
     if(location.hash !== "#" + view){
@@ -724,9 +791,10 @@
   if(location.hash === "#news") initial = "news";
   else if(location.hash === "#e30") initial = "e30";
   else if(location.hash === "#a50") initial = "a50";
+  else if(location.hash === "#map") initial = "map";
   else if(location.hash === "#q50") initial = "q50";
   else {
-    try { var saved = localStorage.getItem("brich-view"); if(saved === "news" || saved === "e30" || saved === "q50" || saved === "a50") initial = saved; } catch(e){}
+    try { var saved = localStorage.getItem("brich-view"); if(saved === "news" || saved === "e30" || saved === "q50" || saved === "a50" || saved === "map") initial = saved; } catch(e){}
   }
   show(initial);
 })();
@@ -1851,6 +1919,299 @@
   }).catch(function(){
     el("news-updated").textContent = "资讯暂时无法读取，稍后再打开看看。";
     el("global-news").innerHTML = '<div class="err">全球资讯暂时无法读取，稍后再打开看看。</div>';
+  });
+})();
+
+/* ---- transmission map: reads transmission.json + news.json; SVG graph, 3 dimensions ---- */
+(function(){
+  var svg = document.getElementById("map-svg");
+  var NS = "http://www.w3.org/2000/svg";
+  var BW = 112, BH = 46, PITCH = 58, LAYER_W = 128, PAD = 8;
+  var state = { dim: "global", data: null, news: null, selected: null, newsFx: {} };
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>\"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  function el(tag, attrs){
+    var n = document.createElementNS(NS, tag);
+    if(attrs) Object.keys(attrs).forEach(function(k){ n.setAttribute(k, attrs[k]); });
+    return n;
+  }
+  function layout(dim){
+    var byLayer = {};
+    dim.nodes.forEach(function(n){ (byLayer[n.layer] = byLayer[n.layer] || []).push(n); });
+    var pos = {};
+    Object.keys(byLayer).forEach(function(l){
+      byLayer[l].forEach(function(n, i){ pos[n.id] = { x: PAD + (+l) * LAYER_W, y: PAD + i * PITCH }; });
+    });
+    var maxLayer = Math.max.apply(null, dim.nodes.map(function(n){ return n.layer; }));
+    var maxRows = Math.max.apply(null, Object.keys(byLayer).map(function(l){ return byLayer[l].length; }));
+    return { pos: pos, W: PAD + maxLayer * LAYER_W + BW + PAD, H: PAD + maxRows * PITCH + PAD };
+  }
+  function neighbors(id, dir){
+    var dim = state.data.dimensions[state.dim];
+    var seen = {}, out = {}, q = [id];
+    seen[id] = true;
+    while(q.length){
+      var cur = q.shift();
+      dim.edges.forEach(function(e){
+        var nxt = null;
+        if(dir === "up" && e.to === cur) nxt = e.from;
+        if(dir === "down" && e.from === cur) nxt = e.to;
+        if(nxt && !seen[nxt]){ seen[nxt] = true; out[nxt] = true; q.push(nxt); }
+      });
+    }
+    return out;
+  }
+  function applyHighlight(){
+    if(!state.data) return;
+    var dim = state.data.dimensions[state.dim];
+    var up = {}, down = {};
+    if(state.selected){ up = neighbors(state.selected, "up"); down = neighbors(state.selected, "down"); }
+    svg.querySelectorAll(".map-node").forEach(function(g){
+      var id = g.getAttribute("data-id");
+      g.classList.toggle("hl-cause", !!up[id]);
+      g.classList.toggle("hl-effect", !!down[id] || id === state.selected);
+      g.classList.toggle("dim", !!state.selected && !up[id] && !down[id] && id !== state.selected);
+      var fx = state.newsFx[state.dim + "." + id];
+      g.classList.toggle("hl-news", !!fx && !state.selected);
+      if(fx && !state.selected){
+        var r = g.querySelector("rect");
+        if(r) r.style.stroke = fx === "up" ? "#d92d20" : (fx === "down" ? "#12805c" : "#43566e");
+      }
+    });
+    svg.querySelectorAll(".map-edge, .map-edge-label").forEach(function(p){
+      var f = p.getAttribute("data-from"), t = p.getAttribute("data-to");
+      var isUp = !!up[f] && (up[t] || t === state.selected);
+      var isDown = (f === state.selected || !!down[f]) && !!down[t];
+      p.classList.toggle("hl-cause", isUp);
+      p.classList.toggle("hl-effect", isDown);
+      p.classList.toggle("dim", !!state.selected && !isUp && !isDown);
+      if(p.tagName === "path") p.setAttribute("marker-end", isUp ? "url(#arr-cause)" : (isDown ? "url(#arr-effect)" : "url(#arr)"));
+    });
+    var hint = document.getElementById("map-hint");
+    if(hint){
+      if(state.selected){
+        var node = dim.nodes.filter(function(n){ return n.id === state.selected; })[0];
+        hint.textContent = "已选「" + (node ? node.label : state.selected) + "」：蓝色是上游原因，深蓝色是下游影响；再点一次取消。";
+      } else {
+        hint.textContent = "点节点：上游原因变蓝，下游影响变深蓝；再点一次取消。";
+      }
+    }
+  }
+  function render(){
+    if(!state.data) return;
+    var dim = state.data.dimensions[state.dim];
+    var L = layout(dim);
+    svg.setAttribute("viewBox", "0 0 " + L.W + " " + L.H);
+    while(svg.firstChild) svg.removeChild(svg.firstChild);
+    var defs = el("defs", {});
+    [["arr", "#9fb2c8"], ["arr-cause", "#1d4ed8"], ["arr-effect", "#0f2a4a"]].forEach(function(m){
+      var mk = el("marker", {id: m[0], viewBox: "0 0 10 10", refX: "9", refY: "5", markerWidth: "7", markerHeight: "7", orient: "auto-start-reverse"});
+      mk.appendChild(el("path", {d: "M 0 0 L 10 5 L 0 10 z", fill: m[1]}));
+      defs.appendChild(mk);
+    });
+    svg.appendChild(defs);
+    var gEdges = el("g", {}), gLabels = el("g", {}), gNodes = el("g", {});
+    svg.appendChild(gEdges); svg.appendChild(gLabels); svg.appendChild(gNodes);
+    var pos = L.pos;
+    dim.edges.forEach(function(e){
+      var s = pos[e.from], t = pos[e.to];
+      if(!s || !t) return;
+      var sx = s.x + BW, sy = s.y + BH / 2, tx = t.x, ty = t.y + BH / 2, d;
+      if(s.x === t.x){
+        var bx = sx + 34;
+        d = "M " + sx + " " + sy + " C " + bx + " " + sy + ", " + bx + " " + ty + ", " + tx + " " + ty;
+      } else {
+        var mx = (sx + tx) / 2;
+        d = "M " + sx + " " + sy + " C " + mx + " " + sy + ", " + mx + " " + ty + ", " + tx + " " + ty;
+      }
+      gEdges.appendChild(el("path", {d: d, "class": "map-edge", "data-from": e.from, "data-to": e.to, "marker-end": "url(#arr)"}));
+      var lx = (s.x === t.x) ? sx + 26 : (sx + tx) / 2, ly = (sy + ty) / 2 - 4;
+      var lt = el("text", {x: lx, y: ly, "class": "map-edge-label", "text-anchor": "middle", "data-from": e.from, "data-to": e.to});
+      var arr = el("tspan", {"class": e.effect === "up" ? "arr-up" : "arr-down"});
+      arr.textContent = e.effect === "up" ? "↑ " : "↓ ";
+      lt.appendChild(arr);
+      lt.appendChild(document.createTextNode(e.label));
+      gLabels.appendChild(lt);
+    });
+    dim.nodes.forEach(function(n){
+      var p = pos[n.id];
+      var g = el("g", {"class": "map-node", "data-id": n.id, transform: "translate(" + p.x + "," + p.y + ")"});
+      g.appendChild(el("rect", {x: 0, y: 0, width: BW, height: BH, rx: 8}));
+      var lt = el("text", {x: 8, y: 19, "class": "n-label"});
+      lt.textContent = n.label;
+      g.appendChild(lt);
+      var dt = el("text", {x: 8, y: 35, "class": "n-desc"});
+      dt.textContent = n.desc;
+      g.appendChild(dt);
+      var fx = state.newsFx[state.dim + "." + n.id];
+      if(fx){
+        var badge = el("g", {transform: "translate(" + (BW - 11) + ",11)"});
+        badge.appendChild(el("circle", {r: 10, fill: fx === "up" ? "#d92d20" : (fx === "down" ? "#12805c" : "#43566e")}));
+        var bt = el("text", {x: 0, y: 4, "text-anchor": "middle", fill: "#fff", "font-size": 11, "font-weight": 800});
+        bt.textContent = fx === "up" ? "↑" : (fx === "down" ? "↓" : "–");
+        badge.appendChild(bt);
+        g.appendChild(badge);
+      }
+      g.addEventListener("click", function(){
+        state.newsFx = {};
+        state.selected = (state.selected === n.id) ? null : n.id;
+        render();
+      });
+      gNodes.appendChild(g);
+    });
+    applyHighlight();
+  }
+  function renderCross(){
+    var box = document.getElementById("map-cross");
+    var html = "<h4>跨维度传导</h4>";
+    state.data.cross_links.forEach(function(c){ html += "<p>" + esc(c.text) + "</p>"; });
+    box.innerHTML = html;
+  }
+  var DOWN_RE = /跌|下滑|暴跌|下跌|回落|走低|走弱|削弱|疲软|承压|压制|打压|下探|ousted|ouster|dismiss|resign|dovish|weak|fall|fell|down|drop|plummet|plunge|sink|slide|tumble|decline|retreat|loss|lower|weaker|weighs|slump/i;
+  var UP_RE = /涨|上涨|暴涨|攀升|走高|走强|创新高|新高|升至|costly|hike|hawkish|rise|rising|rose|climb|surge|jump|gain|higher|rally|record|strong|soar/i;
+  var FLAT_RE = /hold|holds|steady|unchanged|维持|不变|按兵不动/i;
+  function kwPositions(hay, kw){
+    var pos = [];
+    if(/^[A-Za-z ]+$/.test(kw)){
+      var re = new RegExp("\\b" + kw.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "\\b", "gi");
+      var m;
+      while((m = re.exec(hay)) !== null){ pos.push(m.index); if(m[0].length === 0) re.lastIndex++; }
+    } else {
+      var i = hay.indexOf(kw);
+      while(i !== -1){ pos.push(i); i = hay.indexOf(kw, i + kw.length); }
+    }
+    return pos;
+  }
+  function clauseOf(hay, pos, len){
+    var start = 0, end = hay.length, i;
+    for(i = pos - 1; i >= 0; i--){ if("，、；：:;\n".indexOf(hay[i]) !== -1){ start = i + 1; break; } }
+    for(i = pos + len; i < hay.length; i++){ if("，、；：:;\n".indexOf(hay[i]) !== -1){ end = i; break; } }
+    return {text: hay.slice(start, end), start: start};
+  }
+  function dirInClause(clause, koff, kwLen){
+    // Nearest direction word inside the same clause wins; "steady"/"不变" next to
+    // the keyword means flat. Clause scope keeps verbs attached to their subject.
+    var end = koff + kwLen, best = null, bestGap = Infinity, m, g, d;
+    function scan(re, dir){
+      g = new RegExp(re.source, "gi");
+      while((m = g.exec(clause)) !== null){
+        var s = m.index, e = m.index + m[0].length, gap;
+        if(s >= end) gap = s - end;
+        else if(e <= koff) gap = koff - e;
+        else gap = 0;
+        if(gap < bestGap){ bestGap = gap; best = dir; }
+        if(m[0].length === 0) g.lastIndex++;
+      }
+    }
+    scan(DOWN_RE, "down");
+    scan(UP_RE, "up");
+    var flatGap = Infinity, g2 = new RegExp(FLAT_RE.source, "gi"), m2;
+    while((m2 = g2.exec(clause)) !== null){
+      var s2 = m2.index, e2 = m2.index + m2[0].length, gap2;
+      if(s2 >= end) gap2 = s2 - end;
+      else if(e2 <= koff) gap2 = koff - e2;
+      else gap2 = 0;
+      if(gap2 < flatGap) flatGap = gap2;
+      if(m2[0].length === 0) g2.lastIndex++;
+    }
+    if(flatGap <= 8) return {dir: "flat", gap: flatGap};
+    if(best && bestGap <= 15) return {dir: best, gap: bestGap};
+    return null;
+  }
+  function dirForKeyword(hay, kw){
+    var best = null, bestGap = Infinity;
+    kwPositions(hay, kw).forEach(function(p){
+      var c = clauseOf(hay, p, kw.length);
+      var r = dirInClause(c.text, p - c.start, kw.length);
+      if(!r){
+        var start = Math.max(0, p - 60);
+        var win = hay.slice(start, p + kw.length + 60);
+        if(FLAT_RE.test(win)) r = {dir: "flat", gap: 1e9};
+      }
+      if(r && r.gap < bestGap){ bestGap = r.gap; best = r.dir; }
+    });
+    return best === null ? null : {dir: best, gap: bestGap};
+  }
+  function matchNews(){
+    if(!state.data || !state.news) return [];
+    var kws = Object.keys(state.data.news_keywords).sort(function(a, b){ return b.length - a.length; });
+    var out = [];
+    (state.news.items || []).forEach(function(it){
+      var hay = (it.title || "") + "\n" + (it.summary || "");
+      var hits = {};
+      kws.forEach(function(kw){
+        if(kwPositions(hay, kw).length === 0) return;
+        var r = dirForKeyword(hay, kw);
+        state.data.news_keywords[kw].forEach(function(h){
+          var eff = r ? r.dir : h.effect;
+          if(h.invert && r && r.dir !== "flat") eff = r.dir === "up" ? "down" : "up";
+          var gap = r ? r.gap : Infinity;
+          var cur = hits[h.node];
+          if(!cur || gap < cur.gap) hits[h.node] = {effect: eff, gap: gap};
+        });
+      });
+      var list = Object.keys(hits).map(function(k){ return {node: k, effect: hits[k].effect}; });
+      if(list.length) out.push({item: it, hits: list});
+    });
+    return out;
+  }
+  function renderNews(){
+    var box = document.getElementById("map-news");
+    var matched = matchNews();
+    if(!matched.length){
+      box.innerHTML = '<div class="empty">今日资讯暂无可点亮的节点。</div>';
+      return;
+    }
+    var html = "";
+    matched.slice(0, 8).forEach(function(m, i){
+      var chips = m.hits.map(function(h){
+        var parts = h.node.split(".");
+        var dim = state.data.dimensions[parts[0]];
+        var node = dim.nodes.filter(function(n){ return n.id === parts[1]; })[0];
+        var arr = h.effect === "up" ? "↑" : (h.effect === "down" ? "↓" : "–");
+        return '<span class="hit-chip ' + h.effect + '">' + esc(node ? node.label : parts[1]) + ' ' + arr + ' <span class="dim-tag">' + esc(dim.label.replace("维度", "")) + '</span></span>';
+      }).join("");
+      html += '<div class="map-news-item" role="button" tabindex="0" data-mi="' + i + '">'
+        + '<h3>' + esc(m.item.title) + '</h3>'
+        + '<div class="ni-sum">' + esc(m.item.summary || "") + '</div>'
+        + '<div class="ni-hits">' + chips + '</div></div>';
+    });
+    box.innerHTML = html;
+    box.querySelectorAll(".map-news-item").forEach(function(a){
+      a.addEventListener("click", function(){
+        var m = matched[+a.getAttribute("data-mi")];
+        if(!m) return;
+        var firstDim = m.hits[0].node.split(".")[0];
+        state.newsFx = {};
+        m.hits.forEach(function(h){ state.newsFx[h.node] = h.effect; });
+        state.selected = null;
+        if(state.dim !== firstDim){
+          state.dim = firstDim;
+          document.querySelectorAll(".dim-btn").forEach(function(x){ x.classList.toggle("active", x.getAttribute("data-dim") === firstDim); });
+        }
+        render();
+        if(svg && svg.scrollIntoView) svg.scrollIntoView({behavior: "smooth", block: "nearest"});
+      });
+    });
+  }
+  document.querySelectorAll(".dim-btn").forEach(function(b){
+    b.addEventListener("click", function(){
+      document.querySelectorAll(".dim-btn").forEach(function(x){ x.classList.toggle("active", x === b); });
+      state.dim = b.getAttribute("data-dim");
+      state.selected = null;
+      render();
+    });
+  });
+  Promise.all([
+    fetch("transmission.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("transmission.json 未找到"); return r.json(); }),
+    fetch("news.json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; })
+  ]).then(function(res){
+    state.data = res[0];
+    state.news = res[1];
+    renderCross();
+    render();
+    renderNews();
+  }).catch(function(){
+    document.getElementById("map-news").innerHTML = '<div class="err">传导图谱暂时无法读取，稍后再打开看看。</div>';
   });
 })();
 </script>
