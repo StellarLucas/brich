@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "Kitco",
+      "title": "Gold posts steep weekly loss as Treasury yields rise, Fed tightening bets persist",
+      "url": "https://www.kitco.com/news/article/2026-11-13/gold-posts-steep-weekly-loss-treasury-yields-rise-fed-tightening-bets",
+      "summary": "金价周线大跌，现货金约 3883 美元、白银单日跌 2.63%；10 月 PPI 同比升 6.5%，为 2022 年 11 月以来最高；市场计价美联储 12 月加息 25 个基点概率 89%、50 个基点 11%；10 年期美债收益率逼近 5.15%；布伦特收于 95.84 美元、WTI 88.56 美元，双双连续第二周下跌。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Investopedia",
+      "title": "Markets News, Nov. 13, 2026: S&P 500, Nasdaq Fall as Nvidia, Other Tech Stocks Sink; Major Indexes Post Weekly Gains",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-today-s-and-p-500-nasdaq-11132026-12252143",
+      "summary": "标普与纳指周五收跌、科技股领跌，但全周标普涨 2.5%、纳指涨 2.3%、道指涨 2.1%；比特币跌至约 68300 美元，月内跌约 20%；WTI 约 89.05 美元、金价约 3875 美元；10 年期美债收益率升至 5.15%。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "The Business Times",
+      "title": "European stocks near record highs, US dollar gains on Fed rate hike bets",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/european-stocks-near-record-highs-us-dollar-gains-fed-rate-hike-bets?ref=article-see-also",
+      "summary": "欧洲 Stoxx 600 守在纪录高位附近、周线料收涨；美元指数 103.19，创 2025 年 4 月以来最高，市场押注 12 月加息 50 个基点；欧元约 1.1054 美元；布伦特约 95.45 美元，现货金约 3897 美元。"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Reuters",
       "summary": "亚股周五在英伟达换帅风波后企稳，美元随美债收益率走高；2 年期美债收益率触及 4.892%，10 年期升至 5.1433% 的三周高点，市场计价 12 月美联储加息 50 个基点概率升至 14.5%；布伦特约 95.45 美元，现货金约 3888 美元。",
       "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
@@ -13,27 +34,6 @@
       "summary": "美国 10 月 PPI 环比升 0.3%、同比升 6.5%，核心 PPI 同比升 5%；数据基本锁定美联储 12 月加息 25 个基点，PCE 通胀预计同比升 3.8%、核心升 3.2%。",
       "title": "Higher wholesale inflation points to December rate hike",
       "url": "https://realeconomy.rsmus.com/rising-wholesale-inflation-points-to-december-rate-hike/"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "TradingView",
-      "summary": "美国 10 月 CPI 环比升 0.4%、高于预期的 0.3%，市场强化美联储 12 月加息预期；CME FedWatch 显示加息 50 个基点概率一周内从 0 升至 9.1%，加息 25 个基点概率为 90.9%。",
-      "title": "Markets Are Bracing For Another Fed Rate Hike In December – But Could It Be Twice As Big As Expected?",
-      "url": "https://www.tradingview.com/news/stocktwits:25d67f95b094b:0-markets-are-bracing-for-another-fed-rate-hike-in-december-but-could-it-be-twice-as-big-as-expected/"
-    },
-    {
-      "published_at": "2026-11-10",
-      "source": "Kitco",
-      "summary": "美联储理事沃勒表示通胀过高已危及央行信誉，倾向支持 12 月加息 25 个基点，若 10 月 CPI 偏热则应考虑加息 50 个基点；达拉斯联储主席洛根亦警告通胀加速、可能需更快加息。",
-      "title": "Fed’s Waller and Logan signal readiness to hike higher and faster, with 50 bps on the table for December",
-      "url": "https://www.kitco.com/news/article/2026-11-10/feds-waller-and-logan-signal-readiness-hike-higher-and-faster-50-bps-table"
-    },
-    {
-      "published_at": "2026-11-10",
-      "source": "SRN News",
-      "summary": "路透调查 101 位经济学家一致预计美联储 12 月加息 25 个基点至 4.00%-4.25%，约 55% 认为这将是本轮周期最后一次加息；PCE 通胀预计 2028 年前回不到 2% 目标。",
-      "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll",
-      "url": "https://srnnews.com/fed-to-raise-rates-once-more-in-december-as-inflation-risks-stay-high-reuters-poll/"
     },
     {
       "published_at": "2026-11-13",
@@ -143,6 +143,6 @@
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 05:27"
+    "updated_at": "2026-11-14 07:25"
   }
 }
