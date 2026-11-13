@@ -248,6 +248,7 @@
   <nav class="tabs" role="tablist" aria-label="指数切换">
     <button class="tab active" id="tab-q50" data-view="q50" role="tab" aria-selected="true">q50 高分红<span class="sub">长期持有 · 股息复利</span></button>
     <button class="tab" id="tab-e30" data-view="e30" role="tab" aria-selected="false">e30 ETF 波段<span class="sub">中线波段 · 科技 ETF</span></button>
+    <button class="tab" id="tab-a50" data-view="a50" role="tab" aria-selected="false">A50 美股<span class="sub">行业趋势 · 龙头下探</span></button>
   </nav>
 
   <div id="view-q50" role="tabpanel" aria-labelledby="tab-q50">
@@ -513,6 +514,50 @@
       <p>BRICH · be rich — 中线波段，吃一段就走。</p>
     </footer>
   </div><!-- /view-e30 -->
+
+  <div id="view-a50" role="tabpanel" aria-labelledby="tab-a50" hidden>
+    <div class="stats">
+      <div class="stat" data-goto-a50="sec-a50-hits"><div class="num" id="a50-stat-hits">—</div><div class="lbl">当日下探 &gt; 5%</div></div>
+      <div class="stat" data-goto-a50="sec-a50-hits"><div class="num" id="a50-stat-ind">—</div><div class="lbl">涉及行业</div></div>
+      <div class="stat" data-goto-a50="a50-wl-sec"><div class="num" id="a50-stat-count">51</div><div class="lbl">观察只数</div></div>
+      <div class="stat" data-goto-a50="a50-wl-sec"><div class="num" id="a50-stat-avgdd">—</div><div class="lbl">平均回撤</div></div>
+    </div>
+    <div class="breadth" id="a50-breadth"></div>
+
+    <section id="sec-a50-hits">
+      <h2>当日下探 &gt; 5%（短期参考）</h2>
+      <p class="sec-sub">盘中下探深度 =（前收 − 盘中最低）/ 前收。超过 5% 即触发，即使收盘收回来也算——下探过的地方，说明有人在抛。美股龙头涨跌是 A 股同行业的短期信号：半导体、机器人这些行业，美股跌 A 股大概率跟跌，美股涨 A 股大概率跟涨。</p>
+      <div id="a50-hits"></div>
+    </section>
+
+    <section id="a50-wl-sec">
+      <h2>A50 全名单（按行业分组）</h2>
+      <p class="sec-sub">美国各行业代表股 51 只，不按市值排。搜名字或代码，换排序快速找股票。下探 &gt; 5% 的标红。</p>
+      <div class="tools">
+        <input id="a50-q" type="search" placeholder="搜名字 / 代码，如 英伟达 或 NVDA" aria-label="搜索美股">
+        <select id="a50-sort" aria-label="排序">
+          <option value="dip">按下探 ↓</option>
+          <option value="change">按涨跌幅 ↓</option>
+          <option value="drawdown">按回撤 ↓</option>
+        </select>
+      </div>
+      <div id="a50-wl"></div>
+      <p class="tbl-note" id="a50-wl-note"></p>
+    </section>
+
+    <section>
+      <h2>行业联动（美股 → A 股）</h2>
+      <p class="sec-sub">定性对照，不是交易信号。美股某行业下探，A 股同行业可能共振；反之亦然。</p>
+      <div class="rules" id="a50-linkage"></div>
+    </section>
+
+    <footer>
+      <p>数据来源：新浪美股公开行情（hq.sinajs.cn）；现价与 52 周最高取自同一数据源、同一除权口径。</p>
+      <p>更新：美股收盘后更新一次（北京时间早上）。盘中下探以当日收盘数据为准。</p>
+      <p>本页面是按既定规则自动筛选的结果，不是投资建议。投资有风险，入市需谨慎。</p>
+      <p>BRICH · be rich — 看美股龙头，定 A 股行业方向。</p>
+    </footer>
+  </div><!-- /view-a50 -->
 </div>
 
 <div class="modal" id="stock-modal" aria-hidden="true">
@@ -524,14 +569,15 @@
 </div>
 
 <script>
-/* ---- index tabs (q50 / e30): instant switch, no reload; choice persisted ---- */
+/* ---- index tabs (q50 / e30 / a50): instant switch, no reload; choice persisted ---- */
 (function(){
   var taglines = {
     q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
-    e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。'
+    e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。',
+    a50: '<b>看美股龙头 · 定 A 股方向</b><br>只盯 51 只美股各行业代表，盘中下探超 5% 即信号，行业共振看 A 股同行业。'
   };
   var tabs = document.querySelectorAll(".tab[data-view]");
-  var views = { q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30") };
+  var views = { q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50") };
   var tagline = document.getElementById("tagline");
   function show(view){
     if(!views[view]) view = "q50";
@@ -542,6 +588,7 @@
     });
     views.q50.hidden = view !== "q50";
     views.e30.hidden = view !== "e30";
+    views.a50.hidden = view !== "a50";
     if(tagline) tagline.innerHTML = taglines[view];
     try { localStorage.setItem("brich-view", view); } catch(e){}
     if(location.hash !== "#" + view){
@@ -554,9 +601,10 @@
   });
   var initial = "q50";
   if(location.hash === "#e30") initial = "e30";
+  else if(location.hash === "#a50") initial = "a50";
   else if(location.hash === "#q50") initial = "q50";
   else {
-    try { var saved = localStorage.getItem("brich-view"); if(saved === "e30" || saved === "q50") initial = saved; } catch(e){}
+    try { var saved = localStorage.getItem("brich-view"); if(saved === "e30" || saved === "q50" || saved === "a50") initial = saved; } catch(e){}
   }
   show(initial);
 })();
@@ -1475,6 +1523,137 @@
     bindE30Tap("e30-hits"); bindE30Tap("e30-setups"); bindE30Tap("e30-discount-list"); bindE30Tap("e30-wl");
   }).catch(function(){
     noData("e30 数据还在编制中，稍后再打开看看。");
+  });
+})();
+
+/* ---- A50 US view: reads us-a50.json; missing file -> "暂无数据" (q50/e30 tabs unaffected) ---- */
+(function(){
+  var el = function(id){ return document.getElementById(id); };
+  function pct(v, d){ if(v===null||v===undefined||isNaN(v)) return "—"; return (v>0?"+":"")+v.toFixed(d===undefined?2:d)+"%"; }
+  function cls(v){ return v===null||v===undefined ? "" : (v>0?"up":(v<0?"down":"")); }
+  function money(v){ return v===null||v===undefined ? "—" : "$" + Number(v).toFixed(2); }
+  /* US industry -> A-share industry linkage (static; see us-cn-industry-map.md) */
+  var LINK = {
+    "半导体": {cn: "半导体", note: "NVDA/台积电/ASML 动，A 股半导体同向；存储（美光）动，A 股存储跟动。"},
+    "软件/云": {cn: "软件、通信设备", note: "微软/谷歌/Oracle 动，A 股软件与算力链同向。"},
+    "互联网": {cn: "互联网、传媒", note: "亚马逊/Meta/奈飞动，A 股互联网与传媒同向。"},
+    "硬件": {cn: "消费电子、汽车", note: "苹果动，A 股果链同向；特斯拉动，A 股新能源车链同向。"},
+    "医疗": {cn: "医药生物", note: "礼来/默克/艾伯维动，A 股创新药同向。"},
+    "金融": {cn: "银行、保险、证券", note: "摩根大通/高盛动，A 股大金融同向。"},
+    "能源": {cn: "石油石化、煤炭", note: "埃克森美孚/雪佛龙动，A 股三桶油与煤炭同向；油价是共同驱动。"},
+    "消费": {cn: "食品饮料、家电、商贸零售", note: "沃尔玛/好市多/麦当劳动，A 股消费同向。"},
+    "工业": {cn: "机械设备、国防军工、交运", note: "卡特彼勒/波音/GE 动，A 股工程机械与军工同向；罗克韦尔自动化动，A 股机器人/工控同向。"},
+    "传媒": {cn: "传媒", note: "迪士尼动，A 股传媒与院线同向。"},
+    "材料": {cn: "有色金属、基础化工", note: "林德动，A 股工业气体与化工同向。"},
+    "公用事业": {cn: "电力", note: "NextEra 动，A 股电力同向。"},
+    "房地产": {cn: "房地产", note: "美国电塔动，A 股基建与地产链弱联动（参考）。"},
+    "日用消费品": {cn: "食品饮料、日化", note: "宝洁/可口可乐动，A 股必选消费同向。"}
+  };
+  var IND_ORDER = ["半导体","软件/云","互联网","硬件","医疗","金融","能源","消费","工业","传媒","材料","公用事业","房地产","日用消费品"];
+  function noData(msg){
+    var b = el("a50-breadth"); if(b) b.textContent = msg;
+    var h = el("a50-hits"); if(h) h.innerHTML = '<div class="empty">' + msg + '</div>';
+    var w = el("a50-wl"); if(w) w.innerHTML = '<div class="empty">' + msg + '</div>';
+    var l = el("a50-linkage"); if(l) l.innerHTML = '<ol><li>' + msg + '</li></ol>';
+  }
+  document.querySelectorAll(".stat[data-goto-a50]").forEach(function(s){
+    s.addEventListener("click", function(){
+      var t = document.getElementById(s.getAttribute("data-goto-a50"));
+      if(t) t.scrollIntoView({behavior:"smooth", block:"start"});
+    });
+  });
+  var q50Data = null;
+  function q50StageForIndustry(cnIndustries){
+    if(!q50Data || !q50Data.watchlist) return [];
+    var out = [];
+    var want = cnIndustries.split("、");
+    q50Data.watchlist.forEach(function(w){
+      if(w.stage && (w.stage === "可入场" || w.stage === "关注")){
+        for(var i=0;i<want.length;i++){
+          if(w.industry && w.industry.indexOf(want[i]) !== -1){ out.push(w.name + "（" + w.stage + "）"); break; }
+        }
+      }
+    });
+    return out;
+  }
+  Promise.all([
+    fetch("us-a50.json", {cache:"no-store"}).then(function(r){ if(!r.ok) throw new Error("us-a50.json 未找到"); return r.json(); }),
+    fetch("data.json", {cache:"no-store"}).then(function(r){ return r.ok ? r.json() : null; }).catch(function(){ return null; })
+  ]).then(function(res){
+    var d = res[0]; q50Data = res[1];
+    var stocks = d.stocks || [];
+    var trig = stocks.filter(function(s){ return s.triggered; });
+    var indSet = {};
+    trig.forEach(function(s){ indSet[s.industry] = true; });
+    var indCount = Object.keys(indSet).length;
+    el("a50-stat-hits").textContent = trig.length;
+    el("a50-stat-ind").textContent = indCount;
+    var avgDd = 0, nDd = 0;
+    stocks.forEach(function(s){ if(s.drawdown52!==null&&s.drawdown52!==undefined){ avgDd += s.drawdown52; nDd++; } });
+    el("a50-stat-avgdd").textContent = nDd ? (avgDd/nDd).toFixed(1) + "%" : "—";
+    var bEl = el("a50-breadth");
+    if(bEl){
+      bEl.innerHTML = "数据日期 <b>" + (d.meta.data_date || "—") + "（美股）</b> · 更新于 " + (d.meta.updated_at || "—") + "：当日 " + trig.length + " 只盘中下探超 5%，涉及 " + indCount + " 个行业。" + (trig.length ? "下探过的行业，A 股同行业可能共振。" : "今日无下探超 5% 的龙头，行业面平静。");
+    }
+    var hBox = el("a50-hits");
+    if(!trig.length){
+      hBox.innerHTML = '<div class="empty">今日无下探超 5% 的股票。</div>';
+    } else {
+      hBox.innerHTML = trig.map(function(s){
+        var link = LINK[s.industry] || {};
+        var q50 = q50StageForIndustry(link.cn || "");
+        var linkLine = '<div class="hit-reason">美股' + s.industry + '下探 → A 股' + (link.cn || "") + '可能共振。' + (link.note || "") + (q50.length ? ' q50 中同行业在信号状态：' + q50.join("、") + '。' : '') + '</div>';
+        return '<article class="hit" data-code="' + s.code + '">' +
+          '<div class="hit-head"><span class="hit-name">' + s.name + '</span>' +
+          '<span class="hit-code">' + s.code + '</span>' +
+          '<span class="hit-ind">' + s.industry + '</span>' +
+          '<span class="badges"><span class="badge vetoed">下探 ' + s.dip_pct.toFixed(1) + '%</span></span></div>' +
+          '<div class="metrics">' +
+            '<div class="metric"><div class="k">现价</div><div class="v">' + money(s.price) + '</div></div>' +
+            '<div class="metric"><div class="k">涨跌幅</div><div class="v ' + cls(s.change_pct) + '">' + pct(s.change_pct, 2) + '</div></div>' +
+            '<div class="metric"><div class="k">盘中下探</div><div class="v">' + (s.dip_pct!==null&&s.dip_pct!==undefined?s.dip_pct.toFixed(2)+"%":"—") + '</div></div>' +
+            '<div class="metric"><div class="k">52周回撤</div><div class="v">' + (s.drawdown52!==null&&s.drawdown52!==undefined?s.drawdown52.toFixed(1)+"%":"—") + '</div></div>' +
+          '</div>' + linkLine + '</article>';
+      }).join("");
+    }
+    var lk = el("a50-linkage");
+    if(lk){
+      lk.innerHTML = '<ol>' + IND_ORDER.map(function(ind){
+        var l = LINK[ind];
+        return '<li><b>美股' + ind + ' → A 股' + l.cn + '</b>：' + l.note + '</li>';
+      }).join("") + '</ol>';
+    }
+    var q = el("a50-q"), sortSel = el("a50-sort");
+    function renderList(){
+      var query = (q.value || "").trim().toLowerCase();
+      var sort = sortSel.value;
+      var list = stocks.filter(function(s){
+        if(!query) return true;
+        return s.name.toLowerCase().indexOf(query) !== -1 || s.code.toLowerCase().indexOf(query) !== -1 || s.industry.indexOf(query) !== -1;
+      });
+      var html = "";
+      IND_ORDER.forEach(function(ind){
+        var group = list.filter(function(s){ return s.industry === ind; });
+        if(!group.length) return;
+        group.sort(function(a, b){
+          if(sort === "change") return (a.change_pct||0) - (b.change_pct||0);
+          if(sort === "drawdown") return (b.drawdown52||0) - (a.drawdown52||0);
+          return (b.dip_pct||0) - (a.dip_pct||0);
+        });
+        html += '<h3 style="margin:1rem 0 .4rem">' + ind + '（' + group.length + ' 只）</h3><div class="tbl-wrap"><table><thead><tr><th>股票</th><th>现价</th><th>涨跌幅</th><th>盘中下探</th><th>52周回撤</th><th>状态</th></tr></thead><tbody>';
+        group.forEach(function(s){
+          html += '<tr' + (s.triggered ? ' style="background:#fdf0ef"' : '') + '><td><b>' + s.name + '</b> ' + s.code + '</td><td>' + money(s.price) + '</td><td class="' + cls(s.change_pct) + '">' + pct(s.change_pct, 2) + '</td><td>' + (s.dip_pct!==null&&s.dip_pct!==undefined?s.dip_pct.toFixed(2)+"%":"—") + '</td><td>' + (s.drawdown52!==null&&s.drawdown52!==undefined?s.drawdown52.toFixed(1)+"%":"—") + '</td><td>' + (s.triggered ? '<span class="badge vetoed">下探 &gt; 5%</span>' : '—') + '</td></tr>';
+        });
+        html += '</tbody></table></div>';
+      });
+      el("a50-wl").innerHTML = html || '<div class="empty">没有匹配的股票。</div>';
+      el("a50-wl-note").textContent = "共 " + stocks.length + " 只 · 数据日期 " + (d.meta.data_date || "—") + "（美股）· 下探 =（前收 − 盘中最低）/ 前收，超 5% 标红。";
+    }
+    q.addEventListener("input", renderList);
+    sortSel.addEventListener("change", renderList);
+    renderList();
+  }).catch(function(){
+    noData("A50 美股数据还在编制中，稍后再打开看看。");
   });
 })();
 </script>
