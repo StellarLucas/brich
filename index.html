@@ -1952,7 +1952,7 @@
 (function(){
   var svg = document.getElementById("map-svg");
   var NS = "http://www.w3.org/2000/svg";
-  var BW = 112, BH = 46, PITCH = 58, LAYER_W = 128, PAD = 8;
+  var BW = 112, BH = 46, PITCH = 96, LAYER_W = 192, PAD = 8;
   // mobile vertical layout: tall gaps so edge labels sit in clear space, never on node text
   var VPX = 128, VCOLS = 3, VSUB = 84, VGAP = 92, BOT_PAD = 32, VDIP = 14;
   var VSUB_GAP = VSUB - BH; // 38px between sub-rows
@@ -2087,11 +2087,72 @@
     }
     return { segs: segs, label: { x: lx, y: lowY + 11, text: label, yMin: lowY + 11, yMax: floorY - 10 } };
   }
+  // ---- horizontal-mode edge routing (manhattan via row-gap / column channels) ----
+  // column gaps are 80px wide (LAYER_W 192 - BW 112), row gaps 38px (PITCH 84 - BH 46):
+  // both wide enough for an edge label to sit in clear space, never on node text.
+  function hChannelX(l){ return PAD + l * LAYER_W + BW + (LAYER_W - BW) / 2; } // centre of the channel between col l and l+1
+  function hGapY(r){ return PAD + r * PITCH + BH + (PITCH - BH) / 2; } // centre of the gap below row r
+  function hFindNode(dim, id){
+    var i; for(i = 0; i < dim.nodes.length; i++){ if(dim.nodes[i].id === id) return dim.nodes[i]; } return null;
+  }
+  function hRowOf(dim, L, id){
+    var n = hFindNode(dim, id), i, c = 0;
+    for(i = 0; i < dim.nodes.length; i++){
+      if(dim.nodes[i].layer === n.layer){ if(dim.nodes[i].id === id) break; c++; }
+    }
+    return c;
+  }
+  // Route one edge in horizontal mode. Returns {cubic:[...]} or {segs:[...]} + label pref + bounds.
+  function hRoute(e, pos, dim, L){
+    var s = pos[e.from], t = pos[e.to];
+    var sNode = hFindNode(dim, e.from), tNode = hFindNode(dim, e.to);
+    var label = (e.effect === "up" ? "↑ " : "↓ ") + e.label;
+    var sx = s.x + BW, sy = s.y + BH / 2, tx = t.x, ty = t.y + BH / 2;
+    var layerDiff = tNode.layer - sNode.layer;
+    var sRow = hRowOf(dim, L, e.from);
+    var midY = (sy + ty) / 2;
+    if(layerDiff === 1){
+      // adjacent: cubic through the wide column gap; the curve stays inside the channel
+      var mx = (sx + tx) / 2;
+      return { cubic: [sx, sy, mx, sy, mx, ty, tx, ty],
+               label: { x: mx, y: midY - 4, text: label, yMin: Math.min(sy, ty) - 20, yMax: Math.max(sy, ty) + 20 } };
+    }
+    if(layerDiff >= 2){
+      // spanning: manhattan via a row-gap channel (clear across every column)
+      var chA = hChannelX(sNode.layer), chB = hChannelX(tNode.layer - 1);
+      var gap = (ty >= sy) ? hGapY(sRow) : hGapY(Math.max(0, sRow - 1));
+      var segs = [[sx, sy, chA, sy], [chA, sy, chA, gap], [chA, gap, chB, gap], [chB, gap, chB, ty], [chB, ty, tx, ty]];
+      return { segs: segs,
+               label: { x: (chA + chB) / 2, y: gap - 4, text: label, yMin: gap - 10, yMax: gap + 17 } };
+    }
+    if(layerDiff === 0){
+      // same layer: via the channel left of the column (right channel if layer 0);
+      // label right-aligned in the channel (box ends 8px before the next column),
+      // lane pushed to the far side of the channel so it clears the label text.
+      var lw = vTextW(label);
+      if(sNode.layer > 0){
+        var chL = hChannelX(sNode.layer - 1), laneL = chL - 36;
+        var segsL = [[s.x, sy, laneL, sy], [laneL, sy, laneL, ty], [laneL, ty, t.x, ty]];
+        return { segs: segsL,
+                 label: { x: chL + 32 - lw / 2, y: midY - 4, text: label, yMin: Math.min(sy, ty) - 16, yMax: Math.max(sy, ty) + 16 } };
+      }
+      var chR = hChannelX(0), laneR = chR + 36;
+      var segsR = [[sx, sy, laneR, sy], [laneR, sy, laneR, ty], [laneR, ty, tx, ty]];
+      return { segs: segsR,
+               label: { x: chR - 32 + lw / 2, y: midY - 4, text: label, yMin: Math.min(sy, ty) - 16, yMax: Math.max(sy, ty) + 16 } };
+    }
+    // backward: mirror of spanning, travelling left at a row gap
+    var chA2 = hChannelX(sNode.layer - 1), chB2 = hChannelX(tNode.layer);
+    var gap2 = (ty >= sy) ? hGapY(sRow) : hGapY(Math.max(0, sRow - 1));
+    var segsB = [[s.x, sy, chA2, sy], [chA2, sy, chA2, gap2], [chA2, gap2, chB2, gap2], [chB2, gap2, chB2, ty], [chB2, ty, t.x + BW, ty]];
+    return { segs: segsB,
+             label: { x: (chA2 + chB2) / 2, y: gap2 - 4, text: label, yMin: gap2 - 10, yMax: gap2 + 17 } };
+  }
   // Greedy label de-collision: each label tries offsets until it clears placed labels (8px) and nodes (8px).
   function placeLabels(labels, nodes, W){
     var placed = [], sorted = labels.slice().sort(function(a, b){ return (a.y - b.y) || (a.x - b.x); });
     var out = [], i, j, k, lb, w, cands, seen, cx, cy, box, chosen, bad;
-    var dys = [0, 12, 24, -12, 36, -24], dxs = [0, -30, 30, -60, 60];
+    var dys = [0, 12, 24, -12, 36, -24, 48, -48], dxs = [0, -30, 30, -60, 60, -90, 90];
     for(i = 0; i < sorted.length; i++){
       lb = sorted[i]; w = vTextW(lb.text); cands = []; seen = {};
       for(j = 0; j < dys.length; j++) for(k = 0; k < dxs.length; k++){
@@ -2191,6 +2252,19 @@
       vPlaced = {};
       placeLabels(rawLabels, checkNodes, L.W).forEach(function(p){ vPlaced[p.edge] = p; });
     }
+    var hRoutes = null, hPlaced = null;
+    if(!L.vertical){
+      hRoutes = {};
+      var rawLabelsH = [];
+      dim.edges.forEach(function(e){
+        var r = hRoute(e, pos, dim, L);
+        hRoutes[e.from + "->" + e.to] = r;
+        rawLabelsH.push({ x: r.label.x, y: r.label.y, text: r.label.text, yMin: r.label.yMin, yMax: r.label.yMax, edge: e.from + "->" + e.to });
+      });
+      var checkNodesH = dim.nodes.map(function(n){ return { id: n.id, r: { x1: pos[n.id].x, y1: pos[n.id].y, x2: pos[n.id].x + BW, y2: pos[n.id].y + BH } }; });
+      hPlaced = {};
+      placeLabels(rawLabelsH, checkNodesH, L.W).forEach(function(p){ hPlaced[p.edge] = p; });
+    }
     dim.edges.forEach(function(e){
       var s = pos[e.from], t = pos[e.to];
       if(!s || !t) return;
@@ -2207,15 +2281,16 @@
           for(var i = 0; i < r.segs.length; i++){ d += " L " + r.segs[i][2] + " " + r.segs[i][3]; }
         }
       } else {
-        sx = s.x + BW; sy = s.y + BH / 2; tx = t.x; ty = t.y + BH / 2;
-        if(s.x === t.x){
-          var bx = sx + 34;
-          d = "M " + sx + " " + sy + " C " + bx + " " + sy + ", " + bx + " " + ty + ", " + tx + " " + ty;
+        var hr = hRoutes[e.from + "->" + e.to];
+        var hlb = hPlaced[e.from + "->" + e.to];
+        lx = hlb.x; ly = hlb.y;
+        if(hr.cubic){
+          var hc = hr.cubic;
+          d = "M " + hc[0] + " " + hc[1] + " C " + hc[2] + " " + hc[3] + ", " + hc[4] + " " + hc[5] + ", " + hc[6] + " " + hc[7];
         } else {
-          var mx = (sx + tx) / 2;
-          d = "M " + sx + " " + sy + " C " + mx + " " + sy + ", " + mx + " " + ty + ", " + tx + " " + ty;
+          d = "M " + hr.segs[0][0] + " " + hr.segs[0][1];
+          for(var j = 0; j < hr.segs.length; j++){ d += " L " + hr.segs[j][2] + " " + hr.segs[j][3]; }
         }
-        lx = (s.x === t.x) ? sx + 26 : (sx + tx) / 2; ly = (sy + ty) / 2 - 4;
       }
       gEdges.appendChild(el("path", {d: d, "class": "map-edge", "data-from": e.from, "data-to": e.to, "marker-end": "url(#arr)"}));
       var lt = el("text", {x: lx, y: ly, "class": "map-edge-label", "text-anchor": "middle", "data-from": e.from, "data-to": e.to});
