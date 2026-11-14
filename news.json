@@ -1,32 +1,46 @@
 {
   "items": [
     {
+      "published_at": "2026-11-15",
+      "source": "World Money Roadmap",
+      "title": "Nvidia Earnings and Anthropic IPO Test the AI Trade Next Week",
+      "url": "https://worldmoneyroadmap.com/en/reports/2026-11-15-preview/",
+      "summary": "下周关键日程：周二公布 10 月零售销售与英伟达财报（营收指引 1080 亿美元），周三公布 FOMC 会议纪要，周四 Anthropic 预计纳斯达克上市；市场已完全计价美联储 12 月加息，10 年期美债收益率约 5.15%。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "CCN",
+      "title": "Jensen Huang Exit Divides AI Traders: Nvidia Shorts, Anthropic Longs",
+      "url": "https://www.ccn.com/news/crypto/huang-exit-nvidia-shorts-anthropic-longs/",
+      "summary": "黄仁勋离任后，英伟达 11 月 17 日财报与 Anthropic IPO 成为下周 AI 交易的两大考验；Anthropic 拟 11 月 18 日定价、19 日在纳斯达克上市，估值最高约 1.4 万亿美元。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Capital Street FX",
+      "title": "Week Ahead: Fed Minutes, US Retail Sales And Nvidia Earnings Test The S&P 500 At 7,562",
+      "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-14-nov-2026/",
+      "summary": "标普 500 收于 7562 点附近；市场已完全计价美联储 12 月加息（25 个基点概率约 85–89%），美元指数处 19 个月高位；下周看点为零售销售、英伟达财报与 FOMC 会议纪要。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Financial News",
+      "title": "The Weekly Close: Wall Street Climbs as Chip Stocks Split",
+      "url": "https://www.financial-news.co.uk/the-weekly-close-wall-street-climbs-as-chip-stocks-split/",
+      "summary": "美股本周收涨，标普 500 周涨 1.54%、纳斯达克 100 涨 2.56%，结束四连跌；芯片股严重分化，英伟达周跌 9.57%，10 年期美债收益率升至 5.10%。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Europe Says",
+      "title": "European stocks close at another record as insurers and oil majors offset a chip selloff, capping the STOXX 600's best week since June",
+      "url": "https://www.europesays.com/3374011/",
+      "summary": "欧洲 STOXX 600 再创收盘新高，创 6 月以来最佳一周；保险与石油股上涨抵消芯片股抛售，英飞凌跌 4.3%、ASML 跌 2.8%，跟随美股 AI 股走弱。"
+    },
+    {
       "published_at": "2026-11-14",
       "source": "Wall Street Journal",
       "title": "Asia's Stock Rebound Fades as Nvidia Uncertainty Lingers",
       "url": "https://www.wsj.com/finance/stocks/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15",
       "summary": "亚洲科技股反弹乏力，纳斯达克 100 期货跌 0.4%；布伦特原油约 96 美元、金价约 3902 美元；美元指数处于 19 个月高位附近，继续压制亚洲货币。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Bloomberg",
-      "title": "Stocks Gain as Fed Bets Face Fresh Inflation Test: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-gain-as-fed-bets-face-fresh-inflation-test:-markets-wrap/92374084",
-      "summary": "美股期货小幅走高，市场等待 10 月 PPI 数据；布伦特原油约 96 美元、现货金约 3894 美元；通胀数据将检验美联储进一步加息的预期。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Bloomberg",
-      "title": "Stocks Slip as Nvidia Jitters Linger, Bonds Slump: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-slip-as-nvidia-jitters-linger,-bonds-slump:-markets-wrap/92374084",
-      "summary": "美股小幅走低，纳斯达克 100 期货跌 0.3%、标普 500 期货跌 0.2%；日本与澳洲国债收益率跳升，跟随美债抛售；英伟达周四收跌 4.3% 后市场仍在消化其领导层变动的影响。"
-    },
-    {
-      "published_at": "2026-11-04",
-      "source": "Chase",
-      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
-      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
-      "summary": "美联储、欧洲央行、日本央行、澳洲联储等多家主要央行 2026 年均已加息；美联储 9 月加息 25 个基点至 3.75%–4.00%，市场普遍预计 12 月再加息一次。"
     },
     {
       "published_at": "2026-11-14",
@@ -50,46 +64,11 @@
       "summary": "IMF 将 2026 年全球增长预测上调至 3.1%、2027 年为 3.4%，但警告中东局势导致的油价冲击与高企的公共债务压缩了各国应对冲击的空间。"
     },
     {
-      "published_at": "2026-11-13",
-      "source": "CNBC",
-      "title": "What’s ahead for AI financing after Nvidia CEO Jensen Huang departs",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-      "summary": "黄仁勋离任尚未对信贷市场造成广泛冲击，但英伟达为 AI 行业扩张提供的融资安排可能生变，公司预计仍会履行已宣布的承诺。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "CNBC",
-      "title": "What investors should watch as Nvidia turmoil reshuffles the AI trade",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html",
-      "summary": "英伟达动荡引发 AI 交易重新定价，AMD、博通等芯片股被买入，CoreWeave 等新云厂商与戴尔等 AI 服务器股承压；下周英伟达财报与 Anthropic IPO 成关键考验。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "CNBC",
-      "title": "HSBC downgrades Nvidia, says stock to struggle until new CEO named",
-      "url": "https://www.cnbc.com/2026/11/13/hsbc-downgrades-nvidia-says-stock-to-struggle-until-new-ceo-named.html",
-      "summary": "汇丰将英伟达下调至持有，认为在公布永久继任方案前不确定性将持续；英伟达本周跌近 13%、年内转跌，CFO 科莱特·克雷斯任临时 CEO。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "CNBC",
-      "title": "Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates",
-      "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
-      "summary": "美股周五收跌，纳指跌 0.91%、标普跌 0.40%，道指微涨 0.10% 至 52347.55 点；英伟达再跌 2.01% 至 162.85 美元，但三大指数当周仍涨约 2%，为纳指自 8 月以来最好一周；比特币自 8 月以来首次跌破 7 万美元。"
-    },
-    {
       "published_at": "2026-11-14",
       "source": "Stocks Today",
       "title": "At 5.15%, the 10-Year Treasury Picks the Winners",
       "url": "https://stockstoday.com/at-5-15-the-10-year-treasury-picks-the-winners/",
       "summary": "标普 500 本周涨 2.5%、结束四连跌，10 年期美债收益率升至 5.15%；市场计价美联储 12 月加息几成定局；伯克希尔 B 股收创纪录 592.94 美元，德国 DAX 创历史新高；下周看点为美联储主席沃什讲话与英伟达财报。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "title": "World oil market is returning to surplus as Gulf exports recover, IEA says",
-      "url": "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/",
-      "summary": "IEA 称全球油市四季度重回过剩，四季度供应日均 1.05 亿桶、较需求预测高 170 万桶；海湾产油国出口通过“暗渡”等方式恢复；布伦特原油收于 95.84 美元，连续第二周下跌。"
     },
     {
       "published_at": "2026-11-14",
@@ -135,14 +114,35 @@
     },
     {
       "published_at": "2026-11-13",
-      "source": "CoinDesk",
-      "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
-      "url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
-      "summary": "彭博报道称 SpaceX 与特斯拉的合并谈判已进入条款协商阶段，合并后估值约 3.5 万亿美元，最早可能 12 月宣布；两家公司合计持有约 3.02 万枚比特币，约合 21 亿美元；特斯拉中国业务与 SpaceX 美国国防业务的隔离仍是主要障碍。"
+      "source": "Bloomberg",
+      "title": "Stocks Gain as Fed Bets Face Fresh Inflation Test: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-gain-as-fed-bets-face-fresh-inflation-test:-markets-wrap/92374084",
+      "summary": "美股期货小幅走高，市场等待 10 月 PPI 数据；布伦特原油约 96 美元、现货金约 3894 美元；通胀数据将检验美联储进一步加息的预期。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "Stocks Slip as Nvidia Jitters Linger, Bonds Slump: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-slip-as-nvidia-jitters-linger,-bonds-slump:-markets-wrap/92374084",
+      "summary": "美股小幅走低，纳斯达克 100 期货跌 0.3%、标普 500 期货跌 0.2%；日本与澳洲国债收益率跳升，跟随美债抛售；英伟达周四收跌 4.3% 后市场仍在消化其领导层变动的影响。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CNBC",
+      "title": "What’s ahead for AI financing after Nvidia CEO Jensen Huang departs",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "summary": "黄仁勋离任尚未对信贷市场造成广泛冲击，但英伟达为 AI 行业扩张提供的融资安排可能生变，公司预计仍会履行已宣布的承诺。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CNBC",
+      "title": "What investors should watch as Nvidia turmoil reshuffles the AI trade",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html",
+      "summary": "英伟达动荡引发 AI 交易重新定价，AMD、博通等芯片股被买入，CoreWeave 等新云厂商与戴尔等 AI 服务器股承压；下周英伟达财报与 Anthropic IPO 成关键考验。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 05:25"
+    "updated_at": "2026-11-15 07:25"
   }
 }
