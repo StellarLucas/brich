@@ -2,6 +2,55 @@
   "items": [
     {
       "published_at": "2026-11-14",
+      "source": "CNBC",
+      "title": "Nvidia board urged to consider potential return of Jensen Huang by two major investors",
+      "url": "https://www.cnbc.com/2026/11/14/nvidia-board-jensen-huang-return-investors.html",
+      "summary": "两名主要投资者敦促英伟达董事会考虑让黄仁勋回归；黄仁勋辞任后英伟达股价本周大跌，临时 CEO 由 CFO 科莱特·克雷斯担任。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "CNBC",
+      "title": "Chicago Fed's Goolsbee says inflation is the biggest risk to the economy",
+      "url": "https://www.cnbc.com/2026/11/14/chicago-feds-goolsbee-says-inflation-is-the-biggest-risk-to-the-economy.html",
+      "summary": "芝加哥联储主席古尔斯比表示通胀是美国经济面临的最大风险；市场计价美联储 12 月加息 25 个基点概率接近 87%，10 年期美债收益率约 5.14%。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "The Asian Banker",
+      "title": "IMF raises 2026 global growth forecast to 3.1% as inflation and AI sell-off test market resilience",
+      "url": "https://www.theasianbanker.com/updates-and-articles/imf-raises-2026-global-growth-forecast-to-3-1-as-inflation-and-ai-sell-off-test-market-resilience",
+      "summary": "IMF 将 2026 年全球增长预测上调至 3.1%、2027 年为 3.4%，但警告中东局势导致的油价冲击与高企的公共债务压缩了各国应对冲击的空间。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CNBC",
+      "title": "What’s ahead for AI financing after Nvidia CEO Jensen Huang departs",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
+      "summary": "黄仁勋离任尚未对信贷市场造成广泛冲击，但英伟达为 AI 行业扩张提供的融资安排可能生变，公司预计仍会履行已宣布的承诺。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CNBC",
+      "title": "What investors should watch as Nvidia turmoil reshuffles the AI trade",
+      "url": "https://www.cnbc.com/2026/11/13/nvidia-ceo-exit-amd-broadcom-and-ai-trade-fallout-.html",
+      "summary": "英伟达动荡引发 AI 交易重新定价，AMD、博通等芯片股被买入，CoreWeave 等新云厂商与戴尔等 AI 服务器股承压；下周英伟达财报与 Anthropic IPO 成关键考验。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CNBC",
+      "title": "HSBC downgrades Nvidia, says stock to struggle until new CEO named",
+      "url": "https://www.cnbc.com/2026/11/13/hsbc-downgrades-nvidia-says-stock-to-struggle-until-new-ceo-named.html",
+      "summary": "汇丰将英伟达下调至持有，认为在公布永久继任方案前不确定性将持续；英伟达本周跌近 13%、年内转跌，CFO 科莱特·克雷斯任临时 CEO。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CNBC",
+      "title": "Nasdaq falls on Friday as Nvidia sells off, but index notches best week since August: Live updates",
+      "url": "https://www.cnbc.com/2026/11/12/stock-market-today-live-updates.html",
+      "summary": "美股周五收跌，纳指跌 0.91%、标普跌 0.40%，道指微涨 0.10% 至 52347.55 点；英伟达再跌 2.01% 至 162.85 美元，但三大指数当周仍涨约 2%，为纳指自 8 月以来最好一周；比特币自 8 月以来首次跌破 7 万美元。"
+    },
+    {
+      "published_at": "2026-11-14",
       "source": "Stocks Today",
       "title": "At 5.15%, the 10-Year Treasury Picks the Winners",
       "url": "https://stockstoday.com/at-5-15-the-10-year-treasury-picks-the-winners/",
@@ -90,59 +139,10 @@
       "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
       "url": "https://www.reuters.com/business/neoclouds-ai-stocks-slide-again-nvidia-turmoil-rattles-sector-2026-11-13/",
       "summary": "周五 AI 相关股再度大跌，纳指 100 跌 2.2%、费城半导体指数跌 6%，CoreWeave 跌 10.8%、Nebius 跌 12.1%；AMD 跌 10.2%、博通跌 6.7%；市场担忧黄仁勋离任后英伟达对 AI 行业的融资支持生变，下周英伟达财报与 Anthropic 上市成关键。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Bloomberg",
-      "title": "Stocks Fluctuate After Huang's Ouster, Bonds Slump: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-fluctuate-after-huangs-ouster,-bonds-slump:-markets-wrap/92374084",
-      "summary": "英伟达换帅后美股震荡、债市下跌，10 年期美债收益率约 5.12%、日本 10 年期升至 2.865%；比特币跌破 7 万美元；市场等待周五 PPI 数据以判断美联储利率路径。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "The National News",
-      "title": "Oil prices post second weekly decline as Trump eases fears of renewed war with Iran",
-      "url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/?title=Oil+prices+post+second+weekly+decline+as+Trump+eases+fears+of+renewed+war+with+Iran&mini=true&utm_source=linkedin&utm_medium=socialsharebtn",
-      "summary": "油价连续第二周下跌，布伦特 95.84 美元、WTI 88.56 美元，周跌 2.5%；特朗普表态无意重启对伊朗战争缓解供应担忧，IEA 称全球油市四季度重回过剩；金价创四个月最大周跌幅，现货金约 3878 美元。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Wall Street Journal",
-      "title": "Crude Futures Post Back-to-Back Weekly Losses",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758",
-      "summary": "原油期货连续第二周下跌，布伦特收 95.84 美元、WTI 88.56 美元；IEA 预计四季度全球供应过剩，10 月全球供应日增 230 万桶至 1.054 亿桶，库存月增 5200 万桶。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Bloomberg",
-      "title": "Stocks Rise as Inflation Data Ease Fed-Hike Worry: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-rise-as-inflation-data-ease-fed-hike-worry:-markets-wrap/92374084",
-      "summary": "美国 10 月 PPI 环比升 0.3% 低于预期，通胀担忧缓解后美股期货上涨，标普期货涨 0.6%；2 年期美债收益率回落 5 个基点至 4.83%；纽约联储主席威廉姆斯称通胀仍过高、政策制定者须进一步行动。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Wall Street Journal",
-      "title": "Asia Stocks Stage Tentative Rebound as Nvidia Uncertainty Lingers",
-      "url": "https://www.wsj.com/world/asia/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15",
-      "summary": "亚洲科技股周五在暴跌后初步反弹，韩国 Kospi 一度涨 3%、日经涨约 1%；英伟达换帅不确定性仍在，CFO 科莱特·克雷斯出任临时 CEO；油价回落、现货金涨 0.8% 至 3908 美元，美元指数守在 19 个月高位附近。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "TradingView",
-      "title": "Stocks Pressured by Rising Bond Yields",
-      "url": "https://www.tradingview.com/news/barchart:b26c489f2094b:0-stocks-pressured-by-rising-bond-yields/",
-      "summary": "美股承压于收益率上升，标普跌 0.22%、纳指 100 跌 0.77%；芝加哥联储主席古尔斯比鹰派表态后，10 年期美债收益率升至 5.17% 的四周高点；市场计价 12 月 8–9 日 FOMC 加息 25 个基点概率为 100%。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Nacionale",
-      "title": "Fed meets Dec. 8–9: quarter-point hike seen as likely",
-      "url": "https://www.nacionale.com/en/articles/will-fed-raise-interest-rates-december-2026-rate-hike-ppi-cpi-waller-warsh",
-      "summary": "美联储将于 12 月 8–9 日议息，在连续偏热的通胀数据后，市场普遍预计至少加息 25 个基点至 4%–4.25%，是否加 50 个基点仍是悬念；10 月 PPI 同比升 6.5%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 01:25"
+    "updated_at": "2026-11-15 03:32"
   }
 }
