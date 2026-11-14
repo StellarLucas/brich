@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-14",
+      "source": "Wall Street Journal",
+      "title": "Asia's Stock Rebound Fades as Nvidia Uncertainty Lingers",
+      "url": "https://www.wsj.com/finance/stocks/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15",
+      "summary": "亚洲科技股反弹乏力，纳斯达克 100 期货跌 0.4%；布伦特原油约 96 美元、金价约 3902 美元；美元指数处于 19 个月高位附近，继续压制亚洲货币。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "Stocks Gain as Fed Bets Face Fresh Inflation Test: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-gain-as-fed-bets-face-fresh-inflation-test:-markets-wrap/92374084",
+      "summary": "美股期货小幅走高，市场等待 10 月 PPI 数据；布伦特原油约 96 美元、现货金约 3894 美元；通胀数据将检验美联储进一步加息的预期。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "Stocks Slip as Nvidia Jitters Linger, Bonds Slump: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-slip-as-nvidia-jitters-linger,-bonds-slump:-markets-wrap/92374084",
+      "summary": "美股小幅走低，纳斯达克 100 期货跌 0.3%、标普 500 期货跌 0.2%；日本与澳洲国债收益率跳升，跟随美债抛售；英伟达周四收跌 4.3% 后市场仍在消化其领导层变动的影响。"
+    },
+    {
+      "published_at": "2026-11-04",
+      "source": "Chase",
+      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
+      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
+      "summary": "美联储、欧洲央行、日本央行、澳洲联储等多家主要央行 2026 年均已加息；美联储 9 月加息 25 个基点至 3.75%–4.00%，市场普遍预计 12 月再加息一次。"
+    },
+    {
+      "published_at": "2026-11-14",
       "source": "CNBC",
       "title": "Nvidia board urged to consider potential return of Jensen Huang by two major investors",
       "url": "https://www.cnbc.com/2026/11/14/nvidia-board-jensen-huang-return-investors.html",
@@ -111,38 +139,10 @@
       "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
       "url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
       "summary": "彭博报道称 SpaceX 与特斯拉的合并谈判已进入条款协商阶段，合并后估值约 3.5 万亿美元，最早可能 12 月宣布；两家公司合计持有约 3.02 万枚比特币，约合 21 亿美元；特斯拉中国业务与 SpaceX 美国国防业务的隔离仍是主要障碍。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "The Business Times",
-      "title": "European stocks near record highs, US dollar gains on Fed rate hike bets",
-      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/european-stocks-near-record-highs-us-dollar-gains-fed-rate-hike-bets?ref=home-skybox-3",
-      "summary": "欧洲 Stoxx 600 接近纪录高位；美元指数升至 103.19 附近，为 2025 年 4 月以来最高，市场押注美联储 12 月可能加息 50 个基点；布伦特原油约 95.45 美元，现货金约 3897 美元。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "TradingView",
-      "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
-      "url": "https://www.tradingview.com/news/barchart:cf0cfef7c094b:0-stocks-retreat-as-chipmakers-sink-and-bond-yields-rise/",
-      "summary": "标普跌 0.93%、纳指 100 跌 2.06%，芯片与 AI 基建股再遭抛售；10 年期美债收益率升至 5.17% 的四周高点；美军在巴林上空击落两架伊朗无人机后比特币收复失地；IEA 下调 2026 年全球原油需求预期至日均 1.0229 亿桶。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "TradingView",
-      "title": "Gold Ticks Higher As Concerns Of Stagflation Emerge Amid Ongoing U.S.-Iran Faceoff",
-      "url": "https://www.tradingview.com/news/dpa_afx:fa63591f97a25:0-gold-ticks-higher-as-concerns-of-stagflation-emerge-amid-ongoing-u-s-iran-faceoff/",
-      "summary": "金价结束三连跌小幅回升，12 月期金报 3889 美元；美伊对峙与油价高企引发滞胀担忧；美军称击落两架飞向巴林的伊朗无人机，伊朗则称摧毁美军预警雷达；10 月 PPI 环比升 0.3% 低于预期。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
-      "url": "https://www.reuters.com/business/neoclouds-ai-stocks-slide-again-nvidia-turmoil-rattles-sector-2026-11-13/",
-      "summary": "周五 AI 相关股再度大跌，纳指 100 跌 2.2%、费城半导体指数跌 6%，CoreWeave 跌 10.8%、Nebius 跌 12.1%；AMD 跌 10.2%、博通跌 6.7%；市场担忧黄仁勋离任后英伟达对 AI 行业的融资支持生变，下周英伟达财报与 Anthropic 上市成关键。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 03:32"
+    "updated_at": "2026-11-15 05:25"
   }
 }
