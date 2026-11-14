@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-14",
+      "source": "MarketWatch",
+      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547",
+      "summary": "费城半导体指数周五跌 3.4%，AMD 跌 8.8%、博通跌 4.8%、英特尔与美光各跌 2.5%；华尔街重新评估没有黄仁勋的 AI 交易，担忧英伟达超 600 亿美元的客户投资（所谓“循环融资”）在新 CEO 上任后生变。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
+      "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
+      "url": "https://www.reuters.com/business/neoclouds-ai-stocks-slide-again-nvidia-turmoil-rattles-sector-2026-11-13/",
+      "summary": "周五 AI 相关股再度大跌，纳指 100 跌 2.2%、费城半导体指数跌 6%，CoreWeave 跌 10.8%、Nebius 跌 12.1%；AMD 跌 10.2%、博通跌 6.7%；市场担忧黄仁勋离任后英伟达对 AI 行业的融资支持生变，下周英伟达财报与 Anthropic 上市成关键。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "Stocks Fluctuate After Huang's Ouster, Bonds Slump: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-fluctuate-after-huangs-ouster,-bonds-slump:-markets-wrap/92374084",
+      "summary": "英伟达换帅后美股震荡、债市下跌，10 年期美债收益率约 5.12%、日本 10 年期升至 2.865%；比特币跌破 7 万美元；市场等待周五 PPI 数据以判断美联储利率路径。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "The National News",
+      "title": "Oil prices post second weekly decline as Trump eases fears of renewed war with Iran",
+      "url": "https://www.thenationalnews.com/business/energy/2026/11/13/oil-on-track-to-post-second-weekly-decline-as-trump-eases-fears-of-renewed-war-with-iran/?title=Oil+prices+post+second+weekly+decline+as+Trump+eases+fears+of+renewed+war+with+Iran&mini=true&utm_source=linkedin&utm_medium=socialsharebtn",
+      "summary": "油价连续第二周下跌，布伦特 95.84 美元、WTI 88.56 美元，周跌 2.5%；特朗普表态无意重启对伊朗战争缓解供应担忧，IEA 称全球油市四季度重回过剩；金价创四个月最大周跌幅，现货金约 3878 美元。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Wall Street Journal",
+      "title": "Crude Futures Post Back-to-Back Weekly Losses",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758",
+      "summary": "原油期货连续第二周下跌，布伦特收 95.84 美元、WTI 88.56 美元；IEA 预计四季度全球供应过剩，10 月全球供应日增 230 万桶至 1.054 亿桶，库存月增 5200 万桶。"
+    },
+    {
+      "published_at": "2026-11-14",
       "source": "Reuters",
       "title": "GLOBAL MARKETS-Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
       "url": "https://www.devdiscourse.com/article/international/4006879-global-markets-stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
@@ -104,45 +139,10 @@
       "title": "Markets News, Nov. 13, 2026: S&P 500, Nasdaq Fall as Nvidia, Other Tech Stocks Sink; Major Indexes Post Weekly Gains",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-today-s-and-p-500-nasdaq-11132026-12252143",
       "summary": "标普与纳指周五收跌、科技股领跌，但全周标普涨 2.5%、纳指涨 2.3%、道指涨 2.1%；比特币跌至约 68300 美元，月内跌约 20%；WTI 约 89.05 美元、金价约 3875 美元；10 年期美债收益率升至 5.15%。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "The Business Times",
-      "title": "European stocks near record highs, US dollar gains on Fed rate hike bets",
-      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/european-stocks-near-record-highs-us-dollar-gains-fed-rate-hike-bets?ref=article-see-also",
-      "summary": "欧洲 Stoxx 600 守在纪录高位附近、周线料收涨；美元指数 103.19，创 2025 年 4 月以来最高，市场押注 12 月加息 50 个基点；欧元约 1.1054 美元；布伦特约 95.45 美元，现货金约 3897 美元。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "亚股周五在英伟达换帅风波后企稳，美元随美债收益率走高；2 年期美债收益率触及 4.892%，10 年期升至 5.1433% 的三周高点，市场计价 12 月美联储加息 50 个基点概率升至 14.5%；布伦特约 95.45 美元，现货金约 3888 美元。",
-      "title": "Stocks recover from Nvidia whiplash, dollar climbs with US yields",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-13/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "RSM",
-      "summary": "美国 10 月 PPI 环比升 0.3%、同比升 6.5%，核心 PPI 同比升 5%；数据基本锁定美联储 12 月加息 25 个基点，PCE 通胀预计同比升 3.8%、核心升 3.2%。",
-      "title": "Higher wholesale inflation points to December rate hike",
-      "url": "https://realeconomy.rsmus.com/rising-wholesale-inflation-points-to-december-rate-hike/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "美股周五收跌，纳指跌 1.40%、标普跌 0.84%、道指跌 0.23%，芯片股再度抛售；美元指数升至 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；10 月 PPI 同比升 6.5%。",
-      "title": "GLOBAL MARKETS-Stocks fall with tech, Nvidia concerns; US dollar climbs",
-      "url": "https://www.devdiscourse.com/article/international/4006805-global-markets-stocks-fall-with-tech-nvidia-concerns-us-dollar-climbs"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "The Straits Times",
-      "summary": "IEA 称全球油市四季度将重回过剩，海湾出口恢复快于需求增长；四季度供应日均 1.05 亿桶，比需求高 170 万桶；布伦特约 95.71 美元。",
-      "title": "World oil market returns to surplus as Gulf exports recover",
-      "url": "https://www.straitstimes.com/world/middle-east/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover?ref=latest-headlines"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 15:25"
+    "updated_at": "2026-11-14 17:25"
   }
 }
