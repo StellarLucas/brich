@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "published_at": "2026-11-13",
+      "source": "TradingView",
+      "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
+      "url": "https://www.tradingview.com/news/barchart:cf0cfef7c094b:0-stocks-retreat-as-chipmakers-sink-and-bond-yields-rise/",
+      "summary": "标普跌 0.93%、纳指 100 跌 2.06%，芯片与 AI 基建股再遭抛售；10 年期美债收益率升至 5.17% 的四周高点；美军在巴林上空击落两架伊朗无人机后比特币收复失地；IEA 下调 2026 年全球原油需求预期至日均 1.0229 亿桶。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "TradingView",
+      "title": "Gold Ticks Higher As Concerns Of Stagflation Emerge Amid Ongoing U.S.-Iran Faceoff",
+      "url": "https://www.tradingview.com/news/dpa_afx:fa63591f97a25:0-gold-ticks-higher-as-concerns-of-stagflation-emerge-amid-ongoing-u-s-iran-faceoff/",
+      "summary": "金价结束三连跌小幅回升，12 月期金报 3889 美元；美伊对峙与油价高企引发滞胀担忧；美军称击落两架飞向巴林的伊朗无人机，伊朗则称摧毁美军预警雷达；10 月 PPI 环比升 0.3% 低于预期。"
+    },
+    {
+      "published_at": "2026-11-10",
+      "source": "Reuters",
+      "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll",
+      "url": "https://srnnews.com/fed-to-raise-rates-once-more-in-december-as-inflation-risks-stay-high-reuters-poll/",
+      "summary": "路透调查的 101 位经济学家一致预计美联储 12 月再加息 25 个基点至 4.00%–4.25%，其中 55% 认为这将是本轮最后一次加息；强劲就业与高于目标的通胀支持进一步收紧，PCE 通胀至少到 2028 年才回落至 2%。"
+    },
+    {
       "published_at": "2026-11-14",
       "source": "MarketWatch",
       "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
@@ -118,31 +139,10 @@
       "title": "US Stocks Drift as Fed Bets Face Inflation Test: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/us-stocks-drift-as-fed-bets-face-inflation-test:-markets-wrap/92374084",
       "summary": "美股在通胀数据公布前方向不明，交易员加大美联储加息押注；微软全球软件中断拖累股价跌 2.2%；布伦特原油约 96 美元，现货金约 3901 美元，比特币跌 3% 至约 69340 美元。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "TradingView",
-      "title": "Asian Markets Trade Mixed",
-      "url": "https://www.tradingview.com/news/dpa_afx:0f033c719d8d0:0-asian-markets-trade-mixed/",
-      "summary": "亚股周五涨跌互现，日股与台股在半导体反弹带动下走高，港股与韩股下跌；特朗普称美国无意与伊朗达成协议后油价飙升，WTI 涨 2.27% 至 88.49 美元；市场等待美国 10 月 PPI 数据。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Kitco",
-      "title": "Gold posts steep weekly loss as Treasury yields rise, Fed tightening bets persist",
-      "url": "https://www.kitco.com/news/article/2026-11-13/gold-posts-steep-weekly-loss-treasury-yields-rise-fed-tightening-bets",
-      "summary": "金价周线大跌，现货金约 3883 美元、白银单日跌 2.63%；10 月 PPI 同比升 6.5%，为 2022 年 11 月以来最高；市场计价美联储 12 月加息 25 个基点概率 89%、50 个基点 11%；10 年期美债收益率逼近 5.15%；布伦特收于 95.84 美元、WTI 88.56 美元，双双连续第二周下跌。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Investopedia",
-      "title": "Markets News, Nov. 13, 2026: S&P 500, Nasdaq Fall as Nvidia, Other Tech Stocks Sink; Major Indexes Post Weekly Gains",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-today-s-and-p-500-nasdaq-11132026-12252143",
-      "summary": "标普与纳指周五收跌、科技股领跌，但全周标普涨 2.5%、纳指涨 2.3%、道指涨 2.1%；比特币跌至约 68300 美元，月内跌约 20%；WTI 约 89.05 美元、金价约 3875 美元；10 年期美债收益率升至 5.15%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 17:25"
+    "updated_at": "2026-11-14 19:25"
   }
 }
