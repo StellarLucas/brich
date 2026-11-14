@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "published_at": "2026-11-14",
+      "source": "Motley Fool",
+      "title": "Should You Buy Nvidia Stock Before Nov. 17?",
+      "url": "https://www.fool.com/investing/2026/11/14/should-you-buy-nvidia-stock-before-nov-17/",
+      "summary": "英伟达将于 11 月 17 日盘后发布第三财季业绩，为黄仁勋辞任后的首份财报；分析师预计营收同比增约 91% 至 1087 亿美元、调整后每股收益 2.47 美元；上周股价跌约 15%，较 10 月高点回落约三分之一。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "CoinDesk",
+      "title": "SpaceX-Tesla merger talks put 30,000 bitcoin back in focus",
+      "url": "https://www.coindesk.com/markets/2026/11/13/spacex-tesla-merger-talks-put-30-000-bitcoin-back-in-focus",
+      "summary": "彭博报道称 SpaceX 与特斯拉的合并谈判已进入条款协商阶段，合并后估值约 3.5 万亿美元，最早可能 12 月宣布；两家公司合计持有约 3.02 万枚比特币，约合 21 亿美元；特斯拉中国业务与 SpaceX 美国国防业务的隔离仍是主要障碍。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "The Business Times",
+      "title": "European stocks near record highs, US dollar gains on Fed rate hike bets",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/european-stocks-near-record-highs-us-dollar-gains-fed-rate-hike-bets?ref=home-skybox-3",
+      "summary": "欧洲 Stoxx 600 接近纪录高位；美元指数升至 103.19 附近，为 2025 年 4 月以来最高，市场押注美联储 12 月可能加息 50 个基点；布伦特原油约 95.45 美元，现货金约 3897 美元。"
+    },
+    {
       "published_at": "2026-11-13",
       "source": "TradingView",
       "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
@@ -118,31 +139,10 @@
       "title": "EMEA Morning Briefing: Stock Futures Lower, Bond Yields Rise",
       "url": "https://www.morningstar.com/news/dow-jones/20261113117/emea-morning-briefing-stock-futures-lower-bond-yields-rise",
       "summary": "欧洲股指期货周五走低，英伟达换帅冲击科技板块；2 年期美债收益率创 2022 年加息周期以来最大四日涨幅；纽约联储主席威廉姆斯称通胀仍过高、货币政策仍有工作要做；油价回落，金价上涨。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "CNN",
-      "title": "Wholesale inflation rose in October to highest annual rate in nearly four years",
-      "url": "https://www.cnn.com/2026/11/13/economy/us-wholesale-inflation-ppi-october?cid=external-feeds_iluminar_meta",
-      "summary": "美国 10 月 PPI 环比升 0.3%、同比升 6.5%，为 2022 年 11 月以来最高年率；食品价格环比涨 1.3%，为 2022 年 7 月以来最快；结合本周偏热的 CPI 数据，市场预计美联储 12 月会议将加息。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "The Times",
-      "title": "Nvidia's shares rocked by exit of Jensen Huang",
-      "url": "https://www.thetimes.com/us/business-us/article/nvidia-rocked-jensen-huang-exit-share-price-lp6gcdcdq",
-      "summary": "英伟达 CEO 黄仁勋辞职后，公司市值一周内蒸发近 5000 亿美元，股价周四收跌 4.3% 至 166.19 美元；CFO 科莱特·克雷斯出任临时 CEO；美方正调查至少 75 亿美元受限 AI 芯片涉嫌违规流入中国企业。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Bloomberg",
-      "title": "US Stocks Drift as Fed Bets Face Inflation Test: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/us-stocks-drift-as-fed-bets-face-inflation-test:-markets-wrap/92374084",
-      "summary": "美股在通胀数据公布前方向不明，交易员加大美联储加息押注；微软全球软件中断拖累股价跌 2.2%；布伦特原油约 96 美元，现货金约 3901 美元，比特币跌 3% 至约 69340 美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 19:25"
+    "updated_at": "2026-11-14 21:25"
   }
 }
