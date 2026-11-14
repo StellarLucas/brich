@@ -2,10 +2,45 @@
   "items": [
     {
       "published_at": "2026-11-14",
+      "source": "Barron's",
+      "title": "Review & Preview: Moving On",
+      "url": "https://www.barrons.com/articles/stockstoday-rotation-after-nvidia-3d0dbe00",
+      "summary": "英伟达本周跌近 13%、年内转跌并创 2025 年 7 月以来最低；下周二发布财报，临时 CEO 科莱特·克雷斯主持电话会；Anthropic IPO 周三定价、周四纳斯达克首日交易，估值目标 1.4 万亿美元。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Economic Times",
+      "title": "Wall St Week Ahead: Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade/articleshow/135821735.cms",
+      "summary": "英伟达市值自 10 月初约 5.8 万亿美元跌至 3.9 万亿美元；分析师预计三季报营收 1090 亿美元、盈利增约 90%；Anthropic IPO 拟募资至多 644 亿美元、估值 1.4 万亿美元，周四开始交易；下周二还将公布美国零售销售数据。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Capital Street FX",
+      "title": "Week Ahead: Fed Minutes, US Retail Sales And Iran Headlines Test Gold At 3,880 As Copper Breaks Its Channel",
+      "url": "https://www.capitalstreetfx.com/market-analysis/daily-commodity-report-14-nov-2026/",
+      "summary": "金价周跌 4.56% 至 3884 美元，创 1989 年以来最差连跌走势，触及 3852 美元的 2025 年 10 月以来低点；美元处 19 个月高位，市场计价 12 月加息概率近 90%；下周看点为 FOMC 会议纪要与美国零售销售。"
+    },
+    {
+      "published_at": "2026-11-14",
       "source": "Motley Fool",
       "title": "Should You Buy Nvidia Stock Before Nov. 17?",
       "url": "https://www.fool.com/investing/2026/11/14/should-you-buy-nvidia-stock-before-nov-17/",
       "summary": "英伟达将于 11 月 17 日盘后发布第三财季业绩，为黄仁勋辞任后的首份财报；分析师预计营收同比增约 91% 至 1087 亿美元、调整后每股收益 2.47 美元；上周股价跌约 15%，较 10 月高点回落约三分之一。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "MarketWatch",
+      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
+      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547",
+      "summary": "费城半导体指数周五跌 3.4%，AMD 跌 8.8%、博通跌 4.8%、英特尔与美光各跌 2.5%；华尔街重新评估没有黄仁勋的 AI 交易，担忧英伟达超 600 亿美元的客户投资（所谓“循环融资”）在新 CEO 上任后生变。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Reuters",
+      "title": "GLOBAL MARKETS-Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
+      "url": "https://www.devdiscourse.com/article/international/4006879-global-markets-stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
+      "summary": "美股周五收跌，纳指跌 0.91%、标普跌 0.40%，道指微涨 0.10% 至 52347.55 点；美元指数升至 103.40 的 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；市场计价美联储 12 月加息 50 个基点概率升至 11%。"
     },
     {
       "published_at": "2026-11-13",
@@ -36,20 +71,6 @@
       "summary": "金价结束三连跌小幅回升，12 月期金报 3889 美元；美伊对峙与油价高企引发滞胀担忧；美军称击落两架飞向巴林的伊朗无人机，伊朗则称摧毁美军预警雷达；10 月 PPI 环比升 0.3% 低于预期。"
     },
     {
-      "published_at": "2026-11-10",
-      "source": "Reuters",
-      "title": "Fed to raise rates once more in December as inflation risks stay high: Reuters poll",
-      "url": "https://srnnews.com/fed-to-raise-rates-once-more-in-december-as-inflation-risks-stay-high-reuters-poll/",
-      "summary": "路透调查的 101 位经济学家一致预计美联储 12 月再加息 25 个基点至 4.00%–4.25%，其中 55% 认为这将是本轮最后一次加息；强劲就业与高于目标的通胀支持进一步收紧，PCE 通胀至少到 2028 年才回落至 2%。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "MarketWatch",
-      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547",
-      "summary": "费城半导体指数周五跌 3.4%，AMD 跌 8.8%、博通跌 4.8%、英特尔与美光各跌 2.5%；华尔街重新评估没有黄仁勋的 AI 交易，担忧英伟达超 600 亿美元的客户投资（所谓“循环融资”）在新 CEO 上任后生变。"
-    },
-    {
       "published_at": "2026-11-13",
       "source": "Reuters",
       "title": "Neoclouds, AI stocks slide again as Nvidia turmoil rattles sector",
@@ -76,13 +97,6 @@
       "title": "Crude Futures Post Back-to-Back Weekly Losses",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-as-middle-east-supply-risks-persist-2066e758",
       "summary": "原油期货连续第二周下跌，布伦特收 95.84 美元、WTI 88.56 美元；IEA 预计四季度全球供应过剩，10 月全球供应日增 230 万桶至 1.054 亿桶，库存月增 5200 万桶。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Reuters",
-      "title": "GLOBAL MARKETS-Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
-      "url": "https://www.devdiscourse.com/article/international/4006879-global-markets-stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
-      "summary": "美股周五收跌，纳指跌 0.91%、标普跌 0.40%，道指微涨 0.10% 至 52347.55 点；美元指数升至 103.40 的 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；市场计价美联储 12 月加息 50 个基点概率升至 11%。"
     },
     {
       "published_at": "2026-11-13",
@@ -125,24 +139,10 @@
       "title": "Oil prices set for second straight weekly drop on signs of growing supply surplus",
       "url": "https://www.channelnewsasia.com/business/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus-6548391",
       "summary": "油价连续第二周下跌，布伦特收于 95.84 美元、WTI 88.56 美元，周跌约 2.5%；IEA 月报称全球油市四季度重回过剩，美国原油库存意外增加，需求走软。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "T. Rowe Price",
-      "title": "Global markets weekly update",
-      "url": "https://www.troweprice.com/financial-intermediary/us/en/insights/articles/global-markets-weekly-update.html",
-      "summary": "美股全周收涨，标普涨逾 2.5%，但周末通胀数据、美债收益率飙升及 AI 股波动收窄涨幅；10 月 CPI 环比升 0.4% 高于预期，市场已完全计入美联储 12 月加息；欧洲 Stoxx 600 周涨 2.44%，日经周涨 6.46%，日元跌至约 160。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Morningstar",
-      "title": "EMEA Morning Briefing: Stock Futures Lower, Bond Yields Rise",
-      "url": "https://www.morningstar.com/news/dow-jones/20261113117/emea-morning-briefing-stock-futures-lower-bond-yields-rise",
-      "summary": "欧洲股指期货周五走低，英伟达换帅冲击科技板块；2 年期美债收益率创 2022 年加息周期以来最大四日涨幅；纽约联储主席威廉姆斯称通胀仍过高、货币政策仍有工作要做；油价回落，金价上涨。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 21:25"
+    "updated_at": "2026-11-14 23:25"
   }
 }
