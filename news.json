@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-14",
+      "source": "Stocks Today",
+      "title": "At 5.15%, the 10-Year Treasury Picks the Winners",
+      "url": "https://stockstoday.com/at-5-15-the-10-year-treasury-picks-the-winners/",
+      "summary": "标普 500 本周涨 2.5%、结束四连跌，10 年期美债收益率升至 5.15%；市场计价美联储 12 月加息几成定局；伯克希尔 B 股收创纪录 592.94 美元，德国 DAX 创历史新高；下周看点为美联储主席沃什讲话与英伟达财报。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
+      "title": "World oil market is returning to surplus as Gulf exports recover, IEA says",
+      "url": "https://www.reuters.com/business/energy/world-oil-market-is-returning-surplus-gulf-exports-recover-iea-says-2026-11-13/",
+      "summary": "IEA 称全球油市四季度重回过剩，四季度供应日均 1.05 亿桶、较需求预测高 170 万桶；海湾产油国出口通过“暗渡”等方式恢复；布伦特原油收于 95.84 美元，连续第二周下跌。"
+    },
+    {
+      "published_at": "2026-11-14",
       "source": "Barron's",
       "title": "Review & Preview: Moving On",
       "url": "https://www.barrons.com/articles/stockstoday-rotation-after-nvidia-3d0dbe00",
@@ -125,24 +139,10 @@
       "title": "Fed meets Dec. 8–9: quarter-point hike seen as likely",
       "url": "https://www.nacionale.com/en/articles/will-fed-raise-interest-rates-december-2026-rate-hike-ppi-cpi-waller-warsh",
       "summary": "美联储将于 12 月 8–9 日议息，在连续偏热的通胀数据后，市场普遍预计至少加息 25 个基点至 4%–4.25%，是否加 50 个基点仍是悬念；10 月 PPI 同比升 6.5%。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Wall Street Journal",
-      "title": "Oil Futures End Week Lower",
-      "url": "https://www.wsj.com/finance/commodities-futures/oil-slips-again-as-traders-weigh-diplomacy-hopes-808f1641",
-      "summary": "油价周五收盘涨跌互现，布伦特 95.84 美元、WTI 88.56 美元，双双连续第二周下跌；IEA 预计四季度全球供应过剩，美国上周商业原油库存意外增加 470 万桶。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Channel News Asia",
-      "title": "Oil prices set for second straight weekly drop on signs of growing supply surplus",
-      "url": "https://www.channelnewsasia.com/business/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus-6548391",
-      "summary": "油价连续第二周下跌，布伦特收于 95.84 美元、WTI 88.56 美元，周跌约 2.5%；IEA 月报称全球油市四季度重回过剩，美国原油库存意外增加，需求走软。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 23:25"
+    "updated_at": "2026-11-15 01:25"
   }
 }
