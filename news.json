@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "Nacionale",
+      "title": "Fed meets Dec. 8–9: quarter-point hike seen as likely",
+      "url": "https://www.nacionale.com/en/articles/will-fed-raise-interest-rates-december-2026-rate-hike-ppi-cpi-waller-warsh",
+      "summary": "美联储将于 12 月 8–9 日议息，在连续偏热的通胀数据后，市场普遍预计至少加息 25 个基点至 4%–4.25%，是否加 50 个基点仍是悬念；10 月 PPI 同比升 6.5%。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Wall Street Journal",
+      "title": "Oil Futures End Week Lower",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-slips-again-as-traders-weigh-diplomacy-hopes-808f1641",
+      "summary": "油价周五收盘涨跌互现，布伦特 95.84 美元、WTI 88.56 美元，双双连续第二周下跌；IEA 预计四季度全球供应过剩，美国上周商业原油库存意外增加 470 万桶。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Channel News Asia",
+      "title": "Oil prices set for second straight weekly drop on signs of growing supply surplus",
+      "url": "https://www.channelnewsasia.com/business/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus-6548391",
+      "summary": "油价连续第二周下跌，布伦特收于 95.84 美元、WTI 88.56 美元，周跌约 2.5%；IEA 月报称全球油市四季度重回过剩，美国原油库存意外增加，需求走软。"
+    },
+    {
+      "published_at": "2026-11-10",
+      "source": "Kitco",
+      "title": "Fed’s Waller and Logan signal readiness to hike higher and faster, with 50 bps on the table for December",
+      "url": "https://www.kitco.com/news/article/2026-11-10/feds-waller-and-logan-signal-readiness-hike-higher-and-faster-50-bps-table",
+      "summary": "美联储理事沃勒与达拉斯联储主席洛根释放鹰派信号，沃勒称若 10 月通胀持续偏热，12 月应考虑加息 50 个基点，仅加 25 个基点将损害联储信誉；市场计价 50 个基点概率升至约 9%。"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "T. Rowe Price",
       "title": "Global markets weekly update",
       "url": "https://www.troweprice.com/financial-intermediary/us/en/insights/articles/global-markets-weekly-update.html",
@@ -111,38 +139,10 @@
       "summary": "英伟达 CEO 黄仁勋突然去职冲击科技板块，美股收跌，道指跌 0.36%、标普跌 0.35%、纳指跌 0.39%；油价涨 2.6% 至 88.74 美元，金价跌 2.9% 至 3878.40 美元，创一年多最低结算价。",
       "title": "U.S. Stocks Down as Huang Ouster Sends Shockwaves Through Tech",
       "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-huang-ouster-sends-shockwaves-through-tech-5b0aa02a"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "European Business Magazine",
-      "summary": "金价周四跌至 3850 美元附近，创 13 个月新低；美元走强，市场计价美联储 12 月加息 25 个基点概率升至 100%，10 年期美债收益率重回 5% 上方；欧元跌至 18 个月低点，日元逼近 160。",
-      "title": "Gold Falls to 13-Month Low as dollar surges",
-      "url": "https://europeanbusinessmagazine.com/gold-falls-to-13-month-low/"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Kitco",
-      "summary": "美国 10 月 PPI 环比升 0.3%、低于预期的 0.4%，但同比升 6.5%、为 2022 年 11 月以来最高；金价从 13 个月低点反弹至约 3891 美元，布伦特约 95.54 美元、WTI 约 88.18 美元。",
-      "title": "Gold rebounds from 13-month low as PPI complicates Fed outlook",
-      "url": "https://www.kitco.com/news/article/2026-11-13/gold-rebounds-13-month-low-ppi-complicates-fed-outlook-kitco-am-report"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Investopedia",
-      "summary": "美股期货周五走高，10 年期美债收益率维持约 5.13%；英伟达盘前反弹约 2%，比特币跌破 7 万美元，为 8 月以来首次。",
-      "title": "5 Things Investors Need to Know About Friday's Markets",
-      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-13-2026-12250347"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "summary": "欧洲股市守在纪录高位附近，美元逼近 19 个月高点；市场计价美联储 12 月加息 50 个基点的概率约 12%，高于一周前的零。",
-      "title": "GLOBAL MARKETS-European stocks near record highs, dollar gains on rate hike bets",
-      "url": "https://www.lse.co.uk/news/global-markets-european-stocks-near-record-highs-dollar-gains-on-rate-hike-bets-psjhspsn17yzelu.html"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 11:27"
+    "updated_at": "2026-11-14 13:27"
   }
 }
