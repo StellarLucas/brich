@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-13",
+      "source": "CNN",
+      "title": "Wholesale inflation rose in October to highest annual rate in nearly four years",
+      "url": "https://www.cnn.com/2026/11/13/economy/us-wholesale-inflation-ppi-october?cid=external-feeds_iluminar_meta",
+      "summary": "美国 10 月 PPI 环比升 0.3%、同比升 6.5%，为 2022 年 11 月以来最高年率；食品价格环比涨 1.3%，为 2022 年 7 月以来最快；结合本周偏热的 CPI 数据，市场预计美联储 12 月会议将加息。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "The Times",
+      "title": "Nvidia's shares rocked by exit of Jensen Huang",
+      "url": "https://www.thetimes.com/us/business-us/article/nvidia-rocked-jensen-huang-exit-share-price-lp6gcdcdq",
+      "summary": "英伟达 CEO 黄仁勋辞职后，公司市值一周内蒸发近 5000 亿美元，股价周四收跌 4.3% 至 166.19 美元；CFO 科莱特·克雷斯出任临时 CEO；美方正调查至少 75 亿美元受限 AI 芯片涉嫌违规流入中国企业。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "US Stocks Drift as Fed Bets Face Inflation Test: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/us-stocks-drift-as-fed-bets-face-inflation-test:-markets-wrap/92374084",
+      "summary": "美股在通胀数据公布前方向不明，交易员加大美联储加息押注；微软全球软件中断拖累股价跌 2.2%；布伦特原油约 96 美元，现货金约 3901 美元，比特币跌 3% 至约 69340 美元。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "TradingView",
+      "title": "Asian Markets Trade Mixed",
+      "url": "https://www.tradingview.com/news/dpa_afx:0f033c719d8d0:0-asian-markets-trade-mixed/",
+      "summary": "亚股周五涨跌互现，日股与台股在半导体反弹带动下走高，港股与韩股下跌；特朗普称美国无意与伊朗达成协议后油价飙升，WTI 涨 2.27% 至 88.49 美元；市场等待美国 10 月 PPI 数据。"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Kitco",
       "title": "Gold posts steep weekly loss as Treasury yields rise, Fed tightening bets persist",
       "url": "https://www.kitco.com/news/article/2026-11-13/gold-posts-steep-weekly-loss-treasury-yields-rise-fed-tightening-bets",
@@ -100,13 +128,6 @@
     },
     {
       "published_at": "2026-11-13",
-      "source": "Daily Market Report",
-      "summary": "10 年期实际收益率跳升 12 个基点至 2.78%，标普 500 跌 0.35%、10 年期美债收益率约 4.98%，加密市场恐惧贪婪指数跌至 20 的极度恐惧区间。",
-      "title": "Real Rates Spike, Crypto Hits Extreme Fear",
-      "url": "https://dailymarket.report/"
-    },
-    {
-      "published_at": "2026-11-13",
       "source": "The National",
       "summary": "特朗普表态无意重启对伊战争后供应担忧缓解，布伦特约 95.59 美元、WTI 约 88.26 美元，油价料连续第二周下跌，本周跌幅逾 2.5%。",
       "title": "Oil on track to post second weekly decline as Trump eases fears of renewed war with Iran",
@@ -118,31 +139,10 @@
       "summary": "欧元区三季度 GDP 修正为环比增长 0.6%，高于初值 0.4%；同比增长 1.3%，与初值一致。",
       "title": "Eurozone Q3 GDP rises faster by 0.6% vs. flash estimates of 0.4%",
       "url": "https://www.fxstreet.com/news/eurozone-q3-gdp-rises-faster-by-06-vs-flash-estimates-of-04-202611131002"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Longbridge",
-      "summary": "美国 10 月 PPI 将于周五公布，市场预期环比升 0.4%、同比升 6.6%，为美联储 12 月议息会议前最后一份重要通胀报告；9 月 PPI 环比曾大涨 1.3%。",
-      "title": "PPI Preview: Producer Prices Seen Rising 6.6%",
-      "url": "https://longbridge.com/en/news/305450583"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Wall Street Journal",
-      "summary": "美股期货周五走弱，英伟达换帅余波未消、长期美债继续抛售，市场等待美国 PPI 通胀数据；IEA 称全球油市四季度将重回过剩，布伦特跌约 0.6% 至 95.20 美元附近；金价持稳于 3900 美元附近。",
-      "title": "Stock Futures Lower as Investors Look to U.S. Inflation Data",
-      "url": "https://www.wsj.com/finance/stocks/stock-futures-lower-as-investors-look-to-u-s-inflation-data-5b1b5988"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Economy Middle East",
-      "summary": "全球股市周五下跌，英伟达 CEO 辞职余波扩散至 AI 板块，韩国 KOSPI 跌 0.98%、亚太指数跌 0.42%；两年期美债收益率升至 4.892%、十年期升至 5.1433%，市场计价 12 月加息 50 个基点概率 13%，美元周线料涨约 0.9%。",
-      "title": "Stock market today: South Korea's KOSPI, Wall Street futures retreat as Nvidia turmoil rattles AI sector, lifts dollar",
-      "url": "https://economymiddleeast.com/news/stock-market-today-south-koreas-kospi-wall-street-futures-retreat-as-nvidia-turmoil-rattles-ai-sector-lifts-dollar/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 07:25"
+    "updated_at": "2026-11-14 09:27"
   }
 }
