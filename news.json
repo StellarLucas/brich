@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "published_at": "2026-11-14",
+      "source": "Reuters",
+      "title": "GLOBAL MARKETS-Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
+      "url": "https://www.devdiscourse.com/article/international/4006879-global-markets-stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
+      "summary": "美股周五收跌，纳指跌 0.91%、标普跌 0.40%，道指微涨 0.10% 至 52347.55 点；美元指数升至 103.40 的 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；市场计价美联储 12 月加息 50 个基点概率升至 11%。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "Stocks Rise as Inflation Data Ease Fed-Hike Worry: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-rise-as-inflation-data-ease-fed-hike-worry:-markets-wrap/92374084",
+      "summary": "美国 10 月 PPI 环比升 0.3% 低于预期，通胀担忧缓解后美股期货上涨，标普期货涨 0.6%；2 年期美债收益率回落 5 个基点至 4.83%；纽约联储主席威廉姆斯称通胀仍过高、政策制定者须进一步行动。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Wall Street Journal",
+      "title": "Asia Stocks Stage Tentative Rebound as Nvidia Uncertainty Lingers",
+      "url": "https://www.wsj.com/world/asia/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15",
+      "summary": "亚洲科技股周五在暴跌后初步反弹，韩国 Kospi 一度涨 3%、日经涨约 1%；英伟达换帅不确定性仍在，CFO 科莱特·克雷斯出任临时 CEO；油价回落、现货金涨 0.8% 至 3908 美元，美元指数守在 19 个月高位附近。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "TradingView",
+      "title": "Stocks Pressured by Rising Bond Yields",
+      "url": "https://www.tradingview.com/news/barchart:b26c489f2094b:0-stocks-pressured-by-rising-bond-yields/",
+      "summary": "美股承压于收益率上升，标普跌 0.22%、纳指 100 跌 0.77%；芝加哥联储主席古尔斯比鹰派表态后，10 年期美债收益率升至 5.17% 的四周高点；市场计价 12 月 8–9 日 FOMC 加息 25 个基点概率为 100%。"
+    },
+    {
       "published_at": "2026-11-13",
       "source": "Nacionale",
       "title": "Fed meets Dec. 8–9: quarter-point hike seen as likely",
@@ -20,13 +48,6 @@
       "title": "Oil prices set for second straight weekly drop on signs of growing supply surplus",
       "url": "https://www.channelnewsasia.com/business/oil-prices-set-second-straight-weekly-drop-signs-growing-supply-surplus-6548391",
       "summary": "油价连续第二周下跌，布伦特收于 95.84 美元、WTI 88.56 美元，周跌约 2.5%；IEA 月报称全球油市四季度重回过剩，美国原油库存意外增加，需求走软。"
-    },
-    {
-      "published_at": "2026-11-10",
-      "source": "Kitco",
-      "title": "Fed’s Waller and Logan signal readiness to hike higher and faster, with 50 bps on the table for December",
-      "url": "https://www.kitco.com/news/article/2026-11-10/feds-waller-and-logan-signal-readiness-hike-higher-and-faster-50-bps-table",
-      "summary": "美联储理事沃勒与达拉斯联储主席洛根释放鹰派信号，沃勒称若 10 月通胀持续偏热，12 月应考虑加息 50 个基点，仅加 25 个基点将损害联储信誉；市场计价 50 个基点概率升至约 9%。"
     },
     {
       "published_at": "2026-11-13",
@@ -118,31 +139,10 @@
       "summary": "IEA 称全球油市四季度将重回过剩，海湾出口恢复快于需求增长；四季度供应日均 1.05 亿桶，比需求高 170 万桶；布伦特约 95.71 美元。",
       "title": "World oil market returns to surplus as Gulf exports recover",
       "url": "https://www.straitstimes.com/world/middle-east/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover?ref=latest-headlines"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Barchart",
-      "summary": "WTI 涨 0.39%，因特朗普称美国无需与伊朗达成协议、战争延续担忧支撑油价；但美元创 1.5 年新高及 IEA 预计本季度全球原油过剩 200 万桶/日限制涨幅。",
-      "title": "Crude Prices Supported by Concerns US-Iran War Will Linger",
-      "url": "https://www.barchart.com/story/news/8824868/crude-prices-supported-by-concerns-us-iran-war-will-linger"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Barchart",
-      "summary": "美股周五回落，芯片股再度抛售，10 年期美债收益率升至 5.17% 的四周高点；美联储官员鹰派表态推高收益率，市场计价 12 月 FOMC 加息 25 个基点概率为 100%；10 月 PPI 环比升 0.3%、同比升 6.5%。",
-      "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
-      "url": "https://www.barchart.com/story/news/8824404/stocks-retreat-as-chipmakers-sink-and-bond-yields-rise"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Wall Street Journal",
-      "summary": "英伟达 CEO 黄仁勋突然去职冲击科技板块，美股收跌，道指跌 0.36%、标普跌 0.35%、纳指跌 0.39%；油价涨 2.6% 至 88.74 美元，金价跌 2.9% 至 3878.40 美元，创一年多最低结算价。",
-      "title": "U.S. Stocks Down as Huang Ouster Sends Shockwaves Through Tech",
-      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-fall-as-huang-ouster-sends-shockwaves-through-tech-5b0aa02a"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-14 13:27"
+    "updated_at": "2026-11-14 15:25"
   }
 }
