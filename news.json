@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "published_at": "2026-11-13",
+      "source": "TradingView",
+      "title": "Stocks Pressured by Rising Bond Yields",
+      "url": "https://www.tradingview.com/news/barchart:b26c489f2094b:0-stocks-pressured-by-rising-bond-yields/",
+      "summary": "美股承压于债市抛售，10 年期美债收益率升至四周高点 5.17%；市场计价美联储 12 月 8–9 日会议加息 25 个基点概率为 100%，欧洲央行 12 月 17 日加息概率 92%；海外市场涨跌互现，日经收涨 0.53%、上证跌 0.59%。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Bloomberg",
+      "title": "Stocks Fluctuate After Huang's Ouster, Bonds Slump: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-fluctuate-after-huangs-ouster,-bonds-slump:-markets-wrap/92374084",
+      "summary": "黄仁勋离任后英伟达盘中一度暴跌逾 14%，收盘跌幅收窄至 4.3%；市场等待周五美国 PPI 数据以判断美联储加息路径，纽约联储主席威廉姆斯称通胀仍高、须进一步行动；10 年期美债收益率约 5.12%，日债、澳债收益率跟随跳升。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Reuters",
+      "title": "Fed's Collins says more rate hikes are coming, Bloomberg Television reports",
+      "url": "https://www.kitco.com/news/off-the-wire/2026-11-13/feds-collins-says-more-rate-hikes-are-coming-bloomberg-television",
+      "summary": "波士顿联储主席柯林斯表示，由于通胀高企，很快进一步收紧货币政策是适宜的，加息幅度可能超过她此前预期；市场普遍预计美联储 12 月 8–9 日会议加息 25 个基点，1 月可能再加一次。"
+    },
+    {
       "published_at": "2026-11-14",
       "source": "SEE News",
       "title": "Mohamed El-Erian: Global Markets Face Sharp Volatility as Investors Await Federal Reserve Signals",
@@ -118,31 +139,10 @@
       "title": "IMF raises 2026 global growth forecast to 3.1% as inflation and AI sell-off test market resilience",
       "url": "https://www.theasianbanker.com/updates-and-articles/imf-raises-2026-global-growth-forecast-to-3-1-as-inflation-and-ai-sell-off-test-market-resilience",
       "summary": "IMF 将 2026 年全球增长预测上调至 3.1%、2027 年为 3.4%，但警告中东局势导致的油价冲击与高企的公共债务压缩了各国应对冲击的空间。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Stocks Today",
-      "title": "At 5.15%, the 10-Year Treasury Picks the Winners",
-      "url": "https://stockstoday.com/at-5-15-the-10-year-treasury-picks-the-winners/",
-      "summary": "标普 500 本周涨 2.5%、结束四连跌，10 年期美债收益率升至 5.15%；市场计价美联储 12 月加息几成定局；伯克希尔 B 股收创纪录 592.94 美元，德国 DAX 创历史新高；下周看点为美联储主席沃什讲话与英伟达财报。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Barron's",
-      "title": "Review & Preview: Moving On",
-      "url": "https://www.barrons.com/articles/stockstoday-rotation-after-nvidia-3d0dbe00",
-      "summary": "英伟达本周跌近 13%、年内转跌并创 2025 年 7 月以来最低；下周二发布财报，临时 CEO 科莱特·克雷斯主持电话会；Anthropic IPO 周三定价、周四纳斯达克首日交易，估值目标 1.4 万亿美元。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Economic Times",
-      "title": "Wall St Week Ahead: Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade/articleshow/135821735.cms",
-      "summary": "英伟达市值自 10 月初约 5.8 万亿美元跌至 3.9 万亿美元；分析师预计三季报营收 1090 亿美元、盈利增约 90%；Anthropic IPO 拟募资至多 644 亿美元、估值 1.4 万亿美元，周四开始交易；下周二还将公布美国零售销售数据。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 15:25"
+    "updated_at": "2026-11-15 17:25"
   }
 }
