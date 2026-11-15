@@ -2,6 +2,13 @@
   "items": [
     {
       "published_at": "2026-11-15",
+      "source": "TradingView",
+      "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
+      "url": "https://www.tradingview.com/news/cointelegraph:eaa4d5396094b:0-bitcoin-falls-to-four-month-low-near-62k-as-crypto-selloff-deepens/",
+      "summary": "比特币周日跌至约 62081 美元的四个月低点，盘中跌破 200 日均线后回升至 65000 美元上方，但周跌幅仍近 15%；以太币周跌 19.5%、Solana 跌 20.7%，全网市值 24 小时缩水约 4% 至 2.26 万亿美元；美国现货比特币 ETF 两周净流出 23.5 亿美元，恐慌贪婪指数跌至 10 的“极度恐慌”。"
+    },
+    {
+      "published_at": "2026-11-15",
       "source": "DailyGraph",
       "summary": "亚洲股市周二普遍上涨，日经涨 2.6%、韩国 Kospi 涨 4%、台股涨 3.4%，跟随美股创 4 月以来最强单日涨幅；布伦特原油回落至约 91.74 美元，因特朗普暂缓对伊朗的新军事打击。",
       "title": "Asian stocks today: Markets rally as Wall Street rebounds, oil prices ease on Iran de-escalation hopes",
@@ -132,17 +139,10 @@
       "summary": "标普 500 收于 7562 点附近；市场已完全计价美联储 12 月加息（25 个基点概率约 85–89%），美元指数处 19 个月高位；下周看点为零售销售、英伟达财报与 FOMC 会议纪要。",
       "title": "Week Ahead: Fed Minutes, US Retail Sales And Nvidia Earnings Test The S&P 500 At 7,562",
       "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-14-nov-2026/"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Reuters",
-      "title": "Musk says Nvidia will lose 'critical' deals without Jensen Huang",
-      "url": "https://www.reuters.com/business/musk-says-nvidia-will-lose-critical-deals-without-jensen-huang-2026-11-14/",
-      "summary": "马斯克周六在 X 上表示，没有黄仁勋，英伟达将失去“关键”订单；黄仁勋上周四因婚外情丑闻突然离任，芯片巨头陷入领导层危机。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 01:25"
+    "updated_at": "2026-11-16 03:25"
   }
 }
