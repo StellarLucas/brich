@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-15",
+      "source": "DailyGraph",
+      "summary": "亚洲股市周二普遍上涨，日经涨 2.6%、韩国 Kospi 涨 4%、台股涨 3.4%，跟随美股创 4 月以来最强单日涨幅；布伦特原油回落至约 91.74 美元，因特朗普暂缓对伊朗的新军事打击。",
+      "title": "Asian stocks today: Markets rally as Wall Street rebounds, oil prices ease on Iran de-escalation hopes",
+      "url": "https://edailygraph.com/asian-stocks-asian-stocks-today-markets-rally-as-wall-street-rebounds-oil-prices-ease-on-iran-de-escalation-hopes/"
+    },
+    {
+      "published_at": "2026-11-12",
+      "source": "Wall Street Journal",
+      "summary": "CoreWeave 财报超预期后股价大涨 25%，带动芯片股反弹，纳指涨 1.6%、标普 500 涨 1.3%；纳指距抹平上周 2.5 万亿美元暴跌的损失仅差约 1%。",
+      "title": "Investors Run Back to AI Stocks, Less Than a Week After a Historic Selloff",
+      "url": "https://www.wsj.com/finance/stocks/investors-run-back-to-ai-stocks-less-than-a-week-after-a-historic-selloff-854483e8"
+    },
+    {
+      "published_at": "2026-11-11",
+      "source": "The Financial Express",
+      "summary": "美股周三上涨，纳指涨逾 300 点，CoreWeave 财报超预期带动 AI 股回暖，英伟达反弹约 3%；但 10 月 CPI 环比涨 0.4% 超预期，12 月加息担忧仍存。",
+      "title": "Nasdaq rises over 300 points as CoreWeave rally, Nvidia rebounds",
+      "url": "https://www.financialexpress.com/market/global-markets/nasdaq-rises-over-300-points-as-coreweave-rally-nvidia-rebounds/4381769/"
+    },
+    {
+      "published_at": "2026-11-10",
+      "source": "Wall Street Journal",
+      "summary": "美股周一大幅反弹，标普 500 涨 2.3% 创七个月最佳单日，11 个板块全部收涨；布伦特原油跌 5.8% 至 92.57 美元，因特朗普淡化对伊朗进一步动武的可能。",
+      "title": "Investors Brush Off Election, Selloff and Even Nvidia's Spy Scandal to Buy Stocks",
+      "url": "https://www.wsj.com/finance/stocks/investors-brush-off-election-selloff-and-even-nvidias-spy-scandal-to-buy-stocks-8f6d406a"
+    },
+    {
+      "published_at": "2026-11-15",
       "source": "Europe Says",
       "summary": "美股期货在周五欧洲时段走弱，道指期货跌约 0.15%、标普 500 期货跌约 0.16%、纳指 100 期货跌约 0.30%；通胀超预期后市场计价 12 月加息 25 个基点概率约 87%，加息 50 个基点概率约 13%；投资者等待 10 月 PPI 数据进一步指引。",
       "title": "Dow Jones futures retreat amid Nvidia leadership shakeup and Fed rate hike concerns as markets await PPI data",
@@ -111,38 +139,10 @@
       "summary": "标普 500 收于 7562 点附近；市场已完全计价美联储 12 月加息（25 个基点概率约 85–89%），美元指数处 19 个月高位；下周看点为零售销售、英伟达财报与 FOMC 会议纪要。",
       "title": "Week Ahead: Fed Minutes, US Retail Sales And Nvidia Earnings Test The S&P 500 At 7,562",
       "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-14-nov-2026/"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Financial News",
-      "summary": "美股本周收涨，标普 500 周涨 1.54%、纳斯达克 100 涨 2.56%，结束四连跌；芯片股严重分化，英伟达周跌 9.57%，10 年期美债收益率升至 5.10%。",
-      "title": "The Weekly Close: Wall Street Climbs as Chip Stocks Split",
-      "url": "https://www.financial-news.co.uk/the-weekly-close-wall-street-climbs-as-chip-stocks-split/"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Europe Says",
-      "summary": "欧洲 STOXX 600 再创收盘新高，创 6 月以来最佳一周；保险与石油股上涨抵消芯片股抛售，英飞凌跌 4.3%、ASML 跌 2.8%，跟随美股 AI 股走弱。",
-      "title": "European stocks close at another record as insurers and oil majors offset a chip selloff, capping the STOXX 600's best week since June",
-      "url": "https://www.europesays.com/3374011/"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Wall Street Journal",
-      "summary": "亚洲科技股反弹乏力，纳斯达克 100 期货跌 0.4%；布伦特原油约 96 美元、金价约 3902 美元；美元指数处于 19 个月高位附近，继续压制亚洲货币。",
-      "title": "Asia's Stock Rebound Fades as Nvidia Uncertainty Lingers",
-      "url": "https://www.wsj.com/finance/stocks/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "CNBC",
-      "summary": "两名主要投资者敦促英伟达董事会考虑让黄仁勋回归；黄仁勋辞任后英伟达股价本周大跌，临时 CEO 由 CFO 科莱特·克雷斯担任。",
-      "title": "Nvidia board urged to consider potential return of Jensen Huang by two major investors",
-      "url": "https://www.cnbc.com/2026/11/14/nvidia-board-jensen-huang-return-investors.html"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 21:25"
+    "updated_at": "2026-11-15 23:25"
   }
 }
