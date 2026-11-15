@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-15",
+      "source": "Yardeni QuickTakes",
+      "title": "ECONOMIC WEEK AHEAD: November 16-20",
+      "url": "https://www.yardeniquicktakes.com/economic-week-ahead-november-16-20/",
+      "summary": "本周日程密集：周三公布 10 月 FOMC 会议纪要，周二英伟达发布财报与美国 10 月零售销售，周四 Anthropic 在纳斯达克上市；市场计价美联储 12 月加息 25 个基点概率约 89%，加息 50 个基点概率约 11.5%。"
+    },
+    {
+      "published_at": "2026-11-15",
+      "source": "Stockbiz",
+      "title": "Markets this past week, November 9-14: Oil prices plunge, gold posts biggest drop in about four months, silver faces even greater pressure",
+      "url": "https://stockbiz.vn/en/news/markets-this-past-week-november-9-14-oil-prices-plunge-gold-posts-biggest-drop-in-about-four-months-silver-faces-even-greater-pressure/42780529",
+      "summary": "本周油价连续第二周下跌，布伦特收于 96.28 美元、周跌 2.52%；金价周跌约 4.5% 至 3884 美元附近，为约四个月最大周跌幅；IEA 称 10 月全球石油供应增至 1.054 亿桶/日。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "BigGo Finance",
+      "title": "Nvidia Earnings and Anthropic IPO Land in Same Week, Testing Both Ends of the AI Supply Chain",
+      "url": "https://finance.biggo.com/news/94455a16-8d60-4f8d-9707-a6bdf15f265d",
+      "summary": "英伟达将于下周二盘后发布财报，为黄仁勋离任后首份财报，分析师预计营收约 1090 亿美元；Anthropic 预计下周四在纳斯达克上市，估值最高约 1.4 万亿美元。"
+    },
+    {
+      "published_at": "2026-11-14",
+      "source": "Pulsafi",
+      "title": "Today's Market Pulse",
+      "url": "https://www.pulsafi.com/market-today",
+      "summary": "美股周五收跌，标普 500 跌 0.40% 至 7561.67 点、纳指跌 0.91%，道指微涨 0.10%；10 年期美债收益率升至 5.15%，比特币跌 7.44% 至 63168 美元。"
+    },
+    {
+      "published_at": "2026-11-15",
       "source": "World Money Roadmap",
       "title": "Nvidia Earnings and Anthropic IPO Test the AI Trade Next Week",
       "url": "https://worldmoneyroadmap.com/en/reports/2026-11-15-preview/",
@@ -111,38 +139,10 @@
       "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
       "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547",
       "summary": "费城半导体指数周五跌 3.4%，AMD 跌 8.8%、博通跌 4.8%、英特尔与美光各跌 2.5%；华尔街重新评估没有黄仁勋的 AI 交易，担忧英伟达超 600 亿美元的客户投资（所谓“循环融资”）在新 CEO 上任后生变。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Reuters",
-      "title": "GLOBAL MARKETS-Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
-      "url": "https://www.devdiscourse.com/article/international/4006879-global-markets-stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
-      "summary": "美股周五收跌，纳指跌 0.91%、标普跌 0.40%，道指微涨 0.10% 至 52347.55 点；美元指数升至 103.40 的 19 个月高点，2 年期美债收益率创两年多最大单周涨幅；市场计价美联储 12 月加息 50 个基点概率升至 11%。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Al Jazeera",
-      "title": "US Treasury warns against rate hikes during US-Iran war energy 'shock'",
-      "url": "https://www.aljazeera.com/amp/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock",
-      "summary": "美国财长贝森特在 CNBC 采访中呼吁美联储不要因伊朗冲突引发的能源供给冲击而加息，称美国经济基本面强劲；市场仍计价 12 月 9 日会议加息至 4.00–4.25% 的概率约 89%。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "Reuters",
-      "title": "GLOBAL MARKETS-Wall Street ends lower as Nvidia CEO resigns; US yields up",
-      "url": "https://www.devdiscourse.com/article/international/4006203-global-markets-wall-street-ends-lower-as-nvidia-ceo-resigns-us-yields-up?amp",
-      "summary": "美股周四收跌，英伟达 CEO 辞任拖累市场，10 年期美债收益率重回 5% 上方；美元指数创 19 个月新高至 103.18，布伦特原油收涨约 3 美元至 95.82 美元。"
-    },
-    {
-      "published_at": "2026-11-12",
-      "source": "TradingView",
-      "title": "Gold Plummets After Expectations On U.S.-Iran Deal Sink Pushing Crude Oil Higher",
-      "url": "https://www.tradingview.com/news/dpa_afx:7efd0e5ea0cec:0-gold-plummets-after-expectations-on-u-s-iran-deal-sink-pushing-crude-oil-higher/",
-      "summary": "特朗普称美国不需要与伊朗达成协议后油价大涨、金价重挫，12 月 Comex 黄金跌 115.20 美元（2.88%）至 3885.30 美元，美元指数升至 103.19。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 11:25"
+    "updated_at": "2026-11-15 13:26"
   }
 }
