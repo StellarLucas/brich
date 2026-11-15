@@ -121,6 +121,13 @@
     },
     {
       "published_at": "2026-11-13",
+      "source": "TradingView",
+      "title": "Stocks Retreat as Chipmakers Sink and Bond Yields Rise",
+      "url": "https://www.tradingview.com/news/barchart:cf0cfef7c094b:0-stocks-retreat-as-chipmakers-sink-and-bond-yields-rise/",
+      "summary": "芯片与 AI 基建股再度抛售，纳指 100 跌 2.06%；10 年期美债收益率升至 5.17% 的四周高点；IEA 下调 2026 年全球原油需求预测；布伦特原油约 95.84 美元。"
+    },
+    {
+      "published_at": "2026-11-13",
       "source": "Bloomberg",
       "title": "Stocks Gain as Fed Bets Face Fresh Inflation Test: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/stocks-gain-as-fed-bets-face-fresh-inflation-test:-markets-wrap/92374084",
@@ -132,13 +139,6 @@
       "title": "Stocks Slip as Nvidia Jitters Linger, Bonds Slump: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/stocks-slip-as-nvidia-jitters-linger,-bonds-slump:-markets-wrap/92374084",
       "summary": "美股小幅走低，纳斯达克 100 期货跌 0.3%、标普 500 期货跌 0.2%；日本与澳洲国债收益率跳升，跟随美债抛售；英伟达周四收跌 4.3% 后市场仍在消化其领导层变动的影响。"
-    },
-    {
-      "published_at": "2026-11-13",
-      "source": "CNBC",
-      "title": "What’s ahead for AI financing after Nvidia CEO Jensen Huang departs",
-      "url": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-resignation-ai-financing.html",
-      "summary": "黄仁勋离任尚未对信贷市场造成广泛冲击，但英伟达为 AI 行业扩张提供的融资安排可能生变，公司预计仍会履行已宣布的承诺。"
     }
   ],
   "meta": {
