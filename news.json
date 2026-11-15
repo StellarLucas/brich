@@ -1,6 +1,13 @@
 {
   "items": [
     {
+      "published_at": "2026-11-16",
+      "source": "Adalytica",
+      "title": "Asian Stocks Rebound as Dollar Stays Firm",
+      "url": "https://adalytica.com/news/asian-stocks-rebound-dollar-firm-ff09343a",
+      "summary": "亚洲股市反弹，资金回流科技股并撤出避险资产；美元保持坚挺，市场预期美联储将在更长时间维持限制性政策；10 年期美债收益率约 5.12%，美元指数 ETF 接近近期高位。"
+    },
+    {
       "published_at": "2026-11-15",
       "source": "TradingView",
       "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
@@ -127,22 +134,15 @@
       "url": "https://www.thestreet.com/latest-news/wall-street-watching-troubling-treasury-yields-climbing"
     },
     {
-      "published_at": "2026-11-14",
-      "source": "CCN",
-      "summary": "黄仁勋离任后，英伟达 11 月 17 日财报与 Anthropic IPO 成为下周 AI 交易的两大考验；Anthropic 拟 11 月 18 日定价、19 日在纳斯达克上市，估值最高约 1.4 万亿美元。",
-      "title": "Jensen Huang Exit Divides AI Traders: Nvidia Shorts, Anthropic Longs",
-      "url": "https://www.ccn.com/news/crypto/huang-exit-nvidia-shorts-anthropic-longs/"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Capital Street FX",
-      "summary": "标普 500 收于 7562 点附近；市场已完全计价美联储 12 月加息（25 个基点概率约 85–89%），美元指数处 19 个月高位；下周看点为零售销售、英伟达财报与 FOMC 会议纪要。",
-      "title": "Week Ahead: Fed Minutes, US Retail Sales And Nvidia Earnings Test The S&P 500 At 7,562",
-      "url": "https://www.capitalstreetfx.com/market-analysis/daily-index-report-14-nov-2026/"
+      "published_at": "2026-11-13",
+      "source": "Newsquawk",
+      "title": "Fed Speak Primer/Schedule: Rate hike bets pick up after Waller and hot CPI",
+      "url": "https://www.newsquawk.com/headlines/newsquawk-fed-speak-primerschedule-rate-hike-bets-pick-up-after-waller-and-hot-cpi",
+      "summary": "美联储官员密集发声：11 月 16 日（周一）纽约联储主席威廉姆斯与美联储主席沃什将发表讲话；市场已完全计价 12 月加息 25 个基点，50 个基点加息概率约 10%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 03:25"
+    "updated_at": "2026-11-16 05:25"
   }
 }
