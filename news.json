@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "published_at": "2026-11-14",
+      "source": "SEE News",
+      "title": "Mohamed El-Erian: Global Markets Face Sharp Volatility as Investors Await Federal Reserve Signals",
+      "url": "https://see.news/mohamed-el-erian-global-markets-face-sharp-volatility-as-investors-await-federal-reserve-signals",
+      "summary": "埃尔-埃利安周评：10 年期美债收益率收于 5.14%、美元指数升破 103 的两个月高位，布伦特收于 96 美元、WTI 89 美元；纳斯达克创 8 月以来最佳一周，金价周跌 5%；10 月 CPI 环比涨 0.4% 超预期，几乎所有发声的美联储官员都偏鹰，沃勒称 12 月可考虑加息 50 个基点。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Gold-Eagle",
+      "title": "Gold rebounds from 13-month low as PPI complicates Fed outlook",
+      "url": "https://www.gold-eagle.com/gold-rebounds-from-13-month-low-ppi-complicates-fed-outlook",
+      "summary": "金价从 13 个月低点小幅反弹，现货金约 3891.50 美元、涨 0.39%；美国 10 月 PPI 环比涨 0.3%、低于预期的 0.4%，但市场仍计价美联储 12 月加息 25 个基点概率约 89%、加息 50 个基点约 11%；布伦特约 95.54 美元、WTI 约 88.18 美元，10 年期美债收益率约 5.13%。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "Daily Market Report",
+      "title": "Daily Market Report - 13 November 2026",
+      "url": "https://dailymarket.report/archive/2026-11-13.html",
+      "summary": "周五美股承压，标普 500 盘中跌近 1% 至 7518 点、纳指跌 1.57%，10 年期美债收益率升至 4.98%、美元走强；芯片股领跌，AMD 跌 10.73%、英特尔跌 4.74%、英伟达跌 3.83%，比特币跌约 4% 至 68548 美元，VIX 升至 20.32。"
+    },
+    {
       "published_at": "2026-11-15",
       "source": "Yardeni QuickTakes",
       "title": "ECONOMIC WEEK AHEAD: November 16-20",
@@ -118,31 +139,10 @@
       "title": "Wall St Week Ahead: Nvidia results, Anthropic IPO pose tests for tumultuous AI trade",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/wall-st-week-ahead-nvidia-results-anthropic-ipo-pose-tests-for-tumultuous-ai-trade/articleshow/135821735.cms",
       "summary": "英伟达市值自 10 月初约 5.8 万亿美元跌至 3.9 万亿美元；分析师预计三季报营收 1090 亿美元、盈利增约 90%；Anthropic IPO 拟募资至多 644 亿美元、估值 1.4 万亿美元，周四开始交易；下周二还将公布美国零售销售数据。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Capital Street FX",
-      "title": "Week Ahead: Fed Minutes, US Retail Sales And Iran Headlines Test Gold At 3,880 As Copper Breaks Its Channel",
-      "url": "https://www.capitalstreetfx.com/market-analysis/daily-commodity-report-14-nov-2026/",
-      "summary": "金价周跌 4.56% 至 3884 美元，创 1989 年以来最差连跌走势，触及 3852 美元的 2025 年 10 月以来低点；美元处 19 个月高位，市场计价 12 月加息概率近 90%；下周看点为 FOMC 会议纪要与美国零售销售。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "Motley Fool",
-      "title": "Should You Buy Nvidia Stock Before Nov. 17?",
-      "url": "https://www.fool.com/investing/2026/11/14/should-you-buy-nvidia-stock-before-nov-17/",
-      "summary": "英伟达将于 11 月 17 日盘后发布第三财季业绩，为黄仁勋辞任后的首份财报；分析师预计营收同比增约 91% 至 1087 亿美元、调整后每股收益 2.47 美元；上周股价跌约 15%，较 10 月高点回落约三分之一。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "MarketWatch",
-      "title": "AMD and other chip stocks slide as Wall Street rethinks the AI trade without Jensen Huang",
-      "url": "https://www.marketwatch.com/story/amd-and-other-chip-stocks-slide-as-wall-street-rethinks-the-ai-trade-without-jensen-huang-2fb74547",
-      "summary": "费城半导体指数周五跌 3.4%，AMD 跌 8.8%、博通跌 4.8%、英特尔与美光各跌 2.5%；华尔街重新评估没有黄仁勋的 AI 交易，担忧英伟达超 600 亿美元的客户投资（所谓“循环融资”）在新 CEO 上任后生变。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-15 13:26"
+    "updated_at": "2026-11-15 15:25"
   }
 }
