@@ -2,6 +2,13 @@
   "items": [
     {
       "published_at": "2026-11-16",
+      "source": "Reuters",
+      "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
+      "url": "https://finwire.io/news/economy-news/stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
+      "summary": "美股上周五多数收跌，科技股受英伟达担忧拖累，纳指跌 0.91%、标普 500 跌 0.40%，道指微涨 0.10%；美元指数升至 19 个月高位，2 年期美债收益率创两年来最大单周涨幅；FAA 发布全国航班停飞令后航空股尾盘跳水。"
+    },
+    {
+      "published_at": "2026-11-16",
       "source": "Business Standard",
       "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
       "url": "https://www.business-standard.com/markets/news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-126111600048_1.html",
@@ -132,17 +139,10 @@
       "title": "Asia Stocks Stage Tentative Rebound as Nvidia Uncertainty Lingers",
       "url": "https://www.wsj.com/world/asia/asia-stocks-stage-tentative-rebound-as-nvidia-uncertainty-lingers-c0953e15",
       "summary": "亚洲科技股在大幅抛售后初步反弹，英伟达领导层变动的不确定性仍存；美股期货走高，黄仁勋辞职、CFO 克雷斯任临时 CEO 带来一定明朗；布伦特约 95.48 美元、WTI 约 88.23 美元，金价涨 0.8% 至 3908 美元逼近 4000 美元关口，美元指数维持在约 19 个月高位附近。"
-    },
-    {
-      "published_at": "2026-11-14",
-      "source": "TNFX",
-      "title": "Oil jumps as Trump says no Iran deal needed; Hormuz and pipeline attacks",
-      "url": "https://tnfx.co/oil-trump-no-iran-deal-hormuz-tankers-pipeline-november-2026/",
-      "summary": "特朗普称美国不需要与伊朗达成协议后油价跳涨，布伦特约 98.28 美元、WTI 约 88.80 美元；胡塞武装称袭击沙特东西输油管线与延布设施；IEA 称 10 月全球石油供应增至 1.054 亿桶/日、市场重回过剩，金价约 3900 美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 11:25"
+    "updated_at": "2026-11-16 13:25"
   }
 }
