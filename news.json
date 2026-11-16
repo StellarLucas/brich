@@ -3,6 +3,20 @@
     {
       "published_at": "2026-11-16",
       "source": "Reuters",
+      "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
+      "summary": "亚洲股市周一下跌，市场等待周二英伟达财报与周四 Anthropic 上市检验 AI 牛市成色；英伟达市值自 10 月初约 5.8 万亿美元缩水至 3.9 万亿美元；美元指数 103.42 创 2025 年 4 月以来新高，布伦特约 95.69 美元，现货金约 3891 美元。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Myfxbook",
+      "title": "Asian Shares Mixed Before Warsh's Speech, Nvidia Earnings",
+      "url": "https://www.myfxbook.com/news/asian-shares-mixed-before-warshs-speech-nvidia-earnings/56535",
+      "summary": "亚洲股市周一涨跌互现：日经跌 2.42% 至 59662 点、上证跌 0.87%，恒生涨 0.49%；金价跌近 1% 至约 3850 美元，布伦特升至 96 美元上方；市场等待美联储主席沃什当日讲话、周二美国 10 月零售销售与周三 FOMC 会议纪要。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Reuters",
       "title": "China's factory output, retail sales growth slow in October",
       "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
       "summary": "中国 10 月经济数据全面不及预期：工业增加值同比增 4.8%（预期 5.3%、9 月 5.5%），社会消费品零售总额仅增 0.4%（预期 0.8%、9 月 1.1%），1–10 月固定资产投资同比降 8.1%，降幅较前九个月扩大。"
@@ -125,24 +139,10 @@
       "summary": "IMF 将 2026 年全球增长预测上调至 3.3%，较 10 月预测提高 0.2 个百分点，理由是 AI 投资热潮与关税缓和；美国 2026 年增长预测上调至 2.4%，中国上调至 4.5%，欧元区上调至 1.3%；有效关税率假设从 25% 降至 18.5%。",
       "title": "IMF Boosts Global Growth Forecast on AI Boom, Tariff Easing",
       "url": "https://www.fastbull.com/news-detail/imf-boosts-global-growth-forecast-on-ai-boom-4366823_0"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "TradingView",
-      "summary": "美股承压于美债收益率上行，10 年期收益率升至 5.17% 的四周高点；芝加哥联储主席古尔斯比与波士顿联储主席柯林斯相继放鹰，市场已完全计价美联储 12 月 8–9 日会议加息 25 个基点；欧洲股市涨跌互现，日经收涨 0.53%，上证收跌 0.59%。",
-      "title": "Stocks Pressured by Rising Bond Yields",
-      "url": "https://www.tradingview.com/news/barchart:b26c489f2094b:0-stocks-pressured-by-rising-bond-yields/"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "Yardeni QuickTakes",
-      "summary": "本周日程密集：周三公布 10 月 FOMC 会议纪要，周二英伟达发布财报与美国 10 月零售销售，周四 Anthropic 在纳斯达克上市；市场计价美联储 12 月加息 25 个基点概率约 89%，加息 50 个基点概率约 11.5%。",
-      "title": "ECONOMIC WEEK AHEAD: November 16-20",
-      "url": "https://www.yardeniquicktakes.com/economic-week-ahead-november-16-20/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 17:26"
+    "updated_at": "2026-11-16 19:26"
   }
 }
