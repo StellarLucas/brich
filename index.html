@@ -369,11 +369,12 @@
   </header>
 
   <nav class="tabs" role="tablist" aria-label="指数切换">
-    <button class="tab active" id="tab-news" data-view="news" role="tab" aria-selected="true">全球资讯<span class="sub">重磅新闻 · 每 2 小时更新</span></button>
-    <button class="tab" id="tab-q50" data-view="q50" role="tab" aria-selected="false">q50 高分红<span class="sub">长期持有 · 股息复利</span></button>
-    <button class="tab" id="tab-e30" data-view="e30" role="tab" aria-selected="false">e30 ETF 波段<span class="sub">中线波段 · 科技 ETF</span></button>
-    <button class="tab" id="tab-a50" data-view="a50" role="tab" aria-selected="false">A50 美股<span class="sub">行业趋势 · 龙头下探</span></button>
-    <button class="tab" id="tab-map" data-view="map" role="tab" aria-selected="false">传导图谱<span class="sub">世界 · 美国 · 中国</span></button>
+    <button class="tab active" id="tab-news" data-view="news" role="tab" aria-selected="true">资讯<span class="sub">重磅新闻 · 每 2 小时更新</span></button>
+    <button class="tab" id="tab-q50" data-view="q50" role="tab" aria-selected="false">H50<span class="sub">长期持有 · 股息复利</span></button>
+    <button class="tab" id="tab-e30" data-view="e30" role="tab" aria-selected="false">E30<span class="sub">中线波段 · 科技 ETF</span></button>
+    <button class="tab" id="tab-a50" data-view="a50" role="tab" aria-selected="false">A50<span class="sub">行业趋势 · 龙头下探</span></button>
+    <button class="tab" id="tab-map" data-view="map" role="tab" aria-selected="false">传导<span class="sub">世界 · 美国 · 中国</span></button>
+    <button class="tab" id="tab-holdings" data-view="holdings" role="tab" aria-selected="false">持仓<span class="sub">11-16 收盘买入 · 长期复利</span></button>
   </nav>
 
   <div id="view-news" role="tabpanel" aria-labelledby="tab-news">
@@ -739,13 +740,28 @@
       <p>BRICH · be rich — 先看传导，再看板块。</p>
     </footer>
   </div><!-- /view-map -->
+
+  <div id="view-holdings" role="tabpanel" aria-labelledby="tab-holdings" hidden>
+    <div class="stats">
+      <div class="stat"><div class="num" id="hd-count">3</div><div class="lbl">持仓只数</div></div>
+      <div class="stat"><div class="num" id="hd-avgret">—</div><div class="lbl">平均浮盈亏</div></div>
+      <div class="stat"><div class="num" id="hd-day">—</div><div class="lbl">今日平均涨跌</div></div>
+      <div class="stat"><div class="num" id="hd-date">11-16</div><div class="lbl">买入日</div></div>
+    </div>
+    <p class="sec-sub" id="hd-note">买入价为 2026 年 11 月 16 日收盘价（收盘后确认），每天随 12:00 / 18:00 更新。浮盈亏只看相对买入价的涨跌幅，不含分红。</p>
+    <div id="holdings-list"></div>
+    <footer>
+      <p>筛查结论（不买 / 关注等）是系统规则的输出，只作参考，不构成操作建议；持仓是你的长期复利标的，拿住不动是计划本身。</p>
+      <p>卖出预警规则：分红下降且股息率 &lt; 3.5% 时发出警告、择机清仓（不一定是基本面坏了，多是股价短期拉高后股息率被压下来，正好收获波段收益）。</p>
+    </footer>
+  </div><!-- /view-holdings -->
 </div>
 
 <footer class="site-footer">
   <div class="site-footer-inner">
     <p><span class="sf-brand">BRICH</span> · 长期持有，构建复利</p>
     <p class="sf-disc">本页面信息仅供参考，不构成投资建议。投资有风险，入市需谨慎。</p>
-    <p>数据来源：q50 — 沪深 300、东方财富、乐咕乐股网；e30 — 东方财富 ETF 行情；A50 — 新浪美股；资讯 — Reuters、Bloomberg、WSJ、CNBC 等国外英文媒体。</p>
+    <p>数据来源：q50 — 沪深 300、东方财富、乐咕乐股网；e30 — 东方财富 ETF 行情；A50 — 新浪美股；资讯 — Reuters、Bloomberg、WSJ、CNBC 等国外英文媒体；持仓 — 新浪行情。</p>
     <p>© 2026 BRICH</p>
   </div>
 </footer>
@@ -762,19 +778,22 @@
   <div class="tabbar-inner">
     <button class="btab active" id="btab-news" data-view="news" role="tab" aria-selected="true">
       <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="4" width="14" height="16" rx="2"/><path d="M17 8h2a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2"/><line x1="6.5" y1="8" x2="13.5" y2="8"/><line x1="6.5" y1="12" x2="13.5" y2="12"/><line x1="6.5" y1="16" x2="10" y2="16"/></svg>
-      全球资讯</button>
+      资讯</button>
     <button class="btab" id="btab-q50" data-view="q50" role="tab" aria-selected="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 17l5-6 4 3 6-8"/><path d="M15 6h3v3"/></svg>
-      q50 高分红</button>
+      H50</button>
     <button class="btab" id="btab-e30" data-view="e30" role="tab" aria-selected="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20V12M9 20V6M14 20v-7M19 20V9"/></svg>
-      e30 波段</button>
+      E30</button>
     <button class="btab" id="btab-a50" data-view="a50" role="tab" aria-selected="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8-5.2-2.7-5.2 2.7 1-5.8L3.5 9.7l5.9-.9z"/></svg>
-      A50 美股</button>
+      A50</button>
     <button class="btab" id="btab-map" data-view="map" role="tab" aria-selected="false">
       <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="6" cy="6" r="2.5"/><circle cx="18" cy="6" r="2.5"/><circle cx="12" cy="18" r="2.5"/><path d="M8 7.5l2.8 8M16 7.5l-2.8 8M8.5 6h7"/></svg>
-      传导图谱</button>
+      传导</button>
+    <button class="btab" id="btab-holdings" data-view="holdings" role="tab" aria-selected="false">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2"/><path d="M3 13h18"/></svg>
+      持仓</button>
   </div>
 </nav>
 
@@ -786,10 +805,11 @@
     q50: '<b>长期持有 · 构建复利</b><br>只盯 50 只权重高分红股，股息率过 3% 的，等它跌出入场时机，再拿住它，靠股息滚雪球。',
     e30: '<b>中线波段 · 吃一段就走</b><br>只盯 30 只大盘科技 ETF，等它跌进波段入口，移动止损跟随最高价上移，12 周上限。',
     a50: '<b>看美股龙头 · 定 A 股方向</b><br>只盯 51 只美股各行业代表，盘中下探超 5% 即信号，行业共振看 A 股同行业。',
-    map: '<b>传导图谱 · 先看因果</b><br>出了什么事，哪个涨、哪个跌。世界、美国、中国三个维度的传导链，新闻进来自动点亮。'
+    map: '<b>传导图谱 · 先看因果</b><br>出了什么事，哪个涨、哪个跌。世界、美国、中国三个维度的传导链，新闻进来自动点亮。',
+    holdings: '<b>我的持仓 · 长期复利</b><br>11 月 16 日收盘价买入的三只长期复利标的，每天跟着收盘更新浮盈亏。'
   };
   var tabs = document.querySelectorAll(".tab[data-view], .btab[data-view]");
-  var views = { news: document.getElementById("view-news"), q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50"), map: document.getElementById("view-map") };
+  var views = { news: document.getElementById("view-news"), q50: document.getElementById("view-q50"), e30: document.getElementById("view-e30"), a50: document.getElementById("view-a50"), map: document.getElementById("view-map"), holdings: document.getElementById("view-holdings") };
   var tagline = document.getElementById("tagline");
   function show(view){
     if(!views[view]) view = "news";
@@ -803,6 +823,7 @@
     views.e30.hidden = view !== "e30";
     views.a50.hidden = view !== "a50";
     views.map.hidden = view !== "map";
+    views.holdings.hidden = view !== "holdings";
     if(tagline) tagline.innerHTML = taglines[view];
     try { localStorage.setItem("brich-view", view); } catch(e){}
     if(location.hash !== "#" + view){
@@ -819,8 +840,9 @@
   else if(location.hash === "#a50") initial = "a50";
   else if(location.hash === "#map") initial = "map";
   else if(location.hash === "#q50") initial = "q50";
+  else if(location.hash === "#holdings") initial = "holdings";
   else {
-    try { var saved = localStorage.getItem("brich-view"); if(saved === "news" || saved === "e30" || saved === "q50" || saved === "a50" || saved === "map") initial = saved; } catch(e){}
+    try { var saved = localStorage.getItem("brich-view"); if(saved === "news" || saved === "e30" || saved === "q50" || saved === "a50" || saved === "map" || saved === "holdings") initial = saved; } catch(e){}
   }
   show(initial);
 })();
@@ -2344,6 +2366,49 @@
     render();
   }).catch(function(){
     document.querySelector(".map-wrap").innerHTML = '<div class="err">传导图谱暂时无法读取，稍后再打开看看。</div>';
+  });
+})();
+</script>
+<script>
+/* ---- holdings: user's 3 long-term compounding positions, buy price = 2026-11-16 close ---- */
+(function(){
+  function el(id){ return document.getElementById(id); }
+  function fmt(v, d){ if(v===null||v===undefined||isNaN(v)) return "—"; return Number(v).toFixed(d===undefined?2:d); }
+  function pct(v){ if(v===null||v===undefined||isNaN(v)) return "—"; return (v>0?"+":"")+v.toFixed(2)+"%"; }
+  function retColor(v){ if(v===null||v===undefined) return "#33414f"; return v>0 ? "#d92d20" : (v<0 ? "#12805c" : "#33414f"); }
+  fetch("holdings.json", {cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error("holdings.json 未找到");
+    return r.json();
+  }).then(function(data){
+    var list = data.holdings || [];
+    var meta = data.meta || {};
+    var rets = list.map(function(h){ return h.return_pct; }).filter(function(v){ return v!==null && v!==undefined; });
+    var days = list.map(function(h){ return h.day_change_pct; }).filter(function(v){ return v!==null && v!==undefined; });
+    el("hd-count").textContent = list.length;
+    el("hd-avgret").innerHTML = rets.length ? pct(rets.reduce(function(a,b){return a+b;},0)/rets.length) : "待收盘";
+    el("hd-day").innerHTML = days.length ? pct(days.reduce(function(a,b){return a+b;},0)/days.length) : "—";
+    el("hd-note").textContent = "买入价为 2026 年 11 月 16 日收盘价" + (rets.length ? "，已确认" : "（收盘后确认）") + "，每天随 12:00 / 18:00 更新。浮盈亏只看相对买入价的涨跌幅，不含分红。数据更新于 " + (meta.updated_at||"") + "。";
+    el("holdings-list").innerHTML = list.map(function(h){
+      var buyTxt = (h.buy_price===null||h.buy_price===undefined) ? "待今日收盘确认" : fmt(h.buy_price)+" 元";
+      var retTxt = (h.return_pct===null||h.return_pct===undefined) ? "待收盘确认" : pct(h.return_pct);
+      var verdictBadge = h.verdict === "不买" ? '<span class="badge vetoed">筛查：不买</span>' : (h.verdict === "无 q50 结论" ? '<span class="badge setup">q50 外</span>' : '<span class="badge fundbuy">筛查：'+h.verdict+'</span>');
+      var ddTxt = (h.drawdown_52w!==null && h.drawdown_52w!==undefined && h.drawdown_52w<=0.05) ? "创 52 周新高" : ("52周回撤 "+fmt(h.drawdown_52w)+"%");
+      var eastmoney = (h.code.charAt(0)==="6" ? "sh" : "sz") + h.code;
+      return '<article class="hit">' +
+        '<div class="hit-head"><span class="hit-name">'+h.name+'</span><span class="hit-code">'+h.code+'</span><span class="hit-ind">'+h.industry+'</span>' +
+        '<span class="badges">'+verdictBadge+'</span></div>' +
+        '<div style="display:flex;align-items:baseline;gap:.6rem;margin:.55rem 0 .2rem"><span style="font-size:1.7rem;font-weight:800;color:'+retColor(h.return_pct)+'">'+retTxt+'</span>' +
+        '<span style="font-size:.85rem;color:#64748b">浮盈亏（相对买入价）</span></div>' +
+        '<div style="font-size:.92rem;line-height:1.9">现价 <b>'+fmt(h.current_price)+' 元</b> · 买入价 <b>'+buyTxt+'</b> · 今日 '+pct(h.day_change_pct)+'<br>' +
+        ddTxt+' · 52周高 '+fmt(h.high_52w)+' 元 · 股息率 '+fmt(h.yield)+'%</div>' +
+        '<div class="hit-reason">护城河：'+(h.moat||"—")+'；筛查结论：'+h.verdict+'——'+(h.verdict_reason||"")+'</div>' +
+        '<div class="hit-reason">财报趋势：'+(h.earnings||"—")+'</div>' +
+        '<div class="hit-reason">跟踪要点：'+(h.watch||"—")+'</div>' +
+        '<div style="margin-top:.5rem;font-size:.85rem"><a href="https://quote.eastmoney.com/'+eastmoney+'.html" target="_blank" rel="noopener">东方财富实时行情 ↗</a></div>' +
+      '</article>';
+    }).join("");
+  }).catch(function(){
+    el("holdings-list").innerHTML = '<div class="err">持仓数据暂时无法读取，稍后再打开看看。</div>';
   });
 })();
 </script>
