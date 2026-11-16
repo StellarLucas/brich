@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-16",
+      "source": "Wall Street Journal",
+      "title": "Stock Futures Slip Ahead of Pivotal Week for AI Trade With Nvidia, Anthropic in Focus",
+      "url": "https://www.wsj.com/finance/investing/stock-futures-slip-ahead-of-pivotal-week-for-ai-trade-with-nvidia-anthropic-in-focus-c1768330",
+      "summary": "美股期货周一下滑，纳指期货跌约 0.9%、标普 500 期货跌 0.4%，芯片股抛售从亚洲蔓延至欧美：台股跌约 6%、韩国跌 3.6%，市场等待周二英伟达财报与周四 Anthropic IPO；欧洲斯托克 600 微涨 0.2%，布伦特约 95.50 美元。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "InvestingLive",
+      "title": "Gold slips toward $3,876 ahead of Warsh as Fed speakers line up behind tighter policy",
+      "url": "https://investinglive.com/commodities/gold-slips-toward-3-876-ahead-of-warsh-as-fed-speakers-line-up-behind-tighter-policy/",
+      "summary": "金价跌至约 3876 美元，自上周二以来累计跌近 7%，此前高盛下调金价预期；美联储主席沃什将于美东时间周一中午就 AI 与通胀发表讲话，市场已完全计价 12 月 8–9 日会议加息 25 个基点，周三将公布 10 月 FOMC 会议纪要。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "WisePropTrader",
+      "title": "Fed minutes Wednesday: Warsh speaks Monday as markets price a December hike",
+      "url": "https://news.wiseproptrader.com/2026/11/fed-minutes-warsh-speech-december-hike/",
+      "summary": "美联储主席沃什周一中午在旧金山联储生产力与就业工作组会议上发表开场讲话，主题是 AI 会否降低通胀；周三下午 2 点公布 10 月 FOMC 会议纪要，10 月会议以 10 比 2 维持利率 3.75%–4.00%，库克与哈马克反对、主张加息，市场关注支持加息的官员规模。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Analytics Insight",
+      "title": "MCX Gold Falls 0.75% to Rs. 1,35,680 Amid Fading Hopes of US-Iran Peace Deal; Brent at USD 94.83",
+      "url": "https://www.analyticsinsight.net/amp/story/business/gold/mcx-gold-falls-075-to-rs-135680-amid-fading-hopes-of-us-iran-peace-deal-brent-at-usd-9483",
+      "summary": "金价继续承压：现货金跌 0.35% 至约 3871 美元，白银跌破 50 美元；布伦特跌 1.05% 至 94.83 美元、WTI 跌 0.73% 至 87.91 美元，IEA 预计四季度全球石油供应日均超需求约 170 万桶；CME FedWatch 显示 12 月加息 25 个基点概率约 92%。"
+    },
+    {
+      "published_at": "2026-11-16",
       "source": "Reuters",
       "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
@@ -111,38 +139,10 @@
       "title": "Bitcoin falls to four-month low near $62K as crypto selloff deepens",
       "url": "https://www.tradingview.com/news/cointelegraph:eaa4d5396094b:0-bitcoin-falls-to-four-month-low-near-62k-as-crypto-selloff-deepens/",
       "summary": "比特币周日跌至约 62081 美元的四个月低点，盘中跌破 200 日均线后回升至 65000 美元上方，但周跌幅仍近 15%；以太币周跌 19.5%、Solana 跌 20.7%，全网市值 24 小时缩水约 4% 至 2.26 万亿美元；美国现货比特币 ETF 两周净流出 23.5 亿美元，恐慌贪婪指数跌至 10 的“极度恐慌”。"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "DailyGraph",
-      "summary": "亚洲股市周二普遍上涨，日经涨 2.6%、韩国 Kospi 涨 4%、台股涨 3.4%，跟随美股创 4 月以来最强单日涨幅；布伦特原油回落至约 91.74 美元，因特朗普暂缓对伊朗的新军事打击。",
-      "title": "Asian stocks today: Markets rally as Wall Street rebounds, oil prices ease on Iran de-escalation hopes",
-      "url": "https://edailygraph.com/asian-stocks-asian-stocks-today-markets-rally-as-wall-street-rebounds-oil-prices-ease-on-iran-de-escalation-hopes/"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "Europe Says",
-      "summary": "美股期货在周五欧洲时段走弱，道指期货跌约 0.15%、标普 500 期货跌约 0.16%、纳指 100 期货跌约 0.30%；通胀超预期后市场计价 12 月加息 25 个基点概率约 87%，加息 50 个基点概率约 13%；投资者等待 10 月 PPI 数据进一步指引。",
-      "title": "Dow Jones futures retreat amid Nvidia leadership shakeup and Fed rate hike concerns as markets await PPI data",
-      "url": "https://www.europesays.com/unitedstates/124312/"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "The Random Walk (Medium)",
-      "summary": "本周回顾：10 月 CPI 环比涨 0.4% 超预期、PPI 同比涨 6.5%，市场转向坚定计价美联储 12 月加息 25 个基点；标普 500 周五跌 0.40% 但全周仍涨约 2%，10 年期美债收益率升至 5.15%，美元指数约 103.40 创 19 个月新高，金价周跌 4.7% 至 3886 美元附近，比特币连续第六周下跌。",
-      "title": "Trail 268 — Fifty on the Table",
-      "url": "https://medium.com/the-random-walk/trail-268-fifty-on-the-table-d6ea712cd49a"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "FastBull",
-      "summary": "IMF 将 2026 年全球增长预测上调至 3.3%，较 10 月预测提高 0.2 个百分点，理由是 AI 投资热潮与关税缓和；美国 2026 年增长预测上调至 2.4%，中国上调至 4.5%，欧元区上调至 1.3%；有效关税率假设从 25% 降至 18.5%。",
-      "title": "IMF Boosts Global Growth Forecast on AI Boom, Tariff Easing",
-      "url": "https://www.fastbull.com/news-detail/imf-boosts-global-growth-forecast-on-ai-boom-4366823_0"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 19:26"
+    "updated_at": "2026-11-16 21:25"
   }
 }
