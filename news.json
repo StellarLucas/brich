@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-16",
+      "source": "Morningstar",
+      "title": "Goldman Sees Oil Market Swelling Into Sizable Surplus in 2027 — Commodities Roundup",
+      "url": "https://www.morningstar.com/news/dow-jones/202611167188/goldman-sees-oil-market-swelling-into-sizable-surplus-in-2027-commodities-roundup",
+      "summary": "高盛预计 2027 年石油市场将出现约 200 万桶/日的供应过剩，布伦特均价约 88 美元、年底跌至 78 美元；周一布伦特跌至约 95 美元，金价跌至一年多新低、期货约 3862 美元。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Business Times",
+      "title": "Oil falls as recovering Middle East exports bolster surplus outlook",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-falls-recovering-middle-east-exports-bolster-surplus-outlook?ref=pulse",
+      "summary": "周一油价跌逾 1%，布伦特跌 1.74% 至 94.17 美元、WTI 跌至 87.42 美元；IEA 称中东出口恢复快于需求，全球石油市场四季度重回过剩，日均供应超需求约 170 万桶。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Economic Times",
+      "title": "Why is the US stock market down today? Nasdaq falls 1.87% as S&P 500 and Dow turn red, with Nvidia, Intel and AI stocks tumbling ahead of earnings",
+      "url": "https://m.economictimes.com/world/us/why-is-the-us-stock-market-down-today-nasdaq-falls-1-87-as-sp-500-and-dow-turn-red-with-nvidia-intel-and-ai-stocks-tumbling-ahead-of-earnings/amp_articleshow/135894789.cms",
+      "summary": "美股周一收跌，纳指跌 1.87%，科技与 AI 股在英伟达财报前领跌；比特币一度跌至 6.2 万美元后回升至约 6.45 万美元，WTI 跌至 86.64 美元、金价约 3867.70 美元。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "The Hindu BusinessLine",
+      "title": "Crude oil futures fall on expectations of a supply surplus in Q4",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-on-expectations-of-a-supply-surplus-in-q4/article71706746.ece",
+      "summary": "原油期货周一下跌，市场预计四季度供应过剩；IEA 预计 2026 年全球石油需求日均减少 270 万桶至 1.023 亿桶，2027 年反弹 200 万桶。"
+    },
+    {
+      "published_at": "2026-11-16",
       "source": "Reuters",
       "title": "Fed's Hammack reiterates case for slow, steady rate hikes - Bloomberg TV",
       "url": "https://www.reuters.com/business/feds-hammack-reiterates-case-slow-steady-rate-hikes-bloomberg-tv-2026-11-16/",
@@ -111,38 +139,10 @@
       "title": "Fed minutes Wednesday: Warsh speaks Monday as markets price a December hike",
       "url": "https://news.wiseproptrader.com/2026/11/fed-minutes-warsh-speech-december-hike/",
       "summary": "美联储主席沃什周一中午在旧金山联储生产力与就业工作组会议上发表开场讲话，主题是 AI 会否降低通胀；周三下午 2 点公布 10 月 FOMC 会议纪要，10 月会议以 10 比 2 维持利率 3.75%–4.00%，库克与哈马克反对、主张加息，市场关注支持加息的官员规模。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Analytics Insight",
-      "title": "MCX Gold Falls 0.75% to Rs. 1,35,680 Amid Fading Hopes of US-Iran Peace Deal; Brent at USD 94.83",
-      "url": "https://www.analyticsinsight.net/amp/story/business/gold/mcx-gold-falls-075-to-rs-135680-amid-fading-hopes-of-us-iran-peace-deal-brent-at-usd-9483",
-      "summary": "金价继续承压：现货金跌 0.35% 至约 3871 美元，白银跌破 50 美元；布伦特跌 1.05% 至 94.83 美元、WTI 跌 0.73% 至 87.91 美元，IEA 预计四季度全球石油供应日均超需求约 170 万桶；CME FedWatch 显示 12 月加息 25 个基点概率约 92%。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-16/",
-      "summary": "亚洲股市周一下跌，市场等待周二英伟达财报与周四 Anthropic 上市检验 AI 牛市成色；英伟达市值自 10 月初约 5.8 万亿美元缩水至 3.9 万亿美元；美元指数 103.42 创 2025 年 4 月以来新高，布伦特约 95.69 美元，现货金约 3891 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Myfxbook",
-      "title": "Asian Shares Mixed Before Warsh's Speech, Nvidia Earnings",
-      "url": "https://www.myfxbook.com/news/asian-shares-mixed-before-warshs-speech-nvidia-earnings/56535",
-      "summary": "亚洲股市周一涨跌互现：日经跌 2.42% 至 59662 点、上证跌 0.87%，恒生涨 0.49%；金价跌近 1% 至约 3850 美元，布伦特升至 96 美元上方；市场等待美联储主席沃什当日讲话、周二美国 10 月零售销售与周三 FOMC 会议纪要。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "China's factory output, retail sales growth slow in October",
-      "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
-      "summary": "中国 10 月经济数据全面不及预期：工业增加值同比增 4.8%（预期 5.3%、9 月 5.5%），社会消费品零售总额仅增 0.4%（预期 0.8%、9 月 1.1%），1–10 月固定资产投资同比降 8.1%，降幅较前九个月扩大。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 05:25"
+    "updated_at": "2026-11-17 07:25"
   }
 }
