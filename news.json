@@ -3,6 +3,27 @@
     {
       "published_at": "2026-11-16",
       "source": "Reuters",
+      "title": "Fed's Hammack reiterates case for slow, steady rate hikes - Bloomberg TV",
+      "url": "https://www.reuters.com/business/feds-hammack-reiterates-case-slow-steady-rate-hikes-bloomberg-tv-2026-11-16/",
+      "summary": "克利夫兰联储主席哈马克周一重申支持小幅稳步加息，称可预测的加息节奏更利于企业与家庭规划；她同时表示，若美联储落后于形势，仍可采取更大幅度的加息。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Reuters",
+      "title": "Fed Chair Warsh's true test begins now",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/fed-chair-warshs-true-test-begins-now-2026-11-16/",
+      "summary": "美联储主席沃什面临上任以来最大考验：通胀连续第三个月超预期、能源价格推高加息理由，12 月加息 50 个基点已摆上台面，10 年期美债收益率重回 5% 上方；与此同时财长贝森特公开表示，美联储不应为能源冲击大幅加息，白宫立场仍是希望降息。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Morningstar",
+      "title": "Stock Futures Lower to Kick Off Pivotal Week for AI Trade; Nvidia, Anthropic Eyed",
+      "url": "https://www.morningstar.com/news/dow-jones/202611161722/stock-futures-lower-to-kick-off-pivotal-week-for-ai-trade-nvidia-anthropic-eyed",
+      "summary": "美股期货周一下滑，纳指期货跌 0.9%、标普 500 期货跌 0.4%，亚洲 AI 股抛售蔓延至欧美；市场等待周二英伟达财报与 Anthropic IPO 检验 AI 牛市，布伦特约 95.50 美元，金价跌破 3900 美元。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Reuters",
       "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
       "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/",
       "summary": "美股期货周一下滑，纳指期货跌约 1%、标普 500 期货跌 0.36%，芯片股承压；市场等待周二英伟达财报与 Anthropic 上市检验 AI 牛市，沃什主席当日讲话与周三 FOMC 会议纪要亦受关注；市场已完全计价 12 月加息，50 个基点加息概率约 8%。"
@@ -118,31 +139,10 @@
       "title": "China's factory output, retail sales growth slow in October",
       "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
       "summary": "中国 10 月经济数据全面不及预期：工业增加值同比增 4.8%（预期 5.3%、9 月 5.5%），社会消费品零售总额仅增 0.4%（预期 0.8%、9 月 1.1%），1–10 月固定资产投资同比降 8.1%，降幅较前九个月扩大。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "The Japan Times",
-      "title": "Japan's economy shrinks as bad weather weighs on consumption",
-      "url": "https://www.japantimes.co.jp/business/2026/11/16/economy/japan-gdp-july-september-shrink/",
-      "summary": "日本三季度实际 GDP 年化萎缩 0.1%，为一年来首次收缩，远低于市场预期的增长 0.2%；个人消费环比降 0.3%，恶劣天气与高通胀压制内需；通胀仍高于目标，市场预计日本央行 12 月加息。"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "Haaretz",
-      "title": "Bahrain Intercepts Iranian Drone Attacks as Tehran Says It Hit U.S. Base",
-      "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
-      "summary": "伊朗革命卫队称 15 日向巴林美军直升机基地的防空雷达发射六架无人机，巴林防空系统称全部拦截、无损伤；这是三天内第二次针对巴林的袭击；油价未受提振，布伦特仍在约 95 美元附近，IEA 供应过剩预期压过地缘风险。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "Gold edges higher as investors await Warsh remarks for rate signals",
-      "url": "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/",
-      "summary": "金价周一亚洲早盘小幅上涨，现货金报 3892.42 美元/盎司，上周大跌 4.5% 后企稳；市场等待美联储主席沃什当日讲话与周三公布的 10 月 FOMC 会议纪要，CME FedWatch 显示 12 月加息 25 个基点概率 94%、加息 50 个基点概率 6%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 03:25"
+    "updated_at": "2026-11-17 05:25"
   }
 }
