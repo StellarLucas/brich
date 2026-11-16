@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-16",
+      "source": "TradingView",
+      "title": "Markets Worry About Tech Sector, Fed Hikes",
+      "url": "https://www.tradingview.com/news/dpa_afx:19525085ae63d:0-markets-worry-about-tech-sector-fed-hikes/",
+      "summary": "全球市场情绪受美联储加息预期与科技股前景主导：市场普遍预计美联储 12 月加息 25 个基点，英伟达财报与 Anthropic 上市在即；韩国 Kospi 跌 3.6%、日经跌 2.42%，美元指数约 103.47，10 年期美债收益率约 5.15%。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Barchart",
+      "title": "Weakness in Chipmakers and AI Stocks Weighs on Stock Indexes",
+      "url": "https://www.barchart.com/story/news/8856261/weakness-in-chipmakers-and-ai-stocks-weighs-on-stock-indexes",
+      "summary": "美股周一下跌，芯片与 AI 基建股领跌：标普 500 跌 0.75%、纳指 100 跌 1.36%；11 月纽约联储制造业指数跌至 7.8、弱于预期，中国经济数据亦不及预期；市场已计价 12 月 8–9 日 FOMC 会议加息 25 个基点概率 100%，比特币跌超 5% 至两个半月低点。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Commodity Trader",
+      "title": "Weekly Commodity Update: Surplus Oil, Soft Metals, a Bid in Gas and Beans",
+      "url": "https://www.commoditytrader.com/weekly-commodity-update-surplus-oil-soft-metals-a-bid-in-gas-and-beans/",
+      "summary": "大宗商品周报：布伦特 95.84 美元、周跌 2.52%，IEA 下调 2026 年全球原油需求预期、美国原油库存增 470 万桶；金价周跌 4.55% 至 3879.70 美元，白银跌 5.35%，铜连跌五周；天然气涨 7.74%，玉米大豆止跌回升。"
+    },
+    {
+      "published_at": "2026-11-16",
       "source": "Investopedia",
       "title": "Stock Market Today: Major Indexes Slide to Kick Off the Week as Chip Stocks Drop; Nvidia Continues Falling Ahead of Earnings Report",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11162026-12257790",
@@ -118,31 +139,10 @@
       "title": "Fed Hike Odds Push Yields Above 5.1% as AI Hardware Derates and Crypto Steadies",
       "url": "https://aeroxy.github.io/ainance/",
       "summary": "美联储官员鹰派表态后 10 年期美债收益率升至 5.139%，市场计价 12 月加息概率约 88%；半导体板块跌约 3%、科技股跌约 2%，资金轮动至必需消费品与现金充裕的伯克希尔（股价创历史新高）；白银跌破 50 美元至 49.12 美元，WTI 原油约 88.56 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Fin-X",
-      "title": "Fin-X Weekly Update 16th November 2026",
-      "url": "https://www.fin-xwealth.com/post/fin-x-weekly-update-16th-november-2026",
-      "summary": "全球股市上周在英伟达与微软负面消息冲击下仍具韧性；通胀超预期后市场重新计价加息预期、美债收益率上行；欧洲央行、日本央行与英国央行预计 12 月跟随美联储加息；本周焦点为英伟达财报与美中俄领导人会晤。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Peter Lewis Money Talk (Substack)",
-      "title": "PETER'S ASIAN BUSINESS & FINANCE BRIEFING – Monday 16 November 2026, 06:00 Hong Kong",
-      "url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-98e",
-      "summary": "美俄中三国领导人将于本周在深圳 APEC 峰会期间举行三方会晤；本周焦点为英伟达财报（黄仁勋离任后首份）与中国 10 月工业、零售、房价等数据及日本三季度 GDP；日经上周五收涨 0.5% 至 61142 点，周涨 6.5% 为 6 月以来最强单周表现。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Adalytica",
-      "title": "Asian Stocks Rebound as Dollar Stays Firm",
-      "url": "https://adalytica.com/news/asian-stocks-rebound-dollar-firm-ff09343a",
-      "summary": "亚洲股市反弹，资金回流科技股并撤出避险资产；美元保持坚挺，市场预期美联储将在更长时间维持限制性政策；10 年期美债收益率约 5.12%，美元指数 ETF 接近近期高位。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 23:25"
+    "updated_at": "2026-11-17 01:25"
   }
 }
