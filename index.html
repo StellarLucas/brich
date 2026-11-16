@@ -404,6 +404,12 @@
     <div id="setups"></div>
   </section>
 
+  <section id="sec-sellwarn">
+    <h2>卖出预警</h2>
+    <p class="sec-sub">规则：最近年度每股股息同比下降，且实时股息率低于 3.5%，就发出卖出预警、择机清仓。这不一定是基本面坏了，多是股价短期拉高后股息率被压下来，正好收获波段上涨收益。只筛查股息率 3.0%–3.5% 的票，其余 44 只股息率在 3.5% 以上，按规则不可能触发。</p>
+    <div id="sellwarn"></div>
+  </section>
+
   <section id="sec-vetoed">
     <details class="collapse" id="details-vetoed" open>
       <summary><span>价格触发、基本面已否决</span><span class="sum-note" id="vetoed-sum"></span><span class="sum-chev">▾</span></summary>
@@ -892,10 +898,14 @@
     }),
     fetch("analysis.json", {cache:"no-store"}).then(function(r){
       return r.ok ? r.json() : null;
+    }).catch(function(){ return null; }),
+    fetch("sell-warnings.json", {cache:"no-store"}).then(function(r){
+      return r.ok ? r.json() : null;
     }).catch(function(){ return null; })
   ]).then(function(res){
     var d = res[0];
     var a = res[1];
+    var sw = res[2];
     var meta = d.meta || {};
     var wl = d.watchlist || [];
     var hits = d.hits || [];
@@ -1089,6 +1099,48 @@
           (s.compounding_reason ? '<div class="hit-reason">' + s.compounding_reason + '</div>' : '') +
         '</article>';
       }).join("");
+    }
+
+    /* ---- sell warnings ---- */
+    var swBox = el("sellwarn");
+    if(swBox){
+      if(!sw){
+        swBox.innerHTML = '<div class="empty">卖出预警数据暂缺。</div>';
+      } else {
+        var trig = sw.triggered || [];
+        var notTrig = sw.checked_not_triggered || [];
+        var swHtml = "";
+        if(!trig.length){
+          swHtml += '<div class="empty">目前没有触发卖出预警的票。</div>';
+        } else {
+          swHtml += trig.map(function(t){
+            var w = wlByCode(t.code) || {};
+            var liveYield = (w.yield!==undefined&&w.yield!==null) ? w.yield : t.yield_checked;
+            var price = (w.price!==undefined&&w.price!==null) ? w.price : null;
+            var coreBadge = t.compounding_core ? ' <span class="badge fundbuy">复利核心</span>' : '';
+            return '<article class="hit vetoed" data-code="' + t.code + '">' +
+              '<div class="hit-head"><span class="hit-name">' + t.name + '</span>' +
+              '<span class="hit-code">' + t.code + '</span>' +
+              '<span class="hit-ind">' + (t.industry||"") + '</span>' +
+              '<span class="badges"><span class="badge vetoed">卖出预警</span>' + coreBadge + '</span></div>' +
+              '<div class="metrics">' +
+                '<div class="metric"><div class="k">现价</div><div class="v">' + (price!==null?price:"—") + ' <small>元</small></div></div>' +
+                '<div class="metric"><div class="k">实时股息率</div><div class="v">' + liveYield.toFixed(2) + '%</div></div>' +
+                '<div class="metric"><div class="k">2024 年每股股息</div><div class="v">' + t.dps_2024.toFixed(4) + ' <small>元</small></div></div>' +
+                '<div class="metric"><div class="k">2025 年每股股息</div><div class="v">' + t.dps_2025.toFixed(4) + ' <small>元</small></div></div>' +
+                '<div class="metric"><div class="k">同比</div><div class="v">' + t.dps_change_pct + '%</div></div>' +
+              '</div>' +
+              '<div class="hit-reason">' + (t.dps_note ? t.dps_note + ' ' : '') + '分红下降且股息率低于 3.5%，按规则发出卖出预警，择机清仓。来源：' + (t.source||"") + '</div>' +
+            '</article>';
+          }).join("");
+        }
+        if(notTrig.length){
+          swHtml += '<div class="hit-reason" style="margin-top:.5rem">已核查、未触发：' + notTrig.map(function(n){
+            return n.name + ' +' + n.dps_change_pct + '%' + (n.dps_note ? '（' + n.dps_note + '）' : '');
+          }).join('、') + '。以上 4 只每股股息全部上升，不触发。</div>';
+        }
+        swBox.innerHTML = swHtml;
+      }
     }
 
     /* ---- outsiders (q50 外观察) ---- */
