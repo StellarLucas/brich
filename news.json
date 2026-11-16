@@ -3,6 +3,27 @@
     {
       "published_at": "2026-11-16",
       "source": "Reuters",
+      "title": "China's factory output, retail sales growth slow in October",
+      "url": "https://www.reuters.com/world/chinas-factory-output-retail-sales-growth-slow-october-2026-11-16/",
+      "summary": "中国 10 月经济数据全面不及预期：工业增加值同比增 4.8%（预期 5.3%、9 月 5.5%），社会消费品零售总额仅增 0.4%（预期 0.8%、9 月 1.1%），1–10 月固定资产投资同比降 8.1%，降幅较前九个月扩大。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "The Japan Times",
+      "title": "Japan's economy shrinks as bad weather weighs on consumption",
+      "url": "https://www.japantimes.co.jp/business/2026/11/16/economy/japan-gdp-july-september-shrink/",
+      "summary": "日本三季度实际 GDP 年化萎缩 0.1%，为一年来首次收缩，远低于市场预期的增长 0.2%；个人消费环比降 0.3%，恶劣天气与高通胀压制内需；通胀仍高于目标，市场预计日本央行 12 月加息。"
+    },
+    {
+      "published_at": "2026-11-15",
+      "source": "Haaretz",
+      "title": "Bahrain Intercepts Iranian Drone Attacks as Tehran Says It Hit U.S. Base",
+      "url": "https://www.haaretz.com/middle-east-news/2026-11-15/ty-article/bahrain-intercepts-iranian-drone-attacks-as-tehran-says-it-hit-u-s-base/000001a1-debc-da30-a7fb-debdb7ed0000",
+      "summary": "伊朗革命卫队称 15 日向巴林美军直升机基地的防空雷达发射六架无人机，巴林防空系统称全部拦截、无损伤；这是三天内第二次针对巴林的袭击；油价未受提振，布伦特仍在约 95 美元附近，IEA 供应过剩预期压过地缘风险。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Reuters",
       "title": "Gold edges higher as investors await Warsh remarks for rate signals",
       "url": "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/",
       "summary": "金价周一亚洲早盘小幅上涨，现货金报 3892.42 美元/盎司，上周大跌 4.5% 后企稳；市场等待美联储主席沃什当日讲话与周三公布的 10 月 FOMC 会议纪要，CME FedWatch 显示 12 月加息 25 个基点概率 94%、加息 50 个基点概率 6%。"
@@ -118,31 +139,10 @@
       "summary": "本周日程密集：周三公布 10 月 FOMC 会议纪要，周二英伟达发布财报与美国 10 月零售销售，周四 Anthropic 在纳斯达克上市；市场计价美联储 12 月加息 25 个基点概率约 89%，加息 50 个基点概率约 11.5%。",
       "title": "ECONOMIC WEEK AHEAD: November 16-20",
       "url": "https://www.yardeniquicktakes.com/economic-week-ahead-november-16-20/"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "Stockbiz",
-      "summary": "本周油价连续第二周下跌，布伦特收于 96.28 美元、周跌 2.52%；金价周跌约 4.5% 至 3884 美元附近，为约四个月最大周跌幅；IEA 称 10 月全球石油供应增至 1.054 亿桶/日。",
-      "title": "Markets this past week, November 9-14: Oil prices plunge, gold posts biggest drop in about four months, silver faces even greater pressure",
-      "url": "https://stockbiz.vn/en/news/markets-this-past-week-november-9-14-oil-prices-plunge-gold-posts-biggest-drop-in-about-four-months-silver-faces-even-greater-pressure/42780529"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "World Money Roadmap",
-      "summary": "下周关键日程：周二公布 10 月零售销售与英伟达财报（营收指引 1080 亿美元），周三公布 FOMC 会议纪要，周四 Anthropic 预计纳斯达克上市；市场已完全计价美联储 12 月加息，10 年期美债收益率约 5.15%。",
-      "title": "Nvidia Earnings and Anthropic IPO Test the AI Trade Next Week",
-      "url": "https://worldmoneyroadmap.com/en/reports/2026-11-15-preview/"
-    },
-    {
-      "published_at": "2026-11-15",
-      "source": "Reuters",
-      "title": "Bessent says Nvidia must 'go outside the company' to find new CEO",
-      "url": "https://www.reuters.com/world/bessent-says-nvidia-must-go-outside-company-find-new-ceo-2026-11-15/",
-      "summary": "美国财长贝森特周日表示，英伟达应在公司外部物色新任 CEO；董事会及外部律师须在 10 天内回应有关出口管制合规文化的问题，董事会已接触 Arm 首席执行官哈斯。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-16 15:26"
+    "updated_at": "2026-11-16 17:26"
   }
 }
