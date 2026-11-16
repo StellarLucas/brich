@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-16",
+      "source": "Reuters",
+      "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
+      "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/",
+      "summary": "美股期货周一下滑，纳指期货跌约 1%、标普 500 期货跌 0.36%，芯片股承压；市场等待周二英伟达财报与 Anthropic 上市检验 AI 牛市，沃什主席当日讲话与周三 FOMC 会议纪要亦受关注；市场已完全计价 12 月加息，50 个基点加息概率约 8%。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Gulf Today",
+      "title": "Stocks dip as caution sets in before Nvidia earnings and Anthropic IPO",
+      "url": "https://www.gulftoday.ae/business/2026/11/16/stocks-dip-as-caution-sets-in-before-nvidia-earnings-and-anthropic-ipo",
+      "summary": "全球股市周一下跌，MSCI 全球指数跌 0.4%，英伟达市值自 10 月初约 5.8 万亿美元缩水至 3.9 万亿美元；市场预计英伟达三季度营收约 1090 亿美元、利润增长 90%；10 年期美债收益率约 5.14%，市场计价 12 月至明年 12 月至少加息三次。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "The Apex Wire",
+      "title": "Fed Chair Warsh on AI Jobs Risk: Growth, Layoffs & Rates",
+      "url": "https://theapexwire.com/finance/fed-chair-warsh-ai-jobs-growth-rates/",
+      "summary": "美联储主席沃什周一在旧金山联储生产力与就业工作组会议上表示，AI 可能提振长期增长，也可能推高失业率或令大额投资失望后拖累股价；未就利率给出指引；10 月 FOMC 会议纪要将于周三公布，下次议息会议为 12 月 8–9 日。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Wall Street Journal",
+      "title": "Auto & Transport Roundup: Market Talk",
+      "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-4080b9af",
+      "summary": "油价午盘转跌，布伦特跌 0.6% 至 95.29 美元、WTI 跌 0.2% 至 88.36 美元，市场预期全球供应过剩扩大；高盛预测 2027 年将出现可观供应过剩，尽管中东再现袭击事件。"
+    },
+    {
+      "published_at": "2026-11-16",
       "source": "TradingView",
       "title": "Markets Worry About Tech Sector, Fed Hikes",
       "url": "https://www.tradingview.com/news/dpa_afx:19525085ae63d:0-markets-worry-about-tech-sector-fed-hikes/",
@@ -111,38 +139,10 @@
       "title": "Gold edges higher as investors await Warsh remarks for rate signals",
       "url": "https://www.reuters.com/world/india/gold-edges-higher-investors-await-warsh-remarks-rate-signals-2026-11-16/",
       "summary": "金价周一亚洲早盘小幅上涨，现货金报 3892.42 美元/盎司，上周大跌 4.5% 后企稳；市场等待美联储主席沃什当日讲话与周三公布的 10 月 FOMC 会议纪要，CME FedWatch 显示 12 月加息 25 个基点概率 94%、加息 50 个基点概率 6%。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Stockbiz",
-      "title": "Market on November 16: Oil continues to fall on oversupply concerns, gold fails to recover after a steep weekly decline",
-      "url": "https://stockbiz.vn/en/news/market-on-november-16-oil-continues-to-fall-on-oversupply-concerns-gold-fails-to-recover-after-a-steep-weekly-decline/42787857",
-      "summary": "油价周一继续下跌，布伦特跌 0.59% 至 94.37 美元、WTI 跌 0.26% 至 88.33 美元；IEA 预计四季度全球石油供应日均约 1.05 亿桶、较需求高出约 170 万桶，霍尔木兹海峡航运逐步恢复；金价早盘反弹后回落至 3867 美元附近。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "Stocks mostly ease with tech, Nvidia concerns; airline shares fall late in session",
-      "url": "https://finwire.io/news/economy-news/stocks-mostly-ease-with-tech-nvidia-concerns-airline-shares-fall-late-in-session",
-      "summary": "美股上周五多数收跌，科技股受英伟达担忧拖累，纳指跌 0.91%、标普 500 跌 0.40%，道指微涨 0.10%；美元指数升至 19 个月高位，2 年期美债收益率创两年来最大单周涨幅；FAA 发布全国航班停飞令后航空股尾盘跳水。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Business Standard",
-      "title": "Asian shares fall before Nvidia earnings, Anthropic IPO test tech rally",
-      "url": "https://www.business-standard.com/markets/news/asian-shares-fall-before-nvidia-earnings-anthropic-ipo-test-tech-rally-126111600048_1.html",
-      "summary": "亚洲股市周一走低，日经跌 0.6%、韩国股市跌 0.2%，市场等待周二英伟达财报与周四 Anthropic 上市检验 AI 牛市成色；英伟达市值自 10 月初约 5.8 万亿美元缩水至 3.9 万亿美元；本周还将公布美联储 10 月会议纪要，特朗普将在深圳 APEC 期间会晤中俄领导人；美国 10 月 PPI 同比涨 6.5%，略低于预期。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Ainance",
-      "title": "Fed Hike Odds Push Yields Above 5.1% as AI Hardware Derates and Crypto Steadies",
-      "url": "https://aeroxy.github.io/ainance/",
-      "summary": "美联储官员鹰派表态后 10 年期美债收益率升至 5.139%，市场计价 12 月加息概率约 88%；半导体板块跌约 3%、科技股跌约 2%，资金轮动至必需消费品与现金充裕的伯克希尔（股价创历史新高）；白银跌破 50 美元至 49.12 美元，WTI 原油约 88.56 美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 01:25"
+    "updated_at": "2026-11-17 03:25"
   }
 }
