@@ -746,13 +746,15 @@
       <div class="stat"><div class="num" id="hd-count">3</div><div class="lbl">持仓只数</div></div>
       <div class="stat"><div class="num" id="hd-avgret">—</div><div class="lbl">平均浮盈亏</div></div>
       <div class="stat"><div class="num" id="hd-day">—</div><div class="lbl">今日平均涨跌</div></div>
-      <div class="stat"><div class="num" id="hd-date">11-16</div><div class="lbl">买入日</div></div>
+      <div class="stat"><div class="num" id="hd-days">0 天</div><div class="lbl">持有天数 · 买入日 11-16</div></div>
     </div>
-    <p class="sec-sub" id="hd-note">买入价为 2026 年 11 月 16 日收盘价（收盘后确认），每天随 12:00 / 18:00 更新。浮盈亏只看相对买入价的涨跌幅，不含分红。</p>
+    <p class="sec-sub" id="hd-note">买入价为 2026 年 11 月 16 日收盘价（收盘后确认）。现价、实时股息率与浮盈亏每天随 q50 的 06:00 / 12:00 / 18:00 / 00:00 更新，另加 10:00 / 14:00 两次盘中快照；DPS、估值与基本面体检每天 18:00 更新一次。浮盈亏只看相对买入价的涨跌幅，不含分红。</p>
     <div id="holdings-list"></div>
     <footer>
+      <p>实时股息率 = 近 12 个月已派发每股股息 ÷ 现价，随现价实时变动；每股股息取自公司公告与新浪分红表，分红一变就更新。估值 PE（TTM）/ PB 取自腾讯行情。</p>
       <p>筛查结论（不买 / 关注等）是系统规则的输出，只作参考，不构成操作建议；持仓是你的长期复利标的，拿住不动是计划本身。</p>
-      <p>卖出预警规则：分红下降且股息率 &lt; 3.5% 时发出警告、择机清仓（不一定是基本面坏了，多是股价短期拉高后股息率被压下来，正好收获波段收益）。</p>
+      <p>卖出预警规则：最近年度每股股息同比下降且实时股息率 &lt; 3.5% 时发出警告、择机清仓（不一定是基本面坏了，多是股价短期拉高后股息率被压下来，正好收获波段收益）。</p>
+      <p>数据口径：盘中价为定时快照（非逐笔实时），打开页面即是最近一次更新；收盘后 18:00 定格为当日收盘价。</p>
     </footer>
   </div><!-- /view-holdings -->
 </div>
@@ -2370,7 +2372,7 @@
 })();
 </script>
 <script>
-/* ---- holdings: user's 3 long-term compounding positions, buy price = 2026-11-16 close ---- */
+/* ---- holdings v2: live yield (DPS/price), swing return vs buy point, daily fundamentals check ---- */
 (function(){
   function el(id){ return document.getElementById(id); }
   function fmt(v, d){ if(v===null||v===undefined||isNaN(v)) return "—"; return Number(v).toFixed(d===undefined?2:d); }
@@ -2384,26 +2386,47 @@
     var meta = data.meta || {};
     var rets = list.map(function(h){ return h.return_pct; }).filter(function(v){ return v!==null && v!==undefined; });
     var days = list.map(function(h){ return h.day_change_pct; }).filter(function(v){ return v!==null && v!==undefined; });
+    var held = list.map(function(h){ return (h.since_buy||{}).days_held; }).filter(function(v){ return v!==null && v!==undefined; });
     el("hd-count").textContent = list.length;
     el("hd-avgret").innerHTML = rets.length ? pct(rets.reduce(function(a,b){return a+b;},0)/rets.length) : "待收盘";
     el("hd-day").innerHTML = days.length ? pct(days.reduce(function(a,b){return a+b;},0)/days.length) : "—";
-    el("hd-note").textContent = "买入价为 2026 年 11 月 16 日收盘价" + (rets.length ? "，已确认" : "（收盘后确认）") + "，每天随 12:00 / 18:00 更新。浮盈亏只看相对买入价的涨跌幅，不含分红。数据更新于 " + (meta.updated_at||"") + "。";
+    el("hd-days").textContent = held.length ? Math.max.apply(null, held) + " 天" : "0 天";
+    el("hd-note").textContent = "买入价为 2026 年 11 月 16 日收盘价" + (rets.length ? "，已确认" : "（收盘后确认）") + "。现价、实时股息率与浮盈亏每天随 q50 的 06:00 / 12:00 / 18:00 / 00:00 更新，另加 10:00 / 14:00 两次盘中快照；DPS、估值与基本面体检每天 18:00 更新一次。数据更新于 " + (meta.updated_at||"") + "。";
     el("holdings-list").innerHTML = list.map(function(h){
       var buyTxt = (h.buy_price===null||h.buy_price===undefined) ? "待今日收盘确认" : fmt(h.buy_price)+" 元";
       var retTxt = (h.return_pct===null||h.return_pct===undefined) ? "待收盘确认" : pct(h.return_pct);
-      var verdictBadge = h.verdict === "不买" ? '<span class="badge vetoed">筛查：不买</span>' : (h.verdict === "无 q50 结论" ? '<span class="badge setup">q50 外</span>' : '<span class="badge fundbuy">筛查：'+h.verdict+'</span>');
+      var sw = h.sell_warning || {};
+      var flag = (h.daily_check||{}).summary_flag || "正常";
+      var badges = '';
+      if(sw.triggered){ badges += '<span class="badge vetoed">卖出预警</span>'; }
+      else if(flag === "关注"){ badges += '<span class="badge setup">逻辑关注</span>'; }
+      else { badges += '<span class="badge fundbuy">逻辑正常</span>'; }
+      badges += (h.verdict === "不买" ? '<span class="badge vetoed">筛查：不买</span>' : (h.verdict === "无 q50 结论" ? '<span class="badge setup">q50 外</span>' : '<span class="badge fundbuy">筛查：'+h.verdict+'</span>'));
       var ddTxt = (h.drawdown_52w!==null && h.drawdown_52w!==undefined && h.drawdown_52w<=0.05) ? "创 52 周新高" : ("52周回撤 "+fmt(h.drawdown_52w)+"%");
+      var sb = h.since_buy || {};
+      var swingTxt = "自买入（" + (sb.days_held!==null&&sb.days_held!==undefined?sb.days_held:0) + " 天）：最高 " + fmt(sb.high) + " 元 / 最低 " + fmt(sb.low) + " 元 / 峰值浮盈 " + pct(sb.max_return_pct) + " / 自峰值回撤 " + fmt(sb.drawdown_from_peak_pct) + "%";
+      var ad = h.annual_dps || {};
+      var dpsTrend = (ad["2025"]!==null&&ad["2025"]!==undefined) ? ("年度分红：2025 年度每股 " + fmt(ad["2025"],4) + " 元" + (ad.change_pct!==null&&ad.change_pct!==undefined ? ("，同比 " + pct(ad.change_pct)) : "（2024 年度待核）")) : "年度分红：待核";
+      var news = ((h.daily_check||{}).news||[]);
+      var newsHtml = news.length ? ('<div class="hit-reason">最新动态：' + news.map(function(n){ return n.title + "（" + n.source + "，" + n.date + "）"; }).join("；") + '</div>') : '<div class="hit-reason">最新动态：暂无新动态，每天 18:00 体检更新。</div>';
+      var warnHtml = sw.triggered ? ('<div class="hit-reason" style="background:#fdf0ef;color:#8c2f26">' + sw.reason + '</div>') : (sw.reason ? ('<div class="hit-reason">' + sw.reason + '</div>') : '');
+      var dc = h.daily_check || {};
       var eastmoney = (h.code.charAt(0)==="6" ? "sh" : "sz") + h.code;
       return '<article class="hit">' +
         '<div class="hit-head"><span class="hit-name">'+h.name+'</span><span class="hit-code">'+h.code+'</span><span class="hit-ind">'+h.industry+'</span>' +
-        '<span class="badges">'+verdictBadge+'</span></div>' +
+        '<span class="badges">'+badges+'</span></div>' +
         '<div style="display:flex;align-items:baseline;gap:.6rem;margin:.55rem 0 .2rem"><span style="font-size:1.7rem;font-weight:800;color:'+retColor(h.return_pct)+'">'+retTxt+'</span>' +
         '<span style="font-size:.85rem;color:#64748b">浮盈亏（相对买入价）</span></div>' +
         '<div style="font-size:.92rem;line-height:1.9">现价 <b>'+fmt(h.current_price)+' 元</b> · 买入价 <b>'+buyTxt+'</b> · 今日 '+pct(h.day_change_pct)+'<br>' +
-        ddTxt+' · 52周高 '+fmt(h.high_52w)+' 元 · 股息率 '+fmt(h.yield)+'%</div>' +
+        ddTxt+' · 52周高 '+fmt(h.high_52w)+' 元</div>' +
+        '<div class="hit-reason">实时股息率 <b>'+fmt(h.yield_live)+'%</b>（近 12 个月每股分红 '+fmt(h.dps_ttm,4)+' 元 ÷ 现价 '+fmt(h.current_price)+' 元）<br><span style="font-size:.82rem;color:#64748b">分红来源：'+(h.dps_source||"—")+'（更新于 '+(h.dps_asof||"—")+'）</span></div>' +
+        '<div class="hit-reason">'+swingTxt+'</div>' +
+        '<div class="hit-reason">估值：PE（TTM）'+fmt(h.pe_ttm)+' · PB '+fmt(h.pb)+'（'+(h.valuation_source||"—")+'，'+(h.valuation_asof||"—")+'）</div>' +
+        '<div class="hit-reason">持有逻辑：'+(dc.logic||"—")+'</div>' +
+        '<div class="hit-reason">基本面体检（'+(dc.date||"—")+'）：'+(dc.summary||"—")+'</div>' +
+        newsHtml + warnHtml +
+        '<div class="hit-reason">'+dpsTrend+'；'+(h.next_event||"")+'</div>' +
         '<div class="hit-reason">护城河：'+(h.moat||"—")+'；筛查结论：'+h.verdict+'——'+(h.verdict_reason||"")+'</div>' +
-        '<div class="hit-reason">财报趋势：'+(h.earnings||"—")+'</div>' +
-        '<div class="hit-reason">跟踪要点：'+(h.watch||"—")+'</div>' +
         '<div style="margin-top:.5rem;font-size:.85rem"><a href="https://quote.eastmoney.com/'+eastmoney+'.html" target="_blank" rel="noopener">东方财富实时行情 ↗</a></div>' +
       '</article>';
     }).join("");
