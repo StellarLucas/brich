@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-17",
+      "source": "Devdiscourse",
+      "title": "GLOBAL MARKETS-Stocks fall with Nvidia in focus, oil ticks up",
+      "url": "https://www.devdiscourse.com/article/international/4008570-global-markets-stocks-fall-with-nvidia-in-focus-oil-ticks-up",
+      "summary": "全球股市周二下跌，科技股领跌，市场等待英伟达财报；美元指数盘中触及19个月新高后回落0.16%至103.41；油价小幅上涨，布伦特涨0.89%至93.26美元、WTI涨0.96%至86.51美元；现货金涨0.19%至3863.76美元。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Tuesday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-17-2026-12260055",
+      "summary": "道指期货走低、纳指期货走高；比特币约64500美元，金价约3860美元，布伦特原油涨0.7%至93美元上方；市场等待英伟达盘后财报与Anthropic周三IPO定价。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Prediction Markets Picks",
+      "title": "Fed Rate Odds December 2026: 96% Hike, 8.5% Half-Point",
+      "url": "https://predictionmarketspicks.com/articles/fed-rate-december-2026-odds-half-point-hike-dot-plot-kalshi-polymarket-futures",
+      "summary": "截至11月16日，Kalshi市场预计美联储12月8-9日会议加息概率96%，其中加息25个基点87.5%、50个基点8.5%；10月FOMC会议纪要将于11月18日公布，12月4日非农报告是加息幅度的关键变量。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "The Hindu BusinessLine",
+      "title": "Crude oil futures fall as Hormuz shipments improve in Q3 2026",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-as-hormuz-shipments-improve-in-q3-2026/article71710342.ece",
+      "summary": "周二早盘布伦特1月合约跌0.85%至91.65美元；美国EIA数据显示，2026年第三季度经霍尔木兹海峡运输的原油及成品油升至910万桶/日，远高于第二季度的510万桶/日；IEA称全球石油供应已超过需求。"
+    },
+    {
+      "published_at": "2026-11-17",
       "source": "The Financial Express",
       "title": "AI trade under fire: Wall Street sinks ahead of Nvidia results, Anthropic IPO",
       "url": "https://www.financialexpress.com/market/global-markets/ai-trade-under-fire-wall-street-sinks-ahead-of-nvidia-results-anthropic-ipo/4387319/",
@@ -111,38 +139,10 @@
       "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
       "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
       "summary": "2026 年全球主要央行集体转向紧缩：美联储 9 月加息 25 个基点至 3.75%–4.00% 并暗示 12 月可能再加息，欧洲央行年内两次加息，日本央行政策利率升至约 1.0%，澳洲联储年内四次加息至 4.60%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "CNBC TV18",
-      "title": "Kospi slumps nearly 2%; Asian markets fall as AI sell-off deepens ahead of Nvidia results, Anthropic IPO",
-      "url": "https://www.cnbctv18.com/market/asian-stock-markets-share-price-kospi-nikkei-ai-selloff-nvidia-results-anthropic-ipo-wall-street-crude-oil-20035378.htm",
-      "summary": "亚洲股市周二继续下跌，韩国 Kospi 跌近 2%、日经跌 1.03%，英伟达较峰值跌近 35%、市值跌破 4 万亿美元；布伦特隔夜跌 4% 至约 90 美元，Anthropic IPO 认购约 7 倍。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "The Edge Singapore",
-      "title": "Stocks fall before Nvidia earnings, Anthropic IPO",
-      "url": "https://www.theedgesingapore.com/news/highlight/stocks-fall-nvidia-earnings-anthropic-ipo?utm_source=website&utm_medium=article&utm_campaign=ONPAGESEO",
-      "summary": "美股周一科技股抛售延续，费城半导体指数跌 5.3%、纳指 100 跌 2.7%、标普 500 跌 1.9%，创 6 月以来最大三日跌幅；市场等待周二英伟达财报与 Anthropic 本周上市。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Profit by Pakistan Today",
-      "title": "Wall Street slides as AI stocks tumble ahead of Nvidia",
-      "url": "https://profit.pakistantoday.com.pk/2026/11/17/wall-street-tumbles-as-ai-concerns-deepen-ahead-of-nvidia-earnings-anthropic-ipo",
-      "summary": "纳指周一跌 2.49% 后较 10 月 6 日高点回落逾 10%，进入技术性回调；英伟达跌 4.1%，市场预计其三季度营收 1091 亿美元、利润同比增 90.4%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Ausprime",
-      "title": "MARKET UPDATE",
-      "url": "https://ausprime.eu/2026/11/17/market-update-237/",
-      "summary": "周二油价继续走低，布伦特跌 0.8% 至 91.66 美元、WTI 跌 0.9% 至 84.96 美元；金价从 14 个月低点反弹，现货涨 0.7% 至 3881.59 美元，美元指数回落 0.14% 至 103.44。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 03:25"
+    "updated_at": "2026-11-18 05:25"
   }
 }
