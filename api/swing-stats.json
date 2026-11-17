@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-16T09:25:15+00:00",
+  "generated_at": "2026-11-17T08:49:44+00:00",
   "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
   "indexes": {
     "q50": {
-      "data_date": "2026-11-16",
-      "computed_at": "2026-11-16T09:25:07+00:00",
+      "data_date": "2026-11-17",
+      "computed_at": "2026-11-17T08:49:38+00:00",
       "stats": {
         "up_gain": {
           "n": 205,
@@ -105,15 +105,15 @@
       }
     },
     "h100": {
-      "data_date": "2026-11-16",
-      "computed_at": "2026-11-16T09:25:08+00:00",
+      "data_date": "2026-11-17",
+      "computed_at": "2026-11-17T08:49:40+00:00",
       "stats": {
         "up_gain": {
-          "n": 943,
-          "mean": 0.7747,
-          "median": 0.4903,
-          "q1": 0.3048,
-          "q3": 0.8393
+          "n": 947,
+          "mean": 0.7726,
+          "median": 0.4895,
+          "q1": 0.303,
+          "q3": 0.8362
         },
         "down_loss": {
           "n": 913,
@@ -123,8 +123,8 @@
           "q3": 0.4047
         },
         "up_duration_weeks": {
-          "n": 943,
-          "mean": 11.6986,
+          "n": 947,
+          "mean": 11.653,
           "median": 7.7,
           "q1": 4.3,
           "q3": 15.4
@@ -137,45 +137,45 @@
           "q3": 15.3
         },
         "drawdown_at_swing_start": {
-          "n": 924,
-          "mean": 0.3729,
-          "median": 0.3571,
-          "q1": 0.2719,
-          "q3": 0.4642
+          "n": 928,
+          "mean": 0.374,
+          "median": 0.3575,
+          "q1": 0.2723,
+          "q3": 0.4651
         },
         "four_week_drop_at_swing_start": {
-          "n": 880,
-          "mean": -0.1644,
-          "median": -0.1689,
-          "q1": -0.2306,
-          "q3": -0.1115
+          "n": 884,
+          "mean": -0.1657,
+          "median": -0.1696,
+          "q1": -0.232,
+          "q3": -0.1117
         },
         "adverse_move_after_entry": {
-          "n": 943,
+          "n": 947,
           "mean": -0.0001,
           "median": 0.0,
           "q1": 0.0,
           "q3": 0.0
         },
         "entry_to_high_gain": {
-          "n": 943,
-          "mean": 0.6438,
-          "median": 0.3833,
-          "q1": 0.207,
-          "q3": 0.7061
+          "n": 947,
+          "mean": 0.6418,
+          "median": 0.3826,
+          "q1": 0.2062,
+          "q3": 0.7053
         },
         "entry_to_high_duration_weeks": {
-          "n": 943,
-          "mean": 11.1357,
+          "n": 947,
+          "mean": 11.091,
           "median": 7.1429,
-          "q1": 3.8571,
+          "q1": 3.7857,
           "q3": 14.8571
         },
         "mae_after_entry": {
-          "n": 943,
-          "mean": -0.0202,
-          "median": -0.011,
-          "q1": -0.034,
+          "n": 947,
+          "mean": -0.0201,
+          "median": -0.0109,
+          "q1": -0.0339,
           "q3": 0.0
         },
         "large_up_duration_weeks": {
@@ -186,15 +186,15 @@
           "q3": 22.7
         },
         "n_stocks": 99,
-        "n_completed_swings": 1856,
-        "n_up": 943,
+        "n_completed_swings": 1860,
+        "n_up": 947,
         "n_down": 913
       },
       "rules": {
         "derived_from": {
           "n_stocks": 99,
-          "n_completed_swings": 1856,
-          "n_up": 943,
+          "n_completed_swings": 1860,
+          "n_up": 947,
           "n_down": 913
         },
         "stop_loss_pct": 0.08,
@@ -207,8 +207,8 @@
       }
     },
     "etf": {
-      "data_date": "2026-11-16",
-      "computed_at": "2026-11-16T09:25:08+00:00",
+      "data_date": "2026-11-17",
+      "computed_at": "2026-11-17T08:49:40+00:00",
       "stats": {
         "up_gain": {
           "n": 34,
