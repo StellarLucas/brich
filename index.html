@@ -2460,7 +2460,7 @@
       var ad = h.annual_dps || {};
       var dpsTrend = (ad["2025"]!==null&&ad["2025"]!==undefined) ? ("年度分红：2025 年度每股 " + fmt(ad["2025"],4) + " 元" + (ad.change_pct!==null&&ad.change_pct!==undefined ? ("，同比 " + pct(ad.change_pct)) : "（2024 年度待核）")) : "年度分红：待核";
       var news = ((h.daily_check||{}).news||[]);
-      var newsHtml = news.length ? ('<div class="hit-reason">最新动态：' + news.map(function(n){ return n.title + "（" + n.source + "，" + n.date + "）"; }).join("；") + '</div>') : '<div class="hit-reason">最新动态：暂无新动态，每天 18:00 体检更新。</div>';
+      var newsHtml = news.length ? ('<div class="hit-reason">最新动态：' + news.map(function(n){ return (typeof n === "string") ? n : (n.title + "（" + n.source + "，" + n.date + "）"); }).join("；") + '</div>') : '<div class="hit-reason">最新动态：暂无新动态，每天 18:00 体检更新。</div>';
       var warnHtml = sw.triggered ? ('<div class="hit-reason" style="background:#fdf0ef;color:#8c2f26">' + sw.reason + '</div>') : (sw.reason ? ('<div class="hit-reason">' + sw.reason + '</div>') : '');
       var dc = h.daily_check || {};
       var eastmoney = (h.code.charAt(0)==="6" ? "sh" : "sz") + h.code;
