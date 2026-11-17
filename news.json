@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-17",
+      "source": "Moneyweb",
+      "title": "Oil edges up as traders weigh Mideast threats and ample supply",
+      "url": "https://www.moneyweb.co.za/news-fast-news/oil-edges-up-as-traders-weigh-mideast-threats-and-ample-supply/",
+      "summary": "布伦特 1 月合约周二伦敦早盘涨 0.5% 至 92.93 美元、WTI 涨 0.3% 至 85.95 美元；IEA 预计本季度供应过剩约 200 万桶/日，高盛提示明年供应过剩风险，交易员在中东威胁与充足供应之间权衡。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "The Business Times",
+      "title": "Oil settles lower as recovering Middle East exports bolster surplus outlook",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-settles-lower-recovering-middle-east-exports-bolster-surplus-outlook",
+      "summary": "布伦特周一收跌 3.6% 至 92.44 美元、WTI 跌 3.2% 至 85.72 美元；IEA 称四季度全球石油供应将超过需求约 170 万桶/日，市场重回供应过剩，霍尔木兹海峡油轮遇袭仍构成出口风险。"
+    },
+    {
+      "published_at": "2026-11-17",
       "source": "Reuters",
       "title": "US stock futures slip ahead of Nvidia results; Fed speakers in focus",
       "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
@@ -27,13 +41,6 @@
       "title": "U.S. 10-Year Treasury Yield Tops 5% on Tightening Fears",
       "url": "https://en.sedaily.com/society/2026/11/17/us-10-year-treasury-yield-tops-5-percent-on-tightening-fears",
       "summary": "美国 10 年期国债收益率重回 5% 上方，通胀超预期与美联储官员鹰派言论强化加息周期延长预期；市场关注美联储主席沃什讲话与 10 月 FOMC 会议纪要。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "TradingView",
-      "title": "U.S. Dollar Inches Higher As Fed Rate Hike Expectations Continue To Increase",
-      "url": "https://www.tradingview.com/news/dpa_afx:83bc38bdef099:0-u-s-dollar-inches-higher-as-fed-rate-hike-expectations-continue-to-increase/",
-      "summary": "美元指数升至 103.58，12 月加息 25 个基点概率升至 95.7%；美联储 10 月维持利率 3.75%–4.00% 不变，纽约联储 11 月制造业指数骤降至 7.8，远低于预期的 18。"
     },
     {
       "published_at": "2026-11-17",
@@ -78,25 +85,11 @@
       "summary": "全球股市周一普遍下跌，芯片股跌 5.3%，韩国跌 3.6%、台湾跌 6%，MSCI 全球指数跌 1.8%；美元指数升至 2025 年 4 月以来最高，10 年期美债收益率约 5.13%；市场等待周二英伟达财报与 Anthropic 上市检验 AI 牛市，12 月加息已基本计价。"
     },
     {
-      "published_at": "2026-11-16",
-      "source": "TradingView",
-      "title": "China's October retail sales ease to 0.4%, factory output slows to 4.8%, while jobless rate dips to 5.1%",
-      "url": "https://www.tradingview.com/news/seekingalpha:f46cddf47094b:0-china-s-october-retail-sales-ease-to-0-4-factory-output-slows-to-4-8-while-jobless-rate-dips-to-5-1/",
-      "summary": "中国 10 月经济数据全线不及预期：工业增加值同比增 4.8%（预期 5.3%）、社零仅增 0.4%（预期 0.8%）、前十月固定资产投资跌 8.1%；出口仍强劲，调查失业率降至 5.1%，市场预计年内暂无新刺激。"
-    },
-    {
       "published_at": "2026-11-17",
       "source": "Moneycontrol",
       "title": "Commodity Corner: Oil slips on supply glut concerns; gold steadies after hitting 14-month closing low",
       "url": "https://www.moneycontrol.com/news/business/stocks/commodity-corner-oil-slips-on-supply-glut-concerns-gold-steadies-after-hitting-14-month-closing-low-14081756.html/amp",
       "summary": "周二油价继续走低，布伦特约 92.00 美元、WTI 约 85.28 美元，市场预期供应过剩、中东出口恢复；金价在创 2025 年 9 月以来最低收盘后企稳，现货约 3860 美元，强美元与通胀压力继续压制贵金属。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "Trading Day: AI jitters slam Wall Street",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-16/",
-      "summary": "美股周一重挫，英伟达 CEO 黄仁勋辞职余波与 Anthropic 本周 IPO 拖累科技股，标普 500 跌 1.9%、纳指跌 2.5%；美元创 19 个月新高，油价跌 3%、金价跌至一年新低 3848 美元；英伟达周二盘后发布财报。"
     },
     {
       "published_at": "2026-11-17",
@@ -106,43 +99,50 @@
       "summary": "亚洲股市周二跟随美股走低，美国收紧对华先进 AI 芯片出口；韩国 Kospi 跌 2%、日经跌 1.3%；美元指数 103.61 接近 2025 年 4 月以来最高，WTI 约 85.37 美元，现货金约 3852.62 美元。"
     },
     {
-      "published_at": "2026-11-17",
-      "source": "Economic Times",
-      "title": "Global Market Today: Asian stocks fall as Wall Street selloff deepens ahead of Nvidia earnings",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-fall-as-wall-street-selloff-deepens-ahead-of-nvidia-earnings/articleshow/135906533.cms",
-      "summary": "亚洲股市周二早盘下跌，MSCI 亚太指数跌 0.7%、韩国 Kospi 跌 1.4%，美股期货持稳；Anthropic IPO 认购约 7 倍，周三定价、周四上市，或成史上最大 IPO；英伟达周二盘后发布财报。"
+      "published_at": "2026-11-16",
+      "source": "Motley Fool",
+      "title": "This Is a Huge Week for the Stock Market: Nvidia Earnings, Fed Minutes, and Anthropic's IPO",
+      "url": "https://www.fool.com/investing/2026/11/16/this-is-a-huge-week-for-the-stock-market-nvidia-earnings-fed-minutes-and-anthropic-s-ipo/?source=iedfolrf0000001",
+      "summary": "英伟达周二盘后发布黄仁勋辞职后首份财报，市场预期营收约 1090 亿美元、同比增 91%；美联储周三公布 10 月会议纪要，10 月会议以 10 比 2 维持利率 3.75%–4.00%；Anthropic 计划募资至多 640 亿美元、周四以 ANT 在纳斯达克上市。"
     },
     {
-      "published_at": "2026-11-17",
-      "source": "Financial Express",
-      "title": "Wall Street reels from AI selloff as Nvidia earnings, Anthropic IPO loom",
-      "url": "https://www.financialexpress.com/market/global-markets/wall-street-reels-from-ai-selloff-as-nvidia-earnings-anthropic-ipo-loom/4386350/",
-      "summary": "美股周一收跌，英伟达跌 4.1%，董事会不考虑请黄仁勋回归；市场预计英伟达三季度营收 1091 亿美元、利润同比增 90.4%；Anthropic IPO 本周上市，检验投资者对 AI 交易的信心。"
+      "published_at": "2026-11-16",
+      "source": "TradingView",
+      "title": "Markets Worry About Tech Sector, Fed Hikes",
+      "url": "https://www.tradingview.com/news/dpa_afx:19525085ae63d:0-markets-worry-about-tech-sector-fed-hikes/",
+      "summary": "美联储加息预期升温与科技股前景主导全球市场情绪；美联储主席沃什讲话与周三 FOMC 会议纪要临近，市场普遍预计 12 月加息 25 个基点；韩国 Kospi 跌 3.59%、日经跌 2.42%。"
     },
     {
-      "published_at": "2026-11-17",
-      "source": "CNBC TV18",
-      "title": "Gold holds after hitting a near 14-month low as inflation pressure and AI worries persist",
-      "url": "https://www.cnbctv18.com/market/commodities/gold-holds-after-hitting-a-near-14-month-low-as-inflation-pressure-and-ai-worries-persist-20035389.htm",
-      "summary": "金价在创 2025 年 9 月以来新低后企稳，COMEX 约 3856.40 美元，白银约 46.94 美元；布伦特约 91 美元；强美元与加息预期继续压制贵金属，亚洲股市跟随美股走低。"
+      "published_at": "2026-11-16",
+      "source": "TradingView",
+      "title": "Nvidia Earnings, Fed Minutes, Anthropic's IPO Put AI Rally To The Test: 3 Charts To Watch This Week",
+      "url": "https://www.tradingview.com/news/stocktwits:5750d7460094b:0-nvidia-earnings-fed-minutes-anthropic-s-ipo-put-ai-rally-to-the-test-3-charts-to-watch-this-week/",
+      "summary": "本周三大考验接连而至：英伟达周二盘后发布财报（市场预期每股收益 2.47 美元、营收 1087.3 亿美元）、美联储周三公布 10 月会议纪要、Anthropic 周三定价 IPO（估值最高 1.4 万亿美元）。"
     },
     {
-      "published_at": "2026-11-17",
-      "source": "Moneycontrol",
-      "title": "Stocks end lower ahead of Nvidia earnings and Anthropic IPO; oil drops",
-      "url": "https://www.moneycontrol.com/news/markets/global-markets/stocks-end-lower-ahead-of-nvidia-earnings-and-anthropic-ipo-oil-drops-14081728.html/amp",
-      "summary": "美股周一收跌，道指跌 1.41%、标普 500 跌 1.92%、纳指跌 2.49%，芯片股领跌；油价大跌，WTI 跌 3.59% 至 85.38 美元、布伦特跌至 92.20 美元；现货金跌 0.74% 至 3851.44 美元，盘中创 2025 年 10 月以来新低。"
+      "published_at": "2026-11-16",
+      "source": "TradingView",
+      "title": "U.S. Dollar Inches Higher As Fed Rate Hike Expectations Continue To Increase",
+      "url": "https://www.tradingview.com/news/dpa_afx:83bc38bdef099:0-u-s-dollar-inches-higher-as-fed-rate-hike-expectations-continue-to-increase/",
+      "summary": "美元指数升至 103.58，12 月加息 25 个基点概率升至 95.7%；美联储 10 月维持利率 3.75%–4.00% 不变，纽约联储 11 月制造业指数骤降至 7.8，远低于预期的 18。"
     },
     {
-      "published_at": "2026-11-17",
-      "source": "Market Index",
-      "title": "ASX Live Today - Tuesday, 17 November",
-      "url": "https://www.marketindex.com.au/news/asx-200-live-today-tuesday-17th-november",
-      "summary": "澳洲联储 11 月会议纪要显示 6 比 3 多数认为现金利率尚未高到足以让通胀回落；澳股周二早盘跌 1.5%，能源板块跌 2.1%，布伦特隔夜跌 4.5%；高盛预计金价短期继续走弱，到 2028 年底才重回历史高点。"
+      "published_at": "2026-11-16",
+      "source": "TradingView",
+      "title": "China's October retail sales ease to 0.4%, factory output slows to 4.8%, while jobless rate dips to 5.1%",
+      "url": "https://www.tradingview.com/news/seekingalpha:f46cddf47094b:0-china-s-october-retail-sales-ease-to-0-4-factory-output-slows-to-4-8-while-jobless-rate-dips-to-5-1/",
+      "summary": "中国 10 月经济数据全线不及预期：工业增加值同比增 4.8%（预期 5.3%）、社零仅增 0.4%（预期 0.8%）、前十月固定资产投资跌 8.1%；出口仍强劲，调查失业率降至 5.1%，市场预计年内暂无新刺激。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Reuters",
+      "title": "Trading Day: AI jitters slam Wall Street",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-16/",
+      "summary": "美股周一重挫，英伟达 CEO 黄仁勋辞职余波与 Anthropic 本周 IPO 拖累科技股，标普 500 跌 1.9%、纳指跌 2.5%；美元创 19 个月新高，油价跌 3%、金价跌至一年新低 3848 美元；英伟达周二盘后发布财报。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 19:25"
+    "updated_at": "2026-11-17 21:25"
   }
 }
