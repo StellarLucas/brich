@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-17",
+      "source": "Zacks",
+      "title": "NVIDIA Reports Positive Surprises in Q3",
+      "url": "https://www.zacks.com/stock/news/3031446/nvidia-reports-positive-surprises-in-q3?art_rec=blog-ahead_of_wall_street-up_next-ID01-txt-3031446",
+      "summary": "英伟达三季度财报超预期：营收1158.4亿美元、同比翻倍，调整后每股收益2.68美元，均高于市场预期；数据中心业务1076亿美元；四季度营收指引1300亿美元，盘后股价一度涨4%。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Memeburn",
+      "title": "Anthropic's IPO Is 7x Oversubscribed, but Its Record Depends on $26 Billion From Its Own Suppliers",
+      "url": "https://memeburn.com/anthropics-ipo-is-7x-oversubscribed-but-its-record-depends-on-26-billion/",
+      "summary": "Anthropic IPO认购近7倍，定于11月18日定价、19日以ANT在纳斯达克上市，发行价70–78美元、募资最高643.5亿美元；但其创纪录规模部分依赖供应商的260亿美元相关承诺。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "XAUUSD Global",
+      "title": "FOMC Minutes Time Today: IST, GMT, Dubai and Gold",
+      "url": "https://www.xauusdglobal.com/blog/fomc-minutes-gold/",
+      "summary": "美联储10月27–28日会议纪要将于11月18日美东时间14:00公布，市场关注官员对通胀与12月加息路径的分歧；12月加息25个基点概率约94%，金价在一年低点附近徘徊。"
+    },
+    {
+      "published_at": "2026-11-17",
       "source": "Devdiscourse",
       "title": "GLOBAL MARKETS-Stocks fall with Nvidia in focus, oil ticks up",
       "url": "https://www.devdiscourse.com/article/international/4008570-global-markets-stocks-fall-with-nvidia-in-focus-oil-ticks-up",
@@ -118,31 +139,10 @@
       "title": "Shaky semiconductor trade faces big week, as investors look for bottom",
       "url": "https://www.reuters.com/business/shaky-semiconductor-trade-faces-big-week-investors-look-bottom-2026-11-17/",
       "summary": "半导体股迎来关键一周，费城半导体指数周一跌逾 5%、自 6 月高点回落 34%；英伟达较 10 月初峰值跌逾 30%、市值蒸发约 4100 亿美元；Anthropic 本周 IPO 成 AI 情绪风向标。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Reuters",
-      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, CNBC reports",
-      "url": "https://www.reuters.com/world/china/nvidia-warns-chip-buyers-legal-risks-tied-china-ai-access-cnbc-reports-2026-11-17/",
-      "summary": "英伟达警告芯片买家，拟议中的美国《远程访问安全法案》可能使中企远程租用其 AI 芯片面临法律风险；该法案将赋予美国商务部更大权限，像管控实体硬件一样管控云端芯片访问。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Seoul Economic Daily",
-      "title": "U.S. 10-Year Treasury Yield Tops 5% on Tightening Fears",
-      "url": "https://en.sedaily.com/society/2026/11/17/us-10-year-treasury-yield-tops-5-percent-on-tightening-fears",
-      "summary": "美国 10 年期国债收益率重回 5% 上方，通胀超预期与美联储官员鹰派言论强化加息周期延长预期；市场关注美联储主席沃什讲话与 10 月 FOMC 会议纪要。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "J.P. Morgan",
-      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
-      "summary": "2026 年全球主要央行集体转向紧缩：美联储 9 月加息 25 个基点至 3.75%–4.00% 并暗示 12 月可能再加息，欧洲央行年内两次加息，日本央行政策利率升至约 1.0%，澳洲联储年内四次加息至 4.60%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 05:25"
+    "updated_at": "2026-11-18 07:25"
   }
 }
