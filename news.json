@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-17",
+      "source": "Moneycontrol",
+      "title": "Commodity Corner: Oil slips on supply glut concerns; gold steadies after hitting 14-month closing low",
+      "url": "https://www.moneycontrol.com/news/business/stocks/commodity-corner-oil-slips-on-supply-glut-concerns-gold-steadies-after-hitting-14-month-closing-low-14081756.html/amp",
+      "summary": "周二油价继续走低，布伦特约 92.00 美元、WTI 约 85.28 美元，市场预期供应过剩、中东出口恢复；金价在创 2025 年 9 月以来最低收盘后企稳，现货约 3860 美元，强美元与通胀压力继续压制贵金属。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "Reuters",
+      "title": "Trading Day: AI jitters slam Wall Street",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-16/",
+      "summary": "美股周一重挫，英伟达 CEO 黄仁勋辞职余波与 Anthropic 本周 IPO 拖累科技股，标普 500 跌 1.9%、纳指跌 2.5%；美元创 19 个月新高，油价跌 3%、金价跌至一年新低 3848 美元；英伟达周二盘后发布财报。"
+    },
+    {
+      "published_at": "2026-11-17",
       "source": "Reuters",
       "title": "Asia shares stumble on tech weakness ahead of Nvidia earnings",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-17/",
@@ -125,24 +139,10 @@
       "title": "Fed Chair Warsh on AI Jobs Risk: Growth, Layoffs & Rates",
       "url": "https://theapexwire.com/finance/fed-chair-warsh-ai-jobs-growth-rates/",
       "summary": "美联储主席沃什周一在旧金山联储生产力与就业工作组会议上表示，AI 可能提振长期增长，也可能推高失业率或令大额投资失望后拖累股价；未就利率给出指引；10 月 FOMC 会议纪要将于周三公布，下次议息会议为 12 月 8–9 日。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Wall Street Journal",
-      "title": "Auto & Transport Roundup: Market Talk",
-      "url": "https://www.wsj.com/business/auto-transport-roundup-market-talk-4080b9af",
-      "summary": "油价午盘转跌，布伦特跌 0.6% 至 95.29 美元、WTI 跌 0.2% 至 88.36 美元，市场预期全球供应过剩扩大；高盛预测 2027 年将出现可观供应过剩，尽管中东再现袭击事件。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "TradingView",
-      "title": "Markets Worry About Tech Sector, Fed Hikes",
-      "url": "https://www.tradingview.com/news/dpa_afx:19525085ae63d:0-markets-worry-about-tech-sector-fed-hikes/",
-      "summary": "全球市场情绪受美联储加息预期与科技股前景主导：市场普遍预计美联储 12 月加息 25 个基点，英伟达财报与 Anthropic 上市在即；韩国 Kospi 跌 3.6%、日经跌 2.42%，美元指数约 103.47，10 年期美债收益率约 5.15%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 11:25"
+    "updated_at": "2026-11-17 13:25"
   }
 }
