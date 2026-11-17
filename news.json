@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "published_at": "2026-11-17",
+      "source": "Moneycontrol",
+      "title": "Stocks end lower ahead of Nvidia earnings and Anthropic IPO; oil drops",
+      "url": "https://www.moneycontrol.com/news/markets/global-markets/stocks-end-lower-ahead-of-nvidia-earnings-and-anthropic-ipo-oil-drops-14081728.html/amp",
+      "summary": "美股周一收跌，道指跌 1.41%、标普 500 跌 1.92%、纳指跌 2.49%，芯片股领跌；油价大跌，WTI 跌 3.59% 至 85.38 美元、布伦特跌至 92.20 美元；现货金跌 0.74% 至 3851.44 美元，盘中创 2025 年 10 月以来新低。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Market Index",
+      "title": "ASX Live Today - Tuesday, 17 November",
+      "url": "https://www.marketindex.com.au/news/asx-200-live-today-tuesday-17th-november",
+      "summary": "澳洲联储 11 月会议纪要显示 6 比 3 多数认为现金利率尚未高到足以让通胀回落；澳股周二早盘跌 1.5%，能源板块跌 2.1%，布伦特隔夜跌 4.5%；高盛预计金价短期继续走弱，到 2028 年底才重回历史高点。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "The Korea Times",
+      "title": "Wall Street slumps on AI jitters ahead of Nvidia results, Anthropic IPO",
+      "url": "https://www.koreatimes.co.kr/amp/world/20261117/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo",
+      "summary": "华尔街周一重挫，标普 500 跌 1.78%、纳指跌 2.30%、道指跌 1.26%，费城半导体指数跌 4.6%；英伟达跌 4.2%，市场预计其三季度营收 1091 亿美元、利润同比增 90%；CME FedWatch 显示 12 月加息 25 个基点概率 93.7%。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "GenexusAlpha",
+      "title": "Oil falls as IEA calls a surplus; gold steadies after a year low",
+      "url": "https://genexusalpha.com/news/2026-11-16-oil-falls-iea-surplus-gold-steadies/",
+      "summary": "IEA 称四季度全球石油市场重回过剩，日均供应约 1.05 亿桶、超需求约 170 万桶；布伦特跌至 95.37 美元、WTI 跌至 88.33 美元；金价在创逾一年新低后企稳，现货约 3892 美元，白银约 48.80 美元。"
+    },
+    {
       "published_at": "2026-11-16",
       "source": "Morningstar",
       "title": "Goldman Sees Oil Market Swelling Into Sizable Surplus in 2027 — Commodities Roundup",
@@ -111,38 +139,10 @@
       "title": "'Plenty of Reasons to Sell' as Gold Sinks 15% in 12 Weeks",
       "url": "https://www.bullionvault.com/gold-news/gold-price-news/gold-price-reasons-sell-111620261",
       "summary": "金价周一再创 13 个月新低，现货金一度跌至 3833 美元，过去 12 周累计跌 15.1%，为 20 年来第五大 12 周跌幅；10 年期美债收益率守在 5% 上方、美元处在 2025 年 4 月以来最强水平；白银一度跌 6% 至 47.15 美元，布伦特约 95.10 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "TSX futures slip on weaker oil, gold; inflation data eyed",
-      "url": "https://www.reuters.com/markets/europe/tsx-futures-slip-weaker-oil-gold-inflation-data-eyed-2026-11-16/",
-      "summary": "加拿大股指期货周一下滑，油价与金价走弱拖累；金价创逾一年新低，美联储鹰派言论推高加息押注并提振美元；布伦特跌 0.2% 至 95.63 美元；市场预计加拿大央行 12 月加息概率约 60.2%，等待当日加拿大通胀数据与美联储主席沃什讲话。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Wall Street Journal",
-      "title": "Stock Futures Slip Ahead of Pivotal Week for AI Trade With Nvidia, Anthropic in Focus",
-      "url": "https://www.wsj.com/finance/investing/stock-futures-slip-ahead-of-pivotal-week-for-ai-trade-with-nvidia-anthropic-in-focus-c1768330",
-      "summary": "美股期货周一下滑，纳指期货跌约 0.9%、标普 500 期货跌 0.4%，芯片股抛售从亚洲蔓延至欧美：台股跌约 6%、韩国跌 3.6%，市场等待周二英伟达财报与周四 Anthropic IPO；欧洲斯托克 600 微涨 0.2%，布伦特约 95.50 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "InvestingLive",
-      "title": "Gold slips toward $3,876 ahead of Warsh as Fed speakers line up behind tighter policy",
-      "url": "https://investinglive.com/commodities/gold-slips-toward-3-876-ahead-of-warsh-as-fed-speakers-line-up-behind-tighter-policy/",
-      "summary": "金价跌至约 3876 美元，自上周二以来累计跌近 7%，此前高盛下调金价预期；美联储主席沃什将于美东时间周一中午就 AI 与通胀发表讲话，市场已完全计价 12 月 8–9 日会议加息 25 个基点，周三将公布 10 月 FOMC 会议纪要。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "WisePropTrader",
-      "title": "Fed minutes Wednesday: Warsh speaks Monday as markets price a December hike",
-      "url": "https://news.wiseproptrader.com/2026/11/fed-minutes-warsh-speech-december-hike/",
-      "summary": "美联储主席沃什周一中午在旧金山联储生产力与就业工作组会议上发表开场讲话，主题是 AI 会否降低通胀；周三下午 2 点公布 10 月 FOMC 会议纪要，10 月会议以 10 比 2 维持利率 3.75%–4.00%，库克与哈马克反对、主张加息，市场关注支持加息的官员规模。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 07:25"
+    "updated_at": "2026-11-17 09:25"
   }
 }
