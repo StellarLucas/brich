@@ -378,6 +378,12 @@
   </nav>
 
   <div id="view-news" role="tabpanel" aria-labelledby="tab-news">
+    <section id="sec-socarb">
+      <h2>信息差 · 社交信号</h2>
+      <p class="sec-sub">每天一次，从中美社交平台捞出来的变化：先发现，再验证。信号是观察，不是新闻，更不是投资建议。国外英文新闻在下面，照旧每 2 小时更新。</p>
+      <p class="updated" id="socarb-updated">信号加载中…</p>
+      <div id="social-arb"></div>
+    </section>
     <p class="sec-sub" style="margin-top:.9rem">全球央行、市场与大宗商品的重磅消息，每 2 小时自动更新，最多保留最新 20 条。点卡片阅读原文。</p>
     <p class="updated" id="news-updated">资讯加载中…</p>
     <div id="global-news"></div>
@@ -2021,6 +2027,41 @@
   }).catch(function(){
     el("news-updated").textContent = "资讯暂时无法读取，稍后再打开看看。";
     el("global-news").innerHTML = '<div class="err">全球资讯暂时无法读取，稍后再打开看看。</div>';
+  });
+})();
+
+/* ---- social arbitrage signals: reads social-arb.json; daily sweep of CN/US social platforms ---- */
+(function(){
+  var el = function(id){ return document.getElementById(id); };
+  function esc(s){ return String(s == null ? "" : s).replace(/[&<>"']/g, function(c){ return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]; }); }
+  var stageColor = {"早期":"#1d4ed8","升温":"#d97706","已热":"#d92d20"};
+  var dirColor = {"利好":"#12805c","利空":"#d92d20","观察":"#64748b"};
+  fetch("social-arb.json", {cache:"no-store"}).then(function(r){
+    if(!r.ok) throw new Error("social-arb.json 未找到");
+    return r.json();
+  }).then(function(d){
+    var items = (d.signals || []).slice(0, 10);
+    el("socarb-updated").innerHTML = "最后更新 <b>" + esc(d.meta && d.meta.updated_at ? d.meta.updated_at : "—") + "</b> · 共 " + items.length + " 条 · 每天 07:30 更新";
+    if(!items.length){ el("social-arb").innerHTML = '<div class="empty">今日暂无信号，稍后再打开看看。</div>'; return; }
+    var html = "";
+    items.forEach(function(it){
+      var c = it.company || {};
+      var comp = (c.name || "—") + (c.code && c.code !== "—" ? " " + c.code + "（" + (c.market || "") + "）" : "");
+      html += '<div class="news-item" style="cursor:default">'
+        + '<h3>' + esc(it.title) + '</h3>'
+        + '<div class="ni-meta"><span class="news-badge" style="background:#eef2ff;color:' + (stageColor[it.stage] || "#1d4ed8") + '">' + esc(it.stage || "") + '</span>'
+        + '<span class="news-badge" style="background:#f1f5f9;color:' + (dirColor[it.direction] || "#64748b") + '">' + esc(it.direction || "") + '</span>'
+        + '<span class="ni-src">' + esc(it.platform || "") + ' · ' + esc(it.region || "") + '</span><span>' + esc(it.date || "") + '</span></div>'
+        + '<div class="ni-sum">变化：' + esc(it.change || "") + '</div>'
+        + '<div class="ni-sum">证据：' + esc(it.evidence || "") + '</div>'
+        + '<div class="ni-sum">关联标的：<b>' + esc(comp) + '</b>' + (it.link_note ? ' —— ' + esc(it.link_note) : '') + '</div>'
+        + '<div class="ni-meta"><span class="ni-src">' + esc(it.source || "") + '</span><a href="' + esc(it.url || "#") + '" target="_blank" rel="noopener" style="color:#1d4ed8;font-weight:700">来源 →</a></div>'
+        + '</div>';
+    });
+    el("social-arb").innerHTML = html;
+  }).catch(function(){
+    el("socarb-updated").textContent = "信号暂时无法读取，稍后再打开看看。";
+    el("social-arb").innerHTML = '<div class="err">社交信号暂时无法读取，稍后再打开看看。</div>';
   });
 })();
 
