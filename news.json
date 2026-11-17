@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-17",
+      "source": "Reuters",
+      "title": "US stock futures slip ahead of Nvidia results; Fed speakers in focus",
+      "url": "https://www.reuters.com/business/us-stock-futures-slip-ahead-nvidia-results-fed-speakers-focus-2026-11-17/",
+      "summary": "美股期货周二走低，市场等待英伟达盘后财报检验 AI 交易；美国周一收紧对华先进 AI 芯片出口管制；12 月加息 25 个基点概率升至 97.4%，美联储官员沃勒、哈马克、威廉姆斯同日讲话。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Reuters",
+      "title": "Shaky semiconductor trade faces big week, as investors look for bottom",
+      "url": "https://www.reuters.com/business/shaky-semiconductor-trade-faces-big-week-investors-look-bottom-2026-11-17/",
+      "summary": "半导体股迎来关键一周，费城半导体指数周一跌逾 5%、自 6 月高点回落 34%；英伟达较 10 月初峰值跌逾 30%、市值蒸发约 4100 亿美元；Anthropic 本周 IPO 成 AI 情绪风向标。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Reuters",
+      "title": "Nvidia warns chip buyers of legal risks tied to China AI access, CNBC reports",
+      "url": "https://www.reuters.com/world/china/nvidia-warns-chip-buyers-legal-risks-tied-china-ai-access-cnbc-reports-2026-11-17/",
+      "summary": "英伟达警告芯片买家，拟议中的美国《远程访问安全法案》可能使中企远程租用其 AI 芯片面临法律风险；该法案将赋予美国商务部更大权限，像管控实体硬件一样管控云端芯片访问。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Seoul Economic Daily",
+      "title": "U.S. 10-Year Treasury Yield Tops 5% on Tightening Fears",
+      "url": "https://en.sedaily.com/society/2026/11/17/us-10-year-treasury-yield-tops-5-percent-on-tightening-fears",
+      "summary": "美国 10 年期国债收益率重回 5% 上方，通胀超预期与美联储官员鹰派言论强化加息周期延长预期；市场关注美联储主席沃什讲话与 10 月 FOMC 会议纪要。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "TradingView",
+      "title": "U.S. Dollar Inches Higher As Fed Rate Hike Expectations Continue To Increase",
+      "url": "https://www.tradingview.com/news/dpa_afx:83bc38bdef099:0-u-s-dollar-inches-higher-as-fed-rate-hike-expectations-continue-to-increase/",
+      "summary": "美元指数升至 103.58，12 月加息 25 个基点概率升至 95.7%；美联储 10 月维持利率 3.75%–4.00% 不变，纽约联储 11 月制造业指数骤降至 7.8，远低于预期的 18。"
+    },
+    {
+      "published_at": "2026-11-17",
       "source": "J.P. Morgan",
       "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
       "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
@@ -104,45 +139,10 @@
       "title": "ASX Live Today - Tuesday, 17 November",
       "url": "https://www.marketindex.com.au/news/asx-200-live-today-tuesday-17th-november",
       "summary": "澳洲联储 11 月会议纪要显示 6 比 3 多数认为现金利率尚未高到足以让通胀回落；澳股周二早盘跌 1.5%，能源板块跌 2.1%，布伦特隔夜跌 4.5%；高盛预计金价短期继续走弱，到 2028 年底才重回历史高点。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "The Korea Times",
-      "title": "Wall Street slumps on AI jitters ahead of Nvidia results, Anthropic IPO",
-      "url": "https://www.koreatimes.co.kr/amp/world/20261117/wall-street-slumps-on-ai-jitters-ahead-of-nvidia-results-anthropic-ipo",
-      "summary": "华尔街周一重挫，标普 500 跌 1.78%、纳指跌 2.30%、道指跌 1.26%，费城半导体指数跌 4.6%；英伟达跌 4.2%，市场预计其三季度营收 1091 亿美元、利润同比增 90%；CME FedWatch 显示 12 月加息 25 个基点概率 93.7%。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "GenexusAlpha",
-      "title": "Oil falls as IEA calls a surplus; gold steadies after a year low",
-      "url": "https://genexusalpha.com/news/2026-11-16-oil-falls-iea-surplus-gold-steadies/",
-      "summary": "IEA 称四季度全球石油市场重回过剩，日均供应约 1.05 亿桶、超需求约 170 万桶；布伦特跌至 95.37 美元、WTI 跌至 88.33 美元；金价在创逾一年新低后企稳，现货约 3892 美元，白银约 48.80 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Morningstar",
-      "title": "Goldman Sees Oil Market Swelling Into Sizable Surplus in 2027 — Commodities Roundup",
-      "url": "https://www.morningstar.com/news/dow-jones/202611167188/goldman-sees-oil-market-swelling-into-sizable-surplus-in-2027-commodities-roundup",
-      "summary": "高盛预计 2027 年石油市场将出现约 200 万桶/日的供应过剩，布伦特均价约 88 美元、年底跌至 78 美元；周一布伦特跌至约 95 美元，金价跌至一年多新低、期货约 3862 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Business Times",
-      "title": "Oil falls as recovering Middle East exports bolster surplus outlook",
-      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-falls-recovering-middle-east-exports-bolster-surplus-outlook?ref=pulse",
-      "summary": "周一油价跌逾 1%，布伦特跌 1.74% 至 94.17 美元、WTI 跌至 87.42 美元；IEA 称中东出口恢复快于需求，全球石油市场四季度重回过剩，日均供应超需求约 170 万桶。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Economic Times",
-      "title": "Why is the US stock market down today? Nasdaq falls 1.87% as S&P 500 and Dow turn red, with Nvidia, Intel and AI stocks tumbling ahead of earnings",
-      "url": "https://m.economictimes.com/world/us/why-is-the-us-stock-market-down-today-nasdaq-falls-1-87-as-sp-500-and-dow-turn-red-with-nvidia-intel-and-ai-stocks-tumbling-ahead-of-earnings/amp_articleshow/135894789.cms",
-      "summary": "美股周一收跌，纳指跌 1.87%，科技与 AI 股在英伟达财报前领跌；比特币一度跌至 6.2 万美元后回升至约 6.45 万美元，WTI 跌至 86.64 美元、金价约 3867.70 美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 17:25"
+    "updated_at": "2026-11-17 19:25"
   }
 }
