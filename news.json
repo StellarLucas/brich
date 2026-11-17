@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-17",
+      "source": "J.P. Morgan",
+      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
+      "summary": "2026 年全球主要央行集体转向紧缩：美联储 9 月加息 25 个基点至 3.75%–4.00% 并暗示 12 月可能再加息，欧洲央行年内两次加息，日本央行政策利率升至约 1.0%，澳洲联储年内四次加息至 4.60%。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "CNBC TV18",
+      "title": "Kospi slumps nearly 2%; Asian markets fall as AI sell-off deepens ahead of Nvidia results, Anthropic IPO",
+      "url": "https://www.cnbctv18.com/market/asian-stock-markets-share-price-kospi-nikkei-ai-selloff-nvidia-results-anthropic-ipo-wall-street-crude-oil-20035378.htm",
+      "summary": "亚洲股市周二继续下跌，韩国 Kospi 跌近 2%、日经跌 1.03%，英伟达较峰值跌近 35%、市值跌破 4 万亿美元；布伦特隔夜跌 4% 至约 90 美元，Anthropic IPO 认购约 7 倍。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "The Edge Singapore",
+      "title": "Stocks fall before Nvidia earnings, Anthropic IPO",
+      "url": "https://www.theedgesingapore.com/news/highlight/stocks-fall-nvidia-earnings-anthropic-ipo?utm_source=website&utm_medium=article&utm_campaign=ONPAGESEO",
+      "summary": "美股周一科技股抛售延续，费城半导体指数跌 5.3%、纳指 100 跌 2.7%、标普 500 跌 1.9%，创 6 月以来最大三日跌幅；市场等待周二英伟达财报与 Anthropic 本周上市。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Profit by Pakistan Today",
+      "title": "Wall Street slides as AI stocks tumble ahead of Nvidia",
+      "url": "https://profit.pakistantoday.com.pk/2026/11/17/wall-street-tumbles-as-ai-concerns-deepen-ahead-of-nvidia-earnings-anthropic-ipo",
+      "summary": "纳指周一跌 2.49% 后较 10 月 6 日高点回落逾 10%，进入技术性回调；英伟达跌 4.1%，市场预计其三季度营收 1091 亿美元、利润同比增 90.4%。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Ausprime",
+      "title": "MARKET UPDATE",
+      "url": "https://ausprime.eu/2026/11/17/market-update-237/",
+      "summary": "周二油价继续走低，布伦特跌 0.8% 至 91.66 美元、WTI 跌 0.9% 至 84.96 美元；金价从 14 个月低点反弹，现货涨 0.7% 至 3881.59 美元，美元指数回落 0.14% 至 103.44。"
+    },
+    {
+      "published_at": "2026-11-17",
       "source": "Business Standard",
       "title": "Global stocks fall as Nvidia earnings, Anthropic debut put AI rally to test",
       "url": "https://www.business-standard.com/markets/news/global-stocks-fall-as-nvidia-earnings-anthropic-debut-put-ai-rally-to-test-126111700032_1.html",
@@ -104,45 +139,10 @@
       "title": "Why is the US stock market down today? Nasdaq falls 1.87% as S&P 500 and Dow turn red, with Nvidia, Intel and AI stocks tumbling ahead of earnings",
       "url": "https://m.economictimes.com/world/us/why-is-the-us-stock-market-down-today-nasdaq-falls-1-87-as-sp-500-and-dow-turn-red-with-nvidia-intel-and-ai-stocks-tumbling-ahead-of-earnings/amp_articleshow/135894789.cms",
       "summary": "美股周一收跌，纳指跌 1.87%，科技与 AI 股在英伟达财报前领跌；比特币一度跌至 6.2 万美元后回升至约 6.45 万美元，WTI 跌至 86.64 美元、金价约 3867.70 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "The Hindu BusinessLine",
-      "title": "Crude oil futures fall on expectations of a supply surplus in Q4",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-on-expectations-of-a-supply-surplus-in-q4/article71706746.ece",
-      "summary": "原油期货周一下跌，市场预计四季度供应过剩；IEA 预计 2026 年全球石油需求日均减少 270 万桶至 1.023 亿桶，2027 年反弹 200 万桶。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "Fed's Hammack reiterates case for slow, steady rate hikes - Bloomberg TV",
-      "url": "https://www.reuters.com/business/feds-hammack-reiterates-case-slow-steady-rate-hikes-bloomberg-tv-2026-11-16/",
-      "summary": "克利夫兰联储主席哈马克周一重申支持小幅稳步加息，称可预测的加息节奏更利于企业与家庭规划；她同时表示，若美联储落后于形势，仍可采取更大幅度的加息。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "Fed Chair Warsh's true test begins now",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/fed-chair-warshs-true-test-begins-now-2026-11-16/",
-      "summary": "美联储主席沃什面临上任以来最大考验：通胀连续第三个月超预期、能源价格推高加息理由，12 月加息 50 个基点已摆上台面，10 年期美债收益率重回 5% 上方；与此同时财长贝森特公开表示，美联储不应为能源冲击大幅加息，白宫立场仍是希望降息。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Morningstar",
-      "title": "Stock Futures Lower to Kick Off Pivotal Week for AI Trade; Nvidia, Anthropic Eyed",
-      "url": "https://www.morningstar.com/news/dow-jones/202611161722/stock-futures-lower-to-kick-off-pivotal-week-for-ai-trade-nvidia-anthropic-eyed",
-      "summary": "美股期货周一下滑，纳指期货跌 0.9%、标普 500 期货跌 0.4%，亚洲 AI 股抛售蔓延至欧美；市场等待周二英伟达财报与 Anthropic IPO 检验 AI 牛市，布伦特约 95.50 美元，金价跌破 3900 美元。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Reuters",
-      "title": "S&P 500, Nasdaq futures slide as Nvidia earnings, Anthropic debut loom",
-      "url": "https://www.reuters.com/business/sp-500-nasdaq-futures-slide-nvidia-earnings-anthropic-debut-loom-2026-11-16/",
-      "summary": "美股期货周一下滑，纳指期货跌约 1%、标普 500 期货跌 0.36%，芯片股承压；市场等待周二英伟达财报与 Anthropic 上市检验 AI 牛市，沃什主席当日讲话与周三 FOMC 会议纪要亦受关注；市场已完全计价 12 月加息，50 个基点加息概率约 8%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-17 15:25"
+    "updated_at": "2026-11-17 17:25"
   }
 }
