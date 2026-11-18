@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Reuters",
+      "title": "TRADING DAY Markets mixed in a Nvidia, Anthropic, minutes swirl",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-18/",
+      "summary": "全球市场周三涨跌互现，欧洲股市跌至两周低点，美元升至19个月新高；油价下跌，布伦特跌1%、WTI跌3%，金价跌3%至3735美元/盎司、创14个月新低；美股纳指涨0.4%、标普跌0.2%、道指跌1.1%。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Reuters",
+      "title": "Anthropic IPO win keeps AI trade alive another day",
+      "url": "https://www.reuters.com/commentary/breakingviews/anthropic-ipo-win-keeps-ai-trade-alive-another-day-2026-11-18/",
+      "summary": "Anthropic以每股83美元定价IPO，高于70–78美元的发行区间，估值超过1.4万亿美元，发行规模因需求强劲而扩大；周四将以代码ANT登陆纳斯达克，AI交易热度得以延续。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Investor's Business Daily",
       "title": "Stock Market Today: Dow Drops On Heightened Fed Rate-Hike Fears; Palo Alto Jumps",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/",
@@ -125,24 +139,10 @@
       "title": "NVIDIA beats and shares jump after-hours, but APAC stocks mixed as Iran targets US base in Kuwait; UK CPI and FOMC Minutes ahead",
       "url": "https://www.zerohedge.com/markets/nvidia-beats-and-shares-jump-after-hours-apac-stocks-mixed-iran-targets-us-base-kuwait-uk",
       "summary": "英伟达财报超预期、盘后跳涨，但亚太股市涨跌互现；伊朗袭击美国在科威特的基地推升地缘风险，油价与金价波动；中国国家主席习近平在深圳APEC开幕式上呼吁支持WTO与自由贸易，普京称美中俄三方会谈潜力巨大。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Reuters",
-      "title": "UK inflation at one-year high, weighs on FTSE 100",
-      "url": "https://www.reuters.com/world/uk/uk-inflation-one-year-high-weighs-ftse-100-2026-11-18/",
-      "summary": "英国10月CPI同比升至3.6%，创一年新高，但略低于英国央行预测的3.7%，市场将12月加息概率从90%下调至80%；富时100指数连跌三日，贵金属与矿业股领跌，金价创一年多新低。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "TalkMarkets",
-      "title": "Two Trades To Watch: FTSE, Oil Forecast - Wednesday, Nov. 18",
-      "url": "https://talkmarkets.com/article/two-trades-to-watch-ftse-oil-forecast-wednesday-nov-18",
-      "summary": "美国原油库存上周增加528万桶，远超预期，油价跌破关键支撑、WTI约83美元；英国通胀3.6%低于预期，英央行12月加息概率降至80%，富时100受矿业股拖累走弱。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 05:25"
+    "updated_at": "2026-11-19 07:25"
   }
 }
