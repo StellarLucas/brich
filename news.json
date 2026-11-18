@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Bloomberg via Swissinfo",
+      "title": "Stocks Lose Nvidia-Led Momentum, Treasuries Rise: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-lose-nvidia-led-momentum%2C-treasuries-rise%3A-markets-wrap/92397458",
+      "summary": "英伟达超预期财报带动的反弹后劲不足，纳指100期货涨幅由近2%收窄至0.4%，MSCI亚太指数由涨转跌0.6%；10年期美债收益率回落至5.09%，美元指数连续第六个交易日走高，市场焦点转向周三定价的Anthropic IPO。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "CNBC TV18",
+      "title": "Kospi jumps over 3%; Asian markets rebound as Nvidia forecast lifts sentiment",
+      "url": "https://www.cnbctv18.com/market/asian-markets-share-price-kospi-nikkei-taiex-nvidia-result-forecast-wall-street-rebound-ai-stock-anthropic-ipo-20036347.htm",
+      "summary": "亚股周三反弹，韩国Kospi涨3.08%、台股涨1.13%、日经涨1.03%，英伟达三季度营收1158亿美元、同比翻倍，四季度指引1300亿美元超预期；布伦特原油约93.49美元，Anthropic IPO定于周三晚定价、估值或达1.4万亿美元。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "The Economic Times",
+      "title": "Gold and silver ETFs slip up to 6% ahead of US Fed meeting minutes",
+      "url": "https://economictimes.indiatimes.com/mf/mf-news/gold-and-silver-etfs-slip-up-to-6-ahead-of-us-fed-meeting-minutes-what-should-investors-do/articleshow/135950931.cms",
+      "summary": "美元走强与加息预期压制贵金属，现货金跌1.4%至3796.37美元、白银跌2.9%至46.01美元，金银ETF周三最多跌6%；市场预计美联储12月加息25个基点概率95.7%，今晚将公布10月FOMC会议纪要。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "AKM",
+      "title": "Investors are waiting for news from the APEC summit, gold has updated its annual low",
+      "url": "https://www.akm.ru/eng/comments/investors-are-waiting-for-news-from-the-apec-summit-gold-has-updated-its-annual-low/",
+      "summary": "市场等待APEC峰会消息，普京与习近平会晤、周四将举行美中俄三方会谈；金价在美联储收紧预期下再创年内新低至3772美元/盎司，布伦特原油在91.50美元支撑上方波动，美国原油库存上周增加528万桶。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "The Wall Street Journal",
       "title": "Asian Equities Mixed as Investors Parse Nvidia's Quarterly Results, Guidance",
       "url": "https://www.wsj.com/finance/asian-equities-mixed-as-investors-parse-nvidias-results-guidance-7041c3ea",
@@ -111,38 +139,10 @@
       "title": "Commodity Corner: Oil slips on supply glut concerns; gold steadies after hitting 14-month closing low",
       "url": "https://www.moneycontrol.com/news/business/stocks/commodity-corner-oil-slips-on-supply-glut-concerns-gold-steadies-after-hitting-14-month-closing-low-14081756.html/amp",
       "summary": "受供应过剩预期拖累，布伦特跌0.5%至92.00美元、WTI跌0.5%至85.28美元，中东出口恢复盖过油轮遇袭担忧；金价在创2025年9月以来最低收盘后企稳。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "NDTV Profit",
-      "title": "Asian Markets Today: Nikkei, Kospi Fall Nearly 2% As Nvidia Sell-Off Weighs On Tech Stocks",
-      "url": "https://www.ndtvprofit.com/markets/asian-markets-today-nikkei-kospi-fall-nearly-2-as-nvidia-sell-off-weighs-on-tech-stocks-ahead-of-results-12336216/amp/1",
-      "summary": "亚太股市周二下跌，科技股领跌：韩国Kospi跌1.92%、日经225跌1.15%、澳洲ASX 200跌1.48%；市场等待英伟达财报，同时担忧美联储12月加息。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Zacks",
-      "title": "NVIDIA Reports Positive Surprises in Q3",
-      "url": "https://www.zacks.com/stock/news/3031446/nvidia-reports-positive-surprises-in-q3?art_rec=blog-ahead_of_wall_street-up_next-ID01-txt-3031446",
-      "summary": "英伟达三季度财报超预期：营收1158.4亿美元、同比翻倍，调整后每股收益2.68美元，均高于市场预期；数据中心业务1076亿美元；四季度营收指引1300亿美元，盘后股价一度涨4%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Memeburn",
-      "title": "Anthropic's IPO Is 7x Oversubscribed, but Its Record Depends on $26 Billion From Its Own Suppliers",
-      "url": "https://memeburn.com/anthropics-ipo-is-7x-oversubscribed-but-its-record-depends-on-26-billion/",
-      "summary": "Anthropic IPO认购近7倍，定于11月18日定价、19日以ANT在纳斯达克上市，发行价70–78美元、募资最高643.5亿美元；但其创纪录规模部分依赖供应商的260亿美元相关承诺。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "XAUUSD Global",
-      "title": "FOMC Minutes Time Today: IST, GMT, Dubai and Gold",
-      "url": "https://www.xauusdglobal.com/blog/fomc-minutes-gold/",
-      "summary": "美联储10月27–28日会议纪要将于11月18日美东时间14:00公布，市场关注官员对通胀与12月加息路径的分歧；12月加息25个基点概率约94%，金价在一年低点附近徘徊。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 15:25"
+    "updated_at": "2026-11-18 17:25"
   }
 }
