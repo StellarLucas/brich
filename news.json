@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Channel News Asia",
+      "title": "Stocks slip with Nvidia, dollar ticks higher",
+      "url": "https://www.channelnewsasia.com/business/stocks-slip-nvidia-dollar-ticks-higher-6560946",
+      "summary": "美股周三走势分化，道指跌0.84%、标普微跌0.07%、纳指涨0.46%，MSCI全球指数跌0.34%；美联储理事沃勒称12月应加息50个基点或加快2027年加息节奏，美元指数升至103.81的19个月新高，10年期美债收益率回落至5.06%。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Corporate Wire",
+      "title": "Treasury Yields Top 5% as Stocks, Gold and Bitcoin Fall Together",
+      "url": "https://www.corporatewire.org/markets/treasury-yields-top-5-percent-stocks-gold-bitcoin-fall-together-oil-hormuz-dollar",
+      "summary": "10年期美债收益率重回5%上方，美元逼近19个月高位，股、金、比特币同跌；市场押注美联储12月加息25个基点概率约95%–96%，金价一周内从约4134美元跌至约3850美元，布伦特原油收于93.14美元。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "The Wall Street Journal",
+      "title": "Asian Equities Mixed as Investors Parse Nvidia's Quarterly Results, Guidance",
+      "url": "https://www.wsj.com/finance/asian-equities-mixed-as-investors-parse-nvidias-results-guidance-7041c3ea",
+      "summary": "亚股周三涨跌互现，投资者消化英伟达财报与指引；WTI跌1.4%至84.84美元、布伦特跌0.7%至92.61美元，现货金跌1.8%至3780.93美元、创14个月新低，市场等待当日公布的美联储10月会议纪要。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Wednesday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-18-2026-12260092",
+      "summary": "英伟达财报超预期、股价早盘走高并上调2028财年指引；Anthropic定于今晚确定IPO定价，发行价或高于70–78美元区间、估值逼近1.5–1.6万亿美元；市场等待美联储10月会议纪要，12月加息25个基点概率约95%。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "The Korea Times",
+      "title": "Anthropic prices blockbuster IPO as Nvidia scandal rattles AI stocks",
+      "url": "https://www.koreatimes.co.kr/amp/world/20261119/anthropic-prices-blockbuster-ipo-as-nvidia-scandal-rattles-ai-stocks",
+      "summary": "Anthropic定于周三晚确定IPO定价，周四以代码ANT登陆纳斯达克；机构与散户认购合计约5000亿美元，超额认购约8倍，发行价或高于80美元；英伟达CEO黄仁勋辞职风波令AI股承压，七家科技公司另以260亿美元参与私募配售。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "NDTV Profit",
       "title": "'Might Need To Shock': Fed's Waller Calls For Half-Point Hike, Wall Street Futures Wipe Out Gains",
       "url": "https://www.ndtvprofit.com/markets/might-need-to-shock-feds-waller-calls-for-half-point-hike-wall-street-futures-wipe-out-gains-12345002/amp/1",
@@ -104,45 +139,10 @@
       "title": "GLOBAL MARKETS-Stocks fall but Nvidia rebound lifts sentiment",
       "url": "https://www.devdiscourse.com/article/international/4008650-global-markets-stocks-fall-but-nvidia-rebound-lifts-sentiment?amp",
       "summary": "全球股市周二普跌，MSCI全球指数跌1.21%，道指跌1.64%、标普跌1.03%；英伟达盘后公布超预期营收指引、股价涨约2%，提振美股期货与韩国科技ETF；美元指数触及19个月新高后回落，金价守在一年低点附近。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "PSG Wealth",
-      "title": "US stocks retreat as tech weakness and Fed concerns weigh",
-      "url": "https://www.psg.co.za/research-and-insights/articles/18-november-2026/",
-      "summary": "美股周二收跌，标普500跌1%至7月以来最低，纳指跌0.7%、道指跌849点；欧洲斯托克600跌1.7%、德国DAX跌2%，德意志银行跌近6%；日经跌1.34%、上证跌0.5%连跌四日，布伦特原油涨至93.51美元。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Newspim",
-      "title": "Global Market Report: Nov. 18",
-      "url": "https://global.newspim.com/news/view/20261118000382",
-      "summary": "美股周二大跌，道指跌848.75点（-1.64%）至50759.42点，标普跌1.03%、纳指跌0.74%；中东油轮遇袭推升油价，WTI涨0.34%至86.01美元、布伦特涨0.76%至93.14美元；金价在一年多低点附近挣扎，美债收益率回落、美元走弱。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "TheStreet",
-      "title": "Cautious trader dumps millions ahead of Nov. 18 FOMC minutes release",
-      "url": "https://www.thestreet.com/crypto/fed/cautious-trader-dumps-millions-ahead-of-nov-18-fomc-minutes-release",
-      "summary": "美联储将于美东时间11月18日14时公布10月27–28日FOMC会议纪要，市场将从中判断12月加息的力度与路径；10月会议以10–2维持利率3.75%–4.00%不变，库克与哈马克主张加息，10月CPI超预期后12月加息25个基点几成定局。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Bloomberg via Swissinfo",
-      "title": "Stocks Lose Nvidia-Led Momentum, Treasuries Rise: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-lose-nvidia-led-momentum%2C-treasuries-rise%3A-markets-wrap/92397458",
-      "summary": "英伟达超预期财报带动的反弹后劲不足，纳指100期货涨幅由近2%收窄至0.4%，MSCI亚太指数由涨转跌0.6%；10年期美债收益率回落至5.09%，美元指数连续第六个交易日走高，市场焦点转向周三定价的Anthropic IPO。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "CNBC TV18",
-      "title": "Kospi jumps over 3%; Asian markets rebound as Nvidia forecast lifts sentiment",
-      "url": "https://www.cnbctv18.com/market/asian-markets-share-price-kospi-nikkei-taiex-nvidia-result-forecast-wall-street-rebound-ai-stock-anthropic-ipo-20036347.htm",
-      "summary": "亚股周三反弹，韩国Kospi涨3.08%、台股涨1.13%、日经涨1.03%，英伟达三季度营收1158亿美元、同比翻倍，四季度指引1300亿美元超预期；布伦特原油约93.49美元，Anthropic IPO定于周三晚定价、估值或达1.4万亿美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 01:25"
+    "updated_at": "2026-11-19 03:25"
   }
 }
