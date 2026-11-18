@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "published_at": "2026-11-18",
+      "source": "Investor's Business Daily",
+      "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/",
+      "summary": "美股期货周三早盘小幅走高，英伟达财报超预期提振科技股，纳指期货涨0.6%；Anthropic IPO定于今晚定价、传闻高于发行区间，Target将于盘前公布财报。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "TradingView",
+      "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia's Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
+      "url": "https://www.tradingview.com/news/stocktwits:9771201ca094b:0-nasdaq-futures-lead-wall-street-rebound-after-nvidia-s-blowout-forecast-anthropic-ipo-looms-sls-nke-mu-in-focus/",
+      "summary": "英伟达三季度营收1158亿美元、同比翻倍，四季度指引1300亿美元超预期，盘后涨约4.7%；美股期货隔夜反弹，纳指期货涨0.51%；Anthropic IPO估值或超1.5万亿美元，定价或高于每股80美元。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "BigGo Finance",
+      "title": "Rate-Hike Bets Bite as Spot Gold Breaks Below $3,800 to More Than One-Year Low",
+      "url": "https://finance.biggo.com/news/01187251-8152-4bdf-ba97-2eb4956a8c94",
+      "summary": "现货金11月18日跌破3800美元/盎司，创一年多新低，日内低点3792.12美元；高油价推升通胀预期与12月美联储加息押注，美元与美债收益率走高；高盛二度下调金价目标，2026年底目标降至4150美元。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Reuters",
+      "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
+      "url": "https://wncy.com/2026/11/17/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms/",
+      "summary": "亚太股市周三反弹，MSCI亚太（除日本）指数涨0.9%，韩国Kospi涨3.3%、日经涨0.6%，英伟达超预期财报提振供应链；标普500期货涨0.5%；Anthropic IPO定价在即，估值或达1.4万亿美元。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "TalkMarkets",
+      "title": "Nvidia Delivers The Numbers, But Markets Can't Escape Jensen's Blast Radius",
+      "url": "https://talkmarkets.com/article/nvidia-delivers-the-numbers-but-markets-cant-escape-jensens-blast-radius",
+      "summary": "英伟达四季度营收指引1300亿美元超预期，盘后涨约2%，但标普500已跌破200日均线、创6月以来新低；自10月6日以来科技板块跌约20%、费城半导体指数跌30%、英伟达本身跌近40%；美银调查显示基金经理科技超配降至12%。"
+    },
+    {
       "published_at": "2026-11-17",
       "source": "Reuters",
       "title": "GLOBAL MARKETS-Stocks fall with Nvidia in focus, dollar dips",
@@ -104,45 +139,10 @@
       "title": "Fed Rate Odds December 2026: 96% Hike, 8.5% Half-Point",
       "url": "https://predictionmarketspicks.com/articles/fed-rate-december-2026-odds-half-point-hike-dot-plot-kalshi-polymarket-futures",
       "summary": "截至11月16日，Kalshi市场预计美联储12月8-9日会议加息概率96%，其中加息25个基点87.5%、50个基点8.5%；10月FOMC会议纪要将于11月18日公布，12月4日非农报告是加息幅度的关键变量。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "The Hindu BusinessLine",
-      "title": "Crude oil futures fall as Hormuz shipments improve in Q3 2026",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-fall-as-hormuz-shipments-improve-in-q3-2026/article71710342.ece",
-      "summary": "周二早盘布伦特1月合约跌0.85%至91.65美元；美国EIA数据显示，2026年第三季度经霍尔木兹海峡运输的原油及成品油升至910万桶/日，远高于第二季度的510万桶/日；IEA称全球石油供应已超过需求。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "The Financial Express",
-      "title": "AI trade under fire: Wall Street sinks ahead of Nvidia results, Anthropic IPO",
-      "url": "https://www.financialexpress.com/market/global-markets/ai-trade-under-fire-wall-street-sinks-ahead-of-nvidia-results-anthropic-ipo/4387319/",
-      "summary": "美股周二盘中继续下跌，道指一度跌 887 点（-1.72%）、标普 500 跌 1.5%、纳指跌 1.59%，AI 抛售深化；美国 10 月零售销售环比增 0.2%，符合预期；Anthropic 或按区间上限定价，11 月 19 日纳斯达克上市。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "CNBC TV18",
-      "title": "Gold holds after hitting a near 14-month low as inflation pressure and AI worries persist",
-      "url": "https://www.cnbctv18.com/market/commodities/gold-holds-after-hitting-a-near-14-month-low-as-inflation-pressure-and-ai-worries-persist-20035389.htm",
-      "summary": "金价在创 2025 年 9 月以来最低收盘后企稳，现货约 3856 美元；克利夫兰联储主席哈马克支持温和渐进加息，交易员加大对美联储 2027 年进一步收紧的押注；布伦特回落至约 91 美元。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "TalkMarkets",
-      "title": "The Commodities Feed: Metals Under Pressure While Oil Supply Improves",
-      "url": "https://talkmarkets.com/article/the-commodities-feed-metals-under-pressure-while-oil-supply-improves",
-      "summary": "布伦特跌破 92 美元，中东供应恢复盖过地缘风险，霍尔木兹海峡原油流量升至 910 万桶/日；铜价跌至四个月低点；金价从 2025 年 9 月以来最低收盘反弹，市场关注周三公布的 10 月 FOMC 会议纪要。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Bloomberg",
-      "title": "Stock Selloff Extends Into Fourth Day, Oil Drops: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stock-selloff-extends-into-fourth-day,-oil-drops:-markets-wrap/92391739",
-      "summary": "全球股市抛售延续至第四日，MSCI 亚太指数跌向 4 月初以来最低，美国收紧对华先进 AI 芯片出口、英伟达财报在即；布伦特跌破 92 美元，现货金约 3874 美元，10 年期美债收益率持稳于 5.13%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 11:25"
+    "updated_at": "2026-11-18 13:25"
   }
 }
