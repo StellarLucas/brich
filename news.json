@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "NDTV Profit",
+      "title": "'Might Need To Shock': Fed's Waller Calls For Half-Point Hike, Wall Street Futures Wipe Out Gains",
+      "url": "https://www.ndtvprofit.com/markets/might-need-to-shock-feds-waller-calls-for-half-point-hike-wall-street-futures-wipe-out-gains-12345002/amp/1",
+      "summary": "美联储理事沃勒周三表示，为遏制通胀，美联储12月可能需要加息50个基点，并应扭转2025年的三次降息；美股期货应声回吐涨幅，CME数据显示市场仍主要定价加息25个基点、1月再加一次。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Daily Market Report",
+      "title": "Fear Spikes as Credit Widens and Metals Sell",
+      "url": "https://dailymarket.report/",
+      "summary": "标普500跌1.03%、VIX飙升11%至25.46，高收益债利差扩大11个基点至334bp，金价跌2%、白银跌3.3%，比特币ETF单日流出2.4亿美元，市场呈现全面避险而非单纯通胀定价调整。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "TradingKey",
+      "title": "Today's Market Recap: Three Major US Indexes Tumble, Broadcom and Arm Buck Trend, Nvidia Earnings Beat Expectations",
+      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262310037-us-tightens-ai-chip-remote-access-rules-nvidia-amd-apec-oil-xau-xag-gold-tradingkey",
+      "summary": "美股三大指数齐跌，英伟达财报超预期仍未能扭转跌势；WTI跌0.34%至84.40美元、布伦特涨0.4%至91.16美元，现货金跌0.72%至3819.57美元；特朗普、普京已抵深圳参加APEC峰会，周四将举行美中俄三方会谈。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Morgan Downey",
+      "title": "Morgan Downey's Commodity News",
+      "url": "https://commoditynews.morgandowney.com/news",
+      "summary": "美国原油库存意外增加528万桶打压油价，WTI跌至约84.16美元、布伦特约91.86美元；鹰派美联储信号与强美元推动金价跌至3770美元附近的一年低点；APEC峰会期间习近平与普京会晤，周四美中俄三方会谈在即。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Economy Middle East",
       "title": "U.S. dollar holds near 19-month high at 103.67 as Fed hike odds reach 95.7 percent",
       "url": "https://economymiddleeast.com/news/u-s-dollar-holds-near-19-month-high-at-103-67-as-fed-hike-odds-reach-95-7-percent/",
@@ -111,38 +139,10 @@
       "title": "Kospi jumps over 3%; Asian markets rebound as Nvidia forecast lifts sentiment",
       "url": "https://www.cnbctv18.com/market/asian-markets-share-price-kospi-nikkei-taiex-nvidia-result-forecast-wall-street-rebound-ai-stock-anthropic-ipo-20036347.htm",
       "summary": "亚股周三反弹，韩国Kospi涨3.08%、台股涨1.13%、日经涨1.03%，英伟达三季度营收1158亿美元、同比翻倍，四季度指引1300亿美元超预期；布伦特原油约93.49美元，Anthropic IPO定于周三晚定价、估值或达1.4万亿美元。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "The Economic Times",
-      "title": "Gold and silver ETFs slip up to 6% ahead of US Fed meeting minutes",
-      "url": "https://economictimes.indiatimes.com/mf/mf-news/gold-and-silver-etfs-slip-up-to-6-ahead-of-us-fed-meeting-minutes-what-should-investors-do/articleshow/135950931.cms",
-      "summary": "美元走强与加息预期压制贵金属，现货金跌1.4%至3796.37美元、白银跌2.9%至46.01美元，金银ETF周三最多跌6%；市场预计美联储12月加息25个基点概率95.7%，今晚将公布10月FOMC会议纪要。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "AKM",
-      "title": "Investors are waiting for news from the APEC summit, gold has updated its annual low",
-      "url": "https://www.akm.ru/eng/comments/investors-are-waiting-for-news-from-the-apec-summit-gold-has-updated-its-annual-low/",
-      "summary": "市场等待APEC峰会消息，普京与习近平会晤、周四将举行美中俄三方会谈；金价在美联储收紧预期下再创年内新低至3772美元/盎司，布伦特原油在91.50美元支撑上方波动，美国原油库存上周增加528万桶。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "The Wall Street Journal",
-      "title": "Asian Equities Mixed as Investors Parse Nvidia's Quarterly Results, Guidance",
-      "url": "https://www.wsj.com/finance/asian-equities-mixed-as-investors-parse-nvidias-results-guidance-7041c3ea",
-      "summary": "亚股周三涨跌互现，韩国Kospi涨1.3%、日经涨0.3%，市场消化英伟达超预期财报与四季度指引；WTI原油跌1.4%至84.84美元，布伦特跌0.7%至92.61美元；现货金跌1.8%至3780.93美元，创14个月新低。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Investor's Business Daily",
-      "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/",
-      "summary": "美股期货周三早盘小幅走高，英伟达财报超预期提振科技股，纳指期货涨0.6%；Anthropic IPO定于今晚定价、传闻高于发行区间，Target将于盘前公布财报。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 23:25"
+    "updated_at": "2026-11-19 01:25"
   }
 }
