@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Reuters",
+      "title": "UK inflation at one-year high, weighs on FTSE 100",
+      "url": "https://www.reuters.com/world/uk/uk-inflation-one-year-high-weighs-ftse-100-2026-11-18/",
+      "summary": "英国10月CPI同比升至3.6%，创一年新高，但略低于英国央行预测的3.7%，市场将12月加息概率从90%下调至80%；富时100指数连跌三日，贵金属与矿业股领跌，金价创一年多新低。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "TalkMarkets",
+      "title": "Two Trades To Watch: FTSE, Oil Forecast - Wednesday, Nov. 18",
+      "url": "https://talkmarkets.com/article/two-trades-to-watch-ftse-oil-forecast-wednesday-nov-18",
+      "summary": "美国原油库存上周增加528万桶，远超预期，油价跌破关键支撑、WTI约83美元；英国通胀3.6%低于预期，英央行12月加息概率降至80%，富时100受矿业股拖累走弱。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Butterfly Market Insider",
+      "title": "Fed Minutes Day: Hike Priced at ~95% for Dec. 8-9 as Waller Floats 50bp",
+      "url": "https://butterflymarketinsider.com/en/analysis/fed-minutes-day-hike-priced-at-95-for-dec-8-9-as-waller-floats-50bp/",
+      "summary": "美联储将于美东时间14时公布10月会议纪要，市场预计12月加息25个基点概率约95%，理事沃勒公开提及可能加息50个基点；圣路易斯联储主席穆萨莱姆称到2027年春季或需再加息四次。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "ZeroHedge",
+      "title": "NVDA +3.4% after topping estimates and lifted its FY28 growth guidance; oil prices continue to slip",
+      "url": "https://www.zerohedge.com/markets/nvda-34-after-topping-estimates-and-lifted-its-fy28-growth-guidance-oil-prices-continue",
+      "summary": "英伟达财报超预期并上调2028财年增长指引，美股开盘涨约3.4%；油价继续下滑，金价跌破3800美元；市场等待今晚FOMC会议纪要与APEC峰会消息。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Iboro Finance",
       "title": "Daily Briefing: Markets Slip on Nvidia and Rates",
       "url": "https://iborowilliam.com/blog/article/markets-slip-as-nvidia-shakeout-and-rate-jitters-hit-sentiment",
@@ -111,38 +139,10 @@
       "title": "Stocks Pressured by Weakness in Software and Health Insurance Stocks",
       "url": "https://www.tradingview.com/news/barchart:dcac27d0f094b:0-stocks-pressured-by-weakness-in-software-and-health-insurance-stocks/",
       "summary": "美股周二承压，标普500跌0.10%、道指跌0.33%、纳指100跌0.16%，软件与健康保险股领跌；圣路易斯联储主席穆萨莱姆称2027年春季前或需数次加息，10年期美债收益率升至5.14%；市场预计12月FOMC加息25个基点概率达100%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Morningstar",
-      "title": "EMEA Morning Briefing: Investors Await Nvidia Earnings",
-      "url": "https://www.morningstar.com/news/dow-jones/2026111735/emea-morning-briefing-investors-await-nvidia-earnings",
-      "summary": "欧洲股市周二延续跌势，斯托克600跌1.7%、富时100跌1.8%，科技股跌3.9%；美联储主席沃什称联储正研究AI对经济的影响，克利夫兰联储哈马克重申支持小幅稳步加息；油价下跌，沙特10月产量升至1050万桶/日。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Reuters",
-      "title": "GLOBAL MARKETS-Stocks fall with Nvidia in focus, dollar dips",
-      "url": "https://www.lse.co.uk/news/global-markets-stocks-fall-with-nvidia-in-focus-dollar-dips-6ocy0an7lezlcra.html",
-      "summary": "全球股市周二普跌，道指跌1.76%、标普500跌1.32%、纳指跌1.19%，科技股领跌；欧洲股市跌1.8%，德意志银行因旧客户往来受审查跌6%；美元指数回落至103.47，市场等待英伟达财报。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "AP",
-      "title": "Wall Street stabilizes after another AI selloff ahead of Nvidia earnings",
-      "url": "https://dunyanews.tv/amp/english/983431.php",
-      "summary": "美股周二盘前企稳，纳指期货涨0.5%收复周一2.5%跌幅的部分失地；英伟达盘前涨约0.7%，市场等待其盘后财报；欧洲DAX、CAC 40各跌0.8%，韩国Kospi跌2.6%至六个月低点。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "The Economic Times",
-      "title": "World markets mostly drop as AI stocks remain under pressure",
-      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/articleshow/135926342.cms",
-      "summary": "全球市场周二多数下跌，AI股持续承压：德国DAX跌0.8%、法国CAC 40跌0.5%、英国富时100跌0.7%；韩国Kospi跌2.6%跌破5000点，日经225跌1.3%，软银一个月内跌超33%；英国将于周三公布10月通胀数据。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 19:25"
+    "updated_at": "2026-11-18 21:25"
   }
 }
