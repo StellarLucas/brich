@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Iboro Finance",
+      "title": "Daily Briefing: Markets Slip on Nvidia and Rates",
+      "url": "https://iborowilliam.com/blog/article/markets-slip-as-nvidia-shakeout-and-rate-jitters-hit-sentiment",
+      "summary": "美股周二全线收跌，道指跌1.64%、标普500跌1.03%，科技股持续承压；金价大跌2.38%至3772.30美元、原油跌3.06%至83.38美元；英伟达财报后公司否认黄仁勋回归CEO，市场等待今晚公布的10月FOMC会议纪要。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Devdiscourse",
+      "title": "GLOBAL MARKETS-Stocks fall but Nvidia rebound lifts sentiment",
+      "url": "https://www.devdiscourse.com/article/international/4008650-global-markets-stocks-fall-but-nvidia-rebound-lifts-sentiment?amp",
+      "summary": "全球股市周二普跌，MSCI全球指数跌1.21%，道指跌1.64%、标普跌1.03%；英伟达盘后公布超预期营收指引、股价涨约2%，提振美股期货与韩国科技ETF；美元指数触及19个月新高后回落，金价守在一年低点附近。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "PSG Wealth",
+      "title": "US stocks retreat as tech weakness and Fed concerns weigh",
+      "url": "https://www.psg.co.za/research-and-insights/articles/18-november-2026/",
+      "summary": "美股周二收跌，标普500跌1%至7月以来最低，纳指跌0.7%、道指跌849点；欧洲斯托克600跌1.7%、德国DAX跌2%，德意志银行跌近6%；日经跌1.34%、上证跌0.5%连跌四日，布伦特原油涨至93.51美元。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Newspim",
+      "title": "Global Market Report: Nov. 18",
+      "url": "https://global.newspim.com/news/view/20261118000382",
+      "summary": "美股周二大跌，道指跌848.75点（-1.64%）至50759.42点，标普跌1.03%、纳指跌0.74%；中东油轮遇袭推升油价，WTI涨0.34%至86.01美元、布伦特涨0.76%至93.14美元；金价在一年多低点附近挣扎，美债收益率回落、美元走弱。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "TheStreet",
+      "title": "Cautious trader dumps millions ahead of Nov. 18 FOMC minutes release",
+      "url": "https://www.thestreet.com/crypto/fed/cautious-trader-dumps-millions-ahead-of-nov-18-fomc-minutes-release",
+      "summary": "美联储将于美东时间11月18日14时公布10月27–28日FOMC会议纪要，市场将从中判断12月加息的力度与路径；10月会议以10–2维持利率3.75%–4.00%不变，库克与哈马克主张加息，10月CPI超预期后12月加息25个基点几成定局。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Bloomberg via Swissinfo",
       "title": "Stocks Lose Nvidia-Led Momentum, Treasuries Rise: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/stocks-lose-nvidia-led-momentum%2C-treasuries-rise%3A-markets-wrap/92397458",
@@ -104,45 +139,10 @@
       "title": "World markets mostly drop as AI stocks remain under pressure",
       "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/articleshow/135926342.cms",
       "summary": "全球市场周二多数下跌，AI股持续承压：德国DAX跌0.8%、法国CAC 40跌0.5%、英国富时100跌0.7%；韩国Kospi跌2.6%跌破5000点，日经225跌1.3%，软银一个月内跌超33%；英国将于周三公布10月通胀数据。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "FXStreet",
-      "title": "The commodities feed: Metals under pressure while Oil supply improves",
-      "url": "https://www.fxstreet.com/analysis/the-commodities-feed-metals-under-pressure-while-oil-supply-improves-202611170948",
-      "summary": "油价连续第二日下跌，布伦特跌破92美元，中东供应改善盖过地缘风险，霍尔木兹海峡原油流量升至910万桶/日；金价从2025年9月以来最低收盘反弹，近期走势仍看美债收益率与美元脸色。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "JagranJosh",
-      "title": "US Federal Reserve Meeting: List Of Things To Know Ahead Of The December Interest Rate Decision",
-      "url": "https://www.jagranjosh.com/lite/general-knowledge/us-federal-reserve-meeting-list-of-things-to-know-ahead-of-the-december-interest-rate-decision-1820013891-1",
-      "summary": "美联储将于12月8–9日召开年内最后一次议息会议，市场预计加息25个基点至4.00%–4.25%；10月27–28日会议纪要将于11月18日公布，9月美国CPI同比3.7%仍高于2%目标。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Reuters",
-      "title": "Fed's Musalem: US likely needs several rate hikes by spring to control inflation",
-      "url": "https://www.reuters.com/business/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-control-inflation-2026-11-17/",
-      "summary": "圣路易斯联储主席穆萨莱姆称，美国经济在2027年春季前可能需要数次加息才能及时控制通胀，当前3.75%–4%的政策利率或比所需水平低约1个百分点；美联储12月8–9日会议预计加息25个基点，穆萨莱姆今年没有投票权。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Reuters",
-      "title": "TRADING DAY AI trade unwind continues, but Nvidia beats",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-17/",
-      "summary": "英伟达三季度财报超预期、盘后走强，但AI交易回调仍在持续；美元触及19个月新高后回落，金价守在一年低点附近，油价小幅走高。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Moneycontrol",
-      "title": "Commodity Corner: Oil slips on supply glut concerns; gold steadies after hitting 14-month closing low",
-      "url": "https://www.moneycontrol.com/news/business/stocks/commodity-corner-oil-slips-on-supply-glut-concerns-gold-steadies-after-hitting-14-month-closing-low-14081756.html/amp",
-      "summary": "受供应过剩预期拖累，布伦特跌0.5%至92.00美元、WTI跌0.5%至85.28美元，中东出口恢复盖过油轮遇袭担忧；金价在创2025年9月以来最低收盘后企稳。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 17:25"
+    "updated_at": "2026-11-18 19:25"
   }
 }
