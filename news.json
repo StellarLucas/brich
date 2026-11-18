@@ -3,6 +3,41 @@
     {
       "published_at": "2026-11-17",
       "source": "Reuters",
+      "title": "GLOBAL MARKETS-Stocks fall with Nvidia in focus, dollar dips",
+      "url": "https://www.lse.co.uk/news/global-markets-stocks-fall-with-nvidia-in-focus-dollar-dips-6ocy0an7lezlcra.html",
+      "summary": "全球股市周二普跌，道指跌1.76%、标普500跌1.32%、纳指跌1.19%，科技股领跌；欧洲股市跌1.8%，德意志银行因旧客户往来受审查跌6%；美元指数回落至103.47，市场等待英伟达财报。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "AP",
+      "title": "Wall Street stabilizes after another AI selloff ahead of Nvidia earnings",
+      "url": "https://dunyanews.tv/amp/english/983431.php",
+      "summary": "美股周二盘前企稳，纳指期货涨0.5%收复周一2.5%跌幅的部分失地；英伟达盘前涨约0.7%，市场等待其盘后财报；欧洲DAX、CAC 40各跌0.8%，韩国Kospi跌2.6%至六个月低点。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "The Economic Times",
+      "title": "World markets mostly drop as AI stocks remain under pressure",
+      "url": "https://economictimes.indiatimes.com/tech/artificial-intelligence/world-markets-mostly-drop-as-ai-stocks-remain-under-pressure/articleshow/135926342.cms",
+      "summary": "全球市场周二多数下跌，AI股持续承压：德国DAX跌0.8%、法国CAC 40跌0.5%、英国富时100跌0.7%；韩国Kospi跌2.6%跌破5000点，日经225跌1.3%，软银一个月内跌超33%；英国将于周三公布10月通胀数据。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "FXStreet",
+      "title": "The commodities feed: Metals under pressure while Oil supply improves",
+      "url": "https://www.fxstreet.com/analysis/the-commodities-feed-metals-under-pressure-while-oil-supply-improves-202611170948",
+      "summary": "油价连续第二日下跌，布伦特跌破92美元，中东供应改善盖过地缘风险，霍尔木兹海峡原油流量升至910万桶/日；金价从2025年9月以来最低收盘反弹，近期走势仍看美债收益率与美元脸色。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "JagranJosh",
+      "title": "US Federal Reserve Meeting: List Of Things To Know Ahead Of The December Interest Rate Decision",
+      "url": "https://www.jagranjosh.com/lite/general-knowledge/us-federal-reserve-meeting-list-of-things-to-know-ahead-of-the-december-interest-rate-decision-1820013891-1",
+      "summary": "美联储将于12月8–9日召开年内最后一次议息会议，市场预计加息25个基点至4.00%–4.25%；10月27–28日会议纪要将于11月18日公布，9月美国CPI同比3.7%仍高于2%目标。"
+    },
+    {
+      "published_at": "2026-11-17",
+      "source": "Reuters",
       "title": "Fed's Musalem: US likely needs several rate hikes by spring to control inflation",
       "url": "https://www.reuters.com/business/feds-musalem-us-likely-needs-several-rate-hikes-by-spring-control-inflation-2026-11-17/",
       "summary": "圣路易斯联储主席穆萨莱姆称，美国经济在2027年春季前可能需要数次加息才能及时控制通胀，当前3.75%–4%的政策利率或比所需水平低约1个百分点；美联储12月8–9日会议预计加息25个基点，穆萨莱姆今年没有投票权。"
@@ -104,45 +139,10 @@
       "title": "Stock Selloff Extends Into Fourth Day, Oil Drops: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/stock-selloff-extends-into-fourth-day,-oil-drops:-markets-wrap/92391739",
       "summary": "全球股市抛售延续至第四日，MSCI 亚太指数跌向 4 月初以来最低，美国收紧对华先进 AI 芯片出口、英伟达财报在即；布伦特跌破 92 美元，现货金约 3874 美元，10 年期美债收益率持稳于 5.13%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "TheStreet",
-      "title": "BofA Warns Fed Rate Hikes Could Push Rates Above 5%",
-      "url": "https://www.thestreet.com/fed/bofa-inflation-fed-rate-hikes-above-5-percent",
-      "summary": "美银预计美联储将在 12 月、1 月、3 月连续三次加息 25 个基点，联邦基金利率或升至 4.5%–4.75%，若工资通胀飙升可能突破 5%；市场已基本计价 12 月加息，10 月 FOMC 会议纪要将于 11 月 18 日公布。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Techstrong.ai",
-      "title": "Anthropic Readies Blockbuster Nasdaq Debut as Wall Street Weighs Explosive Growth vs. $900 Billion Compute Bet",
-      "url": "https://techstrong.ai/financial-services/anthropic-readies-blockbuster-nasdaq-debut-as-wall-street-weighs-explosive-growth-vs-900-billion-compute-bet/",
-      "summary": "Anthropic 定于 11 月 18 日晚定价、19 日以 ANT 在纳斯达克上市，发行价 70–78 美元、募资最高 644 亿美元，估值约 1.3–1.4 万亿美元；认购已超 6 倍，但近 9000 亿美元算力承诺成市场焦点。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Investopedia",
-      "title": "Stock Market Today: Major Indexes Fall in Early Trading as Investors Brace for Nvidia's Earnings Report",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11172026-12259343",
-      "summary": "美股周二早盘继续走低，标普 500 与纳指连跌三日，市场等待英伟达盘后财报与 Anthropic 周三 IPO 定价；WTI 涨 1.8% 至 87.30 美元，金价约 3860 美元，10 年期美债收益率升至 5.15%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Reuters",
-      "title": "Chip wreck",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-view-usa-2026-11-17/",
-      "summary": "科技股抛售延续至周二亚洲时段，费城半导体指数周一再跌 5%、纳指跌逾 2%；美国收紧对华先进 AI 芯片出口，英伟达盘后财报成 AI 交易关键考验；英伟达自 10 月初峰值已跌约三分之一，英特尔同期跌 50%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "Reuters",
-      "title": "Nvidia shares set for $335 billion swing after earnings, options show",
-      "url": "https://www.reuters.com/business/nvidia-shares-set-335-billion-swing-after-earnings-options-show-2026-11-17/",
-      "summary": "期权市场预计英伟达财报后市值波动约 3350 亿美元，隐含单日涨跌 8.5%；公司市值已从 10 月初约 5.8 万亿美元跌至约 3.9 万亿美元，黄仁勋辞职后股价年内跌近 17%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 09:25"
+    "updated_at": "2026-11-18 11:25"
   }
 }
