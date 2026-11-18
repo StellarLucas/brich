@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Investor's Business Daily",
+      "title": "Stock Market Today: Dow Drops On Heightened Fed Rate-Hike Fears; Palo Alto Jumps",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/",
+      "summary": "美联储10月会议纪要显示几乎所有与会者支持12月加息，通胀担忧升温，理事沃勒称或需加息50个基点；道指跌1.2%、标普500跌0.3%、纳指涨0.3%，Palo Alto与CrowdStrike各涨约8%；WTI跌3%至83.24美元，10年期美债收益率回落至5.06%。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Morningstar",
+      "title": "Copper at Lowest Since April Amid AI Market",
+      "url": "https://www.morningstar.com/news/dow-jones/202611185161/copper-at-lowest-since-april-amid-ai-market-2",
+      "summary": "美国原油库存增加528万桶，供应过剩预期压低油价，布伦特跌1.9%至91.38美元、WTI跌2.6%至83.80美元；金价跌2.5%至3768.20美元、创一年多新低，白银跌3.6%，铜价跌至4月以来最低。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "XTB",
+      "title": "Daily Summary: Hawkish Fed and fading optimism around Nvidia hit markets. Gold near 3700",
+      "url": "https://www.xtb.com/cy/market-analysis/news-and-research/daily-summary-hawkish-fed-and-fading-optimism-around-nvidia-hit-markets-gold-near-3700",
+      "summary": "FOMC会议纪要释放鹰派信号，部分官员称若通胀数据恶化，12月应考虑加息超过25个基点；金价跌破3800美元、逼近3700美元，标普500报7340点、周跌2.91%，英伟达周跌6.94%。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Pulsafi",
+      "title": "Today's Market Pulse",
+      "url": "https://www.pulsafi.com/market-today",
+      "summary": "美股收盘涨跌互现，标普500跌0.23%至7323.63点，纳指涨0.42%、道指跌1.11%，10年期美债收益率降至5.07%，比特币跌3.80%至62429美元，VIX为24.5，市场情绪仍紧张。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Channel News Asia",
       "title": "Stocks slip with Nvidia, dollar ticks higher",
       "url": "https://www.channelnewsasia.com/business/stocks-slip-nvidia-dollar-ticks-higher-6560946",
@@ -111,38 +139,10 @@
       "title": "Two Trades To Watch: FTSE, Oil Forecast - Wednesday, Nov. 18",
       "url": "https://talkmarkets.com/article/two-trades-to-watch-ftse-oil-forecast-wednesday-nov-18",
       "summary": "美国原油库存上周增加528万桶，远超预期，油价跌破关键支撑、WTI约83美元；英国通胀3.6%低于预期，英央行12月加息概率降至80%，富时100受矿业股拖累走弱。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Butterfly Market Insider",
-      "title": "Fed Minutes Day: Hike Priced at ~95% for Dec. 8-9 as Waller Floats 50bp",
-      "url": "https://butterflymarketinsider.com/en/analysis/fed-minutes-day-hike-priced-at-95-for-dec-8-9-as-waller-floats-50bp/",
-      "summary": "美联储将于美东时间14时公布10月会议纪要，市场预计12月加息25个基点概率约95%，理事沃勒公开提及可能加息50个基点；圣路易斯联储主席穆萨莱姆称到2027年春季或需再加息四次。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "ZeroHedge",
-      "title": "NVDA +3.4% after topping estimates and lifted its FY28 growth guidance; oil prices continue to slip",
-      "url": "https://www.zerohedge.com/markets/nvda-34-after-topping-estimates-and-lifted-its-fy28-growth-guidance-oil-prices-continue",
-      "summary": "英伟达财报超预期并上调2028财年增长指引，美股开盘涨约3.4%；油价继续下滑，金价跌破3800美元；市场等待今晚FOMC会议纪要与APEC峰会消息。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Iboro Finance",
-      "title": "Daily Briefing: Markets Slip on Nvidia and Rates",
-      "url": "https://iborowilliam.com/blog/article/markets-slip-as-nvidia-shakeout-and-rate-jitters-hit-sentiment",
-      "summary": "美股周二全线收跌，道指跌1.64%、标普500跌1.03%，科技股持续承压；金价大跌2.38%至3772.30美元、原油跌3.06%至83.38美元；英伟达财报后公司否认黄仁勋回归CEO，市场等待今晚公布的10月FOMC会议纪要。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Devdiscourse",
-      "title": "GLOBAL MARKETS-Stocks fall but Nvidia rebound lifts sentiment",
-      "url": "https://www.devdiscourse.com/article/international/4008650-global-markets-stocks-fall-but-nvidia-rebound-lifts-sentiment?amp",
-      "summary": "全球股市周二普跌，MSCI全球指数跌1.21%，道指跌1.64%、标普跌1.03%；英伟达盘后公布超预期营收指引、股价涨约2%，提振美股期货与韩国科技ETF；美元指数触及19个月新高后回落，金价守在一年低点附近。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 03:25"
+    "updated_at": "2026-11-19 05:25"
   }
 }
