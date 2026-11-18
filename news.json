@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-18",
+      "source": "Economy Middle East",
+      "title": "U.S. dollar holds near 19-month high at 103.67 as Fed hike odds reach 95.7 percent",
+      "url": "https://economymiddleeast.com/news/u-s-dollar-holds-near-19-month-high-at-103-67-as-fed-hike-odds-reach-95-7-percent/",
+      "summary": "美元指数守在103.67附近的19个月高位，CME数据显示市场预计美联储12月加息25个基点概率达95.7%；日本央行行长植田和男重申继续加息，日元小幅走强，全球主要央行利率前景进一步分化。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "J.P. Morgan",
+      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
+      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
+      "summary": "2026年全球主要央行集体转向紧缩：美联储9月加息25个基点为2023年以来首次，欧洲央行、加拿大央行、日本央行、澳洲联储等同步加息；能源价格上涨与伊朗冲突引发的供应扰动令通胀前景复杂化，英国央行12月或跟进加息。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Morningstar",
+      "title": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
+      "url": "https://www.morningstar.com/news/dow-jones/202611184067/nasdaq-futures-rise-as-nvidia-earnings-calm-ai-fears-attention-turns-to-anthropic-update",
+      "summary": "英伟达超预期财报安抚AI交易情绪，纳指期货涨0.4%、韩国Kospi涨2%、ASML涨近3.5%，全球科技股反弹；但市场仍质疑财报能否扭转10月以来AI股抛售，焦点转向Anthropic IPO定价与Palo Alto Networks财报。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "FXStreet",
+      "title": "FOMC Minutes and European CPI data due, Anthropic's IPO is expected to price",
+      "url": "https://www.fxstreet.com/analysis/fomc-minutes-and-european-cpi-data-due-anthropics-ipo-is-expected-to-price-202611180647",
+      "summary": "美联储10月会议纪要将于美东时间14时公布，欧洲10月CPI同日出炉，Anthropic IPO预计今晚定价；特朗普已抵深圳参加APEC峰会，周四将与习近平、普京会谈，贸易与先进AI芯片限制是焦点；中国人民银行将人民币中间价定在2022年7月以来最强水平。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "ZeroHedge",
+      "title": "NVIDIA beats and shares jump after-hours, but APAC stocks mixed as Iran targets US base in Kuwait; UK CPI and FOMC Minutes ahead",
+      "url": "https://www.zerohedge.com/markets/nvidia-beats-and-shares-jump-after-hours-apac-stocks-mixed-iran-targets-us-base-kuwait-uk",
+      "summary": "英伟达财报超预期、盘后跳涨，但亚太股市涨跌互现；伊朗袭击美国在科威特的基地推升地缘风险，油价与金价波动；中国国家主席习近平在深圳APEC开幕式上呼吁支持WTO与自由贸易，普京称美中俄三方会谈潜力巨大。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Reuters",
       "title": "UK inflation at one-year high, weighs on FTSE 100",
       "url": "https://www.reuters.com/world/uk/uk-inflation-one-year-high-weighs-ftse-100-2026-11-18/",
@@ -104,45 +139,10 @@
       "title": "Dow Jones Futures: Techs Rise After Nvidia Beats, Says This On Jensen Huang; Target, Anthropic IPO Ahead",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-earnings-target-anthropic-ipo/",
       "summary": "美股期货周三早盘小幅走高，英伟达财报超预期提振科技股，纳指期货涨0.6%；Anthropic IPO定于今晚定价、传闻高于发行区间，Target将于盘前公布财报。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "TradingView",
-      "title": "Nasdaq Futures Lead Wall Street Rebound After Nvidia's Blowout Forecast, Anthropic IPO Looms: SLS, NKE, MU In Focus",
-      "url": "https://www.tradingview.com/news/stocktwits:9771201ca094b:0-nasdaq-futures-lead-wall-street-rebound-after-nvidia-s-blowout-forecast-anthropic-ipo-looms-sls-nke-mu-in-focus/",
-      "summary": "英伟达三季度营收1158亿美元、同比翻倍，四季度指引1300亿美元超预期，盘后涨约4.7%；美股期货隔夜反弹，纳指期货涨0.51%；Anthropic IPO估值或超1.5万亿美元，定价或高于每股80美元。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "BigGo Finance",
-      "title": "Rate-Hike Bets Bite as Spot Gold Breaks Below $3,800 to More Than One-Year Low",
-      "url": "https://finance.biggo.com/news/01187251-8152-4bdf-ba97-2eb4956a8c94",
-      "summary": "现货金11月18日跌破3800美元/盎司，创一年多新低，日内低点3792.12美元；高油价推升通胀预期与12月美联储加息押注，美元与美债收益率走高；高盛二度下调金价目标，2026年底目标降至4150美元。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Reuters",
-      "title": "Asia stocks set to snap losing streak on Nvidia beat as Anthropic looms",
-      "url": "https://wncy.com/2026/11/17/asia-stocks-set-to-snap-losing-streak-on-nvidia-beat-as-anthropic-looms/",
-      "summary": "亚太股市周三反弹，MSCI亚太（除日本）指数涨0.9%，韩国Kospi涨3.3%、日经涨0.6%，英伟达超预期财报提振供应链；标普500期货涨0.5%；Anthropic IPO定价在即，估值或达1.4万亿美元。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "TalkMarkets",
-      "title": "Nvidia Delivers The Numbers, But Markets Can't Escape Jensen's Blast Radius",
-      "url": "https://talkmarkets.com/article/nvidia-delivers-the-numbers-but-markets-cant-escape-jensens-blast-radius",
-      "summary": "英伟达四季度营收指引1300亿美元超预期，盘后涨约2%，但标普500已跌破200日均线、创6月以来新低；自10月6日以来科技板块跌约20%、费城半导体指数跌30%、英伟达本身跌近40%；美银调查显示基金经理科技超配降至12%。"
-    },
-    {
-      "published_at": "2026-11-17",
-      "source": "TradingView",
-      "title": "Stocks Pressured by Weakness in Software and Health Insurance Stocks",
-      "url": "https://www.tradingview.com/news/barchart:dcac27d0f094b:0-stocks-pressured-by-weakness-in-software-and-health-insurance-stocks/",
-      "summary": "美股周二承压，标普500跌0.10%、道指跌0.33%、纳指100跌0.16%，软件与健康保险股领跌；圣路易斯联储主席穆萨莱姆称2027年春季前或需数次加息，10年期美债收益率升至5.14%；市场预计12月FOMC加息25个基点概率达100%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-18 21:25"
+    "updated_at": "2026-11-18 23:25"
   }
 }
