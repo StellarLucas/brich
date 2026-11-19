@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "Nikkei Asia",
+      "title": "Trump and Xi hold 3rd summit of year as friendly vibes mask deep divisions",
+      "url": "https://asia.nikkei.com/politics/international-relations/apec/trump-and-xi-hold-3rd-summit-of-year-as-friendly-vibes-mask-deep-divisions",
+      "summary": "特朗普与习近平周四在深圳 APEC 期间举行今年第三次双边会晤，试图维持将于明年 1 月到期的脆弱贸易休战；随后三人将举行美中俄首次三方峰会。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Nikkei Asia",
+      "title": "Trump, Xi and Putin gear up for first-ever trilateral meeting",
+      "url": "https://asia.nikkei.com/politics/international-relations/apec/trump-xi-and-putin-gear-up-for-first-ever-trilateral-meeting",
+      "summary": "美中俄三国领导人周四将在深圳 APEC 期间举行史上首次三方会谈，议题或涉乌克兰、伊朗与核军控；北京称将讨论“事关全球和平的重大问题”。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "The National",
+      "title": "Nvidia earnings and Anthropic IPO lead crucial week for AI bulls",
+      "url": "https://www.thenationalnews.com/business/markets/2026/11/16/nvidia-earnings-anthropic-ipo/",
+      "summary": "英伟达财报与 Anthropic IPO 成为本周华尔街焦点：英伟达三季度营收预计 1090 亿美元、同比增约 91%；Anthropic 周四以代码 ANT 登陆纳斯达克，估值最高约 1.45 万亿美元。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "NDTV Profit",
       "title": "Stock Market Today: Sensex Rises 350 Points, Nifty Near 25,350; Auto Stocks In Fast Lane, Surge Up to 7%",
       "url": "https://www.ndtvprofit.com/markets/stock-market-live-update-november-19-sensex-today-nifty-open-lower-amid-mixed-cues-brent-crude-oil-prices-anthropic-ipo-listing-bse-nse-12347038/amp/1",
@@ -118,31 +139,10 @@
       "title": "Anthropic IPO win keeps AI trade alive another day",
       "url": "https://www.reuters.com/commentary/breakingviews/anthropic-ipo-win-keeps-ai-trade-alive-another-day-2026-11-18/",
       "summary": "Anthropic以每股83美元定价IPO，高于70–78美元的发行区间，估值超过1.4万亿美元，发行规模因需求强劲而扩大；周四将以代码ANT登陆纳斯达克，AI交易热度得以延续。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Investor's Business Daily",
-      "title": "Stock Market Today: Dow Drops On Heightened Fed Rate-Hike Fears; Palo Alto Jumps",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/",
-      "summary": "美联储10月会议纪要显示几乎所有与会者支持12月加息，通胀担忧升温，理事沃勒称或需加息50个基点；道指跌1.2%、标普500跌0.3%、纳指涨0.3%，Palo Alto与CrowdStrike各涨约8%；WTI跌3%至83.24美元，10年期美债收益率回落至5.06%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Morningstar",
-      "title": "Copper at Lowest Since April Amid AI Market",
-      "url": "https://www.morningstar.com/news/dow-jones/202611185161/copper-at-lowest-since-april-amid-ai-market-2",
-      "summary": "美国原油库存增加528万桶，供应过剩预期压低油价，布伦特跌1.9%至91.38美元、WTI跌2.6%至83.80美元；金价跌2.5%至3768.20美元、创一年多新低，白银跌3.6%，铜价跌至4月以来最低。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "XTB",
-      "title": "Daily Summary: Hawkish Fed and fading optimism around Nvidia hit markets. Gold near 3700",
-      "url": "https://www.xtb.com/cy/market-analysis/news-and-research/daily-summary-hawkish-fed-and-fading-optimism-around-nvidia-hit-markets-gold-near-3700",
-      "summary": "FOMC会议纪要释放鹰派信号，部分官员称若通胀数据恶化，12月应考虑加息超过25个基点；金价跌破3800美元、逼近3700美元，标普500报7340点、周跌2.91%，英伟达周跌6.94%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 15:25"
+    "updated_at": "2026-11-19 17:25"
   }
 }
