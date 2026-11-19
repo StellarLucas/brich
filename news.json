@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "FXStreet",
+      "title": "Yields hit 5.07%, Gold holds $3,735, and Bitcoin eyes $60K",
+      "url": "https://www.fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854",
+      "summary": "10 年期美债收益率报 5.076%，道指跌 1.11%、纳指 100 涨 0.42%、标普 500 跌 0.23%；日经涨 0.71%、DAX 涨 0.56%；金价守在 3735 美元附近，比特币报 63627 美元。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "The Wall Street Journal",
+      "title": "Stock Futures Rise as Optimism Improves Ahead of Anthropic Trading Debut",
+      "url": "https://www.wsj.com/finance/stocks/stock-futures-rise-as-optimism-improves-ahead-of-anthropic-trading-debut-ecdfbb2f",
+      "summary": "美股期货周四走高，Anthropic 首日上市成焦点；油价小幅回升，布伦特约 92.40 美元、WTI 约 83.50 美元；美元守在 2025 年 1 月以来高位附近，金价续跌至 3700 美元附近，比特币反弹约 2% 至 63750 美元。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "Nikkei Asia",
       "title": "Trump and Xi hold 3rd summit of year as friendly vibes mask deep divisions",
       "url": "https://asia.nikkei.com/politics/international-relations/apec/trump-and-xi-hold-3rd-summit-of-year-as-friendly-vibes-mask-deep-divisions",
@@ -100,6 +114,13 @@
     },
     {
       "published_at": "2026-11-18",
+      "source": "Investor's Business Daily",
+      "title": "Stock Market Today: Dow Ends In Red On Rate 'Shock' Fears; Nvidia Sinks As Anthropic IPO Looms",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/",
+      "summary": "道指周三跌 1.1%、收跌 561 点，标普 500 跌 0.2%、纳指涨 0.4%；美联储理事沃勒称或需加息 50 个基点以“震慑”通胀，10 月会议纪要显示几乎所有官员支持 12 月加息；英伟达财报后下跌，Anthropic 周四上市。"
+    },
+    {
+      "published_at": "2026-11-18",
       "source": "Morningstar",
       "title": "Nvidia's leadership saga unfolds as demand is surging for Anthropic's IPO",
       "url": "https://www.morningstar.com/news/marketwatch/2026111888/nvidias-leadership-saga-unfolds-as-demand-is-surging-for-anthropics-ipo",
@@ -118,31 +139,10 @@
       "title": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike",
       "url": "https://www.reuters.com/business/fed-policymakers-focused-inflation-risks-october-with-some-seeing-need-bigger-2026-11-18/",
       "summary": "美联储10月会议纪要显示，几乎所有官员认为若经济如预期发展需进一步加息，数人称通胀可能更持久、或需更大力度加息；12月8–9日会议或讨论加息50个基点。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Reuters",
-      "title": "Waller says on CNBC the Fed needs to get more aggressive in inflation response",
-      "url": "https://www.reuters.com/markets/us/waller-says-cnbc-fed-needs-get-more-aggressive-inflation-response-2026-11-18/",
-      "summary": "美联储理事沃勒称应更激进应对通胀，12月应加息50个基点或明确2027年更快加息节奏；近期通胀年化超3%且可能加速，市场目前主要定价12月加息25个基点。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Reuters",
-      "title": "TRADING DAY Markets mixed in a Nvidia, Anthropic, minutes swirl",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-18/",
-      "summary": "全球市场周三涨跌互现，欧洲股市跌至两周低点，美元升至19个月新高；油价下跌，布伦特跌1%、WTI跌3%，金价跌3%至3735美元/盎司、创14个月新低；美股纳指涨0.4%、标普跌0.2%、道指跌1.1%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Reuters",
-      "title": "Anthropic IPO win keeps AI trade alive another day",
-      "url": "https://www.reuters.com/commentary/breakingviews/anthropic-ipo-win-keeps-ai-trade-alive-another-day-2026-11-18/",
-      "summary": "Anthropic以每股83美元定价IPO，高于70–78美元的发行区间，估值超过1.4万亿美元，发行规模因需求强劲而扩大；周四将以代码ANT登陆纳斯达克，AI交易热度得以延续。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 17:25"
+    "updated_at": "2026-11-19 19:25"
   }
 }
