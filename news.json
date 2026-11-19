@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "published_at": "2026-11-19",
+      "source": "Rivkin",
+      "title": "Morning Market Wrap",
+      "url": "https://rivkin.com.au/hide/morning-market-wrap-today/",
+      "summary": "标普500五连跌，英伟达回吐财报后涨幅；欧洲股市三连跌，Stoxx 600跌1%、富时100跌1.3%；澳股ASX 200跌0.7%，抹去11月全部涨幅；10年期美债收益率回落至5.06%。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Times Now News",
+      "title": "Trump, Xi And Putin Meet In China: What's At Stake At The APEC Summit?",
+      "url": "https://www.timesnownews.com/world/asia/trump-xi-jinping-putin-meeting-china-apec-summit-key-issues-shenzhen-article-156534270",
+      "summary": "美中俄三方会谈周四在深圳APEC期间举行，议题包括贸易、AI与先进芯片出口管制、乌克兰与伊朗；特朗普与习近平举行双边会晤，为今年第三次面对面会谈。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "NDTV Profit",
+      "title": "Stock Market Today: All You Need To Know Before Going Into Trade On November 19",
+      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-19-12346130/amp/1",
+      "summary": "现货金周四反弹0.8%至3754.84美元，脱离14个月低点，白银涨1.6%；WTI原油在83美元附近企稳，美国原油库存上周增加340万桶；市场关注美联储加息前景与APEC峰会。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Reuters",
+      "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
+      "url": "https://www.reuters.com/world/africa/us-dollar-hovers-near-19-month-high-aussie-falls-after-soft-jobs-data-2026-11-19/",
+      "summary": "美元指数守在103.81附近的19个月高位，美联储10月会议纪要与沃勒的鹰派言论强化12月加息预期；澳元因就业数据疲软跌至10个月低点；金价在3743美元企稳，油价周三跌逾1%。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Morningstar",
+      "title": "Nvidia's leadership saga unfolds as demand is surging for Anthropic's IPO",
+      "url": "https://www.morningstar.com/news/marketwatch/2026111888/nvidias-leadership-saga-unfolds-as-demand-is-surging-for-anthropics-ipo",
+      "summary": "英伟达财报超预期但股价仍跌，临时CEO科莱特·克雷斯主持首次财报电话会，董事会明确无意让黄仁勋复职；Anthropic IPO周三晚定价、周四以代码ANT登陆纳斯达克，估值最高约1.4万亿美元。"
+    },
+    {
       "published_at": "2026-11-18",
       "source": "Reuters",
       "title": "Anthropic clinches biggest-ever IPO with $81 billion offering",
@@ -104,45 +139,10 @@
       "title": "'Might Need To Shock': Fed's Waller Calls For Half-Point Hike, Wall Street Futures Wipe Out Gains",
       "url": "https://www.ndtvprofit.com/markets/might-need-to-shock-feds-waller-calls-for-half-point-hike-wall-street-futures-wipe-out-gains-12345002/amp/1",
       "summary": "美联储理事沃勒周三表示，为遏制通胀，美联储12月可能需要加息50个基点，并应扭转2025年的三次降息；美股期货应声回吐涨幅，CME数据显示市场仍主要定价加息25个基点、1月再加一次。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Daily Market Report",
-      "title": "Fear Spikes as Credit Widens and Metals Sell",
-      "url": "https://dailymarket.report/",
-      "summary": "标普500跌1.03%、VIX飙升11%至25.46，高收益债利差扩大11个基点至334bp，金价跌2%、白银跌3.3%，比特币ETF单日流出2.4亿美元，市场呈现全面避险而非单纯通胀定价调整。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "TradingKey",
-      "title": "Today's Market Recap: Three Major US Indexes Tumble, Broadcom and Arm Buck Trend, Nvidia Earnings Beat Expectations",
-      "url": "https://www.tradingkey.com/analysis/stocks/us-stocks/262310037-us-tightens-ai-chip-remote-access-rules-nvidia-amd-apec-oil-xau-xag-gold-tradingkey",
-      "summary": "美股三大指数齐跌，英伟达财报超预期仍未能扭转跌势；WTI跌0.34%至84.40美元、布伦特涨0.4%至91.16美元，现货金跌0.72%至3819.57美元；特朗普、普京已抵深圳参加APEC峰会，周四将举行美中俄三方会谈。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Morgan Downey",
-      "title": "Morgan Downey's Commodity News",
-      "url": "https://commoditynews.morgandowney.com/news",
-      "summary": "美国原油库存意外增加528万桶打压油价，WTI跌至约84.16美元、布伦特约91.86美元；鹰派美联储信号与强美元推动金价跌至3770美元附近的一年低点；APEC峰会期间习近平与普京会晤，周四美中俄三方会谈在即。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Economy Middle East",
-      "title": "U.S. dollar holds near 19-month high at 103.67 as Fed hike odds reach 95.7 percent",
-      "url": "https://economymiddleeast.com/news/u-s-dollar-holds-near-19-month-high-at-103-67-as-fed-hike-odds-reach-95-7-percent/",
-      "summary": "美元指数守在103.67附近的19个月高位，CME数据显示市场预计美联储12月加息25个基点概率达95.7%；日本央行行长植田和男重申继续加息，日元小幅走强，全球主要央行利率前景进一步分化。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "J.P. Morgan",
-      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
-      "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
-      "summary": "2026年全球主要央行集体转向紧缩：美联储9月加息25个基点为2023年以来首次，欧洲央行、加拿大央行、日本央行、澳洲联储等同步加息；能源价格上涨与伊朗冲突引发的供应扰动令通胀前景复杂化，英国央行12月或跟进加息。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 09:25"
+    "updated_at": "2026-11-19 11:25"
   }
 }
