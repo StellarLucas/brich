@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "NDTV Profit",
+      "title": "Stock Market Today: Sensex Rises 350 Points, Nifty Near 25,350; Auto Stocks In Fast Lane, Surge Up to 7%",
+      "url": "https://www.ndtvprofit.com/markets/stock-market-live-update-november-19-sensex-today-nifty-open-lower-amid-mixed-cues-brent-crude-oil-prices-anthropic-ipo-listing-bse-nse-12347038/amp/1",
+      "summary": "印度股市周四走高，Sensex 涨 350 点、Nifty 接近 25350 点，汽车股领涨；亚洲市场涨跌互现，布伦特原油报 91.70 美元；美联储纪要显示几乎所有官员认为需进一步加息。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "PR Newswire",
+      "title": "Gold, Silver and Crude Slide Hard as Volatility Jumps on the Week",
+      "url": "https://www.prnewswire.com/news-releases/gold-silver-and-crude-slide-hard-as-volatility-jumps-on-the-week-302944885.html",
+      "summary": "金、银、原油周三大幅下跌：金价跌至 3742.50 美元（日跌 3.15%）、白银跌至 45.01 美元（日跌 4.81%）、WTI 原油跌至 81.64 美元（日跌 5.08%）；波动率指数周内跳升，道指周跌 4.03%。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "The Hindu BusinessLine",
       "title": "Stock market today: Sensex, Nifty fall as IT stocks drag; Fed signals weigh",
       "url": "https://www.thehindubusinessline.com/markets/nifty-opens-below-25200-it-bleeds-as-fed-jitters-anthropic-ipo-reshape-market-mood/article71718634.ece",
@@ -13,6 +27,13 @@
       "title": "Crude oil price today: Brent futures rise despite increase in US oil inventories",
       "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-edge-lower-as-us-inventories-rise/article71718631.ece",
       "summary": "布伦特原油期货周四早盘报 92.04 美元、微涨 0.10%，WTI 报 82.11 美元、跌 0.24%；美国官方数据显示截至 11 月 13 日当周原油库存增加。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Investopedia",
+      "title": "Markets News, Nov. 18, 2026: Dow Plunges 560 Points, S&P 500 Extends Losing Streak as Nvidia Stock Falls After Earnings; Nasdaq Snaps Skid",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11182026-12261593",
+      "summary": "道指跌 560 点、标普 500 五连跌，英伟达财报后下跌；WTI 原油跌 3.7% 至 82.85 美元，金价跌 3.5% 至 3730 美元、创 14 个月新低，比特币跌至 62300 美元，10 年期美债收益率回落至 5.07%。"
     },
     {
       "published_at": "2026-11-18",
@@ -118,31 +139,10 @@
       "title": "Daily Summary: Hawkish Fed and fading optimism around Nvidia hit markets. Gold near 3700",
       "url": "https://www.xtb.com/cy/market-analysis/news-and-research/daily-summary-hawkish-fed-and-fading-optimism-around-nvidia-hit-markets-gold-near-3700",
       "summary": "FOMC会议纪要释放鹰派信号，部分官员称若通胀数据恶化，12月应考虑加息超过25个基点；金价跌破3800美元、逼近3700美元，标普500报7340点、周跌2.91%，英伟达周跌6.94%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Pulsafi",
-      "title": "Today's Market Pulse",
-      "url": "https://www.pulsafi.com/market-today",
-      "summary": "美股收盘涨跌互现，标普500跌0.23%至7323.63点，纳指涨0.42%、道指跌1.11%，10年期美债收益率降至5.07%，比特币跌3.80%至62429美元，VIX为24.5，市场情绪仍紧张。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Channel News Asia",
-      "title": "Stocks slip with Nvidia, dollar ticks higher",
-      "url": "https://www.channelnewsasia.com/business/stocks-slip-nvidia-dollar-ticks-higher-6560946",
-      "summary": "美股周三走势分化，道指跌0.84%、标普微跌0.07%、纳指涨0.46%，MSCI全球指数跌0.34%；美联储理事沃勒称12月应加息50个基点或加快2027年加息节奏，美元指数升至103.81的19个月新高，10年期美债收益率回落至5.06%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Corporate Wire",
-      "title": "Treasury Yields Top 5% as Stocks, Gold and Bitcoin Fall Together",
-      "url": "https://www.corporatewire.org/markets/treasury-yields-top-5-percent-stocks-gold-bitcoin-fall-together-oil-hormuz-dollar",
-      "summary": "10年期美债收益率重回5%上方，美元逼近19个月高位，股、金、比特币同跌；市场押注美联储12月加息25个基点概率约95%–96%，金价一周内从约4134美元跌至约3850美元，布伦特原油收于93.14美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 13:25"
+    "updated_at": "2026-11-19 15:25"
   }
 }
