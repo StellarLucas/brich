@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "published_at": "2026-11-17",
+      "source": "Capital Times",
+      "title": "China LPR Due Nov. 20, First Since PBOC Overnight Rate Switch",
+      "url": "https://capitaltimes.asia/markets/bonds/china-loan-prime-rate-nov-20-first-test-overnight-policy-rate/",
+      "summary": "中国人民银行将于 11 月 20 日公布月度 LPR，这是央行将隔夜利率（1.25%）定为主要政策利率后的首次定价；花旗预计 1 年期 3.0%、5 年期 3.5% 维持不变，连续第 18 个月按兵不动。"
+    },
+    {
+      "published_at": "2026-11-13",
+      "source": "FXRoll",
+      "title": "Global interest rate expectations shift as central banks reprice hawkishly",
+      "url": "https://www.fxroll.com/news/global-interest-rate-expectations-shift-as-central-banks-reprice-hawkishly",
+      "summary": "美国 10 月 CPI 超预期叠加美联储官员鹰派表态，全球主要央行加息预期集体上修；市场计入美联储年底前加息 28 个基点、12 月加息概率 88%，英国央行、欧洲央行、日本央行亦被重新定价。"
+    },
+    {
+      "published_at": "2026-11-04",
+      "source": "Chase",
+      "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
+      "url": "https://www.chase.com/personal/investments/learning-and-insights/article/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
+      "summary": "2026 年全球主要央行集体转向紧缩：美联储 9 月加息 25 个基点至 3.75%–4.00%，欧洲央行、日本央行、澳洲联储、新西兰联储与挪威央行年内均已加息，主因是伊朗冲突推高能源价格、通胀担忧再起。"
+    },
+    {
       "published_at": "2026-11-19",
       "source": "Kitco News",
       "title": "Gold struggles near $3,700 despite weaker Philly Fed, renewed Hormuz tensions",
@@ -118,31 +139,10 @@
       "title": "Stock Market Today: Sensex Rises 350 Points, Nifty Near 25,350; Auto Stocks In Fast Lane, Surge Up to 7%",
       "url": "https://www.ndtvprofit.com/markets/stock-market-live-update-november-19-sensex-today-nifty-open-lower-amid-mixed-cues-brent-crude-oil-prices-anthropic-ipo-listing-bse-nse-12347038/amp/1",
       "summary": "印度股市周四走高，Sensex 涨 350 点、Nifty 接近 25350 点，汽车股领涨；亚洲市场涨跌互现，布伦特原油报 91.70 美元；美联储纪要显示几乎所有官员认为需进一步加息。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "PR Newswire",
-      "title": "Gold, Silver and Crude Slide Hard as Volatility Jumps on the Week",
-      "url": "https://www.prnewswire.com/news-releases/gold-silver-and-crude-slide-hard-as-volatility-jumps-on-the-week-302944885.html",
-      "summary": "金、银、原油周三大幅下跌：金价跌至 3742.50 美元（日跌 3.15%）、白银跌至 45.01 美元（日跌 4.81%）、WTI 原油跌至 81.64 美元（日跌 5.08%）；波动率指数周内跳升，道指周跌 4.03%。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "The Hindu BusinessLine",
-      "title": "Stock market today: Sensex, Nifty fall as IT stocks drag; Fed signals weigh",
-      "url": "https://www.thehindubusinessline.com/markets/nifty-opens-below-25200-it-bleeds-as-fed-jitters-anthropic-ipo-reshape-market-mood/article71718634.ece",
-      "summary": "印度股市周四早盘走弱，Nifty 跌 0.31%、Sensex 跌 0.28%，IT 股领跌；美联储 10 月会议纪要偏鹰、美元走强打压全球风险偏好，现货金跌 3.2% 至 3726.19 美元。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "The Hindu BusinessLine",
-      "title": "Crude oil price today: Brent futures rise despite increase in US oil inventories",
-      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-edge-lower-as-us-inventories-rise/article71718631.ece",
-      "summary": "布伦特原油期货周四早盘报 92.04 美元、微涨 0.10%，WTI 报 82.11 美元、跌 0.24%；美国官方数据显示截至 11 月 13 日当周原油库存增加。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 01:25"
+    "updated_at": "2026-11-20 03:25"
   }
 }
