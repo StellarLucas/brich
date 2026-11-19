@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "The Hindu BusinessLine",
+      "title": "Stock market today: Sensex, Nifty fall as IT stocks drag; Fed signals weigh",
+      "url": "https://www.thehindubusinessline.com/markets/nifty-opens-below-25200-it-bleeds-as-fed-jitters-anthropic-ipo-reshape-market-mood/article71718634.ece",
+      "summary": "印度股市周四早盘走弱，Nifty 跌 0.31%、Sensex 跌 0.28%，IT 股领跌；美联储 10 月会议纪要偏鹰、美元走强打压全球风险偏好，现货金跌 3.2% 至 3726.19 美元。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "The Hindu BusinessLine",
+      "title": "Crude oil price today: Brent futures rise despite increase in US oil inventories",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-edge-lower-as-us-inventories-rise/article71718631.ece",
+      "summary": "布伦特原油期货周四早盘报 92.04 美元、微涨 0.10%，WTI 报 82.11 美元、跌 0.24%；美国官方数据显示截至 11 月 13 日当周原油库存增加。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "TradingView",
+      "title": "Stocks Mixed as Nvidia Erases Overnight Gains",
+      "url": "https://www.tradingview.com/news/barchart:e82ccdb6e094b:0-stocks-mixed-as-nvidia-erases-overnight-gains/",
+      "summary": "美股周三涨跌互现，标普 500 跌 0.20%、道指跌 0.96%、纳指 100 涨 0.36%；英伟达财报后回吐隔夜涨幅转跌，美联储理事沃勒呼吁 12 月考虑加息 50 个基点。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "The Motley Fool",
+      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
+      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/",
+      "summary": "标普 500 跌 0.24% 至 7323 点、跌破 200 日均线，纳指涨 0.42%、道指跌 1.11%；美联储会议纪要显示几乎所有官员认为需进一步加息，美元升至 19 个月新高。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "Rivkin",
       "title": "Morning Market Wrap",
       "url": "https://rivkin.com.au/hide/morning-market-wrap-today/",
@@ -111,38 +139,10 @@
       "title": "Treasury Yields Top 5% as Stocks, Gold and Bitcoin Fall Together",
       "url": "https://www.corporatewire.org/markets/treasury-yields-top-5-percent-stocks-gold-bitcoin-fall-together-oil-hormuz-dollar",
       "summary": "10年期美债收益率重回5%上方，美元逼近19个月高位，股、金、比特币同跌；市场押注美联储12月加息25个基点概率约95%–96%，金价一周内从约4134美元跌至约3850美元，布伦特原油收于93.14美元。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "The Wall Street Journal",
-      "title": "Asian Equities Mixed as Investors Parse Nvidia's Quarterly Results, Guidance",
-      "url": "https://www.wsj.com/finance/asian-equities-mixed-as-investors-parse-nvidias-results-guidance-7041c3ea",
-      "summary": "亚股周三涨跌互现，投资者消化英伟达财报与指引；WTI跌1.4%至84.84美元、布伦特跌0.7%至92.61美元，现货金跌1.8%至3780.93美元、创14个月新低，市场等待当日公布的美联储10月会议纪要。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Investopedia",
-      "title": "5 Things Investors Need to Know About Wednesday's Markets",
-      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-18-2026-12260092",
-      "summary": "英伟达财报超预期、股价早盘走高并上调2028财年指引；Anthropic定于今晚确定IPO定价，发行价或高于70–78美元区间、估值逼近1.5–1.6万亿美元；市场等待美联储10月会议纪要，12月加息25个基点概率约95%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "The Korea Times",
-      "title": "Anthropic prices blockbuster IPO as Nvidia scandal rattles AI stocks",
-      "url": "https://www.koreatimes.co.kr/amp/world/20261119/anthropic-prices-blockbuster-ipo-as-nvidia-scandal-rattles-ai-stocks",
-      "summary": "Anthropic定于周三晚确定IPO定价，周四以代码ANT登陆纳斯达克；机构与散户认购合计约5000亿美元，超额认购约8倍，发行价或高于80美元；英伟达CEO黄仁勋辞职风波令AI股承压，七家科技公司另以260亿美元参与私募配售。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "NDTV Profit",
-      "title": "'Might Need To Shock': Fed's Waller Calls For Half-Point Hike, Wall Street Futures Wipe Out Gains",
-      "url": "https://www.ndtvprofit.com/markets/might-need-to-shock-feds-waller-calls-for-half-point-hike-wall-street-futures-wipe-out-gains-12345002/amp/1",
-      "summary": "美联储理事沃勒周三表示，为遏制通胀，美联储12月可能需要加息50个基点，并应扭转2025年的三次降息；美股期货应声回吐涨幅，CME数据显示市场仍主要定价加息25个基点、1月再加一次。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 11:25"
+    "updated_at": "2026-11-19 13:25"
   }
 }
