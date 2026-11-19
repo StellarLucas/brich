@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "Investopedia",
+      "title": "Stock Market Today: Major Indexes Jump as Anthropic Shares Set to Make Trading Debut on Nasdaq After Blockbuster IPO",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11192026-12263687",
+      "summary": "美股周四早盘大涨，纳指涨1.8%、标普500涨0.9%、道指涨0.1%，Anthropic今日在纳斯达克首日上市；金价跌至3715美元的14个月低点，WTI原油涨1.5%至84.50美元，10年期美债收益率升至5.10%。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Thursday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-19-2026-12260143",
+      "summary": "股指期货走高，WTI原油涨约1%至84.10美元、布伦特92.70美元，金价跌至3720美元的14个月低点，比特币约63700美元。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "RoboForex",
+      "title": "Anthropic Nasdaq Debut: IPO at 83 USD Beats SpaceX",
+      "url": "https://roboforex.com/blog/anthropic-ipo/anthropic-nasdaq-debut/",
+      "summary": "Anthropic以每股83美元定价，高出询价区间上限6.4%，发行规模从8.25亿股增至9.8亿股，今日在纳斯达克以代码ANT首日交易。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "TradingNerve",
       "title": "Fed rate hike odds hit 95% as S&P 500 slides",
       "url": "https://www.tradingnerve.com/en/market/fed-rate-hike-odds-sp500-gold-2026-11-19",
@@ -118,31 +139,10 @@
       "title": "Trump, Xi And Putin Meet In China: What's At Stake At The APEC Summit?",
       "url": "https://www.timesnownews.com/world/asia/trump-xi-jinping-putin-meeting-china-apec-summit-key-issues-shenzhen-article-156534270",
       "summary": "美中俄三方会谈周四在深圳APEC期间举行，议题包括贸易、AI与先进芯片出口管制、乌克兰与伊朗；特朗普与习近平举行双边会晤，为今年第三次面对面会谈。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "NDTV Profit",
-      "title": "Stock Market Today: All You Need To Know Before Going Into Trade On November 19",
-      "url": "https://www.ndtvprofit.com/markets/stock-market-today-all-you-need-to-know-going-into-trade-on-nov-19-12346130/amp/1",
-      "summary": "现货金周四反弹0.8%至3754.84美元，脱离14个月低点，白银涨1.6%；WTI原油在83美元附近企稳，美国原油库存上周增加340万桶；市场关注美联储加息前景与APEC峰会。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Reuters",
-      "title": "US dollar hovers near 19-month high, Aussie falls after soft jobs data",
-      "url": "https://www.reuters.com/world/africa/us-dollar-hovers-near-19-month-high-aussie-falls-after-soft-jobs-data-2026-11-19/",
-      "summary": "美元指数守在103.81附近的19个月高位，美联储10月会议纪要与沃勒的鹰派言论强化12月加息预期；澳元因就业数据疲软跌至10个月低点；金价在3743美元企稳，油价周三跌逾1%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Investor's Business Daily",
-      "title": "Stock Market Today: Dow Ends In Red On Rate 'Shock' Fears; Nvidia Sinks As Anthropic IPO Looms",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-fed-minutes-nvidia-earnings-nvda-stock-lowes-target/",
-      "summary": "道指周三跌 1.1%、收跌 561 点，标普 500 跌 0.2%、纳指涨 0.4%；美联储理事沃勒称或需加息 50 个基点以“震慑”通胀，10 月会议纪要显示几乎所有官员支持 12 月加息；英伟达财报后下跌，Anthropic 周四上市。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 21:25"
+    "updated_at": "2026-11-19 23:25"
   }
 }
