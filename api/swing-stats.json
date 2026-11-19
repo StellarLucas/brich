@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-18T08:41:34+00:00",
+  "generated_at": "2026-11-19T09:18:46+00:00",
   "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
   "indexes": {
     "q50": {
-      "data_date": "2026-11-18",
-      "computed_at": "2026-11-18T08:41:25+00:00",
+      "data_date": "2026-11-19",
+      "computed_at": "2026-11-19T09:18:41+00:00",
       "stats": {
         "up_gain": {
           "n": 206,
@@ -105,97 +105,97 @@
       }
     },
     "h100": {
-      "data_date": "2026-11-18",
-      "computed_at": "2026-11-18T08:41:26+00:00",
+      "data_date": "2026-11-19",
+      "computed_at": "2026-11-19T09:18:43+00:00",
       "stats": {
         "up_gain": {
-          "n": 949,
-          "mean": 0.7727,
-          "median": 0.4898,
-          "q1": 0.303,
-          "q3": 0.837
+          "n": 952,
+          "mean": 0.7713,
+          "median": 0.4895,
+          "q1": 0.3029,
+          "q3": 0.8359
         },
         "down_loss": {
-          "n": 913,
-          "mean": 0.3404,
-          "median": 0.3132,
-          "q1": 0.2548,
-          "q3": 0.4047
+          "n": 917,
+          "mean": 0.3409,
+          "median": 0.3139,
+          "q1": 0.2557,
+          "q3": 0.4064
         },
         "up_duration_weeks": {
-          "n": 949,
-          "mean": 11.634,
+          "n": 952,
+          "mean": 11.6042,
           "median": 7.7,
           "q1": 4.1,
-          "q3": 15.4
+          "q3": 15.325
         },
         "down_duration_weeks": {
-          "n": 913,
-          "mean": 11.7186,
-          "median": 8.3,
+          "n": 917,
+          "mean": 11.7188,
+          "median": 8.4,
           "q1": 4.9,
           "q3": 15.3
         },
         "drawdown_at_swing_start": {
-          "n": 930,
-          "mean": 0.3741,
-          "median": 0.3581,
+          "n": 933,
+          "mean": 0.375,
+          "median": 0.3583,
           "q1": 0.2724,
-          "q3": 0.4651
+          "q3": 0.4657
         },
         "four_week_drop_at_swing_start": {
-          "n": 886,
-          "mean": -0.1659,
-          "median": -0.1698,
-          "q1": -0.2323,
-          "q3": -0.1118
+          "n": 889,
+          "mean": -0.1663,
+          "median": -0.1705,
+          "q1": -0.233,
+          "q3": -0.1119
         },
         "adverse_move_after_entry": {
-          "n": 949,
+          "n": 952,
           "mean": -0.0001,
           "median": 0.0,
           "q1": 0.0,
           "q3": 0.0
         },
         "entry_to_high_gain": {
-          "n": 949,
-          "mean": 0.6418,
-          "median": 0.383,
-          "q1": 0.2063,
-          "q3": 0.706
+          "n": 952,
+          "mean": 0.6404,
+          "median": 0.3824,
+          "q1": 0.2061,
+          "q3": 0.7049
         },
         "entry_to_high_duration_weeks": {
-          "n": 949,
-          "mean": 11.0729,
-          "median": 7.1429,
+          "n": 952,
+          "mean": 11.044,
+          "median": 7.0714,
           "q1": 3.7143,
-          "q3": 14.8571
+          "q3": 14.6429
         },
         "mae_after_entry": {
-          "n": 949,
-          "mean": -0.0201,
+          "n": 952,
+          "mean": -0.0202,
           "median": -0.0108,
           "q1": -0.0338,
           "q3": 0.0
         },
         "large_up_duration_weeks": {
-          "n": 581,
-          "mean": 15.226,
+          "n": 582,
+          "mean": 15.2069,
           "median": 11.9,
           "q1": 6.6,
-          "q3": 22.7
+          "q3": 22.675
         },
         "n_stocks": 99,
-        "n_completed_swings": 1862,
-        "n_up": 949,
-        "n_down": 913
+        "n_completed_swings": 1869,
+        "n_up": 952,
+        "n_down": 917
       },
       "rules": {
         "derived_from": {
           "n_stocks": 99,
-          "n_completed_swings": 1862,
-          "n_up": 949,
-          "n_down": 913
+          "n_completed_swings": 1869,
+          "n_up": 952,
+          "n_down": 917
         },
         "stop_loss_pct": 0.08,
         "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
@@ -207,8 +207,8 @@
       }
     },
     "etf": {
-      "data_date": "2026-11-18",
-      "computed_at": "2026-11-18T08:41:26+00:00",
+      "data_date": "2026-11-19",
+      "computed_at": "2026-11-19T09:18:43+00:00",
       "stats": {
         "up_gain": {
           "n": 34,
