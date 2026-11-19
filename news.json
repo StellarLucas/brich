@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "Kitco News",
+      "title": "Gold struggles near $3,700 despite weaker Philly Fed, renewed Hormuz tensions",
+      "url": "https://www.kitco.com/news/article/2026-11-19/gold-struggles-near-3700-despite-weaker-philly-fed-renewed-hormuz-tensions",
+      "summary": "现货金周四早盘在 3715 美元附近挣扎，隔夜最低触及 3693 美元；美国初请失业金高于预期、费城联储制造业大幅放缓，但加息预期仍压制金价；布伦特约 92.19 美元、WTI 约 83.31 美元小幅回升，霍尔木兹海峡航运担忧再起。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Daily Market Report",
+      "title": "Fear Grips Both Equity and Crypto Markets",
+      "url": "https://dailymarket.report/archive/2026-11-19.html",
+      "summary": "美国初请失业金 20.3 万人高于预期，股债与加密市场恐惧贪婪指数均处极度恐惧；标普 500 盘中跌 0.25%、纳指涨 0.28%，10 年期美债收益率 5.10%，比特币约 63010 美元。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Capital Street FX",
+      "title": "Gold Bounces From A 14-Month Low To 3,734.86, Copper Steadies At 5.755 After A 5% Rout And WTI Tests 82.09",
+      "url": "https://www.capitalstreetfx.com/market-analysis/daily-commodity-report-19-nov-2026/",
+      "summary": "金价从 14 个月低点 3693 美元反弹至 3734.86 美元，铜在暴跌 5.7% 后企稳于 5.755 美元，WTI 原油在 82.09 美元附近考验 8 月 26 日以来低点；美联储纪要与沃勒 50 个基点加息言论支撑 12 月加息预期。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "AI Policy Daily",
+      "title": "Trump rejects global AI rules | Anthropic IPO at $1.5T valuation | PLA seeks Nvidia chips",
+      "url": "https://aipolicydaily.org/archive/daily/2026-11-19/",
+      "summary": "特朗普在深圳 APEC 上表示美国将拒绝国际 AI 规则限制；Anthropic 以每股 83 美元定价、今日在纳斯达克以代码 ANT 首日交易，估值约 1.5 万亿美元，募资约 810 亿美元；习近平在双边会晤中呼吁协调 AI 安全风险。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Levelbox",
+      "title": "What Happens to Stocks After Three Fed Rate Hikes? 12 Cycles, and the Hyperscalers Today",
+      "url": "https://levelbox.ai/blog/three-fed-rate-hikes-stocks-hyperscalers-november-2026",
+      "summary": "市场预计美联储 12 月加息概率约 93–95%、2027 年 1 月再加息概率约 62–73%；回顾 1982 年以来 12 轮加息周期，第三次加息后一年标普 500 中位涨幅 14.9%；2 年期美债收益率 4.80%，已高于两次加息后的目标区间。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "Investopedia",
       "title": "Stock Market Today: Major Indexes Jump as Anthropic Shares Set to Make Trading Debut on Nasdaq After Blockbuster IPO",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11192026-12263687",
@@ -104,45 +139,10 @@
       "title": "Crude oil price today: Brent futures rise despite increase in US oil inventories",
       "url": "https://www.thehindubusinessline.com/markets/commodities/crude-oil-futures-edge-lower-as-us-inventories-rise/article71718631.ece",
       "summary": "布伦特原油期货周四早盘报 92.04 美元、微涨 0.10%，WTI 报 82.11 美元、跌 0.24%；美国官方数据显示截至 11 月 13 日当周原油库存增加。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Investopedia",
-      "title": "Markets News, Nov. 18, 2026: Dow Plunges 560 Points, S&P 500 Extends Losing Streak as Nvidia Stock Falls After Earnings; Nasdaq Snaps Skid",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11182026-12261593",
-      "summary": "道指跌 560 点、标普 500 五连跌，英伟达财报后下跌；WTI 原油跌 3.7% 至 82.85 美元，金价跌 3.5% 至 3730 美元、创 14 个月新低，比特币跌至 62300 美元，10 年期美债收益率回落至 5.07%。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "TradingView",
-      "title": "Stocks Mixed as Nvidia Erases Overnight Gains",
-      "url": "https://www.tradingview.com/news/barchart:e82ccdb6e094b:0-stocks-mixed-as-nvidia-erases-overnight-gains/",
-      "summary": "美股周三涨跌互现，标普 500 跌 0.20%、道指跌 0.96%、纳指 100 涨 0.36%；英伟达财报后回吐隔夜涨幅转跌，美联储理事沃勒呼吁 12 月考虑加息 50 个基点。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "The Motley Fool",
-      "title": "Stock Market Today, Nov. 18: S&P 500 Breaks Key Support as Fed Minutes Signal More Rate Hikes Ahead",
-      "url": "https://www.fool.com/coverage/stock-market-today/2026/11/18/stock-market-today-nov-18-s-and-p-500-breaks-key-support-as-fed-minutes-signal-more-rate-hikes-ahead/",
-      "summary": "标普 500 跌 0.24% 至 7323 点、跌破 200 日均线，纳指涨 0.42%、道指跌 1.11%；美联储会议纪要显示几乎所有官员认为需进一步加息，美元升至 19 个月新高。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Rivkin",
-      "title": "Morning Market Wrap",
-      "url": "https://rivkin.com.au/hide/morning-market-wrap-today/",
-      "summary": "标普500五连跌，英伟达回吐财报后涨幅；欧洲股市三连跌，Stoxx 600跌1%、富时100跌1.3%；澳股ASX 200跌0.7%，抹去11月全部涨幅；10年期美债收益率回落至5.06%。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Times Now News",
-      "title": "Trump, Xi And Putin Meet In China: What's At Stake At The APEC Summit?",
-      "url": "https://www.timesnownews.com/world/asia/trump-xi-jinping-putin-meeting-china-apec-summit-key-issues-shenzhen-article-156534270",
-      "summary": "美中俄三方会谈周四在深圳APEC期间举行，议题包括贸易、AI与先进芯片出口管制、乌克兰与伊朗；特朗普与习近平举行双边会晤，为今年第三次面对面会谈。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 23:25"
+    "updated_at": "2026-11-20 01:25"
   }
 }
