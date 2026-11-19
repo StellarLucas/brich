@@ -3,6 +3,27 @@
     {
       "published_at": "2026-11-18",
       "source": "Reuters",
+      "title": "Anthropic clinches biggest-ever IPO with $81 billion offering",
+      "url": "https://www.reuters.com/business/anthropic-clinches-biggest-ever-ipo-with-81-billion-offering-2026-11-18/",
+      "summary": "Anthropic IPO募资813.1亿美元，超越SpaceX成为史上最大规模IPO，定价每股83美元、高于70–78美元的发行区间；周四将以代码ANT登陆纳斯达克。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Reuters",
+      "title": "Fed policymakers focused on inflation risks in October, with some seeing need for bigger rate hike",
+      "url": "https://www.reuters.com/business/fed-policymakers-focused-inflation-risks-october-with-some-seeing-need-bigger-2026-11-18/",
+      "summary": "美联储10月会议纪要显示，几乎所有官员认为若经济如预期发展需进一步加息，数人称通胀可能更持久、或需更大力度加息；12月8–9日会议或讨论加息50个基点。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Reuters",
+      "title": "Waller says on CNBC the Fed needs to get more aggressive in inflation response",
+      "url": "https://www.reuters.com/markets/us/waller-says-cnbc-fed-needs-get-more-aggressive-inflation-response-2026-11-18/",
+      "summary": "美联储理事沃勒称应更激进应对通胀，12月应加息50个基点或明确2027年更快加息节奏；近期通胀年化超3%且可能加速，市场目前主要定价12月加息25个基点。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Reuters",
       "title": "TRADING DAY Markets mixed in a Nvidia, Anthropic, minutes swirl",
       "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-18/",
       "summary": "全球市场周三涨跌互现，欧洲股市跌至两周低点，美元升至19个月新高；油价下跌，布伦特跌1%、WTI跌3%，金价跌3%至3735美元/盎司、创14个月新低；美股纳指涨0.4%、标普跌0.2%、道指跌1.1%。"
@@ -118,31 +139,10 @@
       "title": "The Federal Reserve Isn't the Only Central Bank To Hike Rates in 2026",
       "url": "https://www.jpmorgan.com/insights/markets-and-economy/economy/central-bank-rate-hikes-2026-what-global-tightening-means-for-investors",
       "summary": "2026年全球主要央行集体转向紧缩：美联储9月加息25个基点为2023年以来首次，欧洲央行、加拿大央行、日本央行、澳洲联储等同步加息；能源价格上涨与伊朗冲突引发的供应扰动令通胀前景复杂化，英国央行12月或跟进加息。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "Morningstar",
-      "title": "Nasdaq Futures Rise as Nvidia Earnings Calm AI Fears, Attention Turns to Anthropic",
-      "url": "https://www.morningstar.com/news/dow-jones/202611184067/nasdaq-futures-rise-as-nvidia-earnings-calm-ai-fears-attention-turns-to-anthropic-update",
-      "summary": "英伟达超预期财报安抚AI交易情绪，纳指期货涨0.4%、韩国Kospi涨2%、ASML涨近3.5%，全球科技股反弹；但市场仍质疑财报能否扭转10月以来AI股抛售，焦点转向Anthropic IPO定价与Palo Alto Networks财报。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "FXStreet",
-      "title": "FOMC Minutes and European CPI data due, Anthropic's IPO is expected to price",
-      "url": "https://www.fxstreet.com/analysis/fomc-minutes-and-european-cpi-data-due-anthropics-ipo-is-expected-to-price-202611180647",
-      "summary": "美联储10月会议纪要将于美东时间14时公布，欧洲10月CPI同日出炉，Anthropic IPO预计今晚定价；特朗普已抵深圳参加APEC峰会，周四将与习近平、普京会谈，贸易与先进AI芯片限制是焦点；中国人民银行将人民币中间价定在2022年7月以来最强水平。"
-    },
-    {
-      "published_at": "2026-11-18",
-      "source": "ZeroHedge",
-      "title": "NVIDIA beats and shares jump after-hours, but APAC stocks mixed as Iran targets US base in Kuwait; UK CPI and FOMC Minutes ahead",
-      "url": "https://www.zerohedge.com/markets/nvidia-beats-and-shares-jump-after-hours-apac-stocks-mixed-iran-targets-us-base-kuwait-uk",
-      "summary": "英伟达财报超预期、盘后跳涨，但亚太股市涨跌互现；伊朗袭击美国在科威特的基地推升地缘风险，油价与金价波动；中国国家主席习近平在深圳APEC开幕式上呼吁支持WTO与自由贸易，普京称美中俄三方会谈潜力巨大。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-19 07:25"
+    "updated_at": "2026-11-19 09:25"
   }
 }
