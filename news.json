@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-19",
+      "source": "The Wall Street Journal",
+      "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite",
+      "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817",
+      "summary": "美债收益率周四回落，10年期报5.051%、2年期4.777%；Anthropic上市未能提振风险偏好，美股走弱；上周初请失业金意外上升、领先经济指数下滑0.3%至99.3，美联储10月纪要显示部分官员倾向12月加息50个基点，市场预计加息25个基点概率92%。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Reuters",
+      "title": "Gold edges up from 14-month low as markets assess Fed rate outlook",
+      "url": "https://www.reuters.com/world/india/gold-edges-up-14-month-low-markets-assess-fed-rate-outlook-2026-11-19/",
+      "summary": "现货金周四小幅反弹0.3%至3733.76美元，此前盘中跌至3693.13美元的14个月低点；美联储10月纪要显示官员认为通胀风险上升、可能需加大紧缩力度，市场预计12月加息25个基点概率90%、加息50个基点概率10%。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Reuters",
+      "title": "TRADING DAY World's biggest IPO? Pfft",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-19/",
+      "summary": "美元走强，美元/日元逼近160.00，澳元领跌G10货币；铜价跌至七个月低点，金价再跌1.5%至3662美元；特朗普与习近平周四在深圳APEC期间举行峰会，议题涉及贸易休战。"
+    },
+    {
+      "published_at": "2026-11-19",
       "source": "Pulsafi",
       "title": "Stocks slide for a sixth straight day with the Nasdaq in correction territory",
       "url": "https://www.pulsafi.com/market-today",
@@ -118,31 +139,10 @@
       "summary": "美股期货周四走高，Anthropic 首日上市成焦点；油价小幅回升，布伦特约 92.40 美元、WTI 约 83.50 美元；美元守在 2025 年 1 月以来高位附近，金价续跌至 3700 美元附近，比特币反弹约 2% 至 63750 美元。",
       "title": "Stock Futures Rise as Optimism Improves Ahead of Anthropic Trading Debut",
       "url": "https://www.wsj.com/finance/stocks/stock-futures-rise-as-optimism-improves-ahead-of-anthropic-trading-debut-ecdfbb2f"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Nikkei Asia",
-      "summary": "特朗普与习近平周四在深圳 APEC 期间举行今年第三次双边会晤，试图维持将于明年 1 月到期的脆弱贸易休战；随后三人将举行美中俄首次三方峰会。",
-      "title": "Trump and Xi hold 3rd summit of year as friendly vibes mask deep divisions",
-      "url": "https://asia.nikkei.com/politics/international-relations/apec/trump-and-xi-hold-3rd-summit-of-year-as-friendly-vibes-mask-deep-divisions"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Nikkei Asia",
-      "summary": "美中俄三国领导人周四将在深圳 APEC 期间举行史上首次三方会谈，议题或涉乌克兰、伊朗与核军控；北京称将讨论“事关全球和平的重大问题”。",
-      "title": "Trump, Xi and Putin gear up for first-ever trilateral meeting",
-      "url": "https://asia.nikkei.com/politics/international-relations/apec/trump-xi-and-putin-gear-up-for-first-ever-trilateral-meeting"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "NDTV Profit",
-      "summary": "印度股市周四走高，Sensex 涨 350 点、Nifty 接近 25350 点，汽车股领涨；亚洲市场涨跌互现，布伦特原油报 91.70 美元；美联储纪要显示几乎所有官员认为需进一步加息。",
-      "title": "Stock Market Today: Sensex Rises 350 Points, Nifty Near 25,350; Auto Stocks In Fast Lane, Surge Up to 7%",
-      "url": "https://www.ndtvprofit.com/markets/stock-market-live-update-november-19-sensex-today-nifty-open-lower-amid-mixed-cues-brent-crude-oil-prices-anthropic-ipo-listing-bse-nse-12347038/amp/1"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 07:26"
+    "updated_at": "2026-11-20 09:25"
   }
 }
