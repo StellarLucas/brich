@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "Economy Middle East",
+      "title": "Stock market today: Nasdaq falls 2.25 percent, Nikkei slides 4.77 percent, DAX loses 1.06 percent as AI selloff, Fed hike fears deepen",
+      "url": "https://economymiddleeast.com/news/stock-market-today-nasdaq-falls-2-25-percent-nikkei-slides-4-77-percent-dax-loses-1-06-percent-as-ai-selloff-fed-hike-fears-deepen/",
+      "summary": "全球股市周五延续跌势，AI估值担忧与美联储加息预期打压风险偏好；纳指跌2.25%、日经跌4.77%、韩国KOSPI跌5.21%、台湾加权指数跌6.63%，MSCI亚太指数本周跌8.5%、创2020年3月以来最大单周跌幅；市场预计美联储12月加息25个基点概率96.4%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Traders MBA",
+      "title": "Daily Market Insights 20 November 2026",
+      "url": "https://traders.mba/daily-market-insights-2026-11-20/",
+      "summary": "美股周四全线大跌，标普500跌2.02%、纳指跌2.25%、道指跌2.19%，VIX升至28.44；周五亚洲市场延续跌势；美联储10月纪要令政策不确定性重回焦点，联邦基金利率目标区间3.75%–4.00%，市场关注12月会议。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "The Business Times",
+      "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
+      "url": "https://www.businesstimes.com.sg/international/oil-prices-gain-houthi-attacks-riyadh-raise-supply-concerns",
+      "summary": "胡塞武装袭击利雅得及霍尔木兹海峡油轮遇袭传闻引发供应担忧，布伦特涨0.9%至92.77美元、WTI涨0.3%至83.46美元；但两大基准油价本周仍料连跌第三周，布伦特周跌约3.5%、WTI周跌约6%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "The Edge Singapore",
+      "title": "Oil set for third weekly drop as ample supply outweighs war risk",
+      "url": "http://www.theedgesingapore.com/news/highlight/oil-futures-swing-fears-escalation-strikes-against-iran",
+      "summary": "油价在美国可能再度打击伊朗的担忧与供应充足之间摇摆，布伦特站上92美元、WTI约83美元；布伦特本周跌近4%，连续第三周下跌，供应过剩前景继续压制油价。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "Reuters",
       "title": "Gold set for worst week in eight months as firm dollar, Fed hike bets weigh",
       "url": "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/",
@@ -111,38 +139,10 @@
       "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite",
       "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817",
       "summary": "美债收益率周四回落，10年期报5.051%、2年期4.777%；Anthropic上市未能提振风险偏好，美股走弱；上周初请失业金意外上升、领先经济指数下滑0.3%至99.3，美联储10月纪要显示部分官员倾向12月加息50个基点，市场预计加息25个基点概率92%。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Reuters",
-      "title": "Gold edges up from 14-month low as markets assess Fed rate outlook",
-      "url": "https://www.reuters.com/world/india/gold-edges-up-14-month-low-markets-assess-fed-rate-outlook-2026-11-19/",
-      "summary": "现货金周四小幅反弹0.3%至3733.76美元，此前盘中跌至3693.13美元的14个月低点；美联储10月纪要显示官员认为通胀风险上升、可能需加大紧缩力度，市场预计12月加息25个基点概率90%、加息50个基点概率10%。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Reuters",
-      "title": "TRADING DAY World's biggest IPO? Pfft",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-19/",
-      "summary": "美元走强，美元/日元逼近160.00，澳元领跌G10货币；铜价跌至七个月低点，金价再跌1.5%至3662美元；特朗普与习近平周四在深圳APEC期间举行峰会，议题涉及贸易休战。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Pulsafi",
-      "title": "Stocks slide for a sixth straight day with the Nasdaq in correction territory",
-      "url": "https://www.pulsafi.com/market-today",
-      "summary": "美股周四六连跌，标普500跌2.02%至7175.83点、纳指跌2.25%进入修正区间、道指跌2.19%，11个板块全线下跌，VIX升至28.9；10年期美债收益率5.05%，比特币约61503美元。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Reuters",
-      "title": "GLOBAL MARKETS-Stocks wobble with focus on Anthropic debut; oil prices rise",
-      "url": "https://www.lse.co.uk/news/global-markets-stocks-wobble-with-focus-on-anthropic-debut-oil-prices-rise-mylfdwcn1lfs50m.html",
-      "summary": "全球股市周四走弱，Anthropic首日上市令交易震荡；霍尔木兹海峡航运遇袭担忧推高油价，WTI涨1.25%至84.30美元、布伦特92.54美元；现货金跌1.25%至3675.99美元、白银跌1.13%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 17:25"
+    "updated_at": "2026-11-20 19:25"
   }
 }
