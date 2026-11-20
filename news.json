@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "Wall St futures slip as Anthropic debut fails to reassure AI investors",
+      "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
+      "summary": "美股期货周五走低，Anthropic上市首日大涨17%后盘前回落6.8%，未能稳住AI交易情绪；纳指较10月6日收盘纪录高点跌13.6%，美股三大指数本周料创2025年4月以来最大单周跌幅；市场预计美联储12月加息25个基点概率98.4%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "TradingView",
+      "title": "Asian Shares Tumble As Tech Selloff Deepens",
+      "url": "https://www.tradingview.com/news/dpa_afx:27cbc676895f3:0-asian-shares-tumble-as-tech-selloff-deepens/",
+      "summary": "亚洲股市周五大跌，日经跌5.06%创七个月新低、KOSPI跌5.21%、台湾加权指数跌6.63%，Anthropic上市未能缓解AI基建支出放缓担忧；美联储鹰派纪要后市场已充分定价12月加息25个基点，美元指数守在19个月高位附近。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "TradingView",
+      "title": "Why Are Stocks, Crypto, Gold, and Silver Dumping? $4.28 Trillion Wiped Out",
+      "url": "https://www.tradingview.com/news/coinpedia:f806b37f7094b:0-why-are-stocks-crypto-gold-and-silver-dumping-4-28-trillion-wiped-out/",
+      "summary": "过去24小时全球市场蒸发约4.28万亿美元，美股损失约1.85万亿美元、亚股约1.1万亿美元、金银约1.3万亿美元；摩根大通预计美联储12月、1月、3月连续三次加息25个基点，利率或升至4.50%–4.75%。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "Economy Middle East",
       "title": "Stock market today: Nasdaq falls 2.25 percent, Nikkei slides 4.77 percent, DAX loses 1.06 percent as AI selloff, Fed hike fears deepen",
       "url": "https://economymiddleeast.com/news/stock-market-today-nasdaq-falls-2-25-percent-nikkei-slides-4-77-percent-dax-loses-1-06-percent-as-ai-selloff-fed-hike-fears-deepen/",
@@ -118,31 +139,10 @@
       "title": "Gold set for worst week on hawkish Fed, AI selloff",
       "url": "https://www.straitstimes.com/business/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
       "summary": "现货金周五跌破3590美元，本周料跌约7%，创3月以来最大单周跌幅；美联储释放进一步加息信号、AI股抛售迫使投资者抛金补仓；美元本周上涨0.6%，10年期美债收益率守在5%上方。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "USA Today",
-      "title": "Trump, Putin, Xi hold first-ever three-way talks: 'He's my friend.'",
-      "url": "https://www.usatoday.com/story/news/world/2026/11/19/trump-china-russia-xi-putin-apec-summit/92856409007/",
-      "summary": "美中俄三国领导人11月19日在深圳APEC期间举行史上首次三方会谈，持续90分钟，讨论乌克兰与伊朗战争、核武器、贸易与AI，未取得即时突破；三方联合声明承诺就降低核风险进一步对话。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Reuters",
-      "title": "Day 3 of Trump's Asia tour: big summits, bigger spectacle and unfinished deals",
-      "url": "https://www.reuters.com/default/day-3-trumps-asia-tour-big-summits-bigger-spectacle-unfinished-deals-2026-11-19/",
-      "summary": "特朗普结束亚洲行最后一天，先后与普京、习近平举行双边会晤并参加三方会谈；贸易协议多有宣布但细节未定，与习近平讨论了贸易与关键矿产，并提议美俄中削减核武器。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "The Wall Street Journal",
-      "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite",
-      "url": "https://www.wsj.com/economy/central-banking/treasury-eurozone-bond-yields-edge-higher-47e08817",
-      "summary": "美债收益率周四回落，10年期报5.051%、2年期4.777%；Anthropic上市未能提振风险偏好，美股走弱；上周初请失业金意外上升、领先经济指数下滑0.3%至99.3，美联储10月纪要显示部分官员倾向12月加息50个基点，市场预计加息25个基点概率92%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 19:25"
+    "updated_at": "2026-11-20 21:25"
   }
 }
