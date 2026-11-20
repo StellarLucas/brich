@@ -3,6 +3,27 @@
     {
       "published_at": "2026-11-20",
       "source": "Reuters",
+      "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+      "summary": "亚股周五大跌，MSCI亚太指数本周跌7%，创2020年3月以来最大单周跌幅；日经跌4.1%、韩国KOSPI跌4.7%；美元指数103.86创4月以来最强，10年期美债收益率5.026%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "InvestingLive",
+      "title": "Red Friday as Asia's AI trade unravels",
+      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-red-friday-as-asia-s-ai-trade-unravels/",
+      "summary": "亚洲AI交易周五瓦解：日经跌约4.7%、KOSPI跌约5.1%，三星与SK海力士均跌超6%；中国连续18个月维持LPR不变；金价向3600美元回落，比特币创7月以来新低。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "TradingView",
+      "title": "Stocks Erase Early Gains as Anthropic Optimism Fades",
+      "url": "https://www.tradingview.com/news/barchart:544e8ad61094b:0-stocks-erase-early-gains-as-anthropic-optimism-fades/",
+      "summary": "美股回吐早盘涨幅，标普500跌至5.25个月低点、道指跌至5.75个月低点；Anthropic以1073亿美元创纪录IPO一度提振AI情绪；市场预计12月8-9日FOMC加息25个基点概率100%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Reuters",
       "title": "US stocks fall 2% as Anthropic IPO fails to lift AI sentiment",
       "url": "https://www.thehindubusinessline.com/markets/stock-markets/us-stocks-tumble-2-as-anthropic-ipo-fails-to-revive-ai-trade-optimism/article71721999.ece/amp/",
       "summary": "美股周四全线大跌，道指跌2.19%、标普500跌2.02%、纳指跌2.25%，标普500六连跌、本周料创4月以来最大单周跌幅；Anthropic首日高开后回落，英伟达跌3.3%六连跌；市场预计美联储12月加息25个基点概率96.4%。"
@@ -118,31 +139,10 @@
       "summary": "特朗普在深圳 APEC 上表示美国将拒绝国际 AI 规则限制；Anthropic 以每股 83 美元定价、今日在纳斯达克以代码 ANT 首日交易，估值约 1.5 万亿美元，募资约 810 亿美元；习近平在双边会晤中呼吁协调 AI 安全风险。",
       "title": "Trump rejects global AI rules | Anthropic IPO at $1.5T valuation | PLA seeks Nvidia chips",
       "url": "https://aipolicydaily.org/archive/daily/2026-11-19/"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Levelbox",
-      "summary": "市场预计美联储 12 月加息概率约 93–95%、2027 年 1 月再加息概率约 62–73%；回顾 1982 年以来 12 轮加息周期，第三次加息后一年标普 500 中位涨幅 14.9%；2 年期美债收益率 4.80%，已高于两次加息后的目标区间。",
-      "title": "What Happens to Stocks After Three Fed Rate Hikes? 12 Cycles, and the Hyperscalers Today",
-      "url": "https://levelbox.ai/blog/three-fed-rate-hikes-stocks-hyperscalers-november-2026"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Investopedia",
-      "summary": "美股周四早盘大涨，纳指涨1.8%、标普500涨0.9%、道指涨0.1%，Anthropic今日在纳斯达克首日上市；金价跌至3715美元的14个月低点，WTI原油涨1.5%至84.50美元，10年期美债收益率升至5.10%。",
-      "title": "Stock Market Today: Major Indexes Jump as Anthropic Shares Set to Make Trading Debut on Nasdaq After Blockbuster IPO",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11192026-12263687"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Investopedia",
-      "summary": "股指期货走高，WTI原油涨约1%至84.10美元、布伦特92.70美元，金价跌至3720美元的14个月低点，比特币约63700美元。",
-      "title": "5 Things Investors Need to Know About Thursday's Markets",
-      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-19-2026-12260143"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 11:25"
+    "updated_at": "2026-11-20 13:26"
   }
 }
