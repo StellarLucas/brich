@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "Bloomberg",
+      "title": "Stocks Set for Worst Run Since 2023, Havens Gain: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-set-for-worst-run-since-2023,-havens-gain:-markets-wrap/92410554",
+      "summary": "全球股市料创2023年9月以来最长七连跌，MSCI亚太指数本周跌3.2%、创2020年3月以来最大单周跌幅；新兴市场指数自6月高点回落20%、逼近技术性熊市；资金涌入美债与美元避险，10年期美债收益率降至5.02%，金银创3月以来最大单周跌幅。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Morningstar",
+      "title": "Oil Prices Retreat as Traders Assess Supply Outlook, Middle East Risks — Commodities Roundup",
+      "url": "https://www.morningstar.com/news/dow-jones/202611206088/oil-prices-retreat-as-traders-assess-supply-outlook-middle-east-risks-commodities-roundup",
+      "summary": "油价周五回落，布伦特跌0.7%至91.37美元、WTI跌0.4%至82.11美元，交易员权衡供应改善与中东航运风险；12月黄金期货跌3.9%至3542.80美元，白银跌约2.1%。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "Reuters",
       "title": "The snowballing selloff in global markets",
       "url": "https://www.reuters.com/business/energy/global-markets-selloff-2026-11-20/",
@@ -125,24 +139,10 @@
       "title": "US stocks fall 2% as Anthropic IPO fails to lift AI sentiment",
       "url": "https://www.thehindubusinessline.com/markets/stock-markets/us-stocks-tumble-2-as-anthropic-ipo-fails-to-revive-ai-trade-optimism/article71721999.ece/amp/",
       "summary": "美股周四全线大跌，道指跌2.19%、标普500跌2.02%、纳指跌2.25%，标普500六连跌、本周料创4月以来最大单周跌幅；Anthropic首日高开后回落，英伟达跌3.3%六连跌；市场预计美联储12月加息25个基点概率96.4%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "TradingView",
-      "title": "Commodity Corner: Oil edges higher, gold heads for biggest weekly fall since March",
-      "url": "https://www.tradingview.com/news/moneycontrol:0853014a8094b:0-commodity-corner-oil-edges-higher-gold-heads-for-biggest-weekly-fall-since-march/",
-      "summary": "油价小幅走高，布伦特站上92美元、WTI约83美元，受美国可能再度打击伊朗的担忧支撑；金价跌破3590美元，本周料跌约7%，创3月以来最大单周跌幅，白银同期跌约13%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Straits Times",
-      "title": "Gold set for worst week on hawkish Fed, AI selloff",
-      "url": "https://www.straitstimes.com/business/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
-      "summary": "现货金周五跌破3590美元，本周料跌约7%，创3月以来最大单周跌幅；美联储释放进一步加息信号、AI股抛售迫使投资者抛金补仓；美元本周上涨0.6%，10年期美债收益率守在5%上方。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 01:25"
+    "updated_at": "2026-11-21 03:25"
   }
 }
