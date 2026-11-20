@@ -85,20 +85,6 @@
       "summary": "日本10月CPI同比升2.3%、核心CPI升2.2%，连续第二个月高于2%目标，强化日本央行12月加息预期；美元/日元回落至159.20附近，市场预计加息25个基点概率72%。"
     },
     {
-      "published_at": "2026-11-19",
-      "source": "Reuters",
-      "title": "Bank of Japan to raise interest rates in December and again by end-March, economists say",
-      "url": "https://www.reuters.com/world/bank-japan-raise-interest-rates-december-again-by-end-march-economists-say-2026-11-19/",
-      "summary": "路透调查：71位经济学家中86%预计日本央行12月加息25个基点至1.50%，近60%预计明年3月底前再加至1.75%；若成真将是37年来首次一年内三次加息，日元仍逼近160。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "The Wall Street Journal",
-      "title": "Investors Dumping AI Stocks to Buy Into Anthropic Send Tech Shares Lower",
-      "url": "https://www.wsj.com/finance/stocks/stock-futures-rise-as-optimism-improves-ahead-of-anthropic-trading-debut-ecdfbb2f",
-      "summary": "Anthropic上市首日涨18%至98.14美元，但资金从AI股流出：AMD跌7.4%、SpaceX跌4%，纳指跌1.5%、标普500跌1.4%；金价创52周新低，美元走强。"
-    },
-    {
       "published_at": "2026-11-20",
       "source": "Reuters",
       "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
@@ -111,13 +97,6 @@
       "title": "Red Friday as Asia's AI trade unravels",
       "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-red-friday-as-asia-s-ai-trade-unravels/",
       "summary": "亚洲AI交易周五瓦解：日经跌约4.7%、KOSPI跌约5.1%，三星与SK海力士均跌超6%；中国连续18个月维持LPR不变；金价向3600美元回落，比特币创7月以来新低。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "TradingView",
-      "title": "Stocks Erase Early Gains as Anthropic Optimism Fades",
-      "url": "https://www.tradingview.com/news/barchart:544e8ad61094b:0-stocks-erase-early-gains-as-anthropic-optimism-fades/",
-      "summary": "美股回吐早盘涨幅，标普500跌至5.25个月低点、道指跌至5.75个月低点；Anthropic以1073亿美元创纪录IPO一度提振AI情绪；市场预计12月8-9日FOMC加息25个基点概率100%。"
     },
     {
       "published_at": "2026-11-20",
@@ -139,10 +118,31 @@
       "title": "Gold set for worst week on hawkish Fed, AI selloff",
       "url": "https://www.straitstimes.com/business/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
       "summary": "现货金周五跌破3590美元，本周料跌约7%，创3月以来最大单周跌幅；美联储释放进一步加息信号、AI股抛售迫使投资者抛金补仓；美元本周上涨0.6%，10年期美债收益率守在5%上方。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Reuters",
+      "title": "J.P. Morgan sees Fed rate hikes at next three meetings as inflation persists",
+      "url": "https://www.reuters.com/business/jp-morgan-sees-fed-rate-hikes-next-three-meetings-inflation-persists-2026-11-19/",
+      "summary": "摩根大通预计美联储将在12月、明年1月和3月连续三次加息25个基点，基准利率升至4.50%–4.75%；美联储10月纪要显示几乎所有官员认为若经济如预期发展需进一步加息；市场预计12月加息概率约97%。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Reuters",
+      "title": "TRADING DAY World's biggest IPO? Pfft",
+      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-19/",
+      "summary": "美股周四跌2%，标普500与纳指创七个月新低，创2024年4月以来最长连跌；Anthropic上市募资810亿美元、估值约1.5万亿美元，首日收于97美元；英伟达较上月高点跌40%，铜价跌至七个月低点。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Thursday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-19-2026-12260143",
+      "summary": "股指期货显示主要指数开盘后有望反弹；Anthropic在纳斯达克上市首日受关注；沃尔玛公布三季报后股价走低，Palo Alto Networks凭借强劲财报上涨；10年期美债收益率5.11%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 21:25"
+    "updated_at": "2026-11-20 23:25"
   }
 }
