@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "US stocks fall 2% as Anthropic IPO fails to lift AI sentiment",
+      "url": "https://www.thehindubusinessline.com/markets/stock-markets/us-stocks-tumble-2-as-anthropic-ipo-fails-to-revive-ai-trade-optimism/article71721999.ece/amp/",
+      "summary": "美股周四全线大跌，道指跌2.19%、标普500跌2.02%、纳指跌2.25%，标普500六连跌、本周料创4月以来最大单周跌幅；Anthropic首日高开后回落，英伟达跌3.3%六连跌；市场预计美联储12月加息25个基点概率96.4%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "TradingView",
+      "title": "Commodity Corner: Oil edges higher, gold heads for biggest weekly fall since March",
+      "url": "https://www.tradingview.com/news/moneycontrol:0853014a8094b:0-commodity-corner-oil-edges-higher-gold-heads-for-biggest-weekly-fall-since-march/",
+      "summary": "油价小幅走高，布伦特站上92美元、WTI约83美元，受美国可能再度打击伊朗的担忧支撑；金价跌破3590美元，本周料跌约7%，创3月以来最大单周跌幅，白银同期跌约13%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "The Straits Times",
+      "title": "Gold set for worst week on hawkish Fed, AI selloff",
+      "url": "https://www.straitstimes.com/business/gold-set-for-worst-week-since-march-on-hawkish-fed-ai-selloff",
+      "summary": "现货金周五跌破3590美元，本周料跌约7%，创3月以来最大单周跌幅；美联储释放进一步加息信号、AI股抛售迫使投资者抛金补仓；美元本周上涨0.6%，10年期美债收益率守在5%上方。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "USA Today",
+      "title": "Trump, Putin, Xi hold first-ever three-way talks: 'He's my friend.'",
+      "url": "https://www.usatoday.com/story/news/world/2026/11/19/trump-china-russia-xi-putin-apec-summit/92856409007/",
+      "summary": "美中俄三国领导人11月19日在深圳APEC期间举行史上首次三方会谈，持续90分钟，讨论乌克兰与伊朗战争、核武器、贸易与AI，未取得即时突破；三方联合声明承诺就降低核风险进一步对话。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Reuters",
+      "title": "Day 3 of Trump's Asia tour: big summits, bigger spectacle and unfinished deals",
+      "url": "https://www.reuters.com/default/day-3-trumps-asia-tour-big-summits-bigger-spectacle-unfinished-deals-2026-11-19/",
+      "summary": "特朗普结束亚洲行最后一天，先后与普京、习近平举行双边会晤并参加三方会谈；贸易协议多有宣布但细节未定，与习近平讨论了贸易与关键矿产，并提议美俄中削减核武器。"
+    },
+    {
       "published_at": "2026-11-19",
       "source": "The Wall Street Journal",
       "title": "Treasury Yields Fall as Anthropic Fails to Sustain Risk Appetite",
@@ -104,45 +139,10 @@
       "summary": "股指期货走高，WTI原油涨约1%至84.10美元、布伦特92.70美元，金价跌至3720美元的14个月低点，比特币约63700美元。",
       "title": "5 Things Investors Need to Know About Thursday's Markets",
       "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-19-2026-12260143"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "RoboForex",
-      "summary": "Anthropic以每股83美元定价，高出询价区间上限6.4%，发行规模从8.25亿股增至9.8亿股，今日在纳斯达克以代码ANT首日交易。",
-      "title": "Anthropic Nasdaq Debut: IPO at 83 USD Beats SpaceX",
-      "url": "https://roboforex.com/blog/anthropic-ipo/anthropic-nasdaq-debut/"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "TradingNerve",
-      "summary": "美联储10月会议纪要显示几乎所有官员预计再次加息，12月9日加息25个基点的概率升至95%；标普500五连跌，美元创19个月新高，金价单日跌近3%至14个月低点，Anthropic周四登陆纳斯达克。",
-      "title": "Fed rate hike odds hit 95% as S&P 500 slides",
-      "url": "https://www.tradingnerve.com/en/market/fed-rate-hike-odds-sp500-gold-2026-11-19"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "The Wall Street Journal",
-      "summary": "亚洲股市周四涨跌互现，加息预期与科技股担忧令投资者谨慎；伊朗袭击科威特、巴林并继续威胁霍尔木兹海峡航运，布伦特原油报92.09美元、WTI报83.05美元，金价回落至3723.42美元。",
-      "title": "Asian Equities Mixed Amid Cautious Market Sentiment",
-      "url": "https://www.wsj.com/finance/asian-equities-decline-as-caution-prevails-eaf3c1e9"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "FXStreet",
-      "summary": "10 年期美债收益率报 5.076%，道指跌 1.11%、纳指 100 涨 0.42%、标普 500 跌 0.23%；日经涨 0.71%、DAX 涨 0.56%；金价守在 3735 美元附近，比特币报 63627 美元。",
-      "title": "Yields hit 5.07%, Gold holds $3,735, and Bitcoin eyes $60K",
-      "url": "https://www.fxstreet.com/analysis/yields-hit-507-gold-holds-3-735-and-bitcoin-eyes-60k-202611190854"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "The Wall Street Journal",
-      "summary": "美股期货周四走高，Anthropic 首日上市成焦点；油价小幅回升，布伦特约 92.40 美元、WTI 约 83.50 美元；美元守在 2025 年 1 月以来高位附近，金价续跌至 3700 美元附近，比特币反弹约 2% 至 63750 美元。",
-      "title": "Stock Futures Rise as Optimism Improves Ahead of Anthropic Trading Debut",
-      "url": "https://www.wsj.com/finance/stocks/stock-futures-rise-as-optimism-improves-ahead-of-anthropic-trading-debut-ecdfbb2f"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 09:25"
+    "updated_at": "2026-11-20 11:25"
   }
 }
