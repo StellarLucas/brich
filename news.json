@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "Gold set for worst week in eight months as firm dollar, Fed hike bets weigh",
+      "url": "https://www.reuters.com/world/india/gold-set-worst-week-eight-months-firm-dollar-fed-hike-bets-weigh-2026-11-20/",
+      "summary": "现货金周五跌1.9%至3551.68美元，创2025年9月以来新低，本周料跌约8.9%，为八个月来最大单周跌幅；美元走强与市场押注美联储12月加息打压金价，白银、铂金、钯金同步走低。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "Oil prices edge higher as Houthi attacks on Riyadh raise supply concerns",
+      "url": "https://www.reuters.com/business/energy/oil-prices-edge-higher-houthi-attacks-riyadh-raise-supply-concerns-2026-11-20/",
+      "summary": "胡塞武装袭击利雅得及霍尔木兹海峡油轮遇袭传闻引发供应担忧，布伦特涨0.3%至92.22美元、WTI涨0.2%至83.40美元；但两大基准油价本周仍料连跌第三周，布伦特周跌3.5%、WTI周跌6%。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "TraderFactor",
       "title": "Forex Market Today: Dollar Near 19-Month High as Gold Slides, Stocks Sink and Fed Rate Hike Bets Rise",
       "url": "https://traderfactor.com/dollar-high-gold-slides-stocks-sink-fed-rate-hike/",
@@ -125,24 +139,10 @@
       "title": "GLOBAL MARKETS-Stocks wobble with focus on Anthropic debut; oil prices rise",
       "url": "https://www.lse.co.uk/news/global-markets-stocks-wobble-with-focus-on-anthropic-debut-oil-prices-rise-mylfdwcn1lfs50m.html",
       "summary": "全球股市周四走弱，Anthropic首日上市令交易震荡；霍尔木兹海峡航运遇袭担忧推高油价，WTI涨1.25%至84.30美元、布伦特92.54美元；现货金跌1.25%至3675.99美元、白银跌1.13%。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "EconoTimes",
-      "title": "Anthropic's Debut Rally Fails to Lift Wall Street as Oil Climbs",
-      "url": "https://econotimes.com/Anthropic-s-Debut-Rally-Fails-to-Lift-Wall-Street-as-Oil-Climbs-1779860",
-      "summary": "Anthropic以83美元定价、首日最高涨39%至115.10美元，但未能提振大盘，道指跌2.02%、标普500跌1.51%、纳指跌1.44%；油价上涨，WTI涨1.24%至84.29美元、布伦特涨0.96%至92.83美元。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "FXStreet",
-      "summary": "金价跌破 3700 美元心理关口至 3690.05 美元，比特币在 63123 美元附近徘徊；美联储、欧洲央行、日本央行与英国央行同步释放紧缩信号，油价报 83.71 美元、美元指数 103.843，共同压制无收益资产；美元/日元逼近 159.90 干预阈值。",
-      "title": "Gold slips below $3,700 as hawkish Central Banks pressure Gold and Crypto",
-      "url": "https://www.fxstreet.com/analysis/gold-slips-below-3-700-as-hawkish-central-banks-pressure-gold-and-crypto-202611191721"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-20 15:25"
+    "updated_at": "2026-11-20 17:25"
   }
 }
