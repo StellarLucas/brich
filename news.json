@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "Wall St Week Ahead: 'Black Friday' brings consumer spending into focus for AI-rocked market",
+      "url": "https://www.reuters.com/business/wall-st-week-ahead-black-friday-brings-consumer-spending-into-focus-ai-rocked-2026-11-20/",
+      "summary": "下周市场焦点转向消费支出，投资者关注“黑色星期五”与假日季消费能否为被AI交易拖累的美股提供支撑；标普500较10月6日历史高点跌8%、科技板块跌近19%，本周跌破200日均线、为4月以来首次；感恩节假期缩短交易周，还将公布通胀、消费者信心与三季度GDP修正值。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "European shares head for steepest weekly drop since March",
+      "url": "https://www.reuters.com/markets/europe/european-shares-head-steepest-weekly-drop-since-march-2026-11-20/",
+      "summary": "欧洲股市周五继续走低，泛欧斯托克600指数跌1%至631.89点，本周料跌逾4.5%、为3月以来最大单周跌幅；德国DAX领跌，Anthropic上市未能重振AI板块信心，投资者继续抛售AI相关股票。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "TradingView",
+      "title": "Commodity Corner: Oil edges higher, gold heads for biggest weekly fall since March",
+      "url": "https://www.tradingview.com/news/moneycontrol:0853014a8094b:0-commodity-corner-oil-edges-higher-gold-heads-for-biggest-weekly-fall-since-march/",
+      "summary": "大宗商品周五走势分化，油价在美方可能再度打击伊朗的担忧下小幅走高，布伦特守在92美元上方、WTI约83美元，但本周仍料连跌第三周；金价跌破3590美元，本周料跌约7%、创3月以来最大单周跌幅，白银同期跌约13%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Business Standard",
+      "title": "Oil prices set for 3rd straight week of decline on West Asia export flows",
+      "url": "https://www.business-standard.com/amp/markets/news/oil-prices-set-for-3rd-straight-week-of-decline-on-west-asia-export-flows-126112001415_1.html",
+      "summary": "西亚原油出口强劲、霍尔木兹海峡船运恢复，缓解供应中断担忧，油价周五回落，布伦特跌0.6%至91.45美元、WTI跌1%至82.40美元；两大基准油价本周料连跌第三周，布伦特周跌约3.5%、WTI周跌约6%。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "Bloomberg",
       "title": "Stocks Set for Worst Run Since 2023, Havens Gain: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/stocks-set-for-worst-run-since-2023,-havens-gain:-markets-wrap/92410554",
@@ -111,38 +139,10 @@
       "title": "Equities Crack, Fear Gauges Hit Extreme Lows",
       "url": "https://dailymarket.report/",
       "summary": "标普500跌2.02%至7176点、VIX飙升15.8%至28.44，金价跌4.18%、白银跌6.74%，股债与加密恐惧贪婪指数均处极度恐惧；10年期美债收益率5.07%，AMD跌7.72%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "FXStreet",
-      "title": "Japanese Yen edges higher as CPI data reinforces December BoJ rate hike expectations",
-      "url": "https://www.fxstreet.com/news/japanese-yen-edges-higher-as-cpi-data-reinforces-december-boj-rate-hike-expectations-202611200630",
-      "summary": "日本10月CPI同比升2.3%、核心CPI升2.2%，连续第二个月高于2%目标，强化日本央行12月加息预期；美元/日元回落至159.20附近，市场预计加息25个基点概率72%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "Asian shares head for worst week since 2020 as AI trade gloom fails to abate",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
-      "summary": "亚股周五大跌，MSCI亚太指数本周跌7%，创2020年3月以来最大单周跌幅；日经跌4.1%、韩国KOSPI跌4.7%；美元指数103.86创4月以来最强，10年期美债收益率5.026%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "InvestingLive",
-      "title": "Red Friday as Asia's AI trade unravels",
-      "url": "https://investinglive.com/news/investinglive-asia-pacific-market-news-red-friday-as-asia-s-ai-trade-unravels/",
-      "summary": "亚洲AI交易周五瓦解：日经跌约4.7%、KOSPI跌约5.1%，三星与SK海力士均跌超6%；中国连续18个月维持LPR不变；金价向3600美元回落，比特币创7月以来新低。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "US stocks fall 2% as Anthropic IPO fails to lift AI sentiment",
-      "url": "https://www.thehindubusinessline.com/markets/stock-markets/us-stocks-tumble-2-as-anthropic-ipo-fails-to-revive-ai-trade-optimism/article71721999.ece/amp/",
-      "summary": "美股周四全线大跌，道指跌2.19%、标普500跌2.02%、纳指跌2.25%，标普500六连跌、本周料创4月以来最大单周跌幅；Anthropic首日高开后回落，英伟达跌3.3%六连跌；市场预计美联储12月加息25个基点概率96.4%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 03:25"
+    "updated_at": "2026-11-21 05:25"
   }
 }
