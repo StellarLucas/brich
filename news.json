@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-21",
+      "source": "Sunday Guardian Live",
+      "title": "Why Is The Stock Market Down Today? Dow Drops Below 50,000 As S&P 500 And Nasdaq Tumble On AI Sell-Off And Rate Hike Fears",
+      "url": "https://sundayguardianlive.com/business/why-is-the-stock-market-down-today-dow-drops-below-50000-as-sp-500-and-nasdaq-tumble-on-ai-sell-off-and-rate-hike-fears-sp-500-index-markets-today-325188/",
+      "summary": "道指跌破5万点、为6月以来首次，标普500与纳指六连跌；AI股抛售叠加12月美联储加息预期打压全球市场，台湾加权指数周跌17.5%、创1991年以来最差单周表现，日经跌5.1%、韩国Kospi跌5.2%，10年期美债收益率升破5%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Stockbiz",
+      "title": "Markets on November 20: Gold extends sharp decline amid sell-off, oil edges higher, tin and copper fall sharply, robusta coffee hits 2.5-year low",
+      "url": "https://stockbiz.vn/en/news/markets-on-november-20-gold-extends-sharp-decline-amid-sell-off-oil-edges-higher-tin-and-copper-fall-sharply-robusta-coffee-hits-25-year-low/42860853",
+      "summary": "11月20日金价继续大跌、现货金逼近3500美元，白银、铜、锡同步走低；油价因中东供应担忧小幅走高，布伦特92.64美元、WTI 83.40美元，但本周仍料连跌第三周；市场关注11月29日OPEC+会议的2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-21",
       "source": "Report.az",
       "title": "Key indicators of world commodity, stock, and currency markets (21.11.2026)",
       "url": "https://report.az/en/finance/key-indicators-of-world-commodity-stock-and-currency-markets-21-11-2026",
@@ -125,24 +139,10 @@
       "title": "Commodity Corner: Oil edges higher, gold heads for biggest weekly fall since March",
       "url": "https://www.tradingview.com/news/moneycontrol:0853014a8094b:0-commodity-corner-oil-edges-higher-gold-heads-for-biggest-weekly-fall-since-march/",
       "summary": "大宗商品周五走势分化，油价在美方可能再度打击伊朗的担忧下小幅走高，布伦特守在92美元上方、WTI约83美元，但本周仍料连跌第三周；金价跌破3590美元，本周料跌约7%、创3月以来最大单周跌幅，白银同期跌约13%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Business Standard",
-      "title": "Oil prices set for 3rd straight week of decline on West Asia export flows",
-      "url": "https://www.business-standard.com/amp/markets/news/oil-prices-set-for-3rd-straight-week-of-decline-on-west-asia-export-flows-126112001415_1.html",
-      "summary": "西亚原油出口强劲、霍尔木兹海峡船运恢复，缓解供应中断担忧，油价周五回落，布伦特跌0.6%至91.45美元、WTI跌1%至82.40美元；两大基准油价本周料连跌第三周，布伦特周跌约3.5%、WTI周跌约6%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Bloomberg",
-      "title": "Stocks Set for Worst Run Since 2023, Havens Gain: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-set-for-worst-run-since-2023,-havens-gain:-markets-wrap/92410554",
-      "summary": "全球股市料创2023年9月以来最长七连跌，MSCI亚太指数本周跌3.2%、创2020年3月以来最大单周跌幅；新兴市场指数自6月高点回落20%、逼近技术性熊市；资金涌入美债与美元避险，10年期美债收益率降至5.02%，金银创3月以来最大单周跌幅。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 15:25"
+    "updated_at": "2026-11-21 17:25"
   }
 }
