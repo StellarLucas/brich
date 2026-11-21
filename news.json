@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "T. Rowe Price",
+      "title": "Global Markets Weekly Update",
+      "url": "https://www.troweprice.com/institutional/us/en/insights/articles/resources/global-markets-weekly-update.html?placementGUID=SM_LinkedIn-EMP-883426&hss_meta=eyJvcmdhbml6YXRpb25faWQiOiA5MjgsICJncm91cF9pZCI6IDg4MzQyNiwgImFzc2V0X2lkIjogMTk4MjAxMSwgImdyb3VwX2NvbnRlbnRfaWQiOiAxMjM4NzQwMzMsICJncm91cF9uZXR3b3JrX2NvbnRlbnRfaWQiOiAxOTE5MTA2NDN9",
+      "summary": "美股创2025年4月以来最差一周，标普500周跌8.6%、纳指跌10.02%，AI投资担忧与美联储收紧预期双重打压；美联储10月纪要显示几乎所有官员认为进一步加息可能合适，理事沃勒称12月加息50个基点也可能合适；欧洲斯托克600周跌5.8%、为3月以来最大单周跌幅，日本股市亦大幅下挫。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "VistaMark",
+      "title": "Markets at a Glance",
+      "url": "https://vistamark.com/insights/markets-at-a-glance/",
+      "summary": "标普500本周跌8.6%、七连跌、较10月6日纪录高点回落11.6%进入技术性回调，为2020年2月以来最长连跌；10年期美债收益率回落至约4.95%，市场定价12月加息概率约98%；布伦特原油约91美元，比特币周跌13.2%、黄金ETF跌9.2%。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "Reuters",
       "title": "Tech leads global stocks rout, Treasury yields fall",
       "url": "https://live.euronext.com/en/financial-news/tech-leads-global-stocks-rout-treasury-yields-fall",
@@ -125,24 +139,10 @@
       "title": "Daily Market Insights 20 November 2026",
       "url": "https://traders.mba/daily-market-insights-2026-11-20/",
       "summary": "美股周四全线大跌，标普500跌2.02%、纳指跌2.25%、道指跌2.19%，VIX升至28.44；周五亚洲市场延续跌势；美联储10月纪要令政策不确定性重回焦点，联邦基金利率目标区间3.75%–4.00%，市场关注12月会议。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Business Times",
-      "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
-      "url": "https://www.businesstimes.com.sg/international/oil-prices-gain-houthi-attacks-riyadh-raise-supply-concerns",
-      "summary": "胡塞武装袭击利雅得及霍尔木兹海峡油轮遇袭传闻引发供应担忧，布伦特涨0.9%至92.77美元、WTI涨0.3%至83.46美元；但两大基准油价本周仍料连跌第三周，布伦特周跌约3.5%、WTI周跌约6%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Edge Singapore",
-      "title": "Oil set for third weekly drop as ample supply outweighs war risk",
-      "url": "http://www.theedgesingapore.com/news/highlight/oil-futures-swing-fears-escalation-strikes-against-iran",
-      "summary": "油价在美国可能再度打击伊朗的担忧与供应充足之间摇摆，布伦特站上92美元、WTI约83美元；布伦特本周跌近4%，连续第三周下跌，供应过剩前景继续压制油价。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 07:25"
+    "updated_at": "2026-11-21 09:25"
   }
 }
