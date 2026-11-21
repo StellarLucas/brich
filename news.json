@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-21",
+      "source": "Charles Schwab",
+      "title": "Markets' November Nightmare Keeps Getting Worse",
+      "url": "https://www.schwab.com/learn/story/market-volatility",
+      "summary": "美股本周创2025年4月以来最差一周，标普500七连跌、为2020年2月以来最长连跌，与道指一同进入技术性回调；纳指年内转跌。英伟达财报亮眼仍大跌，SEC调查其会计问题的报道加压；Anthropic上市次日跌9%。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "Ynetnews",
+      "title": "Wall Street plunges as AI fears mount: What it means for investors",
+      "url": "https://www.ynetnews.com/business/article/bkt00xtc0me",
+      "summary": "纳指周跌约10%、创2020年3月以来最大单周跌幅，年内涨幅全部回吐；英伟达单日跌14%、全周跌23%，单日市值蒸发约4850亿美元；Anthropic上市次日跌8.5%、逼近83美元发行价。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "KIMKJ",
+      "title": "Global Commodity and Agriculture Weekly Review 2026-11-21",
+      "url": "https://kimkj.com/en/economy-board/?mod=document&uid=22634",
+      "summary": "黄金周跌约9%、创8个月最大单周跌幅，现货金一度跌至3518.50美元、为14个月低点；白银单月跌近29%。布伦特周跌3.4%、WTI周跌5.2%，原油连续第三周下跌；美元指数约103.84、接近19个月高点。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "The Statesman",
+      "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
+      "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html/amp",
+      "summary": "纳指100周跌10.4%、为2020年3月疫情以来最差一周，标普500与道指均较纪录高点回落超10%、确认进入技术性回调；英伟达跌14%，此前路透报道SEC正调查其会计问题，调查本身不等于认定违规。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "Investor's Business Daily",
+      "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-worst-week-covid-nvidia-anthropic-vix-fear-gauge/",
+      "summary": "道指与纳指创2020年3月以来最差一周，标普500周跌8.6%、为2025年4月以来最差一周；VIX一周飙升86%、创4月以来最高。12月9日加息不再被市场完全定价，PCE通胀数据将于周三公布。"
+    },
+    {
+      "published_at": "2026-11-21",
       "source": "KIMKJ",
       "title": "Global Economy Weekly Review 2026-11-21",
       "url": "https://kimkj.com/en/economy-board/?mod=document&uid=22601",
@@ -104,45 +139,10 @@
       "title": "Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-sp500-nasdaq-anthropic-stock-ant/",
       "summary": "纳指周五暴跌5.3%、逼近熊市区间，英伟达单日跌14%、创近两年最差单日表现，市值自10月6日高点已蒸发2.7万亿美元；Anthropic上市次日跌9%，VIX飙升30%至40、创52周新高；比特币跌破5.82万美元。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Motley Fool",
-      "title": "Fed minutes, the biggest IPO ever, and new 401(k) limits: talking points for client calls",
-      "url": "https://www.fool.com/retirement/advisor/2026/11/20/advisor-insights-brought-to-you-by-the-motley-fool/",
-      "summary": "美联储10月纪要显示多数官员支持进一步加息，12月加息几成定局；本周标普500六连跌、为两年半来最长连跌，英伟达财报亮眼仍下跌；Anthropic上市创史上最大IPO，但未能稳住市场情绪。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Investopedia",
-      "title": "5 Things Investors Need to Know About Friday's Markets",
-      "url": "https://www.investopedia.com/5-things-investors-need-to-know-about-friday-s-markets-12266953",
-      "summary": "周五油价回落，WTI跌1%至82.30美元；黄金期货跌3%至3575美元、创14个月新低；比特币继续走低，交投于61400美元附近。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Tigris Funds",
-      "title": "2027 Market Outlook: What 12 Expert Forecasts Agree On, and Where the Real Risk Hides",
-      "url": "https://tigrisfunds.com/2027-market-outlook/",
-      "summary": "全球12家大型机构的2027年展望共识：经济增长放缓但保持正增长，美联储在年初再加息一到两次后长期按兵不动，标普500温和上涨但波动加剧；布伦特油价预测分歧较大。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "T. Rowe Price",
-      "title": "Global Markets Weekly Update",
-      "url": "https://www.troweprice.com/institutional/us/en/insights/articles/resources/global-markets-weekly-update.html?placementGUID=SM_LinkedIn-EMP-883426&hss_meta=eyJvcmdhbml6YXRpb25faWQiOiA5MjgsICJncm91cF9pZCI6IDg4MzQyNiwgImFzc2V0X2lkIjogMTk4MjAxMSwgImdyb3VwX2NvbnRlbnRfaWQiOiAxMjM4NzQwMzMsICJncm91cF9uZXR3b3JrX2NvbnRlbnRfaWQiOiAxOTE5MTA2NDN9",
-      "summary": "美股创2025年4月以来最差一周，标普500周跌8.6%、纳指跌10.02%，AI投资担忧与美联储收紧预期双重打压；美联储10月纪要显示几乎所有官员认为进一步加息可能合适，理事沃勒称12月加息50个基点也可能合适；欧洲斯托克600周跌5.8%、为3月以来最大单周跌幅，日本股市亦大幅下挫。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "VistaMark",
-      "title": "Markets at a Glance",
-      "url": "https://vistamark.com/insights/markets-at-a-glance/",
-      "summary": "标普500本周跌8.6%、七连跌、较10月6日纪录高点回落11.6%进入技术性回调，为2020年2月以来最长连跌；10年期美债收益率回落至约4.95%，市场定价12月加息概率约98%；布伦特原油约91美元，比特币周跌13.2%、黄金ETF跌9.2%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 21:25"
+    "updated_at": "2026-11-21 23:25"
   }
 }
