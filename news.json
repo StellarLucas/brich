@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-21",
+      "source": "KIMKJ",
+      "title": "Global Economy Weekly Review 2026-11-21",
+      "url": "https://kimkj.com/en/economy-board/?mod=document&uid=22601",
+      "summary": "本周回顾：标普500六连跌、为2024年以来最长连跌，纳指、道指同步走弱；美联储10月纪要显示几乎所有官员认为进一步加息合适，沃勒称12月或需加息50个基点；欧元区10月通胀4.0%、创2023年9月以来最高，英国10月通胀3.6%创一年新高；日本三季度GDP年化萎缩0.1%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Morningstar",
+      "title": "Oil Prices Retreat as Traders Assess Supply Outlook, Middle East Risks — Commodities Roundup",
+      "url": "https://www.morningstar.com/news/dow-jones/202611206088/oil-prices-retreat-as-traders-assess-supply-outlook-middle-east-risks-commodities-roundup",
+      "summary": "油价周五回落，布伦特跌0.7%至91.37美元、WTI跌0.4%至82.11美元，交易员评估全球供应改善与中东航运威胁；12月黄金期货跌3.9%至3542.80美元；分析认为霍尔木兹海峡难以恢复战前状态，85–95美元油价或成未来一段时间常态。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Wall Street Journal",
+      "title": "Fed's Waller Pushes for Aggressive Half-Percentage Point Rate Increase",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-18-2026/card/fed-s-waller-pushes-for-aggressive-half-percentage-point-rate-increase-Poyd95eqcU657MoC14Nu",
+      "summary": "美联储理事沃勒重申支持12月加息50个基点，称通胀正朝错误方向发展且已扩散至多个领域；若不一次加50个基点，也应明确发出1月继续加息的信号；2年期美债收益率闻讯升至4.84%附近。"
+    },
+    {
+      "published_at": "2026-11-21",
       "source": "Sunday Guardian Live",
       "title": "Why Is The Stock Market Down Today? Dow Drops Below 50,000 As S&P 500 And Nasdaq Tumble On AI Sell-Off And Rate Hike Fears",
       "url": "https://sundayguardianlive.com/business/why-is-the-stock-market-down-today-dow-drops-below-50000-as-sp-500-and-nasdaq-tumble-on-ai-sell-off-and-rate-hike-fears-sp-500-index-markets-today-325188/",
@@ -118,31 +139,10 @@
       "title": "Markets at a Glance",
       "url": "https://vistamark.com/insights/markets-at-a-glance/",
       "summary": "标普500本周跌8.6%、七连跌、较10月6日纪录高点回落11.6%进入技术性回调，为2020年2月以来最长连跌；10年期美债收益率回落至约4.95%，市场定价12月加息概率约98%；布伦特原油约91美元，比特币周跌13.2%、黄金ETF跌9.2%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "Tech leads global stocks rout, Treasury yields fall",
-      "url": "https://live.euronext.com/en/financial-news/tech-leads-global-stocks-rout-treasury-yields-fall",
-      "summary": "科技股领跌全球股市抛售，纳指周五跌5.28%、标普500跌3.70%、道指跌1.93%；日本与韩国股市隔夜跌超5%，台湾股市本周跌17%、创1990年以来最大单周跌幅；10年期美债收益率单日跌10.43个基点至4.948%，为一个月来最大单日跌幅；金价跌至14个月新低。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "Fed's Cook says rate hikes needed to lower high inflation",
-      "url": "https://www.reuters.com/business/feds-cook-says-rate-hikes-needed-lower-high-inflation-2026-11-20/",
-      "summary": "美联储理事库克周五表示当前政策利率不足以压低高通胀，9月加息25个基点还不够；她是10月会议上主张立即加息的两名异议者之一；市场普遍预计美联储将在12月8–9日会议上加息，并可能在明年继续加息。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Barron's",
-      "title": "Fed Officials Are Chatting Up a Storm. Investors Are in the Dark About Their Plans.",
-      "url": "https://www.barrons.com/articles/fed-officials-chatting-investors-in-the-dark-7d37b574",
-      "summary": "美联储12月几乎肯定再次加息，但加25个基点还是50个基点仍难预测；主席沃什已基本停止前瞻指引，官员公开表态异常频繁；市场定价12月加息25个基点概率约98%，高盛预计12月与明年3月各加一次。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 19:25"
+    "updated_at": "2026-11-21 21:25"
   }
 }
