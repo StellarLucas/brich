@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-21",
+      "source": "Fox Business",
+      "title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
+      "url": "https://foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
+      "summary": "道指周五跌近950点、标普500跌3.7%、纳指跌5.28%，道指与标普500双双进入技术性回调，纳指抹去全年涨幅；英伟达跌约14%、Anthropic上市次日跌约9%，标普500创2025年4月以来最差一周。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "The Business Times",
+      "title": "Bitcoin falls to more than two-year low as global markets sink",
+      "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bitcoin-falls-more-two-year-low-global-markets-sink",
+      "summary": "比特币周五一度跌至57716美元、为2024年9月以来最低，较10月逾12.6万美元的历史高点跌超50%；24小时内约20亿美元加密多头仓位被清算，现货比特币ETF持续资金流出。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Reuters",
+      "title": "Bitcoin falls below $60,000 level",
+      "url": "https://www.reuters.com/technology/bitcoin-falls-below-60000-level-2026-11-20/",
+      "summary": "比特币周五跌破6万美元、为7月以来首次，收报约59610美元；AI股估值担忧与加息预期打压风险资产，比特币与美股同步下跌。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "FXStreet",
+      "title": "WTI steadies above $82.50 as Middle East tensions offset surplus supply outlook",
+      "url": "https://www.fxstreet.com/news/wti-steadies-above-8250-as-middle-east-tensions-offset-surplus-supply-outlook-202611200045",
+      "summary": "WTI在82.50美元上方企稳，霍尔木兹海峡油轮遇袭担忧抵消美国原油库存上升与全球供应过剩预期；EIA数据显示当周美国原油库存增加338万桶。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "The Business Times",
+      "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-gains-iran-war-worries-and-short-covering-ahead-thanksgiving-holiday",
+      "summary": "油价周五尾盘走高，布伦特收于92.57美元、WTI收于83.98美元，因市场担忧美以与伊朗战争可能再度升级及感恩节假期前空头回补；但布伦特本周仍跌近4%，OPEC+将于11月29日开会决定2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-21",
       "source": "T. Rowe Price",
       "title": "Global Markets Weekly Update",
       "url": "https://www.troweprice.com/institutional/us/en/insights/articles/resources/global-markets-weekly-update.html?placementGUID=SM_LinkedIn-EMP-883426&hss_meta=eyJvcmdhbml6YXRpb25faWQiOiA5MjgsICJncm91cF9pZCI6IDg4MzQyNiwgImFzc2V0X2lkIjogMTk4MjAxMSwgImdyb3VwX2NvbnRlbnRfaWQiOiAxMjM4NzQwMzMsICJncm91cF9uZXR3b3JrX2NvbnRlbnRfaWQiOiAxOTE5MTA2NDN9",
@@ -104,45 +139,10 @@
       "title": "AI tech rout prompts US investors to rush into value stocks",
       "url": "https://www.reuters.com/business/finance/ai-tech-rout-prompts-us-investors-rush-into-value-stocks-2026-11-20/",
       "summary": "AI股暴跌促使资金涌向价值股与美债避险，标普500价值指数年内涨8%、成长指数跌2%，价值投资有望自2022年以来首次跑赢成长；纳指本周创去年以来最大单周跌幅、年内转跌，英伟达市值自10月高点蒸发超2.2万亿美元。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "CNN",
-      "title": "Nasdaq wipes out gains for the year as Anthropic IPO fails to quell AI nerves",
-      "url": "https://www.cnn.com/2026/11/20/investing/us-stocks-anthropic-ai?cid=external-feeds_iluminar_meta",
-      "summary": "纳指周五跌5.28%、年内转跌，自10月6日高点已跌18%、市值蒸发约8.7万亿美元；标普500七连跌、为2020年2月以来最长连跌，道指与标普500双双进入技术性回调；Anthropic上市次日跌8.5%，VIX收于35.89、为19个月最高。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "Nasdaq plunges 5% a day after Anthropic debut, but investors still believe in AI",
-      "url": "https://www.reuters.com/business/view-nasdaq-plunges-5-day-after-anthropic-debut-investors-still-believe-ai-2026-11-20/",
-      "summary": "纳指周跌10%、为2020年以来最大单周跌幅，英伟达单日跌14%、全周跌23%，此前路透报道SEC正调查其会计问题；尽管如此，多数投资者仍表示相信AI长期逻辑，认为当前是估值重定价而非泡沫破裂，资金正轮动至医疗、能源与公用事业等非科技板块。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Channel News Asia",
-      "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
-      "url": "https://www.channelnewsasia.com/business/oil-gains-iran-war-worries-and-short-covering-ahead-thanksgiving-holiday-6568016",
-      "summary": "油价周五尾盘走高，布伦特收于92.57美元、WTI收于83.98美元，因市场担忧美以与伊朗的战争可能再度升级、交易员在感恩节假期前空头回补；但布伦特本周仍跌近4%、WTI跌5%，因霍尔木兹海峡原油出口已恢复至接近战前水平，供应过剩预期升温；OPEC+将于11月29日开会决定2027年产量政策。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Stockbiz",
-      "title": "Markets on November 20: Gold extends sharp decline amid sell-off, oil edges higher, tin and copper fall sharply, robusta coffee hits 2.5-year low",
-      "url": "https://stockbiz.vn/en/news/markets-on-november-20-gold-extends-sharp-decline-amid-sell-off-oil-edges-higher-tin-and-copper-fall-sharply-robusta-coffee-hits-25-year-low/42860853",
-      "summary": "11月20日金价继续大跌、现货金逼近3500美元，白银、铜、锡同步走低；油价因中东供应担忧小幅走高，布伦特92.64美元、WTI 83.40美元，但本周仍料连跌第三周；市场关注11月29日OPEC+会议的2027年产量政策。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Motley Fool",
-      "title": "Fed minutes, the biggest IPO ever, and new 401(k) limits: talking points for client calls",
-      "url": "http://www.fool.com/retirement/advisor/2026/11/20/advisor-insights-brought-to-you-by-the-motley-fool/",
-      "summary": "标普500六连跌、为两年半来最长连跌，道指跌破5万点；10月FOMC纪要显示官员普遍支持进一步加息，12月加息几成定局；英伟达财报亮眼仍大跌，Anthropic以史上最大IPO登陆纳斯达克；10年期美债收益率约5.05%，三季度GDP与10月PCE将于11月25日公布。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 03:25"
+    "updated_at": "2026-11-22 05:25"
   }
 }
