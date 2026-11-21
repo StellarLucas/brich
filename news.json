@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-20",
+      "source": "Motley Fool",
+      "title": "Fed minutes, the biggest IPO ever, and new 401(k) limits: talking points for client calls",
+      "url": "https://www.fool.com/retirement/advisor/2026/11/20/advisor-insights-brought-to-you-by-the-motley-fool/",
+      "summary": "美联储10月纪要显示多数官员支持进一步加息，12月加息几成定局；本周标普500六连跌、为两年半来最长连跌，英伟达财报亮眼仍下跌；Anthropic上市创史上最大IPO，但未能稳住市场情绪。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Friday's Markets",
+      "url": "https://www.investopedia.com/5-things-investors-need-to-know-about-friday-s-markets-12266953",
+      "summary": "周五油价回落，WTI跌1%至82.30美元；黄金期货跌3%至3575美元、创14个月新低；比特币继续走低，交投于61400美元附近。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Tigris Funds",
+      "title": "2027 Market Outlook: What 12 Expert Forecasts Agree On, and Where the Real Risk Hides",
+      "url": "https://tigrisfunds.com/2027-market-outlook/",
+      "summary": "全球12家大型机构的2027年展望共识：经济增长放缓但保持正增长，美联储在年初再加息一到两次后长期按兵不动，标普500温和上涨但波动加剧；布伦特油价预测分歧较大。"
+    },
+    {
+      "published_at": "2026-11-18",
+      "source": "Decrypt",
+      "title": "Fed's Waller Calls for 50-Basis-Point Rate Hike, Says Tokenized Finance Still Needs Traditional Banks",
+      "url": "https://decrypt.co/383566/fed-waller-50-basis-point-rate-hike-tokenized-finance-banks",
+      "summary": "美联储理事沃勒重申12月可能需要加息50个基点，除非联储明确发出1月继续加息的信号；核心CPI连续三个月上涨0.3%，年化通胀约3.5%，远高于2%的目标。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "UBS",
+      "title": "How will Fed rate hikes impact markets?",
+      "url": "https://www.ubs.com/global/en/wealthmanagement/insights/marketnews/article/_jcr_content.400537223.file/PS9jb250ZW50L2RhbS9pbXBvcnRlZC9jaW9yZXNlYXJjaC9wZGYvNDAvMTcvMTMvNS80MDE3MTM1L2VuLzQwMTcxMzUucGRm/4017135.pdf",
+      "summary": "瑞银预计美联储将在2026年12月与2027年3月各加息25个基点，连续加息的风险上升；达拉斯联储主席洛根称加息步伐可能加快，理事沃勒提出12月加息50个基点的可能。"
+    },
+    {
+      "published_at": "2026-11-20",
       "source": "T. Rowe Price",
       "title": "Global Markets Weekly Update",
       "url": "https://www.troweprice.com/institutional/us/en/insights/articles/resources/global-markets-weekly-update.html?placementGUID=SM_LinkedIn-EMP-883426&hss_meta=eyJvcmdhbml6YXRpb25faWQiOiA5MjgsICJncm91cF9pZCI6IDg4MzQyNiwgImFzc2V0X2lkIjogMTk4MjAxMSwgImdyb3VwX2NvbnRlbnRfaWQiOiAxMjM4NzQwMzMsICJncm91cF9uZXR3b3JrX2NvbnRlbnRfaWQiOiAxOTE5MTA2NDN9",
@@ -104,45 +139,10 @@
       "title": "Global Stocks Retreat on Unwind of the AI Trade",
       "url": "https://www.barchart.com/story/news/8936782/global-stocks-retreat-on-unwind-of-the-ai-trade",
       "summary": "全球股市因AI交易大规模平仓而回落，标普500跌至6.5个月新低、纳指100跌至7个月新低；欧股斯托克50跌2.03%创6个月新低，日经跌5.06%、上证跌1.22%；市场预计美联储12月8–9日会议加息25个基点概率96%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "Wall St futures slip as Anthropic debut fails to reassure AI investors",
-      "url": "https://www.reuters.com/legal/transactional/wall-st-futures-slip-anthropic-debut-fails-reassure-ai-investors-2026-11-20/",
-      "summary": "美股期货周五走低，Anthropic上市首日大涨17%后盘前回落6.8%，未能稳住AI交易情绪；纳指较10月6日收盘纪录高点跌13.6%，美股三大指数本周料创2025年4月以来最大单周跌幅；市场预计美联储12月加息25个基点概率98.4%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "TradingView",
-      "title": "Asian Shares Tumble As Tech Selloff Deepens",
-      "url": "https://www.tradingview.com/news/dpa_afx:27cbc676895f3:0-asian-shares-tumble-as-tech-selloff-deepens/",
-      "summary": "亚洲股市周五大跌，日经跌5.06%创七个月新低、KOSPI跌5.21%、台湾加权指数跌6.63%，Anthropic上市未能缓解AI基建支出放缓担忧；美联储鹰派纪要后市场已充分定价12月加息25个基点，美元指数守在19个月高位附近。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "TradingView",
-      "title": "Why Are Stocks, Crypto, Gold, and Silver Dumping? $4.28 Trillion Wiped Out",
-      "url": "https://www.tradingview.com/news/coinpedia:f806b37f7094b:0-why-are-stocks-crypto-gold-and-silver-dumping-4-28-trillion-wiped-out/",
-      "summary": "过去24小时全球市场蒸发约4.28万亿美元，美股损失约1.85万亿美元、亚股约1.1万亿美元、金银约1.3万亿美元；摩根大通预计美联储12月、1月、3月连续三次加息25个基点，利率或升至4.50%–4.75%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Economy Middle East",
-      "title": "Stock market today: Nasdaq falls 2.25 percent, Nikkei slides 4.77 percent, DAX loses 1.06 percent as AI selloff, Fed hike fears deepen",
-      "url": "https://economymiddleeast.com/news/stock-market-today-nasdaq-falls-2-25-percent-nikkei-slides-4-77-percent-dax-loses-1-06-percent-as-ai-selloff-fed-hike-fears-deepen/",
-      "summary": "全球股市周五延续跌势，AI估值担忧与美联储加息预期打压风险偏好；纳指跌2.25%、日经跌4.77%、韩国KOSPI跌5.21%、台湾加权指数跌6.63%，MSCI亚太指数本周跌8.5%、创2020年3月以来最大单周跌幅；市场预计美联储12月加息25个基点概率96.4%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Traders MBA",
-      "title": "Daily Market Insights 20 November 2026",
-      "url": "https://traders.mba/daily-market-insights-2026-11-20/",
-      "summary": "美股周四全线大跌，标普500跌2.02%、纳指跌2.25%、道指跌2.19%，VIX升至28.44；周五亚洲市场延续跌势；美联储10月纪要令政策不确定性重回焦点，联邦基金利率目标区间3.75%–4.00%，市场关注12月会议。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-21 09:25"
+    "updated_at": "2026-11-21 11:25"
   }
 }
