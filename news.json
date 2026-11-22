@@ -15,18 +15,18 @@
       "summary": "本周全球市场剧烈调整后，美元指数触及19个月高点约103.97，现货金周跌逾9%、白银跌逾15%；下周三公布的美国10月PCE通胀数据与美联储加息辩论将决定贵金属抛售是否延续。"
     },
     {
+      "published_at": "2026-11-22",
+      "source": "TalkMarkets",
+      "title": "Stock Market Next Week: Can Stocks And The Euro Fall Further?",
+      "url": "https://talkmarkets.com/article/stock-market-next-week-can-stocks-and-the-euro-fall-further",
+      "summary": "纳指100创2020年3月以来最差一周、跌10.43%，标普500周跌8.61%、芯片股跌17.1%，VIX升至35.89、为过去一年最高收盘；金价跌至3538美元，欧元兑美元跌至1.0968；文章认为纳指100未来数周可能再跌10%。"
+    },
+    {
       "published_at": "2026-11-21",
       "source": "The Wall Street Journal",
       "title": "U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
       "url": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-plunge-as-ai-boom-turns-to-bust-a2d324e7",
       "summary": "美股续跌，道指与标普500进入技术性回调，纳指抹去年内涨幅；金价期货周跌9.5%、为3月以来最大单周跌幅，白银周跌16%，油价周跌5.2%、连续第三周下跌，美元守在年内高点附近。"
-    },
-    {
-      "published_at": "2026-11-19",
-      "source": "Moneycontrol",
-      "title": "'Shock people' with 50-bps rate hike: Fed's Waller issues warning as AI adds to inflation worries",
-      "url": "https://www.moneycontrol.com/news/business/shock-people-with-50-bps-rate-hike-fed-s-waller-issues-warning-as-ai-adds-to-inflation-worries-14084090.html",
-      "summary": "美联储10月会议纪要显示几乎所有官员认为进一步加息合适，两名与会者提出12月若通胀数据不利可考虑超过25个基点的加息；理事沃勒称12月可能需要加息50个基点以“震惊市场”，市场定价12月加息25个基点的概率约95%。"
     },
     {
       "published_at": "2026-11-21",
@@ -41,20 +41,6 @@
       "title": "Anthropic slides 9.1% to shrink IPO gain as AI trade unravels",
       "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-slides-9-1-shrink-ipo-gain-ai-trade-unravels",
       "summary": "Anthropic上市次日跌9.1%至88.30美元、回吐首日大半涨幅，绿鞋行权后募资总额达1195亿美元；2026年美股IPO融资2580亿美元创历史纪录，VIX恐慌指数升破29。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "CNBC TV18",
-      "title": "Nikkei, Kospi fall over 4% each; Asian markets crash as AI sell-off deepens despite record Anthropic IPO",
-      "url": "https://www.cnbctv18.com/market/asian-markets-crash-nikkei-kospi-fall-ai-stocks-selloff-global-markets-anthropic-ipo-nasdaq-falls-20038181.htm",
-      "summary": "亚洲股市周五重挫，日经跌4.54%、韩国Kospi跌4.74%，MSCI亚太指数七连跌；Anthropic创纪录IPO未能提振AI板块信心，全球股市逼近三年最长连跌，日元持于159.77、布伦特约92.6美元。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Morningstar",
-      "title": "Dow Jones Top Markets Headlines at 7 PM ET: U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
-      "url": "https://www.morningstar.com/news/dow-jones/202611209362/dow-jones-top-markets-headlines-at-7-pm-et-us-stocks-extend-plunge-as-ai-boom-turns-to-bust-trump",
-      "summary": "美股续跌、超大盘科技股逼近熊市，AI泡沫破裂担忧发酵；美联储官员就12月加息幅度存在分歧，沃勒主张加息50个基点；日本10月核心CPI同比涨2.2%、强化央行加息预期，英国10月借款增加但赤字率收窄至3.5%。"
     },
     {
       "published_at": "2026-11-21",
@@ -90,13 +76,6 @@
       "title": "Bitcoin falls to more than two-year low as global markets sink",
       "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bitcoin-falls-more-two-year-low-global-markets-sink",
       "summary": "比特币周五一度跌至57716美元、为2024年9月以来最低，较10月逾12.6万美元的历史高点跌超50%；24小时内约20亿美元加密多头仓位被清算，现货比特币ETF持续资金流出。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "Bitcoin falls below $60,000 level",
-      "url": "https://www.reuters.com/technology/bitcoin-falls-below-60000-level-2026-11-20/",
-      "summary": "比特币周五跌破6万美元、为7月以来首次，收报约59610美元；AI股估值担忧与加息预期打压风险资产，比特币与美股同步下跌。"
     },
     {
       "published_at": "2026-11-21",
@@ -139,10 +118,31 @@
       "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
       "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html/amp",
       "summary": "纳指100周跌10.4%、为2020年3月疫情以来最差一周，标普500与道指均较纪录高点回落超10%、确认进入技术性回调；英伟达跌14%，此前路透报道SEC正调查其会计问题，调查本身不等于认定违规。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "LinkedIn",
+      "title": "The Weekly Look at the Global Economy and Markets",
+      "url": "https://www.linkedin.com/pulse/weekly-look-global-economy-markets-mohamed-el-erian-qnyec",
+      "summary": "埃尔-安表示上周美股技术面压倒基本面，标普500周跌3.7%进入回调、纳指单日跌超5%抹去年内涨幅，VIX升至40附近；美联储12月加息25还是50个基点的争论、Anthropic巨额IPO吸走资金与英伟达相关扰动共同加剧抛售，金价跌向3539美元的14个月低点，铜周跌近10%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "CNBC TV18",
+      "title": "Nikkei, Kospi fall over 4% each; Asian markets crash as AI sell-off deepens despite record Anthropic IPO",
+      "url": "https://www.cnbctv18.com/market/asian-markets-crash-nikkei-kospi-fall-ai-stocks-selloff-global-markets-anthropic-ipo-nasdaq-falls-20038181.htm",
+      "summary": "亚洲股市周五重挫，日经跌4.54%、韩国Kospi跌4.74%，MSCI亚太指数七连跌；Anthropic创纪录IPO未能提振AI板块信心，全球股市逼近三年最长连跌，日元持于159.77、布伦特约92.6美元。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Morningstar",
+      "title": "Dow Jones Top Markets Headlines at 7 PM ET: U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
+      "url": "https://www.morningstar.com/news/dow-jones/202611209362/dow-jones-top-markets-headlines-at-7-pm-et-us-stocks-extend-plunge-as-ai-boom-turns-to-bust-trump",
+      "summary": "美股续跌、超大盘科技股逼近熊市，AI泡沫破裂担忧发酵；美联储官员就12月加息幅度存在分歧，沃勒主张加息50个基点；日本10月核心CPI同比涨2.2%、强化央行加息预期，英国10月借款增加但赤字率收窄至3.5%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 13:25"
+    "updated_at": "2026-11-22 15:25"
   }
 }
