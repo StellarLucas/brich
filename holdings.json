@@ -44,7 +44,7 @@
         "reason": "年度分红同比下降 -1.97%，但实时股息率 4.98% ≥ 3.5%，不触发。"
       },
       "since_buy": {
-        "days_held": 5,
+        "days_held": 6,
         "high": 12.3,
         "low": 11.91,
         "max_return_pct": 0.0,
@@ -240,7 +240,7 @@
         "reason": ""
       },
       "since_buy": {
-        "days_held": 5,
+        "days_held": 6,
         "high": 53.37,
         "low": 51.68,
         "max_return_pct": 3.15,
@@ -428,7 +428,7 @@
         "reason": ""
       },
       "since_buy": {
-        "days_held": 5,
+        "days_held": 6,
         "high": 55.46,
         "low": 53.29,
         "max_return_pct": 1.48,
@@ -584,10 +584,10 @@
   "meta": {
     "buy_date": "2026-11-16",
     "buy_price_note": "买入价 = 2026-11-16 收盘价，18:00 更新时填入",
-    "data_date": "2026-11-21",
+    "data_date": "2026-11-22",
     "market_closed": false,
     "schema_version": 3,
     "update_note": "现价/实时股息率/浮盈亏/波段每天 06/12/18/00 + 10:00/14:00 盘中快照更新；DPS/估值/基本面体检每天 18:00 更新一次；price_30d 为最近 30 个交易日收盘价（000001/601318 来自 prices.db 前复权，000423 来自新浪前复权 K 线），每天随更新滚动",
-    "updated_at": "2026-11-21 18:05"
+    "updated_at": "2026-11-22 09:56"
   }
 }
