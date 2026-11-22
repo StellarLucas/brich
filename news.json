@@ -22,20 +22,6 @@
       "summary": "标普500跌破200日均线、道指与标普进入回调，纳指年内转负；五大拖累因素包括Anthropic IPO、英伟达风波、通胀压力下的美联储加息预期、AI盈利放缓等。"
     },
     {
-      "published_at": "2026-11-21",
-      "source": "Global Eye 24",
-      "title": "Gold, oil and silver fall together to multi-month lows",
-      "url": "https://globaleye24.com/news/gold-oil-and-silver-fall-together-to-multi-month-lows-3109",
-      "summary": "金价跌破3750美元、创2025年9月以来最低，油价跌破82美元、为8月以来首次，白银跌破45美元；投机者连续第七周抛售COMEX铜期货。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Marc to Market",
-      "title": "Oil and Stocks Drive Rates Lower, and Take Some Shine Off the US Dollar",
-      "url": "https://www.marctomarket.com/2026/11/oil-and-stocks-drive-rates-lower-and.html",
-      "summary": "股市暴跌与油价走软推动美债收益率下行，10年期美债收益率一周跌近15个基点；美元兑日元一度逼近160后回落至158.70附近，金价连续第五个交易日下跌。"
-    },
-    {
       "published_at": "2026-11-22",
       "source": "TipRanks",
       "title": "The Week That Was, The Week Ahead: Macro and Markets, November 22",
@@ -43,25 +29,11 @@
       "summary": "美股经历残酷一周：标普500周跌8.6%、创18个月最大单周跌幅，纳指100跌10%、道指跌8%，三大指数进入技术性回调；英伟达因SEC会计调查传闻周跌22.9%，Anthropic以83美元发行价上市；美联储10月会议纪要显示几乎所有官员认为12月再加息25个基点合适，12月9日议息会议为下一个关键节点。"
     },
     {
-      "published_at": "2026-11-20",
-      "source": "Stockbiz",
-      "title": "Markets on November 20: Gold extends sharp decline amid sell-off, oil edges higher, tin and copper fall sharply, robusta coffee hits 2.5-year low",
-      "url": "https://stockbiz.vn/en/news/markets-on-november-20-gold-extends-sharp-decline-amid-sell-off-oil-edges-higher-tin-and-copper-fall-sharply-robusta-coffee-hits-25-year-low/42860853",
-      "summary": "11月20日金银继续大跌，现货金向3500美元逼近、白银跌破42美元；油价因中东供应担忧小幅回升，但布伦特周跌约3.5%、WTI周跌约6%，原油连续第三周下跌；铜、锡大跌，锡单日跌9.86%，罗布斯塔咖啡创两年半新低。"
-    },
-    {
       "published_at": "2026-11-22",
       "source": "TradingView",
       "title": "Lisa Cook Says Fed Rate Hikes Could Extend Beyond December",
       "url": "https://www.tradingview.com/news/binance_news:908279ac6094b:0-lisa-cook-says-fed-rate-hikes-could-extend-beyond-december/",
       "summary": "美联储理事库克表示，高通胀可能需要进一步加息，9月单次加息25个基点未必足以改变通胀路径；她警告拖延行动可能迫使未来加息更快、幅度更大；CME FedWatch显示12月加息概率约88.6%，10月PCE通胀数据将于11月25日公布。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Channel News Asia",
-      "title": "Tech leads global stocks rout, Treasury yields fall",
-      "url": "https://www.channelnewsasia.com/business/tech-leads-global-stocks-rout-treasury-yields-fall-6567936",
-      "summary": "科技股领跌全球股市：标普500跌3.7%、纳指跌5.28%、道指跌1.93%，MSCI全球指数跌3.3%、周跌8.1%创2020年初以来最大单周跌幅；10年期美债收益率跌10.43个基点至4.948%，为一个月最大单日跌幅；金价跌至14个月低点，油价周五尾盘反弹。"
     },
     {
       "published_at": "2026-11-22",
@@ -83,6 +55,20 @@
       "title": "Stock Market Next Week: Can Stocks And The Euro Fall Further?",
       "url": "https://talkmarkets.com/article/stock-market-next-week-can-stocks-and-the-euro-fall-further",
       "summary": "纳指100创2020年3月以来最差一周、跌10.43%，标普500周跌8.61%、芯片股跌17.1%，VIX升至35.89、为过去一年最高收盘；金价跌至3538美元，欧元兑美元跌至1.0968；文章认为纳指100未来数周可能再跌10%。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "Global Eye 24",
+      "title": "Gold, oil and silver fall together to multi-month lows",
+      "url": "https://globaleye24.com/news/gold-oil-and-silver-fall-together-to-multi-month-lows-3109",
+      "summary": "金价跌破3750美元、创2025年9月以来最低，油价跌破82美元、为8月以来首次，白银跌破45美元；投机者连续第七周抛售COMEX铜期货。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "Channel News Asia",
+      "title": "Tech leads global stocks rout, Treasury yields fall",
+      "url": "https://www.channelnewsasia.com/business/tech-leads-global-stocks-rout-treasury-yields-fall-6567936",
+      "summary": "科技股领跌全球股市：标普500跌3.7%、纳指跌5.28%、道指跌1.93%，MSCI全球指数跌3.3%、周跌8.1%创2020年初以来最大单周跌幅；10年期美债收益率跌10.43个基点至4.948%，为一个月最大单日跌幅；金价跌至14个月低点，油价周五尾盘反弹。"
     },
     {
       "published_at": "2026-11-21",
@@ -139,10 +125,24 @@
       "title": "Bitcoin falls to more than two-year low as global markets sink",
       "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bitcoin-falls-more-two-year-low-global-markets-sink",
       "summary": "比特币周五一度跌至57716美元、为2024年9月以来最低，较10月逾12.6万美元的历史高点跌超50%；24小时内约20亿美元加密多头仓位被清算，现货比特币ETF持续资金流出。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "MarketWatch",
+      "title": "Dow, S&P 500 enter correction as Nasdaq suffers worst week since 2020",
+      "url": "https://www.marketwatch.com/story/dow-s-p-500-enter-correction-as-nasdaq-suffers-worst-week-since-2020-bd74dadf",
+      "summary": "道指与标普500进入技术性回调，纳指创2020年3月以来最差一周、周跌逾10%并抹去2026年内涨幅；Anthropic上市次日跌近10%，英伟达自10月6日高点跌近50%。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Marc to Market",
+      "title": "Oil and Stocks Drive Rates Lower, and Take Some Shine Off the US Dollar",
+      "url": "https://www.marctomarket.com/2026/11/oil-and-stocks-drive-rates-lower-and.html",
+      "summary": "股市暴跌与油价走软推动美债收益率下行，10年期美债收益率一周跌近15个基点；美元兑日元一度逼近160后回落至158.70附近，金价连续第五个交易日下跌。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 21:25"
+    "updated_at": "2026-11-22 23:25"
   }
 }
