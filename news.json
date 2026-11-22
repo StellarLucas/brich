@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "published_at": "2026-11-22",
+      "source": "Reuters",
+      "title": "COP31 climate talks close to final deal, says summit president",
+      "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/",
+      "summary": "COP31气候谈判接近达成最终协议，主席称已拿出各方都能接受的新文本，化石燃料表述与发展中国家气候适应资金问题据称已得到处理；各方须在格林尼治时间03:00前提出异议，周日上午06:00开会批准。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "Moneycontrol",
+      "title": "US Core PCE, Fed hike debate and AI sentiment set to decide whether the metals rout extends",
+      "url": "https://www.moneycontrol.com/news/opinion/us-core-pce-fed-hike-debate-and-ai-sentiment-set-to-decide-whether-the-metals-rout-extends-14086340.html",
+      "summary": "本周全球市场剧烈调整后，美元指数触及19个月高点约103.97，现货金周跌逾9%、白银跌逾15%；下周三公布的美国10月PCE通胀数据与美联储加息辩论将决定贵金属抛售是否延续。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "The Wall Street Journal",
+      "title": "U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
+      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-plunge-as-ai-boom-turns-to-bust-a2d324e7",
+      "summary": "美股续跌，道指与标普500进入技术性回调，纳指抹去年内涨幅；金价期货周跌9.5%、为3月以来最大单周跌幅，白银周跌16%，油价周跌5.2%、连续第三周下跌，美元守在年内高点附近。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Moneycontrol",
+      "title": "'Shock people' with 50-bps rate hike: Fed's Waller issues warning as AI adds to inflation worries",
+      "url": "https://www.moneycontrol.com/news/business/shock-people-with-50-bps-rate-hike-fed-s-waller-issues-warning-as-ai-adds-to-inflation-worries-14084090.html",
+      "summary": "美联储10月会议纪要显示几乎所有官员认为进一步加息合适，两名与会者提出12月若通胀数据不利可考虑超过25个基点的加息；理事沃勒称12月可能需要加息50个基点以“震惊市场”，市场定价12月加息25个基点的概率约95%。"
+    },
+    {
       "published_at": "2026-11-21",
       "source": "Reuters",
       "title": "COP31 climate summit risks failure as talks go deep into overtime",
@@ -111,38 +139,10 @@
       "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
       "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html/amp",
       "summary": "纳指100周跌10.4%、为2020年3月疫情以来最差一周，标普500与道指均较纪录高点回落超10%、确认进入技术性回调；英伟达跌14%，此前路透报道SEC正调查其会计问题，调查本身不等于认定违规。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Investor's Business Daily",
-      "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-worst-week-covid-nvidia-anthropic-vix-fear-gauge/",
-      "summary": "道指与纳指创2020年3月以来最差一周，标普500周跌8.6%、为2025年4月以来最差一周；VIX一周飙升86%、创4月以来最高。12月9日加息不再被市场完全定价，PCE通胀数据将于周三公布。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "KIMKJ",
-      "title": "Global Economy Weekly Review 2026-11-21",
-      "url": "https://kimkj.com/en/economy-board/?mod=document&uid=22601",
-      "summary": "本周回顾：标普500六连跌、为2024年以来最长连跌，纳指、道指同步走弱；美联储10月纪要显示几乎所有官员认为进一步加息合适，沃勒称12月或需加息50个基点；欧元区10月通胀4.0%、创2023年9月以来最高，英国10月通胀3.6%创一年新高；日本三季度GDP年化萎缩0.1%。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Sunday Guardian Live",
-      "title": "Why Is The Stock Market Down Today? Dow Drops Below 50,000 As S&P 500 And Nasdaq Tumble On AI Sell-Off And Rate Hike Fears",
-      "url": "https://sundayguardianlive.com/business/why-is-the-stock-market-down-today-dow-drops-below-50000-as-sp-500-and-nasdaq-tumble-on-ai-sell-off-and-rate-hike-fears-sp-500-index-markets-today-325188/",
-      "summary": "道指跌破5万点、为6月以来首次，标普500与纳指六连跌；AI股抛售叠加12月美联储加息预期打压全球市场，台湾加权指数周跌17.5%、创1991年以来最差单周表现，日经跌5.1%、韩国Kospi跌5.2%，10年期美债收益率升破5%。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Report.az",
-      "title": "Key indicators of world commodity, stock, and currency markets (21.11.2026)",
-      "url": "https://report.az/en/finance/key-indicators-of-world-commodity-stock-and-currency-markets-21-11-2026",
-      "summary": "11月21日全球市场关键指标：布伦特原油92.57美元、WTI 83.41美元，黄金3515.40美元/盎司；道指48147.33点、标普500 6910.39点、纳指22617.73点，日经56436.65点；美元走强背景下主要股指普遍下跌。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 11:25"
+    "updated_at": "2026-11-22 13:25"
   }
 }
