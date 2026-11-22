@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-22",
+      "source": "TipRanks",
+      "title": "The Week That Was, The Week Ahead: Macro and Markets, November 22",
+      "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22",
+      "summary": "美股经历残酷一周：标普500周跌8.6%、创18个月最大单周跌幅，纳指100跌10%、道指跌8%，三大指数进入技术性回调；英伟达因SEC会计调查传闻周跌22.9%，Anthropic以83美元发行价上市；美联储10月会议纪要显示几乎所有官员认为12月再加息25个基点合适，12月9日议息会议为下一个关键节点。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Stockbiz",
+      "title": "Markets on November 20: Gold extends sharp decline amid sell-off, oil edges higher, tin and copper fall sharply, robusta coffee hits 2.5-year low",
+      "url": "https://stockbiz.vn/en/news/markets-on-november-20-gold-extends-sharp-decline-amid-sell-off-oil-edges-higher-tin-and-copper-fall-sharply-robusta-coffee-hits-25-year-low/42860853",
+      "summary": "11月20日金银继续大跌，现货金向3500美元逼近、白银跌破42美元；油价因中东供应担忧小幅回升，但布伦特周跌约3.5%、WTI周跌约6%，原油连续第三周下跌；铜、锡大跌，锡单日跌9.86%，罗布斯塔咖啡创两年半新低。"
+    },
+    {
+      "published_at": "2026-11-22",
       "source": "TradingView",
       "title": "Lisa Cook Says Fed Rate Hikes Could Extend Beyond December",
       "url": "https://www.tradingview.com/news/binance_news:908279ac6094b:0-lisa-cook-says-fed-rate-hikes-could-extend-beyond-december/",
@@ -125,24 +139,10 @@
       "title": "Global Commodity and Agriculture Weekly Review 2026-11-21",
       "url": "https://kimkj.com/en/economy-board/?mod=document&uid=22634",
       "summary": "黄金周跌约9%、创8个月最大单周跌幅，现货金一度跌至3518.50美元、为14个月低点；白银单月跌近29%。布伦特周跌3.4%、WTI周跌5.2%，原油连续第三周下跌；美元指数约103.84、接近19个月高点。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "The Statesman",
-      "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
-      "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html/amp",
-      "summary": "纳指100周跌10.4%、为2020年3月疫情以来最差一周，标普500与道指均较纪录高点回落超10%、确认进入技术性回调；英伟达跌14%，此前路透报道SEC正调查其会计问题，调查本身不等于认定违规。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "LinkedIn",
-      "title": "The Weekly Look at the Global Economy and Markets",
-      "url": "https://www.linkedin.com/pulse/weekly-look-global-economy-markets-mohamed-el-erian-qnyec",
-      "summary": "埃尔-安表示上周美股技术面压倒基本面，标普500周跌3.7%进入回调、纳指单日跌超5%抹去年内涨幅，VIX升至40附近；美联储12月加息25还是50个基点的争论、Anthropic巨额IPO吸走资金与英伟达相关扰动共同加剧抛售，金价跌向3539美元的14个月低点，铜周跌近10%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 17:25"
+    "updated_at": "2026-11-22 19:25"
   }
 }
