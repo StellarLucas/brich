@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "published_at": "2026-11-21",
+      "source": "Reuters",
+      "title": "COP31 climate summit risks failure as talks go deep into overtime",
+      "url": "https://www.reuters.com/sustainability/cop/cop31-climate-summit-risks-failure-talks-go-deep-into-overtime-2026-11-21/",
+      "summary": "COP31气候峰会谈判拖入加时仍未达成协议，欧盟气候专员称要么达成好协议、要么无协议；化石燃料表述与1200亿美元气候适应资金目标成主要分歧，最新草案已删去相关内容。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "The Business Times",
+      "title": "Anthropic slides 9.1% to shrink IPO gain as AI trade unravels",
+      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-slides-9-1-shrink-ipo-gain-ai-trade-unravels",
+      "summary": "Anthropic上市次日跌9.1%至88.30美元、回吐首日大半涨幅，绿鞋行权后募资总额达1195亿美元；2026年美股IPO融资2580亿美元创历史纪录，VIX恐慌指数升破29。"
+    },
+    {
       "published_at": "2026-11-20",
       "source": "CNBC TV18",
       "title": "Nikkei, Kospi fall over 4% each; Asian markets crash as AI sell-off deepens despite record Anthropic IPO",
@@ -125,24 +139,10 @@
       "title": "Key indicators of world commodity, stock, and currency markets (21.11.2026)",
       "url": "https://report.az/en/finance/key-indicators-of-world-commodity-stock-and-currency-markets-21-11-2026",
       "summary": "11月21日全球市场关键指标：布伦特原油92.57美元、WTI 83.41美元，黄金3515.40美元/盎司；道指48147.33点、标普500 6910.39点、纳指22617.73点，日经56436.65点；美元走强背景下主要股指普遍下跌。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Topstep",
-      "title": "Weekly Market Kickoff",
-      "url": "https://www.topstep.com/blog/weekly-market-kickoff",
-      "summary": "本周回顾：标普500周跌7.12%、纳指100跌8.69%，标普500较10月6日纪录高点回落约10%进入技术性回调，VIX突破30；黄金周跌9.2%至3526.70美元、为3月以来最差一周；市场定价12月加息25个基点概率约95%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Reuters",
-      "title": "The snowballing selloff in global markets",
-      "url": "https://www.reuters.com/business/energy/global-markets-selloff-2026-11-20/",
-      "summary": "全球股市自8月高点已蒸发近9万亿美元市值，台湾股市单周跌17%、为1990年代初以来最大跌幅；VIX升至30、为3月以来最高，美元指数创19个月新高，铜创2025年4月以来最大单周跌幅，黄金未能发挥避险作用。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 09:25"
+    "updated_at": "2026-11-22 11:25"
   }
 }
