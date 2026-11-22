@@ -1,9 +1,9 @@
 {
  "meta": {
-  "date": "2026-11-22",
+  "date": "2026-11-23",
   "data_date": "2026-11-20",
   "data_date_label": "2026年11月20日收盘",
-  "updated_at": "2026-11-22 18:00",
+  "updated_at": "2026-11-23 00:00",
   "method": "morningstar-moat-dcf-star-v1",
   "method_note": "晨星护城河+三阶段DCF+星级评级，CFA EIC顺序；红利层自加",
   "cashflow_audit": {
