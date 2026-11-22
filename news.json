@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-22",
+      "source": "Reuters",
+      "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
+      "url": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
+      "summary": "Anthropic 以 83 美元发行价上市、募资 810 亿美元、估值 1.5 万亿美元，首日大涨 17% 后周五回落 8.5%；其 IPO 流程高度压缩、限制投行参与人数，引发华尔街不满；即便创纪录上市也未能扭转 AI 股抛售情绪。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "FXStreet",
+      "title": "Dollar up as Bitcoin, Gold and stocks fall on Fed rate worries",
+      "url": "https://www.fxstreet.com/analysis/dollar-up-as-bitcoin-gold-and-stocks-fall-on-fed-rate-worries-202611221932",
+      "summary": "美元一个月内走强 2.5%，为 14 类主要资产中唯一上涨者，美元指数逼近 103.8、创 4 月以来最高；同期比特币自 9 月低点跌约 17%、金价跌约 14% 并失守 4000 美元；美联储 10 月会议纪要显示几乎所有官员认为需进一步加息，市场预计 12 月加息概率约 95%。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "Barron's",
+      "title": "The Odds of a Fed Rate Hike Are 100%. Why That Would Be 100% Bad.",
+      "url": "https://www.barrons.com/articles/fed-rate-hike-gold-oil-commodities-ccab2b6d",
+      "summary": "CME FedWatch 显示 12 月美联储加息概率为 100%，其中加息 25 个基点概率 94%、50 个基点 6%；但油价、金价与铜价近期大幅回落、美元走强，已显示货币政策偏紧；文章认为美联储依据滞后的通胀数据继续加息可能重蹈过度紧缩覆辙。"
+    },
+    {
+      "published_at": "2026-11-22",
       "source": "Seeking Alpha",
       "summary": "美股一周收跌，Anthropic IPO 未能提振 AI 股情绪；标普500与纳指周跌8%和10%，欧股跌5.7%；美联储10月会议纪要显示官员普遍认为需进一步加息以压低通胀，欧元区通胀升至三年多来最高、达欧洲央行目标两倍。",
       "title": "Global equities suffer weekly losses amid AI rout, inflation worries",
@@ -118,31 +139,10 @@
       "title": "Why Is The Stock Market Down Today? Dow Drops Below 50,000 As S&P 500 And Nasdaq Tumble On AI Sell-Off And Rate Hike Fears",
       "url": "https://sundayguardianlive.com/business/why-is-the-stock-market-down-today-dow-drops-below-50000-as-sp-500-and-nasdaq-tumble-on-ai-sell-off-and-rate-hike-fears-sp-500-index-markets-today-325188/",
       "summary": "道指跌破50000点、标普500与纳指连跌六日，AI股抛售叠加12月美联储加息担忧；抛售蔓延全球，台股周跌17.5%、韩国与日本股市各跌约5%，CME FedWatch显示12月加息25个基点概率达93.9%。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "The Investors News",
-      "title": "Thanksgiving Week Tests AI Growth, Treasury Risk, Housing",
-      "url": "https://theinvestorsnews.com/ai-growth-test-treasury-risks-housing-supply-thanksgiving-week/",
-      "summary": "感恩节周市场面临多重考验：高盛AI篮子自10月6日高点跌32%，标普500周跌8.6%收于6910.39点、纳指周跌10%收于22617.73点，VIX升至35.89；10年期美债收益率一周回落至4.92%，美联储会议纪要提及AI相关债务与融资风险。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Global Eye 24",
-      "title": "Gold, oil and silver fall together to multi-month lows",
-      "url": "https://globaleye24.com/news/gold-oil-and-silver-fall-together-to-multi-month-lows-3109",
-      "summary": "金价跌破3750美元、创2025年9月以来最低，油价跌破82美元、为8月以来首次，白银跌破45美元；投机者连续第七周抛售COMEX铜期货。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Channel News Asia",
-      "title": "Tech leads global stocks rout, Treasury yields fall",
-      "url": "https://www.channelnewsasia.com/business/tech-leads-global-stocks-rout-treasury-yields-fall-6567936",
-      "summary": "科技股领跌全球股市：标普500跌3.7%、纳指跌5.28%、道指跌1.93%，MSCI全球指数跌3.3%、周跌8.1%创2020年初以来最大单周跌幅；10年期美债收益率跌10.43个基点至4.948%，为一个月最大单日跌幅；金价跌至14个月低点，油价周五尾盘反弹。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 05:25"
+    "updated_at": "2026-11-23 07:25"
   }
 }
