@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "published_at": "2026-11-20",
+      "source": "CNBC TV18",
+      "title": "Nikkei, Kospi fall over 4% each; Asian markets crash as AI sell-off deepens despite record Anthropic IPO",
+      "url": "https://www.cnbctv18.com/market/asian-markets-crash-nikkei-kospi-fall-ai-stocks-selloff-global-markets-anthropic-ipo-nasdaq-falls-20038181.htm",
+      "summary": "亚洲股市周五重挫，日经跌4.54%、韩国Kospi跌4.74%，MSCI亚太指数七连跌；Anthropic创纪录IPO未能提振AI板块信心，全球股市逼近三年最长连跌，日元持于159.77、布伦特约92.6美元。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Morningstar",
+      "title": "Dow Jones Top Markets Headlines at 7 PM ET: U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
+      "url": "https://www.morningstar.com/news/dow-jones/202611209362/dow-jones-top-markets-headlines-at-7-pm-et-us-stocks-extend-plunge-as-ai-boom-turns-to-bust-trump",
+      "summary": "美股续跌、超大盘科技股逼近熊市，AI泡沫破裂担忧发酵；美联储官员就12月加息幅度存在分歧，沃勒主张加息50个基点；日本10月核心CPI同比涨2.2%、强化央行加息预期，英国10月借款增加但赤字率收窄至3.5%。"
+    },
+    {
       "published_at": "2026-11-21",
       "source": "The Wall Street Journal",
       "title": "Anthropic's IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street",
@@ -41,20 +55,6 @@
       "title": "Bitcoin falls below $60,000 level",
       "url": "https://www.reuters.com/technology/bitcoin-falls-below-60000-level-2026-11-20/",
       "summary": "比特币周五跌破6万美元、为7月以来首次，收报约59610美元；AI股估值担忧与加息预期打压风险资产，比特币与美股同步下跌。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "FXStreet",
-      "title": "WTI steadies above $82.50 as Middle East tensions offset surplus supply outlook",
-      "url": "https://www.fxstreet.com/news/wti-steadies-above-8250-as-middle-east-tensions-offset-surplus-supply-outlook-202611200045",
-      "summary": "WTI在82.50美元上方企稳，霍尔木兹海峡油轮遇袭担忧抵消美国原油库存上升与全球供应过剩预期；EIA数据显示当周美国原油库存增加338万桶。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Business Times",
-      "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
-      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-gains-iran-war-worries-and-short-covering-ahead-thanksgiving-holiday",
-      "summary": "油价周五尾盘走高，布伦特收于92.57美元、WTI收于83.98美元，因市场担忧美以与伊朗战争可能再度升级及感恩节假期前空头回补；但布伦特本周仍跌近4%，OPEC+将于11月29日开会决定2027年产量政策。"
     },
     {
       "published_at": "2026-11-21",
@@ -143,6 +143,6 @@
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 07:25"
+    "updated_at": "2026-11-22 09:25"
   }
 }
