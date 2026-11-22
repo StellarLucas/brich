@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-22",
+      "source": "Seeking Alpha",
+      "summary": "美股一周收跌，Anthropic IPO 未能提振 AI 股情绪；标普500与纳指周跌8%和10%，欧股跌5.7%；美联储10月会议纪要显示官员普遍认为需进一步加息以压低通胀，欧元区通胀升至三年多来最高、达欧洲央行目标两倍。",
+      "title": "Global equities suffer weekly losses amid AI rout, inflation worries",
+      "url": "https://www.tradingview.com/news/seekingalpha:fadfd2dfa094b:0-global-equities-suffer-weekly-losses-amid-ai-rout-inflation-worries/"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "Gulf Times",
+      "summary": "全球股市自8月高点以来市值蒸发近9万亿美元，台湾股市一周跌17%、为上世纪90年代初以来最大单周跌幅；VIX升至30、为3月下旬以来最高，金价跌至2025年9月以来最低，美元指数走强。",
+      "title": "The snowballing selloff in global financial markets",
+      "url": "https://www.gulf-times.com/article/738772/business/the-snowballing-selloff-in-global-financial-markets"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "AP",
+      "summary": "美联储10月会议纪要显示几乎所有官员预计12月加息25个基点，部分官员支持12月加息50个基点；CME FedWatch显示12月加息概率近95%；美联储理事沃勒称12月可能需要加息半个百分点。",
+      "title": "Fed: Higher interest rates needed in Dec. as inflation worries mount",
+      "url": "https://www.europesays.com/3393113/"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "Gujarat Samachar",
+      "summary": "AI 担忧引发全球抛售，两日蒸发约2.4万亿美元市值；道指跌1101点、纳指跌约2.2%，台股跌6.2%、日经跌约5%；印度 Sensex 与 Nifty 逆势涨逾1%，外资从北亚芯片股流向印度银行股。",
+      "title": "$2.4 Trillion Wiped Out in Two Days as AI Jitters Sink Global Markets, but Sensex and Nifty Rally",
+      "url": "https://english.gujaratsamachar.com/news/business/dollar24-trillion-wiped-out-in-two-days-as-ai-jitters-sink-global-markets-but-sensex-and-nifty-rally-57426703911"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "The Bottom Line",
+      "summary": "美股周五暴跌后亚洲市场严阵以待，标普500跌3.7%、纳指跌5.3%，英伟达因 SEC 调查传闻跌14%；财长贝森特警告美联储过度紧缩可能危及经济，市场关注本周美国消费数据。",
+      "title": "Asia braces after Wall Street rout",
+      "url": "https://www.thebottomline.co.nz/asia-braces-after-wall-street-rout/"
+    },
+    {
+      "published_at": "2026-11-22",
       "source": "Reuters",
       "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
       "url": "https://www.reuters.com/business/finance/correction-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-2026-11-22/",
@@ -104,45 +139,10 @@
       "title": "Tech leads global stocks rout, Treasury yields fall",
       "url": "https://www.channelnewsasia.com/business/tech-leads-global-stocks-rout-treasury-yields-fall-6567936",
       "summary": "科技股领跌全球股市：标普500跌3.7%、纳指跌5.28%、道指跌1.93%，MSCI全球指数跌3.3%、周跌8.1%创2020年初以来最大单周跌幅；10年期美债收益率跌10.43个基点至4.948%，为一个月最大单日跌幅；金价跌至14个月低点，油价周五尾盘反弹。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "The Wall Street Journal",
-      "title": "U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
-      "url": "https://www.wsj.com/finance/stocks/u-s-stocks-extend-plunge-as-ai-boom-turns-to-bust-a2d324e7",
-      "summary": "美股续跌，道指与标普500进入技术性回调，纳指抹去年内涨幅；金价期货周跌9.5%、为3月以来最大单周跌幅，白银周跌16%，油价周跌5.2%、连续第三周下跌，美元守在年内高点附近。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Reuters",
-      "title": "COP31 climate summit risks failure as talks go deep into overtime",
-      "url": "https://www.reuters.com/sustainability/cop/cop31-climate-summit-risks-failure-talks-go-deep-into-overtime-2026-11-21/",
-      "summary": "COP31气候峰会谈判拖入加时仍未达成协议，欧盟气候专员称要么达成好协议、要么无协议；化石燃料表述与1200亿美元气候适应资金目标成主要分歧，最新草案已删去相关内容。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "The Business Times",
-      "title": "Anthropic slides 9.1% to shrink IPO gain as AI trade unravels",
-      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/anthropic-slides-9-1-shrink-ipo-gain-ai-trade-unravels",
-      "summary": "Anthropic上市次日跌9.1%至88.30美元、回吐首日大半涨幅，绿鞋行权后募资总额达1195亿美元；2026年美股IPO融资2580亿美元创历史纪录，VIX恐慌指数升破29。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "The Wall Street Journal",
-      "title": "Anthropic's IPO Turmoil Caps $4 Trillion AI Wipeout on Wall Street",
-      "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90",
-      "summary": "史上最大IPO Anthropic上市次日跌8.5%，纳指单日跌5.3%、抹去年内全部涨幅；标普500周跌8.6%进入技术性回调，纳指周跌10%、创2020年3月以来最差一周，科技股市值一周蒸发逾4万亿美元。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "The Wall Street Journal",
-      "title": "Gold, Silver Drop to Lowest Levels in Over a Year",
-      "url": "https://www.wsj.com/finance/commodities-futures/gold-silver-drop-to-lowest-levels-in-over-a-year-c657402c",
-      "summary": "金银周五跌至一年多来最低，12月黄金期货跌3.4%至3561.70美元/盎司，白银跌约2.1%至41.84美元；黄金本周跌近8%、白银跌14%，加息预期与强美元压制贵金属，避险需求未能发挥作用。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 03:25"
+    "updated_at": "2026-11-23 05:25"
   }
 }
