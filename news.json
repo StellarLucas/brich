@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-22",
+      "source": "Reuters",
+      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
+      "url": "https://www.reuters.com/business/finance/correction-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-2026-11-22/",
+      "summary": "美股暴跌后投资者寻找抛售见底信号：标普500自10月6日历史高点跌11.6%，连续七个交易日下跌、创2020年疫情以来最长连跌；美联储12月8-9日议息会议成关键节点，市场普遍预计加息25个基点。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "The Straits Times",
+      "title": "Wall Street slumps on AI selloff, S&P 500 in correction",
+      "url": "https://www.straitstimes.com/business/companies-markets/wall-st-ends-sharply-lower-on-ai-selloff-sp-500-dow-in-correction",
+      "summary": "美股11月20日续跌，标普500与道指确认进入技术性回调，纳指创2020年3月以来最大单周跌幅；道指跌949.73点至48147.33点，标普500跌3.70%至6910.42点，纳指跌5.28%至22617.73点；美联储理事库克称政策利率尚不足以应对当前通胀水平。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "KuCoin",
+      "title": "Next Week's Outlook: Key U.S. Data and Fed Insights Test Rate Hike Expectations",
+      "url": "https://www.kucoin.com/news/flash/next-week-outlook-key-u-s-data-and-fed-insights-test-rate-hike-expectations",
+      "summary": "下周市场聚焦美国核心PCE、美联储褐皮书与官员讲话，将检验加息预期；美元指数逼近104、创约19个月高点，现货金周跌8.84%收于3537美元/盎司，白银周跌15.39%至41.20美元。"
+    },
+    {
+      "published_at": "2026-11-22",
       "source": "Financial Express",
       "title": "Wall Street faces sharp declines as AI stocks sell off, pushing S&P 500 and Dow into correction",
       "url": "https://www.financialexpress.com/market/global-markets/wall-streets-brutal-week-raises-black-monday-fears-what-does-history-really-tell-us/4391027/",
@@ -118,31 +139,10 @@
       "title": "Gold, Silver Drop to Lowest Levels in Over a Year",
       "url": "https://www.wsj.com/finance/commodities-futures/gold-silver-drop-to-lowest-levels-in-over-a-year-c657402c",
       "summary": "金银周五跌至一年多来最低，12月黄金期货跌3.4%至3561.70美元/盎司，白银跌约2.1%至41.84美元；黄金本周跌近8%、白银跌14%，加息预期与强美元压制贵金属，避险需求未能发挥作用。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Morningstar",
-      "title": "Tech Stocks Suffer Worst Week Since 2020 as Anthropic Faces Day Two Decline",
-      "url": "https://www.morningstar.com/stocks/tech-stocks-slide-anthropic-faces-day-two-decline",
-      "summary": "全球科技股周五续跌，Anthropic上市次日再跌9%；晨星美国科技指数周跌逾12%、创2020年3月以来最差一周，英伟达单日跌13.8%，博通、Marvell各跌约12%。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Fox Business",
-      "title": "Wall Street suffers historic losses as Dow, S&P 500 plunge into correction territory",
-      "url": "https://foxbusiness.com/markets/wall-street-suffers-historic-losses-dow-sp-500-plunge-correction-territory",
-      "summary": "道指周五跌近950点、标普500跌3.7%、纳指跌5.28%，道指与标普500双双进入技术性回调，纳指抹去全年涨幅；英伟达跌约14%、Anthropic上市次日跌约9%，标普500创2025年4月以来最差一周。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "The Business Times",
-      "title": "Bitcoin falls to more than two-year low as global markets sink",
-      "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bitcoin-falls-more-two-year-low-global-markets-sink",
-      "summary": "比特币周五一度跌至57716美元、为2024年9月以来最低，较10月逾12.6万美元的历史高点跌超50%；24小时内约20亿美元加密多头仓位被清算，现货比特币ETF持续资金流出。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 01:25"
+    "updated_at": "2026-11-23 03:25"
   }
 }
