@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-22",
+      "source": "TradingView",
+      "title": "Lisa Cook Says Fed Rate Hikes Could Extend Beyond December",
+      "url": "https://www.tradingview.com/news/binance_news:908279ac6094b:0-lisa-cook-says-fed-rate-hikes-could-extend-beyond-december/",
+      "summary": "美联储理事库克表示，高通胀可能需要进一步加息，9月单次加息25个基点未必足以改变通胀路径；她警告拖延行动可能迫使未来加息更快、幅度更大；CME FedWatch显示12月加息概率约88.6%，10月PCE通胀数据将于11月25日公布。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "Channel News Asia",
+      "title": "Tech leads global stocks rout, Treasury yields fall",
+      "url": "https://www.channelnewsasia.com/business/tech-leads-global-stocks-rout-treasury-yields-fall-6567936",
+      "summary": "科技股领跌全球股市：标普500跌3.7%、纳指跌5.28%、道指跌1.93%，MSCI全球指数跌3.3%、周跌8.1%创2020年初以来最大单周跌幅；10年期美债收益率跌10.43个基点至4.948%，为一个月最大单日跌幅；金价跌至14个月低点，油价周五尾盘反弹。"
+    },
+    {
+      "published_at": "2026-11-22",
       "source": "Reuters",
       "title": "COP31 climate talks close to final deal, says summit president",
       "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/",
@@ -125,24 +139,10 @@
       "title": "The Weekly Look at the Global Economy and Markets",
       "url": "https://www.linkedin.com/pulse/weekly-look-global-economy-markets-mohamed-el-erian-qnyec",
       "summary": "埃尔-安表示上周美股技术面压倒基本面，标普500周跌3.7%进入回调、纳指单日跌超5%抹去年内涨幅，VIX升至40附近；美联储12月加息25还是50个基点的争论、Anthropic巨额IPO吸走资金与英伟达相关扰动共同加剧抛售，金价跌向3539美元的14个月低点，铜周跌近10%。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "CNBC TV18",
-      "title": "Nikkei, Kospi fall over 4% each; Asian markets crash as AI sell-off deepens despite record Anthropic IPO",
-      "url": "https://www.cnbctv18.com/market/asian-markets-crash-nikkei-kospi-fall-ai-stocks-selloff-global-markets-anthropic-ipo-nasdaq-falls-20038181.htm",
-      "summary": "亚洲股市周五重挫，日经跌4.54%、韩国Kospi跌4.74%，MSCI亚太指数七连跌；Anthropic创纪录IPO未能提振AI板块信心，全球股市逼近三年最长连跌，日元持于159.77、布伦特约92.6美元。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "Morningstar",
-      "title": "Dow Jones Top Markets Headlines at 7 PM ET: U.S. Stocks Extend Plunge as AI Boom Turns to Bust",
-      "url": "https://www.morningstar.com/news/dow-jones/202611209362/dow-jones-top-markets-headlines-at-7-pm-et-us-stocks-extend-plunge-as-ai-boom-turns-to-bust-trump",
-      "summary": "美股续跌、超大盘科技股逼近熊市，AI泡沫破裂担忧发酵；美联储官员就12月加息幅度存在分歧，沃勒主张加息50个基点；日本10月核心CPI同比涨2.2%、强化央行加息预期，英国10月借款增加但赤字率收窄至3.5%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 15:25"
+    "updated_at": "2026-11-22 17:25"
   }
 }
