@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-22",
+      "source": "Financial Express",
+      "title": "Wall Street faces sharp declines as AI stocks sell off, pushing S&P 500 and Dow into correction",
+      "url": "https://www.financialexpress.com/market/global-markets/wall-streets-brutal-week-raises-black-monday-fears-what-does-history-really-tell-us/4391027/",
+      "summary": "美股一周惨跌：标普500与道指进入技术性回调，纳指抹去2026年内全部涨幅；高盛恐慌指数升至9/10，动量交易者过去一个月已抛售570亿美元股票，网上出现“黑色星期一”担忧。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "Calcalist Tech",
+      "title": "Is the AI bubble finally bursting, or is Wall Street just catching its breath?",
+      "url": "https://www.calcalistech.com/ctechnews/article/rjwsn4ejqx",
+      "summary": "纳指创疫情以来最差一周、跌10%，抹去年内涨幅；英伟达一周跌超20%、11月以来跌近40%，Anthropic IPO首日大涨后回落；自10月6日高点以来美股总市值蒸发约6万亿美元。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "NDTV Profit",
+      "title": "Nasdaq Wipes Out 2026 Gains As S&P, Dow Sink Into Correction: Top Five Drags Behind The Selloff",
+      "url": "https://www.ndtvprofit.com/markets/s-p-500-dow-hit-correction-nasdaq-turns-negative-for-2026-top-five-drags-behind-wall-streets-selloff-12361003/amp/1",
+      "summary": "标普500跌破200日均线、道指与标普进入回调，纳指年内转负；五大拖累因素包括Anthropic IPO、英伟达风波、通胀压力下的美联储加息预期、AI盈利放缓等。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "Global Eye 24",
+      "title": "Gold, oil and silver fall together to multi-month lows",
+      "url": "https://globaleye24.com/news/gold-oil-and-silver-fall-together-to-multi-month-lows-3109",
+      "summary": "金价跌破3750美元、创2025年9月以来最低，油价跌破82美元、为8月以来首次，白银跌破45美元；投机者连续第七周抛售COMEX铜期货。"
+    },
+    {
+      "published_at": "2026-11-20",
+      "source": "Marc to Market",
+      "title": "Oil and Stocks Drive Rates Lower, and Take Some Shine Off the US Dollar",
+      "url": "https://www.marctomarket.com/2026/11/oil-and-stocks-drive-rates-lower-and.html",
+      "summary": "股市暴跌与油价走软推动美债收益率下行，10年期美债收益率一周跌近15个基点；美元兑日元一度逼近160后回落至158.70附近，金价连续第五个交易日下跌。"
+    },
+    {
+      "published_at": "2026-11-22",
       "source": "TipRanks",
       "title": "The Week That Was, The Week Ahead: Macro and Markets, November 22",
       "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22",
@@ -104,45 +139,10 @@
       "title": "Bitcoin falls to more than two-year low as global markets sink",
       "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bitcoin-falls-more-two-year-low-global-markets-sink",
       "summary": "比特币周五一度跌至57716美元、为2024年9月以来最低，较10月逾12.6万美元的历史高点跌超50%；24小时内约20亿美元加密多头仓位被清算，现货比特币ETF持续资金流出。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "T. Rowe Price",
-      "title": "Global Markets Weekly Update",
-      "url": "https://www.troweprice.com/institutional/us/en/insights/articles/resources/global-markets-weekly-update.html?placementGUID=SM_LinkedIn-EMP-883426&hss_meta=eyJvcmdhbml6YXRpb25faWQiOiA5MjgsICJncm91cF9pZCI6IDg4MzQyNiwgImFzc2V0X2lkIjogMTk4MjAxMSwgImdyb3VwX2NvbnRlbnRfaWQiOiAxMjM4NzQwMzMsICJncm91cF9uZXR3b3JrX2NvbnRlbnRfaWQiOiAxOTE5MTA2NDN9",
-      "summary": "美股创2025年4月以来最差一周，标普500周跌8.6%、纳指跌10%，AI估值担忧与美联储紧缩预期双重打压；10月FOMC纪要显示几乎所有官员认为进一步加息合适，沃勒主张12月加息50个基点；10年期美债收益率回落至4.93%附近。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Upstox",
-      "title": "Crude oil falls over 3% over the week, aluminium sinks 6%, silver tumbles 16%; key factors to know",
-      "url": "https://upstox.com/news/market-news/commodities/crude-oil-falls-over-3-over-the-week-aluminium-sinks-6-silver-falls-16-key-factors-to-know/article-203803/",
-      "summary": "布伦特周跌超3%、WTI跌6%，原油连续第三周下跌；铝周跌6%、铜跌10%至七个多月低点，白银单周跌16%；美元指数创19个月新高，强美元与美联储加息预期共同压制大宗商品。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Charles Schwab",
-      "title": "Markets' November Nightmare Keeps Getting Worse",
-      "url": "https://www.schwab.com/learn/story/market-volatility",
-      "summary": "美股本周创2025年4月以来最差一周，标普500七连跌、为2020年2月以来最长连跌，与道指一同进入技术性回调；纳指年内转跌。英伟达财报亮眼仍大跌，SEC调查其会计问题的报道加压；Anthropic上市次日跌9%。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "Ynetnews",
-      "title": "Wall Street plunges as AI fears mount: What it means for investors",
-      "url": "https://www.ynetnews.com/business/article/bkt00xtc0me",
-      "summary": "纳指周跌约10%、创2020年3月以来最大单周跌幅，年内涨幅全部回吐；英伟达单日跌14%、全周跌23%，单日市值蒸发约4850亿美元；Anthropic上市次日跌8.5%、逼近83美元发行价。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "KIMKJ",
-      "title": "Global Commodity and Agriculture Weekly Review 2026-11-21",
-      "url": "https://kimkj.com/en/economy-board/?mod=document&uid=22634",
-      "summary": "黄金周跌约9%、创8个月最大单周跌幅，现货金一度跌至3518.50美元、为14个月低点；白银单月跌近29%。布伦特周跌3.4%、WTI周跌5.2%，原油连续第三周下跌；美元指数约103.84、接近19个月高点。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-22 19:25"
+    "updated_at": "2026-11-22 21:25"
   }
 }
