@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "SWI swissinfo.ch",
+      "title": "Nasdaq, S&P 500 Futures Bounce After Friday’s Rout: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/nasdaq%2c-s%26p-500-futures-bounce-after-fridays-rout%3a-markets-wrap/92421262",
+      "summary": "美股期货周一早盘反弹，标普500期货涨1.9%、纳指100期货涨2.6%；韩国KOSPI早盘跌2.6%，MSCI亚太指数较6月高点跌约18%逼近熊市；中国放宽保证金融资、台湾收紧做空、韩国拟动用股市稳定基金；布伦特跌至约91.8美元，现货金反弹1.1%至约3575美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "TradingView",
+      "title": "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease",
+      "url": "https://www.tradingview.com/news/moneycontrol:a87e12ec2094b:0-commodity-corner-crude-oil-slips-on-supply-concerns-gold-rebounds-as-fed-rate-hike-bets-ease/",
+      "summary": "布伦特跌破92美元、WTI约83美元，市场权衡原油出口强劲与中东局势升级风险；金价反弹约2%至3582美元，此前一周跌9%创八个月最大单周跌幅；白银涨2.6%至42.21美元；交易员削减对美联储近期加息的赌注。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "The Business Times",
+      "title": "Gold rebounds as traders pare bets on near-term Fed rate hikes",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/gold-rebounds-traders-pare-bets-near-term-fed-rate-hikes",
+      "summary": "金价反弹，现货金涨1.1%至3578.24美元，此前一周跌9%至14个月低点；科技股抛售推动资金转向避险资产，美债收益率与美元回落；白银涨2.6%至42.21美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "The Edge Singapore",
+      "title": "Oil edges lower as ample supply outweighs Middle East tensions",
+      "url": "https://www.theedgesingapore.com/news/oil-gas/oil-edges-lower-ample-supply-outweighs-middle-east-tensions",
+      "summary": "布伦特约92美元、WTI约83美元，充足供应压过中东紧张局势；布伦特上周跌3.4%；市场认为油价中已含约25–30美元的美伊战争升级溢价。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "Reuters",
       "title": "US futures bounce while Asia markets brace for AI wipeout",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-22/",
@@ -111,38 +139,10 @@
       "title": "Nasdaq Wipes Out 2026 Gains As S&P, Dow Sink Into Correction: Top Five Drags Behind The Selloff",
       "url": "https://www.ndtvprofit.com/markets/s-p-500-dow-hit-correction-nasdaq-turns-negative-for-2026-top-five-drags-behind-wall-streets-selloff-12361003/amp/1",
       "summary": "标普500跌破200日均线、道指与标普进入回调，纳指年内转负；五大拖累因素包括Anthropic IPO、英伟达风波、通胀压力下的美联储加息预期、AI盈利放缓等。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "TipRanks",
-      "title": "The Week That Was, The Week Ahead: Macro and Markets, November 22",
-      "url": "https://www.tipranks.com/news/the-week-that-was-the-week-ahead-macro-and-markets-november-22",
-      "summary": "美股经历残酷一周：标普500周跌8.6%、创18个月最大单周跌幅，纳指100跌10%、道指跌8%，三大指数进入技术性回调；英伟达因SEC会计调查传闻周跌22.9%，Anthropic以83美元发行价上市；美联储10月会议纪要显示几乎所有官员认为12月再加息25个基点合适，12月9日议息会议为下一个关键节点。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "TradingView",
-      "title": "Lisa Cook Says Fed Rate Hikes Could Extend Beyond December",
-      "url": "https://www.tradingview.com/news/binance_news:908279ac6094b:0-lisa-cook-says-fed-rate-hikes-could-extend-beyond-december/",
-      "summary": "美联储理事库克表示，高通胀可能需要进一步加息，9月单次加息25个基点未必足以改变通胀路径；她警告拖延行动可能迫使未来加息更快、幅度更大；CME FedWatch显示12月加息概率约88.6%，10月PCE通胀数据将于11月25日公布。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Reuters",
-      "title": "COP31 climate talks close to final deal, says summit president",
-      "url": "https://www.reuters.com/sustainability/cop/cop31-climate-talks-close-final-deal-says-summit-president-2026-11-21/",
-      "summary": "COP31气候谈判接近达成最终协议，主席称已拿出各方都能接受的新文本，化石燃料表述与发展中国家气候适应资金问题据称已得到处理；各方须在格林尼治时间03:00前提出异议，周日上午06:00开会批准。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Moneycontrol",
-      "title": "US Core PCE, Fed hike debate and AI sentiment set to decide whether the metals rout extends",
-      "url": "https://www.moneycontrol.com/news/opinion/us-core-pce-fed-hike-debate-and-ai-sentiment-set-to-decide-whether-the-metals-rout-extends-14086340.html",
-      "summary": "本周全球市场剧烈调整后，美元指数触及19个月高点约103.97，现货金周跌逾9%、白银跌逾15%；下周三公布的美国10月PCE通胀数据与美联储加息辩论将决定贵金属抛售是否延续。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 09:25"
+    "updated_at": "2026-11-23 11:25"
   }
 }
