@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "TradingView",
+      "title": "Billionaire Bill Ackman warns Fed will make a rate 'mistake' in December",
+      "url": "https://www.tradingview.com/news/cointelegraph:8e7f947c4094b:0-billionaire-bill-ackman-warns-fed-will-make-a-rate-mistake-in-december/",
+      "summary": "亿万富翁投资者阿克曼周日警告，美联储若继续加息以把通胀压回2%将把美国和世界推向衰退，主张通胀目标改为3%；财长贝森特亦警告过度紧缩风险；CME FedWatch显示12月9日加息25个基点概率约91.2%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Rivkin",
+      "title": "Morning Market Wrap - The Rivkin Report",
+      "url": "https://rivkin.com.au/hide/morning-market-wrap-today/",
+      "summary": "美股周五连跌七日，标普500跌3.7%进入技术性回调、纳指100创2020年3月以来最差一周，英伟达因SEC会计调查传闻跌14%；欧洲斯托克600创2025年4月以来最差一周；铜价跌至3月以来最低，布伦特约92.57美元、现货金3538美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Gulf News",
+      "title": "Oil, natural gas slip as gold jumps over 1.5% in Monday trade",
+      "url": "https://gulfnews.com/business/energy/oil-natural-gas-slip-as-gold-jumps-over-15-in-monday-trade-1.500757397",
+      "summary": "周一油价走低，WTI约83.01美元、布伦特约91.96美元，天然气跌约4%；金价涨逾1.5%，贵金属走高；EIA 11月展望预计布伦特年内维持在100美元附近。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "SWI swissinfo.ch",
       "title": "Nasdaq, S&P 500 Futures Bounce After Friday’s Rout: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/nasdaq%2c-s%26p-500-futures-bounce-after-fridays-rout%3a-markets-wrap/92421262",
@@ -118,31 +139,10 @@
       "title": "Next Week's Outlook: Key U.S. Data and Fed Insights Test Rate Hike Expectations",
       "url": "https://www.kucoin.com/news/flash/next-week-outlook-key-u-s-data-and-fed-insights-test-rate-hike-expectations",
       "summary": "下周市场聚焦美国核心PCE、美联储褐皮书与官员讲话，将检验加息预期；美元指数逼近104、创约19个月高点，现货金周跌8.84%收于3537美元/盎司，白银周跌15.39%至41.20美元。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Financial Express",
-      "title": "Wall Street faces sharp declines as AI stocks sell off, pushing S&P 500 and Dow into correction",
-      "url": "https://www.financialexpress.com/market/global-markets/wall-streets-brutal-week-raises-black-monday-fears-what-does-history-really-tell-us/4391027/",
-      "summary": "美股一周惨跌：标普500与道指进入技术性回调，纳指抹去2026年内全部涨幅；高盛恐慌指数升至9/10，动量交易者过去一个月已抛售570亿美元股票，网上出现“黑色星期一”担忧。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Calcalist Tech",
-      "title": "Is the AI bubble finally bursting, or is Wall Street just catching its breath?",
-      "url": "https://www.calcalistech.com/ctechnews/article/rjwsn4ejqx",
-      "summary": "纳指创疫情以来最差一周、跌10%，抹去年内涨幅；英伟达一周跌超20%、11月以来跌近40%，Anthropic IPO首日大涨后回落；自10月6日高点以来美股总市值蒸发约6万亿美元。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "NDTV Profit",
-      "title": "Nasdaq Wipes Out 2026 Gains As S&P, Dow Sink Into Correction: Top Five Drags Behind The Selloff",
-      "url": "https://www.ndtvprofit.com/markets/s-p-500-dow-hit-correction-nasdaq-turns-negative-for-2026-top-five-drags-behind-wall-streets-selloff-12361003/amp/1",
-      "summary": "标普500跌破200日均线、道指与标普进入回调，纳指年内转负；五大拖累因素包括Anthropic IPO、英伟达风波、通胀压力下的美联储加息预期、AI盈利放缓等。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 11:25"
+    "updated_at": "2026-11-23 13:26"
   }
 }
