@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "The Statesman",
+      "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
+      "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html",
+      "summary": "纳指100上周跌约10.4%、创疫情以来最差单周，标普500七连跌、道指与标普均进入技术性回调；英伟达因SEC会计调查报道单日跌近14%、周跌约23%，Anthropic上市次日跌约9%回吐部分首日涨幅；市场质疑AI巨额投入的回报。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Channel News Asia",
+      "title": "Oil falls on increased Middle East flows, Libyan pipeline restart",
+      "url": "https://www.channelnewsasia.com/business/oil-falls-increased-middle-east-flows-libyan-pipeline-restart-6573726",
+      "summary": "布伦特跌2.18%至90.55美元、WTI跌1.91%至81.82美元，盘中布伦特创两周新低89.48美元、WTI创8月27日以来新低80.55美元；中东供应增加与利比亚输油管道重启压低油价；OPEC+部长级会议定于11月29日决定2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "Barron's",
       "title": "Markets Surge but Beware This Post-Bloodbath Bounce",
       "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112326/card/beware-this-post-bloodbath-bounce-4HzToPyNbJnY4XcGcliB",
@@ -125,24 +139,10 @@
       "title": "Oil edges lower as ample supply outweighs Middle East tensions",
       "url": "https://www.theedgesingapore.com/news/oil-gas/oil-edges-lower-ample-supply-outweighs-middle-east-tensions",
       "summary": "布伦特约92美元、WTI约83美元，充足供应压过中东紧张局势；布伦特上周跌3.4%；市场认为油价中已含约25–30美元的美伊战争升级溢价。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Reuters",
-      "title": "US futures bounce while Asia markets brace for AI wipeout",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-22/",
-      "summary": "美股期货周一开盘反弹，纳指100期货涨约2%、标普500期货涨约1%，亚洲市场则严阵以待；上周纳指跌10%、创2020年3月以来最大单周跌幅，台股周跌17%、为1990年以来最大单周跌幅，费城半导体指数周五跌10%。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "TradingView",
-      "title": "Japan Week Ahead: Rising Costs, Weak Yen Hurting Households but BOJ Board Seen Leaning Toward Another Rate Hike in December",
-      "url": "https://www.tradingview.com/news/macenews:b459fd8cd094b:0-japan-week-ahead-rising-costs-weak-yen-hurting-households-but-boj-board-seen-leaning-toward-another-rate-hike-in-december/",
-      "summary": "日本央行12月17-18日会议料再加息25个基点至1.50%，为本轮第七次加息；10月全国CPI同比升2.3%，东京11月核心CPI预计升2.9%、创16个月新高；日元疲软与成本上升持续挤压家庭消费，三季度GDP已小幅萎缩。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 21:25"
+    "updated_at": "2026-11-23 23:25"
   }
 }
