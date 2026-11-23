@@ -1,6 +1,20 @@
 {
   "items": [
     {
+      "published_at": "2026-11-23",
+      "source": "Reuters",
+      "title": "US futures bounce while Asia markets brace for AI wipeout",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-22/",
+      "summary": "美股期货周一开盘反弹，纳指100期货涨约2%、标普500期货涨约1%，亚洲市场则严阵以待；上周纳指跌10%、创2020年3月以来最大单周跌幅，台股周跌17%、为1990年以来最大单周跌幅，费城半导体指数周五跌10%。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "TradingView",
+      "title": "Japan Week Ahead: Rising Costs, Weak Yen Hurting Households but BOJ Board Seen Leaning Toward Another Rate Hike in December",
+      "url": "https://www.tradingview.com/news/macenews:b459fd8cd094b:0-japan-week-ahead-rising-costs-weak-yen-hurting-households-but-boj-board-seen-leaning-toward-another-rate-hike-in-december/",
+      "summary": "日本央行12月17-18日会议料再加息25个基点至1.50%，为本轮第七次加息；10月全国CPI同比升2.3%，东京11月核心CPI预计升2.9%、创16个月新高；日元疲软与成本上升持续挤压家庭消费，三季度GDP已小幅萎缩。"
+    },
+    {
       "published_at": "2026-11-22",
       "source": "Reuters",
       "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
@@ -125,24 +139,10 @@
       "title": "US Core PCE, Fed hike debate and AI sentiment set to decide whether the metals rout extends",
       "url": "https://www.moneycontrol.com/news/opinion/us-core-pce-fed-hike-debate-and-ai-sentiment-set-to-decide-whether-the-metals-rout-extends-14086340.html",
       "summary": "本周全球市场剧烈调整后，美元指数触及19个月高点约103.97，现货金周跌逾9%、白银跌逾15%；下周三公布的美国10月PCE通胀数据与美联储加息辩论将决定贵金属抛售是否延续。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "TalkMarkets",
-      "title": "Stock Market Next Week: Can Stocks And The Euro Fall Further?",
-      "url": "https://talkmarkets.com/article/stock-market-next-week-can-stocks-and-the-euro-fall-further",
-      "summary": "纳指100创2020年3月以来最差一周、跌10.43%，标普500周跌8.61%、芯片股跌17.1%，VIX升至35.89、为过去一年最高收盘；金价跌至3538美元，欧元兑美元跌至1.0968；文章认为纳指100未来数周可能再跌10%。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Sunday Guardian Live",
-      "title": "Why Is The Stock Market Down Today? Dow Drops Below 50,000 As S&P 500 And Nasdaq Tumble On AI Sell-Off And Rate Hike Fears",
-      "url": "https://sundayguardianlive.com/business/why-is-the-stock-market-down-today-dow-drops-below-50000-as-sp-500-and-nasdaq-tumble-on-ai-sell-off-and-rate-hike-fears-sp-500-index-markets-today-325188/",
-      "summary": "道指跌破50000点、标普500与纳指连跌六日，AI股抛售叠加12月美联储加息担忧；抛售蔓延全球，台股周跌17.5%、韩国与日本股市各跌约5%，CME FedWatch显示12月加息25个基点概率达93.9%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 07:25"
+    "updated_at": "2026-11-23 09:25"
   }
 }
