@@ -2,10 +2,17 @@
   "items": [
     {
       "published_at": "2026-11-23",
-      "source": "PANews",
-      "title": "Wall Street Morning Brief: Aftershocks of AI Deleveraging Persist as US Index Futures Rebound, Yet Investors Stay on the Sidelines",
-      "url": "https://www.panews.io/articles/01a206d4-cbec-7094-a01b-2e8f8e250c4d",
-      "summary": "美股三大指数期货周一亚洲时段反弹，纳指期货涨2.83%、标普500期货涨2.17%，但现货技术面已严重受损；上周标普500七连跌、纳指周跌超10%并抹去年内涨幅；12月美联储加息概率略降至91.4%–95.2%；10年期美债收益率跌至4.90%，现货金反弹逾2.5%突破3600美元。"
+      "source": "The New Indian Express",
+      "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction",
+      "url": "https://www.newindianexpress.com/business/2026/Nov/23/asian-shares-mostly-fall-after-sp-500-drops-37-into-a-correction",
+      "summary": "周一亚洲股市多数下跌，标普500上周五跌3.7%进入技术性回调，较10月6日高点跌超10%；英伟达因SEC会计调查传闻跌14%、Anthropic上市次日回落8.5%至88.91美元；标普500期货周一早盘涨1.9%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "interest.co.nz",
+      "title": "Breakfast briefing: Waiting for the herd",
+      "url": "https://www.interest.com.au/economy/999/eyes-wall-street-japan-inflation-china-foreign-direct-investment-inflows-slow-taiwan",
+      "summary": "金价一周跌9.1%至约3535美元、白银周跌16.3%，铜价较11月初跌17.3%；韩国央行料加息25个基点至3.25%，日本10月通胀升至2.3%；布伦特约92.5美元、WTI约83.5美元；10年期美债收益率跌至4.91%。"
     },
     {
       "published_at": "2026-11-23",
@@ -132,17 +139,10 @@
       "summary": "AI 担忧引发全球抛售，两日蒸发约2.4万亿美元市值；道指跌1101点、纳指跌约2.2%，台股跌6.2%、日经跌约5%；印度 Sensex 与 Nifty 逆势涨逾1%，外资从北亚芯片股流向印度银行股。",
       "title": "$2.4 Trillion Wiped Out in Two Days as AI Jitters Sink Global Markets, but Sensex and Nifty Rally",
       "url": "https://english.gujaratsamachar.com/news/business/dollar24-trillion-wiped-out-in-two-days-as-ai-jitters-sink-global-markets-but-sensex-and-nifty-rally-57426703911"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "The Bottom Line",
-      "summary": "美股周五暴跌后亚洲市场严阵以待，标普500跌3.7%、纳指跌5.3%，英伟达因 SEC 调查传闻跌14%；财长贝森特警告美联储过度紧缩可能危及经济，市场关注本周美国消费数据。",
-      "title": "Asia braces after Wall Street rout",
-      "url": "https://www.thebottomline.co.nz/asia-braces-after-wall-street-rout/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 15:26"
+    "updated_at": "2026-11-23 17:25"
   }
 }
