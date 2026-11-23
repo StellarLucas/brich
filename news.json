@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "XTB",
+      "title": "Morning Wrap: Technical rebound after AI crash and Asian interventions",
+      "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-technical-rebound-after-ai-crash-and-asian-interventions",
+      "summary": "美股期货周一强劲反弹，纳指100期货涨约2.3%、标普500涨1.6%；韩国拟设约80亿美元股市稳定基金、中国下调保证金比例至80%、台湾收紧做空；金价涨逾2%至约3615美元，白银涨3.1%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "CryptoCompass",
+      "title": "U.S. Futures Rebound as Rate Hike Expectations Taper",
+      "url": "https://cryptocompass.com/articles/u-s-futures-rebound-as-rate-hike-expectations-taper",
+      "summary": "美股期货反弹，纳指100期货涨3.1%、标普500涨2.2%；市场已完全排除12月加息50个基点的可能，现预计加息25个基点；金价反弹2.3%至约3620美元，比特币回升至6.16万美元上方。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Reuters",
+      "title": "Dollar edges off 19-month high after stocks rout; yen softens",
+      "url": "https://live.euronext.com/en/financial-news/dollar-edges-19-month-high-after-stocks-rout-yen-softens",
+      "summary": "美元自19个月高点回落，美元指数跌0.2%至103.6；交易员削减对美联储12月大幅加息的押注，CME FedWatch显示加息25个基点概率约94%、加息50个基点已完全排除；欧元涨0.3%至1.0998美元，英镑涨0.3%至1.3125美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "TraderFactor",
+      "title": "Market Outlook This Week: US PCE, Flash PMIs and Fed Rate Hike Bets in Focus After Stocks Crash and Gold Slumps",
+      "url": "https://traderfactor.com/market-outlook-us-pce-flash-pmis-and-fed-rate-hike/",
+      "summary": "本周焦点为周三公布的美国10月PCE通胀数据，或影响12月8–9日FOMC会议预期，核心PCE预计环比升0.3%、同比升3.2%；另有全球闪点PMI、澳洲CPI与欧洲央行会议纪要，感恩节假期流动性或下降。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "The New Indian Express",
       "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction",
       "url": "https://www.newindianexpress.com/business/2026/Nov/23/asian-shares-mostly-fall-after-sp-500-drops-37-into-a-correction",
@@ -111,38 +139,10 @@
       "title": "The Odds of a Fed Rate Hike Are 100%. Why That Would Be 100% Bad.",
       "url": "https://www.barrons.com/articles/fed-rate-hike-gold-oil-commodities-ccab2b6d",
       "summary": "CME FedWatch 显示 12 月美联储加息概率为 100%，其中加息 25 个基点概率 94%、50 个基点 6%；但油价、金价与铜价近期大幅回落、美元走强，已显示货币政策偏紧；文章认为美联储依据滞后的通胀数据继续加息可能重蹈过度紧缩覆辙。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Seeking Alpha",
-      "summary": "美股一周收跌，Anthropic IPO 未能提振 AI 股情绪；标普500与纳指周跌8%和10%，欧股跌5.7%；美联储10月会议纪要显示官员普遍认为需进一步加息以压低通胀，欧元区通胀升至三年多来最高、达欧洲央行目标两倍。",
-      "title": "Global equities suffer weekly losses amid AI rout, inflation worries",
-      "url": "https://www.tradingview.com/news/seekingalpha:fadfd2dfa094b:0-global-equities-suffer-weekly-losses-amid-ai-rout-inflation-worries/"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Gulf Times",
-      "summary": "全球股市自8月高点以来市值蒸发近9万亿美元，台湾股市一周跌17%、为上世纪90年代初以来最大单周跌幅；VIX升至30、为3月下旬以来最高，金价跌至2025年9月以来最低，美元指数走强。",
-      "title": "The snowballing selloff in global financial markets",
-      "url": "https://www.gulf-times.com/article/738772/business/the-snowballing-selloff-in-global-financial-markets"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "AP",
-      "summary": "美联储10月会议纪要显示几乎所有官员预计12月加息25个基点，部分官员支持12月加息50个基点；CME FedWatch显示12月加息概率近95%；美联储理事沃勒称12月可能需要加息半个百分点。",
-      "title": "Fed: Higher interest rates needed in Dec. as inflation worries mount",
-      "url": "https://www.europesays.com/3393113/"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Gujarat Samachar",
-      "summary": "AI 担忧引发全球抛售，两日蒸发约2.4万亿美元市值；道指跌1101点、纳指跌约2.2%，台股跌6.2%、日经跌约5%；印度 Sensex 与 Nifty 逆势涨逾1%，外资从北亚芯片股流向印度银行股。",
-      "title": "$2.4 Trillion Wiped Out in Two Days as AI Jitters Sink Global Markets, but Sensex and Nifty Rally",
-      "url": "https://english.gujaratsamachar.com/news/business/dollar24-trillion-wiped-out-in-two-days-as-ai-jitters-sink-global-markets-but-sensex-and-nifty-rally-57426703911"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 17:25"
+    "updated_at": "2026-11-23 19:25"
   }
 }
