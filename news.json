@@ -2,17 +2,31 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "Barchart",
+      "title": "Stocks Rebound Sharply as Nvidia Reinstates Huang",
+      "url": "https://www.barchart.com/story/news/8966370/stocks-rebound-sharply-as-nvidia-reinstates-huang",
+      "summary": "美股周一强劲反弹，标普500涨4.06%、纳指100涨6.11%，收复上周五暴跌失地；英伟达董事会恢复黄仁勋总裁兼CEO职务，股价飙升逾30%；市场关注周三PCE通胀数据，12月8-9日加息25个基点概率约96%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "TradingView",
+      "title": "US stock futures rebound as tech stocks recover from AI sell-off; Nasdaq 100 jumps 3.5%, S&P 500 climbs 2.8%",
+      "url": "https://www.tradingview.com/news/moneycontrol:8b1a18d38094b:0-us-stock-futures-rebound-as-tech-stocks-recover-from-ai-sell-off-nasdaq-100-jumps-3-5-s-p-500-climbs-2-8/",
+      "summary": "美股期货周一大幅反弹，结束七连跌，纳指100期货涨3.5%、标普500涨2.8%，欧洲斯托克600涨0.7%；亚洲当局出手维稳市场，台股涨2.1%；美元指数自19个月高点回落至103.6。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "TradingView",
+      "title": "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease",
+      "url": "https://www.tradingview.com/news/moneycontrol:a87e12ec2094b:0-commodity-corner-crude-oil-slips-on-supply-concerns-gold-rebounds-as-fed-rate-hike-bets-ease/",
+      "summary": "大宗商品走势分化：布伦特跌破92美元、WTI约83美元，中东供应增加压低油价；金价自上周跌9%创14个月低点后反弹约2%至3582美元，白银涨2.6%至42.21美元。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "RoboMacro",
       "title": "Tech Rout Deepens as Yields Slide",
       "url": "https://RoboMacro.com/notes/US_Macro_Daily/US_Macro_Daily_20261123.html",
       "summary": "标普500上周五跌3.70%至6910点、纳指100跌5.61%，全部11个板块均跌超1%；10年期美债收益率跌12个基点至4.92%，金价涨3.13%至3625美元；今日关注闪点PMI与纽约联储主席威廉姆斯讲话。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "WikiFX",
-      "title": "Interest Rate Forecast: December Fed Hike Bets Support US Dollar",
-      "url": "https://www.wikifx.com/en/newinfo/202611236954412443.html",
-      "summary": "市场预计美联储12月加息25个基点，CME FedWatch显示加息概率约94%、加息50个基点已完全排除；周三公布的10月PCE数据或影响进一步紧缩预期，核心PCE预计同比升3.2%。"
     },
     {
       "published_at": "2026-11-20",
@@ -125,24 +139,10 @@
       "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction",
       "url": "https://www.newindianexpress.com/business/2026/Nov/23/asian-shares-mostly-fall-after-sp-500-drops-37-into-a-correction",
       "summary": "周一亚洲股市多数下跌，标普500上周五跌3.7%进入技术性回调，较10月6日高点跌超10%；英伟达因SEC会计调查传闻跌14%、Anthropic上市次日回落8.5%至88.91美元；标普500期货周一早盘涨1.9%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "interest.co.nz",
-      "title": "Breakfast briefing: Waiting for the herd",
-      "url": "https://www.interest.com.au/economy/999/eyes-wall-street-japan-inflation-china-foreign-direct-investment-inflows-slow-taiwan",
-      "summary": "金价一周跌9.1%至约3535美元、白银周跌16.3%，铜价较11月初跌17.3%；韩国央行料加息25个基点至3.25%，日本10月通胀升至2.3%；布伦特约92.5美元、WTI约83.5美元；10年期美债收益率跌至4.91%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Channel News Asia",
-      "title": "Oil holds in tight range as Gulf attacks sustain risk premium",
-      "url": "https://www.channelnewsasia.com/business/oil-holds-in-tight-range-gulf-attacks-sustain-risk-premium-6573726",
-      "summary": "布伦特约92.67美元、WTI约83.57美元，海湾地区袭击带来的风险溢价支撑油价窄幅波动；布伦特盘中一度跌至91.57美元、WTI低见82.63美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 03:25"
+    "updated_at": "2026-11-24 05:25"
   }
 }
