@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "Barron's",
+      "title": "Markets Surge but Beware This Post-Bloodbath Bounce",
+      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112326/card/beware-this-post-bloodbath-bounce-4HzToPyNbJnY4XcGcliB",
+      "summary": "美股期货周一大涨，道指期货涨887点（1.9%）、标普500期货涨2.4%、纳指100涨3.1%，为上周暴跌后的技术性反弹；CME FedWatch显示12月9日加息25个基点概率93%、加息50个基点概率降至0%，周三核心PCE为关键数据；AI回报与美联储政策的根本担忧尚未消除。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "FXStreet",
+      "title": "Gold jumps over 2% as half-point Fed hike bets fade, US PCE in focus",
+      "url": "https://www.fxstreet.com/news/gold-jumps-over-2-as-half-point-fed-hike-bets-fade-us-pce-in-focus-202611231116",
+      "summary": "金价涨逾2%至约3621美元，上周跌9%后触及2025年9月以来低点；市场已完全排除12月加息50个基点可能，加息25个基点概率约94%；美元指数约103.84，10年期美债收益率回落至5%下方；周三PCE为本周焦点。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "ME News 247",
+      "title": "Fed Hike Bets Mount as Gold and Silver Slide, Oil Faces Pressure",
+      "url": "https://menews247.com/fed-hike-bets-mount-as-gold-and-silver-slide-oil-faces-pressure-elevate-financial-services-market-report/",
+      "summary": "假期缩短周，关键数据集中在周三（GDP、PCE、EIA），12月9日加息几乎板上钉钉；金价上周跌9.5%后周一回升至约3600美元，布伦特约92.57美元；OPEC+部长级会议定于11月29日。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "XTB",
       "title": "Morning Wrap: Technical rebound after AI crash and Asian interventions",
       "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-technical-rebound-after-ai-crash-and-asian-interventions",
@@ -118,31 +139,10 @@
       "title": "Japan Week Ahead: Rising Costs, Weak Yen Hurting Households but BOJ Board Seen Leaning Toward Another Rate Hike in December",
       "url": "https://www.tradingview.com/news/macenews:b459fd8cd094b:0-japan-week-ahead-rising-costs-weak-yen-hurting-households-but-boj-board-seen-leaning-toward-another-rate-hike-in-december/",
       "summary": "日本央行12月17-18日会议料再加息25个基点至1.50%，为本轮第七次加息；10月全国CPI同比升2.3%，东京11月核心CPI预计升2.9%、创16个月新高；日元疲软与成本上升持续挤压家庭消费，三季度GDP已小幅萎缩。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Reuters",
-      "title": "Like SpaceX, Anthropic ran an unusual IPO process, chafing some bankers",
-      "url": "https://www.reuters.com/world/like-spacex-anthropic-ran-an-unusual-ipo-process-chafing-some-bankers-2026-11-22/",
-      "summary": "Anthropic 以 83 美元发行价上市、募资 810 亿美元、估值 1.5 万亿美元，首日大涨 17% 后周五回落 8.5%；其 IPO 流程高度压缩、限制投行参与人数，引发华尔街不满；即便创纪录上市也未能扭转 AI 股抛售情绪。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "FXStreet",
-      "title": "Dollar up as Bitcoin, Gold and stocks fall on Fed rate worries",
-      "url": "https://www.fxstreet.com/analysis/dollar-up-as-bitcoin-gold-and-stocks-fall-on-fed-rate-worries-202611221932",
-      "summary": "美元一个月内走强 2.5%，为 14 类主要资产中唯一上涨者，美元指数逼近 103.8、创 4 月以来最高；同期比特币自 9 月低点跌约 17%、金价跌约 14% 并失守 4000 美元；美联储 10 月会议纪要显示几乎所有官员认为需进一步加息，市场预计 12 月加息概率约 95%。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Barron's",
-      "title": "The Odds of a Fed Rate Hike Are 100%. Why That Would Be 100% Bad.",
-      "url": "https://www.barrons.com/articles/fed-rate-hike-gold-oil-commodities-ccab2b6d",
-      "summary": "CME FedWatch 显示 12 月美联储加息概率为 100%，其中加息 25 个基点概率 94%、50 个基点 6%；但油价、金价与铜价近期大幅回落、美元走强，已显示货币政策偏紧；文章认为美联储依据滞后的通胀数据继续加息可能重蹈过度紧缩覆辙。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 19:25"
+    "updated_at": "2026-11-23 21:25"
   }
 }
