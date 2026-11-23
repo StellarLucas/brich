@@ -1,11 +1,18 @@
 {
   "items": [
     {
+      "published_at": "2026-11-24",
+      "source": "Peter Lewis Money Talk",
+      "title": "PETER'S ASIAN BUSINESS & FINANCE BRIEFING – Tuesday 24 November 2026, 06:00 Hong Kong",
+      "url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-a45",
+      "summary": "周二亚洲开盘前瞻：英伟达董事会全票恢复黄仁勋CEO职务后股价单日涨31.5%、市值增加约9500亿美元，纳指100涨近7%创2025年4月以来最佳单日；日经预计高开2.8%、恒指高开0.6%；韩台中周末相继出台维稳措施，但投资者对AI交易信心仍脆弱。"
+    },
+    {
       "published_at": "2026-11-23",
       "source": "Barchart",
-      "title": "Stocks Rebound Sharply as Nvidia Reinstates Huang",
-      "url": "https://www.barchart.com/story/news/8966370/stocks-rebound-sharply-as-nvidia-reinstates-huang",
-      "summary": "美股周一强劲反弹，标普500涨4.06%、纳指100涨6.11%，收复上周五暴跌失地；英伟达董事会恢复黄仁勋总裁兼CEO职务，股价飙升逾30%；市场关注周三PCE通胀数据，12月8-9日加息25个基点概率约96%。"
+      "title": "Stocks Rebound Sharply as Nvidia Reinstates CEO Huang",
+      "url": "https://www.barchart.com/story/news/8972204/stocks-rebound-sharply-as-nvidia-reinstates-ceo-huang",
+      "summary": "美股周一强劲反弹，标普500涨4.84%、纳指100涨6.91%，收复上周五暴跌失地；英伟达董事会恢复黄仁勋总裁兼CEO职务，股价飙升逾31%；市场关注周三PCE通胀数据，12月8-9日加息25个基点概率约96%。"
     },
     {
       "published_at": "2026-11-23",
@@ -27,27 +34,6 @@
       "title": "Tech Rout Deepens as Yields Slide",
       "url": "https://RoboMacro.com/notes/US_Macro_Daily/US_Macro_Daily_20261123.html",
       "summary": "标普500上周五跌3.70%至6910点、纳指100跌5.61%，全部11个板块均跌超1%；10年期美债收益率跌12个基点至4.92%，金价涨3.13%至3625美元；今日关注闪点PMI与纽约联储主席威廉姆斯讲话。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Business Times",
-      "title": "Oil prices gain as Houthi attacks on Riyadh raise supply concerns",
-      "url": "https://www.businesstimes.com.sg/international/oil-prices-gain-houthi-attacks-riyadh-raise-supply-concerns",
-      "summary": "胡塞武装袭击利雅得引发供应中断担忧，布伦特周五涨0.9%至92.77美元、WTI涨0.3%至83.46美元；但布伦特本周仍料跌3.5%，为连续第三周下跌；OPEC+定于11月29日开会决定2027年产量政策。"
-    },
-    {
-      "published_at": "2026-11-20",
-      "source": "The Business Times",
-      "title": "Oil gains on Iran war worries and short-covering ahead of Thanksgiving holiday",
-      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/oil-gains-iran-war-worries-and-short-covering-ahead-thanksgiving-holiday",
-      "summary": "市场担忧美以与伊朗的战争可能重启，油价周五尾盘上涨，布伦特收92.57美元、WTI收83.98美元；感恩节假期前交易员空头回补；布伦特本周仍料跌近4%。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "Oxford Economics",
-      "title": "US PCE nowcast – Broadening pressures lock in December rate hike",
-      "url": "https://www.oxfordeconomics.com/resource/us-pce-nowcast-broadening-pressures-lock-in-december-rate-hike/",
-      "summary": "牛津经济研究院预计10月美国PCE通胀同比升至3.8%、高于9月的3.6%，能源价格推高食品通胀并传导至核心通胀；该机构认为这将锁定美联储12月加息25个基点，市场对加息50个基点的定价过高。"
     },
     {
       "published_at": "2026-11-23",
@@ -139,10 +125,17 @@
       "title": "Asian shares mostly fall after S&P 500 drops 3.7% into a correction",
       "url": "https://www.newindianexpress.com/business/2026/Nov/23/asian-shares-mostly-fall-after-sp-500-drops-37-into-a-correction",
       "summary": "周一亚洲股市多数下跌，标普500上周五跌3.7%进入技术性回调，较10月6日高点跌超10%；英伟达因SEC会计调查传闻跌14%、Anthropic上市次日回落8.5%至88.91美元；标普500期货周一早盘涨1.9%。"
+    },
+    {
+      "published_at": "2026-11-22",
+      "source": "WikiFX",
+      "title": "Interest Rate Forecast: December Fed Hike Bets Support US Dollar",
+      "url": "https://www.wikifx.com/en/newinfo/202611236954412443.html",
+      "summary": "市场预计美联储12月8-9日会议加息25个基点至4%-4.25%，通胀高企是主因；周三公布的PCE数据将影响进一步紧缩预期；加息预期支撑美元、压制欧元兑美元。"
     }
   ],
   "meta": {
-    "count": 20,
-    "updated_at": "2026-11-24 05:25"
+    "count": 19,
+    "updated_at": "2026-11-24 07:25"
   }
 }
