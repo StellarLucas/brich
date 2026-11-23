@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "PANews",
+      "title": "Wall Street Morning Brief: Aftershocks of AI Deleveraging Persist as US Index Futures Rebound, Yet Investors Stay on the Sidelines",
+      "url": "https://www.panews.io/articles/01a206d4-cbec-7094-a01b-2e8f8e250c4d",
+      "summary": "美股三大指数期货周一亚洲时段反弹，纳指期货涨2.83%、标普500期货涨2.17%，但现货技术面已严重受损；上周标普500七连跌、纳指周跌超10%并抹去年内涨幅；12月美联储加息概率略降至91.4%–95.2%；10年期美债收益率跌至4.90%，现货金反弹逾2.5%突破3600美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Channel News Asia",
+      "title": "Oil holds in tight range as Gulf attacks sustain risk premium",
+      "url": "https://www.channelnewsasia.com/business/oil-holds-in-tight-range-gulf-attacks-sustain-risk-premium-6573726",
+      "summary": "布伦特约92.67美元、WTI约83.57美元，海湾地区袭击带来的风险溢价支撑油价窄幅波动；布伦特盘中一度跌至91.57美元、WTI低见82.63美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Daily Market Report",
+      "title": "Equities Crater, Fear Extreme, Gold Surges",
+      "url": "https://dailymarket.report/",
+      "summary": "周五标普500跌3.70%至6910点，英伟达、AMD分别跌14%和13%，VIX飙升26%至35.89；金价涨2.76%至3612.30美元，股债恐惧贪婪指数均处极度恐惧。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "TradingView",
       "title": "Billionaire Bill Ackman warns Fed will make a rate 'mistake' in December",
       "url": "https://www.tradingview.com/news/cointelegraph:8e7f947c4094b:0-billionaire-bill-ackman-warns-fed-will-make-a-rate-mistake-in-december/",
@@ -118,31 +139,10 @@
       "summary": "美股周五暴跌后亚洲市场严阵以待，标普500跌3.7%、纳指跌5.3%，英伟达因 SEC 调查传闻跌14%；财长贝森特警告美联储过度紧缩可能危及经济，市场关注本周美国消费数据。",
       "title": "Asia braces after Wall Street rout",
       "url": "https://www.thebottomline.co.nz/asia-braces-after-wall-street-rout/"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "Reuters",
-      "title": "Correction or deeper reckoning? Investors seek signs US stock selling will abate",
-      "url": "https://www.reuters.com/business/finance/correction-or-deeper-reckoning-investors-seek-signs-us-stock-selling-will-abate-2026-11-22/",
-      "summary": "美股暴跌后投资者寻找抛售见底信号：标普500自10月6日历史高点跌11.6%，连续七个交易日下跌、创2020年疫情以来最长连跌；美联储12月8-9日议息会议成关键节点，市场普遍预计加息25个基点。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "The Straits Times",
-      "title": "Wall Street slumps on AI selloff, S&P 500 in correction",
-      "url": "https://www.straitstimes.com/business/companies-markets/wall-st-ends-sharply-lower-on-ai-selloff-sp-500-dow-in-correction",
-      "summary": "美股11月20日续跌，标普500与道指确认进入技术性回调，纳指创2020年3月以来最大单周跌幅；道指跌949.73点至48147.33点，标普500跌3.70%至6910.42点，纳指跌5.28%至22617.73点；美联储理事库克称政策利率尚不足以应对当前通胀水平。"
-    },
-    {
-      "published_at": "2026-11-22",
-      "source": "KuCoin",
-      "title": "Next Week's Outlook: Key U.S. Data and Fed Insights Test Rate Hike Expectations",
-      "url": "https://www.kucoin.com/news/flash/next-week-outlook-key-u-s-data-and-fed-insights-test-rate-hike-expectations",
-      "summary": "下周市场聚焦美国核心PCE、美联储褐皮书与官员讲话，将检验加息预期；美元指数逼近104、创约19个月高点，现货金周跌8.84%收于3537美元/盎司，白银周跌15.39%至41.20美元。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 13:26"
+    "updated_at": "2026-11-23 15:26"
   }
 }
