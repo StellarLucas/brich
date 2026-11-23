@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-23",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Monday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-23-2026-12274106",
+      "summary": "美股期货周一反弹，标普500期货涨2.4%、纳指100涨约3%；英伟达反弹7%，此前两周跌约三分之一，特朗普称希望董事会重新聘请黄仁勋任CEO；金价涨近3%至约3600美元，油价跌逾1%；比特币回升至6.1万美元上方。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Stockbiz",
+      "title": "USD continues to weaken as 50-basis-point Fed rate hike ruled out",
+      "url": "https://stockbiz.vn/en/news/usd-continues-to-weaken-as-50-basis-point-fed-rate-hike-ruled-out/42891488",
+      "summary": "美元周一连续第二日走弱，美元指数约103.60；市场已完全排除12月加息50个基点的可能，CME FedWatch显示加息25个基点概率94%；油价回落缓解通胀压力，欧元涨0.3%至1.0998美元、英镑涨0.3%至1.3125美元。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Al Etihad",
+      "title": "Markets: Oil prices fall, gold prices recover from 14-month low",
+      "url": "https://en.aletihad.ae/news/business/4707728/markets--oil-prices-fall--gold-prices-recover-from-14-month",
+      "summary": "周一油价下跌，布伦特约92.29美元、WTI约83.26美元；现货金涨1.2%至3576.10美元，从上周五14个月低点回升；白银涨2.3%至42.11美元，铂金涨1.4%、钯金涨1.3%。"
+    },
+    {
+      "published_at": "2026-11-23",
       "source": "The Statesman",
       "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
       "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html",
@@ -118,31 +139,10 @@
       "title": "Nasdaq, S&P 500 Futures Bounce After Friday’s Rout: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/nasdaq%2c-s%26p-500-futures-bounce-after-fridays-rout%3a-markets-wrap/92421262",
       "summary": "美股期货周一早盘反弹，标普500期货涨1.9%、纳指100期货涨2.6%；韩国KOSPI早盘跌2.6%，MSCI亚太指数较6月高点跌约18%逼近熊市；中国放宽保证金融资、台湾收紧做空、韩国拟动用股市稳定基金；布伦特跌至约91.8美元，现货金反弹1.1%至约3575美元。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "TradingView",
-      "title": "Commodity Corner: Crude oil slips on supply concerns; gold rebounds as Fed rate hike bets ease",
-      "url": "https://www.tradingview.com/news/moneycontrol:a87e12ec2094b:0-commodity-corner-crude-oil-slips-on-supply-concerns-gold-rebounds-as-fed-rate-hike-bets-ease/",
-      "summary": "布伦特跌破92美元、WTI约83美元，市场权衡原油出口强劲与中东局势升级风险；金价反弹约2%至3582美元，此前一周跌9%创八个月最大单周跌幅；白银涨2.6%至42.21美元；交易员削减对美联储近期加息的赌注。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "The Business Times",
-      "title": "Gold rebounds as traders pare bets on near-term Fed rate hikes",
-      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/gold-rebounds-traders-pare-bets-near-term-fed-rate-hikes",
-      "summary": "金价反弹，现货金涨1.1%至3578.24美元，此前一周跌9%至14个月低点；科技股抛售推动资金转向避险资产，美债收益率与美元回落；白银涨2.6%至42.21美元。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "The Edge Singapore",
-      "title": "Oil edges lower as ample supply outweighs Middle East tensions",
-      "url": "https://www.theedgesingapore.com/news/oil-gas/oil-edges-lower-ample-supply-outweighs-middle-east-tensions",
-      "summary": "布伦特约92美元、WTI约83美元，充足供应压过中东紧张局势；布伦特上周跌3.4%；市场认为油价中已含约25–30美元的美伊战争升级溢价。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-23 23:25"
+    "updated_at": "2026-11-24 01:25"
   }
 }
