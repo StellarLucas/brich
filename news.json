@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "Swissinfo (Bloomberg)",
+      "title": "Asian Stocks Rebound as Huang's Return Revives AI: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/asian-stocks-rebound-as-huangs-return-revives-ai:-markets-wrap/92426361",
+      "summary": "亚股周二反弹，MSCI亚太指数涨2.1%、韩国KOSPI涨6.7%、日经涨超4%、台股涨逾9%，追随美股创2025年4月以来最佳单日；英伟达涨31%创2003年以来最大单日涨幅，半导体指数涨14%。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Reuters",
+      "title": "Gold edges up on bargain buying after selloff; US inflation data awaited",
+      "url": "https://www.reuters.com/world/india/gold-edges-up-bargain-buying-after-selloff-us-inflation-data-awaited-2026-11-24/",
+      "summary": "金价周二小幅上涨，延续自14个月低点的反弹，抄底买盘回归；市场等待周三公布的美国10月PCE通胀数据，CME FedWatch显示12月加息25个基点概率95%、加息50个基点概率约4.9%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Wall Street Journal",
+      "title": "Stocks to Watch Recap: Nvidia, Anthropic, Zscaler",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stocks-to-watch-anthropic-nvidia-zscaler-tFg1nwvkPDrDSc6XKra7",
+      "summary": "CrowdStrike宣布以约439亿美元全股票收购Zscaler（每股260.41美元、溢价34%），Zscaler涨18%、CrowdStrike跌8.9%为标普最差；英伟达复职黄仁勋后涨31%，Anthropic跌1.4%。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "NewsPim",
       "title": "Gold Rebounds Over 3% on Bargain Buying; Oil Falls 3% on Supply Increase",
       "url": "https://global.newspim.com/news/view/20261124000013",
@@ -118,31 +139,10 @@
       "title": "Morning Wrap: Technical rebound after AI crash and Asian interventions",
       "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-technical-rebound-after-ai-crash-and-asian-interventions",
       "summary": "美股期货周一强劲反弹，纳指100期货涨约2.3%、标普500涨1.6%；韩国拟设约80亿美元股市稳定基金、中国下调保证金比例至80%、台湾收紧做空；金价涨逾2%至约3615美元，白银涨3.1%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "CryptoCompass",
-      "title": "U.S. Futures Rebound as Rate Hike Expectations Taper",
-      "url": "https://cryptocompass.com/articles/u-s-futures-rebound-as-rate-hike-expectations-taper",
-      "summary": "美股期货反弹，纳指100期货涨3.1%、标普500涨2.2%；市场已完全排除12月加息50个基点的可能，现预计加息25个基点；金价反弹2.3%至约3620美元，比特币回升至6.16万美元上方。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Reuters",
-      "title": "Dollar edges off 19-month high after stocks rout; yen softens",
-      "url": "https://live.euronext.com/en/financial-news/dollar-edges-19-month-high-after-stocks-rout-yen-softens",
-      "summary": "美元自19个月高点回落，美元指数跌0.2%至103.6；交易员削减对美联储12月大幅加息的押注，CME FedWatch显示加息25个基点概率约94%、加息50个基点已完全排除；欧元涨0.3%至1.0998美元，英镑涨0.3%至1.3125美元。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "TraderFactor",
-      "title": "Market Outlook This Week: US PCE, Flash PMIs and Fed Rate Hike Bets in Focus After Stocks Crash and Gold Slumps",
-      "url": "https://traderfactor.com/market-outlook-us-pce-flash-pmis-and-fed-rate-hike/",
-      "summary": "本周焦点为周三公布的美国10月PCE通胀数据，或影响12月8–9日FOMC会议预期，核心PCE预计环比升0.3%、同比升3.2%；另有全球闪点PMI、澳洲CPI与欧洲央行会议纪要，感恩节假期流动性或下降。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 09:25"
+    "updated_at": "2026-11-24 11:25"
   }
 }
