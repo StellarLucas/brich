@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "Channel News Asia",
+      "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
+      "url": "https://www.channelnewsasia.com/business/asian-stocks-rally-jensen-huang-nvidia-return-revives-ai-trade-6576636",
+      "summary": "周二亚股大涨，台股涨9.1%、韩国KOSPI涨7.5%、日经涨4.5%，追随美股历史性反弹；英伟达周一涨31.5%创23年最大单日涨幅，台积电与富士康双双逼近涨停；但中国沪深300与恒指走势明显落后。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Wall Street Journal",
+      "title": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
+      "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71",
+      "summary": "英伟达涨势降温，纳指期货回落，市场对AI交易能否持续仍存疑问；油价自低位回升，布伦特涨至约89.5美元、WTI约80.25美元，黄金期货跌0.2%、白银跌1.8%。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "Reuters",
       "title": "Oil holds near three-month low as rising supply offsets Hormuz threat",
       "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/",
@@ -15,32 +29,11 @@
       "summary": "英伟达涨势降温，周二美股期货与欧股回落，纳指期货跌0.9%、英伟达盘前跌近4%；市场等待周三公布的PCE通胀数据，12月美联储加息已基本完全定价。"
     },
     {
-      "published_at": "2026-11-19",
-      "source": "Intellectia",
-      "title": "Fed Rate Hike December 2026: What It Means for Investors",
-      "url": "https://intellectia.ai/blog/fed-rate-hike-december-2026-stocks-bonds-mortgages-investor-guide",
-      "summary": "美联储10月会议纪要显示几乎所有官员预计12月8-9日会议加息25个基点，两人提及加息50个基点的可能；CME FedWatch显示加息25个基点概率约95.7%，利率区间将升至4.00%-4.25%。"
-    },
-    {
-      "published_at": "2026-11-16",
-      "source": "UBS",
-      "title": "How will Fed rate hikes impact markets?",
-      "url": "https://www.ubs.com/global/en/wealthmanagement/insights/marketnews/article/_jcr_content.400537223.file/PS9jb250ZW50L2RhbS9pbXBvcnRlZC9jaW9yZXNlYXJjaC9wZGYvNDAvMTcvMTMvNS80MDE3MTM1L2VuLzQwMTcxMzUucGRm/4017135.pdf",
-      "summary": "瑞银预计美联储12月与明年3月各加息25个基点，连续加息风险上升；达拉斯联储主席洛根称或需加快紧缩步伐，理事沃勒提及12月加息50个基点的可能。"
-    },
-    {
       "published_at": "2026-11-24",
       "source": "Wall Street Journal",
       "title": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing.",
       "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6",
       "summary": "黄仁勋复职的消息令华尔街震动，英伟达单日市值增加近1万亿美元创历史纪录，纳指润6.5%、标普500润4.7%，七巨头合计市值增加1.6万亿美元。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "CNN",
-      "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
-      "url": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?cid=external-feeds_iluminar_meta",
-      "summary": "英伟达周一涨超30%创2003年以来最佳单日表现，市值单日增加9520亿美元；纳指润6.51%、标普500润4.73%、道指涨1448点，均为2025年4月以来最佳单日。"
     },
     {
       "published_at": "2026-11-24",
@@ -71,39 +64,11 @@
       "summary": "11月23日油价大跌近4%，布伦特收于89.37美元、WTI收于80.17美元，创数月新低，中东供应恢复与过剩担忧主导市场；金价自上周抛售后反弹，现货涨0.4%至3645.29美元，工业金属同步回升。"
     },
     {
-      "published_at": "2026-11-23",
-      "source": "Reuters",
-      "title": "Fed has 'work to do' to lower inflation, Williams says",
-      "url": "https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/",
-      "summary": "纽约联储主席威廉姆斯表示通胀持续高企、美联储仍有工作要做，预计通胀年底为3.5%、2027年回落至2%附近；市场普遍预计12月8-9日会议加息25个基点，当前利率区间为3.75%-4.00%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "FXStreet",
-      "title": "Federal Reserve: Consecutive hikes and sticky inflation – TD Securities",
-      "url": "https://www.fxstreet.com/news/federal-reserve-consecutive-hikes-and-sticky-inflation-td-securities-202611231011",
-      "summary": "道明证券预计美联储自12月起连续三次加息，通胀高于目标且方向错误，核心CPI预计2026年四季度同比2.9%；AI与油价相关的通胀压力下，通胀放缓或到2027年中才恢复。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "TheStreet",
-      "title": "J.P. Morgan Sees More Fed Rate Hikes in 2027",
-      "url": "https://www.thestreet.com/fed/j-p-morgan-prices-in-stunning-shift-in-fed-rate-hike-call",
-      "summary": "摩根大通放弃“只加一次”的预测，改为预计美联储12月、明年1月和3月连续三次各加息25个基点；美银与德银也有相同预期，2027年降息希望基本破灭。"
-    },
-    {
       "published_at": "2026-11-24",
       "source": "Reuters",
       "title": "Asian stocks rally as Huang's Nvidia return revives AI trade",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/",
       "summary": "周二亚股大涨，MSCI亚太（除日本）指数涨4.6%、日经涨4.5%、韩国KOSPI涨7.5%、台股涨9.1%，追随美股历史性反弹；英伟达周一涨31.5%创23年最大单日涨幅；AI反弹缓解增长担忧、美联储12月加息预期升温，10年期美债收益率升至4.94%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Investopedia",
-      "title": "Markets News, Nov. 23, 2026: Stocks Skyrocket as Nvidia Jumps 31% on Jensen Huang's Return to CEO Post; S&P 500 Rises Nearly 5%, Dow Climbs 1,450 Points",
-      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147",
-      "summary": "美股周一暴涨，标普500涨近5%、道指涨1450点、纳指涨6.5%，英伟达涨31%；金价期货涨3.4%至3635美元/盎司，WTI原油跌3.8%至80.25美元，创8月以来最低。"
     },
     {
       "published_at": "2026-11-24",
@@ -120,13 +85,6 @@
       "summary": "金价周二小幅上涨，延续自14个月低点的反弹，抄底买盘回归；市场等待周三公布的美国10月PCE通胀数据，CME FedWatch显示12月加息25个基点概率95%、加息50个基点概率约4.9%。"
     },
     {
-      "published_at": "2026-11-23",
-      "source": "Wall Street Journal",
-      "title": "Stocks to Watch Recap: Nvidia, Anthropic, Zscaler",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stocks-to-watch-anthropic-nvidia-zscaler-tFg1nwvkPDrDSc6XKra7",
-      "summary": "CrowdStrike宣布以约439亿美元全股票收购Zscaler（每股260.41美元、溢价34%），Zscaler涨18%、CrowdStrike跌8.9%为标普最差；英伟达复职黄仁勋后涨31%，Anthropic跌1.4%。"
-    },
-    {
       "published_at": "2026-11-24",
       "source": "NewsPim",
       "title": "Gold Rebounds Over 3% on Bargain Buying; Oil Falls 3% on Supply Increase",
@@ -139,10 +97,52 @@
       "title": "Japanese, South Korean Stocks Rally as Nvidia CEO Jensen Huang Returns, Boosting Global AI Optimism",
       "url": "https://gulfnews.com/business/markets/japanese-skorean-stocks-surge-after-jensen-huangs-return-to-nvidia-1.500758625",
       "summary": "周二亚洲股市大涨，日经涨约3%、韩国KOSPI涨近6%，跟随美股历史性反弹；英伟达涨31.48%至165.05美元，SK海力士美股涨超20%；芯片股领涨，但上周暴跌后的波动仍高。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "CNN",
+      "title": "Nvidia shares soar more than 30% after Huang reinstated as CEO",
+      "url": "https://www.cnn.com/2026/11/23/markets/us-stocks-rebound-intl?cid=external-feeds_iluminar_meta",
+      "summary": "英伟达周一涨超30%创2003年以来最佳单日表现，市值单日增加9520亿美元；纳指润6.51%、标普500润4.73%、道指涨1448点，均为2025年4月以来最佳单日。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Reuters",
+      "title": "Fed has 'work to do' to lower inflation, Williams says",
+      "url": "https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/",
+      "summary": "纽约联储主席威廉姆斯表示通胀持续高企、美联储仍有工作要做，预计通胀年底为3.5%、2027年回落至2%附近；市场普遍预计12月8-9日会议加息25个基点，当前利率区间为3.75%-4.00%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "FXStreet",
+      "title": "Federal Reserve: Consecutive hikes and sticky inflation – TD Securities",
+      "url": "https://www.fxstreet.com/news/federal-reserve-consecutive-hikes-and-sticky-inflation-td-securities-202611231011",
+      "summary": "道明证券预计美联储自12月起连续三次加息，通胀高于目标且方向错误，核心CPI预计2026年四季度同比2.9%；AI与油价相关的通胀压力下，通胀放缓或到2027年中才恢复。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Investopedia",
+      "title": "Markets News, Nov. 23, 2026: Stocks Skyrocket as Nvidia Jumps 31% on Jensen Huang's Return to CEO Post; S&P 500 Rises Nearly 5%, Dow Climbs 1,450 Points",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147",
+      "summary": "美股周一暴涨，标普500涨近5%、道指涨1450点、纳指涨6.5%，英伟达涨31%；金价期货涨3.4%至3635美元/盎司，WTI原油跌3.8%至80.25美元，创8月以来最低。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Wall Street Journal",
+      "title": "Stocks to Watch Recap: Nvidia, Anthropic, Zscaler",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stocks-to-watch-anthropic-nvidia-zscaler-tFg1nwvkPDrDSc6XKra7",
+      "summary": "CrowdStrike宣布以约439亿美元全股票收购Zscaler（每股260.41美元、溢价34%），Zscaler涨18%、CrowdStrike跌8.9%为标普最差；英伟达复职黄仁勋后涨31%，Anthropic跌1.4%。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "TheStreet",
+      "title": "J.P. Morgan Sees More Fed Rate Hikes in 2027",
+      "url": "https://www.thestreet.com/fed/j-p-morgan-prices-in-stunning-shift-in-fed-rate-hike-call",
+      "summary": "摩根大通放弃“只加一次”的预测，改为预计美联储12月、明年1月和3月连续三次各加息25个基点；美银与德银也有相同预期，2027年降息希望基本破灭。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 21:25"
+    "updated_at": "2026-11-24 23:25"
   }
 }
