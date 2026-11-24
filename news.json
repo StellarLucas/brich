@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "Reuters",
+      "title": "Asian stocks rally as Huang's Nvidia return revives AI trade",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/",
+      "summary": "周二亚股大涨，MSCI亚太（除日本）指数涨4.6%、日经涨4.5%、韩国KOSPI涨7.5%、台股涨9.1%，追随美股历史性反弹；英伟达周一涨31.5%创23年最大单日涨幅；AI反弹缓解增长担忧、美联储12月加息预期升温，10年期美债收益率升至4.94%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Investopedia",
+      "title": "Markets News, Nov. 23, 2026: Stocks Skyrocket as Nvidia Jumps 31% on Jensen Huang's Return to CEO Post; S&P 500 Rises Nearly 5%, Dow Climbs 1,450 Points",
+      "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147",
+      "summary": "美股周一暴涨，标普500涨近5%、道指涨1450点、纳指涨6.5%，英伟达涨31%；金价期货涨3.4%至3635美元/盎司，WTI原油跌3.8%至80.25美元，创8月以来最低。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "Swissinfo (Bloomberg)",
       "title": "Asian Stocks Rebound as Huang's Return Revives AI: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/asian-stocks-rebound-as-huangs-return-revives-ai:-markets-wrap/92426361",
@@ -125,24 +139,10 @@
       "title": "Gold jumps over 2% as half-point Fed hike bets fade, US PCE in focus",
       "url": "https://www.fxstreet.com/news/gold-jumps-over-2-as-half-point-fed-hike-bets-fade-us-pce-in-focus-202611231116",
       "summary": "金价涨逾2%至约3621美元，上周跌9%后触及2025年9月以来低点；市场已完全排除12月加息50个基点可能，加息25个基点概率约94%；美元指数约103.84，10年期美债收益率回落至5%下方；周三PCE为本周焦点。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "ME News 247",
-      "title": "Fed Hike Bets Mount as Gold and Silver Slide, Oil Faces Pressure",
-      "url": "https://menews247.com/fed-hike-bets-mount-as-gold-and-silver-slide-oil-faces-pressure-elevate-financial-services-market-report/",
-      "summary": "假期缩短周，关键数据集中在周三（GDP、PCE、EIA），12月9日加息几乎板上钉钉；金价上周跌9.5%后周一回升至约3600美元，布伦特约92.57美元；OPEC+部长级会议定于11月29日。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "XTB",
-      "title": "Morning Wrap: Technical rebound after AI crash and Asian interventions",
-      "url": "https://www.xtb.com/int/market-analysis/news-and-research/morning-wrap-technical-rebound-after-ai-crash-and-asian-interventions",
-      "summary": "美股期货周一强劲反弹，纳指100期货涨约2.3%、标普500涨1.6%；韩国拟设约80亿美元股市稳定基金、中国下调保证金比例至80%、台湾收紧做空；金价涨逾2%至约3615美元，白银涨3.1%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 11:25"
+    "updated_at": "2026-11-24 13:25"
   }
 }
