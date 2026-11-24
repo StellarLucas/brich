@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "Stockbiz",
+      "title": "Market on November 24: Oil plunges, gold and metals rebound",
+      "url": "https://stockbiz.vn/en/news/market-on-november-24-oil-plunges-gold-and-metals-rebound/42894866",
+      "summary": "11月23日油价大跌近4%，布伦特收于89.37美元、WTI收于80.17美元，创数月新低，中东供应恢复与过剩担忧主导市场；金价自上周抛售后反弹，现货涨0.4%至3645.29美元，工业金属同步回升。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "Reuters",
+      "title": "Fed has 'work to do' to lower inflation, Williams says",
+      "url": "https://www.reuters.com/business/fed-has-work-do-lower-inflation-williams-says-2026-11-23/",
+      "summary": "纽约联储主席威廉姆斯表示通胀持续高企、美联储仍有工作要做，预计通胀年底为3.5%、2027年回落至2%附近；市场普遍预计12月8-9日会议加息25个基点，当前利率区间为3.75%-4.00%。"
+    },
+    {
+      "published_at": "2026-11-23",
+      "source": "FXStreet",
+      "title": "Federal Reserve: Consecutive hikes and sticky inflation – TD Securities",
+      "url": "https://www.fxstreet.com/news/federal-reserve-consecutive-hikes-and-sticky-inflation-td-securities-202611231011",
+      "summary": "道明证券预计美联储自12月起连续三次加息，通胀高于目标且方向错误，核心CPI预计2026年四季度同比2.9%；AI与油价相关的通胀压力下，通胀放缓或到2027年中才恢复。"
+    },
+    {
+      "published_at": "2026-11-21",
+      "source": "TheStreet",
+      "title": "J.P. Morgan Sees More Fed Rate Hikes in 2027",
+      "url": "https://www.thestreet.com/fed/j-p-morgan-prices-in-stunning-shift-in-fed-rate-hike-call",
+      "summary": "摩根大通放弃“只加一次”的预测，改为预计美联储12月、明年1月和3月连续三次各加息25个基点；美银与德银也有相同预期，2027年降息希望基本破灭。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "Reuters",
       "title": "Asian stocks rally as Huang's Nvidia return revives AI trade",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-24/",
@@ -111,38 +139,10 @@
       "title": "Markets: Oil prices fall, gold prices recover from 14-month low",
       "url": "https://en.aletihad.ae/news/business/4707728/markets--oil-prices-fall--gold-prices-recover-from-14-month",
       "summary": "周一油价下跌，布伦特约92.29美元、WTI约83.26美元；现货金涨1.2%至3576.10美元，从上周五14个月低点回升；白银涨2.3%至42.11美元，铂金涨1.4%、钯金涨1.3%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "The Statesman",
-      "title": "Nvidia plunges 14%, Anthropic retreats after IPO: What triggered Wall Street's worst tech rout since COVID-19?",
-      "url": "https://www.thestatesman.com/business/ai-boom-faces-its-biggest-market-reckoning-since-covid-as-nasdaq-100-plunges-10-4-in-a-week-1503665146.html",
-      "summary": "纳指100上周跌约10.4%、创疫情以来最差单周，标普500七连跌、道指与标普均进入技术性回调；英伟达因SEC会计调查报道单日跌近14%、周跌约23%，Anthropic上市次日跌约9%回吐部分首日涨幅；市场质疑AI巨额投入的回报。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Channel News Asia",
-      "title": "Oil falls on increased Middle East flows, Libyan pipeline restart",
-      "url": "https://www.channelnewsasia.com/business/oil-falls-increased-middle-east-flows-libyan-pipeline-restart-6573726",
-      "summary": "布伦特跌2.18%至90.55美元、WTI跌1.91%至81.82美元，盘中布伦特创两周新低89.48美元、WTI创8月27日以来新低80.55美元；中东供应增加与利比亚输油管道重启压低油价；OPEC+部长级会议定于11月29日决定2027年产量政策。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Barron's",
-      "title": "Markets Surge but Beware This Post-Bloodbath Bounce",
-      "url": "https://www.barrons.com/livecoverage/stock-market-news-today-112326/card/beware-this-post-bloodbath-bounce-4HzToPyNbJnY4XcGcliB",
-      "summary": "美股期货周一大涨，道指期货涨887点（1.9%）、标普500期货涨2.4%、纳指100涨3.1%，为上周暴跌后的技术性反弹；CME FedWatch显示12月9日加息25个基点概率93%、加息50个基点概率降至0%，周三核心PCE为关键数据；AI回报与美联储政策的根本担忧尚未消除。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "FXStreet",
-      "title": "Gold jumps over 2% as half-point Fed hike bets fade, US PCE in focus",
-      "url": "https://www.fxstreet.com/news/gold-jumps-over-2-as-half-point-fed-hike-bets-fade-us-pce-in-focus-202611231116",
-      "summary": "金价涨逾2%至约3621美元，上周跌9%后触及2025年9月以来低点；市场已完全排除12月加息50个基点可能，加息25个基点概率约94%；美元指数约103.84，10年期美债收益率回落至5%下方；周三PCE为本周焦点。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 13:25"
+    "updated_at": "2026-11-24 15:25"
   }
 }
