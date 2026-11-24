@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "Reuters",
+      "title": "Oil holds near three-month low as rising supply offsets Hormuz threat",
+      "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/",
+      "summary": "布伦特原油跌至约89美元、WTI跌破80美元，徘徊在三个月低点附近；供应增加与潜在过剩压制油价，霍尔木兹海峡三艘油轮触雷、美方调查伊朗涉油轮网攻事件仍为油价提供支撑。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Global Banking & Finance",
+      "title": "US futures, European stocks slip as Nvidia rally cools",
+      "url": "https://www.globalbankingandfinance.com/asian-stocks-rally-huangs-nvidia-return-revives-ai-trade/",
+      "summary": "英伟达涨势降温，周二美股期货与欧股回落，纳指期货跌0.9%、英伟达盘前跌近4%；市场等待周三公布的PCE通胀数据，12月美联储加息已基本完全定价。"
+    },
+    {
+      "published_at": "2026-11-19",
+      "source": "Intellectia",
+      "title": "Fed Rate Hike December 2026: What It Means for Investors",
+      "url": "https://intellectia.ai/blog/fed-rate-hike-december-2026-stocks-bonds-mortgages-investor-guide",
+      "summary": "美联储10月会议纪要显示几乎所有官员预计12月8-9日会议加息25个基点，两人提及加息50个基点的可能；CME FedWatch显示加息25个基点概率约95.7%，利率区间将升至4.00%-4.25%。"
+    },
+    {
+      "published_at": "2026-11-16",
+      "source": "UBS",
+      "title": "How will Fed rate hikes impact markets?",
+      "url": "https://www.ubs.com/global/en/wealthmanagement/insights/marketnews/article/_jcr_content.400537223.file/PS9jb250ZW50L2RhbS9pbXBvcnRlZC9jaW9yZXNlYXJjaC9wZGYvNDAvMTcvMTMvNS80MDE3MTM1L2VuLzQwMTcxMzUucGRm/4017135.pdf",
+      "summary": "瑞银预计美联储12月与明年3月各加息25个基点，连续加息风险上升；达拉斯联储主席洛根称或需加快紧缩步伐，理事沃勒提及12月加息50个基点的可能。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "Wall Street Journal",
       "title": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing.",
       "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6",
@@ -111,38 +139,10 @@
       "title": "Japanese, South Korean Stocks Rally as Nvidia CEO Jensen Huang Returns, Boosting Global AI Optimism",
       "url": "https://gulfnews.com/business/markets/japanese-skorean-stocks-surge-after-jensen-huangs-return-to-nvidia-1.500758625",
       "summary": "周二亚洲股市大涨，日经涨约3%、韩国KOSPI涨近6%，跟随美股历史性反弹；英伟达涨31.48%至165.05美元，SK海力士美股涨超20%；芯片股领涨，但上周暴跌后的波动仍高。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Reuters",
-      "title": "Market euphoria as Huang returns to Nvidia",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-23/",
-      "summary": "美股周一历史性反弹，英伟达涨逾30%带动纳指涨6.5%、标普500涨4.7%，终结4月以来最长连跌；美元升至去年3月以来最高，10年期美债收益率仅微升；AI交易崩塌曾令加息预期动摇。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Peter Lewis Money Talk",
-      "title": "PETER'S ASIAN BUSINESS & FINANCE BRIEFING – Tuesday 24 November 2026, 06:00 Hong Kong",
-      "url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-a45",
-      "summary": "周二亚洲开盘前瞻：英伟达董事会全票恢复黄仁勋CEO职务后股价单日涨31.5%、市值增加约9500亿美元，纳指100涨近7%创2025年4月以来最佳单日；日经预计高开2.8%、恒指高开0.6%；韩台中周末相继出台维稳措施，但投资者对AI交易信心仍脆弱。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Barchart",
-      "title": "Stocks Rebound Sharply as Nvidia Reinstates CEO Huang",
-      "url": "https://www.barchart.com/story/news/8972204/stocks-rebound-sharply-as-nvidia-reinstates-ceo-huang",
-      "summary": "美股周一强劲反弹，标普500涨4.84%、纳指100涨6.91%，收复上周五暴跌失地；英伟达董事会恢复黄仁勋总裁兼CEO职务，股价飙升逾31%；市场关注周三PCE通胀数据，12月8-9日加息25个基点概率约96%。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "TradingView",
-      "title": "US stock futures rebound as tech stocks recover from AI sell-off; Nasdaq 100 jumps 3.5%, S&P 500 climbs 2.8%",
-      "url": "https://www.tradingview.com/news/moneycontrol:8b1a18d38094b:0-us-stock-futures-rebound-as-tech-stocks-recover-from-ai-sell-off-nasdaq-100-jumps-3-5-s-p-500-climbs-2-8/",
-      "summary": "美股期货周一大幅反弹，结束七连跌，纳指100期货涨3.5%、标普500涨2.8%，欧洲斯托克600涨0.7%；亚洲当局出手维稳市场，台股涨2.1%；美元指数自19个月高点回落至103.6。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 19:25"
+    "updated_at": "2026-11-24 21:25"
   }
 }
