@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "MUFG Research",
+      "title": "Oil slides as market looks to Qatar-mediated negotiations",
+      "url": "https://www.mufgresearch.com/macro/middle-east-daily-24-november-2026/",
+      "summary": "布伦特原油周初大跌3.5%至89.37美元后继续走低至约88.66美元，创8月以来最低，抹去9月以来地缘政治涨幅，中东供应恢复与卡塔尔斡旋谈判主导市场；金价隔夜涨2.7%至3645美元/盎司后企稳。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Daily Market Report",
+      "title": "Equities Surge, Credit Cracks, Crypto Bleeds",
+      "url": "https://dailymarket.report/",
+      "summary": "英伟达涨31.5%带动标普500单日涨4.73%至7237点、VIX大跌25.8%至26.62，但高收益债利差扩大24个基点至376基点、比特币ETF单日流出5.7亿美元，股债与加密市场情绪明显分化。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "Stockbiz",
       "title": "Market on November 24: Oil plunges, gold and metals rebound",
       "url": "https://stockbiz.vn/en/news/market-on-november-24-oil-plunges-gold-and-metals-rebound/42894866",
@@ -125,24 +139,10 @@
       "title": "5 Things Investors Need to Know About Monday's Markets",
       "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-23-2026-12274106",
       "summary": "美股期货周一反弹，标普500期货涨2.4%、纳指100涨约3%；英伟达反弹7%，此前两周跌约三分之一，特朗普称希望董事会重新聘请黄仁勋任CEO；金价涨近3%至约3600美元，油价跌逾1%；比特币回升至6.1万美元上方。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Stockbiz",
-      "title": "USD continues to weaken as 50-basis-point Fed rate hike ruled out",
-      "url": "https://stockbiz.vn/en/news/usd-continues-to-weaken-as-50-basis-point-fed-rate-hike-ruled-out/42891488",
-      "summary": "美元周一连续第二日走弱，美元指数约103.60；市场已完全排除12月加息50个基点的可能，CME FedWatch显示加息25个基点概率94%；油价回落缓解通胀压力，欧元涨0.3%至1.0998美元、英镑涨0.3%至1.3125美元。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Al Etihad",
-      "title": "Markets: Oil prices fall, gold prices recover from 14-month low",
-      "url": "https://en.aletihad.ae/news/business/4707728/markets--oil-prices-fall--gold-prices-recover-from-14-month",
-      "summary": "周一油价下跌，布伦特约92.29美元、WTI约83.26美元；现货金涨1.2%至3576.10美元，从上周五14个月低点回升；白银涨2.3%至42.11美元，铂金涨1.4%、钯金涨1.3%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 15:25"
+    "updated_at": "2026-11-24 17:25"
   }
 }
