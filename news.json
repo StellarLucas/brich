@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-24",
+      "source": "Wall Street Journal",
+      "title": "U.S. Prepares to Raise Tariffs on China and Other Countries",
+      "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740",
+      "summary": "美国准备对中国及数十个国家加征关税，贸易代表格里尔最早本周公布针对外国产业补贴的301调查结果；中国面临的税率可能最高，欧盟、日韩或升至15%，该消息令周二美股承压、纳指跌超1%。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Barchart",
+      "title": "Stocks Mostly Lower on Weakness in Chipmakers and Renewed Trade Tensions",
+      "url": "https://www.barchart.com/story/news/8986226/stocks-mostly-lower-on-weakness-in-chipmakers-and-renewed-trade-tensions",
+      "summary": "周二美股多数回落，英伟达跌超4%、芯片股领跌，消化周一31%的历史性涨幅；市场等待周三PCE通胀数据，12月美联储加息25个基点已完全定价，WTI原油跌至三个半月低点，10年期美债收益率回落至4.88%。"
+    },
+    {
+      "published_at": "2026-11-24",
       "source": "Channel News Asia",
       "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
       "url": "https://www.channelnewsasia.com/business/asian-stocks-rally-jensen-huang-nvidia-return-revives-ai-trade-6576636",
@@ -125,24 +139,10 @@
       "title": "Markets News, Nov. 23, 2026: Stocks Skyrocket as Nvidia Jumps 31% on Jensen Huang's Return to CEO Post; S&P 500 Rises Nearly 5%, Dow Climbs 1,450 Points",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11232026-12274147",
       "summary": "美股周一暴涨，标普500涨近5%、道指涨1450点、纳指涨6.5%，英伟达涨31%；金价期货涨3.4%至3635美元/盎司，WTI原油跌3.8%至80.25美元，创8月以来最低。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "Wall Street Journal",
-      "title": "Stocks to Watch Recap: Nvidia, Anthropic, Zscaler",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-23-2026/card/stocks-to-watch-anthropic-nvidia-zscaler-tFg1nwvkPDrDSc6XKra7",
-      "summary": "CrowdStrike宣布以约439亿美元全股票收购Zscaler（每股260.41美元、溢价34%），Zscaler涨18%、CrowdStrike跌8.9%为标普最差；英伟达复职黄仁勋后涨31%，Anthropic跌1.4%。"
-    },
-    {
-      "published_at": "2026-11-21",
-      "source": "TheStreet",
-      "title": "J.P. Morgan Sees More Fed Rate Hikes in 2027",
-      "url": "https://www.thestreet.com/fed/j-p-morgan-prices-in-stunning-shift-in-fed-rate-hike-call",
-      "summary": "摩根大通放弃“只加一次”的预测，改为预计美联储12月、明年1月和3月连续三次各加息25个基点；美银与德银也有相同预期，2027年降息希望基本破灭。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-24 23:25"
+    "updated_at": "2026-11-25 01:25"
   }
 }
