@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-25",
+      "source": "Global Banking and Finance",
+      "title": "Global Markets Sell-Off Amid Tariff Fears and Weak Asian Shares",
+      "url": "https://www.globalbankingandfinance.com/morning-bid-whos-afraid-jamieson-greer/",
+      "summary": "美国贸易代表办公室即将公布针对主要贸易伙伴产能过剩的调查结果，市场担忧新一轮关税，全球股市大跌；MSCI亚太指数跌2.4%，韩国KOSPI跌5.8%、台股跌4.7%、日经跌2.8%，布伦特原油跌至90.09美元，投资者等待今日公布的美国PCE通胀数据。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Morningstar",
+      "title": "LONDON MARKET OPEN: Europe perks up after US tech tumble",
+      "url": "https://www.morningstar.com/news/alliance-news/1795597141412175300/london-market-open-europe-perks-up-after-us-tech-tumble",
+      "summary": "欧洲股市周三早盘反弹，摆脱美股与亚股跌势：富时100涨0.7%、巴黎CAC40涨1.2%、法兰克福DAX涨0.2%；市场等待今日公布的美国10月PCE通胀数据，核心PCE预期同比上涨3.2%。"
+    },
+    {
+      "published_at": "2026-11-25",
       "source": "TradingView",
       "title": "Nvidia's Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed's December Decision",
       "url": "https://www.tradingview.com/news/stocktwits:490f6efc8094b:0-nvidia-s-rebound-falling-oil-and-a-strong-dollar-three-signals-complicating-the-fed-s-december-decision/",
@@ -125,24 +139,10 @@
       "title": "Wall Street Week Ahead",
       "url": "https://seekingalpha.com/article/4970920-wall-street-week-ahead",
       "summary": "感恩节当周美股带着上周重挫进入，纳指上周跌10%、标普500跌8.6%；周三公布的核心PCE预计同比上涨3.2%，是美联储12月8-9日会议前的最后一份通胀数据；美股周四感恩节休市、周五提前收盘。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Wall Street Journal",
-      "title": "Inflation Data, Dell Earnings: What to Watch the Rest of the Week",
-      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026/card/inflation-data-dell-earnings-what-to-watch-the-rest-of-the-week-rqLafrwPbBts99JeHsxb",
-      "summary": "本周余下看点：周三8:30公布10月PCE、三季度GDP修正值、耐用品订单与申领失业金数据，下午2点美联储褐皮书；戴尔周二盘后公布财报，AI服务器需求成焦点。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Investor's Business Daily",
-      "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
-      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-anthropic-ai-retreat-fed-inflation-data/",
-      "summary": "周二美股分化：道指涨0.85%、罗素2000涨0.6%，纳指跌1.5%、标普500跌0.5%，英伟达跌5.9%、AMD跌8.9%、Anthropic跌破IPO价；市场等待周三公布的10月核心PCE与三季度GDP修正值，美国政府拟宣布对华等国加征新关税。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 17:25"
+    "updated_at": "2026-11-25 19:25"
   }
 }
