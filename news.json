@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-25",
+      "source": "MoneyControl",
+      "title": "Commodity Corner: Gold slips, oil steadies as traders assess supply concerns and geopolitical tensions",
+      "url": "https://www.moneycontrol.com/news/currency/commodity-corner-gold-slips-oil-steadies-as-traders-assess-supply-concerns-and-geopolitical-tensions-14088303.html",
+      "summary": "布伦特原油约91美元、WTI低于82美元，霍尔木兹海峡油轮遇袭与供应增加预期交织；现货金跌0.3%至3544.54美元，白银、铂金同步走低，美元指数报103.85。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "VT Markets",
+      "title": "Dollar slips as US yields fall, oil drops and G10, EM currencies stay volatile",
+      "url": "https://www.vtmarkets.com/en-eu/live-updates/dollar-slips-as-us-yields-fall-oil-drops-and-g10-em-currencies-stay-volatile/",
+      "summary": "美元走弱，美债收益率回落5-6个基点，1月WTI跌至约79美元；欧元兑美元反弹至1.0950，英镑创年内新低后企稳，离岸人民币走强至6.66附近。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "FXStreet",
+      "title": "$1 trillion wiped out as fed fears roar back sending bitcoin below $60k, gold under $3,600",
+      "url": "https://www.fxstreet.com/analysis/1-trillion-wiped-out-as-fed-fears-roar-back-sending-bitcoin-below-60k-gold-under-3-600-202611241711",
+      "summary": "周二全球股市蒸发超1万亿美元，标普500跌向7150点、纳指100跌超2%，比特币跌破6万美元、黄金跌破3600美元；市场定价12月加息25个基点概率约95%，10年期美债收益率逼近5%。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Barchart",
+      "title": "Stocks Mostly Lower on Weakness in Chipmakers and Renewed Trade Tensions",
+      "url": "https://www.barchart.com/story/news/8986226/stocks-mostly-lower-on-weakness-in-chipmakers-and-renewed-trade-tensions",
+      "summary": "周二美股多数走低，标普500跌0.48%、纳指100跌1.58%，道指涨0.36%；英伟达跌超4%，芯片股承压；10年期美债收益率回落至4.88%，市场等待周三PCE通胀数据。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "NRB",
+      "title": "AI Doubts Spark Global Selloff, Even Gold Drops",
+      "url": "https://nrb.bg/en/2026-11-21-global-markets-barometer-ai-doubts-spark-global-selloff-even-gold/",
+      "summary": "AI支出能否回本的质疑引发全球抛售，欧洲股市创2025年3月以来最差单周，黄金与铜等避险资产同步下跌；德国10月生产者价格同比上涨8.1%，布伦特原油报92.57美元。"
+    },
+    {
+      "published_at": "2026-11-25",
       "source": "Reuters",
       "title": "Indian shares may open higher as foreign inflows, lower oil prices aid sentiment",
       "url": "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
@@ -104,45 +139,10 @@
       "title": "Pound claws above 19-month low, as dollar pauses after Nvidia-driven rally",
       "url": "https://www.reuters.com/markets/europe/pound-claws-above-19-month-low-dollar-pauses-after-nvidia-driven-rally-2026-11-24/",
       "summary": "英镑自19个月低点小幅反弹至1.307美元，美元在英伟达带动的涨势后暂歇；市场预计美联储12月加息25个基点、明年中利率见顶约4.5%，周三PCE数据或决定英镑能否守住1.30关口。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Reuters",
-      "title": "Europe's STOXX 600 subdued after AI-driven rally",
-      "url": "https://www.reuters.com/markets/europe/europes-stoxx-600-subdued-after-ai-driven-rally-2026-11-24/",
-      "summary": "欧洲STOXX 600周二开盘持平，科技股在周一创4月以来最大单日涨幅后回落0.3%；赛诺菲宣布收购美国Insed后涨4.5%，医疗板块跑赢大盘。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Barchart",
-      "summary": "周二美股科技股领跌，标普500跌约1%、纳指100跌2.6%，英伟达跌超8%回吐周一31%的涨幅；市场等待周三PCE通胀数据，12月美联储加息25个基点已完全定价，10年期美债收益率回落至4.88%。",
-      "title": "Weakness in Tech Stocks Weighs on the Broader Market",
-      "url": "https://www.barchart.com/story/news/8987701/weakness-in-tech-stocks-weighs-on-the-broader-market"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Reuters",
-      "summary": "加拿大股指期货小幅走低，布伦特原油跌至近三个月低点、现货金跌0.2%，市场权衡供应增加与霍尔木兹航运风险；美联储长期高利率预期继续压制金价。",
-      "title": "TSX futures slip as weaker commodity prices weigh on sentiment",
-      "url": "https://www.reuters.com/markets/europe/tsx-futures-slip-weaker-commodity-prices-weigh-sentiment-2026-11-24/"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Europe Says",
-      "summary": "周二美股期货回落，纳指100期货跌2%、英伟达跌5%，市场消化周一历史性反弹；AI股剧烈波动考验美联储主席沃什的加息策略，交易员重新定价12月加息概率95%、并押注2027年1月可能再加息。",
-      "title": "Stock market today: Dow, S&P 500, Nasdaq futures fall as chip stocks fall, investors test Nvidia-fueled rally",
-      "url": "https://www.europesays.com/3397709/"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "StockNow",
-      "summary": "原油延续跌势，WTI约79-80美元、布伦特约86-87美元，美伊外交回暖希望与供应过剩预期压制油价；现货金在3614-3678美元区间震荡，美联储鹰派押注施压金价，白银与铜同步走弱。",
-      "title": "Crude extends declines on US-Iran diplomacy hopes; copper and silver slide while TTF firms",
-      "url": "https://stocknow.ai/en/breaking-news/uk1bhj5sxfjmcu1e2oqkcmpz/market-analysis-crude-extends-declines-on-us-iran-diplomacy-hopes-copper-and-sil"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 13:25"
+    "updated_at": "2026-11-25 15:25"
   }
 }
