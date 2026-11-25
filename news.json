@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-25",
+      "source": "TradingView",
+      "title": "Nvidia's Rebound, Falling Oil And A Strong Dollar: Three Signals Complicating The Fed's December Decision",
+      "url": "https://www.tradingview.com/news/stocktwits:490f6efc8094b:0-nvidia-s-rebound-falling-oil-and-a-strong-dollar-three-signals-complicating-the-fed-s-december-decision/",
+      "summary": "英伟达CEO黄仁勋复职带动纳指单日涨6.5%、标普500涨4.9%，但油价回落与美元走强令通胀信号分化；市场定价12月加息25个基点概率约96%，也有观点认为油价下跌为2027年降息留出空间。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "The Hindu BusinessLine",
+      "title": "Gold slips as Fed hike bets weigh; silver, crude, base metals also under pressure",
+      "url": "https://www.thehindubusinessline.com/markets/commodities/gold-slips-as-fed-hike-bets-weigh-silver-crude-base-metals-also-under-pressure/article71741631.ece",
+      "summary": "周三金价继续走低，现货金约3544美元，此前一日已跌超2%；白银、铂金同步走弱，WTI约80.9美元、布伦特约90.8美元；市场等待今日公布的PCE通胀与三季度GDP数据。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Al Etihad",
+      "title": "Markets: Oil prices fall, gold holds steady ahead of US inflation data",
+      "url": "https://en.aletihad.ae/news/business/4708259/markets--oil-prices-fall--gold-holds-steady-ahead-of-us-infl",
+      "summary": "布伦特原油跌0.5%至90.97美元、WTI跌0.6%至81.58美元，金价在上一交易日跌超2%后持稳于3558.85美元；投资者等待今日公布的美国通胀数据以判断美联储政策路径。"
+    },
+    {
+      "published_at": "2026-11-25",
       "source": "MoneyControl",
       "title": "Commodity Corner: Gold slips, oil steadies as traders assess supply concerns and geopolitical tensions",
       "url": "https://www.moneycontrol.com/news/currency/commodity-corner-gold-slips-oil-steadies-as-traders-assess-supply-concerns-and-geopolitical-tensions-14088303.html",
@@ -118,31 +139,10 @@
       "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
       "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-futures-nvidia-anthropic-ai-retreat-fed-inflation-data/",
       "summary": "周二美股分化：道指涨0.85%、罗素2000涨0.6%，纳指跌1.5%、标普500跌0.5%，英伟达跌5.9%、AMD跌8.9%、Anthropic跌破IPO价；市场等待周三公布的10月核心PCE与三季度GDP修正值，美国政府拟宣布对华等国加征新关税。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Reuters",
-      "title": "Trading Day: Nvidia bounce fades",
-      "url": "https://www.reuters.com/commentary/reuters-open-interest/global-markets-trading-day-graphic-2026-11-24/",
-      "summary": "英伟达反弹迅速降温，周二跌6%、较10月6日高点仍跌约37%；美元回落、美债持稳，市场聚焦周三公布的PCE通胀与三季度GDP，感恩节假期临近投资者观望情绪升温。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Reuters",
-      "title": "Wall St futures dip as chip stocks cool after Nvidia-fueled rally",
-      "url": "https://www.reuters.com/business/wall-st-futures-dip-chip-stocks-cool-after-nvidia-fueled-rally-2026-11-24/",
-      "summary": "周二美股期货回落，芯片股降温，英伟达盘前跌4.4%、美光、AMD、Marvell跌3.3%至4.3%；市场等待周三PCE数据，这是美联储12月会议前的最后关键线索，交易员已完全定价12月加息25个基点。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Reuters",
-      "title": "Pound claws above 19-month low, as dollar pauses after Nvidia-driven rally",
-      "url": "https://www.reuters.com/markets/europe/pound-claws-above-19-month-low-dollar-pauses-after-nvidia-driven-rally-2026-11-24/",
-      "summary": "英镑自19个月低点小幅反弹至1.307美元，美元在英伟达带动的涨势后暂歇；市场预计美联储12月加息25个基点、明年中利率见顶约4.5%，周三PCE数据或决定英镑能否守住1.30关口。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 15:25"
+    "updated_at": "2026-11-25 17:25"
   }
 }
