@@ -3,6 +3,34 @@
     {
       "published_at": "2026-11-25",
       "source": "Reuters",
+      "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
+      "url": "https://www.reuters.com/world/africa/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-2026-11-25/",
+      "summary": "美元周三走稳，等待今日公布的PCE通胀与三季度GDP数据；市场定价12月加息概率97%、明年1月再加息概率66%；澳大利亚10月CPI超预期上涨，澳元走强。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Stocks retreat as AI rebound stumbles, tariff threats loom",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-25/",
+      "summary": "周三亚股大跌，MSCI亚太指数跌2.3%，韩国KOSPI跌5.3%、台股跌5.1%、日经跌2.9%；AI股反弹熄火叠加美国新关税威胁打压风险偏好，布伦特原油跌至90.97美元。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Wall Street Journal",
+      "title": "Asian Stocks Mostly Lower on AI Doubts, Tariff Jitters",
+      "url": "https://www.wsj.com/finance/stocks/asian-stocks-mostly-lower-on-ai-doubts-tariff-jitters-a0da3389",
+      "summary": "亚股周三多数走低，韩国KOSPI跌4.7%、台股跌8.2%（台积电跌8.3%）、日经跌3.15%，韩国交易所一度因期货跌超5%暂停交易；市场等待今日PCE数据与美国新关税消息。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Morningstar",
+      "title": "GDP Revision and PCE Prices on Tap — Data Week Ahead",
+      "url": "https://www.morningstar.com/news/dow-jones/202611244784/gdp-revision-and-pce-prices-on-tap-data-week-ahead",
+      "summary": "今日8:30将公布10月PCE（预期同比3.8%、核心3.2%）、三季度GDP修正值（预期3.6%）、耐用品订单与申领失业金数据，下午2点美联储褐皮书；这是12月8-9日FOMC会议前的最后关键数据。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
       "title": "Gold ticks lower ahead of US inflation data",
       "url": "https://www.reuters.com/world/india/gold-ticks-lower-ahead-us-inflation-data-2026-11-25/",
       "summary": "周三金价小幅走低，此前一日跌超2%；美联储鹰派信号强化12月加息预期，市场定价加息25个基点概率96.4%、加息50个基点概率3.6%，投资者等待今日公布的PCE通胀数据。"
@@ -111,38 +139,10 @@
       "title": "Nasdaq drops over 1% as Nvidia-fueled AI rally fades, Anthropic tanks 8%",
       "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
       "summary": "周二美股开盘回落，纳指跌超1%、英伟达涨势降温，Anthropic跌约8%；市场等待周三公布的PCE通胀数据，这是美联储12月会议前的最后一份重要经济数据。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "TalkMarkets",
-      "title": "Daily Market Outlook - Tuesday, Nov. 24",
-      "url": "https://talkmarkets.com/article/daily-market-outlook-tuesday-nov-24",
-      "summary": "英伟达涨31%引发历史性逼空后，标普500仍受制于7390-7440点伽马翻转区间，市场结构依然脆弱；10月PCE预计同比加速至3.8%，美联储的限制性立场仍是长久期科技股的阻力。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Wall Street Journal",
-      "title": "U.S. Prepares to Raise Tariffs on China and Other Countries",
-      "url": "https://www.wsj.com/economy/trade/u-s-prepares-to-raise-tariffs-on-china-and-other-countries-37981740",
-      "summary": "美国准备对中国及数十个国家加征关税，贸易代表格里尔最早本周公布针对外国产业补贴的301调查结果；中国面临的税率可能最高，欧盟、日韩或升至15%，该消息令周二美股承压、纳指跌超1%。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Barchart",
-      "title": "Stocks Mostly Lower on Weakness in Chipmakers and Renewed Trade Tensions",
-      "url": "https://www.barchart.com/story/news/8986226/stocks-mostly-lower-on-weakness-in-chipmakers-and-renewed-trade-tensions",
-      "summary": "周二美股多数回落，英伟达跌超4%、芯片股领跌，消化周一31%的历史性涨幅；市场等待周三PCE通胀数据，12月美联储加息25个基点已完全定价，WTI原油跌至三个半月低点，10年期美债收益率回落至4.88%。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Channel News Asia",
-      "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
-      "url": "https://www.channelnewsasia.com/business/asian-stocks-rally-jensen-huang-nvidia-return-revives-ai-trade-6576636",
-      "summary": "周二亚股大涨，台股涨9.1%、韩国KOSPI涨7.5%、日经涨4.5%，追随美股历史性反弹；英伟达周一涨31.5%创23年最大单日涨幅，台积电与富士康双双逼近涨停；但中国沪深300与恒指走势明显落后。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 09:25"
+    "updated_at": "2026-11-25 11:25"
   }
 }
