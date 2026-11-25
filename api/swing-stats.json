@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-24T08:39:18+00:00",
+  "generated_at": "2026-11-25T09:05:10+00:00",
   "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
   "indexes": {
     "q50": {
-      "data_date": "2026-11-24",
-      "computed_at": "2026-11-24T08:39:12+00:00",
+      "data_date": "2026-11-25",
+      "computed_at": "2026-11-25T09:04:53+00:00",
       "stats": {
         "up_gain": {
           "n": 207,
@@ -105,74 +105,74 @@
       }
     },
     "h100": {
-      "data_date": "2026-11-24",
-      "computed_at": "2026-11-24T08:39:13+00:00",
+      "data_date": "2026-11-25",
+      "computed_at": "2026-11-25T09:04:55+00:00",
       "stats": {
         "up_gain": {
-          "n": 957,
-          "mean": 0.7687,
-          "median": 0.4877,
-          "q1": 0.3021,
-          "q3": 0.8282
+          "n": 958,
+          "mean": 0.7682,
+          "median": 0.4874,
+          "q1": 0.3017,
+          "q3": 0.827
         },
         "down_loss": {
-          "n": 920,
-          "mean": 0.3406,
-          "median": 0.3135,
+          "n": 921,
+          "mean": 0.341,
+          "median": 0.3138,
           "q1": 0.2548,
-          "q3": 0.4058
+          "q3": 0.4064
         },
         "up_duration_weeks": {
-          "n": 957,
-          "mean": 11.5529,
+          "n": 958,
+          "mean": 11.5422,
           "median": 7.6,
           "q1": 4.1,
-          "q3": 15.3
+          "q3": 15.25
         },
         "down_duration_weeks": {
-          "n": 920,
-          "mean": 11.6845,
-          "median": 8.35,
+          "n": 921,
+          "mean": 11.6863,
+          "median": 8.4,
           "q1": 4.9,
           "q3": 15.3
         },
         "drawdown_at_swing_start": {
-          "n": 938,
-          "mean": 0.3753,
-          "median": 0.3587,
+          "n": 939,
+          "mean": 0.3754,
+          "median": 0.3591,
           "q1": 0.2725,
-          "q3": 0.4667
+          "q3": 0.4673
         },
         "four_week_drop_at_swing_start": {
-          "n": 893,
-          "mean": -0.1665,
-          "median": -0.1705,
-          "q1": -0.233,
+          "n": 894,
+          "mean": -0.1667,
+          "median": -0.1706,
+          "q1": -0.2331,
           "q3": -0.1119
         },
         "adverse_move_after_entry": {
-          "n": 957,
+          "n": 958,
           "mean": -0.0001,
           "median": 0.0,
           "q1": 0.0,
           "q3": 0.0
         },
         "entry_to_high_gain": {
-          "n": 957,
-          "mean": 0.6378,
-          "median": 0.3803,
-          "q1": 0.2053,
-          "q3": 0.7042
+          "n": 958,
+          "mean": 0.6373,
+          "median": 0.3801,
+          "q1": 0.205,
+          "q3": 0.7036
         },
         "entry_to_high_duration_weeks": {
-          "n": 957,
-          "mean": 10.9942,
+          "n": 958,
+          "mean": 10.9839,
           "median": 7.0,
           "q1": 3.7143,
-          "q3": 14.4286
+          "q3": 14.3571
         },
         "mae_after_entry": {
-          "n": 957,
+          "n": 958,
           "mean": -0.0202,
           "median": -0.0108,
           "q1": -0.034,
@@ -186,16 +186,16 @@
           "q3": 22.675
         },
         "n_stocks": 100,
-        "n_completed_swings": 1877,
-        "n_up": 957,
-        "n_down": 920
+        "n_completed_swings": 1879,
+        "n_up": 958,
+        "n_down": 921
       },
       "rules": {
         "derived_from": {
           "n_stocks": 100,
-          "n_completed_swings": 1877,
-          "n_up": 957,
-          "n_down": 920
+          "n_completed_swings": 1879,
+          "n_up": 958,
+          "n_down": 921
         },
         "stop_loss_pct": 0.08,
         "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
@@ -207,15 +207,15 @@
       }
     },
     "etf": {
-      "data_date": "2026-11-24",
-      "computed_at": "2026-11-24T08:39:13+00:00",
+      "data_date": "2026-11-25",
+      "computed_at": "2026-11-25T09:04:55+00:00",
       "stats": {
         "up_gain": {
-          "n": 34,
-          "mean": 0.3556,
-          "median": 0.2513,
-          "q1": 0.1933,
-          "q3": 0.4883
+          "n": 35,
+          "mean": 0.35,
+          "median": 0.2505,
+          "q1": 0.1922,
+          "q3": 0.4767
         },
         "down_loss": {
           "n": 34,
@@ -225,11 +225,11 @@
           "q3": 0.3131
         },
         "up_duration_weeks": {
-          "n": 34,
-          "mean": 10.9471,
-          "median": 7.35,
-          "q1": 5.7,
-          "q3": 14.725
+          "n": 35,
+          "mean": 10.6714,
+          "median": 7.3,
+          "q1": 5.45,
+          "q3": 14.45
         },
         "down_duration_weeks": {
           "n": 34,
@@ -239,45 +239,45 @@
           "q3": 14.35
         },
         "drawdown_at_swing_start": {
-          "n": 33,
-          "mean": 0.2713,
-          "median": 0.2534,
-          "q1": 0.1536,
-          "q3": 0.3822
+          "n": 34,
+          "mean": 0.279,
+          "median": 0.2737,
+          "q1": 0.1566,
+          "q3": 0.386
         },
         "four_week_drop_at_swing_start": {
-          "n": 33,
-          "mean": -0.1137,
-          "median": -0.1213,
-          "q1": -0.1734,
-          "q3": -0.0681
+          "n": 34,
+          "mean": -0.1188,
+          "median": -0.1215,
+          "q1": -0.1737,
+          "q3": -0.0683
         },
         "adverse_move_after_entry": {
-          "n": 34,
+          "n": 35,
           "mean": 0.0,
           "median": 0.0,
           "q1": 0.0,
           "q3": 0.0
         },
         "entry_to_high_gain": {
-          "n": 34,
-          "mean": 0.2689,
-          "median": 0.178,
-          "q1": 0.1184,
-          "q3": 0.3765
+          "n": 35,
+          "mean": 0.2628,
+          "median": 0.1727,
+          "q1": 0.1165,
+          "q3": 0.3608
         },
         "entry_to_high_duration_weeks": {
-          "n": 34,
-          "mean": 10.0546,
-          "median": 6.6429,
-          "q1": 4.1429,
-          "q3": 12.2857
+          "n": 35,
+          "mean": 9.8,
+          "median": 6.5714,
+          "q1": 3.7143,
+          "q3": 12.1429
         },
         "mae_after_entry": {
-          "n": 34,
-          "mean": -0.0115,
-          "median": -0.0041,
-          "q1": -0.0175,
+          "n": 35,
+          "mean": -0.0112,
+          "median": -0.004,
+          "q1": -0.0156,
           "q3": 0.0
         },
         "large_up_duration_weeks": {
@@ -288,15 +288,15 @@
           "q3": 27.075
         },
         "n_stocks": 3,
-        "n_completed_swings": 68,
-        "n_up": 34,
+        "n_completed_swings": 69,
+        "n_up": 35,
         "n_down": 34
       },
       "rules": {
         "derived_from": {
           "n_stocks": 3,
-          "n_completed_swings": 68,
-          "n_up": 34,
+          "n_completed_swings": 69,
+          "n_up": 35,
           "n_down": 34
         },
         "stop_loss_pct": 0.06,
