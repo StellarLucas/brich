@@ -3,6 +3,20 @@
     {
       "published_at": "2026-11-25",
       "source": "Reuters",
+      "title": "Indian shares may open higher as foreign inflows, lower oil prices aid sentiment",
+      "url": "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
+      "summary": "印度股市周三有望高开，外资周一净买入约6.1亿美元、11月累计净买入创纪录142.8亿美元，资金从全球AI股轮动至印度；布伦特原油11月以来跌约23%，GIFT Nifty期货报25738点。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "MUFG Research",
+      "title": "Middle East Daily",
+      "url": "https://www.mufgresearch.com/macro/middle-east-daily-24-november-2026/",
+      "summary": "布伦特原油周初大跌3.5%至89.37美元、创8月以来最低，地缘溢价回吐；现货金涨2.7%至3645美元；以色列央行维持利率3.25%不变，穆迪对沙特主权评级定期复核未采取行动。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
       "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
       "url": "https://www.reuters.com/world/africa/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-2026-11-25/",
       "summary": "美元周三走稳，等待今日公布的PCE通胀与三季度GDP数据；市场定价12月加息概率97%、明年1月再加息概率66%；澳大利亚10月CPI超预期上涨，澳元走强。"
@@ -125,24 +139,10 @@
       "summary": "原油延续跌势，WTI约79-80美元、布伦特约86-87美元，美伊外交回暖希望与供应过剩预期压制油价；现货金在3614-3678美元区间震荡，美联储鹰派押注施压金价，白银与铜同步走弱。",
       "title": "Crude extends declines on US-Iran diplomacy hopes; copper and silver slide while TTF firms",
       "url": "https://stocknow.ai/en/breaking-news/uk1bhj5sxfjmcu1e2oqkcmpz/market-analysis-crude-extends-declines-on-us-iran-diplomacy-hopes-copper-and-sil"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Kitco",
-      "title": "Gold struggles to extend rebound as Fed rate hike bets pressure silver",
-      "url": "https://www.kitco.com/news/article/2026-11-24/gold-struggles-extend-rebound-fed-rate-hike-bets-pressure-silver-kitco-am",
-      "summary": "周二金价在美元走强与美联储加息预期下回落，现货金约3622美元、白银跌超2%至42美元附近；市场定价12月加息25个基点概率约95%，等待周三公布的PCE通胀数据。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Economic Times",
-      "title": "Nasdaq drops over 1% as Nvidia-fueled AI rally fades, Anthropic tanks 8%",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-anthropic-iphone-google-meta-tesla-earnings-treasury-yield-news-24-nov-2026/liveblog/136131363.cms",
-      "summary": "周二美股开盘回落，纳指跌超1%、英伟达涨势降温，Anthropic跌约8%；市场等待周三公布的PCE通胀数据，这是美联储12月会议前的最后一份重要经济数据。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 11:25"
+    "updated_at": "2026-11-25 13:25"
   }
 }
