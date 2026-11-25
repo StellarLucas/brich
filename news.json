@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-25",
+      "source": "Stocktwits",
+      "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels – Investors Digest PCE Inflation, Fresh Tariff Proposal",
+      "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj",
+      "summary": "美股周三大幅收跌，道指跌1039点（-2.1%）、纳指跌4.4%、标普500跌3.1%；10月核心PCE同比3.3%超预期、三季度GDP上修至4.3%，市场强化12月加息预期；特朗普政府拟对14个贸易伙伴加征新关税，AI股领跌。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Wall Street Journal",
+      "title": "Treasury Yields Extend Fall After U.S. Data Flurry",
+      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995",
+      "summary": "美国10月PCE公布后美债收益率回落，2年期跌7.1个基点至4.598%、10年期跌6.2个基点至4.839%；核心PCE同比3.3%高于预期的3.2%，三季度GDP上修至4.3%，市场仍定价12月加息25个基点。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Investor's Business Daily",
+      "title": "PCE Inflation Overshoots As Fed Fears Worsen AI-Stock Volatility (Live Coverage)",
+      "url": "https://www.investors.com/news/pce-inflation-oct-federal-reserve-sp-500-ai-nvidia-liquidity-crunch/",
+      "summary": "10月核心PCE同比升至3.3%，为2023年11月以来最高，12月加息25个基点概率约98%；标普500期货跌超2%，AI股抛售加剧，美元走强、金价下滑。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Kitco",
+      "title": "Gold, silver remain under pressure as strong GDP, sticky inflation reinforce Fed hike bets - Kitco AM Report",
+      "url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-remain-under-pressure-strong-gdp-sticky-inflation-reinforce-fed",
+      "summary": "现货金跌2.05%至3482美元附近、白银跌破40美元，布伦特原油跌至约89.93美元、WTI约80.53美元；强劲GDP与粘性通胀强化12月加息预期，市场关注11月29日OPEC+会议。"
+    },
+    {
+      "published_at": "2026-11-25",
       "source": "swissinfo.ch (Bloomberg)",
       "title": "Tech Selloff Rolls On as Haven Demand Lifts Bonds: Markets Wrap",
       "url": "https://www.swissinfo.ch/eng/tech-selloff-rolls-on-as-haven-demand-lifts-bonds:-markets-wrap/92432172",
@@ -111,38 +139,10 @@
       "title": "Middle East Daily",
       "url": "https://www.mufgresearch.com/macro/middle-east-daily-24-november-2026/",
       "summary": "布伦特原油周初大跌3.5%至89.37美元、创8月以来最低，地缘溢价回吐；现货金涨2.7%至3645美元；以色列央行维持利率3.25%不变，穆迪对沙特主权评级定期复核未采取行动。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Reuters",
-      "title": "Dollar takes breather ahead of US data on Fed path; Aussie jumps on CPI",
-      "url": "https://www.reuters.com/world/africa/dollar-takes-breather-ahead-us-data-fed-path-aussie-jumps-cpi-2026-11-25/",
-      "summary": "美元周三走稳，等待今日公布的PCE通胀与三季度GDP数据；市场定价12月加息概率97%、明年1月再加息概率66%；澳大利亚10月CPI超预期上涨，澳元走强。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Reuters",
-      "title": "Stocks retreat as AI rebound stumbles, tariff threats loom",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-25/",
-      "summary": "周三亚股大跌，MSCI亚太指数跌2.3%，韩国KOSPI跌5.3%、台股跌5.1%、日经跌2.9%；AI股反弹熄火叠加美国新关税威胁打压风险偏好，布伦特原油跌至90.97美元。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Wall Street Journal",
-      "title": "Asian Stocks Mostly Lower on AI Doubts, Tariff Jitters",
-      "url": "https://www.wsj.com/finance/stocks/asian-stocks-mostly-lower-on-ai-doubts-tariff-jitters-a0da3389",
-      "summary": "亚股周三多数走低，韩国KOSPI跌4.7%、台股跌8.2%（台积电跌8.3%）、日经跌3.15%，韩国交易所一度因期货跌超5%暂停交易；市场等待今日PCE数据与美国新关税消息。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Morningstar",
-      "title": "GDP Revision and PCE Prices on Tap — Data Week Ahead",
-      "url": "https://www.morningstar.com/news/dow-jones/202611244784/gdp-revision-and-pce-prices-on-tap-data-week-ahead",
-      "summary": "今日8:30将公布10月PCE（预期同比3.8%、核心3.2%）、三季度GDP修正值（预期3.6%）、耐用品订单与申领失业金数据，下午2点美联储褐皮书；这是12月8-9日FOMC会议前的最后关键数据。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 21:25"
+    "updated_at": "2026-11-25 23:25"
   }
 }
