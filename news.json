@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-25",
+      "source": "The Financial Express",
+      "title": "Wall Street in turmoil: AI stocks crash, inflation bites and Trump tariffs spook investors",
+      "url": "https://www.financialexpress.com/market/global-markets/wall-street-in-turmoil-ai-stocks-crash-inflation-bites-and-trump-tariffs-spook-investors/4393869/",
+      "summary": "美股周三全线大跌，道指跌1.54%、标普500跌2.66%、纳指跌3.73%；英伟达跌近9%、Anthropic跌约8%、甲骨文跌超8%；10月核心PCE同比3.3%超预期，美国拟对14个贸易伙伴加征新关税，AI股抛售加剧。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Global Banking and Finance",
+      "title": "World Stocks Decline as US Tariffs Loom and AI Rally Fades",
+      "url": "https://www.globalbankingandfinance.com/stocks-retreat-ai-rebound-stumbles-tariff-threats-loom/",
+      "summary": "全球股市周三走低，MSCI全球指数跌0.5%，亚太芯片股跌超3%；美国拟对16个贸易伙伴加征关税、美元走强，投资者等待PCE数据以判断美联储12月是否加息。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Wall Street Journal",
+      "title": "Oil Prices Fall as Traders Weigh Supply Outlook, Renewed Middle East Tensions",
+      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198",
+      "summary": "油价周三回落，布伦特跌0.3%至91.10美元、WTI跌0.7%至81.50美元；市场权衡供应过剩预期与霍尔木兹海峡紧张局势，等待11月29日OPEC+会议决定2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-25",
       "source": "Stocktwits",
       "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels – Investors Digest PCE Inflation, Fresh Tariff Proposal",
       "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj",
@@ -118,31 +139,10 @@
       "title": "Stocks Mostly Lower on Weakness in Chipmakers and Renewed Trade Tensions",
       "url": "https://www.barchart.com/story/news/8986226/stocks-mostly-lower-on-weakness-in-chipmakers-and-renewed-trade-tensions",
       "summary": "周二美股多数走低，标普500跌0.48%、纳指100跌1.58%，道指涨0.36%；英伟达跌超4%，芯片股承压；10年期美债收益率回落至4.88%，市场等待周三PCE通胀数据。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "NRB",
-      "title": "AI Doubts Spark Global Selloff, Even Gold Drops",
-      "url": "https://nrb.bg/en/2026-11-21-global-markets-barometer-ai-doubts-spark-global-selloff-even-gold/",
-      "summary": "AI支出能否回本的质疑引发全球抛售，欧洲股市创2025年3月以来最差单周，黄金与铜等避险资产同步下跌；德国10月生产者价格同比上涨8.1%，布伦特原油报92.57美元。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Reuters",
-      "title": "Indian shares may open higher as foreign inflows, lower oil prices aid sentiment",
-      "url": "https://www.reuters.com/world/india/indian-shares-may-open-higher-foreign-inflows-lower-oil-prices-aid-sentiment-2026-11-25/",
-      "summary": "印度股市周三有望高开，外资周一净买入约6.1亿美元、11月累计净买入创纪录142.8亿美元，资金从全球AI股轮动至印度；布伦特原油11月以来跌约23%，GIFT Nifty期货报25738点。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "MUFG Research",
-      "title": "Middle East Daily",
-      "url": "https://www.mufgresearch.com/macro/middle-east-daily-24-november-2026/",
-      "summary": "布伦特原油周初大跌3.5%至89.37美元、创8月以来最低，地缘溢价回吐；现货金涨2.7%至3645美元；以色列央行维持利率3.25%不变，穆迪对沙特主权评级定期复核未采取行动。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 23:25"
+    "updated_at": "2026-11-26 01:25"
   }
 }
