@@ -1,6 +1,41 @@
 {
   "items": [
     {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Gold ticks lower ahead of US inflation data",
+      "url": "https://www.reuters.com/world/india/gold-ticks-lower-ahead-us-inflation-data-2026-11-25/",
+      "summary": "周三金价小幅走低，此前一日跌超2%；美联储鹰派信号强化12月加息预期，市场定价加息25个基点概率96.4%、加息50个基点概率3.6%，投资者等待今日公布的PCE通胀数据。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Wall Street Journal",
+      "title": "Crude Futures Settle Higher on Shipping Risks",
+      "url": "https://www.wsj.com/finance/commodities-futures/oil-futures-edge-higher-on-likely-technical-recovery-3d1650f7",
+      "summary": "油价周二收涨，WTI涨2.3%至82.05美元、布伦特涨2.3%至91.40美元，霍尔木兹海峡油轮遇袭令风险溢价回升；但布伦特11月以来仍跌超20%，供应过剩预期未消。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Barron's",
+      "title": "Stubborn Inflation Could Pose a Bigger Threat to Markets Than AI Worries",
+      "url": "https://www.barrons.com/articles/stubborn-inflation-could-pose-a-bigger-threat-to-markets-than-ai-worries-40ca18e9",
+      "summary": "经济学家预计10月PCE同比上涨3.8%、核心PCE升至3.2%，均远高于美联储2%目标；12月加息25个基点已基本定价，周三数据将影响市场对2027年进一步加息幅度的预期。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Seeking Alpha",
+      "title": "Wall Street Week Ahead",
+      "url": "https://seekingalpha.com/article/4970920-wall-street-week-ahead",
+      "summary": "感恩节当周美股带着上周重挫进入，纳指上周跌10%、标普500跌8.6%；周三公布的核心PCE预计同比上涨3.2%，是美联储12月8-9日会议前的最后一份通胀数据；美股周四感恩节休市、周五提前收盘。"
+    },
+    {
+      "published_at": "2026-11-24",
+      "source": "Wall Street Journal",
+      "title": "Inflation Data, Dell Earnings: What to Watch the Rest of the Week",
+      "url": "https://www.wsj.com/livecoverage/stock-market-today-dow-sp-500-nasdaq-11-24-2026/card/inflation-data-dell-earnings-what-to-watch-the-rest-of-the-week-rqLafrwPbBts99JeHsxb",
+      "summary": "本周余下看点：周三8:30公布10月PCE、三季度GDP修正值、耐用品订单与申领失业金数据，下午2点美联储褐皮书；戴尔周二盘后公布财报，AI服务器需求成焦点。"
+    },
+    {
       "published_at": "2026-11-24",
       "source": "Investor's Business Daily",
       "title": "Dow Jones Futures Fall: Nvidia, Anthropic Lead AI Retreat But Many Sectors Strong; Fed Inflation Data Due",
@@ -104,45 +139,10 @@
       "title": "Asian stocks rally as Huang's return to Nvidia revives the AI trade",
       "url": "https://www.channelnewsasia.com/business/asian-stocks-rally-jensen-huang-nvidia-return-revives-ai-trade-6576636",
       "summary": "周二亚股大涨，台股涨9.1%、韩国KOSPI涨7.5%、日经涨4.5%，追随美股历史性反弹；英伟达周一涨31.5%创23年最大单日涨幅，台积电与富士康双双逼近涨停；但中国沪深300与恒指走势明显落后。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Wall Street Journal",
-      "title": "Nasdaq Futures Fall as Questions Linger Over AI Trade",
-      "url": "https://www.wsj.com/finance/stocks/nasdaq-futures-fall-as-questions-linger-over-ai-trade-68ba6d71",
-      "summary": "英伟达涨势降温，纳指期货回落，市场对AI交易能否持续仍存疑问；油价自低位回升，布伦特涨至约89.5美元、WTI约80.25美元，黄金期货跌0.2%、白银跌1.8%。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Reuters",
-      "title": "Oil holds near three-month low as rising supply offsets Hormuz threat",
-      "url": "https://www.reuters.com/business/energy/oil-holds-near-three-month-low-rising-supply-offsets-hormuz-threat-2026-11-24/",
-      "summary": "布伦特原油跌至约89美元、WTI跌破80美元，徘徊在三个月低点附近；供应增加与潜在过剩压制油价，霍尔木兹海峡三艘油轮触雷、美方调查伊朗涉油轮网攻事件仍为油价提供支撑。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Global Banking & Finance",
-      "title": "US futures, European stocks slip as Nvidia rally cools",
-      "url": "https://www.globalbankingandfinance.com/asian-stocks-rally-huangs-nvidia-return-revives-ai-trade/",
-      "summary": "英伟达涨势降温，周二美股期货与欧股回落，纳指期货跌0.9%、英伟达盘前跌近4%；市场等待周三公布的PCE通胀数据，12月美联储加息已基本完全定价。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Wall Street Journal",
-      "title": "‘I Fell Off My Chair.’ Investors Marvel as Huang’s Return Sends Stocks Rocketing.",
-      "url": "https://www.wsj.com/finance/stocks/i-fell-off-my-chair-investors-marvel-as-huangs-return-sends-stocks-rocketing-98131bc6",
-      "summary": "黄仁勋复职的消息令华尔街震动，英伟达单日市值增加近1万亿美元创历史纪录，纳指润6.5%、标普500润4.7%，七巨头合计市值增加1.6万亿美元。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "Wall Street Journal",
-      "title": "Nvidia’s Rally Ripples Across Markets",
-      "url": "https://www.wsj.com/finance/stocks/stock-futures-rally-as-dust-settles-after-ai-driven-selloff-705ff2c4",
-      "summary": "英伟达涨势扩散至全市场，三大指数齐涨、纳指领润6.8%；金银分别涨4%和5%，布伦特油价赁3%至87美元下方。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-25 07:25"
+    "updated_at": "2026-11-25 09:25"
   }
 }
