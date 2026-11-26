@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "ECB already had large support for rate hike in Oct, accounts show",
+      "url": "https://www.reuters.com/markets/europe/ecb-already-had-large-support-rate-hike-oct-accounts-show-2026-11-26/",
+      "summary": "欧洲央行10月会议纪要显示，多数委员当时已支持加息，但决定暂缓以收集更多通胀证据；市场普遍预计12月17日加息25个基点已成定局。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "European stocks rally as tech and banks rebound, tariff fears ease",
+      "url": "https://www.reuters.com/business/finance/european-stocks-rally-tech-banks-rebound-tariff-fears-ease-2026-11-26/",
+      "summary": "欧洲股市周四涨逾1%，银行与科技股领涨，STOXX 600涨1.4%；新一轮美国关税对欧盟影响或限于15%，投资者对关税与加息担忧缓解。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "Euro countries pick Spain's De Cos as ECB chief, Costa says",
+      "url": "https://www.reuters.com/world/europe/euro-countries-pick-spains-de-cos-ecb-chief-costa-says-2026-11-26/",
+      "summary": "欧元区成员国一致推荐西班牙的德科斯接任欧洲央行行长，2027年2月接替拉加德；市场反应平淡，普遍预计政策连续性较强。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "TheStreet",
+      "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
+      "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-",
+      "summary": "金价周三一度跌破3500美元、创15个月新低后回升至3573美元附近，11月仍跌约12%；布伦特守在94美元附近，比特币回升至6万美元上方；美股感恩节休市。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Yonhap Infomax",
+      "title": "[New York Market Watch] Tug-of-War Between AI Selloff and Bargain Hunting - Stocks Mixed, Bonds Rise, Dollar Falls",
+      "url": "https://en.infomaxai.com/news/articleView.html?idxno=150305",
+      "summary": "美股11月25日AI抛售与抄底拉锯，标普跌0.25%、纳指跌0.62%、道指涨0.33%，费城半导体指数收窄跌幅至-0.65%；美债收益率回落、美元走弱。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "The Financial Express",
       "title": "US stock futures rise but is the AI market crisis over?",
       "url": "https://www.financialexpress.com/market/global-markets/us-stock-futures-rise-but-is-the-ai-market-crisis-over/4394555/",
@@ -104,45 +139,10 @@
       "title": "Global Markets re-pricing Fed rate expectations amid PCE inflation concerns",
       "url": "https://www.fxstreet.com/analysis/global-markets-re-pricing-fed-rate-expectations-amid-pce-inflation-concerns-202611260710",
       "summary": "10月PCE同比3.8%、核心PCE同比3.3%超预期，CME定价12月9日美联储加息25个基点概率98.1%；美股感恩节休市，纳指与标普期货小幅波动；美国拟对中国等17个经济体加征最高15%关税。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "FXStreet",
-      "title": "Morning briefing: Crude Oil prices bounced back on Middle East tensions",
-      "url": "https://www.fxstreet.com/analysis/morning-briefing-crude-oil-prices-bounced-back-on-middle-east-tensions-202611260439",
-      "summary": "胡塞武装袭击沙特拉斯坦努拉炼厂后油价反弹，布伦特守在95美元附近、WTI约84美元；金价跌破3500美元后在3426美元获支撑反弹；市场关注11月29日OPEC+会议。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "swissinfo.ch (Bloomberg)",
-      "title": "Stocks, Nasdaq Futures Climb as AI Trade Rebounds: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks,-nasdaq-futures-climb-as-ai-trade-rebounds:-markets-wrap/92439307",
-      "summary": "感恩节前夕美股期货与亚股反弹，MSCI亚太指数涨1.3%、纳指期货涨0.8%，AI股回暖；布伦特涨至95.27美元，10年期美债收益率回落至4.85%。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Stockbiz",
-      "title": "Markets on November 26: Oil rises again on Middle East risks, gold plunges before turning higher",
-      "url": "https://stockbiz.vn/en/news/markets-on-november-26-oil-rises-again-on-middle-east-risks-gold-plunges-before-turning-higher/42920955",
-      "summary": "中东紧张局势持续支撑油价，布伦特涨0.2%至94.84美元、WTI涨0.7%至84.23美元；金价周三暴跌3%至3445.89美元后周四早盘反弹至3605美元附近。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "title": "Asia shares bounce, AI and tariffs lurk in background",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/",
-      "summary": "亚股周四反弹，日经涨1.6%、韩国综合指数涨1.9%、台股涨3.05%、恒生涨1.22%；美股周三盘中深跌后收窄跌幅，纳指100一度触及熊市区域；布伦特守在94.81美元附近，金价回落至3566美元。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Yonhap News Agency",
-      "title": "(2nd LD) BOK raises key rate to 3.25 pct amid strong growth, inflation, revises up 2027 forecast to 4.1 pct",
-      "url": "https://en.yna.co.kr/view/AEN20261126001252320?section=economy-finance/economy",
-      "summary": "韩国央行时隔三个月恢复紧缩，加息25个基点至3.25%（2024年10月以来最高），两名委员反对；同时上调2026年增长预测至3.9%、2027年至4.1%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 05:25"
+    "updated_at": "2026-11-27 07:25"
   }
 }
