@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "The Financial Express",
+      "title": "US stock futures rise but is the AI market crisis over?",
+      "url": "https://www.financialexpress.com/market/global-markets/us-stock-futures-rise-but-is-the-ai-market-crisis-over/4394555/",
+      "summary": "感恩节假期美股期货企稳反弹，亚欧AI相关股回暖，台韩日港股市收涨、欧股斯托克600涨1.7%；英伟达周三收跌3.91%至149美元，市场仍关注科技股、贸易政策与美联储预期。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Asia Today (English)",
+      "title": "Wall Street swings sharply amid AI profitability fears and tariff uncertainty",
+      "url": "https://en.asiatoday.co.kr/view.php?key=20261126000950231",
+      "summary": "美股11月25日剧烈震荡，纳指盘中一度跌超4%、道指一度跌逾1000点后大幅收窄跌幅；英伟达盘中跌超9%后收跌3.91%，AI盈利担忧与美国扩大关税计划叠加，感恩节休市、27日提前收盘。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Volatility-weary investors hammered as tariff mayhem adds to tech pain",
+      "url": "https://www.reuters.com/business/global-markets-risks-analysis-graphic-pix-2026-11-25/",
+      "summary": "特朗普新一轮关税提案叠加AI交易崩盘，波动率指数VIX 11月飙升逾60%、创疫情以来最大月度涨幅之一；纳指较10月初纪录高点跌近20%、逼近熊市，费城半导体指数较6月纪录跌50%，投资者涌向避险资产。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "Morningstar",
       "title": "EMEA Morning Briefing: Stock Futures Rise After Nasdaq Composite Pares Sharp Losses",
       "url": "https://www.morningstar.com/news/dow-jones/2026112648/emea-morning-briefing-stock-futures-rise-after-nasdaq-composite-pares-sharp-losses",
@@ -118,31 +139,10 @@
       "title": "(2nd LD) BOK raises key rate to 3.25 pct amid strong growth, inflation, revises up 2027 forecast to 4.1 pct",
       "url": "https://en.yna.co.kr/view/AEN20261126001252320?section=economy-finance/economy",
       "summary": "韩国央行时隔三个月恢复紧缩，加息25个基点至3.25%（2024年10月以来最高），两名委员反对；同时上调2026年增长预测至3.9%、2027年至4.1%。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "TradingView (CNBC TV18)",
-      "title": "News by CNBC TV18 on TradingView, 2026-11-26",
-      "url": "https://www.tradingview.com/news/cnbctv:27e31014d094b:0/",
-      "summary": "亚股周四高开，MSCI亚太指数涨0.4%，KOSPI涨1.88%、日经涨1.85%、台股涨3.05%、恒生涨1.22%；12月9日美联储加息概率升至99%，美股感恩节休市。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "title": "OPEC+ may roll over current oil output targets at Sunday meeting, sources say",
-      "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
-      "summary": "OPEC+或在周日会议上维持现有产量目标不变，伊朗战争持续扰乱中东成员国出口；尚未作出最终决定，谈判仍在继续；分析机构Rapidan亦预计周日目标不变、重大配额决定推迟至明年。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Seeking Alpha",
-      "title": "Commodities: Oil Extends Rally As Copper Rebounds",
-      "url": "https://seekingalpha.com/article/4972196-commodities-oil-extends-rally-copper-rebounds?source=feed_all_articles",
-      "summary": "油价连续第三个交易日上涨，布伦特突破95美元、WTI突破85美元，中东供应风险主导市场；铜价在周三暴跌后反弹，但11月仍跌约15%；金价仍接近15个月低点，受美联储长期高利率预期与强美元压制。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 03:25"
+    "updated_at": "2026-11-27 05:25"
   }
 }
