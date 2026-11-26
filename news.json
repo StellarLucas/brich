@@ -2,6 +2,34 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
+      "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/",
+      "summary": "周四亚洲早盘油价延续涨势，胡塞武装袭击沙特最大炼厂、两艘油轮在霍尔木兹海峡触雷引发供应担忧；布伦特94.71美元、WTI 84.03美元；OPEC+将于11月29日开会决定2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Morningstar",
+      "title": "European Midday Briefing: Shares Rise as AI Trade Steadies for Thanksgiving Break",
+      "url": "https://www.morningstar.com/news/dow-jones/202611261981/european-midday-briefing-shares-rise-as-ai-trade-steadies-for-thanksgiving-break",
+      "summary": "欧洲股市周四大幅上涨，银行、科技、国防股领涨，AI交易企稳；美股因感恩节休市，欧洲央行10月会议纪要将公布，市场定价12月加息概率91%。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say",
+      "url": "https://www.reuters.com/business/energy/kazakhstan-also-seeks-higher-oil-output-capacity-estimate-ahead-2027-opec-quota-2026-11-25/",
+      "summary": "哈萨克斯坦与伊拉克要求OPEC+上调其原油产能评估，2027年配额谈判前分歧加剧；OPEC+周日开会决定2027年产量政策，阿联酋已退出该组织。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Russia says OPEC+ to complete production capacity review by year-end",
+      "url": "https://www.reuters.com/business/energy/russia-says-opec-complete-production-capacity-review-by-year-end-2026-11-25/",
+      "summary": "俄罗斯副总理诺瓦克称OPEC+将在年底前完成成员国产能评估审查；OPEC+将于11月29日开会，决定2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "The Financial Express",
       "title": "Nasdaq tumbles, Nvidia slides as Trump opens new tariff battle with 14 trading partners",
       "url": "https://www.financialexpress.com/market/global-markets/nasdaq-tumbles-nvidia-slides-as-trump-opens-new-tariff-battle-with-14-trading-partners/4394087/",
@@ -111,38 +139,10 @@
       "title": "Fed survey shows continued growth and sticky inflation in recent weeks",
       "url": "https://www.reuters.com/business/fed-survey-shows-continued-growth-sticky-inflation-recent-weeks-2026-11-25/",
       "summary": "美联储褐皮书显示近几周经济继续增长、通胀粘性、就业上升，企业普遍反映能源、运输、医保及关税相关成本压力持续，投入成本涨幅超过售价涨幅。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Reuters",
-      "title": "Fed policymakers at odds over causes of high inflation",
-      "url": "https://www.reuters.com/business/fed-policymakers-odds-over-causes-high-inflation-2026-11-25/",
-      "summary": "美联储官员对高通胀成因存在分歧——需求过热还是将消退的供给冲击；市场已定价短期内可能连续三次加息，10月会议纪要显示讨论焦点已转向加息的步伐与幅度。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Invezz",
-      "title": "Evening digest: US inflation rises, Trump proposes fresh tariffs on 14 economies",
-      "url": "https://invezz.com/ng/news/2026/11/25/evening-digest-us-inflation-rises-trump-proposes-fresh-tariffs-on-14-economies/",
-      "summary": "美国10月通胀进一步远离美联储2%目标、三季度GDP上修至4.3%，强化12月加息预期；特朗普政府拟对14个贸易伙伴加征新关税，胡塞武装袭击沙特炼厂后布伦特涨至94.14美元，金价跌破3500美元。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "swissinfo.ch (Bloomberg)",
-      "title": "Stocks Fall as AI Jitters Spur Rush to Treasuries: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/stocks-fall-as-ai-jitters-spur-rush-to-treasuries:-markets-wrap/92432172",
-      "summary": "科技股再遭抛售，纳指100一度接近熊市区域、收跌2%，资金涌入避险债券，10年期美债收益率连续第八日下滑至4.83%；现货金跌1.3%至3511.97美元，WTI涨2%至83.66美元。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "CBOE",
-      "title": "Call It Wall Street's Turkey of a Trading Day",
-      "url": "https://www.cboe.com/insights/posts/call-it-wall-streets-turkey-of-a-trading-day/",
-      "summary": "美股周三盘中深跌后逢低买盘入场收窄跌幅，纳指收跌0.62%、标普500收跌0.35%、道指收涨0.33%；英伟达收跌3.9%，VIX收于28上方，10年期美债收益率跌至4.85%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-26 17:25"
+    "updated_at": "2026-11-26 19:26"
   }
 }
