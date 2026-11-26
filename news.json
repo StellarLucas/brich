@@ -8,13 +8,6 @@
       "summary": "美国三季度GDP年化增速上修至4.3%、三年最快，10月PCE同比3.8%为五个月高点、核心PCE 3.3%超预期，初请失业金降至18.9万；市场几乎完全定价美联储12月加息25个基点，德银预计12月、1月、3月连续三次加息。"
     },
     {
-      "published_at": "2026-11-25",
-      "source": "Morningstar",
-      "title": "Dow Jones Top Markets Headlines at 11 PM ET: Wall Street Can't Seem to Find Its Footing in the Chaos of the New AI Trade | BOJ's Tamura Urges Timely Rate Hikes",
-      "url": "https://www.morningstar.com/news/dow-jones/202611258902/dow-jones-top-markets-headlines-at-11-pm-et-wall-street-cant-seem-to-find-its-footing-in-the-chaos-of-the-new-ai-trade-bojs",
-      "summary": "美股周三盘中纳指一度暴跌4.5%后收窄跌幅，AI交易动荡未平；日本央行审议委员田村直树呼吁及时加息、强化12月加息预期；美联储褐皮书称成本与价格继续上涨；三季度GDP上修至4.3%、初请失业金降至18.9万。"
-    },
-    {
       "published_at": "2026-11-26",
       "source": "FXStreet",
       "title": "The commodities feed: Oil extends rally as Copper rebounds",
@@ -43,20 +36,6 @@
       "summary": "欧洲股市周四大幅上涨，银行、科技、国防股领涨，AI交易企稳；美股因感恩节休市，欧洲央行10月会议纪要将公布，市场定价12月加息概率91%。"
     },
     {
-      "published_at": "2026-11-25",
-      "source": "Reuters",
-      "title": "Kazakhstan also seeks higher oil output capacity estimate ahead of 2027 OPEC+ quota debate, sources say",
-      "url": "https://www.reuters.com/business/energy/kazakhstan-also-seeks-higher-oil-output-capacity-estimate-ahead-2027-opec-quota-2026-11-25/",
-      "summary": "哈萨克斯坦与伊拉克要求OPEC+上调其原油产能评估，2027年配额谈判前分歧加剧；OPEC+周日开会决定2027年产量政策，阿联酋已退出该组织。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Reuters",
-      "title": "Russia says OPEC+ to complete production capacity review by year-end",
-      "url": "https://www.reuters.com/business/energy/russia-says-opec-complete-production-capacity-review-by-year-end-2026-11-25/",
-      "summary": "俄罗斯副总理诺瓦克称OPEC+将在年底前完成成员国产能评估审查；OPEC+将于11月29日开会，决定2027年产量政策。"
-    },
-    {
       "published_at": "2026-11-26",
       "source": "The Financial Express",
       "title": "Nasdaq tumbles, Nvidia slides as Trump opens new tariff battle with 14 trading partners",
@@ -83,13 +62,6 @@
       "title": "Rupee to dip on oil rise, AI trade finding tentative footing",
       "url": "https://www.reuters.com/world/india/rupee-dip-oil-rise-ai-trade-finding-tentative-footing-2026-11-26/",
       "summary": "印度卢比因油价上涨承压，预计开盘92.32–92.36；亚股反弹、AI交易暂稳，韩台领涨、多数亚币走强，显示市场对新一轮美国关税的反应相对克制。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Investopedia",
-      "title": "5 Things Investors Need to Know About Wednesday's Markets",
-      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-25-2026-12276784",
-      "summary": "感恩节前最后一个交易日：AI抛售延续、Anthropic跌破IPO价，10月PCE同比3.8%符合预期、12月加息预期强化；10年期美债收益率4.842%，WTI涨0.6%至82.51美元，贵金属与比特币齐跌。"
     },
     {
       "published_at": "2026-11-26",
@@ -139,10 +111,38 @@
       "title": "News by CNBC TV18 on TradingView, 2026-11-26",
       "url": "https://www.tradingview.com/news/cnbctv:27e31014d094b:0/",
       "summary": "亚股周四高开，MSCI亚太指数涨0.4%，KOSPI涨1.88%、日经涨1.85%、台股涨3.05%、恒生涨1.22%；12月9日美联储加息概率升至99%，美股感恩节休市。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "OPEC+ may roll over current oil output targets at Sunday meeting, sources say",
+      "url": "https://www.reuters.com/business/energy/opec-may-roll-over-current-oil-output-targets-sunday-meeting-sources-say-2026-11-26/",
+      "summary": "OPEC+或在周日会议上维持现有产量目标不变，伊朗战争持续扰乱中东成员国出口；尚未作出最终决定，谈判仍在继续；分析机构Rapidan亦预计周日目标不变、重大配额决定推迟至明年。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Seeking Alpha",
+      "title": "Commodities: Oil Extends Rally As Copper Rebounds",
+      "url": "https://seekingalpha.com/article/4972196-commodities-oil-extends-rally-copper-rebounds?source=feed_all_articles",
+      "summary": "油价连续第三个交易日上涨，布伦特突破95美元、WTI突破85美元，中东供应风险主导市场；铜价在周三暴跌后反弹，但11月仍跌约15%；金价仍接近15个月低点，受美联储长期高利率预期与强美元压制。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "TheStreet",
+      "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
+      "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-",
+      "summary": "感恩节美股休市，但大宗商品与比特币照常交易；金价周三一度跌破3500美元至3445美元后回升至3573美元附近，11月累计跌约12%；比特币回升至60820美元附近；布伦特约94.35美元。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Morningstar",
+      "title": "Dow Jones Top Markets Headlines at 11 PM ET: Wall Street Can't Seem to Find Its Footing in the Chaos of the New AI Trade | BOJ's Tamura Urges Timely Rate Hikes",
+      "url": "https://www.morningstar.com/news/dow-jones/202611258902/dow-jones-top-markets-headlines-at-11-pm-et-wall-street-cant-seem-to-find-its-footing-in-the-chaos-of-the-new-ai-trade-bojs",
+      "summary": "美股周三盘中纳指一度暴跌4.5%后收窄跌幅，AI交易动荡未平；日本央行审议委员田村直树呼吁及时加息、强化12月加息预期；美联储褐皮书称成本与价格继续上涨；三季度GDP上修至4.3%、初请失业金降至18.9万。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-26 23:25"
+    "updated_at": "2026-11-27 01:25"
   }
 }
