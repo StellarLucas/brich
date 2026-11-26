@@ -2,6 +2,41 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "The Financial Express",
+      "title": "Nasdaq tumbles, Nvidia slides as Trump opens new tariff battle with 14 trading partners",
+      "url": "https://www.financialexpress.com/market/global-markets/nasdaq-tumbles-nvidia-slides-as-trump-opens-new-tariff-battle-with-14-trading-partners/4394087/",
+      "summary": "特朗普政府拟依据301条款对14个贸易伙伴加征新关税，纳指盘中一度跌3.9%、纳指100短暂触及熊市区间，英伟达收跌3.91%且标普将其AA评级列入负面观察；道指收涨0.33%，收复盘中逾1100点跌幅。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Barron's",
+      "title": "Chips and iPhones Are Safe From New Tariffs. Here's What Isn't.",
+      "url": "https://www.barrons.com/articles/apple-micron-tariffs-tech-stocks-trump-58a58e8d",
+      "summary": "新一轮关税豁免芯片、服务器、智能手机及多数半导体设备，英伟达、AMD、苹果等科技公司不受影响；税率欧盟15%、越南最高35%，1月5日结束公众评议、1月25日听证，3月11日前公布最终决定。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "Most Gulf markets muted on Saudi energy strikes, maritime dangers",
+      "url": "https://www.reuters.com/world/middle-east/most-gulf-markets-muted-saudi-energy-strikes-maritime-dangers-2026-11-26/",
+      "summary": "海湾股市周四早盘走弱，胡塞袭击沙特拉斯坦努拉炼厂及航运风险施压市场；沙特TASI基本持平、沙特阿美涨0.7%，阿布扎比跌0.1%、卡塔尔跌0.2%，迪拜涨0.5%。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "Rupee to dip on oil rise, AI trade finding tentative footing",
+      "url": "https://www.reuters.com/world/india/rupee-dip-oil-rise-ai-trade-finding-tentative-footing-2026-11-26/",
+      "summary": "印度卢比因油价上涨承压，预计开盘92.32–92.36；亚股反弹、AI交易暂稳，韩台领涨、多数亚币走强，显示市场对新一轮美国关税的反应相对克制。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Investopedia",
+      "title": "5 Things Investors Need to Know About Wednesday's Markets",
+      "url": "https://www.investopedia.com/5-things-to-know-stock-market-november-25-2026-12276784",
+      "summary": "感恩节前最后一个交易日：AI抛售延续、Anthropic跌破IPO价，10月PCE同比3.8%符合预期、12月加息预期强化；10年期美债收益率4.842%，WTI涨0.6%至82.51美元，贵金属与比特币齐跌。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "FXStreet",
       "title": "Global Markets re-pricing Fed rate expectations amid PCE inflation concerns",
       "url": "https://www.fxstreet.com/analysis/global-markets-re-pricing-fed-rate-expectations-amid-pce-inflation-concerns-202611260710",
@@ -104,45 +139,10 @@
       "title": "Call It Wall Street's Turkey of a Trading Day",
       "url": "https://www.cboe.com/insights/posts/call-it-wall-streets-turkey-of-a-trading-day/",
       "summary": "美股周三盘中深跌后逢低买盘入场收窄跌幅，纳指收跌0.62%、标普500收跌0.35%、道指收涨0.33%；英伟达收跌3.9%，VIX收于28上方，10年期美债收益率跌至4.85%。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Seeking Alpha (ING)",
-      "title": "Strong Growth And Elevated Inflation Signal More Fed Tightening",
-      "url": "https://seekingalpha.com/article/4971938-strong-growth-elevated-inflation-signal-more-fed-tightening?feed_item_type=article",
-      "summary": "三季度GDP上修至4.3%、核心PCE同比3.3%，连续三个月核心PCE环比0.3%使三个月年化通胀达3.6%，基本锁定12月9日加息25个基点；工资同比3.1%、大宗商品价格回落，2027年通胀压力或缓解。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "The Straits Times",
-      "title": "Asian stocks tumble as tariff fears return",
-      "url": "https://www.straitstimes.com/business/companies-markets/asian-stocks-tumble-as-ai-rally-fizzles-and-trump-tariff-fears-return?ref=latest-headlines",
-      "summary": "亚股周三普跌，MSCI亚太指数跌2.35%，韩国KOSPI跌6.16%、台股跌4.8%、日经跌2.78%、恒生跌1.14%、上证跌2.03%；三星跌9.87%、SK海力士跌10.32%、软银跌14.83%、台积电跌3.59%；美国拟对16个贸易伙伴加征新关税。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Barchart",
-      "title": "Stocks Sharply Lower on AI Angst",
-      "url": "https://www.barchart.com/story/news/9005930/stocks-sharply-lower-on-ai-angst",
-      "summary": "标普500跌2.54%、纳指100跌4.16%、道指跌1.48%；10月核心PCE同比3.3%超预期，市场定价12月加息概率97%；欧股斯托克50跌至6个月低点、上证跌2.03%至16.5个月低点、日经跌2.78%；10年期美债收益率跌至4.818%。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Fox Business",
-      "summary": "美股周三继续大跌，纳指跌3.75%、标普500跌2.5%、道指跌864点；10月PCE同比3.8%、核心PCE 3.3%超预期，市场定价12月加息概率97%、1月再加息概率63%；美股周四感恩节休市、周五提前收盘。",
-      "title": "Stocks tumble as AI sell-off deepens, Fed's preferred inflation gauge rises",
-      "url": "https://foxbusiness.com/markets/stocks-11-25-2026"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Business Today",
-      "summary": "道指跌970点（-1.95%）、标普500跌2.89%、纳指跌4.23%；10月PCE同比3.8%为2023年以来最高、核心PCE 3.3%超预期；特朗普政府宣布新关税，芯片股领跌，AI股抛售加剧。",
-      "title": "Dow plunges 970 points, Nasdaq sinks 4% as hot inflation, Trump tariffs and chip rout hit Wall Street",
-      "url": "https://www.businesstoday.in/amp/markets/story/dow-plunges-970-points-nasdaq-sinks-4-as-hot-inflation-trump-tariffs-and-chip-rout-hit-wall-street-569547-2026-11-25"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-26 15:25"
+    "updated_at": "2026-11-26 17:25"
   }
 }
