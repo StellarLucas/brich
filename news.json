@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "Morningstar",
+      "title": "EMEA Morning Briefing: Stock Futures Rise After Nasdaq Composite Pares Sharp Losses",
+      "url": "https://www.morningstar.com/news/dow-jones/2026112648/emea-morning-briefing-stock-futures-rise-after-nasdaq-composite-pares-sharp-losses",
+      "summary": "欧洲股指期货周四早盘走高，纳指隔夜收窄跌幅至-0.6%（盘中一度跌4.6%）；市场关注欧洲央行10月会议纪要与德国消费者信心数据；美联储12月加息预期升温，市场约95%定价加息25个基点。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Morningstar",
+      "title": "OPEC, Allies Face Tough Choices as Surplus Builds, Hormuz Risks Persist — Commodities Roundup",
+      "url": "https://www.morningstar.com/news/dow-jones/202611263485/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-commodities-roundup",
+      "summary": "布伦特涨1.3%至95.84美元、黄金期货涨1%至3571.80美元；OPEC+周日开会面临艰难抉择，供应过剩预期与霍尔木兹海峡航运风险并存。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "Seoul Economic Daily",
       "title": "U.S. Growth Hits 4.3% as Jobs Hold Firm, Raising December Rate-Hike Odds",
       "url": "https://en.sedaily.com/economy/2026/11/26/us-growth-hits-43-percent-as-jobs-hold-firm-raising",
@@ -125,24 +139,10 @@
       "title": "Commodities: Oil Extends Rally As Copper Rebounds",
       "url": "https://seekingalpha.com/article/4972196-commodities-oil-extends-rally-copper-rebounds?source=feed_all_articles",
       "summary": "油价连续第三个交易日上涨，布伦特突破95美元、WTI突破85美元，中东供应风险主导市场；铜价在周三暴跌后反弹，但11月仍跌约15%；金价仍接近15个月低点，受美联储长期高利率预期与强美元压制。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "TheStreet",
-      "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
-      "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-",
-      "summary": "感恩节美股休市，但大宗商品与比特币照常交易；金价周三一度跌破3500美元至3445美元后回升至3573美元附近，11月累计跌约12%；比特币回升至60820美元附近；布伦特约94.35美元。"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Morningstar",
-      "title": "Dow Jones Top Markets Headlines at 11 PM ET: Wall Street Can't Seem to Find Its Footing in the Chaos of the New AI Trade | BOJ's Tamura Urges Timely Rate Hikes",
-      "url": "https://www.morningstar.com/news/dow-jones/202611258902/dow-jones-top-markets-headlines-at-11-pm-et-wall-street-cant-seem-to-find-its-footing-in-the-chaos-of-the-new-ai-trade-bojs",
-      "summary": "美股周三盘中纳指一度暴跌4.5%后收窄跌幅，AI交易动荡未平；日本央行审议委员田村直树呼吁及时加息、强化12月加息预期；美联储褐皮书称成本与价格继续上涨；三季度GDP上修至4.3%、初请失业金降至18.9万。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 01:25"
+    "updated_at": "2026-11-27 03:25"
   }
 }
