@@ -1,6 +1,48 @@
 {
   "items": [
     {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "US inflation rises further in October",
+      "url": "https://www.reuters.com/business/us-inflation-rises-further-october-2026-11-25/",
+      "summary": "美国10月PCE同比3.8%、核心PCE同比3.3%（三年新高），市场定价12月8–9日美联储会议加息25个基点；美联储理事沃勒称不排除加息50个基点以遏制通胀。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Fed survey shows continued growth and sticky inflation in recent weeks",
+      "url": "https://www.reuters.com/business/fed-survey-shows-continued-growth-sticky-inflation-recent-weeks-2026-11-25/",
+      "summary": "美联储褐皮书显示近几周经济继续增长、通胀粘性、就业上升，企业普遍反映能源、运输、医保及关税相关成本压力持续，投入成本涨幅超过售价涨幅。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Reuters",
+      "title": "Fed policymakers at odds over causes of high inflation",
+      "url": "https://www.reuters.com/business/fed-policymakers-odds-over-causes-high-inflation-2026-11-25/",
+      "summary": "美联储官员对高通胀成因存在分歧——需求过热还是将消退的供给冲击；市场已定价短期内可能连续三次加息，10月会议纪要显示讨论焦点已转向加息的步伐与幅度。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Invezz",
+      "title": "Evening digest: US inflation rises, Trump proposes fresh tariffs on 14 economies",
+      "url": "https://invezz.com/ng/news/2026/11/25/evening-digest-us-inflation-rises-trump-proposes-fresh-tariffs-on-14-economies/",
+      "summary": "美国10月通胀进一步远离美联储2%目标、三季度GDP上修至4.3%，强化12月加息预期；特朗普政府拟对14个贸易伙伴加征新关税，胡塞武装袭击沙特炼厂后布伦特涨至94.14美元，金价跌破3500美元。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "swissinfo.ch (Bloomberg)",
+      "title": "Stocks Fall as AI Jitters Spur Rush to Treasuries: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-fall-as-ai-jitters-spur-rush-to-treasuries:-markets-wrap/92432172",
+      "summary": "科技股再遭抛售，纳指100一度接近熊市区域、收跌2%，资金涌入避险债券，10年期美债收益率连续第八日下滑至4.83%；现货金跌1.3%至3511.97美元，WTI涨2%至83.66美元。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "CBOE",
+      "title": "Call It Wall Street's Turkey of a Trading Day",
+      "url": "https://www.cboe.com/insights/posts/call-it-wall-streets-turkey-of-a-trading-day/",
+      "summary": "美股周三盘中深跌后逢低买盘入场收窄跌幅，纳指收跌0.62%、标普500收跌0.35%、道指收涨0.33%；英伟达收跌3.9%，VIX收于28上方，10年期美债收益率跌至4.85%。"
+    },
+    {
       "published_at": "2026-11-26",
       "source": "Peter Lewis Money Talk (Substack)",
       "title": "PETER'S ASIAN BUSINESS & FINANCE BRIEFING – Thursday 26 November 2026, 06:00 Hong Kong",
@@ -97,52 +139,10 @@
       "summary": "全球股市周三走低，MSCI全球指数跌0.5%，亚太芯片股跌超3%；美国拟对16个贸易伙伴加征关税、美元走强，投资者等待PCE数据以判断美联储12月是否加息。",
       "title": "World Stocks Decline as US Tariffs Loom and AI Rally Fades",
       "url": "https://www.globalbankingandfinance.com/stocks-retreat-ai-rebound-stumbles-tariff-threats-loom/"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Wall Street Journal",
-      "summary": "油价周三回落，布伦特跌0.3%至91.10美元、WTI跌0.7%至81.50美元；市场权衡供应过剩预期与霍尔木兹海峡紧张局势，等待11月29日OPEC+会议决定2027年产量政策。",
-      "title": "Oil Prices Fall as Traders Weigh Supply Outlook, Renewed Middle East Tensions",
-      "url": "https://www.wsj.com/world/middle-east/oil-prices-fall-as-traders-weigh-supply-outlook-renewed-middle-east-tensions-182b1198"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Stocktwits",
-      "summary": "美股周三大幅收跌，道指跌1039点（-2.1%）、纳指跌4.4%、标普500跌3.1%；10月核心PCE同比3.3%超预期、三季度GDP上修至4.3%，市场强化12月加息预期；特朗普政府拟对14个贸易伙伴加征新关税，AI股领跌。",
-      "title": "Dow Craters Over 1000 Points, Nasdaq Slips 4% As AI Trade Unravels – Investors Digest PCE Inflation, Fresh Tariff Proposal",
-      "url": "https://stocktwits.com/news-articles/markets/equity/dow-craters-over-1000-points-nasdaq-slips-4-as-ai-trade-unravels-investors-digest-pce-inflation-fresh-tariff-proposal/cNbHjJvR9mj"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Wall Street Journal",
-      "summary": "美国10月PCE公布后美债收益率回落，2年期跌7.1个基点至4.598%、10年期跌6.2个基点至4.839%；核心PCE同比3.3%高于预期的3.2%，三季度GDP上修至4.3%，市场仍定价12月加息25个基点。",
-      "title": "Treasury Yields Extend Fall After U.S. Data Flurry",
-      "url": "https://www.wsj.com/finance/investing/u-s-treasury-yields-fall-ahead-of-pce-inflation-data-dfeb7995"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Investor's Business Daily",
-      "summary": "10月核心PCE同比升至3.3%，为2023年11月以来最高，12月加息25个基点概率约98%；标普500期货跌超2%，AI股抛售加剧，美元走强、金价下滑。",
-      "title": "PCE Inflation Overshoots As Fed Fears Worsen AI-Stock Volatility (Live Coverage)",
-      "url": "https://www.investors.com/news/pce-inflation-oct-federal-reserve-sp-500-ai-nvidia-liquidity-crunch/"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Kitco",
-      "summary": "现货金跌2.05%至3482美元附近、白银跌破40美元，布伦特原油跌至约89.93美元、WTI约80.53美元；强劲GDP与粘性通胀强化12月加息预期，市场关注11月29日OPEC+会议。",
-      "title": "Gold, silver remain under pressure as strong GDP, sticky inflation reinforce Fed hike bets - Kitco AM Report",
-      "url": "https://www.kitco.com/news/article/2026-11-25/gold-silver-remain-under-pressure-strong-gdp-sticky-inflation-reinforce-fed"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "swissinfo.ch (Bloomberg)",
-      "summary": "全球科技股抛售持续，纳指100期货跌2.4%、标普500期货跌1.5%，英伟达盘前跌超5%、七巨头全线走低；资金涌入避险债券，10年期美债收益率跌7个基点至4.86%，市场等待今日公布的美国10月PCE通胀数据。",
-      "title": "Tech Selloff Rolls On as Haven Demand Lifts Bonds: Markets Wrap",
-      "url": "https://www.swissinfo.ch/eng/tech-selloff-rolls-on-as-haven-demand-lifts-bonds:-markets-wrap/92432172"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-26 07:26"
+    "updated_at": "2026-11-26 09:25"
   }
 }
