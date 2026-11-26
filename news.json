@@ -1,6 +1,34 @@
 {
   "items": [
     {
+      "published_at": "2026-11-26",
+      "source": "Reuters",
+      "title": "Asia shares bounce, AI and tariffs lurk in background",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-26/",
+      "summary": "亚股周四反弹，日经涨1.6%、韩国综合指数涨1.9%、台股涨3.05%、恒生涨1.22%；美股周三盘中深跌后收窄跌幅，纳指100一度触及熊市区域；布伦特守在94.81美元附近，金价回落至3566美元。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Yonhap News Agency",
+      "title": "(2nd LD) BOK raises key rate to 3.25 pct amid strong growth, inflation, revises up 2027 forecast to 4.1 pct",
+      "url": "https://en.yna.co.kr/view/AEN20261126001252320?section=economy-finance/economy",
+      "summary": "韩国央行时隔三个月恢复紧缩，加息25个基点至3.25%（2024年10月以来最高），两名委员反对；同时上调2026年增长预测至3.9%、2027年至4.1%。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "TradingView (CNBC TV18)",
+      "title": "News by CNBC TV18 on TradingView, 2026-11-26",
+      "url": "https://www.tradingview.com/news/cnbctv:27e31014d094b:0/",
+      "summary": "亚股周四高开，MSCI亚太指数涨0.4%，KOSPI涨1.88%、日经涨1.85%、台股涨3.05%、恒生涨1.22%；12月9日美联储加息概率升至99%，美股感恩节休市。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Moneycontrol",
+      "title": "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns",
+      "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html/amp",
+      "summary": "布伦特守在95美元附近、两日累计涨近6%，WTI约84美元，中东紧张局势支撑油价；金价在3560美元附近小幅回落，此前一度跌破3500美元后收涨0.9%。"
+    },
+    {
       "published_at": "2026-11-25",
       "source": "Reuters",
       "title": "US inflation rises further in October",
@@ -111,38 +139,10 @@
       "title": "Fed Hike Bets Mount as Gold and Silver Slide, Oil Faces Pressure",
       "url": "https://menews247.com/fed-hike-bets-mount-as-gold-and-silver-slide-oil-faces-pressure-elevate-financial-services-market-report/",
       "summary": "现货金上周跌9.5%至3515美元附近、创3月以来最大周跌幅，后回升至3600美元；布伦特89.95美元、WTI约84美元；12月9日美联储加息几乎板上钉钉；市场关注11月29日OPEC+会议对2027年产量政策的决定。"
-    },
-    {
-      "published_at": "2026-11-24",
-      "source": "FXCM",
-      "title": "Gold / FX / Oil / AI - Thanksgiving Week Outlook (23 Nov - 29 Nov 2026)",
-      "url": "https://www.fxcm-markets.com/insights/%f0%9f%93%8a-gold-fx-oil-ai-thanksgiving-week-outlook-23-nov-29-nov-2026/",
-      "summary": "感恩节当周展望：金价单周跌约9.4%至3514美元，为八个月最大周跌幅；布伦特约92.57美元、WTI约83.98美元，连续第三周下跌；11月29日OPEC+部长级会议是油价下一个关键催化。"
-    },
-    {
-      "published_at": "2026-11-23",
-      "source": "FXStreet",
-      "summary": "美元指数守在19个月高位约104附近，市场定价12月9日加息概率93%–96%；黄金自14个月低点反弹4.45%至3671.90美元，WTI跌3.40%至80.57美元创三个月低点，供应过剩压过中东紧张局势；关注11月29日OPEC+会议。",
-      "title": "Forex, Gold & Oil outlook: USD strength ahead of core PCE",
-      "url": "https://www.fxstreet.com/analysis/forex-gold-oil-outlook-usd-strength-ahead-of-core-pce-202611231715"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "The Financial Express",
-      "summary": "美股周三全线大跌，道指跌1.54%、标普500跌2.66%、纳指跌3.73%；英伟达跌近9%、Anthropic跌约8%、甲骨文跌超8%；10月核心PCE同比3.3%超预期，美国拟对14个贸易伙伴加征新关税，AI股抛售加剧。",
-      "title": "Wall Street in turmoil: AI stocks crash, inflation bites and Trump tariffs spook investors",
-      "url": "https://www.financialexpress.com/market/global-markets/wall-street-in-turmoil-ai-stocks-crash-inflation-bites-and-trump-tariffs-spook-investors/4393869/"
-    },
-    {
-      "published_at": "2026-11-25",
-      "source": "Global Banking and Finance",
-      "summary": "全球股市周三走低，MSCI全球指数跌0.5%，亚太芯片股跌超3%；美国拟对16个贸易伙伴加征关税、美元走强，投资者等待PCE数据以判断美联储12月是否加息。",
-      "title": "World Stocks Decline as US Tariffs Loom and AI Rally Fades",
-      "url": "https://www.globalbankingandfinance.com/stocks-retreat-ai-rebound-stumbles-tariff-threats-loom/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-26 09:25"
+    "updated_at": "2026-11-26 11:25"
   }
 }
