@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "Seoul Economic Daily",
+      "title": "U.S. Growth Hits 4.3% as Jobs Hold Firm, Raising December Rate-Hike Odds",
+      "url": "https://en.sedaily.com/economy/2026/11/26/us-growth-hits-43-percent-as-jobs-hold-firm-raising",
+      "summary": "美国三季度GDP年化增速上修至4.3%、三年最快，10月PCE同比3.8%为五个月高点、核心PCE 3.3%超预期，初请失业金降至18.9万；市场几乎完全定价美联储12月加息25个基点，德银预计12月、1月、3月连续三次加息。"
+    },
+    {
+      "published_at": "2026-11-25",
+      "source": "Morningstar",
+      "title": "Dow Jones Top Markets Headlines at 11 PM ET: Wall Street Can't Seem to Find Its Footing in the Chaos of the New AI Trade | BOJ's Tamura Urges Timely Rate Hikes",
+      "url": "https://www.morningstar.com/news/dow-jones/202611258902/dow-jones-top-markets-headlines-at-11-pm-et-wall-street-cant-seem-to-find-its-footing-in-the-chaos-of-the-new-ai-trade-bojs",
+      "summary": "美股周三盘中纳指一度暴跌4.5%后收窄跌幅，AI交易动荡未平；日本央行审议委员田村直树呼吁及时加息、强化12月加息预期；美联储褐皮书称成本与价格继续上涨；三季度GDP上修至4.3%、初请失业金降至18.9万。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "FXStreet",
       "title": "The commodities feed: Oil extends rally as Copper rebounds",
       "url": "https://www.fxstreet.com/analysis/the-commodities-feed-oil-extends-rally-as-copper-rebounds-202611261108",
@@ -125,24 +139,10 @@
       "title": "News by CNBC TV18 on TradingView, 2026-11-26",
       "url": "https://www.tradingview.com/news/cnbctv:27e31014d094b:0/",
       "summary": "亚股周四高开，MSCI亚太指数涨0.4%，KOSPI涨1.88%、日经涨1.85%、台股涨3.05%、恒生涨1.22%；12月9日美联储加息概率升至99%，美股感恩节休市。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Moneycontrol",
-      "title": "Commodity Corner: Crude oil holds gains for second day on Middle East tensions; gold slips on rate hike concerns",
-      "url": "https://www.moneycontrol.com/news/business/commodities/commodity-corner-crude-oil-holds-gains-for-second-day-on-middle-east-tensions-gold-slips-on-rate-hike-concerns-14089192.html/amp",
-      "summary": "布伦特守在95美元附近、两日累计涨近6%，WTI约84美元，中东紧张局势支撑油价；金价在3560美元附近小幅回落，此前一度跌破3500美元后收涨0.9%。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Peter Lewis Money Talk (Substack)",
-      "title": "PETER'S ASIAN BUSINESS & FINANCE BRIEFING – Thursday 26 November 2026, 06:00 Hong Kong",
-      "url": "https://peterlewismoneytalk.substack.com/p/peters-asian-business-and-finance-d91",
-      "summary": "亚洲市场周四开盘前瞻：恒指预计高开0.9%、日经高开0.4%；美股周三盘中一度深跌后收窄，纳指收跌0.6%（盘中一度跌4.6%），感恩节假期美股休市、下个完整交易日为11月30日；韩国KOSPI周三暴跌6.2%，软银在东京跌15%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-26 21:25"
+    "updated_at": "2026-11-26 23:25"
   }
 }
