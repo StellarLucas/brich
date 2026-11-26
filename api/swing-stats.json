@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-11-25T09:05:10+00:00",
+  "generated_at": "2026-11-26T09:02:40+00:00",
   "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
   "indexes": {
     "q50": {
-      "data_date": "2026-11-25",
-      "computed_at": "2026-11-25T09:04:53+00:00",
+      "data_date": "2026-11-26",
+      "computed_at": "2026-11-26T09:02:23+00:00",
       "stats": {
         "up_gain": {
-          "n": 207,
-          "mean": 0.6341,
-          "median": 0.4873,
-          "q1": 0.2894,
-          "q3": 0.8028
+          "n": 208,
+          "mean": 0.6322,
+          "median": 0.4848,
+          "q1": 0.2892,
+          "q3": 0.8008
         },
         "down_loss": {
           "n": 218,
@@ -21,10 +21,10 @@
           "q3": 0.3608
         },
         "up_duration_weeks": {
-          "n": 207,
-          "mean": 26.4628,
+          "n": 208,
+          "mean": 26.3938,
           "median": 13.1,
-          "q1": 6.75,
+          "q1": 6.825,
           "q3": 38.6
         },
         "down_duration_weeks": {
@@ -35,43 +35,43 @@
           "q3": 28.0
         },
         "drawdown_at_swing_start": {
-          "n": 206,
+          "n": 207,
           "mean": 0.3214,
-          "median": 0.3196,
-          "q1": 0.2394,
-          "q3": 0.3985
+          "median": 0.3191,
+          "q1": 0.2396,
+          "q3": 0.3983
         },
         "four_week_drop_at_swing_start": {
-          "n": 195,
-          "mean": -0.1297,
-          "median": -0.1176,
-          "q1": -0.1797,
-          "q3": -0.0681
+          "n": 196,
+          "mean": -0.1296,
+          "median": -0.1173,
+          "q1": -0.1795,
+          "q3": -0.0683
         },
         "adverse_move_after_entry": {
-          "n": 207,
+          "n": 208,
           "mean": -0.0001,
           "median": 0.0,
           "q1": 0.0,
           "q3": 0.0
         },
         "entry_to_high_gain": {
-          "n": 207,
-          "mean": 0.524,
-          "median": 0.383,
-          "q1": 0.2075,
-          "q3": 0.673
+          "n": 208,
+          "mean": 0.5222,
+          "median": 0.3775,
+          "q1": 0.2071,
+          "q3": 0.6713
         },
         "entry_to_high_duration_weeks": {
-          "n": 207,
-          "mean": 25.5783,
+          "n": 208,
+          "mean": 25.5117,
           "median": 12.5714,
-          "q1": 6.1429,
-          "q3": 37.5714
+          "q1": 6.2143,
+          "q3": 37.2143
         },
         "mae_after_entry": {
-          "n": 207,
-          "mean": -0.0218,
+          "n": 208,
+          "mean": -0.0219,
           "median": -0.0145,
           "q1": -0.0387,
           "q3": 0.0
@@ -84,15 +84,15 @@
           "q3": 47.25
         },
         "n_stocks": 50,
-        "n_completed_swings": 425,
-        "n_up": 207,
+        "n_completed_swings": 426,
+        "n_up": 208,
         "n_down": 218
       },
       "rules": {
         "derived_from": {
           "n_stocks": 50,
-          "n_completed_swings": 425,
-          "n_up": 207,
+          "n_completed_swings": 426,
+          "n_up": 208,
           "n_down": 218
         },
         "stop_loss_pct": 0.08,
@@ -105,15 +105,15 @@
       }
     },
     "h100": {
-      "data_date": "2026-11-25",
-      "computed_at": "2026-11-25T09:04:55+00:00",
+      "data_date": "2026-11-26",
+      "computed_at": "2026-11-26T09:02:24+00:00",
       "stats": {
         "up_gain": {
-          "n": 958,
-          "mean": 0.7682,
-          "median": 0.4874,
-          "q1": 0.3017,
-          "q3": 0.827
+          "n": 960,
+          "mean": 0.7672,
+          "median": 0.4871,
+          "q1": 0.3013,
+          "q3": 0.8246
         },
         "down_loss": {
           "n": 921,
@@ -123,11 +123,11 @@
           "q3": 0.4064
         },
         "up_duration_weeks": {
-          "n": 958,
-          "mean": 11.5422,
+          "n": 960,
+          "mean": 11.5421,
           "median": 7.6,
           "q1": 4.1,
-          "q3": 15.25
+          "q3": 15.3
         },
         "down_duration_weeks": {
           "n": 921,
@@ -137,42 +137,42 @@
           "q3": 15.3
         },
         "drawdown_at_swing_start": {
-          "n": 939,
-          "mean": 0.3754,
+          "n": 941,
+          "mean": 0.3755,
           "median": 0.3591,
-          "q1": 0.2725,
-          "q3": 0.4673
+          "q1": 0.2727,
+          "q3": 0.4676
         },
         "four_week_drop_at_swing_start": {
-          "n": 894,
+          "n": 896,
           "mean": -0.1667,
-          "median": -0.1706,
-          "q1": -0.2331,
+          "median": -0.1702,
+          "q1": -0.233,
           "q3": -0.1119
         },
         "adverse_move_after_entry": {
-          "n": 958,
+          "n": 960,
           "mean": -0.0001,
           "median": 0.0,
           "q1": 0.0,
           "q3": 0.0
         },
         "entry_to_high_gain": {
-          "n": 958,
-          "mean": 0.6373,
-          "median": 0.3801,
-          "q1": 0.205,
-          "q3": 0.7036
+          "n": 960,
+          "mean": 0.6364,
+          "median": 0.3789,
+          "q1": 0.204,
+          "q3": 0.7025
         },
         "entry_to_high_duration_weeks": {
-          "n": 958,
-          "mean": 10.9839,
+          "n": 960,
+          "mean": 10.9842,
           "median": 7.0,
           "q1": 3.7143,
-          "q3": 14.3571
+          "q3": 14.4643
         },
         "mae_after_entry": {
-          "n": 958,
+          "n": 960,
           "mean": -0.0202,
           "median": -0.0108,
           "q1": -0.034,
@@ -186,15 +186,15 @@
           "q3": 22.675
         },
         "n_stocks": 100,
-        "n_completed_swings": 1879,
-        "n_up": 958,
+        "n_completed_swings": 1881,
+        "n_up": 960,
         "n_down": 921
       },
       "rules": {
         "derived_from": {
           "n_stocks": 100,
-          "n_completed_swings": 1879,
-          "n_up": 958,
+          "n_completed_swings": 1881,
+          "n_up": 960,
           "n_down": 921
         },
         "stop_loss_pct": 0.08,
@@ -207,8 +207,8 @@
       }
     },
     "etf": {
-      "data_date": "2026-11-25",
-      "computed_at": "2026-11-25T09:04:55+00:00",
+      "data_date": "2026-11-26",
+      "computed_at": "2026-11-26T09:02:24+00:00",
       "stats": {
         "up_gain": {
           "n": 35,
