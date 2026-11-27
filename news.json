@@ -2,6 +2,48 @@
   "items": [
     {
       "published_at": "2026-11-26",
+      "source": "Barron's",
+      "summary": "美股期货上涨，道指周三上演近年最大逆转之一（盘中跌超1100点后收涨167点），欧亚股市跟涨，标普500期货涨0.8%、纳指100期货涨0.7%，为黑色星期五缩短交易时段预热。",
+      "title": "Stock Futures Rise as Dow's Rebound Goes Global. It Bodes Well for Black Friday Trading.",
+      "url": "https://www.barrons.com/articles/stock-market-today-futures-76292212"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Morningstar",
+      "summary": "感恩节后美股期货指向黑色星期五上涨，标普500期货涨0.7%；亚欧股市普涨，韩国Kospi稳住、日经涨0.9%、恒生涨1.2%，欧洲DAX涨1.9%、富时100涨1.5%。",
+      "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
+      "url": "https://www.morningstar.com/news/marketwatch/20261126108/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-us-resilience"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "TheStreet",
+      "summary": "10月PCE与三季度GDP上修至4.3%后，美联储12月加息25个基点几成定局，摩根大通、美银、德银预计2027年1月、3月还将继续加息。",
+      "title": "Fed Rate Hikes Loom as Inflation Threatens Holiday Budgets",
+      "url": "https://www.thestreet.com/fed/fed-rate-hike-bets-deliver-fresh-blow-to-your-holiday-budget"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Investor's Business Daily",
+      "summary": "10月核心PCE同比升至3.3%、高于预期的3.2%，为2023年11月以来最高；CME定价12月加息概率98%，AI股抛售叠加通胀担忧令市场波动加剧。",
+      "title": "PCE Inflation Overshoots As Fed Fears Worsen AI-Stock Volatility",
+      "url": "https://www.investors.com/news/pce-inflation-oct-federal-reserve-sp-500-ai-nvidia-liquidity-crunch/"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Finimize",
+      "summary": "中东战事升级推高油价与金价，WTI涨至84.72美元、布伦特96.17美元，COMEX黄金触及3570.60美元；OPEC+将于11月29日开会讨论2027年产量政策。",
+      "title": "Oil And Gold Rose As Middle East Fighting Intensified",
+      "url": "https://finimize.com/content/oil-and-gold-rose-as-middle-east-fighting-intensified"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "Seeking Alpha",
+      "summary": "油价连续第三个交易日上涨，布伦特站上95美元、WTI突破85美元；铜价在创11个月新低后反弹逾3%，金价仍接近15个月低点。",
+      "title": "Commodities: Oil Extends Rally As Copper Rebounds",
+      "url": "https://seekingalpha.com/article/4972196-commodities-oil-extends-rally-copper-rebounds?source=feed_all_articles"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "Reuters",
       "title": "ECB already had large support for rate hike in Oct, accounts show",
       "url": "https://www.reuters.com/markets/europe/ecb-already-had-large-support-rate-hike-oct-accounts-show-2026-11-26/",
@@ -97,52 +139,10 @@
       "title": "Oil rises on supply concerns as Iran claims mine strikes on ships",
       "url": "https://www.reuters.com/business/energy/oil-rises-supply-concerns-iran-claims-mine-strikes-ships-2026-11-26/",
       "summary": "周四亚洲早盘油价延续涨势，胡塞武装袭击沙特最大炼厂、两艘油轮在霍尔木兹海峡触雷引发供应担忧；布伦特94.71美元、WTI 84.03美元；OPEC+将于11月29日开会决定2027年产量政策。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Morningstar",
-      "title": "European Midday Briefing: Shares Rise as AI Trade Steadies for Thanksgiving Break",
-      "url": "https://www.morningstar.com/news/dow-jones/202611261981/european-midday-briefing-shares-rise-as-ai-trade-steadies-for-thanksgiving-break",
-      "summary": "欧洲股市周四大幅上涨，银行、科技、国防股领涨，AI交易企稳；美股因感恩节休市，欧洲央行10月会议纪要将公布，市场定价12月加息概率91%。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "The Financial Express",
-      "title": "Nasdaq tumbles, Nvidia slides as Trump opens new tariff battle with 14 trading partners",
-      "url": "https://www.financialexpress.com/market/global-markets/nasdaq-tumbles-nvidia-slides-as-trump-opens-new-tariff-battle-with-14-trading-partners/4394087/",
-      "summary": "特朗普政府拟依据301条款对14个贸易伙伴加征新关税，纳指盘中一度跌3.9%、纳指100短暂触及熊市区间，英伟达收跌3.91%且标普将其AA评级列入负面观察；道指收涨0.33%，收复盘中逾1100点跌幅。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Barron's",
-      "title": "Chips and iPhones Are Safe From New Tariffs. Here's What Isn't.",
-      "url": "https://www.barrons.com/articles/apple-micron-tariffs-tech-stocks-trump-58a58e8d",
-      "summary": "新一轮关税豁免芯片、服务器、智能手机及多数半导体设备，英伟达、AMD、苹果等科技公司不受影响；税率欧盟15%、越南最高35%，1月5日结束公众评议、1月25日听证，3月11日前公布最终决定。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "title": "Most Gulf markets muted on Saudi energy strikes, maritime dangers",
-      "url": "https://www.reuters.com/world/middle-east/most-gulf-markets-muted-saudi-energy-strikes-maritime-dangers-2026-11-26/",
-      "summary": "海湾股市周四早盘走弱，胡塞袭击沙特拉斯坦努拉炼厂及航运风险施压市场；沙特TASI基本持平、沙特阿美涨0.7%，阿布扎比跌0.1%、卡塔尔跌0.2%，迪拜涨0.5%。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "title": "Rupee to dip on oil rise, AI trade finding tentative footing",
-      "url": "https://www.reuters.com/world/india/rupee-dip-oil-rise-ai-trade-finding-tentative-footing-2026-11-26/",
-      "summary": "印度卢比因油价上涨承压，预计开盘92.32–92.36；亚股反弹、AI交易暂稳，韩台领涨、多数亚币走强，显示市场对新一轮美国关税的反应相对克制。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "FXStreet",
-      "title": "Global Markets re-pricing Fed rate expectations amid PCE inflation concerns",
-      "url": "https://www.fxstreet.com/analysis/global-markets-re-pricing-fed-rate-expectations-amid-pce-inflation-concerns-202611260710",
-      "summary": "10月PCE同比3.8%、核心PCE同比3.3%超预期，CME定价12月9日美联储加息25个基点概率98.1%；美股感恩节休市，纳指与标普期货小幅波动；美国拟对中国等17个经济体加征最高15%关税。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 07:25"
+    "updated_at": "2026-11-27 09:25"
   }
 }
