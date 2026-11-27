@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-27",
+      "source": "FXStreet",
+      "title": "Euro weakens to near 1.0950 on Fed hike outlook, de Cos poised to lead ECB",
+      "url": "https://www.fxstreet.com/news/euro-weakens-to-near-10950-on-fed-hike-outlook-de-cos-poised-to-lead-ecb-202611270119",
+      "summary": "欧元兑美元跌至1.0960附近、为2025年4月以来低位，强劲美国经济数据与高通胀强化美联储12月加息预期，支撑美元；德科斯将接任欧洲央行行长，市场预计政策连续性较强。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "MUFG Research",
+      "title": "Middle East Daily: Oil set for weekly gain on rising geopolitical threats",
+      "url": "https://www.mufgresearch.com/macro/middle-east-daily-27-november-2026/",
+      "summary": "布伦特突破96.50美元、WTI逼近86美元，油价有望录得四周来首个周涨幅；现货金约3636美元；土耳其央行暂停一周回购操作、实质收紧政策，外汇储备降至2021年以来最低。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "FXStreet",
+      "title": "Euro ticks higher as ECB minutes reveal appetite for further tightening",
+      "url": "https://www.fxstreet.com/news/euro-ticks-higher-as-ecb-minutes-reveal-appetite-for-further-tightening-202611261440",
+      "summary": "欧洲央行10月会议纪要显示委员倾向进一步收紧，除非通胀前景明显改善；市场预期12月加息25个基点，德科斯将接替拉加德出任欧洲央行行长。"
+    },
+    {
+      "published_at": "2026-11-27",
       "source": "Reuters",
       "title": "Shares find footing after bruising month, dollar set for third monthly gain",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/",
@@ -118,31 +139,10 @@
       "summary": "欧洲股市周四涨逾1%，银行与科技股领涨，STOXX 600涨1.4%；新一轮美国关税对欧盟影响或限于15%，投资者对关税与加息担忧缓解。",
       "title": "European stocks rally as tech and banks rebound, tariff fears ease",
       "url": "https://www.reuters.com/business/finance/european-stocks-rally-tech-banks-rebound-tariff-fears-ease-2026-11-26/"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "summary": "欧元区成员国一致推荐西班牙的德科斯接任欧洲央行行长，2027年2月接替拉加德；市场反应平淡，普遍预计政策连续性较强。",
-      "title": "Euro countries pick Spain's De Cos as ECB chief, Costa says",
-      "url": "https://www.reuters.com/world/europe/euro-countries-pick-spains-de-cos-ecb-chief-costa-says-2026-11-26/"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "TheStreet",
-      "summary": "金价周三一度跌破3500美元、创15个月新低后回升至3573美元附近，11月仍跌约12%；布伦特守在94美元附近，比特币回升至6万美元上方；美股感恩节休市。",
-      "title": "Before the bell: gold, oil, and Bitcoin skip the Thanksgiving break",
-      "url": "https://www.thestreet.com/crypto/markets/before-the-bell-gold-oil-and-bitcoin-skip-the-thanksgiving-break-"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Yonhap Infomax",
-      "summary": "美股11月25日AI抛售与抄底拉锯，标普跌0.25%、纳指跌0.62%、道指涨0.33%，费城半导体指数收窄跌幅至-0.65%；美债收益率回落、美元走弱。",
-      "title": "[New York Market Watch] Tug-of-War Between AI Selloff and Bargain Hunting - Stocks Mixed, Bonds Rise, Dollar Falls",
-      "url": "https://en.infomaxai.com/news/articleView.html?idxno=150305"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 15:25"
+    "updated_at": "2026-11-27 17:25"
   }
 }
