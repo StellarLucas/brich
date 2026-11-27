@@ -3,6 +3,34 @@
     {
       "published_at": "2026-11-27",
       "source": "Wall Street Journal",
+      "title": "Stock Futures Jump as AI Trade Set for Rebound",
+      "url": "https://www.wsj.com/finance/stocks/stock-futures-jump-as-ai-trade-set-for-rebound-98318fc0",
+      "summary": "美股感恩节后缩短交易时段开盘前期货大涨，纳指期货涨2.7%、标普500期货涨1.8%，英伟达盘前涨约4.5%；白银涨超10%、金价涨近4%至3680美元附近，布伦特守在97.50美元附近，10年期美债收益率升破4.90%。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "Reuters",
+      "title": "Is this a dead turkey bounce?",
+      "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-11-27/",
+      "summary": "亚洲股市在感恩节假期企稳反弹，纳指期货涨2.4%、标普500期货涨1.6%，日经周涨3.8%、韩国Kospi涨3.9%；市场争论这轮反弹是企稳回升还是假期清淡下的超跌反弹。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "ING Think",
+      "title": "The Commodities Feed: Copper and gold rebound while oil extends gains",
+      "url": "https://think.ing.com/articles/the-commodities-feed-copper-and-gold-rebound-while-oil-extends-gains/",
+      "summary": "布伦特连续第四个交易日上涨、站上97美元，有望录得本月首个周涨幅；铜价反弹至12600美元/吨上方，金价从15个月低点回升、重新站上3600美元。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "Emirates NBD Research",
+      "title": "Daily Outlook - 27 November 2026",
+      "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-27-november-2026",
+      "summary": "布伦特涨2.1%至96.57美元、三日累计涨约8%，沙特贾赞炼油厂遇袭扰动供应；金价跌0.6%至3566.75美元、接近15个月低点；周末OPEC+会议为主要政策看点。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "Wall Street Journal",
       "title": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist",
       "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550",
       "summary": "布伦特涨0.6%至97.15美元、WTI涨2.7%至85.96美元，均有望录得本月首个周涨幅；沙特贾赞炼油厂遇袭致一人死亡、部分停产；OPEC+将于11月29日开会讨论2027年产量政策。"
@@ -111,38 +139,10 @@
       "summary": "感恩节后美股期货指向黑色星期五上涨，标普500期货涨0.7%；亚欧股市普涨，韩国Kospi稳住、日经涨0.9%、恒生涨1.2%，欧洲DAX涨1.9%、富时100涨1.5%。",
       "title": "Futures point to Black Friday gains for Wall Street as global markets welcome U.S. resilience.",
       "url": "https://www.morningstar.com/news/marketwatch/20261126108/futures-point-to-black-friday-gains-for-wall-street-as-global-markets-welcome-us-resilience"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "TheStreet",
-      "summary": "10月PCE与三季度GDP上修至4.3%后，美联储12月加息25个基点几成定局，摩根大通、美银、德银预计2027年1月、3月还将继续加息。",
-      "title": "Fed Rate Hikes Loom as Inflation Threatens Holiday Budgets",
-      "url": "https://www.thestreet.com/fed/fed-rate-hike-bets-deliver-fresh-blow-to-your-holiday-budget"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Investor's Business Daily",
-      "summary": "10月核心PCE同比升至3.3%、高于预期的3.2%，为2023年11月以来最高；CME定价12月加息概率98%，AI股抛售叠加通胀担忧令市场波动加剧。",
-      "title": "PCE Inflation Overshoots As Fed Fears Worsen AI-Stock Volatility",
-      "url": "https://www.investors.com/news/pce-inflation-oct-federal-reserve-sp-500-ai-nvidia-liquidity-crunch/"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Finimize",
-      "summary": "中东战事升级推高油价与金价，WTI涨至84.72美元、布伦特96.17美元，COMEX黄金触及3570.60美元；OPEC+将于11月29日开会讨论2027年产量政策。",
-      "title": "Oil And Gold Rose As Middle East Fighting Intensified",
-      "url": "https://finimize.com/content/oil-and-gold-rose-as-middle-east-fighting-intensified"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Seeking Alpha",
-      "summary": "油价连续第三个交易日上涨，布伦特站上95美元、WTI突破85美元；铜价在创11个月新低后反弹逾3%，金价仍接近15个月低点。",
-      "title": "Commodities: Oil Extends Rally As Copper Rebounds",
-      "url": "https://seekingalpha.com/article/4972196-commodities-oil-extends-rally-copper-rebounds?source=feed_all_articles"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 19:25"
+    "updated_at": "2026-11-27 21:26"
   }
 }
