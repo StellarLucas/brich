@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-11-26T09:02:40+00:00",
+  "generated_at": "2026-11-27T09:03:03+00:00",
   "disclaimer": "本结果是按既定规则自动筛选的结果，不是投资建议。",
   "indexes": {
     "q50": {
-      "data_date": "2026-11-26",
-      "computed_at": "2026-11-26T09:02:23+00:00",
+      "data_date": "2026-11-27",
+      "computed_at": "2026-11-27T09:02:51+00:00",
       "stats": {
         "up_gain": {
           "n": 208,
@@ -105,8 +105,8 @@
       }
     },
     "h100": {
-      "data_date": "2026-11-26",
-      "computed_at": "2026-11-26T09:02:24+00:00",
+      "data_date": "2026-11-27",
+      "computed_at": "2026-11-27T09:02:52+00:00",
       "stats": {
         "up_gain": {
           "n": 960,
@@ -116,11 +116,11 @@
           "q3": 0.8246
         },
         "down_loss": {
-          "n": 921,
-          "mean": 0.341,
-          "median": 0.3138,
+          "n": 931,
+          "mean": 0.3411,
+          "median": 0.3132,
           "q1": 0.2548,
-          "q3": 0.4064
+          "q3": 0.4068
         },
         "up_duration_weeks": {
           "n": 960,
@@ -130,11 +130,11 @@
           "q3": 15.3
         },
         "down_duration_weeks": {
-          "n": 921,
-          "mean": 11.6863,
-          "median": 8.4,
-          "q1": 4.9,
-          "q3": 15.3
+          "n": 931,
+          "mean": 11.6089,
+          "median": 8.3,
+          "q1": 4.7,
+          "q3": 15.1
         },
         "drawdown_at_swing_start": {
           "n": 941,
@@ -186,16 +186,16 @@
           "q3": 22.675
         },
         "n_stocks": 100,
-        "n_completed_swings": 1881,
+        "n_completed_swings": 1891,
         "n_up": 960,
-        "n_down": 921
+        "n_down": 931
       },
       "rules": {
         "derived_from": {
           "n_stocks": 100,
-          "n_completed_swings": 1881,
+          "n_completed_swings": 1891,
           "n_up": 960,
-          "n_down": 921
+          "n_down": 931
         },
         "stop_loss_pct": 0.08,
         "stop_loss_note": "p90 of the adverse move after a 5%-confirmation entry + 2.5pp margin, rounded to the nearest 1%",
@@ -207,8 +207,8 @@
       }
     },
     "etf": {
-      "data_date": "2026-11-26",
-      "computed_at": "2026-11-26T09:02:24+00:00",
+      "data_date": "2026-11-27",
+      "computed_at": "2026-11-27T09:02:52+00:00",
       "stats": {
         "up_gain": {
           "n": 35,
