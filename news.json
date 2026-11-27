@@ -23,6 +23,13 @@
     },
     {
       "published_at": "2026-11-26",
+      "source": "Morningstar",
+      "title": "OPEC, Allies Face Tough Choices as Surplus Builds, Hormuz Risks Persist — Commodities Roundup",
+      "url": "https://www.morningstar.com/news/dow-jones/202611263485/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-commodities-roundup",
+      "summary": "OPEC+ 将于 11 月 29 日周日开会定 2027 年产量政策，面临全球供应过剩扩大与中东供应风险并存的两难；布伦特涨至 95.84 美元，金价反弹至 3571.80 美元，铜价小幅走低。"
+    },
+    {
+      "published_at": "2026-11-26",
       "source": "FinanceFeeds",
       "title": "Brent Crude Price $95.58: Three-Day Rally Into OPEC+ Sunday",
       "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/",
@@ -132,17 +139,10 @@
       "title": "Shares find footing after bruising month, dollar set for third monthly gain",
       "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/",
       "summary": "亚股在感恩节假期企稳收官动荡的11月，日经周涨2.7%但月跌8.4%；美元指数103.8、月涨1.8%剑指三连涨，市场几乎完全定价美联储12月加息25个基点；布伦特96.14美元、周涨3.9%。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "TradingView",
-      "title": "NQ: Nasdaq Futures Jump 1% as Wall Street Returns from Thanksgiving",
-      "url": "https://www.tradingview.com/news/tradingview:19ef9749f094b:0-nq-nasdaq-futures-jump-1-as-wall-street-returns-from-thanksgiving/",
-      "summary": "感恩节后美股期货反弹，纳指期货涨1%、标普500期货涨0.8%，美股周五缩短交易；东京核心通胀创16个月新高强化日本央行加息预期，金价反弹1.6%至3620美元附近，布伦特守在96美元附近。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-28 03:25"
+    "updated_at": "2026-11-28 07:25"
   }
 }
