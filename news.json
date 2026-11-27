@@ -2,6 +2,20 @@
   "items": [
     {
       "published_at": "2026-11-27",
+      "source": "Wall Street Journal",
+      "title": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist",
+      "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550",
+      "summary": "布伦特涨0.6%至97.15美元、WTI涨2.7%至85.96美元，均有望录得本月首个周涨幅；沙特贾赞炼油厂遇袭致一人死亡、部分停产；OPEC+将于11月29日开会讨论2027年产量政策。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "Seeking Alpha",
+      "title": "Commodities: Copper And Gold Rebound While Oil Extends Gains",
+      "url": "https://seekingalpha.com/article/4972486-commodities-copper-gold-rebound-oil-extends-gains?feed_item_type=article",
+      "summary": "铜价与金价周五反弹，金价从本周创下的15个月低点进一步回升；布伦特连续第四个交易日上涨、站上97美元；锌价走高，因欧洲一冶炼厂计划停产引发供应担忧。"
+    },
+    {
+      "published_at": "2026-11-27",
       "source": "FXStreet",
       "title": "Euro weakens to near 1.0950 on Fed hike outlook, de Cos poised to lead ECB",
       "url": "https://www.fxstreet.com/news/euro-weakens-to-near-10950-on-fed-hike-outlook-de-cos-poised-to-lead-ecb-202611270119",
@@ -125,24 +139,10 @@
       "summary": "油价连续第三个交易日上涨，布伦特站上95美元、WTI突破85美元；铜价在创11个月新低后反弹逾3%，金价仍接近15个月低点。",
       "title": "Commodities: Oil Extends Rally As Copper Rebounds",
       "url": "https://seekingalpha.com/article/4972196-commodities-oil-extends-rally-copper-rebounds?source=feed_all_articles"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "summary": "欧洲央行10月会议纪要显示，多数委员当时已支持加息，但决定暂缓以收集更多通胀证据；市场普遍预计12月17日加息25个基点已成定局。",
-      "title": "ECB already had large support for rate hike in Oct, accounts show",
-      "url": "https://www.reuters.com/markets/europe/ecb-already-had-large-support-rate-hike-oct-accounts-show-2026-11-26/"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Reuters",
-      "summary": "欧洲股市周四涨逾1%，银行与科技股领涨，STOXX 600涨1.4%；新一轮美国关税对欧盟影响或限于15%，投资者对关税与加息担忧缓解。",
-      "title": "European stocks rally as tech and banks rebound, tariff fears ease",
-      "url": "https://www.reuters.com/business/finance/european-stocks-rally-tech-banks-rebound-tariff-fears-ease-2026-11-26/"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-27 17:25"
+    "updated_at": "2026-11-27 19:25"
   }
 }
