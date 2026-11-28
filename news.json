@@ -1,6 +1,27 @@
 {
   "items": [
     {
+      "published_at": "2026-11-27",
+      "source": "Reuters",
+      "title": "US goods trade deficit widens sharply in October",
+      "url": "https://www.reuters.com/business/us-goods-trade-deficit-widens-sharply-october-2026-11-27/",
+      "summary": "美国10月商品贸易逆差扩大10.7%至1495亿美元，创19个月最大，远超预期的1330亿美元；进口增211亿美元至3653亿美元创纪录，主因AI基建拉动，贸易或再度拖累四季度GDP增长。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "The Business Times",
+      "title": "Opec+ set to keep oil production targets steady, sources say",
+      "url": "https://www.businesstimes.com.sg/companies-markets/energy-commodities/opec-set-keep-oil-production-targets-steady-sources-say",
+      "summary": "消息人士称OPEC+周日（11月29日）会议料维持2027年一季度产量目标不变；伊朗战争不确定性与产能评估分歧（伊拉克不满490万桶/日评估）令讨论复杂化；Rystad预计2027年全球石油过剩约500万桶/日。"
+    },
+    {
+      "published_at": "2026-11-27",
+      "source": "swissinfo (Bloomberg)",
+      "title": "Stocks Rise With Nasdaq Futures, Treasuries Fall: Markets Wrap",
+      "url": "https://www.swissinfo.ch/eng/stocks-rise-with-nasdaq-futures,-treasuries-fall:-markets-wrap/92446051",
+      "summary": "亚洲股市连续第二日上涨、美股期货走高，AI股反弹延续；10年期美债收益率升至4.89%，布伦特守在96美元上方、本周有望录得月内首个周涨幅；金价在3570美元附近企稳。"
+    },
+    {
       "published_at": "2026-11-28",
       "source": "Reuters",
       "title": "US STOCKS-Wall Street ends higher as battered AI stocks gain in volatile week",
@@ -118,31 +139,10 @@
       "title": "Is this a dead turkey bounce?",
       "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-11-27/",
       "summary": "亚洲股市在感恩节假期企稳反弹，纳指期货涨2.4%、标普500期货涨1.6%，日经周涨3.8%、韩国Kospi涨3.9%；市场争论这轮反弹是企稳回升还是假期清淡下的超跌反弹。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "ING Think",
-      "title": "The Commodities Feed: Copper and gold rebound while oil extends gains",
-      "url": "https://think.ing.com/articles/the-commodities-feed-copper-and-gold-rebound-while-oil-extends-gains/",
-      "summary": "布伦特连续第四个交易日上涨、站上97美元，有望录得本月首个周涨幅；铜价反弹至12600美元/吨上方，金价从15个月低点回升、重新站上3600美元。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "Emirates NBD Research",
-      "title": "Daily Outlook - 27 November 2026",
-      "url": "https://www.emiratesnbdresearch.com/en/articles/daily-outlook-27-november-2026",
-      "summary": "布伦特涨2.1%至96.57美元、三日累计涨约8%，沙特贾赞炼油厂遇袭扰动供应；金价跌0.6%至3566.75美元、接近15个月低点；周末OPEC+会议为主要政策看点。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "Wall Street Journal",
-      "title": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist",
-      "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550",
-      "summary": "布伦特涨0.6%至97.15美元、WTI涨2.7%至85.96美元，均有望录得本月首个周涨幅；沙特贾赞炼油厂遇袭致一人死亡、部分停产；OPEC+将于11月29日开会讨论2027年产量政策。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-28 13:25"
+    "updated_at": "2026-11-28 15:25"
   }
 }
