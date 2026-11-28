@@ -1,25 +1,25 @@
 {
   "items": [
     {
+      "published_at": "2026-11-28",
+      "source": "Reuters",
+      "title": "US STOCKS-Wall Street ends higher as battered AI stocks gain in volatile week",
+      "url": "https://www.devdiscourse.com/article/international/4013357-us-stocks-wall-street-ends-higher-as-battered-ai-stocks-gain-in-volatile-week?amp",
+      "summary": "美股周五收高：道指涨1.18%至50774.94点、标普500涨1.6%至7297.49点、纳指涨2.31%至24129.50点；全周标普涨5.6%、纳指涨6.68%、道指涨5.46%，为逾一年最佳单周；但11月仍是2008年以来最差11月，AI股超跌反弹、芯片股领涨。"
+    },
+    {
+      "published_at": "2026-11-28",
+      "source": "Reuters",
+      "title": "US Black Friday online sales to cross $13 billion, Adobe says",
+      "url": "https://www.reuters.com/business/retail-consumer/us-black-friday-online-sales-cross-13-billion-adobe-says-2026-11-28/",
+      "summary": "Adobe数据：黑五当天截至美东18:30线上消费97亿美元、同比增12.8%，全天预计突破130亿美元；感恩节至网一五天线上消费预计475亿美元、同比增7.4%，网一预计151亿美元仍为季内最大单日。"
+    },
+    {
       "published_at": "2026-11-27",
       "source": "Morningstar",
       "title": "Precious Metals Rally as AI Trade Revives Risk Appetite — Commodities Roundup",
       "url": "https://www.morningstar.com/news/dow-jones/202611273412/precious-metals-rally-as-ai-trade-revives-risk-appetite-commodities-roundup",
       "summary": "金价期货涨2.7%至3657.60美元、纽约期金一度涨4.1%至3681.90美元，有望周涨超4.5%；白银涨10.3%至44.17美元；布伦特跌1.2%至95.43美元，油价涨势暂歇，周日OPEC+会议成焦点。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "NHK World",
-      "title": "US imposes new tariffs on 14 economies",
-      "url": "https://www3.nhk.or.jp/nhkworld/news/20261126de81585/",
-      "summary": "美国宣布拟对14个经济体加征关税：日本最高15%、中国最高20%、欧盟最高15%，理由是所谓产能过剩；美国贸易代表办公室将于1月下旬举行听证会，生效时间未定。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "FXStreet",
-      "title": "New US tariffs capped at trade deal levels",
-      "url": "https://www.fxstreet.com/analysis/new-us-tariffs-capped-at-trade-deal-levels-202611260656",
-      "summary": "美国新关税拟按已达成贸易协议的水平封顶，多为15%~20%，且不叠加7月起征的强制劳动关税，实际加税幅度多为几个百分点；日本央行鹰派委员田村称应尽快把政策利率从1.25%推向中性水平，市场定价12月加息至1.50%的概率约75%~80%。"
     },
     {
       "published_at": "2026-11-27",
@@ -41,20 +41,6 @@
       "title": "Advisor Insights — Brought to You By The Motley Fool",
       "url": "https://www.fool.com/retirement/advisor/2026/11/27/advisor-insights-brought-to-you-by-the-motley-fool/",
       "summary": "标普500上周跌8.6%后周一反弹4.7%，道指收于50000点上方；三季度GDP上修至4.3%、核心PCE同比3.3%超预期，市场几乎完全定价美联储12月9日会议加息25个基点。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "Morningstar",
-      "title": "OPEC, Allies Face Tough Choices as Surplus Builds, Hormuz Risks Persist — Commodities Roundup",
-      "url": "https://www.morningstar.com/news/dow-jones/202611263485/opec-allies-face-tough-choices-as-surplus-builds-hormuz-risks-persist-commodities-roundup",
-      "summary": "OPEC+ 将于 11 月 29 日周日开会定 2027 年产量政策，面临全球供应过剩扩大与中东供应风险并存的两难；布伦特涨至 95.84 美元，金价反弹至 3571.80 美元，铜价小幅走低。"
-    },
-    {
-      "published_at": "2026-11-26",
-      "source": "FinanceFeeds",
-      "title": "Brent Crude Price $95.58: Three-Day Rally Into OPEC+ Sunday",
-      "url": "https://financefeeds.com/brent-crude-oil-price-95-58-thursday-three-day-rally-before-opec-plus-sunday-bull-100-bear-91/",
-      "summary": "布伦特三连涨至95.58美元，OPEC+将于11月29日开会定2027年产量政策，市场预期维持现有目标；但2027年供应过剩预期仍在，MUFG预计布伦特明年均价88.75美元。"
     },
     {
       "published_at": "2026-11-27",
@@ -139,10 +125,24 @@
       "title": "Commodities: Copper And Gold Rebound While Oil Extends Gains",
       "url": "https://seekingalpha.com/article/4972486-commodities-copper-gold-rebound-oil-extends-gains?feed_item_type=article",
       "summary": "铜价与金价周五反弹，金价从本周创下的15个月低点进一步回升；布伦特连续第四个交易日上涨、站上97美元；锌价走高，因欧洲一冶炼厂计划停产引发供应担忧。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "NHK World",
+      "title": "US imposes new tariffs on 14 economies",
+      "url": "https://www3.nhk.or.jp/nhkworld/news/20261126de81585/",
+      "summary": "美国宣布拟对14个经济体加征关税：日本最高15%、中国最高20%、欧盟最高15%，理由是所谓产能过剩；美国贸易代表办公室将于1月下旬举行听证会，生效时间未定。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "FXStreet",
+      "title": "New US tariffs capped at trade deal levels",
+      "url": "https://www.fxstreet.com/analysis/new-us-tariffs-capped-at-trade-deal-levels-202611260656",
+      "summary": "美国新关税拟按已达成贸易协议的水平封顶，多为15%~20%，且不叠加7月起征的强制劳动关税，实际加税幅度多为几个百分点；日本央行鹰派委员田村称应尽快把政策利率从1.25%推向中性水平，市场定价12月加息至1.50%的概率约75%~80%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-28 09:25"
+    "updated_at": "2026-11-28 11:25"
   }
 }
