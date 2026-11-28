@@ -2,6 +2,13 @@
   "items": [
     {
       "published_at": "2026-11-27",
+      "source": "CNN",
+      "title": "Middle East attacks send oil prices rising again",
+      "url": "https://www.cnn.com/2026/11/27/business/oil-prices-rising-intl?cid=external-feeds_iluminar_meta",
+      "summary": "中东能源设施与航运接连遇袭推高油价：布伦特周五约96美元、本周涨约3.5%，有望录得本月首个周涨幅；胡塞武装两天内先后袭击沙特最大炼油厂拉斯坦努拉和西南部贾赞炼油厂（致1名尼泊尔工人死亡、部分停产），伊朗在霍尔木兹海峡布雷袭击油轮，该海峡原油流量已降至战前55%。"
+    },
+    {
+      "published_at": "2026-11-27",
       "source": "Reuters",
       "title": "US goods trade deficit widens sharply in October",
       "url": "https://www.reuters.com/business/us-goods-trade-deficit-widens-sharply-october-2026-11-27/",
@@ -132,17 +139,10 @@
       "title": "Stock Futures Jump as AI Trade Set for Rebound",
       "url": "https://www.wsj.com/finance/stocks/stock-futures-jump-as-ai-trade-set-for-rebound-98318fc0",
       "summary": "美股感恩节后缩短交易时段开盘前期货大涨，纳指期货涨2.7%、标普500期货涨1.8%，英伟达盘前涨约4.5%；白银涨超10%、金价涨近4%至3680美元附近，布伦特守在97.50美元附近，10年期美债收益率升破4.90%。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "Reuters",
-      "title": "Is this a dead turkey bounce?",
-      "url": "https://www.reuters.com/markets/europe/global-markets-view-europe-2026-11-27/",
-      "summary": "亚洲股市在感恩节假期企稳反弹，纳指期货涨2.4%、标普500期货涨1.6%，日经周涨3.8%、韩国Kospi涨3.9%；市场争论这轮反弹是企稳回升还是假期清淡下的超跌反弹。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-28 15:25"
+    "updated_at": "2026-11-28 17:25"
   }
 }
