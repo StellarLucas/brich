@@ -2,6 +2,27 @@
   "items": [
     {
       "published_at": "2026-11-27",
+      "source": "Morningstar",
+      "title": "Precious Metals Rally as AI Trade Revives Risk Appetite — Commodities Roundup",
+      "url": "https://www.morningstar.com/news/dow-jones/202611273412/precious-metals-rally-as-ai-trade-revives-risk-appetite-commodities-roundup",
+      "summary": "金价期货涨2.7%至3657.60美元、纽约期金一度涨4.1%至3681.90美元，有望周涨超4.5%；白银涨10.3%至44.17美元；布伦特跌1.2%至95.43美元，油价涨势暂歇，周日OPEC+会议成焦点。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "NHK World",
+      "title": "US imposes new tariffs on 14 economies",
+      "url": "https://www3.nhk.or.jp/nhkworld/news/20261126de81585/",
+      "summary": "美国宣布拟对14个经济体加征关税：日本最高15%、中国最高20%、欧盟最高15%，理由是所谓产能过剩；美国贸易代表办公室将于1月下旬举行听证会，生效时间未定。"
+    },
+    {
+      "published_at": "2026-11-26",
+      "source": "FXStreet",
+      "title": "New US tariffs capped at trade deal levels",
+      "url": "https://www.fxstreet.com/analysis/new-us-tariffs-capped-at-trade-deal-levels-202611260656",
+      "summary": "美国新关税拟按已达成贸易协议的水平封顶，多为15%~20%，且不叠加7月起征的强制劳动关税，实际加税幅度多为几个百分点；日本央行鹰派委员田村称应尽快把政策利率从1.25%推向中性水平，市场定价12月加息至1.50%的概率约75%~80%。"
+    },
+    {
+      "published_at": "2026-11-27",
       "source": "Investopedia",
       "title": "Markets News, Nov. 27, 2026: Major Indexes Surge as AI Stocks Rally; Dow Posts Best Week Since 2022",
       "url": "https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-nasdaq-11272026-12283022",
@@ -118,31 +139,10 @@
       "title": "Commodities: Copper And Gold Rebound While Oil Extends Gains",
       "url": "https://seekingalpha.com/article/4972486-commodities-copper-gold-rebound-oil-extends-gains?feed_item_type=article",
       "summary": "铜价与金价周五反弹，金价从本周创下的15个月低点进一步回升；布伦特连续第四个交易日上涨、站上97美元；锌价走高，因欧洲一冶炼厂计划停产引发供应担忧。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "FXStreet",
-      "title": "Euro weakens to near 1.0950 on Fed hike outlook, de Cos poised to lead ECB",
-      "url": "https://www.fxstreet.com/news/euro-weakens-to-near-10950-on-fed-hike-outlook-de-cos-poised-to-lead-ecb-202611270119",
-      "summary": "欧元兑美元跌至1.0960附近、为2025年4月以来低位，强劲美国经济数据与高通胀强化美联储12月加息预期，支撑美元；德科斯将接任欧洲央行行长，市场预计政策连续性较强。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "MUFG Research",
-      "title": "Middle East Daily: Oil set for weekly gain on rising geopolitical threats",
-      "url": "https://www.mufgresearch.com/macro/middle-east-daily-27-november-2026/",
-      "summary": "布伦特突破96.50美元、WTI逼近86美元，油价有望录得四周来首个周涨幅；现货金约3636美元；土耳其央行暂停一周回购操作、实质收紧政策，外汇储备降至2021年以来最低。"
-    },
-    {
-      "published_at": "2026-11-27",
-      "source": "Reuters",
-      "title": "Shares find footing after bruising month, dollar set for third monthly gain",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-27/",
-      "summary": "亚股在感恩节假期企稳收官动荡的11月，日经周涨2.7%但月跌8.4%；美元指数103.8、月涨1.8%剑指三连涨，市场几乎完全定价美联储12月加息25个基点；布伦特96.14美元、周涨3.9%。"
     }
   ],
   "meta": {
     "count": 20,
-    "updated_at": "2026-11-28 07:25"
+    "updated_at": "2026-11-28 09:25"
   }
 }
